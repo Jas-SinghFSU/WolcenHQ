@@ -7,8 +7,18 @@
   height: inherit;
 }
 
-.navToggleButton {
-  float: right;
+.ant-menu-item.navCollapseToggler:hover {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.ant-menu-item.navCollapseToggler:title {
+  display: none;
+}
+
+.ant-menu.antdMenu.ant-menu-dark.ant-menu-root {
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: rgb(73, 73, 73);
 }
 
 .ant-menu-item.navCollapseToggler.ant-menu-item-selected {
@@ -18,7 +28,7 @@
 .ant-menu-item.navCollapseToggler {
   border-bottom: solid;
   border-bottom-width: 1px;
-  border-bottom-color: rgba(255, 255, 255, 0.144);
+  border-bottom-color: rgb(73, 73, 73);
 }
 
 .ant-menu-item .anticon,
@@ -28,4 +38,13 @@
 
 .sideNavMenuLabel {
   font-size: 16px;
+}
+
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub {
+  background: #313131;
+}
+
+.ant-menu-dark .ant-menu-item.antdMenuItem:hover {
+  background-color: rgb(126, 93, 23);
 }

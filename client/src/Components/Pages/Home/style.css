@@ -1,0 +1,20 @@
+.homePageContainer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.295);
+}
+
+.homePageLayout {
+  background-color: rgba(0, 0, 0, 0.295);
+  background-repeat: space;
+  height: 100%;
+}
+
+.searchBuilds {
+  margin-top: 5%;
+}
+
+.searchBuildContainer {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}

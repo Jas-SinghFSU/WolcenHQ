@@ -29,27 +29,23 @@ const SideNavigation = () => {
         selectable={false}
       >
         <Menu.Item
-          className="antdMenuItem"
-          key="0"
           className="navCollapseToggler"
+          key="1"
           onClick={toggleNavCollapsed}
+          title={"Expand"}
         >
           <Icon type={navCollapsed ? "double-right" : "double-left"} />
-          {!navCollapsed ? (
-            <span className="sideNavMenuLabel"> Hide </span>
-          ) : (
-            <span> Show Menu </span>
-          )}
+          <span className="sideNavMenuLabel"> WolcenHQ </span>
         </Menu.Item>
-        <Menu.Item className="antdMenuItem" key="1">
+        <Menu.Item className="antdMenuItem" key="2">
           <Icon type="home" />
           <span className="sideNavMenuLabel">Home</span>
         </Menu.Item>
-        <Menu.Item className="antdMenuItem" key="2">
+        <Menu.Item className="antdMenuItem" key="3">
           <Icon type="container" />
           <span className="sideNavMenuLabel">Builds</span>
         </Menu.Item>
-        <Menu.Item className="antdMenuItem" key="3">
+        <Menu.Item className="antdMenuItem" key="4">
           <Icon type="user" />
           <span className="sideNavMenuLabel">Characters</span>
         </Menu.Item>
