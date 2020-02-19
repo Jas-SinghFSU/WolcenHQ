@@ -1,0 +1,31 @@
+.sideNavContainer {
+  height: 100vh;
+  transition: background 0.3s, width 0.2s;
+}
+
+.antdMenu {
+  height: inherit;
+}
+
+.navToggleButton {
+  float: right;
+}
+
+.ant-menu-item.navCollapseToggler.ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+.ant-menu-item.navCollapseToggler {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.144);
+}
+
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+  font-size: 18px;
+}
+
+.sideNavMenuLabel {
+  font-size: 16px;
+}
