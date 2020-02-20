@@ -18,7 +18,7 @@
 .ant-menu.antdMenu.ant-menu-dark.ant-menu-root {
   border-right: solid;
   border-right-width: 1px;
-  border-right-color: rgb(73, 73, 73);
+  border-right-color: rgba(146, 121, 83, 0.349);
 }
 
 .ant-menu-item.navCollapseToggler.ant-menu-item-selected {
@@ -28,7 +28,7 @@
 .ant-menu-item.navCollapseToggler {
   border-bottom: solid;
   border-bottom-width: 1px;
-  border-bottom-color: rgb(73, 73, 73);
+  border-bottom-color: rgba(146, 121, 83, 0.349);
 }
 
 .ant-menu-item .anticon,
@@ -46,5 +46,5 @@
 }
 
 .ant-menu-dark .ant-menu-item.antdMenuItem:hover {
-  background-color: rgb(126, 93, 23);
+  background-color: #2e5083;
 }

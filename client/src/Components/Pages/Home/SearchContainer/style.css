@@ -1,0 +1,21 @@
+.searchBuildContainer {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  display: inline-grid;
+  flex-direction: column;
+}
+
+.ant-btn.ant-input-search-button.ant-btn-primary.ant-btn-lg {
+  background-color: #2e5083;
+  border-color: #2e5083;
+}
+
+.ant-btn.ant-input-search-button.ant-btn-primary.ant-btn-lg:hover {
+  background-color: #5a6e8d;
+  border-color: #888249;
+}
+
+.searchBuildLabel {
+  margin-bottom: 20px;
+}

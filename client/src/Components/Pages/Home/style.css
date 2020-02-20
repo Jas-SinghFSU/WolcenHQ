@@ -11,10 +11,5 @@
 
 .searchBuilds {
   margin-top: 5%;
-}
-
-.searchBuildContainer {
-  text-align: center;
-  color: white;
-  font-size: 25px;
+  max-height: 200px;
 }

@@ -1,0 +1,31 @@
+.ant-table-thead > tr:first-child > th:last-child {
+  border-top-right-radius: 0px;
+}
+.ant-table-thead > tr:first-child > th:first-child {
+  border-top-left-radius: 0px;
+}
+
+.ant-table-thead tr th {
+  background-color: rgba(189, 170, 62, 0.671) !important;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.ant-table-thead tr th:hover {
+  background-color: #44628f !important;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.ant-table-tbody {
+  background-color: #464646;
+  color: white;
+  border-color: black;
+}
+
+.ant-table-tbody
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td {
+  background: #e6f7ff;
+  color: black;
+}
