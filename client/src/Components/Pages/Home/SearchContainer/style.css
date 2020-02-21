@@ -7,13 +7,13 @@
 }
 
 .ant-btn.ant-input-search-button.ant-btn-primary.ant-btn-lg {
-  background-color: #2e5083;
-  border-color: #2e5083;
+  background-color: #21928f;
+  border-color: #21928f;
 }
 
 .ant-btn.ant-input-search-button.ant-btn-primary.ant-btn-lg:hover {
-  background-color: #5a6e8d;
-  border-color: #888249;
+  background-color: #79dad0;
+  border-color: #79dad0;
 }
 
 .searchBuildLabel {

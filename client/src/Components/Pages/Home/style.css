@@ -1,10 +1,10 @@
 .homePageContainer {
   color: white;
-  background-color: rgba(0, 0, 0, 0.295);
+  background-color: #201f1f;
 }
 
 .homePageLayout {
-  background-color: rgba(0, 0, 0, 0.295);
+  background-color: #201f1f;
   background-repeat: space;
   height: 100%;
 }

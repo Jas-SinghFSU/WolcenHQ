@@ -8,7 +8,7 @@ const { Search } = Input;
 const SearchContainer = () => {
   return (
     <div className="searchBuildContainer">
-      <span className="searchBuildLabel">Search for a build</span>
+      <span className="searchBuildLabel">Welcome to WolcenHQ</span>
       <Search
         placeholder="Build name..."
         enterButton="Search"

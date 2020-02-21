@@ -1,0 +1,13 @@
+.buildsListBody {
+  background-color: rgba(245, 245, 245, 0.062);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: solid 1px;
+  border-color: rgba(146, 121, 83, 0.349);
+}
+
+.buildsListBody:hover {
+  background-color: rgba(245, 245, 245, 0.164);
+}

@@ -1,0 +1,4454 @@
+{
+  "Name": "asdf",
+  "PlayerId": "offlineplayer",
+  "CharacterId": "asdf",
+  "DifficultyMode": 1,
+  "League": 1,
+  "UpdatedAt": "20-02-21T00:44:08Z",
+  "CharacterCustomization": {
+    "Sex": 0,
+    "Face": 1,
+    "SkinColor": 101,
+    "Haircut": 2,
+    "HairColor": 51,
+    "Beard": 4,
+    "BeardColor": 51,
+    "LeftEye": 3,
+    "RightEye": 3,
+    "Archetype": 2
+  },
+  "Stats": {
+    "Strength": 90,
+    "Agility": 980,
+    "Constitution": 90,
+    "Power": 90,
+    "Level": 90,
+    "PassiveSkillPoints": 0,
+    "CurrentXP": "3210860",
+    "RemainingStatsPoints": 0,
+    "Gold": "1465275787",
+    "PrimordialAffinity": "1105",
+    "IsAutoDashAvailable": 1,
+    "DashStatusActivation": 0
+  },
+  "UnlockedSkills": [
+    {
+      "SkillName": "player_aetherblade",
+      "Level": 20,
+      "CurrentXp": "2885",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_aetherblast",
+      "Level": 26,
+      "CurrentXp": "2175",
+      "Variants": "1000000110000000"
+    },
+    {
+      "SkillName": "player_arrowsrain",
+      "Level": 9,
+      "CurrentXp": "419",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_bladeslinger",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_bomb",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_brutalstrike",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_bulleye",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_chainlightning",
+      "Level": 49,
+      "CurrentXp": "86759",
+      "Variants": "0000000011000100"
+    },
+    {
+      "SkillName": "player_charge",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_corpseexplosion",
+      "Level": 48,
+      "CurrentXp": "15336",
+      "Variants": "1000101010110000"
+    },
+    {
+      "SkillName": "player_deathmark",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_dualstrike",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_fireball",
+      "Level": 13,
+      "CurrentXp": "681",
+      "Variants": "0001000000000000"
+    },
+    {
+      "SkillName": "player_frostnova",
+      "Level": 27,
+      "CurrentXp": "1822",
+      "Variants": "0001000100000000"
+    },
+    {
+      "SkillName": "player_frostcomet",
+      "Level": 20,
+      "CurrentXp": "0",
+      "Variants": "0011000000000000"
+    },
+    {
+      "SkillName": "player_frostlance",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_hammer",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_holydive",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_hook",
+      "Level": 11,
+      "CurrentXp": "831",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_ironguard",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_laceration",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_laser",
+      "Level": 31,
+      "CurrentXp": "11763",
+      "Variants": "0000011010000000"
+    },
+    {
+      "SkillName": "player_leap",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_possession",
+      "Level": 20,
+      "CurrentXp": "86",
+      "Variants": "0000100000000000"
+    },
+    {
+      "SkillName": "player_reave",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_ringofpain",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_sacredground",
+      "Level": 33,
+      "CurrentXp": "7031",
+      "Variants": "0001000110000000"
+    },
+    {
+      "SkillName": "player_smokebomb",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_sniper",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_solarfall",
+      "Level": 22,
+      "CurrentXp": "1753",
+      "Variants": "0000010000000000"
+    },
+    {
+      "SkillName": "player_spreadshot",
+      "Level": 6,
+      "CurrentXp": "209",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_summon_champion",
+      "Level": 48,
+      "CurrentXp": "94911",
+      "Variants": "1001000001010010"
+    },
+    {
+      "SkillName": "player_summon_melee",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_summon_ranged",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_teleport",
+      "Level": 49,
+      "CurrentXp": "97896",
+      "Variants": "0000101000110010"
+    },
+    {
+      "SkillName": "player_turret",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_vault",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_vortex",
+      "Level": 51,
+      "CurrentXp": "35287",
+      "Variants": "0000001001001001"
+    },
+    {
+      "SkillName": "player_warcry",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    },
+    {
+      "SkillName": "player_whirlwind",
+      "Level": 1,
+      "CurrentXp": "0",
+      "Variants": "0000000000000000"
+    }
+  ],
+  "SkillBar": [
+    {
+      "Slot": 1,
+      "SkillName": "player_corpseexplosion"
+    },
+    {
+      "Slot": 2,
+      "SkillName": "player_summon_champion"
+    },
+    {
+      "Slot": 3,
+      "SkillName": "player_vortex"
+    },
+    {
+      "Slot": 4,
+      "SkillName": "player_teleport"
+    },
+    {
+      "Slot": 12,
+      "SkillName": "player_chainlightning"
+    }
+  ],
+  "BeltConfig": [
+    {
+      "Id": 0,
+      "Locked": 0
+    },
+    {
+      "Id": 1,
+      "Locked": 0
+    }
+  ],
+  "Progression": {
+    "LastPlayed": {
+      "QuestId": "ACT3_Quest4",
+      "StepId": 8
+    },
+    "QuestProgression": [
+      {
+        "Name": "ACT1_Quest1",
+        "Step": 7
+      },
+      {
+        "Name": "ACT1_Quest2",
+        "Step": 17
+      },
+      {
+        "Name": "ACT1_Quest3",
+        "Step": 13
+      },
+      {
+        "Name": "ACT1_Quest4",
+        "Step": 13
+      },
+      {
+        "Name": "ACT1_Quest5",
+        "Step": 15
+      },
+      {
+        "Name": "ACT2_Quest1",
+        "Step": 4
+      },
+      {
+        "Name": "ACT2_Quest2",
+        "Step": 8
+      },
+      {
+        "Name": "ACT2_Quest3",
+        "Step": 7
+      },
+      {
+        "Name": "ACT2_Quest4",
+        "Step": 5
+      },
+      {
+        "Name": "ACT2_Quest5",
+        "Step": 11
+      },
+      {
+        "Name": "ACT2_Quest6",
+        "Step": 9
+      },
+      {
+        "Name": "ACT3_Quest1",
+        "Step": 9
+      },
+      {
+        "Name": "ACT3_Quest2",
+        "Step": 8
+      },
+      {
+        "Name": "ACT3_Quest3",
+        "Step": 8
+      },
+      {
+        "Name": "ACT3_Quest4",
+        "Step": 8
+      },
+      {
+        "Name": "INTRO_Quest1",
+        "Step": 8
+      }
+    ]
+  },
+  "Telemetry": {
+    "Version": "2",
+    "Playtime": {
+      "Total": "1278.739095",
+      "PerLevel": "109.624409"
+    },
+    "PlaytimeOutTown": {
+      "Total": "939.051277",
+      "PerLevel": "8.256437"
+    },
+    "KillCountPerBossrank": [
+      {
+        "Type": "Normal",
+        "Total": "21079",
+        "PerLevel": "420"
+      },
+      {
+        "Type": "Champion",
+        "Total": "316",
+        "PerLevel": "4"
+      },
+      {
+        "Type": "Lord",
+        "Total": "79",
+        "PerLevel": "9"
+      },
+      {
+        "Type": "Elder",
+        "Total": "19",
+        "PerLevel": "2"
+      },
+      {
+        "Type": "DungeonBoss",
+        "Total": "14",
+        "PerLevel": "1"
+      },
+      {
+        "Type": "ActBoss",
+        "Total": "28",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "Nemesis",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "EventBoss",
+        "Total": "0",
+        "PerLevel": "0"
+      }
+    ],
+    "KillCountPerMobRankType": [
+      {
+        "Type": "Trash",
+        "Total": "20076",
+        "PerLevel": "380"
+      },
+      {
+        "Type": "Lieutenant",
+        "Total": "1294",
+        "PerLevel": "50"
+      },
+      {
+        "Type": "Elite",
+        "Total": "139",
+        "PerLevel": "6"
+      },
+      {
+        "Type": "Boss",
+        "Total": "26",
+        "PerLevel": "0"
+      }
+    ],
+    "MinLevelKilled": {
+      "Total": "1",
+      "PerLevel": "0"
+    },
+    "MaxLevelKilled": {
+      "Total": "49",
+      "PerLevel": "49"
+    },
+    "DeathCount": {
+      "Total": "14",
+      "PerLevel": "0"
+    },
+    "DeathCountPerBossrank": [
+      {
+        "Type": "Normal",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "Champion",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "Lord",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "Elder",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "DungeonBoss",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ActBoss",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "Nemesis",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "EventBoss",
+        "Total": "0",
+        "PerLevel": "0"
+      }
+    ],
+    "XpFromQuest": {
+      "Total": "7233100",
+      "PerLevel": "35000"
+    },
+    "XpFromKill": {
+      "Total": "47236715",
+      "PerLevel": "2648220"
+    },
+    "GoldDropped": {
+      "Total": "60765",
+      "PerLevel": "0"
+    },
+    "GoldGainedQuests": {
+      "Total": "205593",
+      "PerLevel": "5000"
+    },
+    "GoldGainedMerchant": {
+      "Total": "100539",
+      "PerLevel": "6085"
+    },
+    "GoldPicked": {
+      "Total": "50121",
+      "PerLevel": "0"
+    },
+    "GoldSpent": {
+      "Total": "350466",
+      "PerLevel": "235499"
+    },
+    "GoldSpentMerchant": {
+      "Total": "79616",
+      "PerLevel": "37999"
+    },
+    "GoldSpentJewelerUnsocketItem": {
+      "Total": "1500",
+      "PerLevel": "0"
+    },
+    "PrimordialAffinitySpent": {
+      "Total": "9795",
+      "PerLevel": "4250"
+    },
+    "PrimordialAffinitySpentSkillLevelUp": {
+      "Total": "2596",
+      "PerLevel": "0"
+    },
+    "PrimordialAffinityGained": {
+      "Total": "10900",
+      "PerLevel": "650"
+    },
+    "ItemsDropped": [
+      {
+        "Type": "normal",
+        "Total": "2304",
+        "PerLevel": "4"
+      },
+      {
+        "Type": "magic",
+        "Total": "996",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "rare",
+        "Total": "825",
+        "PerLevel": "28"
+      },
+      {
+        "Type": "legendary",
+        "Total": "11",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "set",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "unique",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "quest",
+        "Total": "0",
+        "PerLevel": "0"
+      }
+    ],
+    "ItemsPicked": [
+      {
+        "Type": "normal",
+        "Total": "303",
+        "PerLevel": "4"
+      },
+      {
+        "Type": "magic",
+        "Total": "65",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "rare",
+        "Total": "353",
+        "PerLevel": "8"
+      },
+      {
+        "Type": "legendary",
+        "Total": "11",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "set",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "unique",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "quest",
+        "Total": "0",
+        "PerLevel": "0"
+      }
+    ],
+    "ItemsBought": [
+      {
+        "Type": "normal",
+        "Total": "31",
+        "PerLevel": "18"
+      },
+      {
+        "Type": "magic",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "rare",
+        "Total": "3",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "legendary",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "set",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "unique",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "quest",
+        "Total": "0",
+        "PerLevel": "0"
+      }
+    ],
+    "ItemsSold": [
+      {
+        "Type": "normal",
+        "Total": "156",
+        "PerLevel": "26"
+      },
+      {
+        "Type": "magic",
+        "Total": "62",
+        "PerLevel": "2"
+      },
+      {
+        "Type": "rare",
+        "Total": "370",
+        "PerLevel": "11"
+      },
+      {
+        "Type": "legendary",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "set",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "unique",
+        "Total": "0",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "quest",
+        "Total": "0",
+        "PerLevel": "0"
+      }
+    ],
+    "TimeSpentPerZone": [
+      {
+        "Type": "ACT3_Monolith2",
+        "Total": "8.045466",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_VaultOfTruthOverlook",
+        "Total": "0.900179",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Stormfall",
+        "Total": "100.592553",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_Transition",
+        "Total": "1.017168",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_7",
+        "Total": "0.499427",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Palace",
+        "Total": "10.848125",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_3",
+        "Total": "0.654664",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_AnankisGate",
+        "Total": "5.920713",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Highlands",
+        "Total": "7.298078",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_SvriirCave",
+        "Total": "2.835533",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Warlord_Lair",
+        "Total": "25.822149",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_3",
+        "Total": "28.584276",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Farmstead",
+        "Total": "19.299289",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_SirkisArena",
+        "Total": "6.379932",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "GameplayArea_Intro2",
+        "Total": "1.911933",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Rampart2",
+        "Total": "8.693305",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Templar_Camp_Exterior",
+        "Total": "6.747999",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Flesh_City_Inner",
+        "Total": "0.508002",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "GameplayArea_Intro3",
+        "Total": "2.460611",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_VOS1",
+        "Total": "30.207925",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_2",
+        "Total": "65.325631",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Flesh_Forest1",
+        "Total": "15.009100",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_MonolithGate",
+        "Total": "4.191477",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_2",
+        "Total": "0.230660",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_6",
+        "Total": "0.636590",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_InnerSanctum",
+        "Total": "15.362771",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_NecropolisPart2",
+        "Total": "16.070794",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_DawnGateHall",
+        "Total": "1.808465",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Anankis_Halls_1",
+        "Total": "12.437388",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Tavern",
+        "Total": "2.745687",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_AnankisCoreOverlook2",
+        "Total": "19.354352",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_RampartGatePlatform",
+        "Total": "1.992270",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_HeimlockArena",
+        "Total": "30.356300",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "Stormfall",
+        "Total": "185.103456",
+        "PerLevel": "101.367972"
+      },
+      {
+        "Type": "ACT3_Tower_4",
+        "Total": "2.424226",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_RepublicanTrenchWarfare",
+        "Total": "21.554249",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_BattlefieldOverlook",
+        "Total": "0.667063",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Nowhere",
+        "Total": "10.786550",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Templar_Camp",
+        "Total": "27.256316",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Rampart1",
+        "Total": "10.332567",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_1_floor_0",
+        "Total": "67.928269",
+        "PerLevel": "8.256437"
+      },
+      {
+        "Type": "GameplayArea_Intro1",
+        "Total": "0.874178",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_ElevatorPlatform",
+        "Total": "3.648737",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Svriir_Tribute_Storage",
+        "Total": "0.575611",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_4",
+        "Total": "22.386548",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_0",
+        "Total": "133.225375",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Flesh_City",
+        "Total": "0.896004",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Lambach_P1_Arena",
+        "Total": "14.336716",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_1",
+        "Total": "51.990012",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Stormfall",
+        "Total": "53.991812",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_AnankisCore",
+        "Total": "35.005658",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Flesh_Forest2",
+        "Total": "14.640698",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_BanditOutpost",
+        "Total": "19.057101",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "GameplayArea_Intro0",
+        "Total": "3.967733",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_VOS2",
+        "Total": "34.303973",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_TemplarCamp",
+        "Total": "2.174606",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_IC_Waypoint_Area",
+        "Total": "3.864076",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "random_dungeon_area_spot_1_floor_1",
+        "Total": "33.836133",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_PS_Overlook",
+        "Total": "4.293914",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_AnankisCoreOverlook",
+        "Total": "8.675312",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT2_Lambach_P2_Arena",
+        "Total": "16.094397",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_1",
+        "Total": "0.180513",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_Republic_Camp",
+        "Total": "3.404467",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_InnerSanctum",
+        "Total": "10.646398",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT1_NecropolisPart1",
+        "Total": "7.510463",
+        "PerLevel": "0.000000"
+      },
+      {
+        "Type": "ACT3_Tower_5",
+        "Total": "0.564198",
+        "PerLevel": "0.000000"
+      }
+    ],
+    "SoloReviveTokenUsedPerZone": [
+      {
+        "Type": "ACT2_Warlord_Lair",
+        "Total": "2",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_3",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT3_Rampart2",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_VOS1",
+        "Total": "3",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_2",
+        "Total": "4",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_InnerSanctum",
+        "Total": "2",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT3_HeimlockArena",
+        "Total": "6",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_1_floor_0",
+        "Total": "7",
+        "PerLevel": "1"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_4",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_0",
+        "Total": "17",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_Lambach_P1_Arena",
+        "Total": "2",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_1",
+        "Total": "2",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT1_AnankisCore",
+        "Total": "11",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_Flesh_Forest2",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_VOS2",
+        "Total": "6",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_Lambach_P2_Arena",
+        "Total": "4",
+        "PerLevel": "0"
+      }
+    ],
+    "SoloDeathPerZone": [
+      {
+        "Type": "ACT2_Warlord_Lair",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_3",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_2",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_InnerSanctum",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT3_HeimlockArena",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "random_dungeon_area_spot_0_floor_0",
+        "Total": "3",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_Lambach_P1_Arena",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT1_AnankisCore",
+        "Total": "3",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_VOS2",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "ACT2_Lambach_P2_Arena",
+        "Total": "1",
+        "PerLevel": "0"
+      }
+    ],
+    "MultiRevivePerZone": [],
+    "SkillUsage": [
+      {
+        "Type": "default_melee",
+        "Total": "146",
+        "PerLevel": "1"
+      },
+      {
+        "Type": "default_homingprojectile",
+        "Total": "9296",
+        "PerLevel": "143"
+      },
+      {
+        "Type": "player_autodash",
+        "Total": "1",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_fireball",
+        "Total": "548",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_frostlance",
+        "Total": "17",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_frostcomet",
+        "Total": "66",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_frostnova",
+        "Total": "187",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_laser",
+        "Total": "1888",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_sacredground",
+        "Total": "118",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_chainlightning",
+        "Total": "6587",
+        "PerLevel": "182"
+      },
+      {
+        "Type": "player_CorpseExplosion",
+        "Total": "679",
+        "PerLevel": "12"
+      },
+      {
+        "Type": "player_Possession",
+        "Total": "192",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_AetherBlade",
+        "Total": "251",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_AetherBlast",
+        "Total": "66",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_Solarfall",
+        "Total": "76",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "player_bulleye",
+        "Total": "45",
+        "PerLevel": "3"
+      },
+      {
+        "Type": "player_teleport",
+        "Total": "676",
+        "PerLevel": "13"
+      },
+      {
+        "Type": "player_vortex",
+        "Total": "1930",
+        "PerLevel": "64"
+      },
+      {
+        "Type": "player_summon",
+        "Total": "256",
+        "PerLevel": "5"
+      },
+      {
+        "Type": "player_use_potion",
+        "Total": "279",
+        "PerLevel": "17"
+      },
+      {
+        "Type": "apo_tank_shieldbash",
+        "Total": "3",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "apo_tank_moveattack",
+        "Total": "9",
+        "PerLevel": "0"
+      },
+      {
+        "Type": "apo_mage_defaultattack",
+        "Total": "182",
+        "PerLevel": "17"
+      },
+      {
+        "Type": "apo_mage_projectile",
+        "Total": "50",
+        "PerLevel": "2"
+      },
+      {
+        "Type": "apo_mage_laser",
+        "Total": "36",
+        "PerLevel": "3"
+      }
+    ],
+    "QuestAttempt_NPC1": {
+      "Total": "1",
+      "PerLevel": "0"
+    },
+    "QuestAttempt_NPC2": {
+      "Total": "7",
+      "PerLevel": "1"
+    },
+    "QuestSuccess_NPC1": {
+      "Total": "2",
+      "PerLevel": "0"
+    },
+    "QuestSuccess_NPC2": {
+      "Total": "7",
+      "PerLevel": "1"
+    },
+    "QuestFailed_NPC1": {
+      "Total": "0",
+      "PerLevel": "0"
+    },
+    "QuestFailed_NPC2": {
+      "Total": "0",
+      "PerLevel": "0"
+    },
+    "QuestMaxFloorReached_NPC2": {
+      "Total": "3",
+      "PerLevel": "0"
+    },
+    "UnlockChestCount": {
+      "Total": "0",
+      "PerLevel": "0"
+    },
+    "ResetPSTCount": {
+      "Total": "2",
+      "PerLevel": "1"
+    },
+    "ResetCharacterAttributesCount": {
+      "Total": "5",
+      "PerLevel": "5"
+    }
+  },
+  "Versions": {
+    "SaveVersion": "1.0.0.0",
+    "StatsVersion": "1.0.0.0",
+    "ItemsVersion": "1.0.0.0",
+    "InventoryVersion": "1.0.0.0",
+    "ASTVersion": "1.0.0.0",
+    "ASTVariantsVersion": "1.0.0.0",
+    "PSTVersion": "1.0.0.0",
+    "StorylineVersion": "1.0.0.0"
+  },
+  "CharacterCosmeticInventory": {
+    "CosmeticColors": {
+      "ArmL": {
+        "ColorSlots": [
+          {
+            "slot": "0",
+            "name": "red-80-4"
+          },
+          {
+            "slot": "1",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "4",
+            "name": "pink-60-5"
+          },
+          {
+            "slot": "5",
+            "name": "blue-60-3"
+          }
+        ]
+      },
+      "ArmR": {
+        "ColorSlots": [
+          {
+            "slot": "0",
+            "name": "red-80-4"
+          },
+          {
+            "slot": "1",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "3",
+            "name": "pink-60-5"
+          }
+        ]
+      },
+      "Boots": {
+        "ColorSlots": [
+          {
+            "slot": "1",
+            "name": "red-80-4"
+          },
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "3",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "5",
+            "name": "pink-60-5"
+          },
+          {
+            "slot": "6",
+            "name": "blue-60-3"
+          },
+          {
+            "slot": "7",
+            "name": "blue-60-3"
+          }
+        ]
+      },
+      "Chest": {
+        "ColorSlots": [
+          {
+            "slot": "0",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "1",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "3",
+            "name": "red-80-4"
+          },
+          {
+            "slot": "4",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "5",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "6",
+            "name": "pink-60-5"
+          }
+        ]
+      },
+      "Helmet": {
+        "ColorSlots": [
+          {
+            "slot": "0",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "1",
+            "name": "red-80-4"
+          },
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "4",
+            "name": "blue-60-3"
+          }
+        ]
+      },
+      "Pant": {
+        "ColorSlots": [
+          {
+            "slot": "0",
+            "name": "blue-60-3"
+          },
+          {
+            "slot": "1",
+            "name": "blue-60-3"
+          },
+          {
+            "slot": "2",
+            "name": "pink-60-5"
+          },
+          {
+            "slot": "3",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "4",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "5",
+            "name": "red-80-4"
+          }
+        ]
+      },
+      "ShoulderL": {
+        "ColorSlots": [
+          {
+            "slot": "1",
+            "name": "pink-60-5"
+          },
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "3",
+            "name": "red-80-4"
+          }
+        ]
+      },
+      "ShoulderR": {
+        "ColorSlots": [
+          {
+            "slot": "2",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "3",
+            "name": "red-80-4"
+          },
+          {
+            "slot": "4",
+            "name": "yellow-80-3"
+          },
+          {
+            "slot": "5",
+            "name": "blue-60-3"
+          },
+          {
+            "slot": "7",
+            "name": "pink-60-5"
+          }
+        ]
+      }
+    },
+    "CosmeticSkinT": {
+      "Equip": {
+        "ArmL": {
+          "SkinName": "p_a1_ma_t5_Arm"
+        },
+        "ArmR": {
+          "SkinName": "p_a1_ma_t5_Arm"
+        },
+        "Boots": {
+          "SkinName": "p_a1_ma_t9_Boots"
+        },
+        "Chest": {
+          "SkinName": "p_a1_ma_t10_Chest"
+        },
+        "Helmet": {
+          "SkinName": "p_a1_ma_t3_Helmet"
+        },
+        "Pant": {
+          "SkinName": "p_a1_ma_t10_Pant"
+        },
+        "ShoulderL": {
+          "SkinName": "p_a1_ma_t9_Shoulder"
+        },
+        "ShoulderR": {
+          "SkinName": "p_a1_ma_t9_Shoulder"
+        }
+      }
+    },
+    "CosmeticWeaponT": {
+      "WeaponSkinTransfers": {
+        "WeaponLeft": {
+          "Ids": {}
+        },
+        "WeaponRight": {
+          "Ids": {
+            "Staff": "2H_Staff_Tier11"
+          }
+        }
+      }
+    }
+  },
+  "InventoryEquipped": [
+    {
+      "BodyPart": 1,
+      "Rarity": 4,
+      "Quality": 4,
+      "Type": 2,
+      "ItemType": "Chest Armor",
+      "Value": "31800",
+      "Level": 40,
+      "Armor": {
+        "Name": "Rogue_ChestArmor_Tier10",
+        "Armor": 293.8,
+        "Health": 442
+      },
+      "Sockets": [
+        {
+          "Effect": 7,
+          "Gem": {
+            "Name": "Umbra_Gem_Tier_04"
+          }
+        },
+        {
+          "Effect": 7,
+          "Gem": {
+            "Name": "Umbra_Gem_Tier_04"
+          }
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "movespeed",
+            "EffectName": "implicit_movespeed",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "SpeedPercentInt",
+                "value": 7
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "forceshield_regeneration_percent",
+            "EffectName": "ar_forceshield_regeneration_percent_pts_2",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DefenseRegenerationPercentFloat",
+                "value": 8.1
+              }
+            ]
+          },
+          {
+            "EffectId": "criticalchance_score",
+            "EffectName": "ar_criticalchance_score_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 48
+              }
+            ]
+          },
+          {
+            "EffectId": "skill_cooldownreduction_percent",
+            "EffectName": "ar_skill_cooldownreduction_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentFloat",
+                "value": 12.3
+              }
+            ]
+          },
+          {
+            "EffectId": "local_forceshield_percent",
+            "EffectName": "ar_local_forceshield_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalPercentFloat",
+                "value": 47.11
+              }
+            ]
+          },
+          {
+            "EffectId": "local_health_flat",
+            "EffectName": "ar_local_health_flat_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 80.83
+              }
+            ]
+          }
+        ],
+        "FromGems": [
+          {
+            "EffectId": "forceshield_pts",
+            "EffectName": "g_forceshield_pts_4",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ArmorFlatInt",
+                "value": 400
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 3,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Helmet",
+      "Value": "4305",
+      "Level": 41,
+      "Armor": {
+        "Name": "Rogue_Helmet_Tier11",
+        "Armor": 152.4,
+        "Health": 229
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "movespeed",
+            "EffectName": "implicit_movespeed",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "SpeedPercentInt",
+                "value": 5
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ar_occult_damage_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 18
+              }
+            ]
+          },
+          {
+            "EffectId": "elemental_resistance",
+            "EffectName": "ar_elemental_resistance_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 78
+              }
+            ]
+          },
+          {
+            "EffectId": "skill_cooldownreduction_percent",
+            "EffectName": "ar_skill_cooldownreduction_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentFloat",
+                "value": 18.93
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 5,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Shoulder",
+      "Value": "3720",
+      "Level": 40,
+      "Armor": {
+        "Name": "Mage_Pauldron_Tier10",
+        "Armor": 132
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "implicit_willpower_armor_10",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 14
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "damage_percent",
+            "EffectName": "ar_damage_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 9
+              }
+            ]
+          },
+          {
+            "EffectId": "rageandumbra_cost_percent",
+            "EffectName": "ar_rageandumbra_cost_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 12.76
+              }
+            ]
+          },
+          {
+            "EffectId": "agility_pts",
+            "EffectName": "ar_agility_pts_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 27
+              }
+            ]
+          },
+          {
+            "EffectId": "local_forceshield_percent",
+            "EffectName": "ar_local_forceshield_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalPercentFloat",
+                "value": 45.06
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 6,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Shoulder",
+      "Value": "4515",
+      "Level": 43,
+      "Armor": {
+        "Name": "Mage_Pauldron_Tier11",
+        "Armor": 177.6
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "implicit_willpower_armor_11",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 12
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "damage_percent",
+            "EffectName": "ar_damage_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 10
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_resistance",
+            "EffectName": "ar_occult_resistance_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 136
+              }
+            ]
+          },
+          {
+            "EffectId": "rageandumbra_cost_percent",
+            "EffectName": "ar_rageandumbra_cost_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 15.34
+              }
+            ]
+          },
+          {
+            "EffectId": "ferocity_pts",
+            "EffectName": "ar_ferocity_pts_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 28
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 9,
+      "Rarity": 4,
+      "Quality": 4,
+      "Type": 2,
+      "ItemType": "Arm Armor",
+      "Value": "34183",
+      "Level": 43,
+      "Armor": {
+        "Name": "Mage_Glove_Tier11",
+        "Armor": 137.8
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "implicit_willpower_armor_11",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 14
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ar_occult_damage_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 23
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_resistance",
+            "EffectName": "ar_occult_resistance_2",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 44
+              }
+            ]
+          },
+          {
+            "EffectId": "health_regen_pts",
+            "EffectName": "ar_health_regen_pts_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourceFlatFloat",
+                "value": 24.71
+              }
+            ]
+          },
+          {
+            "EffectId": "ferocity_pts",
+            "EffectName": "ar_ferocity_pts_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 32
+              }
+            ]
+          },
+          {
+            "EffectId": "spellcastingspeed_score",
+            "EffectName": "ar_casting_speed_flat_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 43
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_chance_score",
+            "EffectName": "ar_statusailment_inflict_chance_score_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 44
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 10,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Arm Armor",
+      "Value": "3990",
+      "Level": 38,
+      "Armor": {
+        "Name": "Mage_Glove_Tier10",
+        "Armor": 103.2
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "implicit_willpower_armor_10",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 13
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "damage_percent",
+            "EffectName": "ar_damage_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 9
+              }
+            ]
+          },
+          {
+            "EffectId": "elemental_resistance",
+            "EffectName": "ar_elemental_resistance_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 105
+              }
+            ]
+          },
+          {
+            "EffectId": "agility_pts",
+            "EffectName": "ar_agility_pts_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 25
+              }
+            ]
+          },
+          {
+            "EffectId": "spellcastingspeed_score",
+            "EffectName": "ar_casting_speed_flat_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 39
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 11,
+      "Rarity": 4,
+      "Quality": 4,
+      "Type": 2,
+      "ItemType": "Leg Armor",
+      "Value": "38157",
+      "Level": 48,
+      "Armor": {
+        "Name": "Rogue_Pants_Tier12",
+        "Armor": 250.9,
+        "Health": 376
+      },
+      "Sockets": [
+        {
+          "Effect": 4,
+          "Gem": {
+            "Name": "toughness_Gem_Tier_05"
+          }
+        },
+        {
+          "Effect": 1,
+          "Gem": {
+            "Name": "Utility_Gem_Tier_05"
+          }
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "movespeed",
+            "EffectName": "implicit_movespeed",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "SpeedPercentInt",
+                "value": 8
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ar_occult_damage_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 18
+              }
+            ]
+          },
+          {
+            "EffectId": "forceshield_regeneration_percent",
+            "EffectName": "ar_forceshield_regeneration_percent_pts_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DefenseRegenerationPercentFloat",
+                "value": 15.51
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_chance_score",
+            "EffectName": "ar_statusailment_inflict_chance_score_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 49
+              }
+            ]
+          },
+          {
+            "EffectId": "skill_cooldownreduction_percent",
+            "EffectName": "ar_skill_cooldownreduction_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentFloat",
+                "value": 14.44
+              }
+            ]
+          },
+          {
+            "EffectId": "local_health_flat",
+            "EffectName": "ar_local_health_flat_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 81.99
+              }
+            ]
+          }
+        ],
+        "FromGems": [
+          {
+            "EffectId": "forceshield_regeneration_percent",
+            "EffectName": "g_forceshield_regeneration_percent_5",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DefenseRegenerationPercentFloat",
+                "value": 500
+              }
+            ]
+          },
+          {
+            "EffectId": "blockchance_ifcanblock_flat",
+            "EffectName": "g_blockchance_ifcanblock_flat_5",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ChanceFlatFloat",
+                "value": 6.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 14,
+      "Rarity": 4,
+      "Quality": 4,
+      "Type": 2,
+      "ItemType": "Amulet",
+      "Value": "35053",
+      "Level": 41,
+      "Armor": {
+        "Name": "Omnistar_Amulet"
+      },
+      "Sockets": [
+        {
+          "Effect": 2,
+          "Gem": {
+            "Name": "Special_gem"
+          }
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "all_attribute_pts",
+            "EffectName": "implicit_all_attributes_amulet",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 13
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "rend_damage_weapon",
+            "EffectName": "ac_flat_weapon_added_rend_damage_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 9
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 13
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_resistance_score_percent",
+            "EffectName": "ac_occult_resistance_score_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 20
+              }
+            ]
+          },
+          {
+            "EffectId": "all_resistance_score_percent",
+            "EffectName": "ac_all_resistance_score_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 18
+              }
+            ]
+          },
+          {
+            "EffectId": "umbra_regen_percent",
+            "EffectName": "ac_willpower_regeneration_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 22.34
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_score_percent_occult",
+            "EffectName": "ac_statusailment_inflict_score_percent_occult_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 19
+              }
+            ]
+          }
+        ],
+        "FromGems": [
+          {
+            "EffectId": "criticalchance_score_percent",
+            "EffectName": "g_sarisel_criticalchance_score_percent",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 10
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 15,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 3,
+      "ItemType": "Staff",
+      "Value": "5760",
+      "Level": 48,
+      "Weapon": {
+        "Name": "2H_Staff_Tier12",
+        "DamageMin": 54,
+        "DamageMax": 80.4,
+        "ResourceGeneration": 120
+      },
+      "Sockets": [
+        {
+          "Effect": 0,
+          "Gem": {
+            "Name": "Lightning_Gem_Tier_05"
+          }
+        },
+        {
+          "Effect": 0,
+          "Gem": {
+            "Name": "Utility_Gem_Tier_05"
+          }
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "transfer_time_percent",
+            "EffectName": "percent_rage_to_umbra",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentInt",
+                "value": 26
+              }
+            ]
+          },
+          {
+            "EffectId": "default_attacks_chain",
+            "EffectName": "implicit_chain_staff",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "RadiusFloat",
+                "value": 10
+              },
+              {
+                "semantic": "StackCountInt",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "lightning_damage_spell",
+            "EffectName": "w_lightning_damage_spell_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 18
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 24
+              }
+            ]
+          },
+          {
+            "EffectId": "sacred_damage_spell",
+            "EffectName": "w_sacred_damage_spell_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 14
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 20
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_score_flat_elemental",
+            "EffectName": "w_statusailment_inflict_score_flat_elemental_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 130
+              }
+            ]
+          }
+        ],
+        "FromGems": [
+          {
+            "EffectId": "criticaldamage_attackskill_pts",
+            "EffectName": "g_criticaldamage_attackskill_pts_5",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 18
+              }
+            ]
+          },
+          {
+            "EffectId": "local_damage_flat_lightning",
+            "EffectName": "g_local_damage_flat_lightning_5",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 14
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 14
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 17,
+      "Rarity": 4,
+      "Quality": 4,
+      "Type": 2,
+      "ItemType": "Foot Armor",
+      "Value": "32596",
+      "Level": 41,
+      "Armor": {
+        "Name": "Mage_Boots_Tier11",
+        "Armor": 275.6
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "implicit_willpower_armor_11",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 12
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ar_occult_damage_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 22
+              }
+            ]
+          },
+          {
+            "EffectId": "elemental_resistance",
+            "EffectName": "ar_elemental_resistance_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 75
+              }
+            ]
+          },
+          {
+            "EffectId": "resourcegeneration_percent",
+            "EffectName": "ar_resourcegeneration_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 11.27
+              }
+            ]
+          },
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "ar_wisdom_pts_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 17
+              }
+            ]
+          },
+          {
+            "EffectId": "movespeed",
+            "EffectName": "ar_movespeed_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "SpeedPercentInt",
+                "value": 17
+              }
+            ]
+          },
+          {
+            "EffectId": "local_forceshield_percent",
+            "EffectName": "ar_local_forceshield_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalPercentFloat",
+                "value": 44.96
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 19,
+      "Rarity": 4,
+      "Quality": 4,
+      "Type": 2,
+      "ItemType": "Belt",
+      "Value": "28215",
+      "Level": 33,
+      "Armor": {
+        "Name": "Templar_Waistband"
+      },
+      "Sockets": [
+        {
+          "Effect": 8,
+          "Gem": {
+            "Name": "Utility_Gem_Tier_03"
+          }
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "damage_percent_spell",
+            "EffectName": "implicit_spell_damage_belt",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 19
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "umbra_damage_spell",
+            "EffectName": "ac_flat_spell_added_umbra_damage_2",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 3
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "EffectId": "shadow_damage_spell",
+            "EffectName": "ac_flat_spell_added_shadow_damage_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 6
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 10
+              }
+            ]
+          },
+          {
+            "EffectId": "elemental_damage_percent",
+            "EffectName": "ac_elemental_damage_percent_2",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 15
+              }
+            ]
+          },
+          {
+            "EffectId": "umbra_regen_percent",
+            "EffectName": "ac_willpower_regeneration_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 20.77
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_score_percent_material",
+            "EffectName": "ac_statusailment_inflict_score_percent_material_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 13
+              }
+            ]
+          }
+        ],
+        "FromGems": [
+          {
+            "EffectId": "criticalchance_score_percent",
+            "EffectName": "g_criticalchance_score_percent_3",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 21,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Ring",
+      "Value": "6731",
+      "Level": 44,
+      "Armor": {
+        "Name": "Emerald_Ring_2"
+      },
+      "Sockets": [
+        {
+          "Effect": 2
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "dodgechance_score_percent",
+            "EffectName": "implicit_dodgechance_score_percent_ring",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 19
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "frost_damage_weapon",
+            "EffectName": "ac_flat_weapon_added_frost_damage_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 10
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 15
+              }
+            ]
+          },
+          {
+            "EffectId": "lightning_damage_spell",
+            "EffectName": "ac_flat_spell_added_lightning_damage_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 8
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 13
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ac_occult_damage_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 23
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BodyPart": 22,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Ring",
+      "Value": "6119",
+      "Level": 40,
+      "Armor": {
+        "Name": "Topaz_Ring_1"
+      },
+      "Sockets": [
+        {
+          "Effect": 2,
+          "Gem": {
+            "Name": "Lightning_Gem_Tier_04"
+          }
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "forceshield_pts",
+            "EffectName": "implicit_forceshield_ring",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ArmorFlatInt",
+                "value": 46
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "lightning_damage_spell",
+            "EffectName": "ac_flat_spell_added_lightning_damage_2",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 3
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ac_occult_damage_percent_2",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 14
+              }
+            ]
+          },
+          {
+            "EffectId": "umbra_regen_percent",
+            "EffectName": "ac_willpower_regeneration_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 16.57
+              }
+            ]
+          },
+          {
+            "EffectId": "criticaldamage_pts",
+            "EffectName": "ac_global_critical_strike_damage_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 20
+              }
+            ]
+          }
+        ],
+        "FromGems": [
+          {
+            "EffectId": "life_leech_percent_lightning",
+            "EffectName": "g_life_leech_percent_lightning_4",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentFloat",
+                "value": 1.4000000000000001
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "InventoryGrid": [
+    {
+      "InventoryX": 8,
+      "InventoryY": 0,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 10,
+      "ItemType": "",
+      "Level": 45,
+      "Reagent": {
+        "Name": "Reagent_3"
+      }
+    },
+    {
+      "InventoryX": 2,
+      "InventoryY": 1,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 10,
+      "ItemType": "",
+      "Level": 45,
+      "Reagent": {
+        "Name": "Reagent_2",
+        "StackSize": 2
+      }
+    },
+    {
+      "InventoryX": 4,
+      "InventoryY": 1,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 10,
+      "ItemType": "",
+      "Level": 45,
+      "Reagent": {
+        "Name": "Reagent_1",
+        "StackSize": 5
+      }
+    },
+    {
+      "InventoryX": 0,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Chest Armor",
+      "Value": "5145",
+      "Level": 49,
+      "Armor": {
+        "Name": "Mage_ChestArmor_Tier12",
+        "Armor": 1059.6
+      },
+      "Sockets": [
+        {
+          "Effect": 1
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "shield_regeneration_from_health_globes",
+            "EffectName": "implicit_shield_regeneration_from_health_globes",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "HealingPercentFloat",
+                "value": 14.76
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_resistance",
+            "EffectName": "ar_occult_resistance_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 138
+              }
+            ]
+          },
+          {
+            "EffectId": "material_resistance",
+            "EffectName": "ar_material_resistance_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 143
+              }
+            ]
+          },
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "ar_wisdom_pts_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 23
+              }
+            ]
+          },
+          {
+            "EffectId": "refill_stamina_on_low_health",
+            "EffectName": "ar_refill_stamina_on_low_health",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "TriggerGainStaminaFloat",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 5,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Helmet",
+      "Value": "5145",
+      "Level": 49,
+      "Armor": {
+        "Name": "Warrior_Helmet_Tier12",
+        "Resistance": 30,
+        "Health": 361
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "health_regen_frequency",
+            "EffectName": "implicit_health_regen_frequency",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 7.8500000000000005
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "material_damage_percent",
+            "EffectName": "ar_material_damage_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 20
+              }
+            ]
+          },
+          {
+            "EffectId": "health_regen_frequency",
+            "EffectName": "ar_health_regen_frequency_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 14.25
+              }
+            ]
+          },
+          {
+            "EffectId": "local_allresistances_score_flat",
+            "EffectName": "ar_local_allresistances_score_flat_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 71.14
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 0,
+      "InventoryY": 0,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Chest Armor",
+      "Value": "4556",
+      "Level": 49,
+      "Armor": {
+        "Name": "Rogue_ChestArmor_Tier12",
+        "Armor": 388.3,
+        "Health": 583
+      },
+      "Sockets": [
+        {
+          "Effect": 7
+        },
+        {
+          "Effect": 4
+        },
+        {
+          "Effect": 1
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "movespeed",
+            "EffectName": "implicit_movespeed",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "SpeedPercentInt",
+                "value": 7
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "damage_percent",
+            "EffectName": "ar_damage_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 9
+              }
+            ]
+          },
+          {
+            "EffectId": "material_resistance",
+            "EffectName": "ar_material_resistance_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 104
+              }
+            ]
+          },
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "ar_wisdom_pts_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 19
+              }
+            ]
+          },
+          {
+            "EffectId": "dodgechance_on_being_hit",
+            "EffectName": "ar_dodgechance_on_being_hit",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 9
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 8,
+      "InventoryY": 4,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 47,
+      "Gem": {
+        "Name": "rend_Gem_Tier_05",
+        "StackSize": 2
+      }
+    },
+    {
+      "InventoryX": 8,
+      "InventoryY": 2,
+      "Rarity": 6,
+      "Quality": 0,
+      "Type": 3,
+      "ItemType": "Staff",
+      "Value": "17158",
+      "Level": 22,
+      "Weapon": {
+        "Name": "Unique_lightning_staff",
+        "DamageMin": 16,
+        "DamageMax": 28,
+        "ResourceGeneration": 120
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "transfer_time_percent",
+            "EffectName": "percent_rage_to_umbra",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentInt",
+                "value": 20
+              }
+            ]
+          },
+          {
+            "EffectId": "default_attacks_chain",
+            "EffectName": "implicit_chain_staff",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "RadiusFloat",
+                "value": 10
+              },
+              {
+                "semantic": "StackCountInt",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "lightning_damage_spell",
+            "EffectName": "unique_zapstick_lightning_damage_spell",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 14
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 17
+              }
+            ]
+          },
+          {
+            "EffectId": "dotdamage_percent_shock",
+            "EffectName": "unique_zapstick_dotdamage_percent_shock",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentFloat",
+                "value": 58.08
+              }
+            ]
+          },
+          {
+            "EffectId": "local_damage_flat_lightning",
+            "EffectName": "unique_zapstick_lightning_damage_weapon",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 38
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "EffectId": "elemental_stacks_to_shock",
+            "EffectName": "unique_zephyron_elemental_stacks_to_shock",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "PossibilityInt",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "EffectId": "self_shock",
+            "EffectName": "unique_zephyron_self_shock",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "PossibilityInt",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 1,
+      "InventoryY": 0,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 3,
+      "ItemType": "Dagger",
+      "Value": "5292",
+      "Level": 49,
+      "Weapon": {
+        "Name": "1H_Dagger_Tier12",
+        "DamageMin": 30.8,
+        "DamageMax": 77,
+        "ResourceGeneration": 75
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "rage_conservation_time",
+            "EffectName": "implicit_rage_conservation",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationFlatInt",
+                "value": 5
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "attackspeed_score",
+            "EffectName": "w_attackspeed_score_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 23
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_score_flat_material",
+            "EffectName": "w_statusailment_inflict_score_flat_material_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 134
+              }
+            ]
+          },
+          {
+            "EffectId": "inflicted_stasis_duration_percent",
+            "EffectName": "w_inflicted_stasis_duration_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentInt",
+                "value": 22
+              }
+            ]
+          },
+          {
+            "EffectId": "can_cast_spreadshot",
+            "EffectName": "w_can_cast_spreadshot",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CountInt",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 3,
+      "InventoryY": 0,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 3,
+      "ItemType": "Sword2H",
+      "Value": "4967",
+      "Level": 46,
+      "Weapon": {
+        "Name": "2H_Sword_Tier11",
+        "DamageMin": 49.5,
+        "DamageMax": 78.100000000000009,
+        "ResourceGeneration": 120
+      },
+      "Sockets": [
+        {
+          "Effect": 6
+        },
+        {
+          "Effect": 6
+        },
+        {
+          "Effect": 0
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "rage_conservation_time",
+            "EffectName": "implicit_rage_conservation",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationFlatInt",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "EffectId": "attackspeed_final_percent",
+            "EffectName": "attackspeed_final_percent_2H",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicFinalPercentInt",
+                "value": -25
+              }
+            ]
+          },
+          {
+            "EffectId": "local_damage_percent_all",
+            "EffectName": "local_damage_2h",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentFloat",
+                "value": 25
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "attackspeed_score",
+            "EffectName": "w_attackspeed_score_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 23
+              }
+            ]
+          },
+          {
+            "EffectId": "local_damage_flat_physical",
+            "EffectName": "slow_w_local_damage_flat_physical_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 58
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 86
+              }
+            ]
+          },
+          {
+            "EffectId": "local_damage_flat_umbra",
+            "EffectName": "slow_w_local_damage_flat_umbra_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 51
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 86
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 5,
+      "InventoryY": 0,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 48,
+      "Gem": {
+        "Name": "shadow_Gem_Tier_05"
+      }
+    },
+    {
+      "InventoryX": 1,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Leg Armor",
+      "Value": "5145",
+      "Level": 49,
+      "Armor": {
+        "Name": "Warrior_Pants_Tier12",
+        "Resistance": 36,
+        "Health": 433
+      },
+      "Sockets": [
+        {
+          "Effect": 4
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "health_regen_frequency",
+            "EffectName": "implicit_health_regen_frequency",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 8.77
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "dodgechance_score",
+            "EffectName": "ar_dodgechance_score_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 93
+              }
+            ]
+          },
+          {
+            "EffectId": "skill_cooldownreduction_percent",
+            "EffectName": "ar_skill_cooldownreduction_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentFloat",
+                "value": 11.5
+              }
+            ]
+          },
+          {
+            "EffectId": "local_allresistances_score_flat",
+            "EffectName": "ar_local_allresistances_score_flat_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 84.75
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 7,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Helmet",
+      "Value": "5145",
+      "Level": 49,
+      "Armor": {
+        "Name": "Warrior_Helmet_Tier12",
+        "Resistance": 30,
+        "Health": 361
+      },
+      "Sockets": [
+        {
+          "Effect": 7
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "health_regen_frequency",
+            "EffectName": "implicit_health_regen_frequency",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 9.6
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_resistance",
+            "EffectName": "ar_occult_resistance_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "EffectId": "transfer_time_percent",
+            "EffectName": "ar_transfer_time_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DurationPercentInt",
+                "value": 17
+              }
+            ]
+          },
+          {
+            "EffectId": "dodgechance_score",
+            "EffectName": "ar_dodgechance_score_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 63
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 9,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Helmet",
+      "Value": "5145",
+      "Level": 49,
+      "Armor": {
+        "Name": "Warrior_Helmet_Tier12",
+        "Resistance": 30,
+        "Health": 361
+      },
+      "Sockets": [
+        {
+          "Effect": 7
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "health_regen_frequency",
+            "EffectName": "implicit_health_regen_frequency",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 5.51
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "toughness_pts",
+            "EffectName": "ar_toughness_pts_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 32
+              }
+            ]
+          },
+          {
+            "EffectId": "attackspeed_score",
+            "EffectName": "ar_attack_speed_flat_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 43
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_chance_score",
+            "EffectName": "ar_statusailment_inflict_chance_score_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 46
+              }
+            ]
+          },
+          {
+            "EffectId": "local_allresistances_score_flat",
+            "EffectName": "ar_local_allresistances_score_flat_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 86.23
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 4,
+      "InventoryY": 0,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Belt",
+      "Value": "7497",
+      "Level": 49,
+      "Armor": {
+        "Name": "Templar_Waistband_2"
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "damage_percent_spell",
+            "EffectName": "implicit_spell_damage_belt",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 26
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "umbra_damage_spell",
+            "EffectName": "ac_flat_spell_added_umbra_damage_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 9
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 13
+              }
+            ]
+          },
+          {
+            "EffectId": "sacred_damage_spell",
+            "EffectName": "ac_flat_spell_added_sacred_damage_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 10
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 15
+              }
+            ]
+          },
+          {
+            "EffectId": "additional_ailment_stacks",
+            "EffectName": "ac_additional_ailment_stacks",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "StackCountInt",
+                "value": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 9,
+      "InventoryY": 0,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Shoulder",
+      "Value": "5145",
+      "Level": 49,
+      "Armor": {
+        "Name": "Warrior_Pauldron_Tier12",
+        "Resistance": 14.4,
+        "Health": 168
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "ferocity_pts",
+            "EffectName": "implicit_ferocity_armor_12",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 14
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "material_resistance",
+            "EffectName": "ar_material_resistance_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 148
+              }
+            ]
+          },
+          {
+            "EffectId": "resourcegeneration_percent",
+            "EffectName": "ar_resourcegeneration_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 11.86
+              }
+            ]
+          },
+          {
+            "EffectId": "agility_pts",
+            "EffectName": "ar_agility_pts_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 17
+              }
+            ]
+          },
+          {
+            "EffectId": "dodgechance_score",
+            "EffectName": "ar_dodgechance_score_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 90
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 4,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Helmet",
+      "Value": "4557",
+      "Level": 49,
+      "Armor": {
+        "Name": "Mage_Helmet_Tier12",
+        "Armor": 441.1
+      },
+      "Sockets": [
+        {
+          "Effect": 4
+        }
+      ],
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "shield_regeneration_from_health_globes",
+            "EffectName": "implicit_shield_regeneration_from_health_globes",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "HealingPercentFloat",
+                "value": 14.44
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "occult_damage_percent",
+            "EffectName": "ar_occult_damage_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 23
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_resistance",
+            "EffectName": "ar_occult_resistance_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 72
+              }
+            ]
+          },
+          {
+            "EffectId": "stamina_regeneration_percent",
+            "EffectName": "ar_stamina_regeneration_percent_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 12.15
+              }
+            ]
+          },
+          {
+            "EffectId": "spellcastingspeed_score",
+            "EffectName": "ar_casting_speed_flat_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 24
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 2,
+      "InventoryY": 0,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 48,
+      "Gem": {
+        "Name": "Umbra_Gem_Tier_05"
+      }
+    },
+    {
+      "InventoryX": 7,
+      "InventoryY": 0,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 48,
+      "Gem": {
+        "Name": "sacred_Gem_Tier_05"
+      }
+    },
+    {
+      "InventoryX": 3,
+      "InventoryY": 2,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 45,
+      "Gem": {
+        "Name": "physical_Gem_Tier_05",
+        "StackSize": 2
+      }
+    },
+    {
+      "InventoryX": 6,
+      "InventoryY": 0,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 49,
+      "Gem": {
+        "Name": "Poison_Gem_Tier_05"
+      }
+    },
+    {
+      "InventoryX": 8,
+      "InventoryY": 1,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 45,
+      "Gem": {
+        "Name": "Fire_Gem_Tier_05",
+        "StackSize": 2
+      }
+    },
+    {
+      "InventoryX": 5,
+      "InventoryY": 1,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 49,
+      "Gem": {
+        "Name": "Utility_Gem_Tier_05"
+      }
+    },
+    {
+      "InventoryX": 6,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Shoulder",
+      "Value": "5144",
+      "Level": 49,
+      "Armor": {
+        "Name": "Rogue_Pauldron_Tier12",
+        "Armor": 90,
+        "Health": 134
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "agility_pts",
+            "EffectName": "implicit_agility_armor_12",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 14
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "elemental_resistance",
+            "EffectName": "ar_elemental_resistance_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 103
+              }
+            ]
+          },
+          {
+            "EffectId": "rageandumbra_cost_percent",
+            "EffectName": "ar_rageandumbra_cost_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 17.51
+              }
+            ]
+          },
+          {
+            "EffectId": "resourcegeneration_percent",
+            "EffectName": "ar_resourcegeneration_percent_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourcePercentFloat",
+                "value": 13.02
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_chance_score",
+            "EffectName": "ar_statusailment_inflict_chance_score_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 36
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 2,
+      "InventoryY": 2,
+      "Rarity": 3,
+      "Quality": 2,
+      "Type": 2,
+      "ItemType": "Foot Armor",
+      "Value": "4556",
+      "Level": 49,
+      "Armor": {
+        "Name": "Heavy_Boots_Tier12",
+        "Resistance": 55
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "toughness_pts",
+            "EffectName": "implicit_toughness_armor_12",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 15
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "material_damage_percent",
+            "EffectName": "ar_material_damage_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagePercentInt",
+                "value": 20
+              }
+            ]
+          },
+          {
+            "EffectId": "willpower_pts",
+            "EffectName": "ar_wisdom_pts_5",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 32
+              }
+            ]
+          },
+          {
+            "EffectId": "attackspeed_score",
+            "EffectName": "ar_attack_speed_flat_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 39
+              }
+            ]
+          },
+          {
+            "EffectId": "local_allresistances_score_flat",
+            "EffectName": "ar_local_allresistances_score_flat_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 65.56
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 0,
+      "InventoryY": 4,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Arm Armor",
+      "Value": "5144",
+      "Level": 49,
+      "Armor": {
+        "Name": "Rogue_Glove_Tier12",
+        "Armor": 64.8,
+        "Health": 96
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "agility_pts",
+            "EffectName": "implicit_agility_armor_12",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 14
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "ferocity_pts",
+            "EffectName": "ar_ferocity_pts_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 19
+              }
+            ]
+          },
+          {
+            "EffectId": "statusailment_inflict_chance_score",
+            "EffectName": "ar_statusailment_inflict_chance_score_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScoreInt",
+                "value": 28
+              }
+            ]
+          },
+          {
+            "EffectId": "local_forceshield_flat",
+            "EffectName": "ar_local_forceshield_flat_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "LocalFlatFloat",
+                "value": 84.600000000000009
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "InventoryX": 7,
+      "InventoryY": 1,
+      "Rarity": 1,
+      "Quality": 1,
+      "Type": 6,
+      "ItemType": "Gem",
+      "Level": 50,
+      "Gem": {
+        "Name": "Lightning_Gem_Tier_05"
+      }
+    },
+    {
+      "InventoryX": 4,
+      "InventoryY": 5,
+      "Rarity": 3,
+      "Quality": 3,
+      "Type": 2,
+      "ItemType": "Amulet",
+      "Value": "7920",
+      "Level": 48,
+      "Armor": {
+        "Name": "Ruby_Amulet_2"
+      },
+      "MagicEffects": {
+        "Default": [
+          {
+            "EffectId": "ferocity_pts",
+            "EffectName": "implicit_ferocity_amulet",
+            "MaxStack": 1,
+            "bDefault": 1,
+            "Parameters": [
+              {
+                "semantic": "AttributeFlatInt",
+                "value": 20
+              }
+            ]
+          }
+        ],
+        "RolledAffixes": [
+          {
+            "EffectId": "physical_damage_weapon",
+            "EffectName": "ac_flat_weapon_added_physical_damage_3",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "DamagesFlatInt_Min",
+                "value": 4
+              },
+              {
+                "semantic": "DamagesFlatInt_Max",
+                "value": 9
+              }
+            ]
+          },
+          {
+            "EffectId": "occult_resistance_score_percent",
+            "EffectName": "ac_occult_resistance_score_percent_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 19
+              }
+            ]
+          },
+          {
+            "EffectId": "health_regen_pts",
+            "EffectName": "ac_health_regen_pts_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "ResourceFlatFloat",
+                "value": 30.66
+              }
+            ]
+          },
+          {
+            "EffectId": "criticalchance_attackskill_score_percent",
+            "EffectName": "ac_attack_critical_strike_chance_4",
+            "MaxStack": 1,
+            "Parameters": [
+              {
+                "semantic": "CharacteristicScorePercentInt",
+                "value": 14
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "InventoryBelt": [
+    {
+      "Rarity": 1,
+      "Quality": 0,
+      "Type": 4,
+      "ItemType": "Potions",
+      "ItemVersion": "0.5.0.2",
+      "Value": "1500",
+      "Level": 50,
+      "Potion": {
+        "Name": "Potion_L_Health_2",
+        "Charge": 30,
+        "ImmediateHP": 7000
+      },
+      "BeltSlot": 0
+    },
+    {
+      "Rarity": 1,
+      "Quality": 0,
+      "Type": 4,
+      "ItemType": "Potions",
+      "ItemVersion": "0.5.0.2",
+      "Value": "1499",
+      "Level": 50,
+      "Potion": {
+        "Name": "Potion_L_Umbra_2",
+        "Charge": 30,
+        "ImmediateMana": 425
+      },
+      "BeltSlot": 1
+    }
+  ],
+  "PSTConfig": [
+    {
+      "Id": 0,
+      "Mode": 1
+    },
+    {
+      "Id": 1,
+      "Mode": 5
+    },
+    {
+      "Id": 2,
+      "Mode": 2
+    }
+  ],
+  "ApocalypticData": {
+    "ChosenType": "warrior",
+    "UnlockedTypes": [
+      {
+        "Type": "mage"
+      },
+      {
+        "Type": "rogue"
+      },
+      {
+        "Type": "warrior"
+      }
+    ]
+  },
+  "Tutorials": [
+    {
+      "Trigger": "Quest_Movement"
+    },
+    {
+      "Trigger": "Quest_Dodgeroll"
+    },
+    {
+      "Trigger": "Quest_Potion"
+    },
+    {
+      "Trigger": "Quest_Skill"
+    },
+    {
+      "Trigger": "Quest_Loot"
+    },
+    {
+      "Trigger": "OnFirstInventoryOpening"
+    },
+    {
+      "Trigger": "Quest_CSheet"
+    },
+    {
+      "Trigger": "OnFirstCharacterSheetOpening"
+    },
+    {
+      "Trigger": "OnFirstPSTOpening"
+    },
+    {
+      "Trigger": "Quest_Enneract"
+    },
+    {
+      "Trigger": "Quest_TownPortal"
+    },
+    {
+      "Trigger": "Quest_Waypoint"
+    },
+    {
+      "Trigger": "OnFirstASTOpening"
+    },
+    {
+      "Trigger": "OnFirstTintUse"
+    },
+    {
+      "Trigger": "OnFirstCosmeticInventoryOpening"
+    },
+    {
+      "Trigger": "Quest_GemsJeweler"
+    },
+    {
+      "Trigger": "OnFirstJewelerOpening"
+    },
+    {
+      "Trigger": "OnFirstArchivistOpening"
+    },
+    {
+      "Trigger": "Quest_FastTravel"
+    },
+    {
+      "Trigger": "Quest_Apo"
+    },
+    {
+      "Trigger": "Quest_Craft"
+    },
+    {
+      "Trigger": "CityBuilding_WelcomeToEndgame"
+    },
+    {
+      "Trigger": "CityBuilding_WelcomeInCMUI"
+    },
+    {
+      "Trigger": "CityBuilding_OnCloseCMUI"
+    },
+    {
+      "Trigger": "CityBuilding_IntroduceNPC2"
+    },
+    {
+      "Trigger": "CityBuilding_IntroduceNPC1"
+    }
+  ],
+  "Sequences": [
+    {
+      "Name": "A2_DYN_TEMPLARSDEPARTURE"
+    },
+    {
+      "Name": "A3_DYN_HELIONASSEMBLE"
+    },
+    {
+      "Name": "ENDGAME_REGENT"
+    }
+  ],
+  "LastGameParameters": {
+    "GameMode": 2,
+    "DifficultyMode": 1,
+    "Difficulty": 2,
+    "League": 1,
+    "QuestId": "",
+    "StepId": 0,
+    "Privacy": 2,
+    "Level": 6
+  }
+}
