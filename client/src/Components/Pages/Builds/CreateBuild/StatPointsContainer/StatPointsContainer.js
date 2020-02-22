@@ -92,54 +92,119 @@ const StatPointsSection = props => {
     }
   };
 
+  // Handle stat changes via text input
   const onStatInputChange = e => {
-    console.log(e.target.value);
-    const isWithinRange = val => {
-      if (statPoints <= 890 && statPoints - val >= 0) {
-        console.log("isValid");
+    const statPointsValue = parseInt(statPoints || 0);
+    const newTargetValue = parseInt(e.target.value || 0);
+    console.log(newTargetValue);
+    const maxPoints = 890;
+
+    // Check if the new values falls within range
+    const isWithinRange = (val, currentTotal, operation) => {
+      const sumOfAllStats = parseInt(val || 0) + parseInt(currentTotal || 0);
+      console.log(`sum: ${sumOfAllStats}`);
+      if (sumOfAllStats >= 0 && sumOfAllStats <= maxPoints) {
         return true;
       }
-      console.log("isInvalid");
       return false;
     };
 
+    // Handle which stat is being changed
     switch (e.target.name) {
       case "ferocity":
+        const allButFerocity =
+          parseInt(wisdom || 0) +
+          parseInt(toughness || 0) +
+          parseInt(agility || 0);
         if (
-          statPoints > 0 &&
-          isWithinRange(e.target.value) &&
-          ferocity < e.target.value
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButFerocity) &&
+          ferocity < newTargetValue
         ) {
-          console.log(`isValid`);
           setFerocity(
-            ferocity === 0 ? e.target.value.replace(/^0+/, "") : e.target.value
+            ferocity === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
           );
-          setStatPoints(890 - e.target.value);
+          setStatPoints(890 - (newTargetValue + allButFerocity));
         } else if (
-          statPoints > 0 &&
-          isWithinRange(e.target.value) &&
-          ferocity > e.target.value
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButFerocity) &&
+          ferocity > newTargetValue
         ) {
-          setStatPoints(statPoints + (ferocity - e.target.value));
-          setFerocity(e.target.value || 0);
+          console.log(ferocity - newTargetValue);
+          setStatPoints(statPointsValue + (ferocity - newTargetValue));
+          setFerocity(newTargetValue || 0);
         }
         break;
       case "toughness":
-        if (statPoints > 0) {
-          setToughness(toughness + 1);
-          setStatPoints(statPoints - 1);
+        const allButToughness =
+          parseInt(wisdom || 0) +
+          parseInt(ferocity || 0) +
+          parseInt(agility || 0);
+        if (
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButToughness) &&
+          toughness < newTargetValue
+        ) {
+          setToughness(
+            toughness === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+          );
+          setStatPoints(890 - (newTargetValue + allButToughness));
+        } else if (
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButToughness) &&
+          toughness > newTargetValue
+        ) {
+          console.log(toughness - newTargetValue);
+          setStatPoints(statPointsValue + (toughness - newTargetValue));
+          setToughness(newTargetValue || 0);
         }
         break;
       case "agility":
-        if (statPoints > 0) {
-          setAgility(agility + 1);
-          setStatPoints(statPoints - 1);
+        const allButAgility =
+          parseInt(wisdom || 0) +
+          parseInt(toughness || 0) +
+          parseInt(ferocity || 0);
+        if (
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButAgility) &&
+          agility < newTargetValue
+        ) {
+          setAgility(
+            agility === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+          );
+          setStatPoints(890 - (newTargetValue + allButAgility));
+        } else if (
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButAgility) &&
+          agility > newTargetValue
+        ) {
+          console.log(agility - newTargetValue);
+          setStatPoints(statPointsValue + (agility - newTargetValue));
+          setAgility(newTargetValue || 0);
         }
         break;
       case "wisdom":
-        if (statPoints > 0) {
-          setWisdom(wisdom + 1);
-          setStatPoints(statPoints - 1);
+        const allButWisdom =
+          parseInt(ferocity || 0) +
+          parseInt(toughness || 0) +
+          parseInt(agility || 0);
+        if (
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButWisdom) &&
+          wisdom < newTargetValue
+        ) {
+          setWisdom(
+            wisdom === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+          );
+          setStatPoints(890 - (newTargetValue + allButWisdom));
+        } else if (
+          statPointsValue >= 0 &&
+          isWithinRange(newTargetValue, allButWisdom) &&
+          wisdom > newTargetValue
+        ) {
+          console.log(wisdom - newTargetValue);
+          setStatPoints(statPointsValue + (wisdom - newTargetValue));
+          setWisdom(newTargetValue || 0);
         }
         break;
       default:
@@ -171,17 +236,38 @@ const StatPointsSection = props => {
         </Col>
         <Col className="statCol" span={5} offset={0}>
           <span className="statTitle toughness">
-            Toughness: <span className="statCount">{toughness}</span>
+            Toughness:{" "}
+            <Input
+              className="statCount"
+              defaultValue={0}
+              value={toughness}
+              name="toughness"
+              onChange={onStatInputChange}
+            />
           </span>
         </Col>
         <Col className="statCol" span={5} offset={0}>
           <span className="statTitle agility">
-            Agility: <span className="statCount">{agility}</span>
+            Agility:{" "}
+            <Input
+              className="statCount"
+              defaultValue={0}
+              value={agility}
+              name="agility"
+              onChange={onStatInputChange}
+            />
           </span>
         </Col>
         <Col className="statCol" span={5} offset={0}>
           <span className="statTitle wisdom">
-            Wisdom: <span className="statCount">{wisdom}</span>
+            Wisdom:{" "}
+            <Input
+              className="statCount"
+              defaultValue={0}
+              value={wisdom}
+              name="wisdom"
+              onChange={onStatInputChange}
+            />
           </span>
         </Col>
       </Row>
