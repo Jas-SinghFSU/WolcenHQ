@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Row, Col, Icon } from "antd";
+import { Row, Col, Icon, Input } from "antd";
 
 import "./style.css";
 
@@ -92,6 +92,61 @@ const StatPointsSection = props => {
     }
   };
 
+  const onStatInputChange = e => {
+    console.log(e.target.value);
+    const isWithinRange = val => {
+      if (statPoints <= 890 && statPoints - val >= 0) {
+        console.log("isValid");
+        return true;
+      }
+      console.log("isInvalid");
+      return false;
+    };
+
+    switch (e.target.name) {
+      case "ferocity":
+        if (
+          statPoints > 0 &&
+          isWithinRange(e.target.value) &&
+          ferocity < e.target.value
+        ) {
+          console.log(`isValid`);
+          setFerocity(
+            ferocity === 0 ? e.target.value.replace(/^0+/, "") : e.target.value
+          );
+          setStatPoints(890 - e.target.value);
+        } else if (
+          statPoints > 0 &&
+          isWithinRange(e.target.value) &&
+          ferocity > e.target.value
+        ) {
+          setStatPoints(statPoints + (ferocity - e.target.value));
+          setFerocity(e.target.value || 0);
+        }
+        break;
+      case "toughness":
+        if (statPoints > 0) {
+          setToughness(toughness + 1);
+          setStatPoints(statPoints - 1);
+        }
+        break;
+      case "agility":
+        if (statPoints > 0) {
+          setAgility(agility + 1);
+          setStatPoints(statPoints - 1);
+        }
+        break;
+      case "wisdom":
+        if (statPoints > 0) {
+          setWisdom(wisdom + 1);
+          setStatPoints(statPoints - 1);
+        }
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
     <div>
       <Row className="statPointsSectionRow">
@@ -104,7 +159,14 @@ const StatPointsSection = props => {
       <Row className="statsRow">
         <Col className="statCol" span={5} offset={2}>
           <span className="statTitle ferocity">
-            Ferocity: <span className="statCount">{ferocity}</span>
+            Ferocity:{" "}
+            <Input
+              className="statCount"
+              defaultValue={0}
+              value={ferocity}
+              name="ferocity"
+              onChange={onStatInputChange}
+            />
           </span>
         </Col>
         <Col className="statCol" span={5} offset={0}>

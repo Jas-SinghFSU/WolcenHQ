@@ -80,3 +80,11 @@
   margin-left: 20px;
   stroke-width: 50px;
 }
+.ant-input.statCount {
+  max-width: 70px;
+  background-color: #f5deb300;
+  border-color: #0000;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 4px 0px;
+}
