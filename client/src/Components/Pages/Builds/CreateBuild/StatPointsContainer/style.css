@@ -1,7 +1,7 @@
 .createBuildTitle {
   color: rgb(255, 255, 255);
   font-size: 35px;
-  font-family: Merienda One;
+  font-family: Oswald;
 }
 
 .buildTitleCol {
@@ -23,7 +23,7 @@
 .statPointsTitle {
   color: rgb(184, 165, 103);
   font-size: 25px;
-  font-family: Merienda One;
+  font-family: Oswald;
 }
 
 .statPointsSectionRow {
@@ -34,33 +34,37 @@
 }
 .statPointsSectionTitle {
   color: rgb(192, 192, 192);
+  font-size: 26px;
+  font-weight: 500;
+  font-family: Oswald;
+}
+.statPointsCheck {
   font-size: 22px;
-  font-weight: 400;
-  font-family: Yrsa;
+  color: #54dd89;
 }
 .statsRow {
   margin-top: 40px;
 }
 .statTitle {
-  font-size: 22px;
+  font-size: 26px;
 }
 .statCount {
   color: #ffe499;
 }
 .ferocity {
-  font-weight: 700;
+  font-weight: 500;
   color: #d44d4d;
 }
 .toughness {
-  font-weight: 700;
+  font-weight: 500;
   color: #daa35b;
 }
 .agility {
-  font-weight: 700;
+  font-weight: 500;
   color: #54dd89;
 }
 .wisdom {
-  font-weight: 700;
+  font-weight: 500;
   color: #4db9d4;
 }
 .statsControllerRow {
@@ -69,15 +73,16 @@
 .statsControllerCol {
   color: white;
   font-size: 22px;
+  text-align: center;
 }
 .statsControllerButton.left {
   color: burlywood;
-  margin-left: 90px;
-  stroke-width: 50px;
+  margin-left: 0px;
 }
 .statsControllerButton.right {
   color: burlywood;
   margin-left: 20px;
+  margin-right: 70px;
   stroke-width: 50px;
 }
 .ant-input.statCount {
@@ -85,6 +90,6 @@
   background-color: #f5deb300;
   border-color: #0000;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 4px 0px;
 }

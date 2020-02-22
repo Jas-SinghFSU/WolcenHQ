@@ -1,0 +1,9 @@
+.skillsRow {
+  margin-top: 40px;
+}
+.skillTitle {
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+  color: rgb(192, 192, 192);
+  font-size: 18px;
+}

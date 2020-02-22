@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merienda+One|Yrsa&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400|Merienda+One|Open+Sans|Yrsa&display=swap");
 
 .App {
   text-align: center;
@@ -42,4 +42,5 @@
 .contentContainer {
   display: flex;
   background: #1a1a1e;
+  font-family: Oswald;
 }

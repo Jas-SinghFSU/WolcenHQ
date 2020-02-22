@@ -3,16 +3,6 @@ import { Row, Col, Icon, Input } from "antd";
 
 import "./style.css";
 
-const CreateBuildTitle = props => {
-  return (
-    <Row>
-      <Col className="buildTitleCol" span={24} offset={0}>
-        <span className="createBuildTitle">CREATE A BUILD</span>
-      </Col>
-    </Row>
-  );
-};
-
 const StatPointsSectionHeader = props => {
   return (
     <Row className="statPointsRow">
@@ -215,9 +205,12 @@ const StatPointsSection = props => {
   return (
     <div>
       <Row className="statPointsSectionRow">
-        <Col className="statPointsSectionCol" span={6} offset={9}>
+        <Col className="statPointsSectionCol" span={7} offset={8}>
           <span className="statPointsSectionTitle">
-            Points Available: {statPoints}
+            Points Available: {statPoints}{" "}
+            {statPoints === 0 && (
+              <Icon className="statPointsCheck" type="check" />
+            )}
           </span>
         </Col>
       </Row>
@@ -273,7 +266,7 @@ const StatPointsSection = props => {
       </Row>
 
       <Row className="statsControllerRow">
-        <Col className="statsControllerCol" span={5} offset={1}>
+        <Col className="statsControllerCol" span={5} offset={2}>
           <Icon
             className="statsControllerButton left"
             type="arrow-left"
@@ -329,7 +322,6 @@ const StatPointsSection = props => {
 const StatPointsContainer = () => {
   return (
     <div>
-      <CreateBuildTitle />
       <StatPointsSectionHeader />
       <StatPointsSection />
     </div>
