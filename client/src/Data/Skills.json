@@ -2,9 +2,9 @@
   "modifiersTemplate": {
     "name": "",
     "description": "",
-    "usableWith": [""],
-    "type": [""],
-    "skillTags": [""],
+    "usableWith": [],
+    "type": [],
+    "skillTags": [],
     "modifiers": [
       {
         "name": "",
@@ -78,7 +78,7 @@
       "description": "Jump through the Aether to teleport to another position.",
       "usableWith": ["staves", "catalysts"],
       "type": ["staff"],
-      "skillTags": ["Spell, Movement"],
+      "skillTags": ["Spell", "Movement"],
       "modifiers": [
         {
           "name": "Quantum Mind",
@@ -368,9 +368,9 @@
     {
       "name": "Arctic Spear",
       "description": "After a delay, hurl an ice shard in a line.",
-      "usableWith": ["staves, catalysts"],
+      "usableWith": ["staves", "catalysts"],
       "type": ["staff"],
-      "skillTags": ["Spell, Projectile"],
+      "skillTags": ["Spell", "Projectile"],
       "modifiers": [
         {
           "name": "Crystal Javelin",
@@ -443,7 +443,7 @@
       "description": "Summon a turret to provide convering fire. Can be detached and wielded by holding the skill.",
       "usableWith": ["daggers", "bows", "pistols"],
       "type": ["bow", "dagger"],
-      "skillTags": ["Attack, Projectile, Rogue, Device"],
+      "skillTags": ["Attack", "Projectile", "Rogue", "Device"],
       "modifiers": [
         {
           "name": "Turret stays active for a longer duration.",
@@ -589,7 +589,7 @@
       "description": "Throw a spinning axe in a circle around you that deals damage. Base Physical damage converts into Rend damage.",
       "usableWith": ["melee"],
       "type": ["axe"],
-      "skillTags": ["Attack, Warrior"],
+      "skillTags": ["Attack", "Warrior"],
       "modifiers": [
         {
           "name": "Stinging Blade",
@@ -799,6 +799,590 @@
         },
         {
           "name": "House of Rest",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Consuming Embers",
+      "description": "Summon a fireball and launch it in a straight line in front of you.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Projectile"],
+      "modifiers": [
+        {
+          "name": "Catching Spark",
+          "cost": 1
+        },
+        {
+          "name": "Passions Aflame",
+          "cost": 1
+        },
+        {
+          "name": "Arsonist's Daydream",
+          "cost": 1
+        },
+        {
+          "name": "Meteor Shower",
+          "cost": 2
+        },
+        {
+          "name": "Engulfing Desires",
+          "cost": 2
+        },
+        {
+          "name": "Fratricidal Reunification",
+          "cost": 3
+        },
+        {
+          "name": "Immolator",
+          "cost": 1
+        },
+        {
+          "name": "Volatile Embers",
+          "cost": 2
+        },
+        {
+          "name": "Instant Ignition",
+          "cost": 1
+        },
+        {
+          "name": "Heartpiercer",
+          "cost": 3
+        },
+        {
+          "name": "Fervor's Smoke",
+          "cost": 2
+        },
+        {
+          "name": "Exposing Flames",
+          "cost": 1
+        },
+        {
+          "name": "Seeking Flames",
+          "cost": 2
+        },
+        {
+          "name": "Object of Desire",
+          "cost": 3
+        },
+        {
+          "name": "Plasmic State",
+          "cost": 1
+        },
+        {
+          "name": "Lord of Char",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "\"Deathgazer\" Railgun",
+      "description": "Charge a sniper shot. As it is charged, its area of effect narrows and damage of the shot increases. Base Physical damage converts into Lightning damage.",
+      "usableWith": ["bows", "pistols"],
+      "type": ["bow"],
+      "skillTags": ["Attack", "Projectile", "Device"],
+      "modifiers": [
+        {
+          "name": "Aether Piercing Ammunition",
+          "cost": 1
+        },
+        {
+          "name": "Fragmented Rounds",
+          "cost": 1
+        },
+        {
+          "name": "Comfortable Distance",
+          "cost": 1
+        },
+        {
+          "name": "Reckless Gunner",
+          "cost": 2
+        },
+        {
+          "name": "Judicious Trigger",
+          "cost": 2
+        },
+        {
+          "name": "Frostbitten Salute",
+          "cost": 3
+        },
+        {
+          "name": "Slow Learner",
+          "cost": 1
+        },
+        {
+          "name": "Ranged Superiority",
+          "cost": 2
+        },
+        {
+          "name": "One Simple Shot",
+          "cost": 1
+        },
+        {
+          "name": "Protean Aim",
+          "cost": 3
+        },
+        {
+          "name": "Incendiary Rounds",
+          "cost": 2
+        },
+        {
+          "name": "Disabling Shot",
+          "cost": 1
+        },
+        {
+          "name": "A Promised Bullet",
+          "cost": 2
+        },
+        {
+          "name": "Inflexible Blast",
+          "cost": 3
+        },
+        {
+          "name": "Vital Point",
+          "cost": 1
+        },
+        {
+          "name": "Internal Detonation",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Duskshroud",
+      "description": "Drop a shadow cloud on the ground that grants invisibility and reduces Threat.",
+      "usableWith": ["daggers", "bows", "pistols"],
+      "type": ["bow", "dagger"],
+      "skillTags": ["Attack", "Rogue"],
+      "modifiers": [
+        {
+          "name": "Leaps and Shifts",
+          "cost": 1
+        },
+        {
+          "name": "Unseen Thrills",
+          "cost": 1
+        },
+        {
+          "name": "Friendly Territory",
+          "cost": 1
+        },
+        {
+          "name": "Umbral Promise",
+          "cost": 2
+        },
+        {
+          "name": "Deceitful Blast",
+          "cost": 2
+        },
+        {
+          "name": "Attendant's Cloak",
+          "cost": 3
+        },
+        {
+          "name": "Soothing Night",
+          "cost": 1
+        },
+        {
+          "name": "Final Trick",
+          "cost": 2
+        },
+        {
+          "name": "Lapse in Focus",
+          "cost": 1
+        },
+        {
+          "name": "Reign of a Phantasm",
+          "cost": 3
+        },
+        {
+          "name": "Light's Swift Retraction",
+          "cost": 2
+        },
+        {
+          "name": "Ex Nihilo",
+          "cost": 1
+        },
+        {
+          "name": "Shifting Along Walls",
+          "cost": 2
+        },
+        {
+          "name": "Shrouded Assailant",
+          "cost": 3
+        },
+        {
+          "name": "Crepuscular Attunement",
+          "cost": 1
+        },
+        {
+          "name": "Blind Strikes",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Eclipse",
+      "description": "Cast a cone of Shadow force that knocks back enemies and destroys projectiles.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell"],
+      "modifiers": [
+        {
+          "name": "Cover of Darkness",
+          "cost": 1
+        },
+        {
+          "name": "Hopeless Conviction",
+          "cost": 1
+        },
+        {
+          "name": "Dayless Coasts",
+          "cost": 1
+        },
+        {
+          "name": "Bursting of Desert Rocks",
+          "cost": 2
+        },
+        {
+          "name": "Shambling Eyeless",
+          "cost": 2
+        },
+        {
+          "name": "Trespasses Revealed",
+          "cost": 3
+        },
+        {
+          "name": "Season Tarnish",
+          "cost": 1
+        },
+        {
+          "name": "Rushing For Curfew",
+          "cost": 2
+        },
+        {
+          "name": "Far Side of the Moon",
+          "cost": 1
+        },
+        {
+          "name": "Jet Tidal Wave",
+          "cost": 3
+        },
+        {
+          "name": "Unseelie Gale",
+          "cost": 2
+        },
+        {
+          "name": "Midnight at Dawn",
+          "cost": 1
+        },
+        {
+          "name": "Shell of Nothing",
+          "cost": 2
+        },
+        {
+          "name": "Entwining Volutes",
+          "cost": 3
+        },
+        {
+          "name": "Blots of Terror",
+          "cost": 1
+        },
+        {
+          "name": "Rationality's Extinguishing",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Evasion",
+      "description": "Dash in the opposite directino of the cursor and drop a projectile where the skill was activated that slows enemies. Base Physical damage converts into Shadow damage.",
+      "usableWith": ["daggers", "bows", "pistols"],
+      "type": ["bow", "dagger"],
+      "skillTags": ["Attack", "Projectile", "Rogue", "Movement"],
+      "modifiers": [
+        {
+          "name": "Area Control",
+          "cost": 1
+        },
+        {
+          "name": "Enshrouded Distance",
+          "cost": 1
+        },
+        {
+          "name": "Frenzy of the Betrayed",
+          "cost": 1
+        },
+        {
+          "name": "Parting Gift",
+          "cost": 2
+        },
+        {
+          "name": "Silhouetted Spectre",
+          "cost": 2
+        },
+        {
+          "name": "Toxicity Ensnared",
+          "cost": 3
+        },
+        {
+          "name": "Boiling Ink",
+          "cost": 1
+        },
+        {
+          "name": "Barrage",
+          "cost": 2
+        },
+        {
+          "name": "Shadow Cast",
+          "cost": 1
+        },
+        {
+          "name": "Primis Tenebris",
+          "cost": 3
+        },
+        {
+          "name": "Mechanical Support",
+          "cost": 2
+        },
+        {
+          "name": "Unseen Autonomy",
+          "cost": 1
+        },
+        {
+          "name": "Incandescent Smoke",
+          "cost": 2
+        },
+        {
+          "name": "Swaddling Smoke",
+          "cost": 3
+        },
+        {
+          "name": "Stunning Reach",
+          "cost": 1
+        },
+        {
+          "name": "Slicing Dash",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Feeding Swarm",
+      "description": "Summon a zombie that deals damage with melee attacks. If the number of zombies is at a maximum, they charge towards the location of the cursor.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Summon"],
+      "modifiers": [
+        {
+          "name": "Wretched Elects",
+          "cost": 1
+        },
+        {
+          "name": "Approximated Vitality",
+          "cost": 1
+        },
+        {
+          "name": "Evangelists of Death",
+          "cost": 1
+        },
+        {
+          "name": "Chosen Few",
+          "cost": 2
+        },
+        {
+          "name": "Deadly March",
+          "cost": 2
+        },
+        {
+          "name": "Seared Flesh",
+          "cost": 3
+        },
+        {
+          "name": "Last Rites",
+          "cost": 3
+        },
+        {
+          "name": "Baneful Blows",
+          "cost": 3
+        },
+        {
+          "name": "Shrieking Pursuit",
+          "cost": 1
+        },
+        {
+          "name": "Cadaverine",
+          "cost": 3
+        },
+        {
+          "name": "Nimble Walkers",
+          "cost": 2
+        },
+        {
+          "name": "Decay's Bannermen",
+          "cost": 1
+        },
+        {
+          "name": "Splintering Hands",
+          "cost": 2
+        },
+        {
+          "name": "Putrescine",
+          "cost": 3
+        },
+        {
+          "name": "Holes in the Graveyard",
+          "cost": 1
+        },
+        {
+          "name": "Saturated Tissue",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Flight of Goavanir",
+      "description": "Cast a flying hammer in the direction of the cursor, damaging enemies along its path. Hammer returns when cast again.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Attack", "Projectile", "Warrior"],
+      "modifiers": [
+        {
+          "name": "Howl of Battle",
+          "cost": 1
+        },
+        {
+          "name": "Ram Hammer & Bludgeon",
+          "cost": 1
+        },
+        {
+          "name": "Thunderous Impact",
+          "cost": 1
+        },
+        {
+          "name": "Mountainous Impact",
+          "cost": 2
+        },
+        {
+          "name": "Pounding Shakes",
+          "cost": 2
+        },
+        {
+          "name": "Blazing Fury",
+          "cost": 3
+        },
+        {
+          "name": "Chronic Suffering",
+          "cost": 1
+        },
+        {
+          "name": "Stones Casting Shadows",
+          "cost": 2
+        },
+        {
+          "name": "Permanent Affliction",
+          "cost": 1
+        },
+        {
+          "name": "Tectonic",
+          "cost": 3
+        },
+        {
+          "name": "Awe Inspiring Throw",
+          "cost": 2
+        },
+        {
+          "name": "Standing Boulder",
+          "cost": 1
+        },
+        {
+          "name": "Drums and Bells",
+          "cost": 2
+        },
+        {
+          "name": "Ram's Ricochet",
+          "cost": 3
+        },
+        {
+          "name": "Narrowed Throat",
+          "cost": 1
+        },
+        {
+          "name": "Shockwave",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "usableWith": [],
+      "type": [],
+      "skillTags": [],
+      "modifiers": [
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
+          "cost": 2
+        },
+        {
+          "name": "",
+          "cost": 2
+        },
+        {
+          "name": "",
+          "cost": 3
+        },
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
+          "cost": 2
+        },
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
+          "cost": 3
+        },
+        {
+          "name": "",
+          "cost": 2
+        },
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
+          "cost": 2
+        },
+        {
+          "name": "",
+          "cost": 3
+        },
+        {
+          "name": "",
+          "cost": 1
+        },
+        {
+          "name": "",
           "cost": 2
         }
       ]
