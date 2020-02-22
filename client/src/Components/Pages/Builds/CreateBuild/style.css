@@ -1,0 +1,10 @@
+.createBuildPageLayout {
+  background-color: #1a1a1e;
+  background-repeat: space;
+  height: 100%;
+}
+
+.statsAndSkills {
+  margin-top: 5%;
+  max-height: 350px;
+}

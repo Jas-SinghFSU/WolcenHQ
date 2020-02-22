@@ -42,7 +42,7 @@ const SideNavigation = () => {
           title={"Expand"}
         >
           <Icon type={navCollapsed ? "double-right" : "double-left"} />
-          <span className="sideNavMenuLabel"> WolcenHQ </span>
+          <span className="sideNavMenuLabel"> Collapse Menu </span>
         </Menu.Item>
         <Menu.Item
           className="antdMenuItem"

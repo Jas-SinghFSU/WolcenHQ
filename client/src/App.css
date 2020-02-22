@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda+One|Yrsa&display=swap");
+
 .App {
   text-align: center;
 }
@@ -39,5 +41,5 @@
 
 .contentContainer {
   display: flex;
-  background: #262626;
+  background: #1a1a1e;
 }

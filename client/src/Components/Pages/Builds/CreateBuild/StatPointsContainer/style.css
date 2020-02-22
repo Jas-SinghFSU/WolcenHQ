@@ -1,0 +1,82 @@
+.createBuildTitle {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: Merienda One;
+}
+
+.buildTitleCol {
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(49, 49, 49);
+  text-align: left;
+}
+
+.statPointsRow {
+  text-align: left;
+}
+.statPointsCol {
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(49, 49, 49);
+  margin-top: 40px;
+}
+.statPointsTitle {
+  color: rgb(184, 165, 103);
+  font-size: 25px;
+  font-family: Merienda One;
+}
+
+.statPointsSectionRow {
+  text-align: center;
+}
+.statPointsSectionCol {
+  margin-top: 10px;
+}
+.statPointsSectionTitle {
+  color: rgb(192, 192, 192);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Yrsa;
+}
+.statsRow {
+  margin-top: 40px;
+}
+.statTitle {
+  font-size: 22px;
+}
+.statCount {
+  color: #ffe499;
+}
+.ferocity {
+  font-weight: 700;
+  color: #d44d4d;
+}
+.toughness {
+  font-weight: 700;
+  color: #daa35b;
+}
+.agility {
+  font-weight: 700;
+  color: #54dd89;
+}
+.wisdom {
+  font-weight: 700;
+  color: #4db9d4;
+}
+.statsControllerRow {
+  margin-top: 7px;
+}
+.statsControllerCol {
+  color: white;
+  font-size: 22px;
+}
+.statsControllerButton.left {
+  color: burlywood;
+  margin-left: 90px;
+  stroke-width: 50px;
+}
+.statsControllerButton.right {
+  color: burlywood;
+  margin-left: 20px;
+  stroke-width: 50px;
+}

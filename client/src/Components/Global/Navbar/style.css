@@ -15,20 +15,14 @@
   display: none;
 }
 
-.ant-menu.antdMenu.ant-menu-dark.ant-menu-root {
-  border-right: solid;
-  border-right-width: 1px;
-  border-right-color: rgba(146, 121, 83, 0.349);
-}
-
 .ant-menu-item.navCollapseToggler.ant-menu-item-selected {
   background-color: transparent !important;
 }
 
 .ant-menu-item.navCollapseToggler {
   border-bottom: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgba(146, 121, 83, 0.349);
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(141, 141, 141, 0.349);
 }
 
 .ant-menu-item .anticon,
@@ -42,9 +36,9 @@
 
 .ant-menu-dark,
 .ant-menu-dark .ant-menu-sub {
-  background: #313131;
+  background: #17171b;
 }
 
 .ant-menu-dark .ant-menu-item.antdMenuItem:hover {
-  background-color: #2f4f4f;
+  background-color: #4399a8;
 }
