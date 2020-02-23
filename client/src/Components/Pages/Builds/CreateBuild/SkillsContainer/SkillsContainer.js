@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col, Icon } from "antd";
+import { Row, Col, Icon, Modal, Button, Avatar } from "antd";
 
 import "./style.css";
 
@@ -42,10 +42,37 @@ const SkillsSelectorLabels = () => {
   );
 };
 
-const skillListModal = () => {
+const SkillListModal = props => {
+  const { modalVisible, handleCloseModal } = props;
+
+  const [skillList, setSkillsList] = useState(spellData.skills);
   return (
     <div>
-      <span></span>
+      <Modal
+        title="Choose a skill"
+        visible={modalVisible}
+        onOk={handleCloseModal}
+        onCancel={handleCloseModal}
+      >
+        <Row className="modalSkillsRow">
+          {skillList.map(skill => {
+            let imageName = skill.name.replace(/(\s)/g, "_");
+            imageName = imageName.replace(/["']/g, "");
+            console.log(imageName);
+            return (
+              <Col className="modalSkillsCol">
+                <Avatar
+                  className="spellIconAvatar"
+                  size={40}
+                  shape="square"
+                  src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
+                />
+                <span className="skillNameSpan">{skill.name}</span>
+              </Col>
+            );
+          })}
+        </Row>
+      </Modal>
     </div>
   );
 };
@@ -56,6 +83,11 @@ const SkillsSelectors = () => {
   const [slotFourSelected, setSlotFourSelected] = useState(null);
   const [slotFiveSelected, setSlotFiveSelected] = useState(null);
   const [slotSixSelected, setSlotSixSelected] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
   return (
     <div>
       <Row className="skillsSelectorRow">
@@ -64,7 +96,7 @@ const SkillsSelectors = () => {
             <Icon
               className="addSpellIcon"
               type="plus-square"
-              onClick={() => console.log("clicked")}
+              onClick={() => setShowModal(true)}
             />
           ) : (
             <span></span>
@@ -126,6 +158,10 @@ const SkillsSelectors = () => {
           )}
         </Col>
       </Row>
+      <SkillListModal
+        modalVisible={showModal}
+        handleCloseModal={handleCloseModal}
+      />
     </div>
   );
 };
