@@ -43,6 +43,68 @@ const SkillsSelectorLabels = () => {
   );
 };
 
+const SpellToolTip = props => {
+  const {
+    skillName,
+    imageName,
+    skillDescription,
+    skillType,
+    skillUsableWith,
+    skillTags,
+    direction
+  } = props;
+  return (
+    <ReactTooltip
+      className="spellTooltip"
+      id={imageName}
+      effect="float"
+      place={direction || "right"}
+    >
+      <Row className="spellTooltipRow">
+        <Col className="tooltipSpellNameCol" span={24} offset={0}>
+          <span className="tooltipSpellName">{skillName}</span>
+        </Col>
+        <Col className="tooltipSpellIconCol" span={24} offset={0}>
+          <Avatar
+            className="spellIconAvatar"
+            size={50}
+            shape="square"
+            src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
+          />
+        </Col>
+        <Col className="tooltipSpellDescriptionCol" span={24} offset={0}>
+          <span className="tooltipSpellName">{skillDescription}</span>
+        </Col>
+        <Col className="tooltipSpellAttackCol" span={24} offset={0}>
+          <span
+            className="tooltipAttackLabel"
+            style={
+              skillType.includes("staff")
+                ? { color: "rgb(166, 118, 255)" }
+                : { color: "rgb(207, 134, 51)" }
+            }
+          >
+            {skillType.includes("staff") ? "Spell: " : "Attack: "}
+          </span>
+          {skillUsableWith.includes("melee") ? (
+            <span>Only usable with melee weapons.</span>
+          ) : (
+            <span>{`Only usable with ${skillUsableWith.join(", ")}.`}</span>
+          )}
+        </Col>
+        <Col className="tooltipSpellTagsCol" span={24} offset={0}>
+          <span
+            style={{ color: "rgb(110, 156, 255)" }}
+            className="tooltipSpellTags"
+          >
+            {"Skill Tags: "}
+          </span>
+          <span>{skillTags.join(", ")}</span>
+        </Col>
+      </Row>
+    </ReactTooltip>
+  );
+};
 const SkillListModal = props => {
   const {
     modalVisible,
@@ -100,63 +162,14 @@ const SkillListModal = props => {
                     </div>
                   </Fragment>
                 </Col>
-                <ReactTooltip
-                  className="spellTooltip"
-                  id={imageName}
-                  effect="float"
-                  place="right"
-                >
-                  <Row className="spellTooltipRow">
-                    <Col className="tooltipSpellNameCol" span={24} offset={0}>
-                      <span className="tooltipSpellName">{skill.name}</span>
-                    </Col>
-                    <Col className="tooltipSpellIconCol" span={24} offset={0}>
-                      <Avatar
-                        className="spellIconAvatar"
-                        size={50}
-                        shape="square"
-                        src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
-                      />
-                    </Col>
-                    <Col
-                      className="tooltipSpellDescriptionCol"
-                      span={24}
-                      offset={0}
-                    >
-                      <span className="tooltipSpellName">
-                        {skill.description}
-                      </span>
-                    </Col>
-                    <Col className="tooltipSpellAttackCol" span={24} offset={0}>
-                      <span
-                        className="tooltipAttackLabel"
-                        style={
-                          skill.type.includes("staff")
-                            ? { color: "rgb(166, 118, 255)" }
-                            : { color: "rgb(207, 134, 51)" }
-                        }
-                      >
-                        {skill.type.includes("staff") ? "Spell: " : "Attack: "}
-                      </span>
-                      {skill.usableWith.includes("melee") ? (
-                        <span>Only usable with melee weapons.</span>
-                      ) : (
-                        <span>
-                          {`Only usable with ${skill.usableWith.join(", ")}.`}
-                        </span>
-                      )}
-                    </Col>
-                    <Col className="tooltipSpellTagsCol" span={24} offset={0}>
-                      <span
-                        style={{ color: "rgb(110, 156, 255)" }}
-                        className="tooltipSpellTags"
-                      >
-                        {"Skill Tags: "}
-                      </span>
-                      <span>{skill.skillTags.join(", ")}</span>
-                    </Col>
-                  </Row>
-                </ReactTooltip>
+                <SpellToolTip
+                  skillName={skill.name}
+                  imageName={imageName}
+                  skillDescription={skill.description}
+                  skillType={skill.type}
+                  skillUsableWith={skill.usableWith}
+                  skillTags={skill.skillTags}
+                />
               </Fragment>
             );
           })}
@@ -229,6 +242,17 @@ const SkillsSelectors = () => {
                   size={55}
                   shape="square"
                   src={require(`../../../../../Data/SpellImages/${slotOneData.imageName}.png`)}
+                  data-tip
+                  data-for={slotOneData.imageName}
+                />
+                <SpellToolTip
+                  skillName={slotOneData.skillData.name}
+                  imageName={slotOneData.imageName}
+                  skillDescription={slotOneData.skillData.description}
+                  skillType={slotOneData.skillData.type}
+                  skillUsableWith={slotOneData.skillData.usableWith}
+                  skillTags={slotOneData.skillData.skillTags}
+                  direction={"top"}
                 />
               </Col>
               <Col span={24} offset={0} className="slotSpellNameCol">
@@ -255,6 +279,17 @@ const SkillsSelectors = () => {
                   size={55}
                   shape="square"
                   src={require(`../../../../../Data/SpellImages/${slotTwoData.imageName}.png`)}
+                  data-tip
+                  data-for={slotTwoData.imageName}
+                />
+                <SpellToolTip
+                  skillName={slotTwoData.skillData.name}
+                  imageName={slotTwoData.imageName}
+                  skillDescription={slotTwoData.skillData.description}
+                  skillType={slotTwoData.skillData.type}
+                  skillUsableWith={slotTwoData.skillData.usableWith}
+                  skillTags={slotTwoData.skillData.skillTags}
+                  direction={"top"}
                 />
               </Col>
               <Col span={24} offset={0} className="slotSpellNameCol">
@@ -281,6 +316,17 @@ const SkillsSelectors = () => {
                   size={55}
                   shape="square"
                   src={require(`../../../../../Data/SpellImages/${slotThreeData.imageName}.png`)}
+                  data-tip
+                  data-for={slotThreeData.imageName}
+                />
+                <SpellToolTip
+                  skillName={slotThreeData.skillData.name}
+                  imageName={slotThreeData.imageName}
+                  skillDescription={slotThreeData.skillData.description}
+                  skillType={slotThreeData.skillData.type}
+                  skillUsableWith={slotThreeData.skillData.usableWith}
+                  skillTags={slotThreeData.skillData.skillTags}
+                  direction={"top"}
                 />
               </Col>
               <Col span={24} offset={0} className="slotSpellNameCol">
@@ -307,6 +353,17 @@ const SkillsSelectors = () => {
                   size={55}
                   shape="square"
                   src={require(`../../../../../Data/SpellImages/${slotFourData.imageName}.png`)}
+                  data-tip
+                  data-for={slotFourData.imageName}
+                />
+                <SpellToolTip
+                  skillName={slotFourData.skillData.name}
+                  imageName={slotFourData.imageName}
+                  skillDescription={slotFourData.skillData.description}
+                  skillType={slotFourData.skillData.type}
+                  skillUsableWith={slotFourData.skillData.usableWith}
+                  skillTags={slotFourData.skillData.skillTags}
+                  direction={"top"}
                 />
               </Col>
               <Col span={24} offset={0} className="slotSpellNameCol">
@@ -333,6 +390,17 @@ const SkillsSelectors = () => {
                   size={55}
                   shape="square"
                   src={require(`../../../../../Data/SpellImages/${slotFiveData.imageName}.png`)}
+                  data-tip
+                  data-for={slotFiveData.imageName}
+                />
+                <SpellToolTip
+                  skillName={slotFiveData.skillData.name}
+                  imageName={slotFiveData.imageName}
+                  skillDescription={slotFiveData.skillData.description}
+                  skillType={slotFiveData.skillData.type}
+                  skillUsableWith={slotFiveData.skillData.usableWith}
+                  skillTags={slotFiveData.skillData.skillTags}
+                  direction={"top"}
                 />
               </Col>
               <Col span={24} offset={0} className="slotSpellNameCol">
@@ -360,6 +428,17 @@ const SkillsSelectors = () => {
                     size={55}
                     shape="square"
                     src={require(`../../../../../Data/SpellImages/${slotSixData.imageName}.png`)}
+                    data-tip
+                    data-for={slotSixData.imageName}
+                  />
+                  <SpellToolTip
+                    skillName={slotSixData.skillData.name}
+                    imageName={slotSixData.imageName}
+                    skillDescription={slotSixData.skillData.description}
+                    skillType={slotSixData.skillData.type}
+                    skillUsableWith={slotSixData.skillData.usableWith}
+                    skillTags={slotSixData.skillData.skillTags}
+                    direction={"top"}
                   />
                 </Col>
                 <Col span={24} offset={0} className="slotSpellNameCol">
