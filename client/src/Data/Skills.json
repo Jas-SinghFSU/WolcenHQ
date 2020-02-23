@@ -1242,7 +1242,7 @@
       ]
     },
     {
-      "name": "Flight of Goavanir",
+      "name": "Flight of Gaavanir",
       "description": "Cast a flying hammer in the direction of the cursor, damaging enemies along its path. Hammer returns when cast again.",
       "usableWith": ["melee"],
       "type": ["axe"],
@@ -1602,6 +1602,79 @@
         },
         {
           "name": "Cosmic Recursion",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Light-bringer",
+      "description": "Charge a Sacred spell that deals damage in an area of effect and teleports your character. At each new charging step, the area of effect and the damage are increased.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Movement"],
+      "modifiers": [
+        {
+          "name": "Insuppressible Rhapsody",
+          "cost": 1
+        },
+        {
+          "name": "Solar Energy",
+          "cost": 1
+        },
+        {
+          "name": "Proud Rider",
+          "cost": 1
+        },
+        {
+          "name": "Plasmic Discharge",
+          "cost": 2
+        },
+        {
+          "name": "Holy Ground",
+          "cost": 2
+        },
+        {
+          "name": "Across the Cosmos",
+          "cost": 3
+        },
+        {
+          "name": "Looking Glass",
+          "cost": 1
+        },
+        {
+          "name": "Sudden Dehydration",
+          "cost": 2
+        },
+        {
+          "name": "Blinding Light",
+          "cost": 1
+        },
+        {
+          "name": "Hope's Arrival",
+          "cost": 3
+        },
+        {
+          "name": "Sheen of Hope",
+          "cost": 2
+        },
+        {
+          "name": "Noble Rider",
+          "cost": 1
+        },
+        {
+          "name": "Blinding Lights",
+          "cost": 2
+        },
+        {
+          "name": "Solar Logos",
+          "cost": 3
+        },
+        {
+          "name": "Adjudication",
+          "cost": 1
+        },
+        {
+          "name": "Unwanted Embrace",
           "cost": 2
         }
       ]

@@ -7,3 +7,12 @@
   color: rgb(192, 192, 192);
   font-size: 18px;
 }
+
+.skillsSelectorRow {
+  margin-top: 10px;
+}
+
+.addSpellIcon {
+  font-size: 65px;
+  color: rgba(240, 248, 255, 0.171);
+}
