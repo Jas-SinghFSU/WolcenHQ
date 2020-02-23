@@ -1678,6 +1678,517 @@
           "cost": 2
         }
       ]
+    },
+    {
+      "name": "Livor Mortis",
+      "description": "Summon a large Poison golem that cleaves enemies. If the skill is cast again, golem shouts a warcry that generates Threat.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Summon"],
+      "modifiers": [
+        {
+          "name": "Glutton Undying",
+          "cost": 1
+        },
+        {
+          "name": "Greed Unleashed",
+          "cost": 1
+        },
+        {
+          "name": "Eager Gluttony",
+          "cost": 1
+        },
+        {
+          "name": "Foul Guardian",
+          "cost": 2
+        },
+        {
+          "name": "Servility",
+          "cost": 2
+        },
+        {
+          "name": "Ravenous Reach",
+          "cost": 3
+        },
+        {
+          "name": "Thundercracking Punisher",
+          "cost": 3
+        },
+        {
+          "name": "Rot's Endless Stream",
+          "cost": 2
+        },
+        {
+          "name": "Hunger Pangs",
+          "cost": 1
+        },
+        {
+          "name": "Generational Grief",
+          "cost": 3
+        },
+        {
+          "name": "Hateful Swords",
+          "cost": 2
+        },
+        {
+          "name": "Sacrifice",
+          "cost": 1
+        },
+        {
+          "name": "The Gulf Before Us",
+          "cost": 2
+        },
+        {
+          "name": "Green Wastes",
+          "cost": 3
+        },
+        {
+          "name": "Token of Shame",
+          "cost": 1
+        },
+        {
+          "name": "Flesh in all Configurations",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Mark of Impurity",
+      "description": "Curses a target, increasing the damage it receives,",
+      "usableWith": ["daggers", "bows", "pistols"],
+      "type": ["bow", "dagger"],
+      "skillTags": ["Attack", "Rogue"],
+      "modifiers": [
+        {
+          "name": "Inescapable Fate",
+          "cost": 1
+        },
+        {
+          "name": "Big Game Hunting",
+          "cost": 1
+        },
+        {
+          "name": "Sinners Without Exception",
+          "cost": 1
+        },
+        {
+          "name": "Weight of Infamy",
+          "cost": 2
+        },
+        {
+          "name": "Minimal Resistance",
+          "cost": 2
+        },
+        {
+          "name": "Accursed Blade",
+          "cost": 3
+        },
+        {
+          "name": "Weight of Culpability",
+          "cost": 1
+        },
+        {
+          "name": "Faceless Justice",
+          "cost": 2
+        },
+        {
+          "name": "Target Eliminated",
+          "cost": 1
+        },
+        {
+          "name": "Fate of the Unholy",
+          "cost": 3
+        },
+        {
+          "name": "Watchful Eye",
+          "cost": 2
+        },
+        {
+          "name": "Defect of Creation",
+          "cost": 1
+        },
+        {
+          "name": "Strange Mercy",
+          "cost": 2
+        },
+        {
+          "name": "Guilt by Association",
+          "cost": 3
+        },
+        {
+          "name": "Rapid Sanctions",
+          "cost": 1
+        },
+        {
+          "name": "A Sentence Accepted",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Parasite",
+      "description": "Channel a ray on a target that leeches their health until they become possessed. Once possessed, the target's health is restored.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Summon"],
+      "modifiers": [
+        {
+          "name": "Drinks Around the Table",
+          "cost": 1
+        },
+        {
+          "name": "Leaking Life",
+          "cost": 1
+        },
+        {
+          "name": "Afflicted Fiend",
+          "cost": 1
+        },
+        {
+          "name": "Gift Not Given",
+          "cost": 2
+        },
+        {
+          "name": "Rust Drinker",
+          "cost": 2
+        },
+        {
+          "name": "Longest Night",
+          "cost": 3
+        },
+        {
+          "name": "Scaphism",
+          "cost": 1
+        },
+        {
+          "name": "On Shoulders of Giants",
+          "cost": 2
+        },
+        {
+          "name": "Greedy Feeder",
+          "cost": 1
+        },
+        {
+          "name": "House of Leeches",
+          "cost": 3
+        },
+        {
+          "name": "Indulgence Through Restraint",
+          "cost": 2
+        },
+        {
+          "name": "Milk of Kindness",
+          "cost": 1
+        },
+        {
+          "name": "Major Artery",
+          "cost": 2
+        },
+        {
+          "name": "Deterioration",
+          "cost": 3
+        },
+        {
+          "name": "Arterial Spurt",
+          "cost": 1
+        },
+        {
+          "name": "Titan Leech",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Phantom Blades",
+      "description": "Throw a spinning dualblade in a line in front of you that damages enemies caught in its path.",
+      "usableWith": ["daggers", "bows", "pistols"],
+      "type": ["bow", "dagger"],
+      "skillTags": ["Attack", "Projectile", "Rogue"],
+      "modifiers": [
+        {
+          "name": "Vorpal Blades",
+          "cost": 1
+        },
+        {
+          "name": "Needles in Perpetuity",
+          "cost": 1
+        },
+        {
+          "name": "Loyalty of the Blades",
+          "cost": 1
+        },
+        {
+          "name": "Cut through the Aether",
+          "cost": 2
+        },
+        {
+          "name": "Immobilizing Bola",
+          "cost": 2
+        },
+        {
+          "name": "Noxious Contamination",
+          "cost": 3
+        },
+        {
+          "name": "Bladed Blizzard",
+          "cost": 3
+        },
+        {
+          "name": "Thick Edges",
+          "cost": 2
+        },
+        {
+          "name": "Butterfly's Eye",
+          "cost": 1
+        },
+        {
+          "name": "Windforged",
+          "cost": 3
+        },
+        {
+          "name": "Bladeslinger",
+          "cost": 2
+        },
+        {
+          "name": "Dismissal",
+          "cost": 1
+        },
+        {
+          "name": "Gliding Friction",
+          "cost": 2
+        },
+        {
+          "name": "Looming Fog of Battle",
+          "cost": 3
+        },
+        {
+          "name": "Gutting Wheel",
+          "cost": 1
+        },
+        {
+          "name": "Death's Last Delay",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Plagueburst",
+      "description": "Cast an area of effect that causes enemies or summons to explode upon death, dealing Poison damage in an area of effect.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["bow"],
+      "skillTags": ["Spell"],
+      "modifiers": [
+        {
+          "name": "Swarm of Corpuscules",
+          "cost": 1
+        },
+        {
+          "name": "Rapid Onset",
+          "cost": 1
+        },
+        {
+          "name": "Cutaneous Infection",
+          "cost": 1
+        },
+        {
+          "name": "Expendable Meat",
+          "cost": 2
+        },
+        {
+          "name": "Disgrace",
+          "cost": 2
+        },
+        {
+          "name": "Pauper's Last Rites",
+          "cost": 3
+        },
+        {
+          "name": "Loser's Gift",
+          "cost": 1
+        },
+        {
+          "name": "Noxious Smog",
+          "cost": 2
+        },
+        {
+          "name": "Short Range Contaminants",
+          "cost": 1
+        },
+        {
+          "name": "Metempsychosis",
+          "cost": 3
+        },
+        {
+          "name": "Blades of Pestilence",
+          "cost": 2
+        },
+        {
+          "name": "Vitiation",
+          "cost": 1
+        },
+        {
+          "name": "Nervous Agent",
+          "cost": 2
+        },
+        {
+          "name": "Mortiferous Guest",
+          "cost": 3
+        },
+        {
+          "name": "Biohazard",
+          "cost": 1
+        },
+        {
+          "name": "Corruption's Bloat",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Slayer's Flurry",
+      "description": "Summon two blades and dash forward to the target, dealing single target damage. Does not dash if used in melee range.",
+      "usableWith": ["daggers", "bows", "pistols"],
+      "type": ["bow", "dagger"],
+      "skillTags": ["Attack", "Rogue"],
+      "modifiers": [
+        {
+          "name": "Final Eclipse",
+          "cost": 1
+        },
+        {
+          "name": "Superdense Metal",
+          "cost": 1
+        },
+        {
+          "name": "Resentment's Foe",
+          "cost": 1
+        },
+        {
+          "name": "Crashing Moons",
+          "cost": 2
+        },
+        {
+          "name": "Fullered Blades",
+          "cost": 2
+        },
+        {
+          "name": "Piercing Shadows",
+          "cost": 3
+        },
+        {
+          "name": "Trail of Dust",
+          "cost": 1
+        },
+        {
+          "name": "Kindly Stopped For Me",
+          "cost": 2
+        },
+        {
+          "name": "Hundredth Cut",
+          "cost": 1
+        },
+        {
+          "name": "Cosmic Ambush",
+          "cost": 3
+        },
+        {
+          "name": "Curse of the Dark Crescent",
+          "cost": 2
+        },
+        {
+          "name": "Effortless Slice",
+          "cost": 1
+        },
+        {
+          "name": "Dazzling Sweet",
+          "cost": 2
+        },
+        {
+          "name": "Crepuscular Escalation",
+          "cost": 3
+        },
+        {
+          "name": "Knife Unseen",
+          "cost": 1
+        },
+        {
+          "name": "Flashing Blades",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Solarfall",
+      "description": "Channel a damaging area of effect from the sky that follows the cursor.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell"],
+      "modifiers": [
+        {
+          "name": "Punishing Brilliance",
+          "cost": 1
+        },
+        {
+          "name": "Glare of Judgements",
+          "cost": 1
+        },
+        {
+          "name": "Grueling Dawn",
+          "cost": 1
+        },
+        {
+          "name": "Scorching Salvation",
+          "cost": 2
+        },
+        {
+          "name": "Plasmic Eruption",
+          "cost": 2
+        },
+        {
+          "name": "Those Who Favor Fire",
+          "cost": 3
+        },
+        {
+          "name": "Weight of the Sun",
+          "cost": 1
+        },
+        {
+          "name": "Devastation",
+          "cost": 2
+        },
+        {
+          "name": "Sin Illuminated",
+          "cost": 1
+        },
+        {
+          "name": "Sunrise",
+          "cost": 3
+        },
+        {
+          "name": "Day of Reckoning",
+          "cost": 2
+        },
+        {
+          "name": "Magnified Beam",
+          "cost": 1
+        },
+        {
+          "name": "Dawn Abridged",
+          "cost": 2
+        },
+        {
+          "name": "Grit and Mettle",
+          "cost": 3
+        },
+        {
+          "name": "Condemnation",
+          "cost": 1
+        },
+        {
+          "name": "Stellar Swiftness",
+          "cost": 2
+        }
+      ]
     }
   ]
 }
