@@ -76,6 +76,29 @@
   height: 50px;
   width: 95%;
 }
+
+.modalModsRow {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.modalModCol {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 95%;
+}
+.modBlock {
+  height: 105%;
+  padding-top: 4px;
+  padding-left: 7px;
+  border: solid 2px;
+  border-color: #00090e61;
+  background-color: rgba(11, 31, 44, 0.151);
+  cursor: pointer;
+}
+.modBlockSelected {
+  border-color: #010f16b9;
+  background-color: rgba(89, 129, 155, 0.4);
+}
 .spellIconAvatar {
   margin-right: 5px;
 }
@@ -151,4 +174,21 @@
 }
 .tooltipAttackLabel {
   color: orange;
+}
+.slotSpellModCountCol {
+  margin-top: 7px;
+  color: aqua;
+}
+.addModContainer {
+  color: #a6a6a6;
+  font-size: 12px;
+  border: dashed 2px;
+  padding-bottom: 1px;
+  background-color: #f0f0f00e;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.selectedModsCol {
+  margin-top: 10px;
+  color: rgb(255, 224, 158);
 }

@@ -129,16 +129,16 @@ const SkillListModal = props => {
         visible={modalVisible}
         onOk={() => handleSkillSelected(skillData, skillSlot, skillSelected)}
         onCancel={handleCloseModal}
+        destroyOnClose={true}
       >
         <Row className="modalSkillsRow">
           {skillList.map((skill, index) => {
             let imageName = skill.name.replace(/(\s)/g, "_");
             imageName = imageName.replace(/["']/g, "");
             return (
-              <Fragment>
+              <Fragment key={index}>
                 <Col
                   className="modalSkillsCol"
-                  key={index}
                   onClick={() => {
                     setSkillSelected(imageName);
                     setSkillData(skill);
@@ -178,7 +178,72 @@ const SkillListModal = props => {
     </div>
   );
 };
-const SkillsSelectors = () => {
+
+const SkillModModal = props => {
+  const {
+    modalVisible,
+    handleCloseModal,
+    handleModSelected,
+    skillSlot,
+    modsList
+  } = props;
+
+  const [modList, setModList] = useState(modsList);
+  const [modSelected, setModSelected] = useState(null);
+  const [modData, setModData] = useState(null);
+
+  useEffect(() => {
+    setModSelected(null);
+    setModData(null);
+  }, [modalVisible]);
+
+  useEffect(() => {
+    setModList(modsList);
+  }, [modsList]);
+
+  return (
+    <div>
+      <Modal
+        title="Choose a modifier"
+        visible={modalVisible}
+        onOk={() => handleModSelected(modData, skillSlot)}
+        onCancel={handleCloseModal}
+        destroyOnClose={true}
+      >
+        <Row className="modalModsRow">
+          {modList &&
+            modList.map((mod, index) => {
+              return (
+                <Fragment key={index}>
+                  <Col
+                    className="modalModCol"
+                    onClick={() => {
+                      setModSelected(mod.name);
+                      setModData(mod);
+                    }}
+                    data-tip
+                    data-for={mod.name}
+                  >
+                    <Fragment>
+                      <div
+                        className={`modBlock ${
+                          mod.name === modSelected ? "modBlockSelected" : ""
+                        }`}
+                      >
+                        <span className="modNameSpan">{mod.name}</span>
+                      </div>
+                    </Fragment>
+                  </Col>
+                </Fragment>
+              );
+            })}
+        </Row>
+      </Modal>
+    </div>
+  );
+};
+
+const SkillsSelector = () => {
   const [slotOneData, setSlotOneData] = useState(null);
   const [slotTwoData, setSlotTwoData] = useState(null);
   const [slotThreeData, setSlotThreeData] = useState(null);
@@ -189,9 +254,15 @@ const SkillsSelectors = () => {
     show: false,
     slot: null
   });
+  const [modModalData, setModModalData] = useState({
+    show: false,
+    slot: null,
+    modData: null
+  });
 
   const handleCloseModal = () => {
     setModalData({ show: false, slot: null });
+    setModModalData({ show: false, slot: null });
   };
 
   const handleSkillSelected = (skillData, slot, imageName) => {
@@ -201,27 +272,83 @@ const SkillsSelectors = () => {
     }
     switch (slot) {
       case 1:
-        setSlotOneData({ skillData, imageName });
+        setSlotOneData({ skillData, imageName, activeModifiers: [] });
         break;
       case 2:
-        setSlotTwoData({ skillData, imageName });
+        setSlotTwoData({ skillData, imageName, activeModifiers: [] });
         break;
       case 3:
-        setSlotThreeData({ skillData, imageName });
+        setSlotThreeData({ skillData, imageName, activeModifiers: [] });
         break;
       case 4:
-        setSlotFourData({ skillData, imageName });
+        setSlotFourData({ skillData, imageName, activeModifiers: [] });
         break;
       case 5:
-        setSlotFiveData({ skillData, imageName });
+        setSlotFiveData({ skillData, imageName, activeModifiers: [] });
         break;
       case 6:
-        setSlotSixData({ skillData, imageName });
+        setSlotSixData({ skillData, imageName, activeModifiers: [] });
         break;
 
       default:
         break;
     }
+  };
+
+  const handleModSelected = (modData, slot) => {
+    setModModalData({ show: false, slot: null });
+
+    if (!modData) {
+      return;
+    }
+    switch (slot) {
+      case 1:
+        setSlotOneData({
+          ...slotOneData,
+          activeModifiers: [...slotOneData.activeModifiers, modData]
+        });
+        break;
+      case 2:
+        setSlotTwoData({
+          ...slotTwoData,
+          activeModifiers: [...slotTwoData.activeModifiers, modData]
+        });
+        break;
+      case 3:
+        setSlotThreeData({
+          ...slotThreeData,
+          activeModifiers: [...slotThreeData.activeModifiers, modData]
+        });
+        break;
+      case 4:
+        setSlotFourData({
+          ...slotFourData,
+          activeModifiers: [...slotFourData.activeModifiers, modData]
+        });
+        break;
+      case 5:
+        setSlotFiveData({
+          ...slotFiveData,
+          activeModifiers: [...slotFiveData.activeModifiers, modData]
+        });
+        break;
+      case 6:
+        setSlotSixData({
+          ...slotSixData,
+          activeModifiers: [...slotSixData.activeModifiers, modData]
+        });
+        break;
+
+      default:
+        break;
+    }
+  };
+
+  const getTotalModPoints = modifierData => {
+    const totalModPoints = modifierData.reduce((modTotal, currentSkill) => {
+      return currentSkill.cost + modTotal;
+    }, 0);
+    return totalModPoints;
   };
 
   return (
@@ -261,6 +388,46 @@ const SkillsSelectors = () => {
                 </span>
                 <div className="slotSpellNameBorder"></div>
               </Col>
+              <Col span={24} offset={0} className="slotSpellModCountCol">
+                <span className="slotSpellModCount">
+                  {`Skill Modifiers: ${
+                    slotOneData.activeModifiers.length > 0
+                      ? getTotalModPoints(slotOneData.activeModifiers)
+                      : "0"
+                  }/10`}
+                </span>
+                <div className="nolotSpellNameBorder"></div>
+              </Col>
+              {slotOneData.activeModifiers.length <= 0 ||
+              getTotalModPoints(slotOneData.activeModifiers) < 10 ? (
+                <Col
+                  span={22}
+                  offset={1}
+                  className="addModContainer"
+                  onClick={() => {
+                    setModModalData({
+                      show: true,
+                      slot: 1,
+                      modData: slotOneData.skillData.modifiers
+                    });
+                  }}
+                >
+                  <Icon type="plus" />
+                </Col>
+              ) : (
+                slotOneData.activeModifiers.map((mod, index) => {
+                  return (
+                    <Col
+                      key={index}
+                      span={22}
+                      offset={1}
+                      className="selectedModsCol"
+                    >
+                      <span className="selectedModSpan">{mod.name}</span>
+                    </Col>
+                  );
+                })
+              )}
             </Fragment>
           )}
         </Col>
@@ -458,6 +625,13 @@ const SkillsSelectors = () => {
         handleCloseModal={handleCloseModal}
         handleSkillSelected={handleSkillSelected}
       />
+      <SkillModModal
+        modalVisible={modModalData.show}
+        skillSlot={modModalData.slot}
+        handleCloseModal={handleCloseModal}
+        handleModSelected={handleModSelected}
+        modsList={modModalData.modData}
+      />
     </div>
   );
 };
@@ -467,7 +641,7 @@ const SkillsContainer = () => {
     <div>
       <SkillsSectionHeader />
       <SkillsSelectorLabels />
-      <SkillsSelectors />
+      <SkillsSelector />
     </div>
   );
 };

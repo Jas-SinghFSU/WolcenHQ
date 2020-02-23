@@ -239,7 +239,7 @@
           "cost": 1
         },
         {
-          "name": "Even Horizon",
+          "name": "Event Horizon",
           "cost": 2
         },
         {
@@ -409,7 +409,7 @@
           "cost": 1
         },
         {
-          "name": "Shattering Blaslphemy",
+          "name": "Shattering Blasphemy",
           "cost": 3
         },
         {
@@ -440,7 +440,7 @@
     },
     {
       "name": "\"Avenger\" Autoturret",
-      "description": "Summon a turret to provide convering fire. Can be detached and wielded by holding the skill.",
+      "description": "Summon a turret to provide covering fire. Can be detached and wielded by holding the skill.",
       "usableWith": ["daggers", "bows", "pistols"],
       "type": ["bow", "dagger"],
       "skillTags": ["Attack", "Projectile", "Rogue", "Device"],
@@ -527,7 +527,7 @@
           "cost": 1
         },
         {
-          "name": "Caseless Current",
+          "name": "Ceaseless Current",
           "cost": 1
         },
         {
@@ -1097,7 +1097,7 @@
     },
     {
       "name": "Evasion",
-      "description": "Dash in the opposite directino of the cursor and drop a projectile where the skill was activated that slows enemies. Base Physical damage converts into Shadow damage.",
+      "description": "Dash in the opposite direction of the cursor and drop a projectile where the skill was activated that slows enemies. Base Physical damage converts into Shadow damage.",
       "usableWith": ["daggers", "bows", "pistols"],
       "type": ["bow", "dagger"],
       "skillTags": ["Attack", "Projectile", "Rogue", "Movement"],
@@ -1462,7 +1462,7 @@
     },
     {
       "name": "Hunting Swarm",
-      "description": "Summon a zombie that deasl damage with ranged attacks. If the number of zombies is at a maximum, they focus fire on the target underneath the cursor.",
+      "description": "Summon a zombie that deals damage with ranged attacks. If the number of zombies is at a maximum, they focus fire on the target underneath the cursor.",
       "usableWith": ["staves", "catalysts"],
       "type": ["staff"],
       "skillTags": ["Spell", "Summon"],
@@ -2429,7 +2429,7 @@
           "cost": 1
         },
         {
-          "name": "Avalance of Emotion",
+          "name": "Avalanche of Emotion",
           "cost": 2
         },
         {
