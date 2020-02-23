@@ -1315,74 +1315,366 @@
       ]
     },
     {
-      "name": "",
-      "description": "",
-      "usableWith": [],
-      "type": [],
-      "skillTags": [],
+      "name": "Gunslinger's Brand",
+      "description": "Channel multiple shots and select targets by hovering over or clicking them. Shots are released when channeling stops or maximum number of shots is reached.",
+      "usableWith": ["bows", "pistols"],
+      "type": ["bow"],
+      "skillTags": ["Attack", "Projectile", "Device"],
       "modifiers": [
         {
-          "name": "",
+          "name": "Hipfire Headshots",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "Traversal",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "Leave No Witnesses",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "Scrutiny",
           "cost": 2
         },
         {
-          "name": "",
+          "name": "Scattering Blast",
           "cost": 2
         },
         {
-          "name": "",
+          "name": "Time Manipulator",
           "cost": 3
         },
         {
-          "name": "",
+          "name": "Stylish Execution",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "No Prisoners",
           "cost": 2
         },
         {
-          "name": "",
+          "name": "Ordered Discord",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "Order Through Chaos",
           "cost": 3
         },
         {
-          "name": "",
+          "name": "Augmented Ammunition",
           "cost": 2
         },
         {
-          "name": "",
+          "name": "Endless Throes",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "Backstabber in the Crosshairs",
           "cost": 2
         },
         {
-          "name": "",
+          "name": "Flak Handcannon",
           "cost": 3
         },
         {
-          "name": "",
+          "name": "Friendly Fire",
           "cost": 1
         },
         {
-          "name": "",
+          "name": "Wild Gunsman",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Havoc Orb",
+      "description": "Target an area and launch an exploding device, dealing fire damage in an area of effect.",
+      "usableWith": ["daggers", "bows", "pistols"],
+      "type": ["bow", "dagger"],
+      "skillTags": ["Attack", "Projectile", "Rogue", "Device"],
+      "modifiers": [
+        {
+          "name": "Massive Blast Zone",
+          "cost": 1
+        },
+        {
+          "name": "Desire for Collateral",
+          "cost": 1
+        },
+        {
+          "name": "Magnificent Explosion",
+          "cost": 1
+        },
+        {
+          "name": "Sticky Bomb",
+          "cost": 2
+        },
+        {
+          "name": "Glory To Mankind",
+          "cost": 2
+        },
+        {
+          "name": "Blood Seeks Blood",
+          "cost": 3
+        },
+        {
+          "name": "Vaporizer",
+          "cost": 1
+        },
+        {
+          "name": "Multi-barreled Mortar",
+          "cost": 2
+        },
+        {
+          "name": "Extreme Fragmentation",
+          "cost": 1
+        },
+        {
+          "name": "Disintegrating Payload",
+          "cost": 3
+        },
+        {
+          "name": "Affinity for Destruction",
+          "cost": 2
+        },
+        {
+          "name": "Lasting Shake",
+          "cost": 1
+        },
+        {
+          "name": "Baptism by Hail",
+          "cost": 2
+        },
+        {
+          "name": "Mine Launcher",
+          "cost": 3
+        },
+        {
+          "name": "Unstable Charge",
+          "cost": 1
+        },
+        {
+          "name": "Feats of Manufacture",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Hunting Swarm",
+      "description": "Summon a zombie that deasl damage with ranged attacks. If the number of zombies is at a maximum, they focus fire on the target underneath the cursor.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Summon"],
+      "modifiers": [
+        {
+          "name": "Venomous Points",
+          "cost": 1
+        },
+        {
+          "name": "Mortality in Wave",
+          "cost": 1
+        },
+        {
+          "name": "Oxidized Edge",
+          "cost": 1
+        },
+        {
+          "name": "Decaying Mobs",
+          "cost": 2
+        },
+        {
+          "name": "Forces of Ruination",
+          "cost": 2
+        },
+        {
+          "name": "Of Dinge and Grime",
+          "cost": 3
+        },
+        {
+          "name": "Frost Mummification",
+          "cost": 3
+        },
+        {
+          "name": "Armies of the Night",
+          "cost": 3
+        },
+        {
+          "name": "Cosmogonic Forces",
+          "cost": 1
+        },
+        {
+          "name": "Rotten Roots",
+          "cost": 3
+        },
+        {
+          "name": "Cataract",
+          "cost": 2
+        },
+        {
+          "name": "Chestsplitter",
+          "cost": 1
+        },
+        {
+          "name": "Wraiths of the Ramparts",
+          "cost": 2
+        },
+        {
+          "name": "Lethal Effort",
+          "cost": 3
+        },
+        {
+          "name": "Surges of Life",
+          "cost": 1
+        },
+        {
+          "name": "Dead Marksman",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Infinity Blades",
+      "description": "Attack enemies multiple times in a combo, giving Willpower with each enemy hit.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell"],
+      "modifiers": [
+        {
+          "name": "Sublime Cut",
+          "cost": 1
+        },
+        {
+          "name": "Timeline Selection",
+          "cost": 1
+        },
+        {
+          "name": "Force Field Condensator",
+          "cost": 1
+        },
+        {
+          "name": "Records Printed in Matter",
+          "cost": 2
+        },
+        {
+          "name": "Printed Record",
+          "cost": 2
+        },
+        {
+          "name": "Gusts in Dark Spaces",
+          "cost": 3
+        },
+        {
+          "name": "Ubiquitous Wound",
+          "cost": 1
+        },
+        {
+          "name": "Rehearsal for Armageddon",
+          "cost": 2
+        },
+        {
+          "name": "Anti Mobility Form",
+          "cost": 1
+        },
+        {
+          "name": "Ethereal Zephyr",
+          "cost": 3
+        },
+        {
+          "name": "Reading of Quantic Memories",
+          "cost": 2
+        },
+        {
+          "name": "Spherical Repulsion",
+          "cost": 1
+        },
+        {
+          "name": "Material Sinkhole",
+          "cost": 2
+        },
+        {
+          "name": "Field of Sapience",
+          "cost": 3
+        },
+        {
+          "name": "Magnetized Strikes",
+          "cost": 1
+        },
+        {
+          "name": "Cosmic Recursion",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Juggernaut",
+      "description": "Summon a shield that absorbs damage. The shield breaks at a damage threshold, damaging nearby enemies. If shield is re-cast, it explodes, dealing increased damage.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Attack", "Warrior"],
+      "modifiers": [
+        {
+          "name": "Grudges Collected",
+          "cost": 1
+        },
+        {
+          "name": "Crushing Wall",
+          "cost": 1
+        },
+        {
+          "name": "Beast of the Battlefield",
+          "cost": 1
+        },
+        {
+          "name": "Standing Rock",
+          "cost": 2
+        },
+        {
+          "name": "Strike Rebound",
+          "cost": 2
+        },
+        {
+          "name": "Prideful Deflagration",
+          "cost": 3
+        },
+        {
+          "name": "Flies in Bevvies",
+          "cost": 1
+        },
+        {
+          "name": "Halted Momentum",
+          "cost": 2
+        },
+        {
+          "name": "Heralded Pavis",
+          "cost": 1
+        },
+        {
+          "name": "Perpetual Osmosis",
+          "cost": 3
+        },
+        {
+          "name": "Equalizer",
+          "cost": 2
+        },
+        {
+          "name": "Cold Steel",
+          "cost": 1
+        },
+        {
+          "name": "Banners Held High",
+          "cost": 2
+        },
+        {
+          "name": "Simulacra",
+          "cost": 3
+        },
+        {
+          "name": "Vibrations Internalized",
+          "cost": 1
+        },
+        {
+          "name": "Sound Body",
           "cost": 2
         }
       ]
