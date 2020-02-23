@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 import { Row, Col, Icon, Modal, Button, Avatar } from "antd";
+import ReactTooltip from "react-tooltip";
 
 import "./style.css";
 
@@ -43,32 +44,120 @@ const SkillsSelectorLabels = () => {
 };
 
 const SkillListModal = props => {
-  const { modalVisible, handleCloseModal } = props;
+  const {
+    modalVisible,
+    handleCloseModal,
+    handleSkillSelected,
+    skillSlot
+  } = props;
 
   const [skillList, setSkillsList] = useState(spellData.skills);
+  const [skillSelected, setSkillSelected] = useState(null);
+  const [skillData, setSkillData] = useState(null);
+
+  useEffect(() => {
+    setSkillSelected(null);
+    setSkillData(null);
+  }, [modalVisible]);
+
   return (
     <div>
       <Modal
         title="Choose a skill"
         visible={modalVisible}
-        onOk={handleCloseModal}
+        onOk={() => handleSkillSelected(skillData, skillSlot, skillSelected)}
         onCancel={handleCloseModal}
       >
         <Row className="modalSkillsRow">
-          {skillList.map(skill => {
+          {skillList.map((skill, index) => {
             let imageName = skill.name.replace(/(\s)/g, "_");
             imageName = imageName.replace(/["']/g, "");
-            console.log(imageName);
             return (
-              <Col className="modalSkillsCol">
-                <Avatar
-                  className="spellIconAvatar"
-                  size={40}
-                  shape="square"
-                  src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
-                />
-                <span className="skillNameSpan">{skill.name}</span>
-              </Col>
+              <Fragment>
+                <Col
+                  className="modalSkillsCol"
+                  key={index}
+                  onClick={() => {
+                    setSkillSelected(imageName);
+                    setSkillData(skill);
+                  }}
+                  data-tip
+                  data-for={imageName}
+                >
+                  <Fragment>
+                    <div
+                      className={`skillBlock ${
+                        imageName === skillSelected ? "skillBlockSelected" : ""
+                      }`}
+                    >
+                      <Avatar
+                        className="spellIconAvatar"
+                        size={40}
+                        shape="square"
+                        src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
+                      />
+                      <span className="skillNameSpan">{skill.name}</span>
+                    </div>
+                  </Fragment>
+                </Col>
+                <ReactTooltip
+                  className="spellTooltip"
+                  id={imageName}
+                  effect="float"
+                  place="right"
+                >
+                  <Row className="spellTooltipRow">
+                    <Col className="tooltipSpellNameCol" span={24} offset={0}>
+                      <span className="tooltipSpellName">{skill.name}</span>
+                    </Col>
+                    <Col className="tooltipSpellIconCol" span={24} offset={0}>
+                      <Avatar
+                        className="spellIconAvatar"
+                        size={50}
+                        shape="square"
+                        src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
+                      />
+                    </Col>
+                    <Col
+                      className="tooltipSpellDescriptionCol"
+                      span={24}
+                      offset={0}
+                    >
+                      <span className="tooltipSpellName">
+                        {skill.description}
+                      </span>
+                    </Col>
+                    <Col className="tooltipSpellAttackCol" span={24} offset={0}>
+                      <span
+                        className="tooltipAttackLabel"
+                        style={
+                          skill.type.includes("staff")
+                            ? { color: "rgb(166, 118, 255)" }
+                            : { color: "rgb(207, 134, 51)" }
+                        }
+                      >
+                        {skill.type.includes("staff") ? "Spell: " : "Attack: "}
+                      </span>
+                      {skill.usableWith.includes("melee") ? (
+                        <span>Only usable with melee weapons.</span>
+                      ) : (
+                        <span>
+                          {`Only usable with ${skill.usableWith.join(", ")}.`}
+                        </span>
+                      )}
+                    </Col>
+                    <Col className="tooltipSpellTagsCol" span={24} offset={0}>
+                      <span
+                        style={{ color: "rgb(110, 156, 255)" }}
+                        className="tooltipSpellTags"
+                      >
+                        {"Skill Tags: "}
+                      </span>
+                      <span>{skill.skillTags.join(", ")}</span>
+                    </Col>
+                  </Row>
+                </ReactTooltip>
+              </Fragment>
             );
           })}
         </Row>
@@ -77,90 +166,218 @@ const SkillListModal = props => {
   );
 };
 const SkillsSelectors = () => {
-  const [slotOneSelected, setSlotOneSelected] = useState(null);
-  const [slotTwoSelected, setSlotTwoSelected] = useState(null);
-  const [slotThreeSelected, setSlotThreeSelected] = useState(null);
-  const [slotFourSelected, setSlotFourSelected] = useState(null);
-  const [slotFiveSelected, setSlotFiveSelected] = useState(null);
-  const [slotSixSelected, setSlotSixSelected] = useState(null);
-  const [showModal, setShowModal] = useState(false);
+  const [slotOneData, setSlotOneData] = useState(null);
+  const [slotTwoData, setSlotTwoData] = useState(null);
+  const [slotThreeData, setSlotThreeData] = useState(null);
+  const [slotFourData, setSlotFourData] = useState(null);
+  const [slotFiveData, setSlotFiveData] = useState(null);
+  const [slotSixData, setSlotSixData] = useState(null);
+  const [modalData, setModalData] = useState({
+    show: false,
+    slot: null
+  });
 
   const handleCloseModal = () => {
-    setShowModal(false);
+    setModalData({ show: false, slot: null });
   };
+
+  const handleSkillSelected = (skillData, slot, imageName) => {
+    setModalData({ show: false, slot: null });
+    if (!skillData) {
+      return;
+    }
+    switch (slot) {
+      case 1:
+        setSlotOneData({ skillData, imageName });
+        break;
+      case 2:
+        setSlotTwoData({ skillData, imageName });
+        break;
+      case 3:
+        setSlotThreeData({ skillData, imageName });
+        break;
+      case 4:
+        setSlotFourData({ skillData, imageName });
+        break;
+      case 5:
+        setSlotFiveData({ skillData, imageName });
+        break;
+      case 6:
+        setSlotSixData({ skillData, imageName });
+        break;
+
+      default:
+        break;
+    }
+  };
+
   return (
     <div>
       <Row className="skillsSelectorRow">
         <Col span={4} offset={0}>
-          {!slotOneSelected ? (
+          {!slotOneData ? (
             <Icon
               className="addSpellIcon"
               type="plus-square"
-              onClick={() => setShowModal(true)}
+              onClick={() => setModalData({ show: true, slot: 1 })}
             />
           ) : (
-            <span></span>
+            <Fragment>
+              <Col span={24} offset={0}>
+                <Avatar
+                  className="slotSpellIcon"
+                  size={55}
+                  shape="square"
+                  src={require(`../../../../../Data/SpellImages/${slotOneData.imageName}.png`)}
+                />
+              </Col>
+              <Col span={24} offset={0} className="slotSpellNameCol">
+                <span className="slotSpellTitle">
+                  {slotOneData.skillData.name}
+                </span>
+                <div className="slotSpellNameBorder"></div>
+              </Col>
+            </Fragment>
           )}
         </Col>
         <Col span={4} offset={0}>
-          {!slotTwoSelected ? (
+          {!slotTwoData ? (
             <Icon
               className="addSpellIcon"
               type="plus-square"
-              onClick={() => console.log("clicked")}
+              onClick={() => setModalData({ show: true, slot: 2 })}
             />
           ) : (
-            <span></span>
+            <Fragment>
+              <Col span={24} offset={0}>
+                <Avatar
+                  className="slotSpellIcon"
+                  size={55}
+                  shape="square"
+                  src={require(`../../../../../Data/SpellImages/${slotTwoData.imageName}.png`)}
+                />
+              </Col>
+              <Col span={24} offset={0} className="slotSpellNameCol">
+                <span className="slotSpellTitle">
+                  {slotTwoData.skillData.name}
+                </span>
+                <div className="slotSpellNameBorder"></div>
+              </Col>
+            </Fragment>
           )}
         </Col>
         <Col span={4} offset={0}>
-          {!slotThreeSelected ? (
+          {!slotThreeData ? (
             <Icon
               className="addSpellIcon"
               type="plus-square"
-              onClick={() => console.log("clicked")}
+              onClick={() => setModalData({ show: true, slot: 3 })}
             />
           ) : (
-            <span></span>
+            <Fragment>
+              <Col span={24} offset={0}>
+                <Avatar
+                  className="slotSpellIcon"
+                  size={55}
+                  shape="square"
+                  src={require(`../../../../../Data/SpellImages/${slotThreeData.imageName}.png`)}
+                />
+              </Col>
+              <Col span={24} offset={0} className="slotSpellNameCol">
+                <span className="slotSpellTitle">
+                  {slotThreeData.skillData.name}
+                </span>
+                <div className="slotSpellNameBorder"></div>
+              </Col>
+            </Fragment>
           )}
         </Col>
         <Col span={4} offset={0}>
-          {!slotFourSelected ? (
+          {!slotFourData ? (
             <Icon
               className="addSpellIcon"
               type="plus-square"
-              onClick={() => console.log("clicked")}
+              onClick={() => setModalData({ show: true, slot: 4 })}
             />
           ) : (
-            <span></span>
+            <Fragment>
+              <Col span={24} offset={0}>
+                <Avatar
+                  className="slotSpellIcon"
+                  size={55}
+                  shape="square"
+                  src={require(`../../../../../Data/SpellImages/${slotFourData.imageName}.png`)}
+                />
+              </Col>
+              <Col span={24} offset={0} className="slotSpellNameCol">
+                <span className="slotSpellTitle">
+                  {slotFourData.skillData.name}
+                </span>
+                <div className="slotSpellNameBorder"></div>
+              </Col>
+            </Fragment>
           )}
         </Col>
         <Col span={4} offset={0}>
-          {!slotFiveSelected ? (
+          {!slotFiveData ? (
             <Icon
               className="addSpellIcon"
               type="plus-square"
-              onClick={() => console.log("clicked")}
+              onClick={() => setModalData({ show: true, slot: 5 })}
             />
           ) : (
-            <span></span>
+            <Fragment>
+              <Col span={24} offset={0}>
+                <Avatar
+                  className="slotSpellIcon"
+                  size={55}
+                  shape="square"
+                  src={require(`../../../../../Data/SpellImages/${slotFiveData.imageName}.png`)}
+                />
+              </Col>
+              <Col span={24} offset={0} className="slotSpellNameCol">
+                <span className="slotSpellTitle">
+                  {slotFiveData.skillData.name}
+                </span>
+                <div className="slotSpellNameBorder"></div>
+              </Col>
+            </Fragment>
           )}
         </Col>
         <Col span={4} offset={0}>
-          {!slotSixSelected ? (
-            <Icon
-              className="addSpellIcon"
-              type="plus-square"
-              onClick={() => console.log("clicked")}
-            />
-          ) : (
-            <span></span>
-          )}
+          <Col span={24} offset={0}>
+            {!slotSixData ? (
+              <Icon
+                className="addSpellIcon"
+                type="plus-square"
+                onClick={() => setModalData({ show: true, slot: 6 })}
+              />
+            ) : (
+              <Fragment>
+                <Col span={24} offset={0}>
+                  <Avatar
+                    className="slotSpellIcon"
+                    size={55}
+                    shape="square"
+                    src={require(`../../../../../Data/SpellImages/${slotSixData.imageName}.png`)}
+                  />
+                </Col>
+                <Col span={24} offset={0} className="slotSpellNameCol">
+                  <span className="slotSpellTitle">
+                    {slotSixData.skillData.name}
+                  </span>
+                  <div className="slotSpellNameBorder"></div>
+                </Col>
+              </Fragment>
+            )}
+          </Col>
         </Col>
       </Row>
       <SkillListModal
-        modalVisible={showModal}
+        modalVisible={modalData.show}
+        skillSlot={modalData.slot}
         handleCloseModal={handleCloseModal}
+        handleSkillSelected={handleSkillSelected}
       />
     </div>
   );
