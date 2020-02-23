@@ -2189,6 +2189,736 @@
           "cost": 2
         }
       ]
+    },
+    {
+      "name": "Sovereign Shout",
+      "description": "Unleash a powerful warcry which buffs attack speed and cast speed for yourself and nearby allies.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Warrior"],
+      "modifiers": [
+        {
+          "name": "Blade Eater",
+          "cost": 1
+        },
+        {
+          "name": "Hold the Line",
+          "cost": 1
+        },
+        {
+          "name": "Rallying Cry",
+          "cost": 1
+        },
+        {
+          "name": "Marble House",
+          "cost": 2
+        },
+        {
+          "name": "Dawnbreaker",
+          "cost": 2
+        },
+        {
+          "name": "Conqueror of Will",
+          "cost": 3
+        },
+        {
+          "name": "Infectious Determination",
+          "cost": 1
+        },
+        {
+          "name": "To Rise Again",
+          "cost": 2
+        },
+        {
+          "name": "Raging Berserker",
+          "cost": 1
+        },
+        {
+          "name": "Singular Command",
+          "cost": 3
+        },
+        {
+          "name": "A Princeps' Lead",
+          "cost": 2
+        },
+        {
+          "name": "Hostile Inspiration",
+          "cost": 1
+        },
+        {
+          "name": "Enemy's Pallor",
+          "cost": 2
+        },
+        {
+          "name": "Wine of War",
+          "cost": 3
+        },
+        {
+          "name": "Belligerent Promises",
+          "cost": 1
+        },
+        {
+          "name": "Red Earth Tracks",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Stings of Krearion",
+      "description": "Summon an imposing bow and launch several piercing arrows at once.",
+      "usableWith": ["bows", "pistols"],
+      "type": ["bow"],
+      "skillTags": ["Attack", "Projectile"],
+      "modifiers": [
+        {
+          "name": "Light Frame",
+          "cost": 1
+        },
+        {
+          "name": "Flying Death",
+          "cost": 1
+        },
+        {
+          "name": "Siege Tactics",
+          "cost": 1
+        },
+        {
+          "name": "Pincushion",
+          "cost": 2
+        },
+        {
+          "name": "Phantom Volley",
+          "cost": 2
+        },
+        {
+          "name": "Unnatural Causes",
+          "cost": 3
+        },
+        {
+          "name": "Whitefield Arrowheads",
+          "cost": 3
+        },
+        {
+          "name": "Cleaving Race",
+          "cost": 2
+        },
+        {
+          "name": "Pulmonary Strike",
+          "cost": 1
+        },
+        {
+          "name": "Explosive Barrage",
+          "cost": 3
+        },
+        {
+          "name": "Of Storms' Past",
+          "cost": 2
+        },
+        {
+          "name": "Cruel Songbird",
+          "cost": 1
+        },
+        {
+          "name": "Ardent Nock",
+          "cost": 2
+        },
+        {
+          "name": "Pride of the Deerstalker",
+          "cost": 3
+        },
+        {
+          "name": "Persistent Limp",
+          "cost": 1
+        },
+        {
+          "name": "Focused Shot",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Tear of Etheliel",
+      "description": "A mass of ice forms above your enemies. After a short delay, it falls from the sky for huge damage.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell", "Projectile"],
+      "modifiers": [
+        {
+          "name": "Sorrowful Attunement",
+          "cost": 1
+        },
+        {
+          "name": "Meteorological Grip",
+          "cost": 1
+        },
+        {
+          "name": "Frozen Impurities",
+          "cost": 1
+        },
+        {
+          "name": "Avalance of Emotion",
+          "cost": 2
+        },
+        {
+          "name": "Grieving Melancholy",
+          "cost": 2
+        },
+        {
+          "name": "Scorned by Fire",
+          "cost": 3
+        },
+        {
+          "name": "Absolute Zero",
+          "cost": 1
+        },
+        {
+          "name": "Malignant Narcissism",
+          "cost": 2
+        },
+        {
+          "name": "Corrupting Wail",
+          "cost": 1
+        },
+        {
+          "name": "Stalactite Rain",
+          "cost": 3
+        },
+        {
+          "name": "Unrestrained Misery",
+          "cost": 2
+        },
+        {
+          "name": "Body's Water",
+          "cost": 1
+        },
+        {
+          "name": "Dizzying Whiteout",
+          "cost": 2
+        },
+        {
+          "name": "Glass Firmament",
+          "cost": 3
+        },
+        {
+          "name": "Climactic Domination",
+          "cost": 1
+        },
+        {
+          "name": "Sanguine Crystallization",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Thunderstrike",
+      "description": "Electrocute your foes with bouncing lightning. Each bounce is weaker than the last.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell"],
+      "modifiers": [
+        {
+          "name": "Crippling Current",
+          "cost": 1
+        },
+        {
+          "name": "Serpentine Scar",
+          "cost": 1
+        },
+        {
+          "name": "Swift Judgment",
+          "cost": 1
+        },
+        {
+          "name": "Smiting Hunger",
+          "cost": 2
+        },
+        {
+          "name": "Law Manifest in Lightning",
+          "cost": 2
+        },
+        {
+          "name": "Storm at Sunset",
+          "cost": 3
+        },
+        {
+          "name": "Sequestered",
+          "cost": 1
+        },
+        {
+          "name": "Path of Woe",
+          "cost": 2
+        },
+        {
+          "name": "Merciless Conduit",
+          "cost": 1
+        },
+        {
+          "name": "Reprisal",
+          "cost": 3
+        },
+        {
+          "name": "Unwavering Conviction",
+          "cost": 2
+        },
+        {
+          "name": "Hangman's Lever",
+          "cost": 1
+        },
+        {
+          "name": "Knees Hitting Ground",
+          "cost": 2
+        },
+        {
+          "name": "Rebuilding the Trinity",
+          "cost": 3
+        },
+        {
+          "name": "Condensed Arc",
+          "cost": 1
+        },
+        {
+          "name": "Presumption of Guilt",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Tracker's Reach",
+      "description": "Throw a chained hook forward and pull back all the foes it went through.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Attack", "Warrior"],
+      "modifiers": [
+        {
+          "name": "Warden's Chain",
+          "cost": 1
+        },
+        {
+          "name": "Preserving Momentum",
+          "cost": 1
+        },
+        {
+          "name": "Mercy Caged",
+          "cost": 1
+        },
+        {
+          "name": "Feeding the Spirit",
+          "cost": 2
+        },
+        {
+          "name": "Arresting Claw",
+          "cost": 2
+        },
+        {
+          "name": "Deep Gashes",
+          "cost": 3
+        },
+        {
+          "name": "Retracting Chain",
+          "cost": 1
+        },
+        {
+          "name": "Chain-slinger",
+          "cost": 2
+        },
+        {
+          "name": "Wrangler of Rogues",
+          "cost": 1
+        },
+        {
+          "name": "Bold Move",
+          "cost": 3
+        },
+        {
+          "name": "Zealous Smite",
+          "cost": 2
+        },
+        {
+          "name": "Rapid Propellation",
+          "cost": 1
+        },
+        {
+          "name": "Judgement's Fall",
+          "cost": 2
+        },
+        {
+          "name": "Unrelenting Hunt",
+          "cost": 3
+        },
+        {
+          "name": "Panopticon",
+          "cost": 1
+        },
+        {
+          "name": "Ever Wakeful Justice",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Wailing Arrows",
+      "description": "Let loose a volley of arrows in a circular area that damages enemies over time.",
+      "usableWith": ["bows", "pistols"],
+      "type": ["bow"],
+      "skillTags": ["Attack"],
+      "modifiers": [
+        {
+          "name": "Fluid Movement",
+          "cost": 1
+        },
+        {
+          "name": "Force Bow",
+          "cost": 1
+        },
+        {
+          "name": "Irate Smiting",
+          "cost": 1
+        },
+        {
+          "name": "Serrated Arrows",
+          "cost": 2
+        },
+        {
+          "name": "The Black Cloud",
+          "cost": 2
+        },
+        {
+          "name": "Flames of Envy",
+          "cost": 3
+        },
+        {
+          "name": "Shattering Arrowheads",
+          "cost": 1
+        },
+        {
+          "name": "Call of the First Archers",
+          "cost": 2
+        },
+        {
+          "name": "Attrition Strategy",
+          "cost": 1
+        },
+        {
+          "name": "Spirited Advance",
+          "cost": 3
+        },
+        {
+          "name": "Flight From Bindings",
+          "cost": 2
+        },
+        {
+          "name": "Eagle Eye",
+          "cost": 1
+        },
+        {
+          "name": "Aching Accuracy",
+          "cost": 2
+        },
+        {
+          "name": "Reemergence",
+          "cost": 3
+        },
+        {
+          "name": "Broadhead",
+          "cost": 1
+        },
+        {
+          "name": "Vanquisher's Overlook",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Warpath",
+      "description": "Summon a mighty shield and charge through your enemies, breaking their ranks.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Attack", "Warrior"],
+      "modifiers": [
+        {
+          "name": "Sprinting Strides",
+          "cost": 1
+        },
+        {
+          "name": "Full Frontal Slam",
+          "cost": 1
+        },
+        {
+          "name": "Inflexible Stance",
+          "cost": 1
+        },
+        {
+          "name": "Overwhelming Impact",
+          "cost": 2
+        },
+        {
+          "name": "Lingering Vision",
+          "cost": 2
+        },
+        {
+          "name": "Forge a Path",
+          "cost": 3
+        },
+        {
+          "name": "Marrow Eater",
+          "cost": 1
+        },
+        {
+          "name": "Burning Lifeblood",
+          "cost": 2
+        },
+        {
+          "name": "Stampede",
+          "cost": 1
+        },
+        {
+          "name": "Everlasting Ember",
+          "cost": 3
+        },
+        {
+          "name": "Vexilloid",
+          "cost": 2
+        },
+        {
+          "name": "Mania",
+          "cost": 1
+        },
+        {
+          "name": "Gold Tooth Scavenger",
+          "cost": 2
+        },
+        {
+          "name": "Righteous Bash",
+          "cost": 3
+        },
+        {
+          "name": "Break the Line",
+          "cost": 1
+        },
+        {
+          "name": "Unstoppable Charge",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Wings of Ishmir",
+      "description": "Summon a giant spear and leap onto your enemies, damaging them.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Attack", "Movement"],
+      "modifiers": [
+        {
+          "name": "Lightspeed",
+          "cost": 1
+        },
+        {
+          "name": "Noble Bearing",
+          "cost": 1
+        },
+        {
+          "name": "Berzerker's Onslaught",
+          "cost": 1
+        },
+        {
+          "name": "Overwhelming Tremor",
+          "cost": 2
+        },
+        {
+          "name": "Stunning Apparatus",
+          "cost": 2
+        },
+        {
+          "name": "Shining Hope",
+          "cost": 3
+        },
+        {
+          "name": "Grinning Radiance",
+          "cost": 1
+        },
+        {
+          "name": "Trial of Swindlers",
+          "cost": 2
+        },
+        {
+          "name": "Gratitude Turned Spite",
+          "cost": 1
+        },
+        {
+          "name": "Relentless Pursuit",
+          "cost": 3
+        },
+        {
+          "name": "Meritorious Crew",
+          "cost": 2
+        },
+        {
+          "name": "Look of a Champion",
+          "cost": 1
+        },
+        {
+          "name": "Bird of Prey",
+          "cost": 2
+        },
+        {
+          "name": "Twisting Harbinger",
+          "cost": 3
+        },
+        {
+          "name": "Heavy Impalement",
+          "cost": 1
+        },
+        {
+          "name": "Rippling Impact",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Winter's Grasp",
+      "description": "An ice nova emanates around you and freezes your enemies.",
+      "usableWith": ["staves", "catalysts"],
+      "type": ["staff"],
+      "skillTags": ["Spell"],
+      "modifiers": [
+        {
+          "name": "Biting Cold",
+          "cost": 1
+        },
+        {
+          "name": "Ice Pawn",
+          "cost": 1
+        },
+        {
+          "name": "Soul in Emanation",
+          "cost": 1
+        },
+        {
+          "name": "Rime World",
+          "cost": 2
+        },
+        {
+          "name": "Immortalized Perfection",
+          "cost": 2
+        },
+        {
+          "name": "Concentrated Shadow",
+          "cost": 3
+        },
+        {
+          "name": "Numbness in Onset",
+          "cost": 1
+        },
+        {
+          "name": "Glacial Blast",
+          "cost": 2
+        },
+        {
+          "name": "Knightly Vanity",
+          "cost": 1
+        },
+        {
+          "name": "Admire From a Distance",
+          "cost": 3
+        },
+        {
+          "name": "Icy Gales",
+          "cost": 2
+        },
+        {
+          "name": "Warlike Confidence",
+          "cost": 1
+        },
+        {
+          "name": "PermaFrost",
+          "cost": 2
+        },
+        {
+          "name": "Hail the Ice Queen",
+          "cost": 3
+        },
+        {
+          "name": "Fancies of Warmth",
+          "cost": 1
+        },
+        {
+          "name": "Century of Cold Nights",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Wrath of Baapheth",
+      "description": "Summon a pair of unbreakable chains and unleash a flurry of reckless lashes.",
+      "usableWith": ["melee"],
+      "type": ["axe"],
+      "skillTags": ["Attack", "Warrior"],
+      "modifiers": [
+        {
+          "name": "Primal Rush",
+          "cost": 1
+        },
+        {
+          "name": "Rapid Swings",
+          "cost": 1
+        },
+        {
+          "name": "Merciless Rhythm",
+          "cost": 1
+        },
+        {
+          "name": "Wounded Pride",
+          "cost": 2
+        },
+        {
+          "name": "Knotted Ends",
+          "cost": 2
+        },
+        {
+          "name": "Stolen Light",
+          "cost": 3
+        },
+        {
+          "name": "Out for Blood",
+          "cost": 1
+        },
+        {
+          "name": "Whirlwind of War",
+          "cost": 2
+        },
+        {
+          "name": "Lethal Ambitions",
+          "cost": 1
+        },
+        {
+          "name": "Final Moments",
+          "cost": 3
+        },
+        {
+          "name": "Blood Brothers",
+          "cost": 2
+        },
+        {
+          "name": "Steel Cradle",
+          "cost": 1
+        },
+        {
+          "name": "Taste for Vengeance",
+          "cost": 2
+        },
+        {
+          "name": "Draining Lifeforce",
+          "cost": 3
+        },
+        {
+          "name": "Attrition",
+          "cost": 1
+        },
+        {
+          "name": "Lumbering Blows",
+          "cost": 2
+        }
+      ]
     }
   ]
 }
