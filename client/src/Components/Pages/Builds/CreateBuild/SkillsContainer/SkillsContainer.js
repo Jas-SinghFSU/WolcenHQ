@@ -245,6 +245,86 @@ const SkillModModal = props => {
   );
 };
 
+const SkillSlot = props => {
+  const {
+    slotData,
+    slotNumber,
+    handleModalData,
+    handleModModalData,
+    getTotalModPoints
+  } = props;
+
+  return (
+    <Col span={4} offset={0}>
+      {!slotData ? (
+        <Icon
+          className="addSpellIcon"
+          type="plus-square"
+          onClick={() => handleModalData(true, slotNumber)}
+        />
+      ) : (
+        <Fragment>
+          <Col span={24} offset={0}>
+            <Avatar
+              className="slotSpellIcon"
+              size={55}
+              shape="square"
+              src={require(`../../../../../Data/SpellImages/${slotData.imageName}.png`)}
+              data-tip
+              data-for={slotData.imageName}
+            />
+            <SpellToolTip
+              skillName={slotData.skillData.name}
+              imageName={slotData.imageName}
+              skillDescription={slotData.skillData.description}
+              skillType={slotData.skillData.type}
+              skillUsableWith={slotData.skillData.usableWith}
+              skillTags={slotData.skillData.skillTags}
+              direction={"top"}
+            />
+          </Col>
+          <Col span={24} offset={0} className="slotSpellNameCol">
+            <span className="slotSpellTitle">{slotData.skillData.name}</span>
+            <div className="slotSpellNameBorder"></div>
+          </Col>
+          <Col span={24} offset={0} className="slotSpellModCountCol">
+            <span className="slotSpellModCount">
+              {`Skill Modifiers: ${
+                slotData.activeModifiers.length > 0
+                  ? getTotalModPoints(slotData.activeModifiers)
+                  : "0"
+              }/${maxModifierLimit}`}
+            </span>
+            <div className="nolotSpellNameBorder"></div>
+          </Col>
+          {getTotalModPoints(slotData.activeModifiers) < maxModifierLimit && (
+            <Col
+              span={22}
+              offset={1}
+              className="addModContainer"
+              onClick={() => {
+                handleModModalData(
+                  true,
+                  slotNumber,
+                  slotData.skillData.modifiers
+                );
+              }}
+            >
+              <Icon type="plus" />
+            </Col>
+          )}
+          {slotData.activeModifiers.map((mod, index) => {
+            return (
+              <Col key={index} span={22} offset={1} className="selectedModsCol">
+                <span className="selectedModSpan">{mod.name}</span>
+              </Col>
+            );
+          })}
+        </Fragment>
+      )}
+    </Col>
+  );
+};
 const SkillsSelector = () => {
   const [slotOneData, setSlotOneData] = useState(null);
   const [slotTwoData, setSlotTwoData] = useState(null);
@@ -265,6 +345,13 @@ const SkillsSelector = () => {
   const handleCloseModal = () => {
     setModalData({ show: false, slot: null });
     setModModalData({ show: false, slot: null });
+  };
+
+  const getTotalModPoints = modifierData => {
+    const totalModPoints = modifierData.reduce((modTotal, currentSkill) => {
+      return currentSkill.cost + modTotal;
+    }, 0);
+    return totalModPoints;
   };
 
   const handleSkillSelected = (skillData, slot, imageName) => {
@@ -307,8 +394,6 @@ const SkillsSelector = () => {
       case 1:
         newModTotal =
           modData.cost + getTotalModPoints(slotOneData.activeModifiers);
-        console.log(`modData: ${JSON.stringify(modData, null, 2)}`);
-        console.log(`newModTotal: ${newModTotal}`);
         if (newModTotal > maxModifierLimit) {
           return;
         }
@@ -378,280 +463,65 @@ const SkillsSelector = () => {
     }
   };
 
-  const getTotalModPoints = modifierData => {
-    const totalModPoints = modifierData.reduce((modTotal, currentSkill) => {
-      return currentSkill.cost + modTotal;
-    }, 0);
-    return totalModPoints;
+  const handleModalData = (shouldShow, slotNum) => {
+    setModalData({ show: shouldShow, slot: slotNum });
+  };
+
+  const handleModModalData = (shouldShow, slotNum, slotModifiers) => {
+    setModModalData({
+      show: shouldShow,
+      slot: slotNum,
+      modData: slotModifiers
+    });
   };
 
   return (
     <div>
       <Row className="skillsSelectorRow">
-        <Col span={4} offset={0}>
-          {!slotOneData ? (
-            <Icon
-              className="addSpellIcon"
-              type="plus-square"
-              onClick={() => setModalData({ show: true, slot: 1 })}
-            />
-          ) : (
-            <Fragment>
-              <Col span={24} offset={0}>
-                <Avatar
-                  className="slotSpellIcon"
-                  size={55}
-                  shape="square"
-                  src={require(`../../../../../Data/SpellImages/${slotOneData.imageName}.png`)}
-                  data-tip
-                  data-for={slotOneData.imageName}
-                />
-                <SpellToolTip
-                  skillName={slotOneData.skillData.name}
-                  imageName={slotOneData.imageName}
-                  skillDescription={slotOneData.skillData.description}
-                  skillType={slotOneData.skillData.type}
-                  skillUsableWith={slotOneData.skillData.usableWith}
-                  skillTags={slotOneData.skillData.skillTags}
-                  direction={"top"}
-                />
-              </Col>
-              <Col span={24} offset={0} className="slotSpellNameCol">
-                <span className="slotSpellTitle">
-                  {slotOneData.skillData.name}
-                </span>
-                <div className="slotSpellNameBorder"></div>
-              </Col>
-              <Col span={24} offset={0} className="slotSpellModCountCol">
-                <span className="slotSpellModCount">
-                  {`Skill Modifiers: ${
-                    slotOneData.activeModifiers.length > 0
-                      ? getTotalModPoints(slotOneData.activeModifiers)
-                      : "0"
-                  }/${maxModifierLimit}`}
-                </span>
-                <div className="nolotSpellNameBorder"></div>
-              </Col>
-              {getTotalModPoints(slotOneData.activeModifiers) <
-                maxModifierLimit && (
-                <Col
-                  span={22}
-                  offset={1}
-                  className="addModContainer"
-                  onClick={() => {
-                    setModModalData({
-                      show: true,
-                      slot: 1,
-                      modData: slotOneData.skillData.modifiers
-                    });
-                  }}
-                >
-                  <Icon type="plus" />
-                </Col>
-              )}
-              {slotOneData.activeModifiers.map((mod, index) => {
-                return (
-                  <Col
-                    key={index}
-                    span={22}
-                    offset={1}
-                    className="selectedModsCol"
-                  >
-                    <span className="selectedModSpan">{mod.name}</span>
-                  </Col>
-                );
-              })}
-            </Fragment>
-          )}
-        </Col>
-        <Col span={4} offset={0}>
-          {!slotTwoData ? (
-            <Icon
-              className="addSpellIcon"
-              type="plus-square"
-              onClick={() => setModalData({ show: true, slot: 2 })}
-            />
-          ) : (
-            <Fragment>
-              <Col span={24} offset={0}>
-                <Avatar
-                  className="slotSpellIcon"
-                  size={55}
-                  shape="square"
-                  src={require(`../../../../../Data/SpellImages/${slotTwoData.imageName}.png`)}
-                  data-tip
-                  data-for={slotTwoData.imageName}
-                />
-                <SpellToolTip
-                  skillName={slotTwoData.skillData.name}
-                  imageName={slotTwoData.imageName}
-                  skillDescription={slotTwoData.skillData.description}
-                  skillType={slotTwoData.skillData.type}
-                  skillUsableWith={slotTwoData.skillData.usableWith}
-                  skillTags={slotTwoData.skillData.skillTags}
-                  direction={"top"}
-                />
-              </Col>
-              <Col span={24} offset={0} className="slotSpellNameCol">
-                <span className="slotSpellTitle">
-                  {slotTwoData.skillData.name}
-                </span>
-                <div className="slotSpellNameBorder"></div>
-              </Col>
-            </Fragment>
-          )}
-        </Col>
-        <Col span={4} offset={0}>
-          {!slotThreeData ? (
-            <Icon
-              className="addSpellIcon"
-              type="plus-square"
-              onClick={() => setModalData({ show: true, slot: 3 })}
-            />
-          ) : (
-            <Fragment>
-              <Col span={24} offset={0}>
-                <Avatar
-                  className="slotSpellIcon"
-                  size={55}
-                  shape="square"
-                  src={require(`../../../../../Data/SpellImages/${slotThreeData.imageName}.png`)}
-                  data-tip
-                  data-for={slotThreeData.imageName}
-                />
-                <SpellToolTip
-                  skillName={slotThreeData.skillData.name}
-                  imageName={slotThreeData.imageName}
-                  skillDescription={slotThreeData.skillData.description}
-                  skillType={slotThreeData.skillData.type}
-                  skillUsableWith={slotThreeData.skillData.usableWith}
-                  skillTags={slotThreeData.skillData.skillTags}
-                  direction={"top"}
-                />
-              </Col>
-              <Col span={24} offset={0} className="slotSpellNameCol">
-                <span className="slotSpellTitle">
-                  {slotThreeData.skillData.name}
-                </span>
-                <div className="slotSpellNameBorder"></div>
-              </Col>
-            </Fragment>
-          )}
-        </Col>
-        <Col span={4} offset={0}>
-          {!slotFourData ? (
-            <Icon
-              className="addSpellIcon"
-              type="plus-square"
-              onClick={() => setModalData({ show: true, slot: 4 })}
-            />
-          ) : (
-            <Fragment>
-              <Col span={24} offset={0}>
-                <Avatar
-                  className="slotSpellIcon"
-                  size={55}
-                  shape="square"
-                  src={require(`../../../../../Data/SpellImages/${slotFourData.imageName}.png`)}
-                  data-tip
-                  data-for={slotFourData.imageName}
-                />
-                <SpellToolTip
-                  skillName={slotFourData.skillData.name}
-                  imageName={slotFourData.imageName}
-                  skillDescription={slotFourData.skillData.description}
-                  skillType={slotFourData.skillData.type}
-                  skillUsableWith={slotFourData.skillData.usableWith}
-                  skillTags={slotFourData.skillData.skillTags}
-                  direction={"top"}
-                />
-              </Col>
-              <Col span={24} offset={0} className="slotSpellNameCol">
-                <span className="slotSpellTitle">
-                  {slotFourData.skillData.name}
-                </span>
-                <div className="slotSpellNameBorder"></div>
-              </Col>
-            </Fragment>
-          )}
-        </Col>
-        <Col span={4} offset={0}>
-          {!slotFiveData ? (
-            <Icon
-              className="addSpellIcon"
-              type="plus-square"
-              onClick={() => setModalData({ show: true, slot: 5 })}
-            />
-          ) : (
-            <Fragment>
-              <Col span={24} offset={0}>
-                <Avatar
-                  className="slotSpellIcon"
-                  size={55}
-                  shape="square"
-                  src={require(`../../../../../Data/SpellImages/${slotFiveData.imageName}.png`)}
-                  data-tip
-                  data-for={slotFiveData.imageName}
-                />
-                <SpellToolTip
-                  skillName={slotFiveData.skillData.name}
-                  imageName={slotFiveData.imageName}
-                  skillDescription={slotFiveData.skillData.description}
-                  skillType={slotFiveData.skillData.type}
-                  skillUsableWith={slotFiveData.skillData.usableWith}
-                  skillTags={slotFiveData.skillData.skillTags}
-                  direction={"top"}
-                />
-              </Col>
-              <Col span={24} offset={0} className="slotSpellNameCol">
-                <span className="slotSpellTitle">
-                  {slotFiveData.skillData.name}
-                </span>
-                <div className="slotSpellNameBorder"></div>
-              </Col>
-            </Fragment>
-          )}
-        </Col>
-        <Col span={4} offset={0}>
-          <Col span={24} offset={0}>
-            {!slotSixData ? (
-              <Icon
-                className="addSpellIcon"
-                type="plus-square"
-                onClick={() => setModalData({ show: true, slot: 6 })}
-              />
-            ) : (
-              <Fragment>
-                <Col span={24} offset={0}>
-                  <Avatar
-                    className="slotSpellIcon"
-                    size={55}
-                    shape="square"
-                    src={require(`../../../../../Data/SpellImages/${slotSixData.imageName}.png`)}
-                    data-tip
-                    data-for={slotSixData.imageName}
-                  />
-                  <SpellToolTip
-                    skillName={slotSixData.skillData.name}
-                    imageName={slotSixData.imageName}
-                    skillDescription={slotSixData.skillData.description}
-                    skillType={slotSixData.skillData.type}
-                    skillUsableWith={slotSixData.skillData.usableWith}
-                    skillTags={slotSixData.skillData.skillTags}
-                    direction={"top"}
-                  />
-                </Col>
-                <Col span={24} offset={0} className="slotSpellNameCol">
-                  <span className="slotSpellTitle">
-                    {slotSixData.skillData.name}
-                  </span>
-                  <div className="slotSpellNameBorder"></div>
-                </Col>
-              </Fragment>
-            )}
-          </Col>
-        </Col>
+        <SkillSlot
+          slotData={slotOneData}
+          slotNumber={1}
+          handleModalData={handleModalData}
+          handleModModalData={handleModModalData}
+          getTotalModPoints={getTotalModPoints}
+        />
+        <SkillSlot
+          slotData={slotTwoData}
+          slotNumber={2}
+          handleModalData={handleModalData}
+          handleModModalData={handleModModalData}
+          getTotalModPoints={getTotalModPoints}
+        />
+        <SkillSlot
+          slotData={slotThreeData}
+          slotNumber={3}
+          handleModalData={handleModalData}
+          handleModModalData={handleModModalData}
+          getTotalModPoints={getTotalModPoints}
+        />
+        <SkillSlot
+          slotData={slotFourData}
+          slotNumber={4}
+          handleModalData={handleModalData}
+          handleModModalData={handleModModalData}
+          getTotalModPoints={getTotalModPoints}
+        />
+        <SkillSlot
+          slotData={slotFiveData}
+          slotNumber={5}
+          handleModalData={handleModalData}
+          handleModModalData={handleModModalData}
+          getTotalModPoints={getTotalModPoints}
+        />
+        <SkillSlot
+          slotData={slotSixData}
+          slotNumber={6}
+          handleModalData={handleModalData}
+          handleModModalData={handleModModalData}
+          getTotalModPoints={getTotalModPoints}
+        />
       </Row>
+
       <SkillListModal
         modalVisible={modalData.show}
         skillSlot={modalData.slot}
