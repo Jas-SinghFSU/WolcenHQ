@@ -14,8 +14,6 @@ const SkillsSelector = () => {
     slot5: null,
     slot6: null
   });
-  const [takenSkills, setTakenSkills] = useState([]);
-  const [takenMods, setTakenMods] = useState([]);
   const [modalData, setModalData] = useState({
     show: false,
     slot: null
@@ -150,7 +148,7 @@ const SkillsSelector = () => {
         skillSlot={modalData.slot}
         handleCloseModal={handleCloseModal}
         handleSkillSelected={handleSkillSelected}
-        takenSkills={takenSkills}
+        slotData={slotData}
       />
       <SkillModModal
         modalVisible={modModalData.show}
@@ -158,7 +156,7 @@ const SkillsSelector = () => {
         handleCloseModal={handleCloseModal}
         handleModSelected={handleModSelected}
         modsList={modModalData.modData}
-        takenMods={takenMods}
+        slotData={slotData}
       />
     </div>
   );

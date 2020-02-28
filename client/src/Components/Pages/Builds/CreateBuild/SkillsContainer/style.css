@@ -104,6 +104,11 @@
   border-color: #010f16b9;
   background-color: rgba(89, 129, 155, 0.4);
 }
+.modBlockDisabled {
+  border-color: #00090e15;
+  background-color: rgba(11, 31, 44, 0.062);
+  color: #ffffff2f;
+}
 .spellIconAvatar {
   margin-right: 5px;
 }

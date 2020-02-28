@@ -11,7 +11,7 @@ const SkillListModal = props => {
     handleCloseModal,
     handleSkillSelected,
     skillSlot,
-    takenSkills
+    slotData
   } = props;
 
   const [skillList] = useState(spellData.skills);
@@ -23,6 +23,21 @@ const SkillListModal = props => {
     setSkillData(null);
   }, [modalVisible]);
 
+  const isSkillTaken = skillName => {
+    if (skillSlot) {
+      let isFound = false;
+      for (let i = 1; i <= 6; i += 1) {
+        const slotName = `slot${i}`;
+        if (
+          slotData[slotName] !== null &&
+          slotData[slotName].skillData.name === skillName
+        ) {
+          isFound = true;
+        }
+      }
+      return isFound;
+    }
+  };
   return (
     <div>
       <Modal
@@ -42,7 +57,7 @@ const SkillListModal = props => {
                 <Col
                   className={"modalSkillsCol"}
                   onClick={() => {
-                    if (!takenSkills.includes(skill.name)) {
+                    if (!isSkillTaken(skill.name)) {
                       setSkillSelected(imageName);
                       setSkillData(skill);
                     }
@@ -53,7 +68,7 @@ const SkillListModal = props => {
                   <Fragment>
                     <div
                       className={`skillBlock ${
-                        takenSkills.includes(skill.name)
+                        isSkillTaken(skill.name)
                           ? "skillBlockTaken"
                           : imageName === skillSelected
                           ? "skillBlockSelected"
@@ -62,9 +77,7 @@ const SkillListModal = props => {
                     >
                       <Avatar
                         className={`spellIconAvatar ${
-                          takenSkills.includes(skill.name)
-                            ? "spellIconAvatarTaken"
-                            : ""
+                          isSkillTaken(skill.name) ? "spellIconAvatarTaken" : ""
                         }`}
                         size={40}
                         shape="square"
@@ -97,7 +110,8 @@ const SkillModModal = props => {
     handleCloseModal,
     handleModSelected,
     skillSlot,
-    modsList
+    modsList,
+    slotData
   } = props;
 
   const [modList, setModList] = useState(modsList);
@@ -113,6 +127,20 @@ const SkillModModal = props => {
     setModList(modsList);
   }, [modsList]);
 
+  const isModTaken = modName => {
+    if (skillSlot) {
+      const slotName = `slot${skillSlot}`;
+
+      const foundMod = slotData[slotName].activeModifiers.filter(mod => {
+        if (modName === mod.name) {
+          return true;
+        }
+      });
+
+      return foundMod.length > 0 ? true : false;
+    }
+  };
+
   return (
     <div>
       <Modal
@@ -120,6 +148,7 @@ const SkillModModal = props => {
         visible={modalVisible}
         onOk={() => handleModSelected(modData, skillSlot)}
         onCancel={handleCloseModal}
+        okButtonProps={{ disabled: !modData ? true : false }}
         destroyOnClose={true}
       >
         <Row className="modalModsRow">
@@ -130,8 +159,10 @@ const SkillModModal = props => {
                   <Col
                     className="modalModCol"
                     onClick={() => {
-                      setModSelected(mod.name);
-                      setModData(mod);
+                      if (!isModTaken(mod.name)) {
+                        setModSelected(mod.name);
+                        setModData(mod);
+                      }
                     }}
                     data-tip
                     data-for={mod.name}
@@ -139,7 +170,11 @@ const SkillModModal = props => {
                     <Fragment>
                       <div
                         className={`modBlock ${
-                          mod.name === modSelected ? "modBlockSelected" : ""
+                          isModTaken(mod.name)
+                            ? "modBlockDisabled"
+                            : mod.name === modSelected
+                            ? "modBlockSelected"
+                            : ""
                         }`}
                       >
                         <span className="modNameSpan">{mod.name}</span>
