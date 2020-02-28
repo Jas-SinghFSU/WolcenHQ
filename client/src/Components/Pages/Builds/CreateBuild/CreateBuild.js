@@ -5,7 +5,7 @@ import SkillsContainer from "./SkillsContainer/SkillsContainer";
 
 import "./style.css";
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 const CreateBuildTitle = props => {
   return (

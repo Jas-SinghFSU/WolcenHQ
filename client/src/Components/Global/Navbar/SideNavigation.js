@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Menu, Icon, Button } from "antd";
+import React, { useState } from "react";
+import { Menu, Icon } from "antd";
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
 
 import "antd/dist/antd.css";
 import "./style.css";
-
-const { SubMenu } = Menu;
 
 const SideNavigation = () => {
   const history = useHistory();
@@ -25,7 +23,7 @@ const SideNavigation = () => {
     <div
       className="sideNavContainer"
       style={{
-        width: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded
+        "min-width": navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded
       }}
     >
       <Menu

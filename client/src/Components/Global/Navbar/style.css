@@ -1,6 +1,6 @@
 .sideNavContainer {
   height: 100vh;
-  transition: background 0.3s, width 0.2s;
+  transition: background 0.3s, min-width 0.3s;
 }
 
 .antdMenu {

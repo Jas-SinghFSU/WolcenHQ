@@ -7,7 +7,7 @@ import BuildsList from "./BuildsList/BuildsList";
 
 import "./style.css";
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 const Home = () => {
   return (

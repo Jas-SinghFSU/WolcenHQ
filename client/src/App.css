@@ -44,3 +44,7 @@
   background: #1a1a1e;
   font-family: Oswald;
 }
+.pageContentContainer {
+  transition: min-width 0.3s;
+  min-width: 965px;
+}
