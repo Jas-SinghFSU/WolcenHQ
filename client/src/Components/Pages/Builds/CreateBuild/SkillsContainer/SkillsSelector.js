@@ -6,12 +6,16 @@ import { SkillListModal, SkillModModal } from "./SkillModals";
 const maxModifierLimit = 10;
 
 const SkillsSelector = () => {
-  const [slotOneData, setSlotOneData] = useState(null);
-  const [slotTwoData, setSlotTwoData] = useState(null);
-  const [slotThreeData, setSlotThreeData] = useState(null);
-  const [slotFourData, setSlotFourData] = useState(null);
-  const [slotFiveData, setSlotFiveData] = useState(null);
-  const [slotSixData, setSlotSixData] = useState(null);
+  const [slotData, setSlotData] = useState({
+    slot1: null,
+    slot2: null,
+    slot3: null,
+    slot4: null,
+    slot5: null,
+    slot6: null
+  });
+  const [takenSkills, setTakenSkills] = useState([]);
+  const [takenMods, setTakenMods] = useState([]);
   const [modalData, setModalData] = useState({
     show: false,
     slot: null
@@ -35,112 +39,51 @@ const SkillsSelector = () => {
   };
 
   const handleSkillSelected = (skillData, slot, imageName) => {
+    if (![1, 2, 3, 4, 5, 6].includes(slot)) {
+      return;
+    }
+
+    const slotName = `slot${slot}`;
+
     setModalData({ show: false, slot: null });
     if (!skillData) {
       return;
     }
-    switch (slot) {
-      case 1:
-        setSlotOneData({ skillData, imageName, activeModifiers: [] });
-        break;
-      case 2:
-        setSlotTwoData({ skillData, imageName, activeModifiers: [] });
-        break;
-      case 3:
-        setSlotThreeData({ skillData, imageName, activeModifiers: [] });
-        break;
-      case 4:
-        setSlotFourData({ skillData, imageName, activeModifiers: [] });
-        break;
-      case 5:
-        setSlotFiveData({ skillData, imageName, activeModifiers: [] });
-        break;
-      case 6:
-        setSlotSixData({ skillData, imageName, activeModifiers: [] });
-        break;
 
-      default:
-        break;
-    }
+    setSlotData({
+      ...slotData,
+      [slotName]: { skillData, imageName, activeModifiers: [] }
+    });
   };
 
   const handleModSelected = (modData, slot) => {
+    if (![1, 2, 3, 4, 5, 6].includes(slot)) {
+      return;
+    }
+
+    const slotName = `slot${slot}`;
     setModModalData({ show: false, slot: null });
-    let newModTotal;
+
     if (!modData) {
       return;
     }
-    switch (slot) {
-      case 1:
-        newModTotal =
-          modData.cost + getTotalModPoints(slotOneData.activeModifiers);
-        if (newModTotal > maxModifierLimit) {
-          return;
-        }
-        setSlotOneData({
-          ...slotOneData,
-          activeModifiers: [...slotOneData.activeModifiers, modData]
-        });
-        break;
-      case 2:
-        newModTotal =
-          modData.count + getTotalModPoints(slotTwoData.activeModifiers);
-        if (newModTotal > maxModifierLimit) {
-          return;
-        }
-        setSlotTwoData({
-          ...slotTwoData,
-          activeModifiers: [...slotTwoData.activeModifiers, modData]
-        });
-        break;
-      case 3:
-        newModTotal =
-          modData.count + getTotalModPoints(slotThreeData.activeModifiers);
-        if (newModTotal > maxModifierLimit) {
-          return;
-        }
-        setSlotThreeData({
-          ...slotThreeData,
-          activeModifiers: [...slotThreeData.activeModifiers, modData]
-        });
-        break;
-      case 4:
-        newModTotal =
-          modData.count + getTotalModPoints(slotFourData.activeModifiers);
-        if (newModTotal > maxModifierLimit) {
-          return;
-        }
-        setSlotFourData({
-          ...slotFourData,
-          activeModifiers: [...slotFourData.activeModifiers, modData]
-        });
-        break;
-      case 5:
-        newModTotal =
-          modData.count + getTotalModPoints(slotFiveData.activeModifiers);
-        if (newModTotal > maxModifierLimit) {
-          return;
-        }
-        setSlotFiveData({
-          ...slotFiveData,
-          activeModifiers: [...slotFiveData.activeModifiers, modData]
-        });
-        break;
-      case 6:
-        newModTotal =
-          modData.count + getTotalModPoints(slotSixData.activeModifiers);
-        if (newModTotal > maxModifierLimit) {
-          return;
-        }
-        setSlotSixData({
-          ...slotSixData,
-          activeModifiers: [...slotSixData.activeModifiers, modData]
-        });
-        break;
 
-      default:
-        break;
+    const newModTotal =
+      modData.cost + getTotalModPoints(slotData[slotName].activeModifiers);
+
+    if (newModTotal > maxModifierLimit) {
+      return;
     }
+
+    const currentActiveModifiers = slotData[slotName].activeModifiers;
+
+    setSlotData({
+      ...slotData,
+      [slotName]: {
+        ...slotData[slotName],
+        activeModifiers: [...currentActiveModifiers, modData]
+      }
+    });
   };
 
   const handleModalData = (shouldShow, slotNum) => {
@@ -159,42 +102,42 @@ const SkillsSelector = () => {
     <div>
       <Row className="skillsSelectorRow">
         <SkillSlot
-          slotData={slotOneData}
+          slotData={slotData["slot1"]}
           slotNumber={1}
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
         />
         <SkillSlot
-          slotData={slotTwoData}
+          slotData={slotData["slot2"]}
           slotNumber={2}
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
         />
         <SkillSlot
-          slotData={slotThreeData}
+          slotData={slotData["slot3"]}
           slotNumber={3}
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
         />
         <SkillSlot
-          slotData={slotFourData}
+          slotData={slotData["slot4"]}
           slotNumber={4}
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
         />
         <SkillSlot
-          slotData={slotFiveData}
+          slotData={slotData["slot5"]}
           slotNumber={5}
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
         />
         <SkillSlot
-          slotData={slotSixData}
+          slotData={slotData["slot6"]}
           slotNumber={6}
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
@@ -207,6 +150,7 @@ const SkillsSelector = () => {
         skillSlot={modalData.slot}
         handleCloseModal={handleCloseModal}
         handleSkillSelected={handleSkillSelected}
+        takenSkills={takenSkills}
       />
       <SkillModModal
         modalVisible={modModalData.show}
@@ -214,6 +158,7 @@ const SkillsSelector = () => {
         handleCloseModal={handleCloseModal}
         handleModSelected={handleModSelected}
         modsList={modModalData.modData}
+        takenMods={takenMods}
       />
     </div>
   );

@@ -76,6 +76,11 @@
   height: 50px;
   width: 95%;
 }
+.takenModalSkillsCol {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 95%;
+}
 
 .modalModsRow {
   max-height: 400px;
@@ -102,6 +107,10 @@
 .spellIconAvatar {
   margin-right: 5px;
 }
+.spellIconAvatarTaken {
+  opacity: 0.2;
+}
+
 .skillBlock {
   height: 105%;
   padding-top: 4px;
@@ -118,6 +127,11 @@
 .skillBlockSelected {
   border-color: #010f16b9;
   background-color: rgba(89, 129, 155, 0.4);
+}
+.skillBlockTaken {
+  border-color: #00090e15;
+  background-color: rgba(11, 31, 44, 0.062);
+  color: #ffffff2f;
 }
 .slotSpellTitle {
   line-height: 30px;

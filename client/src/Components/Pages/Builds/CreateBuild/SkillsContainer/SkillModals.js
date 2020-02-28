@@ -10,7 +10,8 @@ const SkillListModal = props => {
     modalVisible,
     handleCloseModal,
     handleSkillSelected,
-    skillSlot
+    skillSlot,
+    takenSkills
   } = props;
 
   const [skillList] = useState(spellData.skills);
@@ -30,6 +31,7 @@ const SkillListModal = props => {
         onOk={() => handleSkillSelected(skillData, skillSlot, skillSelected)}
         onCancel={handleCloseModal}
         destroyOnClose={true}
+        okButtonProps={{ disabled: !skillData ? true : false }}
       >
         <Row className="modalSkillsRow">
           {skillList.map((skill, index) => {
@@ -38,10 +40,12 @@ const SkillListModal = props => {
             return (
               <Fragment key={index}>
                 <Col
-                  className="modalSkillsCol"
+                  className={"modalSkillsCol"}
                   onClick={() => {
-                    setSkillSelected(imageName);
-                    setSkillData(skill);
+                    if (!takenSkills.includes(skill.name)) {
+                      setSkillSelected(imageName);
+                      setSkillData(skill);
+                    }
                   }}
                   data-tip
                   data-for={imageName}
@@ -49,11 +53,19 @@ const SkillListModal = props => {
                   <Fragment>
                     <div
                       className={`skillBlock ${
-                        imageName === skillSelected ? "skillBlockSelected" : ""
+                        takenSkills.includes(skill.name)
+                          ? "skillBlockTaken"
+                          : imageName === skillSelected
+                          ? "skillBlockSelected"
+                          : ""
                       }`}
                     >
                       <Avatar
-                        className="spellIconAvatar"
+                        className={`spellIconAvatar ${
+                          takenSkills.includes(skill.name)
+                            ? "spellIconAvatarTaken"
+                            : ""
+                        }`}
                         size={40}
                         shape="square"
                         src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
