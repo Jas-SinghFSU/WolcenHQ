@@ -6,6 +6,8 @@ import "./style.css";
 
 const spellData = require("../../../../../Data/Skills.json");
 
+const maxModifierLimit = 10;
+
 const SkillsSectionHeader = () => {
   return (
     <Row className="statPointsRow">
@@ -297,42 +299,74 @@ const SkillsSelector = () => {
 
   const handleModSelected = (modData, slot) => {
     setModModalData({ show: false, slot: null });
-
+    let newModTotal;
     if (!modData) {
       return;
     }
     switch (slot) {
       case 1:
+        newModTotal =
+          modData.cost + getTotalModPoints(slotOneData.activeModifiers);
+        console.log(`modData: ${JSON.stringify(modData, null, 2)}`);
+        console.log(`newModTotal: ${newModTotal}`);
+        if (newModTotal > maxModifierLimit) {
+          return;
+        }
         setSlotOneData({
           ...slotOneData,
           activeModifiers: [...slotOneData.activeModifiers, modData]
         });
         break;
       case 2:
+        newModTotal =
+          modData.count + getTotalModPoints(slotTwoData.activeModifiers);
+        if (newModTotal > maxModifierLimit) {
+          return;
+        }
         setSlotTwoData({
           ...slotTwoData,
           activeModifiers: [...slotTwoData.activeModifiers, modData]
         });
         break;
       case 3:
+        newModTotal =
+          modData.count + getTotalModPoints(slotThreeData.activeModifiers);
+        if (newModTotal > maxModifierLimit) {
+          return;
+        }
         setSlotThreeData({
           ...slotThreeData,
           activeModifiers: [...slotThreeData.activeModifiers, modData]
         });
         break;
       case 4:
+        newModTotal =
+          modData.count + getTotalModPoints(slotFourData.activeModifiers);
+        if (newModTotal > maxModifierLimit) {
+          return;
+        }
         setSlotFourData({
           ...slotFourData,
           activeModifiers: [...slotFourData.activeModifiers, modData]
         });
         break;
       case 5:
+        newModTotal =
+          modData.count + getTotalModPoints(slotFiveData.activeModifiers);
+        if (newModTotal > maxModifierLimit) {
+          return;
+        }
         setSlotFiveData({
           ...slotFiveData,
           activeModifiers: [...slotFiveData.activeModifiers, modData]
         });
         break;
       case 6:
+        newModTotal =
+          modData.count + getTotalModPoints(slotSixData.activeModifiers);
+        if (newModTotal > maxModifierLimit) {
+          return;
+        }
         setSlotSixData({
           ...slotSixData,
           activeModifiers: [...slotSixData.activeModifiers, modData]
@@ -394,12 +428,12 @@ const SkillsSelector = () => {
                     slotOneData.activeModifiers.length > 0
                       ? getTotalModPoints(slotOneData.activeModifiers)
                       : "0"
-                  }/10`}
+                  }/${maxModifierLimit}`}
                 </span>
                 <div className="nolotSpellNameBorder"></div>
               </Col>
-              {slotOneData.activeModifiers.length <= 0 ||
-              getTotalModPoints(slotOneData.activeModifiers) < 10 ? (
+              {getTotalModPoints(slotOneData.activeModifiers) <
+                maxModifierLimit && (
                 <Col
                   span={22}
                   offset={1}
@@ -414,20 +448,19 @@ const SkillsSelector = () => {
                 >
                   <Icon type="plus" />
                 </Col>
-              ) : (
-                slotOneData.activeModifiers.map((mod, index) => {
-                  return (
-                    <Col
-                      key={index}
-                      span={22}
-                      offset={1}
-                      className="selectedModsCol"
-                    >
-                      <span className="selectedModSpan">{mod.name}</span>
-                    </Col>
-                  );
-                })
               )}
+              {slotOneData.activeModifiers.map((mod, index) => {
+                return (
+                  <Col
+                    key={index}
+                    span={22}
+                    offset={1}
+                    className="selectedModsCol"
+                  >
+                    <span className="selectedModSpan">{mod.name}</span>
+                  </Col>
+                );
+              })}
             </Fragment>
           )}
         </Col>
