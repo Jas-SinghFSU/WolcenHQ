@@ -1,6 +1,9 @@
 .sideNavContainer {
+  background: rgb(23, 23, 27);
   height: 100vh;
-  transition: background 0.3s, min-width 0.3s;
+  position: fixed;
+  min-width: inherit !important;
+  max-width: none !important;
 }
 
 .antdMenu {
