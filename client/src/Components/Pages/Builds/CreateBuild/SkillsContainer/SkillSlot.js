@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 import { Avatar, Icon, Col } from "antd";
-
+import { EditOutlined } from "@ant-design/icons";
 import SpellToolTip from "../../../../Shared/SpellTooltip";
+import ReactTooltip from "react-tooltip";
 
 const maxModifierLimit = 10;
 
@@ -11,7 +12,8 @@ const SkillSlot = props => {
     slotNumber,
     handleModalData,
     handleModModalData,
-    getTotalModPoints
+    getTotalModPoints,
+    removeSkillFromSlot
   } = props;
 
   return (
@@ -32,6 +34,7 @@ const SkillSlot = props => {
               src={require(`../../../../../Data/SpellImages/${slotData.imageName}.png`)}
               data-tip
               data-for={slotData.imageName}
+              onClick={() => removeSkillFromSlot(slotNumber)}
             />
             <SpellToolTip
               skillName={slotData.skillData.name}
@@ -55,24 +58,25 @@ const SkillSlot = props => {
                   : "0"
               }/${maxModifierLimit}`}
             </span>
-            <div className="nolotSpellNameBorder"></div>
           </Col>
-          {getTotalModPoints(slotData.activeModifiers) < maxModifierLimit && (
-            <Col
-              span={22}
-              offset={1}
-              className="addModContainer"
-              onClick={() => {
-                handleModModalData(
-                  true,
-                  slotNumber,
-                  slotData.skillData.modifiers
-                );
-              }}
-            >
+          <Col
+            span={22}
+            offset={1}
+            className="addModContainer"
+            onClick={() => {
+              handleModModalData(
+                true,
+                slotNumber,
+                slotData.skillData.modifiers
+              );
+            }}
+          >
+            {slotData.activeModifiers.length > 0 ? (
+              <Icon type="edit" />
+            ) : (
               <Icon type="plus" />
-            </Col>
-          )}
+            )}
+          </Col>
           {slotData.activeModifiers.map((mod, index) => {
             return (
               <Col key={index} span={22} offset={1} className="selectedModsCol">

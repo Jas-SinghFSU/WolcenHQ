@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Fragment } from "react";
 import { Modal, Col, Row, Avatar } from "antd";
+import { maxModifierLimit } from "../../../../Constants/constants";
 
 import SpellToolTip from "../../../../Shared/SpellTooltip";
 
@@ -115,30 +116,49 @@ const SkillModModal = props => {
   } = props;
 
   const [modList, setModList] = useState(modsList);
-  const [modSelected, setModSelected] = useState(null);
-  const [modData, setModData] = useState(null);
+  const [modSelected, setModSelected] = useState([]);
 
   useEffect(() => {
-    setModSelected(null);
-    setModData(null);
+    getModsForSkillSlot();
   }, [modalVisible]);
 
   useEffect(() => {
     setModList(modsList);
   }, [modsList]);
 
-  const isModTaken = modName => {
+  const getModsForSkillSlot = () => {
     if (skillSlot) {
       const slotName = `slot${skillSlot}`;
 
-      const foundMod = slotData[slotName].activeModifiers.filter(mod => {
-        if (modName === mod.name) {
-          return true;
-        }
-      });
-
-      return foundMod.length > 0 ? true : false;
+      setModSelected(slotData[slotName].activeModifiers);
     }
+  };
+
+  const havePoints = modInfo => {
+    if (skillSlot) {
+      const curModTotal = modSelected.reduce((modSum, modData) => {
+        return modData.cost + modSum;
+      }, 0);
+
+      const newModTotal = curModTotal + modInfo.cost;
+      if (newModTotal > maxModifierLimit) {
+        return false;
+      }
+      return true;
+    }
+  };
+
+  const handleModClicked = modInfo => {
+    const modsInList = modSelected.map(mod => mod.name);
+
+    if (modsInList.includes(modInfo.name)) {
+      const newModList = modSelected.filter(mod => mod.name !== modInfo.name);
+
+      setModSelected(newModList);
+      return;
+    }
+    setModSelected([...modSelected, modInfo]);
+    return;
   };
 
   return (
@@ -146,9 +166,8 @@ const SkillModModal = props => {
       <Modal
         title="Choose a modifier"
         visible={modalVisible}
-        onOk={() => handleModSelected(modData, skillSlot)}
+        onOk={() => handleModSelected(modSelected, skillSlot)}
         onCancel={handleCloseModal}
-        okButtonProps={{ disabled: !modData ? true : false }}
         destroyOnClose={true}
       >
         <Row className="modalModsRow">
@@ -159,9 +178,8 @@ const SkillModModal = props => {
                   <Col
                     className="modalModCol"
                     onClick={() => {
-                      if (!isModTaken(mod.name)) {
-                        setModSelected(mod.name);
-                        setModData(mod);
+                      if (havePoints(mod) || modSelected.includes(mod)) {
+                        handleModClicked(mod);
                       }
                     }}
                     data-tip
@@ -170,14 +188,14 @@ const SkillModModal = props => {
                     <Fragment>
                       <div
                         className={`modBlock ${
-                          isModTaken(mod.name)
-                            ? "modBlockDisabled"
-                            : mod.name === modSelected
+                          modSelected.includes(mod)
                             ? "modBlockSelected"
+                            : !havePoints(mod)
+                            ? "modBlockUnavailable"
                             : ""
                         }`}
                       >
-                        <span className="modNameSpan">{mod.name}</span>
+                        <span className="modNameSpan">{`${mod.cost} ${mod.name}`}</span>
                       </div>
                     </Fragment>
                   </Col>

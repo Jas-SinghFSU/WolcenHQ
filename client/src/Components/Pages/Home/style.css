@@ -7,4 +7,9 @@
 .searchBuilds {
   margin-top: 5%;
   max-height: 200px;
+  margin-bottom: 30px;
+}
+
+.topBuildsList {
+  margin-bottom: 30px;
 }

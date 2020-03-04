@@ -3,6 +3,9 @@ const sideNavSize = {
   expanded: 240
 };
 
+const maxModifierLimit = 10;
+
 module.exports = {
-  sideNavSize
+  sideNavSize,
+  maxModifierLimit
 };

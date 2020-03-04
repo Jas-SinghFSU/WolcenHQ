@@ -2,6 +2,7 @@ import React from "react";
 import { Layout, Row, Col } from "antd";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
+import GateOfFatesContainer from "./GateOfFatesContainer/GateOfFatesContainer";
 
 import "./style.css";
 
@@ -26,6 +27,7 @@ const CreateBuild = () => {
             <CreateBuildTitle />
             <StatPointsContainer />
             <SkillsContainer />
+            <GateOfFatesContainer />
           </Col>
         </Row>
       </Content>

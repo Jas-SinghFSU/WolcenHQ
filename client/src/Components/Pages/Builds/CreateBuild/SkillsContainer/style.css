@@ -99,15 +99,27 @@
   border-color: #00090e61;
   background-color: rgba(11, 31, 44, 0.151);
   cursor: pointer;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 .modBlockSelected {
   border-color: #010f16b9;
   background-color: rgba(89, 129, 155, 0.4);
 }
+.modBlockUnavailable {
+  border-color: #f8525228;
+  background-color: rgba(11, 31, 44, 0.151);
+  color: #ffffff5e;
+  cursor: default;
+}
 .modBlockDisabled {
   border-color: #00090e15;
   background-color: rgba(11, 31, 44, 0.062);
   color: #ffffff2f;
+  cursor: default;
 }
 .spellIconAvatar {
   margin-right: 5px;
@@ -124,6 +136,10 @@
   border-color: #00090e61;
   background-color: rgba(11, 31, 44, 0.151);
   cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 .skillNameSpan {
   margin-left: 10px;
@@ -137,6 +153,7 @@
   border-color: #00090e15;
   background-color: rgba(11, 31, 44, 0.062);
   color: #ffffff2f;
+  cursor: default;
 }
 .slotSpellTitle {
   line-height: 30px;
@@ -198,6 +215,11 @@
   margin-top: 7px;
   color: aqua;
 }
+.slotSpellIcon {
+  cursor: url("../../../../../Data/Cursors/trash-bin-full-svgrepo-com.svg"),
+    auto;
+}
+
 .addModContainer {
   color: #a6a6a6;
   font-size: 12px;

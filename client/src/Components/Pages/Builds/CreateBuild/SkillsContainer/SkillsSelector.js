@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Row } from "antd";
 import SkillSlot from "./SkillSlot";
 import { SkillListModal, SkillModModal } from "./SkillModals";
-
-const maxModifierLimit = 10;
+import { maxModifierLimit } from "../../../../Constants/constants";
 
 const SkillsSelector = () => {
   const [slotData, setSlotData] = useState({
@@ -73,13 +72,11 @@ const SkillsSelector = () => {
       return;
     }
 
-    const currentActiveModifiers = slotData[slotName].activeModifiers;
-
     setSlotData({
       ...slotData,
       [slotName]: {
         ...slotData[slotName],
-        activeModifiers: [...currentActiveModifiers, modData]
+        activeModifiers: modData
       }
     });
   };
@@ -96,6 +93,13 @@ const SkillsSelector = () => {
     });
   };
 
+  const removeSkillFromSlot = slotNum => {
+    const slotName = `slot${slotNum}`;
+    setSlotData({
+      ...slotData,
+      [slotName]: null
+    });
+  };
   return (
     <div>
       <Row className="skillsSelectorRow">
@@ -105,6 +109,7 @@ const SkillsSelector = () => {
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
+          removeSkillFromSlot={removeSkillFromSlot}
         />
         <SkillSlot
           slotData={slotData["slot2"]}
@@ -112,6 +117,7 @@ const SkillsSelector = () => {
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
+          removeSkillFromSlot={removeSkillFromSlot}
         />
         <SkillSlot
           slotData={slotData["slot3"]}
@@ -119,6 +125,7 @@ const SkillsSelector = () => {
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
+          removeSkillFromSlot={removeSkillFromSlot}
         />
         <SkillSlot
           slotData={slotData["slot4"]}
@@ -126,6 +133,7 @@ const SkillsSelector = () => {
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
+          removeSkillFromSlot={removeSkillFromSlot}
         />
         <SkillSlot
           slotData={slotData["slot5"]}
@@ -133,6 +141,7 @@ const SkillsSelector = () => {
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
+          removeSkillFromSlot={removeSkillFromSlot}
         />
         <SkillSlot
           slotData={slotData["slot6"]}
@@ -140,6 +149,7 @@ const SkillsSelector = () => {
           handleModalData={handleModalData}
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
+          removeSkillFromSlot={removeSkillFromSlot}
         />
       </Row>
 
@@ -157,6 +167,7 @@ const SkillsSelector = () => {
         handleModSelected={handleModSelected}
         modsList={modModalData.modData}
         slotData={slotData}
+        getTotalModPoints={getTotalModPoints}
       />
     </div>
   );
