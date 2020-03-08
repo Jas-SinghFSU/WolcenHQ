@@ -1,8 +1,10 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
 import { Row, Col, Button } from "antd";
 import ReactTooltip from "react-tooltip";
+import GoF from "./GoF";
 
 import "./style.css";
+import "./gos.css";
 
 const GOFSectionHeader = () => {
   return (
@@ -17,13 +19,17 @@ const GOFSectionHeader = () => {
 const D3Test = () => {
   const [data, setData] = useState([10, 20, 30, 40, 10]);
 
-  useEffect(() => {}, []);
+  const d3Ref = useRef();
+
+  useEffect(() => {
+    new GoF(d3Ref);
+  }, []);
 
   return (
     <Fragment>
       <Row>
         <Col>
-          <svg className="d3svg"></svg>
+          <div ref={d3Ref}></div>
         </Col>
       </Row>
     </Fragment>
