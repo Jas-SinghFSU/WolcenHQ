@@ -6,15 +6,14 @@
     "g": [
       {
         "id": "outerRing",
-        "scope": [
-          {
-            "current": "outerRing"
-          }
-        ],
         "path": [
           {
             "class": "cls-1",
             "d": "M960,1061.5a521.64,521.64,0,0,1-203-1002,521.64,521.64,0,0,1,406,961A518.29,518.29,0,0,1,960,1061.5Z",
+            "transform": "translate(-438 -18)"
+          },
+          {
+            "d": "M960,19a521.14,521.14,0,0,1,202.8,1001.06A521.14,521.14,0,0,1,757.2,59.94,517.68,517.68,0,0,1,960,19m0-1C671.71,18,438,251.71,438,540s233.71,522,522,522,522-233.71,522-522S1248.29,18,960,18Z",
             "transform": "translate(-438 -18)"
           }
         ],
@@ -188,16 +187,18 @@
           {
             "id": "toxic_emanations-p-o",
             "class": "cls-14",
-            "cx": "952.13",
-            "cy": "536.51",
-            "r": "8"
+            "cx": "1390.13",
+            "cy": "554.51",
+            "r": "8",
+            "transform": "translate(72.76 1747.56) rotate(-75.76)"
           },
           {
             "id": "sacrifice_of_flesh-p-o",
             "class": "cls-15",
-            "cx": "989.24",
-            "cy": "646.86",
-            "r": "8"
+            "cx": "1427.24",
+            "cy": "664.86",
+            "r": "8",
+            "transform": "translate(-6.22 1866.73) rotate(-75.76)"
           },
           {
             "id": "unquiet_soil-p-o-2",
@@ -263,9 +264,10 @@
           {
             "id": "undertaker-p-o",
             "class": "cls-24",
-            "cx": "901.87",
-            "cy": "724.24",
-            "r": "8"
+            "cx": "1339.87",
+            "cy": "742.24",
+            "r": "8",
+            "transform": "translate(-176.04 1812.48) rotate(-74.26)"
           },
           {
             "id": "impossible_soul-p-o",
@@ -342,16 +344,18 @@
           {
             "id": "which_time_cannot_heal-p-o",
             "class": "cls-35",
-            "cx": "142.91",
-            "cy": "319.44",
-            "r": "8"
+            "cx": "580.91",
+            "cy": "337.44",
+            "r": "8",
+            "transform": "matrix(0.27, -0.96, 0.96, 0.27, -339.11, 787.39)"
           },
           {
             "id": "dire_juncture-p-o",
             "class": "cls-36",
-            "cx": "55.69",
-            "cy": "396.55",
-            "r": "8"
+            "cx": "493.69",
+            "cy": "414.55",
+            "r": "8",
+            "transform": "matrix(0.27, -0.96, 0.96, 0.27, -476.97, 759.67)"
           },
           {
             "id": "impossible_soul-p-o-2",
@@ -409,9 +413,10 @@
           {
             "id": "captured_velocity-p-o",
             "class": "cls-44",
-            "cx": "92.79",
-            "cy": "507.21",
-            "r": "8"
+            "cx": "530.79",
+            "cy": "525.21",
+            "r": "8",
+            "transform": "translate(-546.54 893.02) rotate(-75.81)"
           },
           {
             "id": "insinuated_bond-p-o",
@@ -479,16 +484,18 @@
           {
             "id": "fatal_pact-p-o",
             "class": "cls-54",
-            "cx": "508.57",
-            "cy": "948.13",
-            "r": "8"
+            "cx": "946.57",
+            "cy": "966.13",
+            "r": "8",
+            "transform": "translate(-660.83 1627.77) rotate(-75.75)"
           },
           {
             "id": "masochistic_effigy-p-o",
             "class": "cls-55",
-            "cx": "398.21",
-            "cy": "985.21",
-            "r": "8"
+            "cx": "836.21",
+            "cy": "1003.21",
+            "r": "8",
+            "transform": "translate(-779.96 1548.76) rotate(-75.75)"
           },
           {
             "id": "insinuated_bond-p-o-2",
@@ -554,9 +561,10 @@
           {
             "id": "occult_affliction-p-o",
             "class": "cls-64",
-            "cx": "320.85",
-            "cy": "897.82",
-            "r": "8"
+            "cx": "758.85",
+            "cy": "915.82",
+            "r": "8",
+            "transform": "translate(-766.6 1379.52) rotate(-74.25)"
           },
           {
             "id": "faith_diversion-p-o",
@@ -631,16 +639,18 @@
           {
             "id": "ancient_fervour-p-o",
             "class": "cls-75",
-            "cx": "724.09",
-            "cy": "144.73",
-            "r": "8"
+            "cx": "1162.09",
+            "cy": "162.73",
+            "r": "8",
+            "transform": "translate(251.51 1218.79) rotate(-74.22)"
           },
           {
             "id": "omnitempest-p-o",
             "class": "cls-76",
-            "cx": "647.1",
-            "cy": "57.4",
-            "r": "8"
+            "cx": "1085.1",
+            "cy": "75.4",
+            "r": "8",
+            "transform": "translate(279.49 1081.12) rotate(-74.22)"
           },
           {
             "id": "faith_diversion-p-o-2",
@@ -698,9 +708,10 @@
           {
             "id": "elementary_destabilization-p-o",
             "class": "cls-84",
-            "cx": "536.39",
-            "cy": "94.35",
-            "r": "8"
+            "cx": "974.39",
+            "cy": "112.35",
+            "r": "8",
+            "transform": "translate(187.27 1010.96) rotate(-75.73)"
           },
           {
             "id": "limited_breath-g-o",
@@ -776,16 +787,18 @@
           {
             "id": "waltzing_smoke-g-o",
             "class": "cls-95",
-            "cx": "866.99",
-            "cy": "866.31",
-            "r": "8"
+            "cx": "1304.99",
+            "cy": "884.31",
+            "r": "8",
+            "transform": "translate(-628.02 366.37) rotate(-15.63)"
           },
           {
             "id": "lifes_first_movement-g-o",
             "class": "cls-96",
-            "cx": "862.1",
-            "cy": "753.04",
-            "r": "8"
+            "cx": "1300.1",
+            "cy": "771.04",
+            "r": "8",
+            "transform": "translate(-597.68 360.86) rotate(-15.63)"
           },
           {
             "id": "scabrous_balance-g-o",
@@ -843,9 +856,10 @@
           {
             "id": "tethered_shade-g-o",
             "class": "cls-104",
-            "cx": "753.8",
-            "cy": "860.7",
-            "r": "8"
+            "cx": "1191.8",
+            "cy": "878.7",
+            "r": "8",
+            "transform": "matrix(0.28, -0.96, 0.96, 0.28, -419.15, 1764.41)"
           },
           {
             "id": "indifference-g-o",
@@ -921,16 +935,18 @@
           {
             "id": "academic_fieldwork-g-o",
             "class": "cls-115",
-            "cx": "181.37",
-            "cy": "180.7",
-            "r": "8"
+            "cx": "619.37",
+            "cy": "198.7",
+            "r": "8",
+            "transform": "translate(-176.31 723.99) rotate(-74.43)"
           },
           {
             "id": "branded_burst-g-o",
             "class": "cls-116",
-            "cx": "294.64",
-            "cy": "185.48",
-            "r": "8"
+            "cx": "732.64",
+            "cy": "203.48",
+            "r": "8",
+            "transform": "translate(-98.04 836.6) rotate(-74.43)"
           },
           {
             "id": "eagerness-g-o",
@@ -988,9 +1004,10 @@
           {
             "id": "blessed_silver-g-o",
             "class": "cls-124",
-            "cx": "187.1",
-            "cy": "293.89",
-            "r": "8"
+            "cx": "625.1",
+            "cy": "311.89",
+            "r": "8",
+            "transform": "translate(-499.86 166.95) rotate(-16.05)"
           },
           {
             "id": "steadied_force-g-o",
@@ -1066,16 +1083,18 @@
           {
             "id": "acute_tracking-g-o",
             "class": "cls-135",
-            "cx": "179.38",
-            "cy": "864.55",
-            "r": "8"
+            "cx": "617.38",
+            "cy": "882.55",
+            "r": "8",
+            "transform": "translate(-654.04 182.3) rotate(-15.72)"
           },
           {
             "id": "wintry_hail-g-o",
             "class": "cls-136",
-            "cx": "292.65",
-            "cy": "859.48",
-            "r": "8"
+            "cx": "730.65",
+            "cy": "877.48",
+            "r": "8",
+            "transform": "translate(-648.43 212.8) rotate(-15.72)"
           },
           {
             "id": "cruel_sting-g-o",
@@ -1133,9 +1152,10 @@
           {
             "id": "hungry_stalactite-g-o",
             "class": "cls-144",
-            "cx": "184.82",
-            "cy": "751.35",
-            "r": "8"
+            "cx": "622.82",
+            "cy": "769.35",
+            "r": "8",
+            "transform": "translate(-725.7 1139.61) rotate(-74.1)"
           },
           {
             "id": "protracted_effort-g-o-2",
@@ -1213,16 +1233,18 @@
           {
             "id": "sparking_dart-g-o",
             "class": "cls-155",
-            "cx": "864.44",
-            "cy": "179.47",
-            "r": "8"
+            "cx": "1302.44",
+            "cy": "197.47",
+            "r": "8",
+            "transform": "translate(316.36 1377.37) rotate(-74.04)"
           },
           {
             "id": "static_transferral-g-o",
             "class": "cls-156",
-            "cx": "858.89",
-            "cy": "292.71",
-            "r": "8"
+            "cx": "1296.89",
+            "cy": "310.71",
+            "r": "8",
+            "transform": "translate(203.47 1454.13) rotate(-74.04)"
           },
           {
             "id": "cautious_effort-g-o",
@@ -1280,9 +1302,10 @@
           {
             "id": "intravenous_neural_cord-g-o",
             "class": "cls-164",
-            "cx": "751.21",
-            "cy": "184.43",
-            "r": "8"
+            "cx": "1189.21",
+            "cy": "202.43",
+            "r": "8",
+            "transform": "translate(-448.51 310.41) rotate(-15.66)"
           },
           {
             "id": "brutal_imposition-r-o",
@@ -1327,44 +1350,53 @@
             "r": "5.5"
           },
           {
-            "id": "disallowing_vessel-r-o",
+            "id": "belligerent_banner-r-o",
             "class": "cls-171",
-            "cx": "985.31",
-            "cy": "397.68",
-            "r": "8"
+            "cx": "1355.89",
+            "cy": "335.25",
+            "r": "8",
+            "transform": "translate(-286.1 1025.23) rotate(-44.35)"
+          },
+          {
+            "id": "disallowing_vessel-r-o",
+            "class": "cls-172",
+            "cx": "1423.31",
+            "cy": "415.68",
+            "r": "8",
+            "transform": "translate(-323.11 1095.27) rotate(-44.35)"
           },
           {
             "id": "brutal_imposition-r-o-2",
             "data-name": "brutal_imposition-r-o",
-            "class": "cls-172",
+            "class": "cls-173",
             "cx": "907.25",
             "cy": "361.29",
             "r": "5.5"
           },
           {
             "id": "bane_of_tyranny-r-o",
-            "class": "cls-173",
+            "class": "cls-174",
             "cx": "933.99",
             "cy": "345.17",
             "r": "5.5"
           },
           {
             "id": "liberty_arisen-r-o",
-            "class": "cls-174",
+            "class": "cls-175",
             "cx": "961.43",
             "cy": "330.24",
             "r": "5.5"
           },
           {
             "id": "landslide-r-o",
-            "class": "cls-175",
+            "class": "cls-176",
             "cx": "977.58",
             "cy": "373.16",
             "r": "5.5"
           },
           {
             "id": "chromatic_idol-r-o",
-            "class": "cls-176",
+            "class": "cls-177",
             "cx": "882.44",
             "cy": "461.24",
             "r": "5.5"
@@ -1372,35 +1404,36 @@
           {
             "id": "futile_endeavour-r-o-2",
             "data-name": "futile_endeavour-r-o",
-            "class": "cls-177",
+            "class": "cls-178",
             "cx": "927.07",
             "cy": "441.96",
             "r": "5.5"
           },
           {
             "id": "elevated_gain-r-o",
-            "class": "cls-178",
+            "class": "cls-179",
             "cx": "945.23",
             "cy": "499.37",
             "r": "5.5"
           },
           {
             "id": "salvatory_anchor-r-o",
-            "class": "cls-179",
-            "cx": "966.85",
-            "cy": "500.96",
-            "r": "8"
+            "class": "cls-180",
+            "cx": "1404.85",
+            "cy": "518.96",
+            "r": "8",
+            "transform": "translate(112.68 1731.13) rotate(-75.5)"
           },
           {
             "id": "obsidian_idol-r-o",
-            "class": "cls-180",
+            "class": "cls-181",
             "cx": "935.71",
             "cy": "468.05",
             "r": "5.5"
           },
           {
             "id": "monolith-r-o",
-            "class": "cls-181",
+            "class": "cls-182",
             "cx": "966.92",
             "cy": "468.73",
             "r": "5.5"
@@ -1408,7 +1441,7 @@
           {
             "id": "liberty_arisen-r-o-2",
             "data-name": "liberty_arisen-r-o",
-            "class": "cls-182",
+            "class": "cls-183",
             "cx": "998.15",
             "cy": "468.02",
             "r": "5.5"
@@ -1416,84 +1449,86 @@
           {
             "id": "landslide-r-o-2",
             "data-name": "landslide-r-o",
-            "class": "cls-183",
+            "class": "cls-184",
             "cx": "990.8",
             "cy": "422.76",
             "r": "5.5"
           },
           {
             "id": "clever_thrust-r-o",
-            "class": "cls-184",
+            "class": "cls-185",
             "cx": "155.36",
             "cy": "583.69",
             "r": "5.5"
           },
           {
             "id": "omnipractice-r-o",
-            "class": "cls-185",
+            "class": "cls-186",
             "cx": "168.1",
             "cy": "616.58",
             "r": "5.5"
           },
           {
             "id": "percussive_rebound-r-o",
-            "class": "cls-186",
+            "class": "cls-187",
             "cx": "73.67",
             "cy": "642.12",
             "r": "5.5"
           },
           {
             "id": "induration-r-o",
-            "class": "cls-187",
+            "class": "cls-188",
             "cx": "109.44",
             "cy": "601.98",
             "r": "5.5"
           },
           {
             "id": "cessation-r-o",
-            "class": "cls-188",
+            "class": "cls-189",
             "cx": "31.93",
             "cy": "653.41",
             "r": "5.5"
           },
           {
             "id": "ingenious_stance-r-o",
-            "class": "cls-189",
+            "class": "cls-190",
             "cx": "92.39",
             "cy": "545.85",
             "r": "5.5"
           },
           {
             "id": "virtuose_stance-r-o",
-            "class": "cls-190",
-            "cx": "70.78",
-            "cy": "544.36",
-            "r": "8"
+            "class": "cls-191",
+            "cx": "508.78",
+            "cy": "562.36",
+            "r": "8",
+            "transform": "translate(-599.41 899.26) rotate(-75.77)"
           },
           {
             "id": "pugilists_momentum-r-o",
-            "class": "cls-191",
-            "cx": "52.8",
-            "cy": "647.77",
-            "r": "8"
+            "class": "cls-192",
+            "cx": "490.8",
+            "cy": "665.77",
+            "r": "8",
+            "transform": "translate(-713.2 959.82) rotate(-75.77)"
           },
           {
             "id": "flurry_of_blows-r-o",
-            "class": "cls-192",
+            "class": "cls-193",
             "cx": "102.07",
             "cy": "577.13",
             "r": "5.5"
           },
           {
             "id": "sundering_precision-r-o",
-            "class": "cls-193",
+            "class": "cls-194",
             "cx": "70.85",
             "cy": "576.59",
             "r": "5.5"
           },
           {
             "id": "high_evasion-r-o",
-            "class": "cls-194",
+            "class": "cls-195",
             "cx": "39.62",
             "cy": "577.45",
             "r": "5.5"
@@ -1501,14 +1536,14 @@
           {
             "id": "clever_thrust-r-o-2",
             "data-name": "clever_thrust-r-o",
-            "class": "cls-195",
+            "class": "cls-196",
             "cx": "47.19",
             "cy": "622.68",
             "r": "5.5"
           },
           {
             "id": "calculated_cleave-r-o",
-            "class": "cls-196",
+            "class": "cls-197",
             "cx": "173.68",
             "cy": "651.14",
             "r": "5.5"
@@ -1516,28 +1551,29 @@
           {
             "id": "induration-r-o-2",
             "data-name": "induration-r-o",
-            "class": "cls-197",
+            "class": "cls-198",
             "cx": "125.4",
             "cy": "656.85",
             "r": "5.5"
           },
           {
             "id": "mathematical_counter-r-o",
-            "class": "cls-198",
+            "class": "cls-199",
             "cx": "138.49",
             "cy": "715.63",
             "r": "5.5"
           },
           {
             "id": "proud_reprisal-r-o",
-            "class": "cls-199",
-            "cx": "120.59",
-            "cy": "727.84",
-            "r": "8"
+            "class": "cls-200",
+            "cx": "558.59",
+            "cy": "745.84",
+            "r": "8",
+            "transform": "translate(-800.87 589.19) rotate(-44.61)"
           },
           {
             "id": "rain_of_hazards-r-o",
-            "class": "cls-200",
+            "class": "cls-201",
             "cx": "131.02",
             "cy": "683.75",
             "r": "5.5"
@@ -1545,14 +1581,14 @@
           {
             "id": "sundering_precision-r-o-2",
             "data-name": "sundering_precision-r-o",
-            "class": "cls-201",
+            "class": "cls-202",
             "cx": "104.36",
             "cy": "700",
             "r": "5.5"
           },
           {
             "id": "poised_barrier-r-o",
-            "class": "cls-202",
+            "class": "cls-203",
             "cx": "76.99",
             "cy": "715.06",
             "r": "5.5"
@@ -1560,128 +1596,131 @@
           {
             "id": "calculated_cleave-r-o-2",
             "data-name": "calculated_cleave-r-o",
-            "class": "cls-203",
+            "class": "cls-204",
             "cx": "60.64",
             "cy": "672.21",
             "r": "5.5"
           },
           {
             "id": "luminous_ritual-r-o",
-            "class": "cls-204",
+            "class": "cls-205",
             "cx": "652.6",
             "cy": "871.29",
             "r": "5.5"
           },
           {
             "id": "light_for_the_blind-r-o",
-            "class": "cls-205",
+            "class": "cls-206",
             "cx": "617.74",
             "cy": "876.71",
             "r": "5.5"
           },
           {
             "id": "armed_sermon-r-o",
-            "class": "cls-206",
+            "class": "cls-207",
             "cx": "642.86",
             "cy": "971.25",
             "r": "5.5"
           },
           {
             "id": "anointment-r-o",
-            "class": "cls-207",
+            "class": "cls-208",
             "cx": "659.73",
             "cy": "920.2",
             "r": "5.5"
           },
           {
             "id": "hallowed_insight-r-o",
-            "class": "cls-208",
+            "class": "cls-209",
             "cx": "653.96",
             "cy": "1013.04",
             "r": "5.5"
           },
           {
             "id": "famed_return-r-o",
-            "class": "cls-209",
+            "class": "cls-210",
             "cx": "716.86",
             "cy": "906.88",
             "r": "5.5"
           },
           {
             "id": "unflagging_prayer-r-o",
-            "class": "cls-210",
-            "cx": "728.96",
-            "cy": "924.86",
-            "r": "8"
+            "class": "cls-211",
+            "cx": "1166.96",
+            "cy": "942.86",
+            "r": "8",
+            "transform": "translate(-764.86 1063.72) rotate(-44.25)"
           },
           {
             "id": "beacon_for_the_lost-r-o",
-            "class": "cls-211",
-            "cx": "648.41",
-            "cy": "992.15",
-            "r": "8"
+            "class": "cls-212",
+            "cx": "1086.41",
+            "cy": "1010.15",
+            "r": "8",
+            "transform": "translate(-834.66 1026.61) rotate(-44.25)"
           },
           {
             "id": "luminous_ritual-r-o-2",
             "data-name": "luminous_ritual-r-o",
-            "class": "cls-212",
+            "class": "cls-213",
             "cx": "684.94",
             "cy": "914.15",
             "r": "5.5"
           },
           {
             "id": "purge-r-o",
-            "class": "cls-213",
+            "class": "cls-214",
             "cx": "701.01",
             "cy": "940.91",
             "r": "5.5"
           },
           {
             "id": "instructed_cure-r-o",
-            "class": "cls-214",
+            "class": "cls-215",
             "cx": "715.89",
             "cy": "968.38",
             "r": "5.5"
           },
           {
             "id": "touch_of_divinity-r-o",
-            "class": "cls-215",
+            "class": "cls-216",
             "cx": "672.94",
             "cy": "984.46",
             "r": "5.5"
           },
           {
             "id": "ladys_hand-r-o",
-            "class": "cls-216",
+            "class": "cls-217",
             "cx": "585.02",
             "cy": "889.17",
             "r": "5.5"
           },
           {
             "id": "final_sacrament-r-o",
-            "class": "cls-217",
+            "class": "cls-218",
             "cx": "604.23",
             "cy": "933.83",
             "r": "5.5"
           },
           {
             "id": "sudden_death-r-o",
-            "class": "cls-218",
+            "class": "cls-219",
             "cx": "546.79",
             "cy": "951.9",
             "r": "5.5"
           },
           {
             "id": "dawns_pious_striker-r-o",
-            "class": "cls-219",
-            "cx": "545.16",
-            "cy": "973.51",
-            "r": "8"
+            "class": "cls-220",
+            "cx": "983.16",
+            "cy": "991.51",
+            "r": "8",
+            "transform": "matrix(0.25, -0.97, 0.97, 0.25, -662.11, 1675.06)"
           },
           {
             "id": "ladys_hand-r-o-2",
             "data-name": "ladys_hand-r-o",
-            "class": "cls-220",
+            "class": "cls-221",
             "cx": "578.13",
             "cy": "942.42",
             "r": "5.5"
@@ -1689,113 +1728,115 @@
           {
             "id": "purge-r-o-2",
             "data-name": "purge-r-o",
-            "class": "cls-221",
+            "class": "cls-222",
             "cx": "577.39",
             "cy": "973.63",
             "r": "5.5"
           },
           {
             "id": "healing_hands-r-o",
-            "class": "cls-222",
+            "class": "cls-223",
             "cx": "578.05",
             "cy": "1004.87",
             "r": "5.5"
           },
           {
             "id": "holy_song-r-o",
-            "class": "cls-223",
+            "class": "cls-224",
             "cx": "623.33",
             "cy": "997.59",
             "r": "5.5"
           },
           {
             "id": "indignation-r-o",
-            "class": "cls-224",
+            "class": "cls-225",
             "cx": "461.8",
             "cy": "160.15",
             "r": "5.5"
           },
           {
             "id": "boiling_point-r-o",
-            "class": "cls-225",
+            "class": "cls-226",
             "cx": "428.84",
             "cy": "172.75",
             "r": "5.5"
           },
           {
             "id": "volcanic_crust-r-o",
-            "class": "cls-226",
+            "class": "cls-227",
             "cx": "403.71",
             "cy": "78.21",
             "r": "5.5"
           },
           {
             "id": "fireproof-r-o",
-            "class": "cls-227",
+            "class": "cls-228",
             "cx": "443.7",
             "cy": "114.15",
             "r": "5.5"
           },
           {
             "id": "nursing_grudges-r-o",
-            "class": "cls-228",
+            "class": "cls-229",
             "cx": "392.6",
             "cy": "36.42",
             "r": "5.5"
           },
           {
             "id": "frenzied_blows-r-o",
-            "class": "cls-229",
+            "class": "cls-230",
             "cx": "499.9",
             "cy": "97.35",
             "r": "5.5"
           },
           {
             "id": "furious_appetite-r-o",
-            "class": "cls-230",
-            "cx": "501.48",
-            "cy": "75.74",
-            "r": "8"
+            "class": "cls-231",
+            "cx": "939.48",
+            "cy": "93.74",
+            "r": "8",
+            "transform": "translate(175.84 961.95) rotate(-75.52)"
           },
           {
             "id": "flurrying_flames-r-o",
-            "class": "cls-231",
-            "cx": "398.15",
-            "cy": "57.32",
-            "r": "8"
+            "class": "cls-232",
+            "cx": "836.15",
+            "cy": "75.32",
+            "r": "8",
+            "transform": "translate(116.18 848.09) rotate(-75.52)"
           },
           {
             "id": "indignation-r-o-2",
             "data-name": "indignation-r-o",
-            "class": "cls-232",
+            "class": "cls-233",
             "cx": "468.58",
             "cy": "106.89",
             "r": "5.5"
           },
           {
             "id": "wyrmbreath-r-o",
-            "class": "cls-233",
+            "class": "cls-234",
             "cx": "469.25",
             "cy": "75.68",
             "r": "5.5"
           },
           {
             "id": "undying_flicker-r-o",
-            "class": "cls-234",
+            "class": "cls-235",
             "cx": "468.53",
             "cy": "44.44",
             "r": "5.5"
           },
           {
             "id": "phlogiston-r-o",
-            "class": "cls-235",
+            "class": "cls-236",
             "cx": "423.27",
             "cy": "51.81",
             "r": "5.5"
           },
           {
             "id": "initial_spark-r-o",
-            "class": "cls-236",
+            "class": "cls-237",
             "cx": "394.26",
             "cy": "178.18",
             "r": "5.5"
@@ -1803,43 +1844,44 @@
           {
             "id": "fireproof-r-o-2",
             "data-name": "fireproof-r-o",
-            "class": "cls-237",
+            "class": "cls-238",
             "cx": "388.76",
             "cy": "129.88",
             "r": "5.5"
           },
           {
             "id": "shattering_strike-r-o",
-            "class": "cls-238",
+            "class": "cls-239",
             "cx": "329.93",
             "cy": "142.71",
             "r": "5.5"
           },
           {
             "id": "blistering_embrace-r-o",
-            "class": "cls-239",
-            "cx": "317.79",
-            "cy": "124.76",
-            "r": "8"
+            "class": "cls-240",
+            "cx": "755.79",
+            "cy": "142.76",
+            "r": "8",
+            "transform": "translate(-322.34 551.19) rotate(-44.37)"
           },
           {
             "id": "initial_spark-r-o-2",
             "data-name": "initial_spark-r-o",
-            "class": "cls-240",
+            "class": "cls-241",
             "cx": "361.83",
             "cy": "135.38",
             "r": "5.5"
           },
           {
             "id": "conflagration-r-o",
-            "class": "cls-241",
+            "class": "cls-242",
             "cx": "345.7",
             "cy": "108.65",
             "r": "5.5"
           },
           {
             "id": "autarchic_mind-r-o",
-            "class": "cls-242",
+            "class": "cls-243",
             "cx": "330.76",
             "cy": "81.21",
             "r": "5.5"
@@ -1847,31 +1889,23 @@
           {
             "id": "phlogiston-r-o-2",
             "data-name": "phlogiston-r-o",
-            "class": "cls-243",
+            "class": "cls-244",
             "cx": "373.68",
             "cy": "65.05",
             "r": "5.5"
-          },
-          {
-            "id": "belligerent_banner-r-o",
-            "class": "cls-244",
-            "cx": "921.57",
-            "cy": "313.95",
-            "r": "8"
           }
         ]
       },
       {
         "id": "middleRing",
-        "scope": [
-          {
-            "current": "middleRing"
-          }
-        ],
         "path": [
           {
             "class": "cls-245",
             "d": "M960,887.5a347.5,347.5,0,1,1,245.73-101.78A345.25,345.25,0,0,1,960,887.5Z",
+            "transform": "translate(-438 -18)"
+          },
+          {
+            "d": "M960,193a346,346,0,1,1-135.06,27.27A344.72,344.72,0,0,1,960,193m0-1c-192.19,0-348,155.8-348,348S767.81,888,960,888s348-155.81,348-348S1152.2,192,960,192Z",
             "transform": "translate(-438 -18)"
           }
         ],
@@ -1997,9 +2031,10 @@
           {
             "id": "feast_for_the_crows-r-m",
             "class": "cls-256",
-            "cx": "688.13",
-            "cy": "808.74",
-            "r": "8"
+            "cx": "1126.13",
+            "cy": "826.74",
+            "r": "8",
+            "transform": "translate(-696.41 995.07) rotate(-43.95)"
           },
           {
             "id": "blood_offering-r-m",
@@ -2083,16 +2118,18 @@
           {
             "id": "bestial_frenzy-r-m",
             "class": "cls-268",
-            "cx": "583.98",
-            "cy": "768.25",
-            "r": "8"
+            "cx": "1021.98",
+            "cy": "786.25",
+            "r": "8",
+            "transform": "translate(-612.8 288.31) rotate(-15.72)"
           },
           {
             "id": "gods_amongst_men-r-m",
             "class": "cls-269",
-            "cx": "542.33",
-            "cy": "775.8",
-            "r": "8"
+            "cx": "980.33",
+            "cy": "793.8",
+            "r": "8",
+            "transform": "translate(-616.41 277.31) rotate(-15.72)"
           },
           {
             "id": "tearer_of_flesh-r-m",
@@ -2176,23 +2213,26 @@
           {
             "id": "manic_slaughter-r-m",
             "class": "cls-281",
-            "cx": "706.01",
-            "cy": "698.63",
-            "r": "8"
+            "cx": "1144.01",
+            "cy": "716.63",
+            "r": "8",
+            "transform": "translate(-615.89 972.27) rotate(-43.76)"
           },
           {
             "id": "blood_reaper-r-m",
             "class": "cls-282",
-            "cx": "733.66",
-            "cy": "666.58",
-            "r": "8"
+            "cx": "1171.66",
+            "cy": "684.58",
+            "r": "8",
+            "transform": "translate(-586.05 982.49) rotate(-43.76)"
           },
           {
             "id": "primordial_insights-p-m",
             "class": "cls-283",
-            "cx": "290.14",
-            "cy": "672.19",
-            "r": "8"
+            "cx": "728.14",
+            "cy": "690.19",
+            "r": "8",
+            "transform": "translate(-713 688.37) rotate(-44.39)"
           },
           {
             "id": "sharp_insight-p-m",
@@ -2249,16 +2289,18 @@
           {
             "id": "insidious_decay-p-m",
             "class": "cls-291",
-            "cx": "324.28",
-            "cy": "710.91",
-            "r": "8"
+            "cx": "762.28",
+            "cy": "728.91",
+            "r": "8",
+            "transform": "translate(-730.34 723.3) rotate(-44.39)"
           },
           {
             "id": "grievous_afflictions-p-m",
             "class": "cls-292",
-            "cx": "355.64",
-            "cy": "811.15",
-            "r": "8"
+            "cx": "793.64",
+            "cy": "829.15",
+            "r": "8",
+            "transform": "translate(-791.52 773.85) rotate(-44.39)"
           },
           {
             "id": "ancient_knowledge-p-m",
@@ -2312,9 +2354,10 @@
           {
             "id": "power_of_the_first_men-p-m",
             "class": "cls-300",
-            "cx": "508.92",
-            "cy": "798.07",
-            "r": "8"
+            "cx": "946.92",
+            "cy": "816.07",
+            "r": "8",
+            "transform": "translate(-515.11 1514.99) rotate(-75.75)"
           },
           {
             "id": "crippling_decrepitude-p-m-2",
@@ -2370,9 +2413,10 @@
           {
             "id": "immortal_offering-p-m",
             "class": "cls-308",
-            "cx": "458.29",
-            "cy": "787.98",
-            "r": "8"
+            "cx": "896.29",
+            "cy": "805.98",
+            "r": "8",
+            "transform": "translate(-543.5 1458.32) rotate(-75.75)"
           },
           {
             "id": "artefact_analysis-p-m",
@@ -2406,9 +2450,10 @@
           {
             "id": "resilience_to_corruption-p-m",
             "class": "cls-313",
-            "cx": "534.49",
-            "cy": "248.24",
-            "r": "8"
+            "cx": "972.49",
+            "cy": "266.24",
+            "r": "8",
+            "transform": "translate(36.7 1125.07) rotate(-75.73)"
           },
           {
             "id": "magical_mastery-p-m-3",
@@ -2466,16 +2511,18 @@
           {
             "id": "faith_leech-p-m",
             "class": "cls-321",
-            "cx": "585.12",
-            "cy": "258.35",
-            "r": "8"
+            "cx": "1023.12",
+            "cy": "276.35",
+            "r": "8",
+            "transform": "translate(65.05 1181.75) rotate(-75.73)"
           },
           {
             "id": "reining_in_the_darkness-p-m",
             "class": "cls-322",
-            "cx": "687.56",
-            "cy": "235.18",
-            "r": "8"
+            "cx": "1125.56",
+            "cy": "253.18",
+            "r": "8",
+            "transform": "translate(164.69 1263.57) rotate(-75.73)"
           },
           {
             "id": "ancient_trinket-p-m-2",
@@ -2534,9 +2581,10 @@
           {
             "id": "duty_to_exterminate-p-m",
             "class": "cls-330",
-            "cx": "753.15",
-            "cy": "374.33",
-            "r": "8"
+            "cx": "1191.15",
+            "cy": "392.33",
+            "r": "8",
+            "transform": "translate(-372.72 926.77) rotate(-44.37)"
           },
           {
             "id": "sharp_insight-p-m-4",
@@ -2593,9 +2641,10 @@
           {
             "id": "residual_energy-p-m",
             "class": "cls-338",
-            "cx": "719.03",
-            "cy": "335.6",
-            "r": "8"
+            "cx": "1157.03",
+            "cy": "353.6",
+            "r": "8",
+            "transform": "translate(-355.36 891.86) rotate(-44.37)"
           },
           {
             "id": "twisted_obligation-p-m",
@@ -2652,9 +2701,10 @@
           {
             "id": "kingless_aegis-r-m",
             "class": "cls-346",
-            "cx": "356.82",
-            "cy": "235.34",
-            "r": "8"
+            "cx": "794.82",
+            "cy": "253.34",
+            "r": "8",
+            "transform": "translate(-388.53 610.01) rotate(-44.37)"
           },
           {
             "id": "unorthodox_technique-r-m",
@@ -2739,16 +2789,18 @@
           {
             "id": "retaliator-r-m",
             "class": "cls-358",
-            "cx": "461.26",
-            "cy": "275.07",
-            "r": "8"
+            "cx": "899.26",
+            "cy": "293.07",
+            "r": "8",
+            "transform": "translate(-484.02 243.5) rotate(-16.14)"
           },
           {
             "id": "selfless_courage-r-m",
             "class": "cls-359",
-            "cx": "502.86",
-            "cy": "267.22",
-            "r": "8"
+            "cx": "940.86",
+            "cy": "285.22",
+            "r": "8",
+            "transform": "matrix(0.96, -0.28, 0.28, 0.96, -480.2, 254.76)"
           },
           {
             "id": "regal_blessing-r-m",
@@ -2832,16 +2884,18 @@
           {
             "id": "sacred_oath-r-m",
             "class": "cls-371",
-            "cx": "339.75",
-            "cy": "345.58",
-            "r": "8"
+            "cx": "777.75",
+            "cy": "363.58",
+            "r": "8",
+            "transform": "translate(-471.42 626.82) rotate(-44.18)"
           },
           {
             "id": "blessed_manna-r-m",
             "class": "cls-372",
-            "cx": "312.33",
-            "cy": "377.83",
-            "r": "8"
+            "cx": "750.33",
+            "cy": "395.83",
+            "r": "8",
+            "transform": "translate(-501.65 616.84) rotate(-44.18)"
           },
           {
             "id": "lithe-g-m",
@@ -2867,9 +2921,10 @@
           {
             "id": "phantom_strike-t-g-m",
             "class": "cls-376",
-            "cx": "252.07",
-            "cy": "594.02",
-            "r": "8"
+            "cx": "690.07",
+            "cy": "612.02",
+            "r": "8",
+            "transform": "translate(-669.35 635.99) rotate(-44.18)"
           },
           {
             "id": "strike_like_lightning-g-m",
@@ -2965,31 +3020,35 @@
           {
             "id": "weak_spot_focus-g-m",
             "class": "cls-390",
-            "cx": "326.97",
-            "cy": "549.19",
-            "r": "5.5"
+            "cx": "764.97",
+            "cy": "567.19",
+            "r": "5.5",
+            "transform": "translate(-616.92 675.5) rotate(-44.18)"
           },
           {
             "id": "killer_instinct-g-m",
             "class": "cls-391",
-            "cx": "330.83",
-            "cy": "569.22",
-            "r": "5.5"
+            "cx": "768.83",
+            "cy": "587.22",
+            "r": "5.5",
+            "transform": "translate(-629.78 683.86) rotate(-44.18)"
           },
           {
             "id": "killer_instinct-g-m-2",
             "data-name": "killer_instinct-g-m",
             "class": "cls-392",
-            "cx": "336.87",
-            "cy": "589.26",
-            "r": "5.5"
+            "cx": "774.87",
+            "cy": "607.26",
+            "r": "5.5",
+            "transform": "translate(-642.05 693.73) rotate(-44.18)"
           },
           {
             "id": "merciless_lethality-g-m",
             "class": "cls-393",
-            "cx": "345.07",
-            "cy": "608.32",
-            "r": "8"
+            "cx": "783.07",
+            "cy": "626.32",
+            "r": "8",
+            "transform": "translate(-653.01 704.84) rotate(-44.18)"
           },
           {
             "id": "clandestine_execution-g-m",
@@ -3001,9 +3060,10 @@
           {
             "id": "slipping_shadow-g-m",
             "class": "cls-395",
-            "cx": "251.75",
-            "cy": "449.09",
-            "r": "8"
+            "cx": "689.75",
+            "cy": "467.09",
+            "r": "8",
+            "transform": "translate(-568.44 594.77) rotate(-44.18)"
           },
           {
             "id": "shoot_to_kill-3-g-m",
@@ -3130,30 +3190,34 @@
           {
             "id": "swiftness-2-g-m",
             "class": "cls-413",
-            "cx": "715.81",
-            "cy": "549.11",
-            "r": "5.5"
+            "cx": "1153.81",
+            "cy": "567.11",
+            "r": "5.5",
+            "transform": "translate(-494.98 981.4) rotate(-45.82)"
           },
           {
             "id": "deadly_aim-3-g-m",
             "class": "cls-414",
-            "cx": "711.94",
-            "cy": "569.14",
-            "r": "5.5"
+            "cx": "1149.94",
+            "cy": "587.14",
+            "r": "5.5",
+            "transform": "translate(-510.52 984.7) rotate(-45.82)"
           },
           {
             "id": "deadly_aim-2-g-m",
             "class": "cls-415",
-            "cx": "705.91",
-            "cy": "589.18",
-            "r": "5.5"
+            "cx": "1143.91",
+            "cy": "607.18",
+            "r": "5.5",
+            "transform": "translate(-526.72 986.45) rotate(-45.82)"
           },
           {
             "id": "come_what_may-g-m",
             "class": "cls-416",
-            "cx": "697.7",
-            "cy": "608.24",
-            "r": "8"
+            "cx": "1135.7",
+            "cy": "626.24",
+            "r": "8",
+            "transform": "translate(-542.88 986.34) rotate(-45.82)"
           },
           {
             "id": "archions_teachings-g-m",
@@ -3195,9 +3259,10 @@
           {
             "id": "persistence_hunting-g-m",
             "class": "cls-422",
-            "cx": "790.99",
-            "cy": "593.58",
-            "r": "8"
+            "cx": "1228.99",
+            "cy": "611.58",
+            "r": "8",
+            "transform": "translate(-504.09 1048.8) rotate(-45.82)"
           },
           {
             "id": "body_and_mind-g-m-2",
@@ -3218,26 +3283,29 @@
           {
             "id": "meditative_focus-g-m",
             "class": "cls-425",
-            "cx": "790.07",
-            "cy": "449.87",
-            "r": "8"
+            "cx": "1228.07",
+            "cy": "467.87",
+            "r": "8",
+            "transform": "translate(-401.3 1004.58) rotate(-45.82)"
           }
         ]
       },
       {
         "id": "innerRing",
-        "scope": [
-          {
-            "current": "innerRing"
-          }
-        ],
         "circle": [
+          {
+            "class": "cls-426",
+            "cx": "521.99",
+            "cy": "521.99",
+            "r": "173.5"
+          },
           {
             "id": "nimble-g",
             "class": "cls-428",
-            "cx": "452.13",
-            "cy": "576.12",
-            "r": "5.5"
+            "cx": "890.13",
+            "cy": "594.12",
+            "r": "5.5",
+            "transform": "translate(-600.29 770.34) rotate(-44.18)"
           },
           {
             "id": "adept-2-p",
@@ -3326,16 +3394,18 @@
           {
             "id": "attrition_strategist-p",
             "class": "cls-441",
-            "cx": "642.48",
-            "cy": "525.27",
-            "r": "8"
+            "cx": "1080.48",
+            "cy": "543.27",
+            "r": "8",
+            "transform": "translate(-489.42 951.16) rotate(-47.31)"
           },
           {
             "id": "thirst_for_knowledge-p",
             "class": "cls-442",
-            "cx": "655.84",
-            "cy": "445.48",
-            "r": "8"
+            "cx": "1093.84",
+            "cy": "463.48",
+            "r": "8",
+            "transform": "translate(-426.46 935.29) rotate(-47.31)"
           },
           {
             "id": "heightened_concentration-p",
@@ -3347,9 +3417,10 @@
           {
             "id": "purifiers_will-p",
             "class": "cls-444",
-            "cx": "588.57",
-            "cy": "407.53",
-            "r": "8"
+            "cx": "1026.57",
+            "cy": "425.53",
+            "r": "8",
+            "transform": "translate(-420.23 873.63) rotate(-47.31)"
           },
           {
             "id": "hardy-p",
@@ -3410,177 +3481,202 @@
           {
             "id": "backline_raider-g",
             "class": "cls-453",
-            "cx": "455.92",
-            "cy": "637.72",
-            "r": "8"
+            "cx": "893.92",
+            "cy": "655.72",
+            "r": "8",
+            "transform": "translate(-642.14 790.4) rotate(-44.18)"
           },
           {
             "id": "pinch_runner-g",
             "class": "cls-454",
-            "cx": "522.42",
-            "cy": "676.22",
-            "r": "8"
+            "cx": "960.42",
+            "cy": "694.22",
+            "r": "8",
+            "transform": "translate(-650.17 847.63) rotate(-44.18)"
           },
           {
             "id": "calculated_skirmish-g",
             "class": "cls-455",
-            "cx": "490.92",
-            "cy": "669.85",
-            "r": "5.5"
+            "cx": "928.92",
+            "cy": "687.85",
+            "r": "5.5",
+            "transform": "translate(-654.64 823.87) rotate(-44.18)"
           },
           {
             "id": "refined_technique-2-g",
             "class": "cls-456",
-            "cx": "503.03",
-            "cy": "577.29",
-            "r": "5.5"
+            "cx": "941.03",
+            "cy": "595.29",
+            "r": "5.5",
+            "transform": "translate(-586.71 806.14) rotate(-44.18)"
           },
           {
             "id": "refined_technique-g",
             "class": "cls-457",
-            "cx": "507.2",
-            "cy": "549.04",
-            "r": "5.5"
+            "cx": "945.2",
+            "cy": "567.04",
+            "r": "5.5",
+            "transform": "translate(-565.85 801.06) rotate(-44.18)"
           },
           {
             "id": "quick_minded-g",
             "class": "cls-458",
-            "cx": "480.36",
-            "cy": "594.57",
-            "r": "5.5"
+            "cx": "918.36",
+            "cy": "612.57",
+            "r": "5.5",
+            "transform": "translate(-605.17 795.23) rotate(-44.18)"
           },
           {
             "id": "blitz_fighting-g",
             "class": "cls-459",
-            "cx": "456.99",
-            "cy": "608.12",
-            "r": "5.5"
+            "cx": "894.99",
+            "cy": "626.12",
+            "r": "5.5",
+            "transform": "translate(-621.22 782.77) rotate(-44.18)"
           },
           {
             "id": "celerity-g",
             "class": "cls-460",
-            "cx": "478.05",
-            "cy": "620.38",
-            "r": "5.5"
+            "cx": "916.05",
+            "cy": "638.38",
+            "r": "5.5",
+            "transform": "translate(-623.8 800.92) rotate(-44.18)"
           },
           {
             "id": "precise_strikes-2-g",
             "class": "cls-461",
-            "cx": "499.5",
-            "cy": "618.02",
-            "r": "5.5"
+            "cx": "937.5",
+            "cy": "636.02",
+            "r": "5.5",
+            "transform": "translate(-616.1 815.2) rotate(-44.18)"
           },
           {
             "id": "slippery-g",
             "class": "cls-462",
-            "cx": "522.51",
-            "cy": "635.23",
-            "r": "5.5"
+            "cx": "960.51",
+            "cy": "653.23",
+            "r": "5.5",
+            "transform": "translate(-621.58 836.1) rotate(-44.18)"
           },
           {
             "id": "endurance_training-g",
             "class": "cls-463",
-            "cx": "522.42",
-            "cy": "654.51",
-            "r": "5.5"
+            "cx": "960.42",
+            "cy": "672.51",
+            "r": "5.5",
+            "transform": "translate(-635.04 841.49) rotate(-44.18)"
           },
           {
             "id": "precise_strikes-g",
             "class": "cls-464",
-            "cx": "443.54",
-            "cy": "659.07",
-            "r": "5.5"
+            "cx": "881.54",
+            "cy": "677.07",
+            "r": "5.5",
+            "transform": "translate(-660.52 787.81) rotate(-44.18)"
           },
           {
             "id": "covert_operative-g",
             "class": "cls-465",
-            "cx": "588.77",
-            "cy": "636.73",
-            "r": "8"
+            "cx": "1026.77",
+            "cy": "654.73",
+            "r": "8",
+            "transform": "translate(-603.89 882.7) rotate(-44.18)"
           },
           {
             "id": "high_adrenaline-g",
             "class": "cls-466",
-            "cx": "554.24",
-            "cy": "669.36",
-            "r": "5.5"
+            "cx": "992.24",
+            "cy": "687.36",
+            "r": "5.5",
+            "transform": "translate(-636.39 867.86) rotate(-44.18)"
           },
           {
             "id": "resilient-2-g",
             "class": "cls-467",
-            "cx": "540.81",
-            "cy": "576.99",
-            "r": "5.5"
+            "cx": "978.81",
+            "cy": "594.99",
+            "r": "5.5",
+            "transform": "translate(-575.82 832.38) rotate(-44.18)"
           },
           {
             "id": "resilient-g",
             "class": "cls-468",
-            "cx": "536.24",
-            "cy": "549.04",
-            "r": "5.5"
+            "cx": "974.24",
+            "cy": "567.04",
+            "r": "5.5",
+            "transform": "translate(-557.63 821.29) rotate(-44.18)"
           },
           {
             "id": "evasive_manoeuvers-g",
             "class": "cls-469",
-            "cx": "563.72",
-            "cy": "593.94",
-            "r": "5.5"
+            "cx": "1001.72",
+            "cy": "611.94",
+            "r": "5.5",
+            "transform": "translate(-581.15 853.14) rotate(-44.18)"
           },
           {
             "id": "unyielding-g",
             "class": "cls-470",
-            "cx": "591.22",
-            "cy": "575.07",
-            "r": "5.5"
+            "cx": "1029.22",
+            "cy": "593.07",
+            "r": "5.5",
+            "transform": "translate(-560.22 866.97) rotate(-44.18)"
           },
           {
             "id": "flexible-g",
             "class": "cls-471",
-            "cx": "587.37",
-            "cy": "607.15",
-            "r": "5.5"
+            "cx": "1025.37",
+            "cy": "625.15",
+            "r": "5.5",
+            "transform": "translate(-583.67 873.36) rotate(-44.18)"
           },
           {
             "id": "enduring-g",
             "class": "cls-472",
-            "cx": "566.4",
-            "cy": "619.71",
-            "r": "5.5"
+            "cx": "1004.4",
+            "cy": "637.71",
+            "r": "5.5",
+            "transform": "translate(-598.35 862.3) rotate(-44.18)"
           },
           {
             "id": "chemically_empowered_metabolism-2-g",
             "class": "cls-473",
-            "cx": "544.92",
-            "cy": "618.02",
-            "r": "5.5"
+            "cx": "982.92",
+            "cy": "636.02",
+            "r": "5.5",
+            "transform": "translate(-603.25 846.85) rotate(-44.18)"
           },
           {
             "id": "quick_draw-g",
             "class": "cls-474",
-            "cx": "522.42",
-            "cy": "597.67",
-            "r": "5.5"
+            "cx": "960.42",
+            "cy": "615.67",
+            "r": "5.5",
+            "transform": "translate(-595.43 825.41) rotate(-44.18)"
           },
           {
             "id": "chemically_empowered_metabolism-g",
             "class": "cls-475",
-            "cx": "601.46",
-            "cy": "657.9",
-            "r": "5.5"
+            "cx": "1039.46",
+            "cy": "675.9",
+            "r": "5.5",
+            "transform": "translate(-615.05 897.53) rotate(-44.18)"
           },
           {
             "id": "the_wild_card-r",
             "class": "cls-476",
-            "cx": "456.76",
-            "cy": "407.03",
-            "r": "8"
+            "cx": "894.76",
+            "cy": "425.03",
+            "r": "8",
+            "transform": "translate(-188.11 1158.95) rotate(-74.79)"
           },
           {
             "id": "the_heat_of_battle-r",
             "class": "cls-477",
-            "cx": "389.5",
-            "cy": "444.27",
-            "r": "8"
+            "cx": "827.5",
+            "cy": "462.27",
+            "r": "8",
+            "transform": "translate(-273.66 1121.51) rotate(-74.79)"
           },
           {
             "id": "disciplined-2-r",
@@ -3662,9 +3758,10 @@
           {
             "id": "second_wind-r",
             "class": "cls-489",
-            "cx": "389.33",
-            "cy": "521.5",
-            "r": "8"
+            "cx": "827.33",
+            "cy": "539.5",
+            "r": "8",
+            "transform": "translate(-579.99 711.13) rotate(-44.18)"
           },
           {
             "id": "disciplined-r",
@@ -3740,6 +3837,11 @@
         "path": [
           {
             "d": "M960,367a173,173,0,1,1-122.33,50.67A171.86,171.86,0,0,1,960,367m0-1a174,174,0,1,0,174,174A174,174,0,0,0,960,366Z",
+            "transform": "translate(-438 -18)"
+          },
+          {
+            "class": "cls-427",
+            "d": "M960.5,540.5",
             "transform": "translate(-438 -18)"
           }
         ],

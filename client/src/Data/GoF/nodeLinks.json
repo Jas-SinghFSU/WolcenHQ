@@ -1,0 +1,757 @@
+[
+  {
+    "source": "capable-r",
+    "destination": "capable-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "heavy_blows-r",
+    "destination": "heavy_blows-r-2",
+    "isActive": "0"
+  },
+  {
+    "source": "heavy_blows-r-2",
+    "destination": "dauntless-r",
+    "isActive": "0"
+  },
+  {
+    "source": "dauntless-r",
+    "destination": "zealous_might-r",
+    "isActive": "0"
+  },
+  {
+    "source": "heavy_blows-r-2",
+    "destination": "zealous_might-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "zealous_might-2-r",
+    "destination": "zealous_might-r",
+    "isActive": "0"
+  },
+  {
+    "source": "zealous_might-2-r",
+    "destination": "stylish_execution-r",
+    "isActive": "0"
+  },
+  {
+    "source": "stylish_execution-r",
+    "destination": "the_wild_card-r",
+    "isActive": "0"
+  },
+  {
+    "source": "the_wild_card-r",
+    "destination": "supernatural_insights-r",
+    "isActive": "0"
+  },
+  {
+    "source": "supernatural_insights-r",
+    "destination": "deadly-r",
+    "isActive": "0"
+  },
+  {
+    "source": "deadly-r",
+    "destination": "stylish_execution-r",
+    "isActive": "0"
+  },
+  {
+    "source": "zealous_might-2-r",
+    "destination": "celerity-r",
+    "isActive": "0"
+  },
+  {
+    "source": "zealous_might-2-r",
+    "destination": "quick_draw-r",
+    "isActive": "0"
+  },
+  {
+    "source": "celerity-r",
+    "destination": "tenacious-r",
+    "isActive": "0"
+  },
+  {
+    "source": "celerity-r",
+    "destination": "the_heat_of_battle-r",
+    "isActive": "0"
+  },
+  {
+    "source": "the_heat_of_battle-r",
+    "destination": "disciplined-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "the_heat_of_battle-r",
+    "destination": "disciplined-r",
+    "isActive": "0"
+  },
+  {
+    "source": "disciplined-r",
+    "destination": "tenacious-r",
+    "isActive": "0"
+  },
+  {
+    "source": "disciplined-2-r",
+    "destination": "tenacious-r",
+    "isActive": "0"
+  },
+  {
+    "source": "quick_draw-r",
+    "destination": "celerity-r",
+    "isActive": "0"
+  },
+  {
+    "source": "celerity-r",
+    "destination": "pain_resistance_program-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "quick_draw-r",
+    "destination": "pain_resistance_program-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "capable-r",
+    "destination": "quick_draw-r",
+    "isActive": "0"
+  },
+  {
+    "source": "heavy_blows-r",
+    "destination": "quick_draw-r",
+    "isActive": "0"
+  },
+  {
+    "source": "capable-2-r",
+    "destination": "pain_resistance_program-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "capable-2-r",
+    "destination": "unyielding-r",
+    "isActive": "0"
+  },
+  {
+    "source": "unyielding-r",
+    "destination": "pain_resistance_program-r",
+    "isActive": "0"
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "pain_resistance_program-2-r",
+    "isActive": "0"
+  },
+  {
+    "source": "pain_resistance_program-2-r",
+    "destination": "stalwart-r",
+    "isActive": "0"
+  },
+  {
+    "source": "stalwart-r",
+    "destination": "second_wind-r",
+    "isActive": "0"
+  },
+  {
+    "source": "stalwart-r",
+    "destination": "enduring-r",
+    "isActive": "0"
+  },
+  {
+    "source": "enduring-r",
+    "destination": "chemically_empowered_skin-r",
+    "isActive": "0"
+  },
+  {
+    "source": "chemically_empowered_skin-r",
+    "destination": "second_wind-r",
+    "isActive": "0"
+  },
+  {
+    "source": "dauntless-r",
+    "destination": "unyielding-p",
+    "isActive": "0"
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "steadfast-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "steadfast-2-p",
+    "destination": "steadfast-p",
+    "isActive": "0"
+  },
+  {
+    "source": "steadfast-p",
+    "destination": "hardy-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "hardy-2-p",
+    "destination": "hardy-p",
+    "isActive": "0"
+  },
+  {
+    "source": "hardy-2-p",
+    "destination": "unyielding-p",
+    "isActive": "0"
+  },
+  {
+    "source": "unyielding-p",
+    "destination": "steadfast-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "steadfast-p",
+    "destination": "chemically_empowered_brain-p",
+    "isActive": "0"
+  },
+  {
+    "source": "chemically_empowered_brain-p",
+    "destination": "purifiers_will-p",
+    "isActive": "0"
+  },
+  {
+    "source": "purifiers_will-p",
+    "destination": "propaganda_fueled_zeal-p",
+    "isActive": "0"
+  },
+  {
+    "source": "propaganda_fueled_zeal-p",
+    "destination": "heroic_resolve-p",
+    "isActive": "0"
+  },
+  {
+    "source": "heroic_resolve-p",
+    "destination": "chemically_empowered_brain-p",
+    "isActive": "0"
+  },
+  {
+    "source": "hardy-p",
+    "destination": "quick_draw-p",
+    "isActive": "0"
+  },
+  {
+    "source": "quick_draw-p",
+    "destination": "emotional_intelligence-p",
+    "isActive": "0"
+  },
+  {
+    "source": "emotional_intelligence-p",
+    "destination": "increased_awareness-p",
+    "isActive": "0"
+  },
+  {
+    "source": "increased_awareness-p",
+    "destination": "thirst_for_knowledge-p",
+    "isActive": "0"
+  },
+  {
+    "source": "thirst_for_knowledge-p",
+    "destination": "unwavering_dedication-p",
+    "isActive": "0"
+  },
+  {
+    "source": "thirst_for_knowledge-p",
+    "destination": "unwavering_dedication-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "unwavering_dedication-p",
+    "destination": "increased_awareness-p",
+    "isActive": "0"
+  },
+  {
+    "source": "unwavering_dedication-2-p",
+    "destination": "increased_awareness-p",
+    "isActive": "0"
+  },
+  {
+    "source": "emotional_intelligence-p",
+    "destination": "steadfast-p",
+    "isActive": "0"
+  },
+  {
+    "source": "quick_draw-p",
+    "destination": "steadfast-p",
+    "isActive": "0"
+  },
+  {
+    "source": "quick_draw-p",
+    "destination": "heightened_concentration-p",
+    "isActive": "0"
+  },
+  {
+    "source": "heightened_concentration-p",
+    "destination": "heightened_concentration-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "heightened_concentration-2-p",
+    "destination": "adept-p",
+    "isActive": "0"
+  },
+  {
+    "source": "adept-p",
+    "destination": "quick_draw-p",
+    "isActive": "0"
+  },
+  {
+    "source": "adept-p",
+    "destination": "emotional_intelligence-p",
+    "isActive": "0"
+  },
+  {
+    "source": "adept-p",
+    "destination": "physician-p",
+    "isActive": "0"
+  },
+  {
+    "source": "physician-p",
+    "destination": "witchcraft_consultant-p",
+    "isActive": "0"
+  },
+  {
+    "source": "physician-p",
+    "destination": "anatomical_expert-p",
+    "isActive": "0"
+  },
+  {
+    "source": "physician-p",
+    "destination": "attrition_strategist-p",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  },
+  {
+    "source": "",
+    "destination": "",
+    "isActive": "0"
+  }
+]
