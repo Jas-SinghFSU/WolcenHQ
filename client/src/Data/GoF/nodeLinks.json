@@ -1,5 +1,35 @@
 [
   {
+    "source": "root",
+    "destination": "capable-r",
+    "isActive": "0"
+  },
+  {
+    "source": "root",
+    "destination": "heavy_blows-r",
+    "isActive": "0"
+  },
+  {
+    "source": "root",
+    "destination": "hardy-p",
+    "isActive": "0"
+  },
+  {
+    "source": "root",
+    "destination": "heightened_concentration-p",
+    "isActive": "0"
+  },
+  {
+    "source": "root",
+    "destination": "resilient-g",
+    "isActive": "0"
+  },
+  {
+    "source": "root",
+    "destination": "refined_technique-g",
+    "isActive": "0"
+  },
+  {
     "source": "capable-r",
     "destination": "capable-2-r",
     "isActive": "0"
@@ -320,213 +350,213 @@
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "anatomical_expert-p",
+    "destination": "attrition_strategist-p",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "witchcraft_consultant-p",
+    "destination": "attrition_strategist-p",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "adept-2-p",
+    "destination": "determined-p",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "heightened_concentration-2-p",
+    "destination": "determined-p",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "adept-p",
+    "destination": "adept-2-p",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "determined-p",
+    "destination": "unyielding-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "unyielding-g",
+    "destination": "chemically_empowered_metabolism-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "unyielding-g",
+    "destination": "resilient-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "resilient-g",
+    "destination": "resilient-2-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "chemically_empowered_metabolism-2-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "chemically_empowered_metabolism-2-g",
+    "destination": "resilient-2-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "chemically_empowered_metabolism-2-g",
+    "destination": "enduring-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "enduring-g",
+    "destination": "evasive_manoeuvers-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "enduring-g",
+    "destination": "covert_operative-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "covert_operative-g",
+    "destination": "flexible-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "flexible-g",
+    "destination": "evasive_manoeuvers-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "resilient-g",
+    "destination": "quick_draw-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "quick_draw-g",
+    "destination": "slippery-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "slippery-g",
+    "destination": "endurance_training-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "endurance_training-g",
+    "destination": "pinch_runner-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "pinch_runner-g",
+    "destination": "calculated_skirmish-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "pinch_runner-g",
+    "destination": "high_adrenaline-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "calculated_skirmish-g",
+    "destination": "endurance_training-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "high_adrenaline-g",
+    "destination": "endurance_training-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "quick_draw-g",
+    "destination": "refined_technique-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "refined_technique-g",
+    "destination": "refined_technique-2-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "refined_technique-2-g",
+    "destination": "precise_strikes-2-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "chemically_empowered_metabolism-2-g",
+    "destination": "slippery-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "precise_strikes-2-g",
+    "destination": "slippery-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "precise_strikes-2-g",
+    "destination": "celerity-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "celerity-g",
+    "destination": "backline_raider-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "celerity-g",
+    "destination": "quick_minded-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "blitz_fighting-g",
+    "destination": "quick_minded-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "blitz_fighting-g",
+    "destination": "backline_raider-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "precise_strikes-2-g",
+    "destination": "precise_strikes-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "precise_strikes-g",
+    "destination": "nimble-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "nimble-g",
+    "destination": "refined_technique-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "adept-2-p",
+    "destination": "chemically_empowered_metabolism-g",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "precise_strikes-g",
+    "destination": "pain_resistance_program-r",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "spellslinger-p-m",
+    "destination": "hyper_self_awareness-p-m",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "spellslinger-p-m",
+    "destination": "dominator-p-m",
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "dominator-p-m",
+    "destination": "self_reliant-p-m",
     "isActive": "0"
   },
   {
