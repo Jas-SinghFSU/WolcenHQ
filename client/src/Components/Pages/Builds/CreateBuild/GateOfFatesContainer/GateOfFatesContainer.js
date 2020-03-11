@@ -310,7 +310,7 @@ const D3Test = () => {
       // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
       const strokeColor =
         circle.r > 6 && isActive
-          ? "rgb(170, 155, 84)"
+          ? "rgb(255, 252, 100)"
           : circle.r > 6 && !isActive
           ? "#5f4e00"
           : circle.r < 6 && isActive
@@ -353,61 +353,63 @@ const D3Test = () => {
     return (
       <Fragment>
         <Row>
-          <Col>
-            <Button
-              type="primary"
-              style={{ marginLeft: 10 }}
-              onClick={() => {
-                setRotations({
-                  ...rotations,
-                  outer: rotations.outer + 30
-                });
-                resetElements("outer");
-              }}
-            >
-              Outer
-            </Button>
-            <Button
-              type="primary"
-              style={{ marginLeft: 10 }}
-              onClick={() => {
-                setRotations({
-                  ...rotations,
-                  middle: rotations.middle + 60
-                });
-                resetElements("middle");
-              }}
-            >
-              Middle
-            </Button>
-            <Button
-              type="primary"
-              style={{ marginLeft: 10 }}
-              onClick={() => {
-                setRotations({
-                  ...rotations,
-                  inner: rotations.inner + 120
-                });
-                resetElements("middle");
-              }}
-            >
-              Inner
-            </Button>
-            <Button
-              type="primary"
-              style={{ marginLeft: 10 }}
-              onClick={() => {
-                setRotations({
-                  inner: 0,
-                  middle: 0,
-                  outer: 0
-                });
-                resetElements("inner");
-              }}
-            >
-              Reset
-            </Button>
-          </Col>
+          <div style={{ marginBottom: 20 }}>
+            <Col>
+              <Button
+                type="primary"
+                style={{ marginLeft: 10 }}
+                onClick={() => {
+                  setRotations({
+                    ...rotations,
+                    outer: rotations.outer + 30
+                  });
+                  resetElements("outer");
+                }}
+              >
+                Outer
+              </Button>
+              <Button
+                type="primary"
+                style={{ marginLeft: 10 }}
+                onClick={() => {
+                  setRotations({
+                    ...rotations,
+                    middle: rotations.middle + 60
+                  });
+                  resetElements("middle");
+                }}
+              >
+                Middle
+              </Button>
+              <Button
+                type="primary"
+                style={{ marginLeft: 10 }}
+                onClick={() => {
+                  setRotations({
+                    ...rotations,
+                    inner: rotations.inner + 120
+                  });
+                  resetElements("middle");
+                }}
+              >
+                Inner
+              </Button>
+              <Button
+                type="primary"
+                style={{ marginLeft: 10 }}
+                onClick={() => {
+                  setRotations({
+                    inner: 0,
+                    middle: 0,
+                    outer: 0
+                  });
+                  resetElements("inner");
+                }}
+              >
+                Reset
+              </Button>
+            </Col>
+          </div>
           <Col>
             <div ref={d3Ref}>
               <svg width={1044} height={1044} viewBox={"0 0 1044 1044"}>
@@ -477,7 +479,9 @@ const GateOfFatesContainer = () => {
   return (
     <div>
       <GOFSectionHeader />
-      <D3Test />
+      <div style={{ marginTop: 20 }}>
+        <D3Test />
+      </div>
     </div>
   );
 };
