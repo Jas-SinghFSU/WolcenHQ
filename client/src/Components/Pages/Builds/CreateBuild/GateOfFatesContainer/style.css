@@ -5,3 +5,8 @@
   width: 800px;
   height: 740px;
 }
+
+.activeLink {
+  stroke-width: 2px;
+  stroke: white !important;
+}

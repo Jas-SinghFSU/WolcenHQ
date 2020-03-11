@@ -20,7 +20,10 @@ export default class GoF {
   constructor(element) {
     const init = async () => {
       console.log("init");
-      /* Create the SVG canvas */
+
+      /* --------------------------------------*/
+      /* ------- Create the SVG canvas ------- */
+      /* --------------------------------------*/
       const svg = d3
         .select(element.current)
         .append("svg")
@@ -40,6 +43,9 @@ export default class GoF {
         }
       };
 
+      /* ---------------------------------------*/
+      /* Create the hover tooltip for node info */
+      /* ---------------------------------------*/
       let tooltip = d3
         .select(element.current)
         .append("div")
@@ -50,6 +56,9 @@ export default class GoF {
         .style("color", "black")
         .text("a simple tooltip");
 
+      /* -----------------------------------------*/
+      /* --- Construct a map of all the nodes --- */
+      /* -----------------------------------------*/
       const getAllNodes = () => {
         let nodeMap = new Map();
 
@@ -57,6 +66,7 @@ export default class GoF {
           group.circle.forEach(circle => {
             const { cx, cy, r } = circle;
             nodeMap.set(circle.id, {
+              name: circle.id,
               cx,
               cy,
               r,
@@ -70,15 +80,29 @@ export default class GoF {
 
       const allNodes = getAllNodes();
 
+      /* ------------------------------------------*/
+      /* -- Create a svg group for the 3 layers -- */
+      /* ------------------------------------------*/
+
       const gElem = svg
         .selectAll("g")
         .data(svgData.svg.g)
         .join(
-          enter => enter.append("g").attr("id", data => data.id),
+          enter =>
+            enter
+              .append("g")
+              .attr("id", data => data.id)
+              .attr(
+                "style",
+                "transition: all 1s ease 0s; transform-origin: 522px 522px 0px; transform: rotate(0deg);"
+              ),
           update => update.attr("class", "updated"),
           exist => exist.remove()
         );
 
+      /* -----------------------------------------*/
+      /* Append a background rings for each layer */
+      /* -----------------------------------------*/
       const wheelBG = gElem
         .selectAll("image")
         .data(data => data.scope)
@@ -140,41 +164,191 @@ export default class GoF {
           }
         });
 
-      // const lineElem = gElem
-      //   .selectAll("line")
-      //   .data(data => data.line)
-      //   .enter()
-      //   .append("line")
-      //   .attr("class", dataLine => dataLine.class)
-      //   .attr("x1", dataLine => dataLine.x1)
-      //   .attr("y1", dataLine => dataLine.y1)
-      //   .attr("x2", dataLine => dataLine.x2)
-      //   .attr("y2", dataLine => dataLine.y2);
+      /* ---------------------------------------------*/
+      /* -------- Divide node dataset by ring ------- */
+      /* ---------------------------------------------*/
+
+      const innerNodes = new Map();
+      const outerNodes = new Map();
+      const middleNodes = new Map();
+
+      allNodes.forEach((node, key) => {
+        if (node.name.includes("-o")) {
+          outerNodes.set(key, node);
+        } else if (node.name.includes("-m")) {
+          middleNodes.set(key, node);
+        } else {
+          innerNodes.set(key, node);
+        }
+      });
+
+      /* -------------------------------------------*/
+      /* --- Create link elements for each nodes -- */
+      /* -------------------------------------------*/
+      const filteredLinks = filterElem => {
+        if (filterElem === "") {
+          return linkElems.filter(elem => {
+            if (
+              !elem.source.includes("-o") &&
+              !elem.source.includes("-m") &&
+              elem.source !== ""
+            ) {
+              return true;
+            }
+          });
+        } else if (filterElem !== null) {
+          return linkElems.filter(elem => {
+            if (elem.source.includes(filterElem)) {
+              return true;
+            }
+          });
+        } else {
+          return null;
+        }
+      };
+      // const appendLinesToAppropriateScope = (d3Elem, ring) => {
+      //   const nodeMap =
+      //     ring == "outerRing"
+      //       ? outerNodes
+      //       : ring == "innerRing"
+      //       ? innerNodes
+      //       : ring == "middleRing"
+      //       ? middleNodes
+      //       : [];
+      //   if (d3Elem.__data__.current == ring) {
+      //     d3.select(d3Elem)
+      //       .selectAll(null)
+      //       .data(d => {
+      //         console.log(d);
+      //       })
+      //       .enter()
+      //       .append("line")
+      //       .attr("x1", d => {
+      //         if (nodeMap.get(d.source)) {
+      //           return nodeMap.get(d.source).cx || null;
+      //         }
+      //       })
+      //       .attr("y1", d => {
+      //         if (nodeMap.get(d.source))
+      //           return nodeMap.get(d.source).cy || null;
+      //       })
+      //       .attr("x2", d => {
+      //         if (nodeMap.get(d.destination))
+      //           return nodeMap.get(d.destination).cx || null;
+      //       })
+      //       .attr("y2", d => {
+      //         if (nodeMap.get(d.destination))
+      //           return nodeMap.get(d.destination).cy || null;
+      //       })
+      //       .attr("id", d => {
+      //         const link1 = `${d.destination}-${d.source}`;
+      //         const link2 = `${d.source}-${d.destination}`;
+      //         return `${link1} ${link2}`;
+      //       })
+      //       .style("stroke", "grey");
+      //   }
+      // };
 
       const linkElem = gElem
         .selectAll(null)
-        .data(linkElems)
+        .data(data => data.scope)
         .enter()
-        .append("line")
-        .attr("class", dataLine => dataLine.isActive)
-        .attr("x1", dataLine => {
-          if (allNodes.get(dataLine.source))
-            return allNodes.get(dataLine.source).cx;
-        })
-        .attr("y1", dataLine => {
-          if (allNodes.get(dataLine.source))
-            return allNodes.get(dataLine.source).cy;
-        })
-        .attr("x2", dataLine => {
-          if (allNodes.get(dataLine.destination))
-            return allNodes.get(dataLine.destination).cx;
-        })
-        .attr("y2", dataLine => {
-          if (allNodes.get(dataLine.destination))
-            return allNodes.get(dataLine.destination).cy;
-        })
-        .style("stroke", "grey");
+        .each(function(d, i) {
+          d3.select(this)
+            .selectAll(null)
+            .data(d => {
+              console.log(d);
+              const elemFilter =
+                d.current == "outerRing"
+                  ? "-o"
+                  : d.current == "innerRing"
+                  ? ""
+                  : d.current == "middleRing"
+                  ? "-m"
+                  : null;
+              const filteredData = filteredLinks(elemFilter);
+              console.log(filteredData);
+              return filteredData;
+            })
+            .enter()
+            .append("line")
+            .attr("x1", d => {
+              if (allNodes.get(d.source)) {
+                return allNodes.get(d.source).cx || null;
+              }
+            })
+            .attr("y1", d => {
+              if (allNodes.get(d.source))
+                return allNodes.get(d.source).cy || null;
+            })
+            .attr("x2", d => {
+              if (allNodes.get(d.destination))
+                return allNodes.get(d.destination).cx || null;
+            })
+            .attr("y2", d => {
+              if (allNodes.get(d.destination))
+                return allNodes.get(d.destination).cy || null;
+            })
+            .attr("id", d => {
+              const link1 = `${d.destination}-${d.source}`;
+              const link2 = `${d.source}-${d.destination}`;
+              return `${link1} ${link2}`;
+            })
+            .style("stroke", "grey");
+        });
 
+      /* ------------------------------------------*/
+      /* - Define the radial gradients for nodes - */
+      /* ------------------------------------------*/
+
+      const radialGradientRed = svg
+        .append("defs")
+        .append("radialGradient")
+        .attr("id", "radial-gradient-red");
+
+      radialGradientRed
+        .append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", "#7a0000");
+
+      radialGradientRed
+        .append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", "black");
+
+      const radialGradientGreen = svg
+        .append("defs")
+        .append("radialGradient")
+        .attr("id", "radial-gradient-green");
+
+      radialGradientGreen
+        .append("stop")
+        .attr("offset", "1%")
+        .attr("stop-color", "#00540b");
+
+      radialGradientGreen
+        .append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", "black");
+
+      const radialGradientPurple = svg
+        .append("defs")
+        .append("radialGradient")
+        .attr("id", "radial-gradient-purple");
+
+      radialGradientPurple
+        .append("stop")
+        .attr("offset", "1%")
+        .attr("stop-color", "#520082");
+
+      radialGradientPurple
+        .append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", "black");
+
+      /* -----------------------------------------*/
+      /* ----------- Create the nodes ----------- */
+      /* -----------------------------------------*/
       const nodeElem = gElem
         .selectAll("circle")
         .data(data => data.circle)
@@ -188,11 +362,11 @@ export default class GoF {
         .attr("transform", dataNode => dataNode.transform || "none")
         .style("fill", dataNode => {
           if (dataNode.id && dataNode.id.includes("-r")) {
-            return "rgb(57, 0, 0)";
+            return "url(#radial-gradient-red)";
           } else if (dataNode.id && dataNode.id.includes("-g")) {
-            return "#030";
+            return "url(#radial-gradient-green)";
           } else if (dataNode.id && dataNode.id.includes("-p")) {
-            return "#350035";
+            return "url(#radial-gradient-purple)";
           }
         })
         .on("mouseover", function(data) {

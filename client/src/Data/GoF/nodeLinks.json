@@ -335,12 +335,12 @@
     "isActive": "0"
   },
   {
-    "source": "physician-p",
+    "source": "adept-p",
     "destination": "witchcraft_consultant-p",
     "isActive": "0"
   },
   {
-    "source": "physician-p",
+    "source": "adept-p",
     "destination": "anatomical_expert-p",
     "isActive": "0"
   },
@@ -560,8 +560,58 @@
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
+    "source": "nimble-g",
+    "destination": "unyielding-r",
+    "isActive": "0"
+  },
+  {
+    "source": "sharp_insight-p-m-4",
+    "destination": "dominator-p-m",
+    "isActive": "0"
+  },
+  {
+    "source": "strike_like_lightning-p-m-2",
+    "destination": "dominator-p-m",
+    "isActive": "0"
+  },
+  {
+    "source": "dominator-p-m",
+    "destination": "magical_mastery-p-m-3",
+    "isActive": "0"
+  },
+  {
+    "source": "magical_mastery-p-m-3",
+    "destination": "magical_mastery-p-m-5",
+    "isActive": "0"
+  },
+  {
+    "source": "magical_mastery-p-m-5",
+    "destination": "magical_mastery-p-m-4",
+    "isActive": "0"
+  },
+  {
+    "source": "sharp_insight-p-m-4",
+    "destination": "sharp_insight-p-m-6",
+    "isActive": "0"
+  },
+  {
+    "source": "sharp_insight-p-m-6",
+    "destination": "sharp_insight-p-m-5",
+    "isActive": "0"
+  },
+  {
+    "source": "sharp_insight-p-m-5",
+    "destination": "focused-p-m-2",
+    "isActive": "0"
+  },
+  {
+    "source": "magical_mastery-p-m-4",
+    "destination": "focused-p-m-2",
+    "isActive": "0"
+  },
+  {
+    "source": "strike_like_lightning-p-m-2",
+    "destination": "focused-p-m-2",
     "isActive": "0"
   },
   {
@@ -735,53 +785,3248 @@
     "isActive": "0"
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "magical_mastery-p-m-5",
+    "destination": "strike_like_lightning-p-m-2",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "sharp_insight-p-m-6",
+    "destination": "strike_like_lightning-p-m-2",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "focused-p-m-2",
+    "destination": "reining_in_the_darkness-p-m",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "reining_in_the_darkness-p-m",
+    "destination": "self_reliant-p-m-2",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "reining_in_the_darkness-p-m",
+    "destination": "dark_calling-p-m",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "self_reliant-p-m",
+    "destination": "ravenous_magic-p-m",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "ravenous_magic-p-m",
+    "destination": "ravenous_magic-p-m-2",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "ravenous_magic-p-m-2",
+    "destination": "faith_leech-p-m",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "self_reliant-p-m",
+    "destination": "impatient-p-m",
+    "isActive": 0
   },
   {
-    "source": "",
-    "destination": "",
-    "isActive": "0"
+    "source": "impatient-p-m",
+    "destination": "resilience_to_corruption-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "resilience_to_corruption-p-m",
+    "destination": "unholy_dominion-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "resilience_to_corruption-p-m",
+    "destination": "strong_willed-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "resilience_to_corruption-p-m",
+    "destination": "ancient_trinket-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "magical_mastery-p-m-5",
+    "isActive": 0
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "sharp_insight-p-m-6",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "focused-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "focused-p-m-2",
+    "destination": "self_preservation_instinct-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "spellslinger-p-m",
+    "destination": "elemental_manipulation-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "elemental_manipulation-p-m",
+    "destination": "witchcraft_adept-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "witchcraft_adept-p-m",
+    "destination": "residual_energy-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "hyper_self_awareness-p-m",
+    "destination": "duty_to_exterminate-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "duty_to_exterminate-p-m",
+    "destination": "self_preservation_instinct-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "duty_to_exterminate-p-m",
+    "destination": "twisted_obligation-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "duty_to_exterminate-p-m",
+    "destination": "twisted_obligation-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "perseverance-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "brutality-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "brutality-r-m-2",
+    "destination": "one_man_crusade-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "laibonite_discipline-r-m",
+    "destination": "sacred_oath-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "sacred_oath-r-m",
+    "destination": "faith_of_the_kingless-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "blessed_manna-r-m",
+    "destination": "divine_alms-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "divine_alms-r-m",
+    "destination": "holy_gift-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "holy_gift-r-m",
+    "destination": "weap_spot_focus-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "weap_spot_focus-r-m",
+    "destination": "impervious_wall-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "weap_spot_focus-r-m",
+    "destination": "regenerative_body-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "regenerative_body-r-m",
+    "destination": "sacred_oath-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "impervious_wall-r-m",
+    "destination": "strike_like_lightning-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-r-m-2",
+    "destination": "brutality-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "robust-r-m-3",
+    "destination": "strike_like_lightning-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-r-m-2",
+    "destination": "iron_skin-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "iron_skin-r-m",
+    "destination": "brutality-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "brutality-r-m-2",
+    "destination": "robust-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "robust-r-m",
+    "destination": "robust-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "robust-r-m-3",
+    "destination": "robust-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "robust-r-m-2",
+    "destination": "impervious_wall-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "impervious_wall-r-m",
+    "destination": "iron_skin-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "iron_skin-r-m-2",
+    "destination": "iron_skin-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "iron_skin-r-m-3",
+    "destination": "iron_skin-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "iron_skin-r-m-3",
+    "destination": "perseverance-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "robust-r-m-3",
+    "destination": "one_man_crusade-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "brutality-r-m-2",
+    "destination": "kingless_aegis-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "kingless_aegis-r-m",
+    "destination": "regal_blessing-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "kingless_aegis-r-m",
+    "destination": "unorthodox_technique-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "impervious_wall-r-m",
+    "destination": "mighty-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "mighty-r-m",
+    "destination": "none_shall_pass-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "none_shall_pass-r-m",
+    "destination": "perfect_defense-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "perfect_defense-r-m",
+    "destination": "selfless_courage-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "rightful_vengeance-r-m-2",
+    "destination": "retaliator-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "retaliator-r-m",
+    "destination": "rightful_vengeance-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "retaliator-r-m",
+    "destination": "immortal_blood-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "immortal_blood-r-m",
+    "destination": "mighty-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "retaliator-r-m",
+    "destination": "perseverance-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "sacred_oath-r-m",
+    "destination": "one_man_crusade-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "body_and_mind-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "slipping_shadow-g-m",
+    "destination": "escape_artist-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "slipping_shadow-g-m",
+    "destination": "unstoppable_tracker-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "slipping_shadow-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "slipping_shadow-g-m",
+    "destination": "physical_conditioning-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "physical_conditioning-g-m",
+    "destination": "equipment_maintenance-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "equipment_maintenance-g-m",
+    "destination": "serpentine_affinity-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "serpentine_affinity-g-m",
+    "destination": "concentrated_toxins-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "concentrated_toxins-g-m",
+    "destination": "blessing_of_the_jade_legion-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elaborate_flurry-g-m",
+    "destination": "equipment_maintenance-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elaborate_flurry-g-m",
+    "destination": "weak_spot_focus-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "weak_spot_focus-g-m",
+    "destination": "killer_instinct-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "killer_instinct-g-m",
+    "destination": "killer_instinct-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "killer_instinct-g-m-2",
+    "destination": "merciless_lethality-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "weak_spot_focus-g-m",
+    "destination": "mental_fortitude-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "mental_fortitude-g-m",
+    "destination": "phantom_strike-t-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "phantom_strike-t-g-m",
+    "destination": "impeccable_aim-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "phantom_strike-t-g-m",
+    "destination": "killing_lunge-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "hunters_vigor-g-m",
+    "destination": "phantom_strike-t-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "lithe-g-m",
+    "destination": "impeccable_aim-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "lithe-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "clandestine_execution-g-m",
+    "destination": "a_worthy_adversary-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "paranoia-g-m",
+    "destination": "clandestine_execution-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "lithe-g-m",
+    "destination": "clandestine_execution-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-g-m",
+    "destination": "lithe-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elaborate_flurry-g-m",
+    "destination": "strike_like_lightning-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-g-m",
+    "destination": "elusive-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "lithe-g-m",
+    "destination": "elusive-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-g-m-2",
+    "destination": "lithe-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-g-m",
+    "destination": "swiftness-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-g-m-3",
+    "destination": "swiftness-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elaborate_flurry-g-m",
+    "destination": "swiftness-g-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-g-m-3",
+    "destination": "elaborate_flurry-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-g-m",
+    "destination": "elusive-g-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-g-m",
+    "destination": "elusive-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-g-m",
+    "destination": "strike_like_lightning-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-g-m",
+    "destination": "body_and_mind-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "swiftness-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "impeccable_aim-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "primordial_insights-p-m",
+    "destination": "otherworldly_techniques-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "ancient_knowledge-p-m",
+    "destination": "primordial_insights-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "primordial_insights-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "ancient_trinket-p-m",
+    "destination": "primordial_insights-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "tormentor-p-m",
+    "destination": "ancient_trinket-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "clarity_of_mind-p-m",
+    "destination": "tormentor-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "clarity_of_mind-p-m",
+    "destination": "tenacious_afflictions-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "tenacious_afflictions-p-m",
+    "destination": "strong_willed-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "strong_willed-p-m",
+    "destination": "power_of_the_first_men-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "power_of_the_first_men-p-m",
+    "destination": "artefact_analysis-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "enneract_expert-p-m",
+    "destination": "power_of_the_first_men-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "power_of_the_first_men-p-m",
+    "destination": "enfeebling_energy-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "focused-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "focused-p-m",
+    "destination": "protective_aura-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "grievous_afflictions-p-m",
+    "destination": "focused-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "tormentor-p-m-2",
+    "destination": "grievous_afflictions-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "crippling_decrepitude-p-m",
+    "destination": "grievous_afflictions-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "insidious_decay-p-m",
+    "destination": "master_of_curses-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "master_of_curses-p-m-2",
+    "destination": "master_of_curses-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "master_of_curses-p-m",
+    "destination": "tormentor-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "immortal_offering-p-m",
+    "destination": "magical_mastery-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "magical_mastery-p-m-2",
+    "destination": "magical_mastery-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "magical_mastery-p-m",
+    "destination": "tenacious_afflictions-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "clarity_of_mind-p-m",
+    "destination": "strike_like_lightning-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-p-m",
+    "destination": "focused-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-p-m",
+    "destination": "sharp_insight-p-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "lethal_certainty-p-m",
+    "destination": "strike_like_lightning-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "clarity_of_mind-p-m",
+    "destination": "sharp_insight-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "sharp_insight-p-m",
+    "destination": "sharp_insight-p-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "sharp_insight-p-m-3",
+    "destination": "sharp_insight-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "sharp_insight-p-m-2",
+    "destination": "focused-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "focused-p-m",
+    "destination": "incessant_infirmity-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "incessant_infirmity-p-m",
+    "destination": "lethal_certainty-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "lethal_certainty-p-m",
+    "destination": "crippling_decrepitude-p-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "crippling_decrepitude-p-m-2",
+    "destination": "clarity_of_mind-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "sharp_insight-p-m-3",
+    "destination": "protective_aura-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "lethal_certainty-p-m",
+    "destination": "enfeebling_energy-p-m",
+    "isActive": 0
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "blood_rush-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "gods_amongst_men-r-m",
+    "destination": "mystic_potential-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "mystic_potential-r-m",
+    "destination": "primal_power-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "primal_power-r-m",
+    "destination": "cruelty-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "cruelty-r-m",
+    "destination": "master_of_the_frontline-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "master_of_the_frontline-r-m",
+    "destination": "swiftness-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-r-m",
+    "destination": "cannibalistic_savagery-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "cannibalistic_savagery-r-m",
+    "destination": "shredder-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "shredder-r-m",
+    "destination": "blood_reaper-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-r-m",
+    "destination": "impervious-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "impervious-r-m",
+    "destination": "manic_slaughter-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "manic_slaughter-r-m",
+    "destination": "appetite_for_bloodshed-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "unbridled_rage-r-m",
+    "destination": "manic_slaughter-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "brutality-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "brutality-r-m",
+    "destination": "deadly_physicalty-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "manic_slaughter-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "bestial_frenzy-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "bestial_frenzy-r-m",
+    "destination": "battlefield_predator-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "take_all_challengers-r-m",
+    "destination": "bestial_frenzy-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "bestial_frenzy-r-m",
+    "destination": "marked_flesh-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "marked_flesh-r-m",
+    "destination": "cruelty-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "unleashed_power-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "whirlwind_of_steel-r-m-3",
+    "destination": "deadly_physicalty-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "master_of_the_frontline-r-m",
+    "destination": "unleashed_power-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "unleashed_power-r-m-2",
+    "destination": "unleashed_power-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "unleashed_power-r-m-3",
+    "destination": "unleashed_power-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "unleashed_power-r-m",
+    "destination": "brutality-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "brutality-r-m",
+    "destination": "whirlwind_of_steel-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "whirlwind_of_steel-r-m",
+    "destination": "whirlwind_of_steel-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "whirlwind_of_steel-r-m-3",
+    "destination": "whirlwind_of_steel-r-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "whirlwind_of_steel-r-m-2",
+    "destination": "master_of_the_frontline-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "brutality-r-m",
+    "destination": "strike_like_lightning-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-r-m",
+    "destination": "master_of_the_frontline-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "unleashed_power-r-m-3",
+    "destination": "strike_like_lightning-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-r-m",
+    "destination": "whirlwind_of_steel-r-m-3",
+    "isActive": 0
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "body_and_mind-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "safe_from_afar-g-m",
+    "destination": "swift_death-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "swift_death-g-m",
+    "destination": "swift_death-2-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "swift_death-2-g-m",
+    "destination": "puncturing_shot-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "puncturing_shot-g-m",
+    "destination": "unstoppable_flurry-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "unstoppable_flurry-g-m",
+    "destination": "swiftness-2-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "swiftness-2-g-m",
+    "destination": "deadly_aim-3-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "deadly_aim-3-g-m",
+    "destination": "deadly_aim-2-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "deadly_aim-2-g-m",
+    "destination": "come_what_may-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "feast_for_the_crows-r-m",
+    "destination": "brutality-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "blood_offering-r-m",
+    "destination": "feast_for_the_crows-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "feast_for_the_crows-r-m",
+    "destination": "tearer_of_flesh-r-m",
+    "isActive": 0
+  },
+  {
+    "source": "persistence_hunting-g-m",
+    "destination": "overwhelming_barrage-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "persistence_hunting-g-m",
+    "destination": "crippling_assault-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "persistence_hunting-g-m",
+    "destination": "physical_conditioning-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "physical_conditioning-g-m-2",
+    "destination": "swiftness-2-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "unstoppable_flurry-g-m",
+    "destination": "shoot_to_kill-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "shoot_to_kill-g-m",
+    "destination": "shoot_to_kill-3-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "shoot_to_kill-3-g-m",
+    "destination": "shoot_to_kill-2-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "shoot_to_kill-2-g-m",
+    "destination": "lithe-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "lithe-g-m-2",
+    "destination": "elusive-2-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-2-g-m",
+    "destination": "elusive-3-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-3-g-m",
+    "destination": "elusive-g-m-4",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-g-m-4",
+    "destination": "unstoppable_flurry-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "unstoppable_flurry-g-m",
+    "destination": "strike_like_lightning-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-g-m-2",
+    "destination": "lithe-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-3-g-m",
+    "destination": "strike_like_lightning-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "strike_like_lightning-g-m-2",
+    "destination": "shoot_to_kill-3-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "lithe-g-m-2",
+    "destination": "archions_teachings-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "archions_teachings-g-m",
+    "destination": "deadly_aim-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "bullseye-g-m",
+    "destination": "archions_teachings-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "lithe-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "lithe-g-m-2",
+    "destination": "swiftness-g-m-4",
+    "isActive": 0
+  },
+  {
+    "source": "persistence_hunting-g-m",
+    "destination": "body_and_mind-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "meditative_focus-g-m",
+    "destination": "swiftness-g-m-4",
+    "isActive": 0
+  },
+  {
+    "source": "meditative_focus-g-m",
+    "destination": "death_from_afar-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "personal_space-g-m",
+    "destination": "meditative_focus-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "meditative_focus-g-m",
+    "destination": "mental_fortitude-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "mental_fortitude-g-m-2",
+    "destination": "puncturing_shot-g-m",
+    "isActive": 0
+  },
+  {
+    "source": "shoot_to_kill-3-g-m",
+    "destination": "swiftness-g-m-4",
+    "isActive": 0
+  },
+  {
+    "source": "elusive-3-g-m",
+    "destination": "body_and_mind-g-m-2",
+    "isActive": 0
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "swiftness-g-m-4",
+    "isActive": 0
+  },
+  {
+    "source": "blistering_embrace-r-o",
+    "destination": "autarchic_mind-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "autarchic_mind-r-o",
+    "destination": "phlogiston-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "phlogiston-r-o-2",
+    "destination": "flurrying_flames-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "flurrying_flames-r-o",
+    "destination": "phlogiston-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "phlogiston-r-o",
+    "destination": "undying_flicker-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "undying_flicker-r-o",
+    "destination": "furious_appetite-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "volcanic_crust-r-o",
+    "destination": "flurrying_flames-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "flurrying_flames-r-o",
+    "destination": "nursing_grudges-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "blistering_embrace-r-o",
+    "destination": "shattering_strike-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "frenzied_blows-r-o",
+    "destination": "furious_appetite-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "initial_spark-r-o",
+    "destination": "boiling_point-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "boiling_point-r-o",
+    "destination": "indignation-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "indignation-r-o",
+    "destination": "indignation-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "initial_spark-r-o",
+    "destination": "initial_spark-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "initial_spark-r-o-2",
+    "destination": "blistering_embrace-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "blistering_embrace-r-o",
+    "destination": "conflagration-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "conflagration-r-o",
+    "destination": "autarchic_mind-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "conflagration-r-o",
+    "destination": "initial_spark-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "wyrmbreath-r-o",
+    "destination": "indignation-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "wyrmbreath-r-o",
+    "destination": "undying_flicker-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "boiling_point-r-o",
+    "destination": "fireproof-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o",
+    "destination": "volcanic_crust-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "volcanic_crust-r-o",
+    "destination": "fireproof-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o-2",
+    "destination": "boiling_point-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o-2",
+    "destination": "phlogiston-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o",
+    "destination": "phlogiston-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "volcanic_crust-r-o",
+    "destination": "phlogiston-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "volcanic_crust-r-o",
+    "destination": "phlogiston-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o-2",
+    "destination": "conflagration-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o-2",
+    "destination": "autarchic_mind-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "initial_spark-r-o",
+    "destination": "fireproof-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "indignation-r-o",
+    "destination": "fireproof-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o",
+    "destination": "wyrmbreath-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "fireproof-r-o",
+    "destination": "undying_flicker-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "indignation-r-o-2",
+    "destination": "furious_appetite-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "wyrmbreath-r-o",
+    "destination": "furious_appetite-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "audacity_in_descent-p-o",
+    "destination": "audacity_in_descent-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "audacity_in_descent-p-o-2",
+    "destination": "of_squalls_and_fires-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "of_squalls_and_fires-p-o",
+    "destination": "spiralling_field-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "spiralling_field-p-o",
+    "destination": "sparked_repulsion-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "faith_diversion-p-o-2",
+    "destination": "omnitempest-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "omnitempest-p-o",
+    "destination": "tempestuous_shelter-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "tempestuous_shelter-p-o",
+    "destination": "faith_diversion-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "faith_diversion-p-o",
+    "destination": "omnitempest-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "faith_diversion-p-o-2",
+    "destination": "tempestuous_shelter-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "omnitempest-p-o",
+    "destination": "precarious_flesh-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "audacity_in_descent-p-o",
+    "destination": "elementary_destabilization-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "elementary_destabilization-p-o",
+    "destination": "unstable_climate-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "elementary_destabilization-p-o",
+    "destination": "spiralling_field-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "spiralling_field-p-o-2",
+    "destination": "matter_in_dissolution-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "spiralling_field-p-o-2",
+    "destination": "weathered_pavis-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "spiralling_field-p-o-2",
+    "destination": "faith_diversion-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "immolation-p-o",
+    "destination": "faith_diversion-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "immolation-p-o",
+    "destination": "weathered_pavis-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "immolation-p-o",
+    "destination": "crystallization-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "immolation-p-o",
+    "destination": "ancient_fervour-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "ancient_fervour-p-o",
+    "destination": "dual_allegiance-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "ancient_fervour-p-o",
+    "destination": "sparked_repulsion-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "audacity_in_descent-p-o-2",
+    "destination": "weathered_pavis-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "of_squalls_and_fires-p-o",
+    "destination": "weathered_pavis-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "of_squalls_and_fires-p-o",
+    "destination": "weathered_pavis-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "weathered_pavis-p-o",
+    "destination": "spiralling_field-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "audacity_in_descent-p-o",
+    "destination": "matter_in_dissolution-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "matter_in_dissolution-p-o",
+    "destination": "elementary_destabilization-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "matter_in_dissolution-p-o",
+    "destination": "weathered_pavis-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "weathered_pavis-p-o-2",
+    "destination": "tempestuous_shelter-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "tempestuous_shelter-p-o",
+    "destination": "weathered_pavis-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "weathered_pavis-p-o",
+    "destination": "crystallization-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "crystallization-p-o",
+    "destination": "ancient_fervour-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "crystallization-p-o",
+    "destination": "sparked_repulsion-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "weathered_pavis-p-o-2",
+    "destination": "faith_diversion-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "weathered_pavis-p-o",
+    "destination": "faith_diversion-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "pulse_control-g-o",
+    "destination": "intravenous_neural_cord-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "intravenous_neural_cord-g-o",
+    "destination": "shock_invasion-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "intravenous_neural_cord-g-o",
+    "destination": "integrated_immaterial_shields-g-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o-3",
+    "destination": "shock_invasion-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "shock_invasion-g-o",
+    "destination": "pulse_control-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "intravenous_neural_cord-g-o",
+    "destination": "cautious_effort-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o-3",
+    "destination": "particle_fuelled_generator-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "particle_fuelled_generator-g-o-2",
+    "destination": "shock_invasion-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "particle_fuelled_generator-g-o-2",
+    "destination": "pulse_control-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pulse_control-g-o-2",
+    "destination": "pulse_control-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "external_discharge-g-o",
+    "destination": "particle_fuelled_generator-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pulse_control-g-o-2",
+    "destination": "external_discharge-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "electric_power_redirection-g-o-2",
+    "destination": "integrated_immaterial_shields-g-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "electric_power_redirection-g-o",
+    "destination": "sparking_dart-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "sparking_dart-g-o",
+    "destination": "electric_power_redirection-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "stunning_presence-g-o",
+    "destination": "sparking_dart-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "sparking_dart-g-o",
+    "destination": "integrated_immaterial_shields-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o",
+    "destination": "electric_power_redirection-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "electric_power_redirection-g-o",
+    "destination": "integrated_immaterial_shields-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o",
+    "destination": "particle_fuelled_generator-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "particle_fuelled_generator-g-o",
+    "destination": "external_discharge-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o",
+    "destination": "particle_fuelled_generator-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "particle_fuelled_generator-g-o-2",
+    "destination": "electric_power_redirection-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "condensator-g-o-2",
+    "destination": "external_discharge-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "condensator-g-o-2",
+    "destination": "condensator-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "condensator-g-o",
+    "destination": "static_transferral-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "static_transferral-g-o",
+    "destination": "protracted_effort-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "static_transferral-g-o",
+    "destination": "dispassionate_detachment-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "static_transferral-g-o",
+    "destination": "integrated_immaterial_shields-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o-2",
+    "destination": "dispassionate_detachment-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "dispassionate_detachment-g-o",
+    "destination": "condensator-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o-2",
+    "destination": "electric_power_redirection-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "integrated_immaterial_shields-g-o-2",
+    "destination": "particle_fuelled_generator-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "particle_fuelled_generator-g-o",
+    "destination": "dispassionate_detachment-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "condensator-g-o-2",
+    "destination": "particle_fuelled_generator-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "particle_fuelled_generator-g-o",
+    "destination": "electric_power_redirection-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "proud_helm-r-o",
+    "destination": "belligerent_banner-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "belligerent_banner-r-o",
+    "destination": "brutal_imposition-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "bane_of_tyranny-r-o",
+    "destination": "belligerent_banner-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "liberty_arisen-r-o",
+    "destination": "belligerent_banner-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "liberty_arisen-r-o",
+    "destination": "bane_of_tyranny-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "bane_of_tyranny-r-o",
+    "destination": "brutal_imposition-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "brutal_imposition-r-o-2",
+    "destination": "brutal_imposition-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "brutal_imposition-r-o",
+    "destination": "inexorable_vitality-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "inexorable_vitality-r-o",
+    "destination": "chromatic_idol-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "chromatic_idol-r-o",
+    "destination": "obsidian_idol-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "obsidian_idol-r-o",
+    "destination": "monolith-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "monolith-r-o",
+    "destination": "liberty_arisen-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "liberty_arisen-r-o-2",
+    "destination": "salvatory_anchor-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "salvatory_anchor-r-o",
+    "destination": "monolith-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "salvatory_anchor-r-o",
+    "destination": "obsidian_idol-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "salvatory_anchor-r-o",
+    "destination": "elevated_gain-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "liberty_arisen-r-o-2",
+    "destination": "landslide-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "landslide-r-o-2",
+    "destination": "disallowing_vessel-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "disallowing_vessel-r-o",
+    "destination": "landslide-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "landslide-r-o",
+    "destination": "liberty_arisen-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "unsunken-r-o",
+    "destination": "disallowing_vessel-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "secure_parry-r-o",
+    "destination": "disallowing_vessel-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "unsunken-r-o",
+    "destination": "landslide-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "unsunken-r-o",
+    "destination": "landslide-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "unsunken-r-o",
+    "destination": "futile_endeavour-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o-2",
+    "destination": "unsunken-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o",
+    "destination": "inexorable_vitality-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "inexorable_vitality-r-o",
+    "destination": "futile_endeavour-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o",
+    "destination": "landslide-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o-2",
+    "destination": "landslide-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "chromatic_idol-r-o",
+    "destination": "futile_endeavour-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "brutal_imposition-r-o",
+    "destination": "futile_endeavour-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o",
+    "destination": "bane_of_tyranny-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o",
+    "destination": "liberty_arisen-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "monolith-r-o",
+    "destination": "futile_endeavour-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "futile_endeavour-r-o-2",
+    "destination": "liberty_arisen-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "sloughing_skins_of_swarms-p-o",
+    "destination": "sloughing_skins_of_swarms-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "sloughing_skins_of_swarms-p-o-2",
+    "destination": "bog_bodies-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "bog_bodies-p-o",
+    "destination": "muscle_stripped_raw-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "muscle_stripped_raw-p-o-2",
+    "destination": "muscle_stripped_raw-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "search_for_a_dead_sun-p-o",
+    "destination": "remedy_for_hale_health-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "remedy_for_hale_health-p-o",
+    "destination": "heads_hang_low-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "heads_hang_low-p-o-2",
+    "destination": "remedy_for_hale_health-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "remedy_for_hale_health-p-o-2",
+    "destination": "covenant_of_rot-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "sacrifice_of_flesh-p-o",
+    "destination": "endless_litany-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "endless_litany-p-o-3",
+    "destination": "sacrifice_of_flesh-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "endless_litany-p-o-2",
+    "destination": "sacrifice_of_flesh-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "undertaker-p-o",
+    "destination": "sloughing_skins_of_swarms-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "covenant_of_rot-p-o",
+    "destination": "undertaker-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "undertaker-p-o",
+    "destination": "heads_hang_low-p-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "hordes_vitality-p-o",
+    "destination": "undertaker-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "toxic_emanations-p-o",
+    "destination": "muscle_stripped_raw-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "toxic_emanations-p-o",
+    "destination": "search_for_a_dead_sun-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "toxic_emanations-p-o",
+    "destination": "essential_measure-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "toxic_emanations-p-o",
+    "destination": "heads_hang_low-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "muscle_stripped_raw-p-o-2",
+    "destination": "search_for_a_dead_sun-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "search_for_a_dead_sun-p-o",
+    "destination": "heads_hang_low-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "muscle_stripped_raw-p-o",
+    "destination": "remedy_for_hale_health-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "remedy_for_hale_health-p-o",
+    "destination": "heads_hang_low-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "sloughing_skins_of_swarms-p-o",
+    "destination": "covenant_of_rot-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "covenant_of_rot-p-o",
+    "destination": "heads_hang_low-p-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "heads_hang_low-p-o-3",
+    "destination": "remedy_for_hale_health-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "remedy_for_hale_health-p-o-2",
+    "destination": "sloughing_skins_of_swarms-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "bog_bodies-p-o",
+    "destination": "remedy_for_hale_health-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "remedy_for_hale_health-p-o",
+    "destination": "unquiet_soil-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "unquiet_soil-p-o",
+    "destination": "sacrifice_of_flesh-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "sacrifice_of_flesh-p-o",
+    "destination": "unquiet_soil-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "unquiet_soil-p-o-2",
+    "destination": "remedy_for_hale_health-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "remedy_for_hale_health-p-o-2",
+    "destination": "bog_bodies-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "heads_hang_low-p-o-2",
+    "destination": "unquiet_soil-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "heads_hang_low-p-o-2",
+    "destination": "sacrifice_of_flesh-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "heads_hang_low-p-o-2",
+    "destination": "unquiet_soil-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "unquiet_soil-p-o",
+    "destination": "heads_hang_low-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "unquiet_soil-p-o-2",
+    "destination": "heads_hang_low-p-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "veiled_bound-g-o",
+    "destination": "veiled_bound-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "veiled_bound-g-o-2",
+    "destination": "blindfolded_leaps-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "blindfolded_leaps-g-o",
+    "destination": "cutting_adagio-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "cutting_adagio-g-o",
+    "destination": "cutting_adagio-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "showstopper-g-o-2",
+    "destination": "waltzing_smoke-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "waltzing_smoke-g-o",
+    "destination": "showstopper-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "gleam_on_the_breeze-g-o",
+    "destination": "waltzing_smoke-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "waltzing_smoke-g-o",
+    "destination": "protracted_effort-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "scabrous_balance-g-o",
+    "destination": "tethered_shade-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "tethered_shade-g-o",
+    "destination": "saturnalia-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "saturnalia-g-o",
+    "destination": "balanchine_endurance-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "balanchine_endurance-g-o",
+    "destination": "all_the_worlds_a_stage-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "all_the_worlds_a_stage-g-o",
+    "destination": "lifes_first_movement-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "lifes_first_movement-g-o",
+    "destination": "limited_breath-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "blindfolded_leaps-g-o",
+    "destination": "balanchine_endurance-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "balanchine_endurance-g-o-2",
+    "destination": "gleam_on_the_breeze-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "gleam_on_the_breeze-g-o",
+    "destination": "balanchine_endurance-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "balanchine_endurance-g-o",
+    "destination": "blindfolded_leaps-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "veiled_bound-g-o",
+    "destination": "tethered_shade-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "cutting_adagio-g-o",
+    "destination": "lifes_first_movement-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "veiled_bound-g-o",
+    "destination": "saturnalia-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "balanchine_endurance-g-o-2",
+    "destination": "veiled_bound-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "cutting_adagio-g-o-2",
+    "destination": "balanchine_endurance-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "cutting_adagio-g-o",
+    "destination": "all_the_worlds_a_stage-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "tethered_shade-g-o",
+    "destination": "bodies_made_fleeting-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "bodies_made_fleeting-g-o-2",
+    "destination": "showstopper-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "showstopper-g-o",
+    "destination": "bodies_made_fleeting-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "bodies_made_fleeting-g-o",
+    "destination": "lifes_first_movement-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "bodies_made_fleeting-g-o-2",
+    "destination": "balanchine_endurance-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "gleam_on_the_breeze-g-o",
+    "destination": "showstopper-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "showstopper-g-o-2",
+    "destination": "balanchine_endurance-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "bodies_made_fleeting-g-o",
+    "destination": "balanchine_endurance-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "showstopper-g-o",
+    "destination": "gleam_on_the_breeze-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "showstopper-g-o",
+    "destination": "balanchine_endurance-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "bodies_made_fleeting-g-o-2",
+    "destination": "saturnalia-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "bodies_made_fleeting-g-o",
+    "destination": "all_the_worlds_a_stage-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "dawns_pious_striker-r-o",
+    "destination": "ladys_hand-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "ladys_hand-r-o-2",
+    "destination": "ladys_hand-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "ladys_hand-r-o",
+    "destination": "light_for_the_blind-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "light_for_the_blind-r-o",
+    "destination": "luminous_ritual-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "luminous_ritual-r-o",
+    "destination": "luminous_ritual-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "luminous_ritual-r-o-2",
+    "destination": "unflagging_prayer-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "unflagging_prayer-r-o",
+    "destination": "instructed_cure-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "instructed_cure-r-o",
+    "destination": "touch_of_divinity-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "touch_of_divinity-r-o",
+    "destination": "beacon_for_the_lost-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "beacon_for_the_lost-r-o",
+    "destination": "holy_song-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "holy_song-r-o",
+    "destination": "healing_hands-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "healing_hands-r-o",
+    "destination": "dawns_pious_striker-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "dawns_pious_striker-r-o",
+    "destination": "sudden_death-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "unflagging_prayer-r-o",
+    "destination": "famed_return-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "healing_hands-r-o",
+    "destination": "purge-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "purge-r-o-2",
+    "destination": "ladys_hand-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "instructed_cure-r-o",
+    "destination": "purge-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "luminous_ritual-r-o-2",
+    "destination": "purge-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "dawns_pious_striker-r-o",
+    "destination": "purge-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "purge-r-o",
+    "destination": "unflagging_prayer-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "touch_of_divinity-r-o",
+    "destination": "anointment-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "anointment-r-o",
+    "destination": "luminous_ritual-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "holy_song-r-o",
+    "destination": "final_sacrament-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "final_sacrament-r-o",
+    "destination": "ladys_hand-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "final_sacrament-r-o",
+    "destination": "light_for_the_blind-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "light_for_the_blind-r-o",
+    "destination": "anointment-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "anointment-r-o",
+    "destination": "armed_sermon-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "armed_sermon-r-o",
+    "destination": "final_sacrament-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "armed_sermon-r-o",
+    "destination": "beacon_for_the_lost-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "beacon_for_the_lost-r-o",
+    "destination": "hallowed_insight-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "holy_song-r-o",
+    "destination": "armed_sermon-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "touch_of_divinity-r-o",
+    "destination": "armed_sermon-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "final_sacrament-r-o",
+    "destination": "purge-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "final_sacrament-r-o",
+    "destination": "healing_hands-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "anointment-r-o",
+    "destination": "purge-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "anointment-r-o",
+    "destination": "instructed_cure-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_omen-p-o",
+    "destination": "unholy_omen-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_omen-p-o-2",
+    "destination": "guttural_dowry-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "guttural_dowry-p-o",
+    "destination": "his_whispered_lullabies-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "his_whispered_lullabies-p-o",
+    "destination": "his_whispered_lullabies-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "his_whispered_lullabies-p-o-2",
+    "destination": "fatal_pact-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "fatal_pact-p-o",
+    "destination": "wounded_shield-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "fatal_pact-p-o",
+    "destination": "soothing_shade-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_omen-p-o",
+    "destination": "occult_affliction-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "occult_affliction-p-o",
+    "destination": "oath_of_damnation-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "occult_affliction-p-o",
+    "destination": "soothing_shade-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "soothing_shade-p-o-2",
+    "destination": "insinuated_bond-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "insinuated_bond-p-o-2",
+    "destination": "masochistic_effigy-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "masochistic_effigy-p-o",
+    "destination": "insinuated_bond-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "insinuated_bond-p-o",
+    "destination": "soothing_shade-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "ailing_cry-p-o",
+    "destination": "masochistic_effigy-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "masochistic_effigy-p-o",
+    "destination": "soundproof_box-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "soundproof_box-p-o",
+    "destination": "tranquil_in_misery-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "tranquil_in_misery-p-o-2",
+    "destination": "agonizing_ray-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "soundproof_box-p-o",
+    "destination": "tranquil_in_misery-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "tranquil_in_misery-p-o",
+    "destination": "pact_masters_song-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "pact_masters_song-p-o",
+    "destination": "his_whispered_lullabies-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pact_masters_song-p-o",
+    "destination": "fatal_pact-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "agonizing_ray-p-o",
+    "destination": "unholy_omen-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "agonizing_ray-p-o",
+    "destination": "occult_affliction-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "agonizing_ray-p-o",
+    "destination": "soothing_shade-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pact_masters_song-p-o",
+    "destination": "soothing_shade-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "tranquil_in_misery-p-o",
+    "destination": "soothing_shade-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "insinuated_bond-p-o",
+    "destination": "tranquil_in_misery-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "insinuated_bond-p-o-2",
+    "destination": "tranquil_in_misery-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "tranquil_in_misery-p-o-2",
+    "destination": "soothing_shade-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "unholy_omen-p-o-2",
+    "destination": "tranquil_in_misery-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "tranquil_in_misery-p-o-2",
+    "destination": "guttural_dowry-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "guttural_dowry-p-o",
+    "destination": "tranquil_in_misery-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "tranquil_in_misery-p-o",
+    "destination": "his_whispered_lullabies-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "soundproof_box-p-o",
+    "destination": "insinuated_bond-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "insinuated_bond-p-o",
+    "destination": "soundproof_box-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "frostbite-g-o",
+    "destination": "frostbite-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "frostbite-g-o-2",
+    "destination": "implacable_tracker-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "implacable_tracker-g-o",
+    "destination": "pelting_shards-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pelting_shards-g-o-2",
+    "destination": "pelting_shards-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "pelting_shards-g-o",
+    "destination": "wintry_hail-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "wintry_hail-g-o",
+    "destination": "hunter_hunted-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "hunter_hunted-g-o",
+    "destination": "ice_shall_wake-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "ice_shall_wake-g-o",
+    "destination": "acute_tracking-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "acute_tracking-g-o",
+    "destination": "ice_shall_wake-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "ice_shall_wake-g-o-2",
+    "destination": "hunter_hunted-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "hunter_hunted-g-o-2",
+    "destination": "hungry_stalactite-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "hungry_stalactite-g-o",
+    "destination": "frostbite-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "hungry_stalactite-g-o",
+    "destination": "cruel_sting-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "wintry_hail-g-o",
+    "destination": "steadied_force-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "hunter_hunted-g-o-2",
+    "destination": "dream_of_hearths-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "dream_of_hearths-g-o",
+    "destination": "frostbite-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "ice_shall_wake-g-o-2",
+    "destination": "call_of_the_wild-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "call_of_the_wild-g-o-2",
+    "destination": "frostbite-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pelting_shards-g-o",
+    "destination": "traversing_arrowhead-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "traversing_arrowhead-g-o",
+    "destination": "hunter_hunted-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "ice_shall_wake-g-o",
+    "destination": "call_of_the_wild-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "call_of_the_wild-g-o",
+    "destination": "pelting_shards-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "acute_tracking-g-o",
+    "destination": "primeval_awareness-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "primeval_awareness-g-o",
+    "destination": "ice_shall_wake-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "primeval_awareness-g-o",
+    "destination": "ice_shall_wake-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "primeval_awareness-g-o",
+    "destination": "call_of_the_wild-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "primeval_awareness-g-o",
+    "destination": "call_of_the_wild-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "call_of_the_wild-g-o",
+    "destination": "implacable_tracker-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "implacable_tracker-g-o",
+    "destination": "call_of_the_wild-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "call_of_the_wild-g-o-2",
+    "destination": "dream_of_hearths-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "dream_of_hearths-g-o",
+    "destination": "hungry_stalactite-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "call_of_the_wild-g-o",
+    "destination": "traversing_arrowhead-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "traversing_arrowhead-g-o",
+    "destination": "wintry_hail-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "hunter_hunted-g-o-2",
+    "destination": "call_of_the_wild-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "call_of_the_wild-g-o",
+    "destination": "hunter_hunted-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "studied_pursuer-g-o",
+    "destination": "acute_tracking-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "virtuose_stance-r-o",
+    "destination": "flurry_of_blows-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "clever_thrust-r-o",
+    "destination": "flurry_of_blows-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "clever_thrust-r-o",
+    "destination": "omnipractice-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "omnipractice-r-o",
+    "destination": "calculated_cleave-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "calculated_cleave-r-o",
+    "destination": "rain_of_hazards-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "rain_of_hazards-r-o",
+    "destination": "proud_reprisal-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "proud_reprisal-r-o",
+    "destination": "poised_barrier-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "poised_barrier-r-o",
+    "destination": "calculated_cleave-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "calculated_cleave-r-o-2",
+    "destination": "pugilists_momentum-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "pugilists_momentum-r-o",
+    "destination": "clever_thrust-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "clever_thrust-r-o-2",
+    "destination": "high_evasion-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "high_evasion-r-o",
+    "destination": "virtuose_stance-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "virtuose_stance-r-o",
+    "destination": "ingenious_stance-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "proud_reprisal-r-o",
+    "destination": "mathematical_counter-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "clever_thrust-r-o-2",
+    "destination": "percussive_rebound-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "percussive_rebound-r-o",
+    "destination": "induration-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "percussive_rebound-r-o",
+    "destination": "induration-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "percussive_rebound-r-o",
+    "destination": "calculated_cleave-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "pugilists_momentum-r-o",
+    "destination": "percussive_rebound-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "pugilists_momentum-r-o",
+    "destination": "cessation-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "calculated_cleave-r-o-2",
+    "destination": "induration-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "induration-r-o-2",
+    "destination": "omnipractice-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "omnipractice-r-o",
+    "destination": "induration-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "induration-r-o",
+    "destination": "clever_thrust-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "sundering_precision-r-o",
+    "destination": "virtuose_stance-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "sundering_precision-r-o-2",
+    "destination": "proud_reprisal-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "poised_barrier-r-o",
+    "destination": "sundering_precision-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "sundering_precision-r-o-2",
+    "destination": "rain_of_hazards-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "high_evasion-r-o",
+    "destination": "sundering_precision-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "sundering_precision-r-o",
+    "destination": "flurry_of_blows-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "sundering_precision-r-o",
+    "destination": "induration-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "high_evasion-r-o",
+    "destination": "induration-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "poised_barrier-r-o",
+    "destination": "induration-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "induration-r-o-2",
+    "destination": "sundering_precision-r-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "induration-r-o",
+    "destination": "clever_thrust-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "induration-r-o-2",
+    "destination": "calculated_cleave-r-o",
+    "isActive": 0
+  },
+  {
+    "source": "obsolescence-p-o",
+    "destination": "obsolescence-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "obsolescence-p-o-2",
+    "destination": "waning_before_waxing-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "waning_before_waxing-p-o",
+    "destination": "wither_in_dreams-p-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "wither_in_dreams-p-o-3",
+    "destination": "wither_in_dreams-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "wither_in_dreams-p-o",
+    "destination": "temporal_shift-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "temporal_shift-p-o",
+    "destination": "slow_in_slow_out-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "temporal_shift-p-o-2",
+    "destination": "slow_in_slow_out-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "countdown-p-o",
+    "destination": "temporal_shift-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "deferential_wounds-p-o",
+    "destination": "which_time_cannot_heal-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "youth_in_future_tense-p-o",
+    "destination": "which_time_cannot_heal-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "youth_in_future_tense-p-o",
+    "destination": "impossible_soul-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "impossible_soul-p-o",
+    "destination": "dire_juncture-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "dire_juncture-p-o",
+    "destination": "impossible_soul-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "impossible_soul-p-o-2",
+    "destination": "youth_in_future_tense-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "youth_in_future_tense-p-o-2",
+    "destination": "captured_velocity-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "captured_velocity-p-o",
+    "destination": "spared_stock-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "captured_velocity-p-o",
+    "destination": "obsolescence-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "wither_in_dreams-p-o-2",
+    "destination": "which_time_cannot_heal-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "captured_velocity-p-o",
+    "destination": "countdown-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "countdown-p-o",
+    "destination": "obsolescence-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "which_time_cannot_heal-p-o",
+    "destination": "wither_in_dreams-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "wither_in_dreams-p-o",
+    "destination": "wither_in_dreams-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "waning_before_waxing-p-o",
+    "destination": "temporal_shift-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "temporal_shift-p-o",
+    "destination": "wither_in_dreams-p-o-3",
+    "isActive": 0
+  },
+  {
+    "source": "waning_before_waxing-p-o",
+    "destination": "temporal_shift-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "temporal_shift-p-o-2",
+    "destination": "obsolescence-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "slow_in_slow_out-p-o",
+    "destination": "impossible_soul-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "impossible_soul-p-o-2",
+    "destination": "slow_in_slow_out-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "slow_in_slow_out-p-o",
+    "destination": "dire_juncture-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "dire_juncture-p-o",
+    "destination": "practiced_stamina-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "impossible_soul-p-o",
+    "destination": "temporal_shift-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "impossible_soul-p-o-2",
+    "destination": "temporal_shift-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "temporal_shift-p-o-2",
+    "destination": "youth_in_future_tense-p-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "youth_in_future_tense-p-o-2",
+    "destination": "countdown-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "temporal_shift-p-o",
+    "destination": "youth_in_future_tense-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "youth_in_future_tense-p-o",
+    "destination": "wither_in_dreams-p-o",
+    "isActive": 0
+  },
+  {
+    "source": "branded_burst-g-o",
+    "destination": "earthly_ballast-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "earthly_ballast-g-o",
+    "destination": "earthly_ballast-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "earthly_ballast-g-o-2",
+    "destination": "aloof_hunter-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "aloof_hunter-g-o",
+    "destination": "nullifying_point-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "nullifying_point-g-o-2",
+    "destination": "nullifying_point-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "nullifying_point-g-o",
+    "destination": "blessed_silver-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "blessed_silver-g-o",
+    "destination": "the_weight_and_the_force-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "the_weight_and_the_force-g-o-2",
+    "destination": "casters_woe-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "casters_woe-g-o-2",
+    "destination": "academic_fieldwork-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "academic_fieldwork-g-o",
+    "destination": "casters_woe-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "casters_woe-g-o",
+    "destination": "the_weight_and_the_force-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "the_weight_and_the_force-g-o",
+    "destination": "branded_burst-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "elusive_code-g-o",
+    "destination": "academic_fieldwork-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "academic_fieldwork-g-o",
+    "destination": "perilous_load-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "casters_woe-g-o-2",
+    "destination": "elusive_code-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "elusive_code-g-o",
+    "destination": "casters_woe-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "blessed_silver-g-o",
+    "destination": "eagerness-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "branded_burst-g-o",
+    "destination": "indifference-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "branded_burst-g-o",
+    "destination": "arcane_dissolution-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "arcane_dissolution-g-o",
+    "destination": "profane_of_body-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "profane_of_body-g-o-2",
+    "destination": "sin_eater-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "sin_eater-g-o",
+    "destination": "blessed_silver-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "the_weight_and_the_force-g-o-2",
+    "destination": "profane_of_body-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "profane_of_body-g-o-2",
+    "destination": "elusive_code-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "casters_woe-g-o-2",
+    "destination": "profane_of_body-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "elusive_code-g-o",
+    "destination": "profane_of_body-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "profane_of_body-g-o",
+    "destination": "the_weight_and_the_force-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "casters_woe-g-o",
+    "destination": "profane_of_body-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "nullifying_point-g-o",
+    "destination": "sin_eater-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "profane_of_body-g-o-2",
+    "destination": "nullifying_point-g-o-2",
+    "isActive": 0
+  },
+  {
+    "source": "earthly_ballast-g-o-2",
+    "destination": "profane_of_body-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "arcane_dissolution-g-o",
+    "destination": "earthly_ballast-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "profane_of_body-g-o-2",
+    "destination": "aloof_hunter-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "aloof_hunter-g-o",
+    "destination": "profane_of_body-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "the_weight_and_the_force-g-o",
+    "destination": "arcane_dissolution-g-o",
+    "isActive": 0
+  },
+  {
+    "source": "sin_eater-g-o",
+    "destination": "the_weight_and_the_force-g-o-2",
+    "isActive": 0
   }
 ]
