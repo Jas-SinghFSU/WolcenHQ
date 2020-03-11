@@ -259,14 +259,22 @@ const D3Test = () => {
       const link2 = `${pair.source}-${pair.destination}`;
 
       let isActive = false;
+      let isAccessible = false;
 
       if (activePairs.get(link1) || activePairs.get(link2)) {
         isActive = true;
+      } else if (
+        activeNodes.includes(pair.source) ||
+        (activeNodes.includes(pair.destination) && activeNodes.length < 90)
+      ) {
+        isAccessible = true;
       }
 
       return (
         <line
-          className={isActive ? "activeLink" : ""}
+          className={
+            isActive ? "activeLink" : isAccessible ? "accessibleLink" : ""
+          }
           key={`${link1} ${link2}`}
           x1={sourcePoint.cx}
           y1={sourcePoint.cy}
