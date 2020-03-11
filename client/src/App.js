@@ -14,13 +14,15 @@ function App() {
         <div className="contentContainer">
           <SideNavigation />
           <Switch>
-            <div
-              className="pageContentContainer"
-              style={{ width: `calc(100% - ${sideNavSize.expanded}px)` }}
-            >
-              <Route exact path="/" component={Home} />
-              <Route component={Routes} />
-            </div>
+            <Fragment>
+              <div
+                className="pageContentContainer"
+                style={{ width: `calc(100% - ${sideNavSize.expanded}px)` }}
+              >
+                <Route exact path="/" component={Home} />
+                <Route component={Routes} />
+              </div>
+            </Fragment>
           </Switch>
         </div>
       </Fragment>

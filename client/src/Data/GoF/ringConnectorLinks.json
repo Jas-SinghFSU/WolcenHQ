@@ -1,0 +1,182 @@
+[
+  {
+    "source": "steadfast-2-p",
+    "destination": "dominator-p-m",
+    "angle": 0
+  },
+  {
+    "source": "adept-2-p",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": 0
+  },
+  {
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "master_of_the_frontline-r-m",
+    "angle": 0
+  },
+  {
+    "source": "precise_strikes-g",
+    "destination": "clarity_of_mind-p-m",
+    "angle": 0
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "elaborate_flurry-g-m",
+    "angle": 0
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "impervious_wall-r-m",
+    "angle": 0
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "dominator-p-m",
+    "angle": -120
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": -120
+  },
+  {
+    "source": "steadfast-2-p",
+    "destination": "master_of_the_frontline-r-m",
+    "angle": -120
+  },
+  {
+    "source": "adept-2-p",
+    "destination": "clarity_of_mind-p-m",
+    "angle": -120
+  },
+  {
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "elaborate_flurry-g-m",
+    "angle": -120
+  },
+  {
+    "source": "precise_strikes-g",
+    "destination": "impervious_wall-r-m",
+    "angle": -120
+  },
+  {
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "dominator-p-m",
+    "angle": -240
+  },
+  {
+    "source": "precise_strikes-g",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": -240
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "master_of_the_frontline-r-m",
+    "angle": -240
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "clarity_of_mind-p-m",
+    "angle": -240
+  },
+  {
+    "source": "steadfast-2-p",
+    "destination": "elaborate_flurry-g-m",
+    "angle": -240
+  },
+  {
+    "source": "adept-2-p",
+    "destination": "impervious_wall-r-m",
+    "angle": -240
+  },
+  {
+    "source": "steadfast-2-p",
+    "destination": "impervious_wall-r-m",
+    "angle": 60
+  },
+  {
+    "source": "adept-2-p",
+    "destination": "dominator-p-m",
+    "angle": 60
+  },
+  {
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": 60
+  },
+  {
+    "source": "precise_strikes-g",
+    "destination": "master_of_the_frontline-r-m",
+    "angle": 60
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "clarity_of_mind-p-m",
+    "angle": 60
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "elaborate_flurry-g-m",
+    "angle": 60
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "impervious_wall-r-m",
+    "angle": -60
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "dominator-p-m",
+    "angle": -60
+  },
+  {
+    "source": "steadfast-2-p",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": -60
+  },
+  {
+    "source": "adept-2-p",
+    "destination": "master_of_the_frontline-r-m",
+    "angle": -60
+  },
+  {
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "clarity_of_mind-p-m",
+    "angle": -60
+  },
+  {
+    "source": "precise_strikes-g",
+    "destination": "elaborate_flurry-g-m",
+    "angle": -60
+  },
+  {
+    "source": "chemically_empowered_metabolism-g",
+    "destination": "impervious_wall-r-m",
+    "angle": -180
+  },
+  {
+    "source": "precise_strikes-g",
+    "destination": "dominator-p-m",
+    "angle": -180
+  },
+  {
+    "source": "pain_resistance_program-r",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": -180
+  },
+  {
+    "source": "zealous_might-r",
+    "destination": "master_of_the_frontline-r-m",
+    "angle": -180
+  },
+  {
+    "source": "steadfast-2-p",
+    "destination": "clarity_of_mind-p-m",
+    "angle": -180
+  },
+  {
+    "source": "adept-2-p",
+    "destination": "elaborate_flurry-g-m",
+    "angle": -180
+  }
+]

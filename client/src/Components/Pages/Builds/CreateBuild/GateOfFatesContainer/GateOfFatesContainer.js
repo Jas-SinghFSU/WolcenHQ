@@ -1,13 +1,12 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
-import { Row, Col, Button } from "antd";
-import ReactTooltip from "react-tooltip";
-import GoF from "./GoF";
+import { Row, Col, Button, Popover } from "antd";
 
 import "./style.css";
 import "./gof.css";
 
 const svgData = require("../../../../../Data/GoF/output.json");
 const linkElems = require("../../../../../Data/GoF/nodeLinks.json");
+const rcLinks = require("../../../../../Data/GoF/ringConnectorLinks.json");
 
 const outerRingImg = require("../../../../../images/Outer_Ring.png");
 const innerRingImg = require("../../../../../images/Inner_Ring.png");
@@ -25,8 +24,8 @@ const GOFSectionHeader = () => {
 
 const D3Test = () => {
   const [allNodes, setAllNodes] = useState(null);
-  const [nodePairs, setNodePairs] = useState(linkElems);
-  const [svgDom, setSvgDom] = useState(svgData);
+  const [nodePairs] = useState(linkElems);
+  const [svgDom] = useState(svgData);
   const [rotations, setRotations] = useState({
     inner: 0,
     outer: 0,
@@ -34,6 +33,7 @@ const D3Test = () => {
   });
   const [activeNodes, setActiveNodes] = useState([]);
   const [activePairs, setActivePairs] = useState([]);
+  const [innerToMiddle] = useState(rcLinks);
   const d3Ref = useRef();
 
   const ringInner = 350;
@@ -74,7 +74,6 @@ const D3Test = () => {
   };
 
   const handleNodeClick = node => {
-    let canActivate = false;
     const baseNodes = [
       "resilient-g",
       "heightened_concentration-p",
@@ -84,6 +83,14 @@ const D3Test = () => {
       "refined_technique-g"
     ];
 
+    const baseMiddleNodes = [
+      "impervious_wall-r-m",
+      "dominator-p-m",
+      "unstoppable_flurry-g-m",
+      "master_of_the_frontline-r-m",
+      "clarity_of_mind-p-m",
+      "elaborate_flurry-g-m"
+    ];
     const checkIfReachable = elem => {
       let isReachable = false;
       nodePairs.forEach(pair => {
@@ -99,6 +106,7 @@ const D3Test = () => {
       return isReachable;
     };
 
+    /* Handle case for non-transition nodes */
     if (
       baseNodes.includes(node.id) ||
       (checkIfReachable(node.id) && activeNodes.length < 90)
@@ -107,7 +115,51 @@ const D3Test = () => {
         setActiveNodes([...activeNodes, node.id]);
       }
     }
+
+    /* Handle case for inner to middle ring transition */
+    const currentAngleDiff =
+      ((rotations.middle % 360) - (rotations.inner % 360)) % 360;
+    const inverseAngle =
+      currentAngleDiff > 0 ? currentAngleDiff - 360 : 360 - currentAngleDiff;
+    console.log(currentAngleDiff);
+    console.log(inverseAngle);
+
+    if (baseMiddleNodes.includes(node.id)) {
+      const parentForNode = innerToMiddle.filter(link => {
+        if (
+          link.destination === node.id &&
+          (link.angle === currentAngleDiff || link.angle === inverseAngle)
+        ) {
+          return true;
+        }
+      });
+
+      if (activeNodes.includes(parentForNode[0].source)) {
+        setActiveNodes([...activeNodes, node.id]);
+      }
+    }
   };
+
+  const resetElements = scope => {
+    if (scope === "inner") {
+      setActiveNodes([]);
+    } else if (scope === "middle") {
+      let filteredActiveNodes = activeNodes.filter(node => {
+        if (!node.includes("-m") && !node.includes("-m")) {
+          return true;
+        }
+      });
+      setActiveNodes(filteredActiveNodes);
+    } else if (scope === "outer") {
+      let filteredActiveNodes = activeNodes.filter(node => {
+        if (!node.includes("-o")) {
+          return true;
+        }
+      });
+      setActiveNodes(filteredActiveNodes);
+    }
+  };
+
   useEffect(() => {
     // new GoF(d3Ref);
     setAllNodes(getAllNodes());
@@ -158,6 +210,7 @@ const D3Test = () => {
   };
 
   const renderLines = scope => {
+    /* Only render links for node that belong in the current scope (group)*/
     const filteredLinks = filterElem => {
       if (filterElem === "") {
         return nodePairs.filter(elem => {
@@ -191,6 +244,7 @@ const D3Test = () => {
 
     const filteredDataPairs = filteredLinks(elemFilter);
 
+    /* For each of the nodes that belong in the group, generate link if they're pairs */
     return filteredDataPairs.map(pair => {
       const sourceCoords = allNodes && allNodes.get(pair.source);
       const destCoords = allNodes && allNodes.get(pair.destination);
@@ -214,14 +268,14 @@ const D3Test = () => {
 
       return (
         <line
-          className={isActive && "activeLink"}
+          className={isActive ? "activeLink" : ""}
           key={`${link1} ${link2}`}
           x1={sourcePoint.cx}
           y1={sourcePoint.cy}
           x2={destinationPoint.cx}
           y2={destinationPoint.cy}
           id={`${link1} ${link2}`}
-          style={{ stroke: "grey" }}
+          style={{ stroke: "grey", transition: "all 0.3s" }}
         />
       );
     });
@@ -246,7 +300,7 @@ const D3Test = () => {
         ? `url(#radial-gradient-purple${isActive === true ? "-active" : ""})`
         : "";
 
-      const strokeWidth = isActive ? 2 : 0.75;
+      const strokeWidth = isActive ? 1.5 : 0.75;
       // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
       const strokeColor =
         circle.r > 6 && isActive
@@ -259,19 +313,32 @@ const D3Test = () => {
           ? "#707070"
           : "#707070";
       return (
-        <circle
+        <Popover
+          placement="topRight"
           key={circle.id}
-          id={circle.id}
-          cx={circle.cx}
-          cy={circle.cy}
-          r={circle.r}
-          fill={fillGradient}
-          style={{ strokeWidth: strokeWidth, stroke: strokeColor }}
-          onMouseEnter={() => {}}
-          onClick={() => {
-            handleNodeClick(circle);
-          }}
-        />
+          title={circle.id}
+          trigger="hover"
+          style={{ "pointer-events": "none !important" }}
+        >
+          <circle
+            className={"nodeCircle"}
+            key={circle.id}
+            id={circle.id}
+            cx={circle.cx}
+            cy={circle.cy}
+            r={circle.r}
+            fill={fillGradient}
+            style={{
+              strokeWidth: strokeWidth,
+              stroke: strokeColor
+            }}
+            onMouseEnter={() => {}}
+            onClick={() => {
+              handleNodeClick(circle);
+              navigator.clipboard.writeText(circle.id);
+            }}
+          />
+        </Popover>
       );
     });
   };
@@ -283,36 +350,56 @@ const D3Test = () => {
           <Col>
             <Button
               type="primary"
+              style={{ marginLeft: 10 }}
               onClick={() => {
                 setRotations({
                   ...rotations,
                   outer: rotations.outer + 30
                 });
+                resetElements("outer");
               }}
             >
               Outer
             </Button>
             <Button
               type="primary"
+              style={{ marginLeft: 10 }}
               onClick={() => {
                 setRotations({
                   ...rotations,
                   middle: rotations.middle + 60
                 });
+                resetElements("middle");
               }}
             >
               Middle
             </Button>
             <Button
               type="primary"
+              style={{ marginLeft: 10 }}
               onClick={() => {
                 setRotations({
                   ...rotations,
-                  inner: rotations.inner + 120
+                  inner: rotations.inner - 120
                 });
+                resetElements("middle");
               }}
             >
               Inner
+            </Button>
+            <Button
+              type="primary"
+              style={{ marginLeft: 10 }}
+              onClick={() => {
+                setRotations({
+                  inner: 0,
+                  middle: 0,
+                  outer: 0
+                });
+                resetElements("inner");
+              }}
+            >
+              Reset
             </Button>
           </Col>
           <Col>
@@ -333,15 +420,15 @@ const D3Test = () => {
                   </radialGradient>
                   <radialGradient id="radial-gradient-red-active">
                     <stop offset="0%" stopColor="#ff4d4d" />
-                    <stop offset="100%" stopColor="black" />
+                    <stop offset="100%" stopColor="#3d1111" />
                   </radialGradient>
                   <radialGradient id="radial-gradient-green-active">
                     <stop offset="0%" stopColor="#74e872" />
-                    <stop offset="100%" stopColor="black" />
+                    <stop offset="100%" stopColor="#264a25" />
                   </radialGradient>
                   <radialGradient id="radial-gradient-purple-active">
-                    <stop offset="0%" stopColor="#967be8" />
-                    <stop offset="100%" stopColor="black" />
+                    <stop offset="0%" stopColor="#9376e3" />
+                    <stop offset="100%" stopColor="#160054" />
                   </radialGradient>
                 </defs>
                 {svgData.svg.g.map(group => {

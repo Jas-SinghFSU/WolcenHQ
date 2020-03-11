@@ -10,3 +10,7 @@
   stroke-width: 2px;
   stroke: white !important;
 }
+
+.ant-popover {
+  pointer-events: none;
+}
