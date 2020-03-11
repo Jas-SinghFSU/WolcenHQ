@@ -86,13 +86,11 @@ const StatPointsSection = props => {
   const onStatInputChange = e => {
     const statPointsValue = parseInt(statPoints || 0);
     const newTargetValue = parseInt(e.target.value || 0);
-    console.log(newTargetValue);
     const maxPoints = 890;
 
     // Check if the new values falls within range
     const isWithinRange = (val, currentTotal, operation) => {
       const sumOfAllStats = parseInt(val || 0) + parseInt(currentTotal || 0);
-      console.log(`sum: ${sumOfAllStats}`);
       if (sumOfAllStats >= 0 && sumOfAllStats <= maxPoints) {
         return true;
       }
@@ -120,7 +118,6 @@ const StatPointsSection = props => {
           isWithinRange(newTargetValue, allButFerocity) &&
           ferocity > newTargetValue
         ) {
-          console.log(ferocity - newTargetValue);
           setStatPoints(statPointsValue + (ferocity - newTargetValue));
           setFerocity(newTargetValue || 0);
         }
@@ -144,7 +141,6 @@ const StatPointsSection = props => {
           isWithinRange(newTargetValue, allButToughness) &&
           toughness > newTargetValue
         ) {
-          console.log(toughness - newTargetValue);
           setStatPoints(statPointsValue + (toughness - newTargetValue));
           setToughness(newTargetValue || 0);
         }
@@ -168,7 +164,6 @@ const StatPointsSection = props => {
           isWithinRange(newTargetValue, allButAgility) &&
           agility > newTargetValue
         ) {
-          console.log(agility - newTargetValue);
           setStatPoints(statPointsValue + (agility - newTargetValue));
           setAgility(newTargetValue || 0);
         }
@@ -192,7 +187,6 @@ const StatPointsSection = props => {
           isWithinRange(newTargetValue, allButWisdom) &&
           wisdom > newTargetValue
         ) {
-          console.log(wisdom - newTargetValue);
           setStatPoints(statPointsValue + (wisdom - newTargetValue));
           setWisdom(newTargetValue || 0);
         }

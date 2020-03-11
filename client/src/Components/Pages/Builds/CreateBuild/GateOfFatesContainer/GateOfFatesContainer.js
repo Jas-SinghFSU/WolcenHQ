@@ -121,8 +121,6 @@ const D3Test = () => {
       ((rotations.middle % 360) - (rotations.inner % 360)) % 360;
     const inverseAngle =
       currentAngleDiff > 0 ? currentAngleDiff - 360 : 360 - currentAngleDiff;
-    console.log(currentAngleDiff);
-    console.log(inverseAngle);
 
     if (baseMiddleNodes.includes(node.id)) {
       const parentForNode = innerToMiddle.filter(link => {
@@ -380,7 +378,7 @@ const D3Test = () => {
               onClick={() => {
                 setRotations({
                   ...rotations,
-                  inner: rotations.inner - 120
+                  inner: rotations.inner + 120
                 });
                 resetElements("middle");
               }}
@@ -458,16 +456,6 @@ const D3Test = () => {
                 })}
               </svg>
             </div>
-          </Col>
-          <Col>
-            <Button
-              type="primary"
-              onClick={() => {
-                console.log(nodePairs);
-              }}
-            >
-              Export
-            </Button>
           </Col>
         </Row>
       </Fragment>
