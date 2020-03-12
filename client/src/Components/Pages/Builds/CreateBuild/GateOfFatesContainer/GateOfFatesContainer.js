@@ -37,6 +37,13 @@ const GateOfFates = () => {
   const [activePairs, setActivePairs] = useState([]);
   const [innerToMiddle] = useState(rcLinks);
   const [middleToOuter] = useState(orcLinks);
+  const [tooltipOptions, setTooltipOptions] = useState({
+    display: "none",
+    top: 0,
+    left: 0,
+    text: ""
+  });
+
   const d3Ref = useRef();
 
   const ringInner = 350;
@@ -181,7 +188,7 @@ const GateOfFates = () => {
       setActiveNodes(["root"]);
     } else if (scope === "middle") {
       let filteredActiveNodes = activeNodes.filter(node => {
-        if (!node.includes("-m") && !node.includes("-m")) {
+        if (!node.includes("-m") && !node.includes("-o")) {
           return true;
         }
       });
@@ -214,6 +221,18 @@ const GateOfFates = () => {
     });
 
     setNodePairsScoped(pairScope);
+  };
+
+  const displayTooltip = e => {
+    let left = e.clientX + "px";
+    let top = e.clientY - 40 + "px";
+
+    setTooltipOptions({
+      display: "block",
+      left,
+      top,
+      text: e.currentTarget.id
+    });
   };
 
   useEffect(() => {
@@ -392,32 +411,31 @@ const GateOfFates = () => {
           ? "#707070"
           : "#707070";
       return (
-        <Popover
-          placement="topRight"
+        <circle
+          className={"nodeCircle"}
           key={circle.id}
-          title={circle.id}
-          trigger="click"
-          style={{ "pointer-events": "none !important" }}
-        >
-          <circle
-            className={"nodeCircle"}
-            key={circle.id}
-            id={circle.id}
-            cx={circle.cx}
-            cy={circle.cy}
-            r={circle.r}
-            fill={fillGradient}
-            style={{
-              strokeWidth: strokeWidth,
-              stroke: strokeColor
-            }}
-            onMouseEnter={() => {}}
-            onClick={() => {
-              handleNodeClick(circle);
-              navigator.clipboard.writeText(circle.id);
-            }}
-          />
-        </Popover>
+          id={circle.id}
+          cx={circle.cx}
+          cy={circle.cy}
+          r={circle.r}
+          fill={fillGradient}
+          style={{
+            strokeWidth: strokeWidth,
+            stroke: strokeColor,
+            cursor: "pointer",
+            transition: "all 0.3s"
+          }}
+          onMouseEnter={e => {
+            displayTooltip(e);
+          }}
+          onMouseLeave={() => {
+            setTooltipOptions({ display: "none" });
+          }}
+          onClick={() => {
+            handleNodeClick(circle);
+            navigator.clipboard.writeText(circle.id);
+          }}
+        />
       );
     });
   };
@@ -425,6 +443,20 @@ const GateOfFates = () => {
   if (allNodes && nodePairsScoped) {
     return (
       <Fragment>
+        <div
+          id="nodeTooltip"
+          style={{
+            display: `${tooltipOptions.display}`,
+            left: `${tooltipOptions.left}`,
+            top: `${tooltipOptions.top}`,
+            position: "fixed",
+            background: "white",
+            zIndex: "1",
+            pointerEvents: "none"
+          }}
+        >
+          {tooltipOptions.text}
+        </div>
         <Row>
           <div style={{ marginBottom: 20 }}>
             <Col>
