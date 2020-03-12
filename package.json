@@ -16,7 +16,8 @@
     "config": "^3.2.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.1"
+    "mongoose": "^5.9.1",
+    "react-particles-js": "^2.7.1"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",

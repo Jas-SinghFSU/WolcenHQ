@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
 import { Row, Col, Button, Popover } from "antd";
+import Particles from "react-particles-js";
 
 import "./style.css";
 import "./gof.css";
@@ -20,6 +21,101 @@ const GOFSectionHeader = () => {
         <span className="statPointsTitle">Gate of Fates</span>
       </Col>
     </Row>
+  );
+};
+
+const Fireflies = () => {
+  return (
+    <Particles
+      className="gofFireflies"
+      height={"1044px"}
+      width={"1044px"}
+      params={{
+        particles: {
+          number: {
+            value: 80,
+            density: {
+              enable: true,
+              value_area: 800
+            }
+          },
+          color: {
+            value: "#ffffff"
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 0,
+              color: "#000000"
+            },
+            image: {
+              src: "img/github.svg",
+              width: 100,
+              height: 100
+            }
+          },
+          opacity: {
+            value: 0.4,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false
+            }
+          },
+          size: {
+            value: 3,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 2,
+              size_min: 0.1,
+              sync: false
+            }
+          },
+          line_linked: {
+            enable_auto: false,
+            distance: 0,
+            color: "#fff",
+            opacity: 1,
+            width: 1,
+            condensed_mode: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 600
+            }
+          },
+          move: {
+            enable: true,
+            speed: 1,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200
+            }
+          }
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: false
+            },
+            onclick: {
+              enable: false
+            },
+            resize: true
+          }
+        },
+        retina_detect: true
+      }}
+    />
   );
 };
 
@@ -84,6 +180,9 @@ const GateOfFates = () => {
   };
 
   const handleNodeClick = node => {
+    if (activeNodes.length > 90) {
+      return;
+    }
     const baseNodes = [
       "resilient-g",
       "heightened_concentration-p",
@@ -131,10 +230,7 @@ const GateOfFates = () => {
     };
 
     /* Handle case for non-transition nodes */
-    if (
-      baseNodes.includes(node.id) ||
-      (checkIfReachable(node.id) && activeNodes.length < 91)
-    ) {
+    if (baseNodes.includes(node.id) || checkIfReachable(node.id)) {
       if (!activeNodes.includes(node.id)) {
         setActiveNodes([...activeNodes, node.id]);
       }
@@ -516,8 +612,14 @@ const GateOfFates = () => {
             </Col>
           </div>
           <Col>
-            <div ref={d3Ref}>
-              <svg width={1044} height={1044} viewBox={"0 0 1044 1044"}>
+            <div className="gofContainer" ref={d3Ref}>
+              <Fireflies />
+              <svg
+                className="gofSvg"
+                width={1044}
+                height={1044}
+                viewBox={"0 0 1044 1044"}
+              >
                 <defs>
                   <radialGradient id="radial-gradient-red">
                     <stop offset="0%" stopColor="#7a0000" />

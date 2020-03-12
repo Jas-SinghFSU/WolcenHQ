@@ -19,3 +19,33 @@
 .ant-popover {
   pointer-events: none;
 }
+
+.gofContainer {
+  height: 1044px;
+  width: 1044px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.gofSvg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gofFireflies {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  bottom: 0;
+  pointer-events: none;
+}
