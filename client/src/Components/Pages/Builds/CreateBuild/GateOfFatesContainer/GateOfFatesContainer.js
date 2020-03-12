@@ -7,6 +7,7 @@ import "./gof.css";
 const svgData = require("../../../../../Data/GoF/output.json");
 const linkElems = require("../../../../../Data/GoF/nodeLinks.json");
 const rcLinks = require("../../../../../Data/GoF/ringConnectorLinks.json");
+const orcLinks = require("../../../../../Data/GoF/ringConnectorLinksOuter.json");
 
 const outerRingImg = require("../../../../../images/Outer_Ring.png");
 const innerRingImg = require("../../../../../images/Inner_Ring.png");
@@ -32,9 +33,10 @@ const D3Test = () => {
     outer: 0,
     middle: 0
   });
-  const [activeNodes, setActiveNodes] = useState([]);
+  const [activeNodes, setActiveNodes] = useState(["root"]);
   const [activePairs, setActivePairs] = useState([]);
   const [innerToMiddle] = useState(rcLinks);
+  const [middleToOuter] = useState(orcLinks);
   const d3Ref = useRef();
 
   const ringInner = 350;
@@ -92,6 +94,20 @@ const D3Test = () => {
       "clarity_of_mind-p-m",
       "elaborate_flurry-g-m"
     ];
+    const baseOuterNodes = [
+      "of_squalls_and_fires-p-o",
+      "external_discharge-g-o",
+      "inexorable_vitality-r-o",
+      "bog_bodies-p-o",
+      "blindfolded_leaps-g-o",
+      "light_for_the_blind-r-o",
+      "guttural_dowry-p-o",
+      "implacable_tracker-g-o",
+      "omnipractice-r-o",
+      "waning_before_waxing-p-o",
+      "aloof_hunter-g-o",
+      "boiling_point-r-o"
+    ];
     const checkIfReachable = elem => {
       let isReachable = false;
       nodePairs.forEach(pair => {
@@ -110,7 +126,7 @@ const D3Test = () => {
     /* Handle case for non-transition nodes */
     if (
       baseNodes.includes(node.id) ||
-      (checkIfReachable(node.id) && activeNodes.length < 90)
+      (checkIfReachable(node.id) && activeNodes.length < 91)
     ) {
       if (!activeNodes.includes(node.id)) {
         setActiveNodes([...activeNodes, node.id]);
@@ -120,6 +136,12 @@ const D3Test = () => {
     /* Handle case for inner to middle ring transition */
     const currentAngleDiff =
       ((rotations.middle % 360) - (rotations.inner % 360)) % 360;
+    let currentAngleDiffOuter =
+      ((rotations.outer % 360) - (rotations.middle % 360)) % 360;
+    if (currentAngleDiffOuter < 0) {
+      currentAngleDiffOuter = 360 + currentAngleDiffOuter;
+    }
+    console.log(currentAngleDiffOuter);
     const inverseAngle =
       currentAngleDiff > 0 ? currentAngleDiff - 360 : 360 - currentAngleDiff;
 
@@ -137,11 +159,26 @@ const D3Test = () => {
         setActiveNodes([...activeNodes, node.id]);
       }
     }
+
+    if (baseOuterNodes.includes(node.id)) {
+      const parentForNode = middleToOuter.filter(link => {
+        if (
+          link.destination === node.id &&
+          (link.angle === currentAngleDiffOuter || link.angle === inverseAngle)
+        ) {
+          return true;
+        }
+      });
+
+      if (activeNodes.includes(parentForNode[0].source)) {
+        setActiveNodes([...activeNodes, node.id]);
+      }
+    }
   };
 
   const resetElements = scope => {
     if (scope === "inner") {
-      setActiveNodes([]);
+      setActiveNodes(["root"]);
     } else if (scope === "middle") {
       let filteredActiveNodes = activeNodes.filter(node => {
         if (!node.includes("-m") && !node.includes("-m")) {
@@ -359,7 +396,7 @@ const D3Test = () => {
           placement="topRight"
           key={circle.id}
           title={circle.id}
-          trigger="hover"
+          trigger="click"
           style={{ "pointer-events": "none !important" }}
         >
           <circle
