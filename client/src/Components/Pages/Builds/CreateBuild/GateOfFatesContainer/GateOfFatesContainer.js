@@ -23,7 +23,7 @@ const GOFSectionHeader = () => {
   );
 };
 
-const D3Test = () => {
+const GateOfFates = () => {
   const [allNodes, setAllNodes] = useState(null);
   const [nodePairs] = useState(linkElems);
   const [nodePairsScoped, setNodePairsScoped] = useState(null);
@@ -553,7 +553,7 @@ const GateOfFatesContainer = () => {
     <div>
       <GOFSectionHeader />
       <div style={{ marginTop: 20 }}>
-        <D3Test />
+        <GateOfFates />
       </div>
     </div>
   );
