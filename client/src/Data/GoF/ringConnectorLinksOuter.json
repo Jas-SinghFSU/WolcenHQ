@@ -1,0 +1,722 @@
+[
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 0
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "external_discharge-g-o",
+    "angle": 0
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 0
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "bog_bodies-p-o",
+    "angle": 0
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 0
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 0
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 0
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 0
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "omnipractice-r-o",
+    "angle": 0
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 0
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 0
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "boiling_point-r-o",
+    "angle": 0
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "boiling_point-r-o",
+    "angle": 30
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 30
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "external_discharge-g-o",
+    "angle": 30
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 30
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 30
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 30
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 30
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 30
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 30
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "omnipractice-r-o",
+    "angle": 30
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 30
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 30
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 60
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "boiling_point-r-o",
+    "angle": 60
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 60
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "external_discharge-g-o",
+    "angle": 60
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 60
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 60
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 60
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 60
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 60
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 60
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "omnipractice-r-o",
+    "angle": 60
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 60
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 90
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 90
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "boiling_point-r-o",
+    "angle": 90
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 90
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "external_discharge-g-o",
+    "angle": 90
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 90
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 90
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 90
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 90
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 90
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 90
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "omnipractice-r-o",
+    "angle": 90
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "omnipractice-r-o",
+    "angle": 120
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 120
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "aloof_hunter-g-o",
+    "angle": 120
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "boiling_point-r-o",
+    "angle": 120
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 120
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "external_discharge-g-o",
+    "angle": 120
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 120
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 120
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 120
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 120
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 120
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 120
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 150
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "omnipractice-r-o",
+    "angle": 150
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 150
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "aloof_hunter-g-o",
+    "angle": 150
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "boiling_point-r-o",
+    "angle": 150
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 150
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "external_discharge-g-o",
+    "angle": 150
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 150
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 150
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 150
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 150
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 150
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 180
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 180
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "omnipractice-r-o",
+    "angle": 180
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 180
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 180
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "boiling_point-r-o",
+    "angle": 180
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 180
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "external_discharge-g-o",
+    "angle": 180
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 180
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 180
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 180
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 180
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 210
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 210
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "implacable_tracker-g-o",
+    "angle": 210
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "omnipractice-r-o",
+    "angle": 210
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 210
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 210
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "boiling_point-r-o",
+    "angle": 210
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 210
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "external_discharge-g-o",
+    "angle": 210
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 210
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 210
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 210
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 240
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 240
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "guttural_dowry-p-o",
+    "angle": 240
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "implacable_tracker-g-o",
+    "angle": 240
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "omnipractice-r-o",
+    "angle": 240
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 240
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 240
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "boiling_point-r-o",
+    "angle": 240
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 240
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "external_discharge-g-o",
+    "angle": 240
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 240
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 240
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 270
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 270
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 270
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "guttural_dowry-p-o",
+    "angle": 270
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 270
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "omnipractice-r-o",
+    "angle": 270
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 270
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 270
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "boiling_point-r-o",
+    "angle": 270
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 270
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "external_discharge-g-o",
+    "angle": 270
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 270
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 300
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "bog_bodies-p-o",
+    "angle": 300
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 300
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 300
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 300
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 300
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "omnipractice-r-o",
+    "angle": 300
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 300
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 300
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "boiling_point-r-o",
+    "angle": 300
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 300
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "external_discharge-g-o",
+    "angle": 300
+  },
+  {
+    "source": "unholy_dominion-p-m",
+    "destination": "external_discharge-g-o",
+    "angle": 330
+  },
+  {
+    "source": "self_preservation_instinct-p-m",
+    "destination": "inexorable_vitality-r-o",
+    "angle": 330
+  },
+  {
+    "source": "swiftness-g-m-4",
+    "destination": "bog_bodies-p-o",
+    "angle": 330
+  },
+  {
+    "source": "body_and_mind-g-m-2",
+    "destination": "blindfolded_leaps-g-o",
+    "angle": 330
+  },
+  {
+    "source": "deadly_physicalty-r-m",
+    "destination": "light_for_the_blind-r-o",
+    "angle": 330
+  },
+  {
+    "source": "blood_rush-r-m",
+    "destination": "guttural_dowry-p-o",
+    "angle": 330
+  },
+  {
+    "source": "enfeebling_energy-p-m",
+    "destination": "implacable_tracker-g-o",
+    "angle": 330
+  },
+  {
+    "source": "protective_aura-p-m",
+    "destination": "omnipractice-r-o",
+    "angle": 330
+  },
+  {
+    "source": "impeccable_aim-g-m",
+    "destination": "waning_before_waxing-p-o",
+    "angle": 330
+  },
+  {
+    "source": "body_and_mind-g-m",
+    "destination": "aloof_hunter-g-o",
+    "angle": 330
+  },
+  {
+    "source": "one_man_crusade-r-m",
+    "destination": "boiling_point-r-o",
+    "angle": 330
+  },
+  {
+    "source": "perseverance-r-m",
+    "destination": "of_squalls_and_fires-p-o",
+    "angle": 330
+  }
+]

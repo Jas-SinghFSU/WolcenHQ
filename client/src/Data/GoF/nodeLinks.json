@@ -30,6 +30,21 @@
     "isActive": "0"
   },
   {
+    "source": "steadfast-2-p-edge",
+    "destination": "steadfast-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "adept-2-p-edge",
+    "destination": "adept-2-p",
+    "isActive": "0"
+  },
+  {
+    "source": "dominator-p-m-edge",
+    "destination": "dominator-p-m",
+    "isActive": "0"
+  },
+  {
     "source": "capable-r",
     "destination": "capable-2-r",
     "isActive": "0"
@@ -383,6 +398,138 @@
     "source": "unyielding-g",
     "destination": "chemically_empowered_metabolism-g",
     "isActive": "0"
+  },
+  {
+    "source": "chemically_empowered_metabolism-g-edge",
+    "destination": "chemically_empowered_metabolism-g",
+    "isActive": "0"
+  },
+  {
+    "source": "master_of_the_frontline-r-m-edge",
+    "destination": "master_of_the_frontline-r-m",
+    "isActive": "0"
+  },
+  {
+    "source": "clarity_of_mind-p-m-edge",
+    "destination": "clarity_of_mind-p-m",
+    "isActive": "0"
+  },
+  {
+    "source": "precise_strikes-g-edge",
+    "destination": "precise_strikes-g"
+  },
+  {
+    "source": "pain_resistance_program-r-edge",
+    "destination": "pain_resistance_program-r"
+  },
+  {
+    "source": "elaborate_flurry-g-m-edge",
+    "destination": "elaborate_flurry-g-m"
+  },
+  {
+    "source": "zealous_might-r-edge",
+    "destination": "zealous_might-r"
+  },
+  {
+    "source": "impervious_wall-r-m-edge",
+    "destination": "impervious_wall-r-m"
+  },
+  {
+    "source": "unholy_dominion-p-m-edge",
+    "destination": "unholy_dominion-p-m"
+  },
+  {
+    "source": "of_squalls_and_fires-p-o-edge",
+    "destination": "of_squalls_and_fires-p-o"
+  },
+  {
+    "source": "external_discharge-g-o-edge",
+    "destination": "external_discharge-g-o"
+  },
+  {
+    "source": "self_preservation_instinct-p-m-edge",
+    "destination": "self_preservation_instinct-p-m"
+  },
+  {
+    "source": "inexorable_vitality-r-o-edge",
+    "destination": "inexorable_vitality-r-o"
+  },
+  {
+    "source": "swiftness-g-m-4-edge",
+    "destination": "swiftness-g-m-4"
+  },
+  {
+    "source": "bog_bodies-p-o-edge",
+    "destination": "bog_bodies-p-o"
+  },
+  {
+    "source": "body_and_mind-g-m-2-edge",
+    "destination": "body_and_mind-g-m-2"
+  },
+  {
+    "source": "blindfolded_leaps-g-o-edge",
+    "destination": "blindfolded_leaps-g-o"
+  },
+  {
+    "source": "deadly_physicalty-r-m-edge",
+    "destination": "deadly_physicalty-r-m"
+  },
+  {
+    "source": "light_for_the_blind-r-o-edge",
+    "destination": "light_for_the_blind-r-o"
+  },
+  {
+    "source": "blood_rush-r-m-edge",
+    "destination": "blood_rush-r-m"
+  },
+  {
+    "source": "guttural_dowry-p-o-edge",
+    "destination": "guttural_dowry-p-o"
+  },
+  {
+    "source": "enfeebling_energy-p-m-edge",
+    "destination": "enfeebling_energy-p-m"
+  },
+  {
+    "source": "implacable_tracker-g-o-edge",
+    "destination": "implacable_tracker-g-o"
+  },
+  {
+    "source": "protective_aura-p-m-edge",
+    "destination": "protective_aura-p-m"
+  },
+  {
+    "source": "omnipractice-r-o-edge",
+    "destination": "omnipractice-r-o"
+  },
+  {
+    "source": "impeccable_aim-g-m-edge",
+    "destination": "impeccable_aim-g-m"
+  },
+  {
+    "source": "waning_before_waxing-p-o-edge",
+    "destination": "waning_before_waxing-p-o"
+  },
+  {
+    "source": "body_and_mind-g-m-edge",
+    "destination": "body_and_mind-g-m"
+  },
+  {
+    "source": "aloof_hunter-g-o-edge",
+    "destination": "aloof_hunter-g-o"
+  },
+  {
+    "source": "one_man_crusade-r-m-edge",
+    "destination": "one_man_crusade-r-m"
+  },
+  {
+    "source": "boiling_point-r-o-edge",
+    "destination": "boiling_point-r-o"
+  },
+
+  {
+    "source": "perseverance-r-m-edge",
+    "destination": "perseverance-r-m"
   },
   {
     "source": "unyielding-g",
@@ -1508,6 +1655,11 @@
     "source": "unstoppable_flurry-g-m",
     "destination": "swiftness-2-g-m",
     "isActive": 0
+  },
+  {
+    "source": "unstoppable_flurry-g-m-edge",
+    "destination": "unstoppable_flurry-g-m",
+    "angle": 0
   },
   {
     "source": "swiftness-2-g-m",

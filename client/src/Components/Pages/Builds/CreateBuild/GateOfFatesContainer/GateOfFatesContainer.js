@@ -25,6 +25,7 @@ const GOFSectionHeader = () => {
 const D3Test = () => {
   const [allNodes, setAllNodes] = useState(null);
   const [nodePairs] = useState(linkElems);
+  const [nodePairsScoped, setNodePairsScoped] = useState(null);
   const [svgDom] = useState(svgData);
   const [rotations, setRotations] = useState({
     inner: 0,
@@ -158,9 +159,29 @@ const D3Test = () => {
     }
   };
 
+  const filterNodesByScope = () => {
+    const pairScope = {
+      inner: [],
+      outer: [],
+      middle: []
+    };
+
+    nodePairs.forEach(pair => {
+      if (pair.source.includes("-o")) {
+        pairScope.outer = [...pairScope.outer, pair];
+      } else if (pair.source.includes("-m")) {
+        pairScope.middle = [...pairScope.middle, pair];
+      } else {
+        pairScope.inner = [...pairScope.inner, pair];
+      }
+    });
+
+    setNodePairsScoped(pairScope);
+  };
+
   useEffect(() => {
-    // new GoF(d3Ref);
     setAllNodes(getAllNodes());
+    filterNodesByScope();
   }, []);
 
   useEffect(() => {
@@ -208,8 +229,12 @@ const D3Test = () => {
   };
 
   const renderLines = scope => {
-    /* Only render links for node that belong in the current scope (group)*/
+    /**  Only render links for nodes that belong in the current scope (group)
+     * This is so links aren't duplicated 3 times since we run this each time
+     * for each group (3 times total)
+     */
     const filteredLinks = filterElem => {
+      // If there are no filter elems provided (ex: -o) then render links for inner circle
       if (filterElem === "") {
         return nodePairs.filter(elem => {
           if (
@@ -220,7 +245,8 @@ const D3Test = () => {
             return true;
           }
         });
-      } else if (filterElem !== null) {
+      } //otherwise render nodes for inner or middle based on filter (ex -o or -m)
+      else if (filterElem !== null) {
         return nodePairs.filter(elem => {
           if (elem.source.includes(filterElem)) {
             return true;
@@ -240,7 +266,12 @@ const D3Test = () => {
         ? "-m"
         : null;
 
-    const filteredDataPairs = filteredLinks(elemFilter);
+    const filteredDataPairs =
+      elemFilter === "-o"
+        ? nodePairsScoped.outer
+        : elemFilter === "-m"
+        ? nodePairsScoped.middle
+        : nodePairsScoped.inner; //filteredLinks(elemFilter);
 
     /* For each of the nodes that belong in the group, generate link if they're pairs */
     return filteredDataPairs.map(pair => {
@@ -262,6 +293,11 @@ const D3Test = () => {
       let isAccessible = false;
 
       if (activePairs.get(link1) || activePairs.get(link2)) {
+        isActive = true;
+      } else if (
+        pair.source.includes("-edge") &&
+        activeNodes.includes(pair.destination)
+      ) {
         isActive = true;
       } else if (
         activeNodes.includes(pair.source) ||
@@ -310,7 +346,7 @@ const D3Test = () => {
       // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
       const strokeColor =
         circle.r > 6 && isActive
-          ? "rgb(255, 252, 100)"
+          ? "white"
           : circle.r > 6 && !isActive
           ? "#5f4e00"
           : circle.r < 6 && isActive
@@ -349,7 +385,7 @@ const D3Test = () => {
     });
   };
 
-  if (allNodes) {
+  if (allNodes && nodePairsScoped) {
     return (
       <Fragment>
         <Row>

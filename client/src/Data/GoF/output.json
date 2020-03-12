@@ -2532,6 +2532,13 @@
             "r": "5.5"
           },
           {
+            "id": "dominator-p-m-edge",
+            "class": "cls-499",
+            "cx": "609.16",
+            "cy": "371.4",
+            "r": "0"
+          },
+          {
             "id": "duty_to_exterminate-p-m",
             "class": "cls-330",
             "cx": "753.15",
@@ -3247,6 +3254,243 @@
             "r": "5.5"
           },
           {
+            "id": "adept-2-p-edge",
+            "class": "cls-429",
+            "cx": "695.99",
+            "cy": "522.54",
+            "r": "0"
+          },
+          {
+            "id": "unstoppable_flurry-g-m-edge",
+            "class": "cls-429",
+            "cx": "695.99",
+            "cy": "522.54",
+            "r": "0"
+          },
+          {
+            "id": "chemically_empowered_metabolism-g-edge",
+            "class": "cls-429",
+            "cx": "609.6",
+            "cy": "672.35",
+            "r": "0"
+          },
+          {
+            "id": "master_of_the_frontline-r-m-edge",
+            "class": "cls-429",
+            "cx": "609.6",
+            "cy": "672.35",
+            "r": "0"
+          },
+          {
+            "id": "precise_strikes-g-edge",
+            "class": "",
+            "cx": "435.17",
+            "cy": "672.77",
+            "r": "0"
+          },
+          {
+            "id": "clarity_of_mind-p-m-edge",
+            "class": "",
+            "cx": "435.17",
+            "cy": "672.77",
+            "r": "0"
+          },
+          {
+            "id": "pain_resistance_program-r-edge",
+            "class": "",
+            "cx": "347.99",
+            "cy": "522",
+            "r": "0"
+          },
+          {
+            "id": "elaborate_flurry-g-m-edge",
+            "class": "",
+            "cx": "347.99",
+            "cy": "522",
+            "r": "0"
+          },
+          {
+            "id": "zealous_might-r-edge",
+            "class": "",
+            "cx": "435.61",
+            "cy": "371.01",
+            "r": "0"
+          },
+          {
+            "id": "impervious_wall-r-m-edge",
+            "class": "",
+            "cx": "435.61",
+            "cy": "371.01",
+            "r": "0"
+          },
+          {
+            "id": "unholy_dominion-p-m-edge",
+            "class": "cls-326",
+            "cx": "612.39",
+            "cy": "186.02",
+            "r": "0"
+          },
+          {
+            "id": "of_squalls_and_fires-p-o-edge",
+            "class": "cls-326",
+            "cx": "612.39",
+            "cy": "186.02",
+            "r": "0"
+          },
+          {
+            "id": "self_preservation_instinct-p-m-edge",
+            "class": "cls-341",
+            "cx": "768.04",
+            "cy": "275.97",
+            "r": "0"
+          },
+          {
+            "id": "external_discharge-g-o-edge",
+            "class": "cls-341",
+            "cx": "768.04",
+            "cy": "275.97"
+          },
+          {
+            "id": "swiftness-g-m-4-edge",
+            "class": "cls-424",
+            "cx": "858.16",
+            "cy": "431.56",
+            "r": "0"
+          },
+          {
+            "id": "inexorable_vitality-r-o-edge",
+            "class": "cls-424",
+            "cx": "858.16",
+            "cy": "431.56",
+            "r": "0"
+          },
+          {
+            "id": "body_and_mind-g-m-2-edge",
+            "class": "cls-423",
+            "cx": "858.24",
+            "cy": "611.46",
+            "r": "0"
+          },
+          {
+            "id": "bog_bodies-p-o-edge",
+            "class": "cls-423",
+            "cx": "858.24",
+            "cy": "611.46",
+            "r": "0"
+          },
+          {
+            "id": "deadly_physicalty-r-m-edge",
+            "class": "cls-271",
+            "cx": "768.6",
+            "cy": "767.6",
+            "r": "0"
+          },
+          {
+            "id": "blindfolded_leaps-g-o-edge",
+            "class": "cls-271",
+            "cx": "768.6",
+            "cy": "767.6",
+            "r": "0"
+          },
+          {
+            "id": "blood_rush-r-m-edge",
+            "class": "cls-258",
+            "cx": "612.64",
+            "cy": "857.89",
+            "r": "0"
+          },
+          {
+            "id": "light_for_the_blind-r-o-edge",
+            "class": "cls-258",
+            "cx": "612.64",
+            "cy": "857.89",
+            "r": "0"
+          },
+          {
+            "id": "enfeebling_energy-p-m-edge",
+            "class": "cls-311",
+            "cx": "432.25",
+            "cy": "858.31",
+            "r": "0"
+          },
+          {
+            "id": "guttural_dowry-p-o-edge",
+            "class": "cls-311",
+            "cx": "432.25",
+            "cy": "858.31",
+            "r": "0"
+          },
+          {
+            "id": "protective_aura-p-m-edge",
+            "class": "cls-296",
+            "cx": "275.87",
+            "cy": "768.13",
+            "r": "0"
+          },
+          {
+            "id": "implacable_tracker-g-o-edge",
+            "class": "cls-296",
+            "cx": "275.87",
+            "cy": "768.13",
+            "r": "0"
+          },
+          {
+            "id": "impeccable_aim-g-m-edge",
+            "class": "cls-378",
+            "cx": "185.83",
+            "cy": "611.71",
+            "r": "0"
+          },
+          {
+            "id": "omnipractice-r-o-edge",
+            "class": "cls-378",
+            "cx": "185.83",
+            "cy": "611.71",
+            "r": "0"
+          },
+          {
+            "id": "body_and_mind-g-m-edge",
+            "class": "cls-379",
+            "cx": "185.86",
+            "cy": "431.3",
+            "r": "0"
+          },
+          {
+            "id": "waning_before_waxing-p-o-edge",
+            "class": "cls-379",
+            "cx": "185.86",
+            "cy": "431.3",
+            "r": "0"
+          },
+          {
+            "id": "one_man_crusade-r-m-edge",
+            "class": "cls-361",
+            "cx": "276.48",
+            "cy": "275.48",
+            "r": "0"
+          },
+          {
+            "id": "aloof_hunter-g-o-edge",
+            "class": "cls-361",
+            "cx": "276.48",
+            "cy": "275.48",
+            "r": "0"
+          },
+          {
+            "id": "perseverance-r-m-edge",
+            "class": "cls-348",
+            "cx": "432.54",
+            "cy": "185.78",
+            "r": "0"
+          },
+          {
+            "id": "boiling_point-r-o-edge",
+            "class": "cls-348",
+            "cx": "432.54",
+            "cy": "185.78",
+            "r": "0"
+          },
+          {
             "id": "witchcraft_consultant-p",
             "class": "cls-430",
             "cx": "608.33",
@@ -3364,6 +3608,13 @@
             "cx": "600.65",
             "cy": "386.01",
             "r": "5.5"
+          },
+          {
+            "id": "steadfast-2-p-edge",
+            "class": "cls-499",
+            "cx": "609.16",
+            "cy": "371.4",
+            "r": "0"
           },
           {
             "id": "propaganda_fueled_zeal-p",
