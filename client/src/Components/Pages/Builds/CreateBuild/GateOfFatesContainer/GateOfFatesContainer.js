@@ -91,10 +91,6 @@ const GateOfFates = () => {
             return true;
           }
         });
-
-        if (skillData.length === 0 && nodeName !== "root") {
-          console.log(`Couldn't find: ${skillName}`);
-        }
       });
     }
   };
@@ -186,7 +182,6 @@ const GateOfFates = () => {
     if (currentAngleDiffOuter < 0) {
       currentAngleDiffOuter = 360 + currentAngleDiffOuter;
     }
-    console.log(currentAngleDiffOuter);
     const inverseAngle =
       currentAngleDiff > 0 ? currentAngleDiff - 360 : 360 - currentAngleDiff;
 

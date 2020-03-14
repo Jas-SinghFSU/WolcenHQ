@@ -9,10 +9,10 @@ skillTemplate.MetaData.Spell.forEach(skill => {
   let skillObject = {
     id: skill.id,
     name: "",
+    section: "",
     lore: "",
     description: "",
-    magicEffects: skill.MagicEffects,
-    section: skill.scope
+    magicEffects: skill.MagicEffects
   };
 
   const { magicEffects } = skillObject;
@@ -29,9 +29,11 @@ skillTemplate.MetaData.Spell.forEach(skill => {
     if (filteredSkill.length <= 0) {
       console.log(`Couldn't find ${skill.name}`);
     }
-    skillName = filteredSkill[0].value.replace(/-/, "");
+    skillName = filteredSkill[0].value.replace(/-/, " ");
+    skillSection = filteredSkill[0].scope;
 
     skillObject.name = skillName;
+    skillObject.section = skillSection;
   }
 
   /* Get the description for the skill */

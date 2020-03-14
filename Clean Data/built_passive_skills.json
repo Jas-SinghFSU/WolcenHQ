@@ -2,6 +2,7 @@
   {
     "id": "AGIL_1",
     "name": "Refined Technique",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -28,6 +29,7 @@
   {
     "id": "AGIL_2",
     "name": "Refined Technique",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -54,6 +56,7 @@
   {
     "id": "AGIL_3",
     "name": "Nimble",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -72,6 +75,7 @@
   {
     "id": "AGIL_4",
     "name": "Precise Strikes",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -98,6 +102,7 @@
   {
     "id": "AGIL_5",
     "name": "Precise Strikes",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -124,6 +129,7 @@
   {
     "id": "AGIL_6",
     "name": "Celerity",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -141,7 +147,8 @@
   },
   {
     "id": "AGIL_7",
-    "name": "Quick-Minded",
+    "name": "Quick Minded",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -160,6 +167,7 @@
   {
     "id": "AGIL_8",
     "name": "Blitz Fighting",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -178,6 +186,7 @@
   {
     "id": "AGIL_9",
     "name": "Backline Raider",
+    "section": "Sentinel",
     "lore": "",
     "description": "Your Attack and Spell Casting Speed is increased.",
     "magicEffects": {
@@ -204,6 +213,7 @@
   {
     "id": "AGIL_10",
     "name": "Quick Draw",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -222,6 +232,7 @@
   {
     "id": "AGIL_11",
     "name": "Slippery",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -240,6 +251,7 @@
   {
     "id": "AGIL_12",
     "name": "Endurance Training",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -258,6 +270,7 @@
   {
     "id": "AGIL_13",
     "name": "Calculated Skirmish",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -276,6 +289,7 @@
   {
     "id": "AGIL_14",
     "name": "Pinch Runner",
+    "section": "Sentinel",
     "lore": "",
     "description": "Gain additional Stamina Points while at low Health. This Effect has a Cooldown.",
     "magicEffects": {
@@ -294,6 +308,7 @@
   {
     "id": "AGIL_15",
     "name": "High Adrenaline",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -312,6 +327,7 @@
   {
     "id": "AGIL_16",
     "name": "Resilient",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -338,6 +354,7 @@
   {
     "id": "AGIL_17",
     "name": "Resilient",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -364,6 +381,7 @@
   {
     "id": "AGIL_18",
     "name": "Chemically Empowered Metabolism",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -390,6 +408,7 @@
   {
     "id": "AGIL_19",
     "name": "Enduring",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -416,6 +435,7 @@
   {
     "id": "AGIL_20",
     "name": "Evasive Manoeuvers",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -442,6 +462,7 @@
   {
     "id": "AGIL_21",
     "name": "Flexible",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -468,6 +489,7 @@
   {
     "id": "AGIL_22",
     "name": "Covert Operative",
+    "section": "Sentinel",
     "lore": "",
     "description": "Increases your Passive Dodge Chance Score",
     "magicEffects": {
@@ -486,6 +508,7 @@
   {
     "id": "AGIL_23",
     "name": "Unyielding",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -504,6 +527,7 @@
   {
     "id": "AGIL_24",
     "name": "Chemically Empowered Metabolism",
+    "section": "Sentinel",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -530,6 +554,7 @@
   {
     "id": "FERO_1",
     "name": "Heavy Blows",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -556,6 +581,7 @@
   {
     "id": "FERO_2",
     "name": "Heavy Blows",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -582,6 +608,7 @@
   {
     "id": "FERO_3",
     "name": "Dauntless",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -600,6 +627,7 @@
   {
     "id": "FERO_4",
     "name": "Zealous Might",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -626,6 +654,7 @@
   {
     "id": "FERO_5",
     "name": "Zealous Might",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -652,6 +681,7 @@
   {
     "id": "FERO_6",
     "name": "Stylish Execution",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -670,6 +700,7 @@
   {
     "id": "FERO_7",
     "name": "Deadly",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -688,6 +719,7 @@
   {
     "id": "FERO_8",
     "name": "Supernatural Insights",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -706,6 +738,7 @@
   {
     "id": "FERO_9",
     "name": "The Wild Card",
+    "section": "Soldier",
     "lore": "",
     "description": "Attacks and Spells are more likely to be Critical Hits.",
     "magicEffects": {
@@ -724,6 +757,7 @@
   {
     "id": "FERO_10",
     "name": "Quick Draw",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -742,6 +776,7 @@
   {
     "id": "FERO_11",
     "name": "Celerity",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -760,6 +795,7 @@
   {
     "id": "FERO_12",
     "name": "Tenacious",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -778,6 +814,7 @@
   {
     "id": "FERO_13",
     "name": "Disciplined",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -796,6 +833,7 @@
   {
     "id": "FERO_14",
     "name": "The Heat of Battle",
+    "section": "Soldier",
     "lore": "",
     "description": "Taking Damage gives you more Rage.",
     "magicEffects": {
@@ -814,6 +852,7 @@
   {
     "id": "FERO_15",
     "name": "Disciplined",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -832,6 +871,7 @@
   {
     "id": "FERO_16",
     "name": "Capable",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -866,6 +906,7 @@
   {
     "id": "FERO_17",
     "name": "Capable",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -900,6 +941,7 @@
   {
     "id": "FERO_18",
     "name": "Pain Resistance Program",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -926,6 +968,7 @@
   {
     "id": "FERO_19",
     "name": "Stalwart",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -952,6 +995,7 @@
   {
     "id": "FERO_20",
     "name": "Enduring",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -978,6 +1022,7 @@
   {
     "id": "FERO_21",
     "name": "Chemically Empowered Skin",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1004,6 +1049,7 @@
   {
     "id": "FERO_22",
     "name": "Second Wind",
+    "section": "Soldier",
     "lore": "",
     "description": "When below a certain threshold of Health your Health Regeneration is triggered. This Effect has a Cooldown.",
     "magicEffects": {
@@ -1022,6 +1068,7 @@
   {
     "id": "FERO_23",
     "name": "Unyielding",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1040,6 +1087,7 @@
   {
     "id": "FERO_24",
     "name": "Pain Resistance Program",
+    "section": "Soldier",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1066,6 +1114,7 @@
   {
     "id": "WILL_1",
     "name": "Heightened Concentration",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1092,6 +1141,7 @@
   {
     "id": "WILL_2",
     "name": "Heightened Concentration",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1118,6 +1168,7 @@
   {
     "id": "WILL_3",
     "name": "Determined",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1136,6 +1187,7 @@
   {
     "id": "WILL_4",
     "name": "Adept",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1162,6 +1214,7 @@
   {
     "id": "WILL_5",
     "name": "Adept",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1188,6 +1241,7 @@
   {
     "id": "WILL_6",
     "name": "Physician",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1206,6 +1260,7 @@
   {
     "id": "WILL_7",
     "name": "Witchcraft Consultant",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1224,6 +1279,7 @@
   {
     "id": "WILL_8",
     "name": "Anatomical Expert",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1242,6 +1298,7 @@
   {
     "id": "WILL_9",
     "name": "Attrition Strategist",
+    "section": "Scholar",
     "lore": "",
     "description": "Increases your Ailment Chance Score with all Ailments",
     "magicEffects": {
@@ -1260,6 +1317,7 @@
   {
     "id": "WILL_10",
     "name": "Quick Draw",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1278,6 +1336,7 @@
   {
     "id": "WILL_11",
     "name": "Emotional Intelligence",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1296,6 +1355,7 @@
   {
     "id": "WILL_12",
     "name": "Increased Awareness",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1314,6 +1374,7 @@
   {
     "id": "WILL_13",
     "name": "Unwavering Dedication",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1332,6 +1393,7 @@
   {
     "id": "WILL_14",
     "name": "Thirst for Knowledge",
+    "section": "Scholar",
     "lore": "",
     "description": "Health Globes now restore your Force Shield as well as your Health.",
     "magicEffects": {
@@ -1350,6 +1412,7 @@
   {
     "id": "WILL_15",
     "name": "Unwavering Dedication",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1368,6 +1431,7 @@
   {
     "id": "WILL_16",
     "name": "Hardy",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1394,6 +1458,7 @@
   {
     "id": "WILL_17",
     "name": "Hardy",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1420,6 +1485,7 @@
   {
     "id": "WILL_18",
     "name": "Steadfast",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1454,6 +1520,7 @@
   {
     "id": "WILL_19",
     "name": "Chemically Empowered Brain",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1472,6 +1539,7 @@
   {
     "id": "WILL_20",
     "name": "Heroic Resolve",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1498,6 +1566,7 @@
   {
     "id": "WILL_21",
     "name": "Propaganda Fueled Zeal",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1516,6 +1585,7 @@
   {
     "id": "WILL_22",
     "name": "Purifier's Will",
+    "section": "Scholar",
     "lore": "",
     "description": "When your Force Shield is full, you receive decreased Damage.",
     "magicEffects": {
@@ -1534,6 +1604,7 @@
   {
     "id": "WILL_23",
     "name": "Unyielding",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1552,6 +1623,7 @@
   {
     "id": "WILL_24",
     "name": "Steadfast",
+    "section": "Scholar",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1586,6 +1658,7 @@
   {
     "id": "MELEE_1",
     "name": "Elaborate Flurry",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1612,6 +1685,7 @@
   {
     "id": "MELEE_2",
     "name": "Equipment Maintenance",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1630,6 +1704,7 @@
   {
     "id": "MELEE_3",
     "name": "Serpentine Affinity",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1648,6 +1723,7 @@
   {
     "id": "MELEE_4",
     "name": "Concentrated Toxins",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1666,6 +1742,7 @@
   {
     "id": "MELEE_5",
     "name": "Blessing of the Jade Legion",
+    "section": "Assassin",
     "lore": "",
     "description": "A percentage of Physical Damage is converted into Toxic Damage.",
     "magicEffects": {
@@ -1684,6 +1761,7 @@
   {
     "id": "MELEE_6",
     "name": "Physical Conditioning",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1710,6 +1788,7 @@
   {
     "id": "MELEE_7",
     "name": "Slipping Shadow",
+    "section": "Assassin",
     "lore": "",
     "description": "Active Dodges can go through Enemies.",
     "magicEffects": {
@@ -1728,6 +1807,7 @@
   {
     "id": "MELEE_8",
     "name": "Escape Artist",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1746,6 +1826,7 @@
   {
     "id": "MELEE_9",
     "name": "Unstoppable Tracker",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1764,6 +1845,7 @@
   {
     "id": "MELEE_10",
     "name": "Body and Mind",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1790,6 +1872,7 @@
   {
     "id": "MELEE_11",
     "name": "Elusive",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1808,6 +1891,7 @@
   {
     "id": "MELEE_12",
     "name": "Elusive",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1826,6 +1910,7 @@
   {
     "id": "MELEE_13",
     "name": "Elusive",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1844,6 +1929,7 @@
   {
     "id": "MELEE_14",
     "name": "Strike like Lightning",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1878,6 +1964,7 @@
   {
     "id": "MELEE_15",
     "name": "Lithe",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1896,6 +1983,7 @@
   {
     "id": "MELEE_16",
     "name": "Clandestine Execution",
+    "section": "Assassin",
     "lore": "",
     "description": "Deal increased Damage when only one Enemy is Nearby.",
     "magicEffects": {
@@ -1915,6 +2003,7 @@
   {
     "id": "MELEE_17",
     "name": "A Worthy Adversary",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1934,6 +2023,7 @@
   {
     "id": "MELEE_18",
     "name": "Paranoia",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1953,6 +2043,7 @@
   {
     "id": "MELEE_19",
     "name": "Swiftness",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1971,6 +2062,7 @@
   {
     "id": "MELEE_20",
     "name": "Swiftness",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -1989,6 +2081,7 @@
   {
     "id": "MELEE_21",
     "name": "Swiftness",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2007,6 +2100,7 @@
   {
     "id": "MELEE_22",
     "name": "Weak Spot Focus",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2025,6 +2119,7 @@
   {
     "id": "MELEE_23",
     "name": "Mental Fortitude",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2051,6 +2146,7 @@
   {
     "id": "MELEE_24",
     "name": "Phantom Strike",
+    "section": "Assassin",
     "lore": "",
     "description": "Dash Attacks have an increased Chance to be Critical Hits.",
     "magicEffects": {
@@ -2069,6 +2165,7 @@
   {
     "id": "MELEE_25",
     "name": "Hunter's Vigor",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2088,6 +2185,7 @@
   {
     "id": "MELEE_26",
     "name": "Killing Lunge",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2107,6 +2205,7 @@
   {
     "id": "MELEE_27",
     "name": "Impeccable Aim",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2133,6 +2232,7 @@
   {
     "id": "MELEE_28",
     "name": "Killer Instinct",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2151,6 +2251,7 @@
   {
     "id": "MELEE_29",
     "name": "Killer Instinct",
+    "section": "Assassin",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2169,6 +2270,7 @@
   {
     "id": "MELEE_30",
     "name": "Merciless Lethality",
+    "section": "Assassin",
     "lore": "",
     "description": "Your Critical Damage is increased, but your Damage is decreased.",
     "magicEffects": {
@@ -2195,6 +2297,7 @@
   {
     "id": "DIST_1",
     "name": "Unstoppable Flurry",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2221,6 +2324,7 @@
   {
     "id": "DIST_2",
     "name": "Swiftness",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2239,6 +2343,7 @@
   {
     "id": "DIST_3",
     "name": "Deadly Aim",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2257,6 +2362,7 @@
   {
     "id": "DIST_4",
     "name": "Deadly Aim",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2275,6 +2381,7 @@
   {
     "id": "DIST_5",
     "name": "Come What May",
+    "section": "Ranger",
     "lore": "",
     "description": "Projectiles that Hit an Enemy at close range Pierce them, meaning that the Projectile can Hit other Enemies behind them.",
     "magicEffects": {
@@ -2293,6 +2400,7 @@
   {
     "id": "DIST_6",
     "name": "Physical Conditioning",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2319,6 +2427,7 @@
   {
     "id": "DIST_7",
     "name": "Persistence Hunting",
+    "section": "Ranger",
     "lore": "",
     "description": "Enemies that have Impaired Movement (Slowed, in Stasis, Stunned or Frozen) take increased Damage.",
     "magicEffects": {
@@ -2337,6 +2446,7 @@
   {
     "id": "DIST_8",
     "name": "Crippling Assault",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2355,6 +2465,7 @@
   {
     "id": "DIST_9",
     "name": "Overwhelming Barrage",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2381,6 +2492,7 @@
   {
     "id": "DIST_10",
     "name": "Body and Mind",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2407,6 +2519,7 @@
   {
     "id": "DIST_11",
     "name": "Elusive",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2425,6 +2538,7 @@
   {
     "id": "DIST_12",
     "name": "Elusive",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2443,6 +2557,7 @@
   {
     "id": "DIST_13",
     "name": "Elusive",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2461,6 +2576,7 @@
   {
     "id": "DIST_14",
     "name": "Strike like Lightning",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2495,6 +2611,7 @@
   {
     "id": "DIST_15",
     "name": "Lithe",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2513,6 +2630,7 @@
   {
     "id": "DIST_16",
     "name": "Archion's Teachings",
+    "section": "Ranger",
     "lore": "",
     "description": "Attacks and Spells that launch Projectiles now launch an additional Projectile. The Damage of each Projectile is decreased.",
     "magicEffects": {
@@ -2539,6 +2657,7 @@
   {
     "id": "DIST_17",
     "name": "Bullseye",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2557,6 +2676,7 @@
   {
     "id": "DIST_18",
     "name": "Deadly Aim",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2575,6 +2695,7 @@
   {
     "id": "DIST_19",
     "name": "Shoot to Kill",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2593,6 +2714,7 @@
   {
     "id": "DIST_20",
     "name": "Shoot to Kill",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2611,6 +2733,7 @@
   {
     "id": "DIST_21",
     "name": "Shoot to Kill",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2629,6 +2752,7 @@
   {
     "id": "DIST_22",
     "name": "Puncturing Shot",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2647,6 +2771,7 @@
   {
     "id": "DIST_23",
     "name": "Mental Fortitude",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2673,6 +2798,7 @@
   {
     "id": "DIST_24",
     "name": "Meditative Focus",
+    "section": "Ranger",
     "lore": "",
     "description": "Deal increased Damage when Far-Away from Enemies.",
     "magicEffects": {
@@ -2692,6 +2818,7 @@
   {
     "id": "DIST_25",
     "name": "Death from Afar",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2711,6 +2838,7 @@
   {
     "id": "DIST_26",
     "name": "Personal Space",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2730,6 +2858,7 @@
   {
     "id": "DIST_27",
     "name": "Swiftness",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2748,6 +2877,7 @@
   {
     "id": "DIST_28",
     "name": "Swift Death",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2766,6 +2896,7 @@
   {
     "id": "DIST_29",
     "name": "Swift Death",
+    "section": "Ranger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2784,6 +2915,7 @@
   {
     "id": "DIST_30",
     "name": "Safe From Afar",
+    "section": "Ranger",
     "lore": "",
     "description": "Enemies take increased Damage from your Projectiles, the Damage scaling (up to a limit) with their distance away from where you launched the Projectile.",
     "magicEffects": {
@@ -2804,6 +2936,7 @@
   {
     "id": "WARR_1",
     "name": "Master of the Frontline",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2830,6 +2963,7 @@
   {
     "id": "WARR_2",
     "name": "Cruelty",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2848,6 +2982,7 @@
   {
     "id": "WARR_3",
     "name": "Primal Power",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2882,6 +3017,7 @@
   {
     "id": "WARR_4",
     "name": "Mystic Potential",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2916,6 +3052,7 @@
   {
     "id": "WARR_5",
     "name": "Gods amongst Men",
+    "section": "Warmonger",
     "lore": "",
     "description": "Physical, Toxic and Rend damage is increased. You cannot inflict other Damage Types.",
     "magicEffects": {
@@ -2942,6 +3079,7 @@
   {
     "id": "WARR_6",
     "name": "Marked Flesh",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -2968,6 +3106,7 @@
   {
     "id": "WARR_7",
     "name": "Bestial Frenzy",
+    "section": "Warmonger",
     "lore": "",
     "description": "Increased Damage for each Enemy within Melee Range.",
     "magicEffects": {
@@ -2988,6 +3127,7 @@
   {
     "id": "WARR_8",
     "name": "Battlefield Predator",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3008,6 +3148,7 @@
   {
     "id": "WARR_9",
     "name": "Take All Challengers",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3028,6 +3169,7 @@
   {
     "id": "WARR_10",
     "name": "Blood Rush",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3054,6 +3196,7 @@
   {
     "id": "WARR_11",
     "name": "Unleashed Power",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3072,6 +3215,7 @@
   {
     "id": "WARR_12",
     "name": "Unleashed Power",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3090,6 +3234,7 @@
   {
     "id": "WARR_13",
     "name": "Unleashed Power",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3108,6 +3253,7 @@
   {
     "id": "WARR_14",
     "name": "Strike like Lightning",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3142,6 +3288,7 @@
   {
     "id": "WARR_15",
     "name": "Brutality",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3160,6 +3307,7 @@
   {
     "id": "WARR_16",
     "name": "Feast for the Crows",
+    "section": "Warmonger",
     "lore": "",
     "description": "Give all forms of damage Life Leech. Life Leech heals you on the next tick of Health Regeneration.",
     "magicEffects": {
@@ -3178,6 +3326,7 @@
   {
     "id": "WARR_17",
     "name": "Blood Offering",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3196,6 +3345,7 @@
   {
     "id": "WARR_18",
     "name": "Tearer of Flesh",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3214,6 +3364,7 @@
   {
     "id": "WARR_19",
     "name": "Whirlwind of Steel",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3232,6 +3383,7 @@
   {
     "id": "WARR_20",
     "name": "Whirlwind of Steel",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3250,6 +3402,7 @@
   {
     "id": "WARR_21",
     "name": "Whirlwind of Steel",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3268,6 +3421,7 @@
   {
     "id": "WARR_22",
     "name": "Swiftness",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3286,6 +3440,7 @@
   {
     "id": "WARR_23",
     "name": "Impervious",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3312,6 +3467,7 @@
   {
     "id": "WARR_24",
     "name": "Manic Slaughter",
+    "section": "Warmonger",
     "lore": "",
     "description": "The more Rage you have, the more Damage you deal. This applies to all Damage Types.",
     "magicEffects": {
@@ -3330,6 +3486,7 @@
   {
     "id": "WARR_25",
     "name": "Appetite for Bloodshed",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3348,6 +3505,7 @@
   {
     "id": "WARR_26",
     "name": "Unbridled Rage",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3366,6 +3524,7 @@
   {
     "id": "WARR_27",
     "name": "Deadly Physicality",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3392,6 +3551,7 @@
   {
     "id": "WARR_28",
     "name": "Cannibalistic Savagery",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3410,6 +3570,7 @@
   {
     "id": "WARR_29",
     "name": "Shredder",
+    "section": "Warmonger",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3428,6 +3589,7 @@
   {
     "id": "WARR_30",
     "name": "Blood Reaper",
+    "section": "Warmonger",
     "lore": "",
     "description": "A percentage of Physical Damage becomes Rend Damage.",
     "magicEffects": {
@@ -3446,6 +3608,7 @@
   {
     "id": "TANK_1",
     "name": "Impervious Wall",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3472,6 +3635,7 @@
   {
     "id": "TANK_2",
     "name": "Mighty",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3490,6 +3654,7 @@
   {
     "id": "TANK_3",
     "name": "None Shall Pass",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3508,6 +3673,7 @@
   {
     "id": "TANK_4",
     "name": "Perfect Defense",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3526,6 +3692,7 @@
   {
     "id": "TANK_5",
     "name": "Selfless Courage",
+    "section": "Praetorian",
     "lore": "",
     "description": "Blocking a Hit provides you and your Allies with an increased All Resistances Score Buff.",
     "magicEffects": {
@@ -3544,6 +3711,7 @@
   {
     "id": "TANK_6",
     "name": "Immortal Blood",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3562,6 +3730,7 @@
   {
     "id": "TANK_7",
     "name": "Retaliator",
+    "section": "Praetorian",
     "lore": "",
     "description": "Each point of Physical Resistance increases the Damage you deal with all Damage Types, but decreases your Critical Chance Score.",
     "magicEffects": {
@@ -3588,6 +3757,7 @@
   {
     "id": "TANK_8",
     "name": "Rightful Vengeance",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3606,6 +3776,7 @@
   {
     "id": "TANK_9",
     "name": "Rightful Vengeance",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3624,6 +3795,7 @@
   {
     "id": "TANK_10",
     "name": "Perseverance",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3650,6 +3822,7 @@
   {
     "id": "TANK_11",
     "name": "Iron Skin",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3668,6 +3841,7 @@
   {
     "id": "TANK_12",
     "name": "Iron Skin",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3686,6 +3860,7 @@
   {
     "id": "TANK_13",
     "name": "Iron Skin",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3704,6 +3879,7 @@
   {
     "id": "TANK_14",
     "name": "Strike like Lightning",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3738,6 +3914,7 @@
   {
     "id": "TANK_15",
     "name": "Brutality",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3756,6 +3933,7 @@
   {
     "id": "TANK_16",
     "name": "Kingless Aegis",
+    "section": "Praetorian",
     "lore": "",
     "description": "Benefit from Block Chance with any Weapon equipped",
     "magicEffects": {
@@ -3774,6 +3952,7 @@
   {
     "id": "TANK_17",
     "name": "Unorthodox Technique",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3792,6 +3971,7 @@
   {
     "id": "TANK_18",
     "name": "Regal Blessing",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3810,6 +3990,7 @@
   {
     "id": "TANK_19",
     "name": "Robust",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3828,6 +4009,7 @@
   {
     "id": "TANK_20",
     "name": "Robust",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3846,6 +4028,7 @@
   {
     "id": "TANK_21",
     "name": "Robust",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3864,6 +4047,7 @@
   {
     "id": "TANK_22",
     "name": "Weak Spot Focus",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3882,6 +4066,7 @@
   {
     "id": "TANK_23",
     "name": "Regenerative Body",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3900,6 +4085,7 @@
   {
     "id": "TANK_24",
     "name": "Sacred Oath",
+    "section": "Praetorian",
     "lore": "",
     "description": "Blocking an Enemy's attack inflicts them with Weakness.",
     "magicEffects": {
@@ -3919,6 +4105,7 @@
   {
     "id": "TANK_25",
     "name": "Faith of the Kingless",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3938,6 +4125,7 @@
   {
     "id": "TANK_26",
     "name": "Laibonite Discipline",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3956,6 +4144,7 @@
   {
     "id": "TANK_27",
     "name": "One Man Crusade",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -3982,6 +4171,7 @@
   {
     "id": "TANK_28",
     "name": "Holy Gift",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4000,6 +4190,7 @@
   {
     "id": "TANK_29",
     "name": "Divine Alms",
+    "section": "Praetorian",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4018,6 +4209,7 @@
   {
     "id": "TANK_30",
     "name": "Blessed Manna",
+    "section": "Praetorian",
     "lore": "",
     "description": "Health Globes will now provide a temporary Buff to your Resistances as well as Healing you.",
     "magicEffects": {
@@ -4036,6 +4228,7 @@
   {
     "id": "ELEM_1",
     "name": "Clarity of Mind",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4062,6 +4255,7 @@
   {
     "id": "ELEM_2",
     "name": "Tormentor",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4080,6 +4274,7 @@
   {
     "id": "ELEM_3",
     "name": "Master of Curses",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4098,6 +4293,7 @@
   {
     "id": "ELEM_4",
     "name": "Master of Curses",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4116,6 +4312,7 @@
   {
     "id": "ELEM_5",
     "name": "Insidious Decay",
+    "section": "Cabalist",
     "lore": "",
     "description": "When inflicting Ailments, the number of Stacks inflicted on an Enemy is increased. The Damage you deal from sources other than those that deal damage-over-time is decreased.",
     "magicEffects": {
@@ -4142,6 +4339,7 @@
   {
     "id": "ELEM_6",
     "name": "Ancient Trinket",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4160,6 +4358,7 @@
   {
     "id": "ELEM_7",
     "name": "Primordial Insights",
+    "section": "Cabalist",
     "lore": "",
     "description": "Ailment Stacks inflicted with Critical Hits can deal Critical Damage.",
     "magicEffects": {
@@ -4178,6 +4377,7 @@
   {
     "id": "ELEM_8",
     "name": "Ancient Knowledge",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4196,6 +4396,7 @@
   {
     "id": "ELEM_9",
     "name": "Otherworldly Techniques",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4214,6 +4415,7 @@
   {
     "id": "ELEM_10",
     "name": "Protective Aura",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4240,6 +4442,7 @@
   {
     "id": "ELEM_11",
     "name": "Sharp Insight",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4258,6 +4461,7 @@
   {
     "id": "ELEM_12",
     "name": "Sharp Insight",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4276,6 +4480,7 @@
   {
     "id": "ELEM_13",
     "name": "Sharp Insight",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4294,6 +4499,7 @@
   {
     "id": "ELEM_14",
     "name": "Strike like Lightning",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4328,6 +4534,7 @@
   {
     "id": "ELEM_15",
     "name": "Focused",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4346,6 +4553,7 @@
   {
     "id": "ELEM_16",
     "name": "Grievous Afflictions",
+    "section": "Cabalist",
     "lore": "",
     "description": "Hits can usually only apply one ailment type. Now 2 different ailments can be applied with the same hit.",
     "magicEffects": {
@@ -4364,6 +4572,7 @@
   {
     "id": "ELEM_17",
     "name": "Crippling Decrepitude",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4390,6 +4599,7 @@
   {
     "id": "ELEM_18",
     "name": "Tormentor",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4408,6 +4618,7 @@
   {
     "id": "ELEM_19",
     "name": "Crippling Decrepitude",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4434,6 +4645,7 @@
   {
     "id": "ELEM_20",
     "name": "Lethal Certainty",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4452,6 +4664,7 @@
   {
     "id": "ELEM_21",
     "name": "Incessant Infirmity",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4478,6 +4691,7 @@
   {
     "id": "ELEM_22",
     "name": "Tenacious Afflictions",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4495,7 +4709,8 @@
   },
   {
     "id": "ELEM_23",
-    "name": "Strong-Willed",
+    "name": "Strong Willed",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4514,6 +4729,7 @@
   {
     "id": "ELEM_24",
     "name": "Power of the First Men",
+    "section": "Cabalist",
     "lore": "",
     "description": "When inflicting an Ailment, there is a Chance to double the number of Ailment Stacks inflicted.",
     "magicEffects": {
@@ -4533,6 +4749,7 @@
   {
     "id": "ELEM_25",
     "name": "Artefact Analysis",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4552,6 +4769,7 @@
   {
     "id": "ELEM_26",
     "name": "Enneract Expert",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4571,6 +4789,7 @@
   {
     "id": "ELEM_27",
     "name": "Enfeebling Energy",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4597,6 +4816,7 @@
   {
     "id": "ELEM_28",
     "name": "Magical Mastery",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4615,6 +4835,7 @@
   {
     "id": "ELEM_29",
     "name": "Magical Mastery",
+    "section": "Cabalist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4633,6 +4854,7 @@
   {
     "id": "ELEM_30",
     "name": "Immortal Offering",
+    "section": "Cabalist",
     "lore": "",
     "description": "Killing an enemy that is afflicted with Ailments gives you a temporary Damage increase Buff.",
     "magicEffects": {
@@ -4653,6 +4875,7 @@
   {
     "id": "MAST_1",
     "name": "Dominator",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4671,6 +4894,7 @@
   {
     "id": "MAST_2",
     "name": "Spellslinger",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4689,6 +4913,7 @@
   {
     "id": "MAST_3",
     "name": "Elemental Manipulation",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4707,6 +4932,7 @@
   {
     "id": "MAST_4",
     "name": "Witchcraft Adept",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4725,6 +4951,7 @@
   {
     "id": "MAST_5",
     "name": "Residual Energy",
+    "section": "Warlock",
     "lore": "",
     "description": "Casting a Spell increases the Damage of your Attacks for a short period of time. The Damage Type of those Attacks is the same as the last Spell Cast.",
     "magicEffects": {
@@ -4743,7 +4970,8 @@
   },
   {
     "id": "MAST_6",
-    "name": "Hyper Self-Awareness",
+    "name": "Hyper Self Awareness",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4762,6 +4990,7 @@
   {
     "id": "MAST_7",
     "name": "Duty to Exterminate",
+    "section": "Warlock",
     "lore": "",
     "description": "Increases Maximum Rage and Willpower.",
     "magicEffects": {
@@ -4780,6 +5009,7 @@
   {
     "id": "MAST_8",
     "name": "Twisted Obligation",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4798,6 +5028,7 @@
   {
     "id": "MAST_9",
     "name": "Twisted Obligation",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4815,7 +5046,8 @@
   },
   {
     "id": "MAST_10",
-    "name": "Self-Preservation Instinct",
+    "name": "Self Preservation Instinct",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4842,6 +5074,7 @@
   {
     "id": "MAST_11",
     "name": "Sharp Insight",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4860,6 +5093,7 @@
   {
     "id": "MAST_12",
     "name": "Sharp Insight",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4878,6 +5112,7 @@
   {
     "id": "MAST_13",
     "name": "Sharp Insight",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4896,6 +5131,7 @@
   {
     "id": "MAST_14",
     "name": "Strike like Lightning",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4930,6 +5166,7 @@
   {
     "id": "MAST_15",
     "name": "Focused",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4948,6 +5185,7 @@
   {
     "id": "MAST_16",
     "name": "Reining In the Darkness",
+    "section": "Warlock",
     "lore": "",
     "description": "Your Spell Critical Chance Score is increased when your Willpower is above a certain threshold.",
     "magicEffects": {
@@ -4966,6 +5204,7 @@
   {
     "id": "MAST_17",
     "name": "Dark Calling",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -4983,7 +5222,8 @@
   },
   {
     "id": "MAST_18",
-    "name": "Self-Restraint",
+    "name": "Self Restraint",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5002,6 +5242,7 @@
   {
     "id": "MAST_19",
     "name": "Magical Mastery",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5020,6 +5261,7 @@
   {
     "id": "MAST_20",
     "name": "Magical Mastery",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5038,6 +5280,7 @@
   {
     "id": "MAST_21",
     "name": "Magical Mastery",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5055,7 +5298,8 @@
   },
   {
     "id": "MAST_22",
-    "name": "Self-Restraint",
+    "name": "Self Restraint",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5074,6 +5318,7 @@
   {
     "id": "MAST_23",
     "name": "Impatient",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5092,6 +5337,7 @@
   {
     "id": "MAST_24",
     "name": "Resilience to Corruption",
+    "section": "Warlock",
     "lore": "",
     "description": "When you are afflicted with damage over time, ailment damage affects your Force Shield before your Health.",
     "magicEffects": {
@@ -5110,6 +5356,7 @@
   {
     "id": "MAST_25",
     "name": "Ancient Trinket",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5127,7 +5374,8 @@
   },
   {
     "id": "MAST_26",
-    "name": "Strong-Willed",
+    "name": "Strong Willed",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5146,6 +5394,7 @@
   {
     "id": "MAST_27",
     "name": "Unholy Dominion",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5172,6 +5421,7 @@
   {
     "id": "MAST_28",
     "name": "Ravenous Magic",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5190,6 +5440,7 @@
   {
     "id": "MAST_29",
     "name": "Ravenous Magic",
+    "section": "Warlock",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5208,6 +5459,7 @@
   {
     "id": "MAST_30",
     "name": "Faith Leech",
+    "section": "Warlock",
     "lore": "",
     "description": "Dealing Damage will now allow you to recharge Force Shield instead of restoring Health with Life Leech.",
     "magicEffects": {
@@ -5226,6 +5478,7 @@
   {
     "id": "REPU_1",
     "name": "Aloof Hunter",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5260,6 +5513,7 @@
   {
     "id": "REPU_2",
     "name": "Earthly Ballast",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5278,6 +5532,7 @@
   {
     "id": "REPU_3",
     "name": "Earthly Ballast",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5296,6 +5551,7 @@
   {
     "id": "REPU_4",
     "name": "Profane Of Body",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5322,6 +5578,7 @@
   {
     "id": "REPU_5",
     "name": "Arcane Dissolution",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5348,6 +5605,7 @@
   {
     "id": "REPU_6",
     "name": "Caster's Woe",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5366,6 +5624,7 @@
   {
     "id": "REPU_7",
     "name": "The Weight And The Force",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5392,6 +5651,7 @@
   {
     "id": "REPU_8",
     "name": "Branded Burst",
+    "section": "Exorcist",
     "lore": "",
     "description": "After a few seconds of not being Hit, you gain a \"Tenet\" point. When you are Hit you ignore a percentage of the Damage and lose a \"Tenet\" point. The amount of Damage not dealt is increased with each point you have.",
     "magicEffects": {
@@ -5419,6 +5679,7 @@
   {
     "id": "REPU_9",
     "name": "Indifference",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5437,6 +5698,7 @@
   {
     "id": "REPU_10",
     "name": "Nullifying Point",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5455,6 +5717,7 @@
   {
     "id": "REPU_11",
     "name": "Nullifying Point",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5473,6 +5736,7 @@
   {
     "id": "REPU_12",
     "name": "Profane Of Body",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5499,6 +5763,7 @@
   {
     "id": "REPU_13",
     "name": "Sin Eater",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5525,6 +5790,7 @@
   {
     "id": "REPU_14",
     "name": "Elusive Code",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5543,6 +5809,7 @@
   {
     "id": "REPU_15",
     "name": "Caster's Woe",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5561,6 +5828,7 @@
   {
     "id": "REPU_16",
     "name": "The Weight And The Force",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5587,6 +5855,7 @@
   {
     "id": "REPU_17",
     "name": "Blessed Silver",
+    "section": "Exorcist",
     "lore": "",
     "description": "You have 5 \"Annointed Ammunition\" points that replenish every few seconds. \"Annointed Ammunition\" also replenishes  when you complete an Active Dodge.\\n\\nFor every \"Annointed Ammunition\" point you have, your Projectile Damage is increased.\\n\\nFor every \"Annointed Ammunition\" point you have missing, your Melee Damage is increased.",
     "magicEffects": {
@@ -5630,6 +5899,7 @@
   {
     "id": "REPU_18",
     "name": "Eagerness",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5648,6 +5918,7 @@
   {
     "id": "REPU_19",
     "name": "Academic Fieldwork",
+    "section": "Exorcist",
     "lore": "",
     "description": "Every time you kill a Champion enemy, you gain 1 \"Headhunter\" point up to a Maximum. Each \"Headhunter\" point increases your Material Damage for a few seconds. Your \"Headhunter\" points will be reset if you do not aquire a new point within a given timeframe.",
     "magicEffects": {
@@ -5668,6 +5939,7 @@
   {
     "id": "REPU_20",
     "name": "Perilous Load",
+    "section": "Exorcist",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5686,6 +5958,7 @@
   {
     "id": "SNIP_1",
     "name": "Implacable Tracker",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5728,6 +6001,7 @@
   {
     "id": "SNIP_2",
     "name": "Frostbite",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5746,6 +6020,7 @@
   {
     "id": "SNIP_3",
     "name": "Frostbite",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5764,6 +6039,7 @@
   {
     "id": "SNIP_4",
     "name": "Call of the Wild",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5790,6 +6066,7 @@
   {
     "id": "SNIP_5",
     "name": "Dream of Hearths",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5816,6 +6093,7 @@
   {
     "id": "SNIP_6",
     "name": "Ice Shall Wake",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5834,6 +6112,7 @@
   {
     "id": "SNIP_7",
     "name": "Hunter Hunted",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5860,6 +6139,7 @@
   {
     "id": "SNIP_8",
     "name": "Hungry Stalactite",
+    "section": "White Arrow",
     "lore": "",
     "description": "Damage is increased based on how much Pierce is remaining on a Projectile after it has Hit an Enemy.",
     "magicEffects": {
@@ -5878,6 +6158,7 @@
   {
     "id": "SNIP_9",
     "name": "Cruel Sting",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5896,6 +6177,7 @@
   {
     "id": "SNIP_10",
     "name": "Pelting Shards",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5922,6 +6204,7 @@
   {
     "id": "SNIP_11",
     "name": "Pelting Shards",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5948,6 +6231,7 @@
   {
     "id": "SNIP_12",
     "name": "Call of the Wild",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -5974,6 +6258,7 @@
   {
     "id": "SNIP_13",
     "name": "Traversing Arrowhead",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6000,6 +6285,7 @@
   {
     "id": "SNIP_14",
     "name": "Primeval Awareness",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6018,6 +6304,7 @@
   {
     "id": "SNIP_15",
     "name": "Ice Shall Wake",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6036,6 +6323,7 @@
   {
     "id": "SNIP_16",
     "name": "Hunter Hunted",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6062,6 +6350,7 @@
   {
     "id": "SNIP_17",
     "name": "Wintry Hail",
+    "section": "White Arrow",
     "lore": "",
     "description": "When a Projectile Hits an Enemy, it will bounce off them and hit another enemy, dealing increased Frost Damage. Projectiles will not bounce if they have Pierce remaining.",
     "magicEffects": {
@@ -6089,6 +6378,7 @@
   {
     "id": "SNIP_18",
     "name": "Steadied Force",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6107,6 +6397,7 @@
   {
     "id": "SNIP_19",
     "name": "Acute Tracking",
+    "section": "White Arrow",
     "lore": "",
     "description": "Every second that you are in combat you receive \"Cold Blooded\" points that increase your Damage. If you are Hit the \"Cold Blooded\" points are removed.",
     "magicEffects": {
@@ -6134,6 +6425,7 @@
   {
     "id": "SNIP_20",
     "name": "Studied Pursuer",
+    "section": "White Arrow",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6152,6 +6444,7 @@
   {
     "id": "ASSA_1",
     "name": "External Discharge",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6186,6 +6479,7 @@
   {
     "id": "ASSA_2",
     "name": "Condensator",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6204,6 +6498,7 @@
   {
     "id": "ASSA_3",
     "name": "Condensator",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6222,6 +6517,7 @@
   {
     "id": "ASSA_4",
     "name": "Particle Fuelled Generator",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6248,6 +6544,7 @@
   {
     "id": "ASSA_5",
     "name": "Dispassionate Detachment",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6274,6 +6571,7 @@
   {
     "id": "ASSA_6",
     "name": "Electric Power Redirection",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6292,6 +6590,7 @@
   {
     "id": "ASSA_7",
     "name": "Integrated Immaterial Shields",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6318,6 +6617,7 @@
   {
     "id": "ASSA_8",
     "name": "Static Transferral",
+    "section": "Alastor",
     "lore": "",
     "description": "Each time you use a Basic Attack, you receive an \"Overload\" point that increases your Damage. When you use a Skill, every \"Overload\" point is removed and the total Damage Buff provided by your \"Overload\" points is doubled.",
     "magicEffects": {
@@ -6337,6 +6637,7 @@
   {
     "id": "ASSA_9",
     "name": "Protracted Effort",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6355,6 +6656,7 @@
   {
     "id": "ASSA_10",
     "name": "Pulse Control",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6373,6 +6675,7 @@
   {
     "id": "ASSA_11",
     "name": "Pulse Control",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6391,6 +6694,7 @@
   {
     "id": "ASSA_12",
     "name": "Particle Fuelled Generator",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6417,6 +6721,7 @@
   {
     "id": "ASSA_13",
     "name": "Shock Invasion",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6443,6 +6748,7 @@
   {
     "id": "ASSA_14",
     "name": "Integrated Immaterial Shields",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6469,6 +6775,7 @@
   {
     "id": "ASSA_15",
     "name": "Electric Power Redirection",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6487,6 +6794,7 @@
   {
     "id": "ASSA_16",
     "name": "Integrated Immaterial Shields",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6513,6 +6821,7 @@
   {
     "id": "ASSA_17",
     "name": "Intravenous Neural Cord",
+    "section": "Alastor",
     "lore": "",
     "description": "Whenever you inflict a Critical Hit on an Enemy, your Attack Speed Score is increased for a short duration.",
     "magicEffects": {
@@ -6531,6 +6840,7 @@
   {
     "id": "ASSA_18",
     "name": "Cautious Effort",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6549,6 +6859,7 @@
   {
     "id": "ASSA_19",
     "name": "Sparking Dart",
+    "section": "Alastor",
     "lore": "",
     "description": "You have \"Power Charge\" points. This resource is now used to activate any Device Skills or Skills that deal the Lightning Damage Type. The resource can have any value between -100 and 100. When Power Charge is a positive number, your Damage will be increased, and when it is a negative number, your Damage will be decreased.\\n\\nPower Charge is regenerated over time, and by using your Basic Attacks.\\n\\nThese Skills still consume their dedicated Resource in addition to \"Power Charge\".",
     "magicEffects": {
@@ -6578,6 +6889,7 @@
   {
     "id": "ASSA_20",
     "name": "Stunning Presence",
+    "section": "Alastor",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6596,6 +6908,7 @@
   {
     "id": "SHDW_1",
     "name": "Blindfolded Leaps",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6630,6 +6943,7 @@
   {
     "id": "SHDW_2",
     "name": "Veiled Bound",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6648,6 +6962,7 @@
   {
     "id": "SHDW_3",
     "name": "Veiled Bound",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6666,6 +6981,7 @@
   {
     "id": "SHDW_4",
     "name": "Balanchine Endurance",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6684,6 +7000,7 @@
   {
     "id": "SHDW_5",
     "name": "Saturnalia",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6710,6 +7027,7 @@
   {
     "id": "SHDW_6",
     "name": "Showstopper",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6736,6 +7054,7 @@
   {
     "id": "SHDW_7",
     "name": "Bodies Made Fleeting",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6770,6 +7089,7 @@
   {
     "id": "SHDW_8",
     "name": "Tethered Shade",
+    "section": "Duskglaive",
     "lore": "",
     "description": "Whenever you Active Dodge, enemies in your path receive Damage and a Decoy is left at the starting position of the Active Dodge.",
     "magicEffects": {
@@ -6789,6 +7109,7 @@
   {
     "id": "SHDW_9",
     "name": "Scabrous Balance",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6808,6 +7129,7 @@
   {
     "id": "SHDW_10",
     "name": "Cutting Adagio",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6834,6 +7156,7 @@
   {
     "id": "SHDW_11",
     "name": "Cutting Adagio",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6860,6 +7183,7 @@
   {
     "id": "SHDW_12",
     "name": "Balanchine Endurance",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6878,6 +7202,7 @@
   {
     "id": "SHDW_13",
     "name": "All The World's A Stage",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6912,6 +7237,7 @@
   {
     "id": "SHDW_14",
     "name": "Gleam On The Breeze",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6930,6 +7256,7 @@
   {
     "id": "SHDW_15",
     "name": "Showstopper",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6956,6 +7283,7 @@
   {
     "id": "SHDW_16",
     "name": "Bodies Made Fleeting",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -6990,6 +7318,7 @@
   {
     "id": "SHDW_17",
     "name": "Life's First Movement",
+    "section": "Duskglaive",
     "lore": "",
     "description": "You have 5 \"Lure of Darkness\" points and 5 \"Lure of Light\" points. When using a Spell you gain 1 \"Lure of Darkness\" point and lose 1 \"Lure of Light\" point. When using an Attack you gain 1 \"Lure of Light\" point and lose 1 \"Lure of Darkness\" point. When both points are weighted 6/4, they are considered to be in Equilibrium. While in this state, you will receive the following Buffs:\\n\\nA percentage of your Attack Damage is added to your Spell Damage.\\n\\nA percentage of your Spell Damage is added to your Attack Damage.",
     "magicEffects": {
@@ -7024,6 +7353,7 @@
   {
     "id": "SHDW_18",
     "name": "Limited Breath",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7042,6 +7372,7 @@
   {
     "id": "SHDW_19",
     "name": "Waltzing Smoke",
+    "section": "Duskglaive",
     "lore": "",
     "description": "Whenever you complete an Active Dodge, you become Invisible and your next Attack deals increased Shadow damage.",
     "magicEffects": {
@@ -7062,6 +7393,7 @@
   {
     "id": "SHDW_20",
     "name": "Protracted Effort",
+    "section": "Duskglaive",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7081,6 +7413,7 @@
   {
     "id": "BSRK_1",
     "name": "Boiling Point",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7107,6 +7440,7 @@
   {
     "id": "BSRK_2",
     "name": "Indignation",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7125,6 +7459,7 @@
   {
     "id": "BSRK_3",
     "name": "Indignation",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7143,6 +7478,7 @@
   {
     "id": "BSRK_4",
     "name": "Fireproof",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7169,6 +7505,7 @@
   {
     "id": "BSRK_5",
     "name": "Wyrmbreath",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7195,6 +7532,7 @@
   {
     "id": "BSRK_6",
     "name": "Phlogiston",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7213,6 +7551,7 @@
   {
     "id": "BSRK_7",
     "name": "Undying Flicker",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7231,6 +7570,7 @@
   {
     "id": "BSRK_8",
     "name": "Furious Appetite",
+    "section": "Child of Fury",
     "lore": "",
     "description": "Your Willpower generated is transferred into Rage.\\n\\nYour Willpower Regeneration is also applied to Rage instead.",
     "magicEffects": {
@@ -7249,6 +7589,7 @@
   {
     "id": "BSRK_9",
     "name": "Frenzied Blows",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7268,6 +7609,7 @@
   {
     "id": "BSRK_10",
     "name": "Initial Spark",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7286,6 +7628,7 @@
   {
     "id": "BSRK_11",
     "name": "Initial Spark",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7304,6 +7647,7 @@
   {
     "id": "BSRK_12",
     "name": "Fireproof",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7330,6 +7674,7 @@
   {
     "id": "BSRK_13",
     "name": "Conflagration",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7356,6 +7701,7 @@
   {
     "id": "BSRK_14",
     "name": "Volcanic Crust",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7382,6 +7728,7 @@
   {
     "id": "BSRK_15",
     "name": "Phlogiston",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7400,6 +7747,7 @@
   {
     "id": "BSRK_16",
     "name": "Autarchic Mind",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7426,6 +7774,7 @@
   {
     "id": "BSRK_17",
     "name": "Blistering Embrace",
+    "section": "Child of Fury",
     "lore": "",
     "description": "When you Hit an Enemy that has a certain number of Burn Stacks, your Hits have a Chance to consume the Burn Stacks that you inflicted and deal increased Damage per the number of Stacks consumed.",
     "magicEffects": {
@@ -7448,6 +7797,7 @@
   {
     "id": "BSRK_18",
     "name": "Shattering Strike",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7468,6 +7818,7 @@
   {
     "id": "BSRK_19",
     "name": "Flurrying Flames",
+    "section": "Child of Fury",
     "lore": "",
     "description": "Each time you Hit an Enemy, you receive an \"Unleashed Fury\" point. Each \"Unleashed Fury\" point increases your Attack Speed Score, your Life Leech, and decreases your All Resistances Score.",
     "magicEffects": {
@@ -7511,6 +7862,7 @@
   {
     "id": "BSRK_20",
     "name": "Nursing Grudges",
+    "section": "Child of Fury",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7537,6 +7889,7 @@
   {
     "id": "CHAMP_1",
     "name": "Omnipractice",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7571,6 +7924,7 @@
   {
     "id": "CHAMP_2",
     "name": "Clever Thrust",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7589,6 +7943,7 @@
   {
     "id": "CHAMP_3",
     "name": "Flurry Of Blows",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7615,6 +7970,7 @@
   {
     "id": "CHAMP_4",
     "name": "Induration",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7641,6 +7997,7 @@
   {
     "id": "CHAMP_5",
     "name": "Sundering Precision",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7659,6 +8016,7 @@
   {
     "id": "CHAMP_6",
     "name": "Clever Thrust",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7677,6 +8035,7 @@
   {
     "id": "CHAMP_7",
     "name": "High Evasion",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7695,6 +8054,7 @@
   {
     "id": "CHAMP_8",
     "name": "Virtuose Stance",
+    "section": "Arms Maester",
     "lore": "",
     "description": "You unlock the \"Probing Weakness\" and \"Stalwart Resolve\" Stances, each one giving you different Buffs. Using an Active Dodge changes your Stance.\\n\\nWhile in the \"Probing Weakness\" Stance, your All Resistances Score is decreased, but your Basic Attacks have a chance to deal double Damage, including on Critical Hits.\\n\\nWhile in the \"Stalwart Resolve\" Stance, your Attack and Spell Casting Speed Score is decreased, but your Block Chance is increased.",
     "magicEffects": {
@@ -7732,6 +8092,7 @@
   {
     "id": "CHAMP_9",
     "name": "Ingenious Stance",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7761,6 +8122,7 @@
   {
     "id": "CHAMP_10",
     "name": "Calculated Cleave",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7779,6 +8141,7 @@
   {
     "id": "CHAMP_11",
     "name": "Rain of Hazards",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7805,6 +8168,7 @@
   {
     "id": "CHAMP_12",
     "name": "Induration",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7831,6 +8195,7 @@
   {
     "id": "CHAMP_13",
     "name": "Sundering Precision",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7849,6 +8214,7 @@
   {
     "id": "CHAMP_14",
     "name": "Percussive Rebound",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7867,6 +8233,7 @@
   {
     "id": "CHAMP_15",
     "name": "Calculated Cleave",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7885,6 +8252,7 @@
   {
     "id": "CHAMP_16",
     "name": "Poised Barrier",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7903,6 +8271,7 @@
   {
     "id": "CHAMP_17",
     "name": "Proud Reprisal",
+    "section": "Arms Maester",
     "lore": "",
     "description": "If you Block an Enemy’s attack, you instantly deal a percentage of your Weapon Damage in a counter-attack.",
     "magicEffects": {
@@ -7923,6 +8292,7 @@
   {
     "id": "CHAMP_18",
     "name": "Mathematical Counter",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -7941,6 +8311,7 @@
   {
     "id": "CHAMP_19",
     "name": "Pugilist's Momentum",
+    "section": "Arms Maester",
     "lore": "",
     "description": "Completing Basic Attacks with the same Weapon 4 times within a short period grants you different Buffs depending on the Weapon.\\n\\nOne-handed and dual-wielded Weapons always inflict Critical Hits on the 4th Basic Attack.\\n\\nTwo-handed axes, hammers, and swords always inflict Stun in an area of effect on the 4th Basic Attack.\\n\\nBows always launch Projectiles in 360 degrees around you on the 4th Basic Attack.\\n\\nStaffs always launch multiple Projectiles on the 4th Basic Attack.",
     "magicEffects": {
@@ -7991,6 +8362,7 @@
   {
     "id": "CHAMP_20",
     "name": "Cessation",
+    "section": "Arms Maester",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8009,6 +8381,7 @@
   {
     "id": "SIEGE_1",
     "name": "Inexorable Vitality",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8035,6 +8408,7 @@
   {
     "id": "SIEGE_2",
     "name": "Chromatic Idol",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8061,6 +8435,7 @@
   {
     "id": "SIEGE_3",
     "name": "Obsidian Idol",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8087,6 +8462,7 @@
   {
     "id": "SIEGE_4",
     "name": "Futile Endeavour",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8105,6 +8481,7 @@
   {
     "id": "SIEGE_5",
     "name": "Monolith",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8123,6 +8500,7 @@
   {
     "id": "SIEGE_6",
     "name": "Landslide",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8149,6 +8527,7 @@
   {
     "id": "SIEGE_7",
     "name": "Liberty Arisen",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8175,6 +8554,7 @@
   {
     "id": "SIEGE_8",
     "name": "Salvatory Anchor",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "You will receive a Buff depending on which archetype your equipped Chest-piece belongs to.\\n\\nIf you have a Bruiser Chest-piece, you receive Health Regeneration for each Health point on the Armor.\\n\\nIf you have a Heavy Chest-piece, its All Resistances Score is doubled.\\n\\nIf you have a Rogue Chest-piece, you regenerate Health and Force Shield each time you complete a Passive Dodge. The amount that you regenerate is determined by the Health points given by the Armor.\\n\\nIf you have a Sorcerer Chest-piece you regenerate Force Shield based on the amount of Force Shield on the Armor.",
     "magicEffects": {
@@ -8225,6 +8605,7 @@
   {
     "id": "SIEGE_9",
     "name": "Elevated Gain",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8275,6 +8656,7 @@
   {
     "id": "SIEGE_10",
     "name": "Brutal Imposition",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8293,6 +8675,7 @@
   {
     "id": "SIEGE_11",
     "name": "Brutal Imposition",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8311,6 +8694,7 @@
   {
     "id": "SIEGE_12",
     "name": "Futile Endeavour",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8337,6 +8721,7 @@
   {
     "id": "SIEGE_13",
     "name": "Bane of Tyranny",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8355,6 +8740,7 @@
   {
     "id": "SIEGE_14",
     "name": "Unsunken",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8373,6 +8759,7 @@
   {
     "id": "SIEGE_15",
     "name": "Landslide",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8399,6 +8786,7 @@
   {
     "id": "SIEGE_16",
     "name": "Liberty Arisen",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8425,6 +8813,7 @@
   {
     "id": "SIEGE_17",
     "name": "Belligerent Banner",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "Every few seconds you gain a \"Fortress\" point up to a Maximum. Each \"Fortress\" point increases your Block Chance. \"Fortress\" points are removed when a Block is completed.",
     "magicEffects": {
@@ -8453,6 +8842,7 @@
   {
     "id": "SIEGE_18",
     "name": "Proud Helm",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8471,6 +8861,7 @@
   {
     "id": "SIEGE_19",
     "name": "Disallowing Vessel",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "While stationary you gain an \"Inexorable\" point every few seconds. Each point of \"Inexorable\" decreases your Movement Speed and increases your Damage. Moving will cause an \"Inexorable\" point to be removed after a few seconds.",
     "magicEffects": {
@@ -8506,6 +8897,7 @@
   {
     "id": "SIEGE_20",
     "name": "Secure Parry",
+    "section": "Siegebreaker",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8532,6 +8924,7 @@
   {
     "id": "PALA_1",
     "name": "Light For The Blind",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8566,6 +8959,7 @@
   {
     "id": "PALA_2",
     "name": "Lady's Hand",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8584,6 +8978,7 @@
   {
     "id": "PALA_3",
     "name": "Lady's Hand",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8602,6 +8997,7 @@
   {
     "id": "PALA_4",
     "name": "Final Sacrament",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8628,6 +9024,7 @@
   {
     "id": "PALA_5",
     "name": "Purge",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8646,6 +9043,7 @@
   {
     "id": "PALA_6",
     "name": "Holy Song",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8664,6 +9062,7 @@
   {
     "id": "PALA_7",
     "name": "Healing Hands",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8682,6 +9081,7 @@
   {
     "id": "PALA_8",
     "name": "Dawn's Pious Striker",
+    "section": "Eos",
     "lore": "",
     "description": "Enemies are killed instantly if Hit while their Health is below a certain threshold. This only works on Underling and Specialist enemies.",
     "magicEffects": {
@@ -8700,6 +9100,7 @@
   {
     "id": "PALA_9",
     "name": "Sudden Death",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8718,6 +9119,7 @@
   {
     "id": "PALA_10",
     "name": "Luminous Ritual",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8736,6 +9138,7 @@
   {
     "id": "PALA_11",
     "name": "Luminous Ritual",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8754,6 +9157,7 @@
   {
     "id": "PALA_12",
     "name": "Anointment",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8780,6 +9184,7 @@
   {
     "id": "PALA_13",
     "name": "Purge",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8798,6 +9203,7 @@
   {
     "id": "PALA_14",
     "name": "Armed Sermon",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8824,6 +9230,7 @@
   {
     "id": "PALA_15",
     "name": "Touch Of Divinity",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8842,6 +9249,7 @@
   {
     "id": "PALA_16",
     "name": "Instructed Cure",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8860,6 +9268,7 @@
   {
     "id": "PALA_17",
     "name": "Unflagging Prayer",
+    "section": "Eos",
     "lore": "",
     "description": "When your Health is below a certain threshold, you make a \"Prayer\", giving a Buff to the All Resistances Score of your Allies for a few seconds and reviving Downed Allies. This Effect has a large cooldown.",
     "magicEffects": {
@@ -8887,6 +9296,7 @@
   {
     "id": "PALA_18",
     "name": "Famed Return",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8905,6 +9315,7 @@
   {
     "id": "PALA_19",
     "name": "Beacon For the Lost",
+    "section": "Eos",
     "lore": "",
     "description": "When your Force Shield is above a certain percentage, your Spells that deal Sacred Damage deal increased Damage.\\n\\nWhen your Force Shield is below a certain threshold, your Attacks that deal Sacred Damage deal increased Damage.\\n\\nThis ability only works if your Force Shield is above 0.",
     "magicEffects": {
@@ -8924,6 +9335,7 @@
   {
     "id": "PALA_20",
     "name": "Hallowed Insight",
+    "section": "Eos",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8942,6 +9354,7 @@
   {
     "id": "ORAC_1",
     "name": "Of Squalls And Fires",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8968,6 +9381,7 @@
   {
     "id": "ORAC_2",
     "name": "Spiralling Field",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -8994,6 +9408,7 @@
   {
     "id": "ORAC_3",
     "name": "Sparked Repulsion",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9012,6 +9427,7 @@
   {
     "id": "ORAC_4",
     "name": "Weathered Pavis",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9038,6 +9454,7 @@
   {
     "id": "ORAC_5",
     "name": "Crystallization",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9056,6 +9473,7 @@
   {
     "id": "ORAC_6",
     "name": "Faith Diversion",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9074,6 +9492,7 @@
   {
     "id": "ORAC_7",
     "name": "Immolation",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9092,6 +9511,7 @@
   {
     "id": "ORAC_8",
     "name": "Ancient Fervour",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "Using Skills that deal Elemental Damage you their corresponding \"Accord\". Each Accord has different Effects depending on its Elemental Damage Type.\\n\\n\"Beelmalik's Accord\" increases your Critical Chance Score for a few seconds.\\n\\n\"Abanazaar's Accord\" increases your Damage for a few seconds.\\n\\n\"Etheliel's Accord\" increases your Ailment Chance Score for a few seconds.",
     "magicEffects": {
@@ -9135,6 +9555,7 @@
   {
     "id": "ORAC_9",
     "name": "Dual Allegiance",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9153,6 +9574,7 @@
   {
     "id": "ORAC_10",
     "name": "Audacity In Descent",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9171,6 +9593,7 @@
   {
     "id": "ORAC_11",
     "name": "Audacity In Descent",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9189,6 +9612,7 @@
   {
     "id": "ORAC_12",
     "name": "Weathered Pavis",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9215,6 +9639,7 @@
   {
     "id": "ORAC_13",
     "name": "Matter In Dissolution",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9241,6 +9666,7 @@
   {
     "id": "ORAC_14",
     "name": "Tempestuous Shelter",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9259,6 +9685,7 @@
   {
     "id": "ORAC_15",
     "name": "Faith Diversion",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9277,6 +9704,7 @@
   {
     "id": "ORAC_16",
     "name": "Spiralling Field",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9303,6 +9731,7 @@
   {
     "id": "ORAC_17",
     "name": "Elementary Destabilization",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "Whenever your Willpower is below a certain percentage, each time you use a Skill there is a Chance that you will cause an explosion. You and Enemies take a percentage of your maximum Health OR Force Shield (whichever is highest) as Damage, and a percentage of your Willpower is regenerated.\\n\\nThe Damage type of the Damage dealt is selected randomly between Lightning, Fire, and Frost.",
     "magicEffects": {
@@ -9323,6 +9752,7 @@
   {
     "id": "ORAC_18",
     "name": "Unstable Climate",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9341,6 +9771,7 @@
   {
     "id": "ORAC_19",
     "name": "Omnitempest",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "Certain Skills that deal Elemental Damage Types have a chance to launch other Spells when Cast.\\n\\nLightning Skills can launch a Chain Lightning Spell.\\n\\nFire skills can launch a Meteor Spell.\\n\\nFrost skills can launch a Frost Lance Spell.",
     "magicEffects": {
@@ -9378,6 +9809,7 @@
   {
     "id": "ORAC_20",
     "name": "Precarious Flesh",
+    "section": "Oracle of the Trinity",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9412,6 +9844,7 @@
   {
     "id": "TIME_1",
     "name": "Waning Before Waxing",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9454,6 +9887,7 @@
   {
     "id": "TIME_2",
     "name": "Wither In Dreams",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9472,6 +9906,7 @@
   {
     "id": "TIME_3",
     "name": "Wither In Dreams",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9490,6 +9925,7 @@
   {
     "id": "TIME_4",
     "name": "Temporal Shift",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9516,6 +9952,7 @@
   {
     "id": "TIME_5",
     "name": "Wither In Dreams",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9534,6 +9971,7 @@
   {
     "id": "TIME_6",
     "name": "Impossible Soul",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9552,6 +9990,7 @@
   {
     "id": "TIME_7",
     "name": "Youth In Future Tense",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9578,6 +10017,7 @@
   {
     "id": "TIME_8",
     "name": "Which Time Cannot Heal",
+    "section": "Time Weaver",
     "lore": "",
     "description": "When you Damage an Enemy that is afflicted with Stasis, they will take the Damage again after a few seconds.",
     "magicEffects": {
@@ -9597,6 +10037,7 @@
   {
     "id": "TIME_9",
     "name": "Deferential Wounds",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9615,6 +10056,7 @@
   {
     "id": "TIME_10",
     "name": "Obsolescence",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9633,6 +10075,7 @@
   {
     "id": "TIME_11",
     "name": "Obsolescence",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9651,6 +10094,7 @@
   {
     "id": "TIME_12",
     "name": "Temporal Shift",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9677,6 +10121,7 @@
   {
     "id": "TIME_13",
     "name": "Countdown",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9711,6 +10156,7 @@
   {
     "id": "TIME_14",
     "name": "Slow In Slow Out",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9729,6 +10175,7 @@
   {
     "id": "TIME_15",
     "name": "Impossible Soul",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9747,6 +10194,7 @@
   {
     "id": "TIME_16",
     "name": "Youth In Future Tense",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9773,6 +10221,7 @@
   {
     "id": "TIME_17",
     "name": "Captured Velocity",
+    "section": "Time Weaver",
     "lore": "",
     "description": "If you inflict Stasis on an enemy with an Attack, you gain a \"Supernatural Paradox\" point. Each point of \"Supernatural Paradox\" increases your Spell Casting Speed Score.\\n\\nIf you inflict Stasis on an enemy with a Spell, you gain an \"Earthly Paradox\" point. Each point of \"Earthly Paradox\" increases your Attack Speed Score.",
     "magicEffects": {
@@ -9808,6 +10257,7 @@
   {
     "id": "TIME_18",
     "name": "Spared Stock",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9834,6 +10284,7 @@
   {
     "id": "TIME_19",
     "name": "Dire Juncture",
+    "section": "Time Weaver",
     "lore": "",
     "description": "A portion of the Damage you receive is delayed, and this delayed Damage does not interrupt Force Shield Regeneration.\\n\\nYour Maximum Health and Force Shield is decreased.",
     "magicEffects": {
@@ -9862,6 +10313,7 @@
   {
     "id": "TIME_20",
     "name": "Practiced Stamina",
+    "section": "Time Weaver",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9881,6 +10333,7 @@
   {
     "id": "NECRO_1",
     "name": "Bog Bodies",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9915,6 +10368,7 @@
   {
     "id": "NECRO_2",
     "name": "Sloughing Skins Of Swarms",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9933,6 +10387,7 @@
   {
     "id": "NECRO_3",
     "name": "Sloughing Skins Of Swarms",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9951,6 +10406,7 @@
   {
     "id": "NECRO_4",
     "name": "Remedy For Hale Health",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9969,6 +10425,7 @@
   {
     "id": "NECRO_5",
     "name": "Covenant Of Rot",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -9995,6 +10452,7 @@
   {
     "id": "NECRO_6",
     "name": "Unquiet Soil",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10013,6 +10471,7 @@
   {
     "id": "NECRO_7",
     "name": "Heads Hang Low",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10031,6 +10490,7 @@
   {
     "id": "NECRO_8",
     "name": "Undertaker",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "Enemies that die near you have a chance to drop a Green Globe. If picked up, the Globe will increase your Toxic damage for a short duration. This Buff Stacks with each Globe picked up.",
     "magicEffects": {
@@ -10052,6 +10512,7 @@
   {
     "id": "NECRO_9",
     "name": "Horde's Vitality",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10073,6 +10534,7 @@
   {
     "id": "NECRO_10",
     "name": "Muscle Stripped Raw",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10091,6 +10553,7 @@
   {
     "id": "NECRO_11",
     "name": "Muscle Stripped Raw",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10109,6 +10572,7 @@
   {
     "id": "NECRO_12",
     "name": "Remedy For Hale Health",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10127,6 +10591,7 @@
   {
     "id": "NECRO_13",
     "name": "Search For A Dead Sun",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10153,6 +10618,7 @@
   {
     "id": "NECRO_14",
     "name": "Heads Hang Low",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10171,6 +10637,7 @@
   {
     "id": "NECRO_15",
     "name": "Unquiet Soil",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10189,6 +10656,7 @@
   {
     "id": "NECRO_16",
     "name": "Heads Hang Low",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10207,6 +10675,7 @@
   {
     "id": "NECRO_17",
     "name": "Toxic Emanations",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "Enemies receive a Stack of Poison every few seconds when they are close to you.",
     "magicEffects": {
@@ -10227,6 +10696,7 @@
   {
     "id": "NECRO_18",
     "name": "Essential Measure",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10246,6 +10716,7 @@
   {
     "id": "NECRO_19",
     "name": "Sacrifice of Flesh",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "Your Maximum Health and Force Shield is decreased, but your Summons receive decreased Damage.",
     "magicEffects": {
@@ -10266,6 +10737,7 @@
   {
     "id": "NECRO_20",
     "name": "Endless Litany",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10286,6 +10758,7 @@
   {
     "id": "NECRO_21",
     "name": "Endless Litany",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10306,6 +10779,7 @@
   {
     "id": "NECRO_22",
     "name": "Endless Litany",
+    "section": "Plaguebringer",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10326,6 +10800,7 @@
   {
     "id": "SPBD_1",
     "name": "Guttural Dowry",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10360,6 +10835,7 @@
   {
     "id": "SPBD_2",
     "name": "Unholy Omen",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10378,6 +10854,7 @@
   {
     "id": "SPBD_3",
     "name": "Unholy Omen",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10396,6 +10873,7 @@
   {
     "id": "SPBD_4",
     "name": "Tranquil in Misery",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10422,6 +10900,7 @@
   {
     "id": "SPBD_5",
     "name": "Agonizing Ray",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10440,6 +10919,7 @@
   {
     "id": "SPBD_6",
     "name": "Insinuated Bond",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10458,6 +10938,7 @@
   {
     "id": "SPBD_7",
     "name": "Soothing Shade",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10484,6 +10965,7 @@
   {
     "id": "SPBD_8",
     "name": "Occult Affliction",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "The Occult damage that an Enemy receives from your Attacks is increased with each Curse stack they are afflicted with.",
     "magicEffects": {
@@ -10502,6 +10984,7 @@
   {
     "id": "SPBD_9",
     "name": "Oath of Damnation",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10520,6 +11003,7 @@
   {
     "id": "SPBD_10",
     "name": "His Whispered Lullabies",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10538,6 +11022,7 @@
   {
     "id": "SPBD_11",
     "name": "His Whispered Lullabies",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10556,6 +11041,7 @@
   {
     "id": "SPBD_12",
     "name": "Tranquil in Misery",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10582,6 +11068,7 @@
   {
     "id": "SPBD_13",
     "name": "Pact Master's Song",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10600,6 +11087,7 @@
   {
     "id": "SPBD_14",
     "name": "Soundproof Box",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10626,6 +11114,7 @@
   {
     "id": "SPBD_15",
     "name": "Insinuated Bond",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10644,6 +11133,7 @@
   {
     "id": "SPBD_16",
     "name": "Soothing Shade",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10670,6 +11160,7 @@
   {
     "id": "SPBD_17",
     "name": "Fatal Pact",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "Every Ailment that Stacks which you inflict is also inflicted on you. Each time you reach 10 Stacks of one Ailment Type, that Ailment Type is removed completely, giving you and your Allies a Buff for a short time depending on which Ailment type is removed.\\n\\nIf Stasis Stacks were removed, Movement Speed is increased.\\n\\nIf Curse Stacks were removed, All Resistances Score is increased.\\n\\nIf Weakness Stacks were removed, Damage is increased.\\n\\nIf any other stacks were removed, Health and Force Shield are regenerated.",
     "magicEffects": {
@@ -10728,6 +11219,7 @@
   {
     "id": "SPBD_18",
     "name": "Wounded Shield",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
@@ -10747,6 +11239,7 @@
   {
     "id": "SPBD_19",
     "name": "Masochistic Effigy",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "Maximum Force Shield is doubled.\\n\\nYour Health cannot exceed 5% of your Maximum Force Shield.",
     "magicEffects": {
@@ -10773,6 +11266,7 @@
   {
     "id": "SPBD_20",
     "name": "Ailing Cry",
+    "section": "Abyssal Shaper",
     "lore": "",
     "description": "",
     "magicEffects": {
