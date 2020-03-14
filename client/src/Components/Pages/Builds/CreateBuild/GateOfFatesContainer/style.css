@@ -49,3 +49,23 @@
   bottom: 0;
   pointer-events: none;
 }
+
+#nodeTooltip {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background: rgba(0, 0, 0, 0.801) !important;
+  color: white;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.tooltipSkillDescriptionCol {
+  white-space: pre-wrap;
+  text-align: left;
+  padding-bottom: 7px;
+  margin-top: 8px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}

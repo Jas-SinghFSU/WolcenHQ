@@ -69,5 +69,5 @@ skillData.map(skill => {
 
 fs.writeFileSync(
   "../client/src/Data/GoF/built_passive_skills.json",
-  JSON.stringify(unifiedSkills, null, 2)
+  JSON.stringify(newSkillData, null, 2)
 );

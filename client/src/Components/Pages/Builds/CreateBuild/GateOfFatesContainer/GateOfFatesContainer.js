@@ -24,6 +24,38 @@ const GOFSectionHeader = () => {
   );
 };
 
+const SkillTooltip = ({ tooltipOptions }) => {
+  const skillInfo = tooltipOptions.text;
+  return (
+    <div
+      id="nodeTooltip"
+      style={{
+        display: `${tooltipOptions.display}`,
+        left: `${tooltipOptions.left}`,
+        top: `${tooltipOptions.top}`,
+        position: "fixed",
+        background: "white",
+        zIndex: "1",
+        pointerEvents: "none"
+      }}
+    >
+      <Row className="spellTooltipRow">
+        <Col className="tooltipSpellNameCol" span={24} offset={0}>
+          <span className="tooltipSpellName">{skillInfo.name}</span>
+        </Col>
+        {skillInfo.description && (
+          <Col className="tooltipSkillDescriptionCol" span={24} offset={0}>
+            <span className="tooltipSpellName">{skillInfo.description}</span>
+          </Col>
+        )}
+        <Col className="tooltipSpellDescriptionCol" span={24} offset={0}>
+          <span className="tooltipSpellName">{}</span>
+        </Col>
+      </Row>
+    </div>
+  );
+};
+
 const GateOfFates = () => {
   const [allNodes, setAllNodes] = useState(null);
   const [passiveSkillsList] = useState(passiveSkills);
@@ -300,7 +332,7 @@ const GateOfFates = () => {
       display: "block",
       left,
       top,
-      text: skillData ? skillData.name : ""
+      text: skillData ? skillData : ""
     });
   };
 
@@ -504,7 +536,7 @@ const GateOfFates = () => {
             displayTooltip(e);
           }}
           onMouseLeave={() => {
-            setTooltipOptions({ display: "none" });
+            // setTooltipOptions({ display: "none" });
           }}
           onClick={() => {
             handleNodeClick(circle);
@@ -518,20 +550,7 @@ const GateOfFates = () => {
   if (allNodes && nodePairsScoped) {
     return (
       <Fragment>
-        <div
-          id="nodeTooltip"
-          style={{
-            display: `${tooltipOptions.display}`,
-            left: `${tooltipOptions.left}`,
-            top: `${tooltipOptions.top}`,
-            position: "fixed",
-            background: "white",
-            zIndex: "1",
-            pointerEvents: "none"
-          }}
-        >
-          {tooltipOptions.text}
-        </div>
+        <SkillTooltip tooltipOptions={tooltipOptions} />
         <Row>
           <div style={{ marginBottom: 20 }}>
             <Col>
