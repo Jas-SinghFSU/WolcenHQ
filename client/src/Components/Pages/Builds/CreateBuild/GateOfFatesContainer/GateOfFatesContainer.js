@@ -31,60 +31,88 @@ const GOFSectionHeader = () => {
 };
 
 const SkillTooltip = ({ tooltipOptions }) => {
+  const [ttipOptions, setTTipOptions] = useState(tooltipOptions);
+
+  // const tooltipRef = elem => {
+  //   const ttElem = elem;
+  //   let newTop;
+  //   let newLeft;
+
+  //   if (ttElem && ttipOptions !== "" && ttElem.style.top !== ttipOptions.top) {
+  //     newTop = parseInt(ttElem.style.top, 10);
+  //     newLeft = parseInt(ttElem.style.left, 10);
+  //     console.log(newTop);
+  //     console.log(ttElem.clientHeight);
+  //     if (newTop + ttElem.clientHeight > window.innerHeight) {
+  //       newTop = newTop - ttElem.clientHeight;
+  //     }
+
+  //     if (newLeft + ttElem.clientWidth > window.innerWidth) {
+  //       newLeft = newLeft - 300;
+  //     }
+
+  //     ttElem.style.top = newTop + "px";
+  //     ttElem.style.left = newLeft + "px";
+  //   }
+  // };
+
+  useEffect(() => {
+    setTTipOptions(tooltipOptions);
+  }, [tooltipOptions]);
+
   return (
     <div
       id="nodeTooltip"
       style={{
-        display: `${tooltipOptions.display}`,
-        left: `${tooltipOptions.left}`,
-        top: `${tooltipOptions.top}`,
+        display: `${ttipOptions.display}`,
+        left: `${ttipOptions.left}px`,
+        top: `${ttipOptions.top}px`,
         position: "fixed",
         background: "white",
         zIndex: "1",
         pointerEvents: "none"
       }}
+      // ref={tooltipRef}
     >
       <Row className="spellTooltipRow">
         <Col className="tooltipSpellNameCol" span={24} offset={0}>
           <span className="tooltipSpellName">
-            {tooltipOptions && tooltipOptions.text.name}
+            {ttipOptions && ttipOptions.text.name}
           </span>
         </Col>
-        {tooltipOptions && tooltipOptions.text.description && (
+        {ttipOptions && ttipOptions.text.description && (
           <Col className="tooltipSkillDescriptionCol" span={24} offset={0}>
             <span className="tooltipSpellName">
-              {tooltipOptions && tooltipOptions.text.description}
+              {ttipOptions && ttipOptions.text.description}
             </span>
           </Col>
         )}
         <Col className="tooltipSkillDescriptionCol" span={24} offset={0}>
           <div className="tooltipSkillModsList">
-            {tooltipOptions &&
-              tooltipOptions.text !== "" &&
-              tooltipOptions.text.magicEffects.modifiers.map(
-                (mod, modIndex) => {
-                  const descArr = mod.HUDDesc;
-                  return (
-                    <div key={modIndex} className="tooltipSkillMod">
-                      {descArr.map((descWord, index, arr) => {
-                        if (descWord.match(/[^{}]*(?=\})/g)) {
-                          let thisWord = descWord.replace(/[{}]/g, "");
-                          return (
-                            <span key={`${index}`} className="skillModValue">
-                              {thisWord + " "}
-                            </span>
-                          );
-                        }
-                        let spaceOrNewline = " ";
-                        if (index === arr.length - 1) {
-                          spaceOrNewline = "\n";
-                        }
-                        return descWord + spaceOrNewline;
-                      })}
-                    </div>
-                  );
-                }
-              )}
+            {ttipOptions &&
+              ttipOptions.text !== "" &&
+              ttipOptions.text.magicEffects.modifiers.map((mod, modIndex) => {
+                const descArr = mod.HUDDesc;
+                return (
+                  <div key={modIndex} className="tooltipSkillMod">
+                    {descArr.map((descWord, index, arr) => {
+                      if (descWord.match(/[^{}]*(?=\})/g)) {
+                        let thisWord = descWord.replace(/[{}]/g, "");
+                        return (
+                          <span key={`${index}`} className="skillModValue">
+                            {thisWord + " "}
+                          </span>
+                        );
+                      }
+                      let spaceOrNewline = " ";
+                      if (index === arr.length - 1) {
+                        spaceOrNewline = "\n";
+                      }
+                      return descWord + spaceOrNewline;
+                    })}
+                  </div>
+                );
+              })}
           </div>
         </Col>
       </Row>
@@ -343,8 +371,21 @@ const GateOfFates = () => {
   };
 
   const displayTooltip = e => {
-    let left = e.clientX + "px";
-    let top = e.clientY - 40 + "px";
+    let left = e.clientX;
+    let top = e.clientY - 40;
+
+    if (top + 150 > window.innerHeight) {
+      top = top - 50;
+    }
+    if (top - 30 < window.innerHeight) {
+      top = top + 30;
+    }
+    if (left + 300 > window.innerWidth) {
+      left = left - 300;
+    }
+
+    left = left;
+    top = top;
 
     const rawSkillName = e.currentTarget.id;
     const skillName = rawSkillName
@@ -590,12 +631,13 @@ const GateOfFates = () => {
     return (
       <Fragment>
         <SkillTooltip tooltipOptions={tooltipOptions} />
+
         <Row>
-          <div style={{ marginBottom: 20 }}>
-            <Col>
+          <div className="gofAndControls">
+            <div className="gofButtons" style={{ marginBottom: 20 }}>
               <Button
                 type="primary"
-                style={{ marginLeft: 10 }}
+                style={{ marginBottom: 10 }}
                 onClick={() => {
                   setRotations({
                     ...rotations,
@@ -608,7 +650,7 @@ const GateOfFates = () => {
               </Button>
               <Button
                 type="primary"
-                style={{ marginLeft: 10 }}
+                style={{ marginBottom: 10 }}
                 onClick={() => {
                   setRotations({
                     ...rotations,
@@ -621,7 +663,7 @@ const GateOfFates = () => {
               </Button>
               <Button
                 type="primary"
-                style={{ marginLeft: 10 }}
+                style={{ marginBottom: 10 }}
                 onClick={() => {
                   setRotations({
                     ...rotations,
@@ -634,7 +676,7 @@ const GateOfFates = () => {
               </Button>
               <Button
                 type="primary"
-                style={{ marginLeft: 10 }}
+                style={{ marginBottom: 10 }}
                 onClick={() => {
                   setRotations({
                     inner: 0,
@@ -646,87 +688,88 @@ const GateOfFates = () => {
               >
                 Reset
               </Button>
+            </div>
+            <Col>
+              <div className="gofContainer">
+                <Fireflies />
+                <ReactSVGPanZoom
+                  width={1044}
+                  height={1044}
+                  onClick={event =>
+                    console.log("click", event.x, event.y, event.originalEvent)
+                  }
+                  SVGBackground="transparent"
+                  background="transparent"
+                  miniatureProps={{ position: "none" }}
+                  tool={panZoomTool}
+                  onChangeTool={tool => {
+                    setPanZoomTool(tool);
+                  }}
+                  value={panZoomVal}
+                  onChangeValue={value => setPanZoomVal(value)}
+                  detectAutoPan={false}
+                  toolbarProps={{
+                    position: "none"
+                  }}
+                  disableDoubleClickZoomWithToolAuto={true}
+                >
+                  <svg className="gofSvg" viewBox={"0 0 1044 1044"} ref={d3Ref}>
+                    <defs>
+                      <radialGradient id="radial-gradient-red">
+                        <stop offset="0%" stopColor="#7a0000" />
+                        <stop offset="100%" stopColor="black" />
+                      </radialGradient>
+                      <radialGradient id="radial-gradient-green">
+                        <stop offset="0%" stopColor="#00540b" />
+                        <stop offset="100%" stopColor="black" />
+                      </radialGradient>
+                      <radialGradient id="radial-gradient-purple">
+                        <stop offset="0%" stopColor="#520082" />
+                        <stop offset="100%" stopColor="black" />
+                      </radialGradient>
+                      <radialGradient id="radial-gradient-red-active">
+                        <stop offset="0%" stopColor="#ff4d4d" />
+                        <stop offset="100%" stopColor="#3d1111" />
+                      </radialGradient>
+                      <radialGradient id="radial-gradient-green-active">
+                        <stop offset="0%" stopColor="#74e872" />
+                        <stop offset="100%" stopColor="#264a25" />
+                      </radialGradient>
+                      <radialGradient id="radial-gradient-purple-active">
+                        <stop offset="0%" stopColor="#9376e3" />
+                        <stop offset="100%" stopColor="#160054" />
+                      </radialGradient>
+                    </defs>
+                    {svgData.svg.g.map(group => {
+                      return (
+                        <g
+                          key={group.id}
+                          id={group.id}
+                          style={{
+                            transition: "all 1s ease 0s",
+                            transformOrigin: "522px 522px 0px",
+                            transform: `rotate(${
+                              group.id === "outerRing"
+                                ? rotations.outer
+                                : group.id === "innerRing"
+                                ? rotations.inner
+                                : group.id === "middleRing"
+                                ? rotations.middle
+                                : 0
+                            }deg)`
+                          }}
+                        >
+                          {renderRings(group.id)}
+                          {renderLines(group.id)}
+                          {renderNodes(group.id)}
+                        </g>
+                      );
+                    })}
+                  </svg>
+                </ReactSVGPanZoom>
+              </div>
             </Col>
           </div>
-          <Col>
-            <div className="gofContainer">
-              <Fireflies />
-              <ReactSVGPanZoom
-                width={1044}
-                height={1044}
-                onClick={event =>
-                  console.log("click", event.x, event.y, event.originalEvent)
-                }
-                SVGBackground="transparent"
-                background="transparent"
-                miniatureProps={{ position: "none" }}
-                tool={panZoomTool}
-                onChangeTool={tool => {
-                  setPanZoomTool(tool);
-                }}
-                value={panZoomVal}
-                onChangeValue={value => setPanZoomVal(value)}
-                detectAutoPan={false}
-                toolbarProps={{
-                  position: "none"
-                }}
-              >
-                <svg className="gofSvg" viewBox={"0 0 1044 1044"} ref={d3Ref}>
-                  <defs>
-                    <radialGradient id="radial-gradient-red">
-                      <stop offset="0%" stopColor="#7a0000" />
-                      <stop offset="100%" stopColor="black" />
-                    </radialGradient>
-                    <radialGradient id="radial-gradient-green">
-                      <stop offset="0%" stopColor="#00540b" />
-                      <stop offset="100%" stopColor="black" />
-                    </radialGradient>
-                    <radialGradient id="radial-gradient-purple">
-                      <stop offset="0%" stopColor="#520082" />
-                      <stop offset="100%" stopColor="black" />
-                    </radialGradient>
-                    <radialGradient id="radial-gradient-red-active">
-                      <stop offset="0%" stopColor="#ff4d4d" />
-                      <stop offset="100%" stopColor="#3d1111" />
-                    </radialGradient>
-                    <radialGradient id="radial-gradient-green-active">
-                      <stop offset="0%" stopColor="#74e872" />
-                      <stop offset="100%" stopColor="#264a25" />
-                    </radialGradient>
-                    <radialGradient id="radial-gradient-purple-active">
-                      <stop offset="0%" stopColor="#9376e3" />
-                      <stop offset="100%" stopColor="#160054" />
-                    </radialGradient>
-                  </defs>
-                  {svgData.svg.g.map(group => {
-                    return (
-                      <g
-                        key={group.id}
-                        id={group.id}
-                        style={{
-                          transition: "all 1s ease 0s",
-                          transformOrigin: "522px 522px 0px",
-                          transform: `rotate(${
-                            group.id === "outerRing"
-                              ? rotations.outer
-                              : group.id === "innerRing"
-                              ? rotations.inner
-                              : group.id === "middleRing"
-                              ? rotations.middle
-                              : 0
-                          }deg)`
-                        }}
-                      >
-                        {renderRings(group.id)}
-                        {renderLines(group.id)}
-                        {renderNodes(group.id)}
-                      </g>
-                    );
-                  })}
-                </svg>
-              </ReactSVGPanZoom>
-            </div>
-          </Col>
         </Row>
       </Fragment>
     );

@@ -27,7 +27,8 @@ const SideNavigation = () => {
         maxWidth: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
         minWidth: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
         backgroundColor: "rgb(23, 23, 27)",
-        transition: `min-width 0.2s, max-width 0.2s`
+        transition: `min-width 0.2s, max-width 0.2s`,
+        zIndex: 2
       }}
     >
       <Sider className="sideNavContainer" collapsed={navCollapsed}>

@@ -46,6 +46,6 @@
 }
 .pageContentContainer {
   transition: min-width 0.3s;
-  min-width: 965px;
+  min-width: 1200px;
   min-height: 100vh;
 }

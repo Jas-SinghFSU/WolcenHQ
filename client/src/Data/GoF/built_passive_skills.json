@@ -12,12 +12,7 @@
             "DamagePercentInt": "15"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+15%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -25,12 +20,7 @@
             "DamagePercentInt": "15"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+15%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -49,12 +39,7 @@
             "DamagePercentInt": "15"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+15%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -62,12 +47,7 @@
             "DamagePercentInt": "15"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+15%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -86,10 +66,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "agility_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Agility"
-          ],
+          "HUDDesc": ["{+25}", "Agility"],
           "Permanent": "1"
         }
       ]
@@ -108,11 +85,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -120,12 +93,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -144,11 +112,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -156,12 +120,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -180,11 +139,7 @@
             "SpeedPercentInt": "6"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+6%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+6%}", "Movement", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -203,13 +158,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -228,12 +177,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -252,12 +196,7 @@
             "CharacteristicScorePercentInt": "50"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+50%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+50%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -265,13 +204,7 @@
             "CharacteristicScorePercentInt": "50"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+50%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+50%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -290,14 +223,7 @@
             "DurationPercentFloat": "10"
           },
           "id": "skill_cooldownreduction_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Cooldown",
-            "decrease",
-            "for",
-            "all",
-            "Skills"
-          ],
+          "HUDDesc": ["{+10%}", "Cooldown", "decrease", "for", "all", "Skills"],
           "Permanent": "1"
         }
       ]
@@ -316,11 +242,7 @@
             "ResourceFlatInt": "1"
           },
           "id": "additional_stamina_pts",
-          "HUDDesc": [
-            "{+1}",
-            "Stamina",
-            "Point"
-          ],
+          "HUDDesc": ["{+1}", "Stamina", "Point"],
           "Permanent": "1"
         }
       ]
@@ -339,13 +261,7 @@
             "ResourcePercentFloat": "15"
           },
           "id": "stamina_regeneration_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Stamina",
-            "Regeneration",
-            "Rate",
-            "decrease"
-          ],
+          "HUDDesc": ["{+15%}", "Stamina", "Regeneration", "Rate", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -423,14 +339,7 @@
             "DamagePercentFloat": "4"
           },
           "id": "damage_percent_per_missing_stamina",
-          "HUDDesc": [
-            "{+4%}",
-            "Damage",
-            "per",
-            "missing",
-            "Stamina",
-            "Point"
-          ],
+          "HUDDesc": ["{+4%}", "Damage", "per", "missing", "Stamina", "Point"],
           "Permanent": "1"
         }
       ]
@@ -449,11 +358,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -461,11 +366,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -484,11 +385,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -496,11 +393,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -519,11 +412,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -531,11 +420,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -554,13 +439,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -568,13 +447,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -593,13 +466,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -607,11 +474,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -630,13 +493,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -644,11 +501,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -695,10 +548,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "toughness_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Toughness"
-          ],
+          "HUDDesc": ["{+25}", "Toughness"],
           "Permanent": "1"
         }
       ]
@@ -717,11 +567,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -729,11 +575,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -752,12 +594,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+12%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         },
         {
@@ -765,11 +602,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -788,12 +621,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+12%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         },
         {
@@ -801,11 +629,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -824,10 +648,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "ferocity_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Ferocity"
-          ],
+          "HUDDesc": ["{+25}", "Ferocity"],
           "Permanent": "1"
         }
       ]
@@ -846,11 +667,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -858,11 +675,7 @@
             "DamagePercentInt": "5"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+5%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+5%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -881,11 +694,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -893,11 +702,7 @@
             "DamagePercentInt": "5"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+5%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+5%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -916,11 +721,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -939,13 +740,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_attackskill_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Attack",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Attack", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -964,13 +759,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_magicspell_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -989,12 +778,7 @@
             "CharacteristicScorePercentInt": "60"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+60%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+60%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1013,14 +797,7 @@
             "DurationPercentFloat": "10"
           },
           "id": "skill_cooldownreduction_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Cooldown",
-            "decrease",
-            "for",
-            "all",
-            "Skills"
-          ],
+          "HUDDesc": ["{+10%}", "Cooldown", "decrease", "for", "all", "Skills"],
           "Permanent": "1"
         }
       ]
@@ -1039,11 +816,7 @@
             "SpeedPercentInt": "6"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+6%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+6%}", "Movement", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -1062,12 +835,7 @@
             "DurationFlatInt": "3"
           },
           "id": "rage_conservation_time",
-          "HUDDesc": [
-            "{+3}",
-            "Rage",
-            "Conservation",
-            "Time"
-          ],
+          "HUDDesc": ["{+3}", "Rage", "Conservation", "Time"],
           "Permanent": "1"
         }
       ]
@@ -1086,12 +854,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -1110,13 +873,7 @@
             "ResourceFlatFloat": "25"
           },
           "id": "rage_on_hit_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Rage",
-            "per",
-            "hit",
-            "taken"
-          ],
+          "HUDDesc": ["{+25}", "Rage", "per", "hit", "taken"],
           "Permanent": "1"
         }
       ]
@@ -1135,12 +892,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -1159,11 +911,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -1171,12 +919,7 @@
             "ResourcePercentFloat": "4"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+4%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+4%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -1184,12 +927,7 @@
             "ResourcePercentFloat": "4"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+4%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+4%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -1208,11 +946,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -1220,12 +954,7 @@
             "ResourcePercentFloat": "4"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+4%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+4%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -1233,12 +962,7 @@
             "ResourcePercentFloat": "4"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+4%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+4%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -1257,13 +981,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -1271,11 +989,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -1294,13 +1008,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -1308,11 +1016,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -1331,11 +1035,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -1343,11 +1043,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -1366,12 +1062,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_resist_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -1379,11 +1070,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -1434,10 +1121,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "toughness_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Toughness"
-          ],
+          "HUDDesc": ["{+25}", "Toughness"],
           "Permanent": "1"
         }
       ]
@@ -1456,13 +1140,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -1470,11 +1148,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -1493,11 +1167,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Damage"],
           "Permanent": "1"
         },
         {
@@ -1505,11 +1175,7 @@
             "DamagePercentFloat": "12"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -1528,11 +1194,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Damage"],
           "Permanent": "1"
         },
         {
@@ -1540,11 +1202,7 @@
             "DamagePercentFloat": "12"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -1563,10 +1221,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "willpower_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Wisdom"
-          ],
+          "HUDDesc": ["{+25}", "Wisdom"],
           "Permanent": "1"
         }
       ]
@@ -1585,13 +1240,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -1599,10 +1248,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -1621,13 +1267,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -1635,10 +1275,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -1657,13 +1294,7 @@
             "CharacteristicScorePercentInt": "25"
           },
           "id": "statusailment_inflict_score_percent_elemental",
-          "HUDDesc": [
-            "{+25%}",
-            "Elemental",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25%}", "Elemental", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1682,13 +1313,7 @@
             "CharacteristicScorePercentInt": "25"
           },
           "id": "statusailment_inflict_score_percent_occult",
-          "HUDDesc": [
-            "{+25%}",
-            "Occult",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25%}", "Occult", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1707,13 +1332,7 @@
             "CharacteristicScorePercentInt": "25"
           },
           "id": "statusailment_inflict_score_percent_material",
-          "HUDDesc": [
-            "{+25%}",
-            "Material",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25%}", "Material", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1732,12 +1351,7 @@
             "CharacteristicScorePercentInt": "60"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+60%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+60%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1756,14 +1370,7 @@
             "DurationPercentFloat": "10"
           },
           "id": "skill_cooldownreduction_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Cooldown",
-            "decrease",
-            "for",
-            "all",
-            "Skills"
-          ],
+          "HUDDesc": ["{+10%}", "Cooldown", "decrease", "for", "all", "Skills"],
           "Permanent": "1"
         }
       ]
@@ -1782,13 +1389,7 @@
             "ResourceFlatInt": "150"
           },
           "id": "resource_points",
-          "HUDDesc": [
-            "{+150}",
-            "Max",
-            "Willpower",
-            "and",
-            "Rage"
-          ],
+          "HUDDesc": ["{+150}", "Max", "Willpower", "and", "Rage"],
           "Permanent": "1"
         }
       ]
@@ -1913,11 +1514,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -1925,12 +1522,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_resist_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1949,11 +1541,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -1961,12 +1549,7 @@
             "CharacteristicScorePercentInt": "5"
           },
           "id": "statusailment_resist_score_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+5%}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -1985,12 +1568,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -1998,12 +1576,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -2011,13 +1584,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2036,13 +1603,7 @@
             "DefenseRegenerationPercentFloat": "25"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+25%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -2061,13 +1622,7 @@
             "DefenseRegenerationPercentFloat": "17"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+17%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+17%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         },
         {
@@ -2157,10 +1712,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "toughness_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Toughness"
-          ],
+          "HUDDesc": ["{+25}", "Toughness"],
           "Permanent": "1"
         }
       ]
@@ -2179,12 +1731,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -2192,12 +1739,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -2205,13 +1747,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2230,12 +1766,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -2243,11 +1774,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -2266,11 +1793,7 @@
             "DamagePercentInt": "15"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Material", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -2289,12 +1812,7 @@
             "DurationPercentInt": "50"
           },
           "id": "poisonstack_duration_increase",
-          "HUDDesc": [
-            "{+50%}",
-            "Poison",
-            "Stack",
-            "Duration"
-          ],
+          "HUDDesc": ["{+50%}", "Poison", "Stack", "Duration"],
           "Permanent": "1"
         }
       ]
@@ -2313,12 +1831,7 @@
             "DamagePercentFloat": "15"
           },
           "id": "dotdamage_percent_poison",
-          "HUDDesc": [
-            "{+15%}",
-            "Poison",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Poison", "Ailment", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -2364,11 +1877,7 @@
             "HealthFlatInt": "100"
           },
           "id": "health_pts",
-          "HUDDesc": [
-            "{+100}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+100}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -2376,11 +1885,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -2399,14 +1904,7 @@
             "PossibilityInt": "1"
           },
           "id": "canrollthroughennemies",
-          "HUDDesc": [
-            "Active",
-            "dodge",
-            "can",
-            "go",
-            "through",
-            "Enemies"
-          ],
+          "HUDDesc": ["Active", "dodge", "can", "go", "through", "Enemies"],
           "Permanent": "1"
         }
       ]
@@ -2425,11 +1923,7 @@
             "ResourceFlatInt": "1"
           },
           "id": "additional_stamina_pts",
-          "HUDDesc": [
-            "{+1}",
-            "Stamina",
-            "Point"
-          ],
+          "HUDDesc": ["{+1}", "Stamina", "Point"],
           "Permanent": "1"
         }
       ]
@@ -2448,13 +1942,7 @@
             "ResourcePercentFloat": "15"
           },
           "id": "stamina_regeneration_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Stamina",
-            "Regeneration",
-            "Rate",
-            "decrease"
-          ],
+          "HUDDesc": ["{+15%}", "Stamina", "Regeneration", "Rate", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -2473,11 +1961,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -2485,11 +1969,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -2508,13 +1988,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2533,13 +2007,7 @@
             "CharacteristicScorePercentInt": "25"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2558,13 +2026,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2583,11 +2045,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         },
         {
@@ -2595,12 +2053,7 @@
             "CharacteristicScorePercentInt": "5"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+5%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -2608,13 +2061,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2633,10 +2080,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "agility_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Agility"
-          ],
+          "HUDDesc": ["{+25}", "Agility"],
           "Permanent": "1"
         }
       ]
@@ -2752,12 +2196,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2776,12 +2215,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2800,12 +2234,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2824,12 +2253,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2848,11 +2272,7 @@
             "ArmorFlatInt": "100"
           },
           "id": "forceshield_pts",
-          "HUDDesc": [
-            "{+100}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+100}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -2860,11 +2280,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -2912,13 +2328,7 @@
             "DurationPercentFloat": "20"
           },
           "id": "autodash_cdr_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Dash",
-            "Attack",
-            "Cooldown",
-            "decrease"
-          ],
+          "HUDDesc": ["{+20%}", "Dash", "Attack", "Cooldown", "decrease"],
           "strParam": "",
           "Permanent": "1"
         }
@@ -2938,12 +2348,7 @@
             "RadiusFloat": "2"
           },
           "id": "autodash_range_flat",
-          "HUDDesc": [
-            "{+2m}",
-            "Dash",
-            "Attack",
-            "Range"
-          ],
+          "HUDDesc": ["{+2m}", "Dash", "Attack", "Range"],
           "strParam": "",
           "Permanent": "1"
         }
@@ -2963,11 +2368,7 @@
             "DamagePercentInt": "10"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Material", "Damage"],
           "Permanent": "1"
         },
         {
@@ -2975,12 +2376,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -2999,12 +2395,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3023,12 +2414,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3047,11 +2433,7 @@
             "DamagePercentInt": "60"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+60%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+60%}", "Critical", "Damage"],
           "Permanent": "1"
         },
         {
@@ -3059,10 +2441,7 @@
             "DamagePercentInt": "-30"
           },
           "id": "damage_percent",
-          "HUDDesc": [
-            "{-30%}",
-            "Damage"
-          ],
+          "HUDDesc": ["{-30%}", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3081,12 +2460,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+12%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -3094,12 +2468,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3118,12 +2487,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3223,11 +2587,7 @@
             "HealthFlatInt": "100"
           },
           "id": "health_pts",
-          "HUDDesc": [
-            "{+100}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+100}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -3235,11 +2595,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -3356,11 +2712,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -3368,11 +2720,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -3391,13 +2739,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3416,13 +2758,7 @@
             "CharacteristicScorePercentInt": "25"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3441,13 +2777,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3466,11 +2796,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         },
         {
@@ -3478,12 +2804,7 @@
             "CharacteristicScorePercentInt": "5"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+5%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -3491,13 +2812,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3516,10 +2831,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "agility_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Agility"
-          ],
+          "HUDDesc": ["{+25}", "Agility"],
           "Permanent": "1"
         }
       ]
@@ -3556,12 +2868,7 @@
             "DamagePercentInt": "-50"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{-50%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{-50%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3580,13 +2887,7 @@
             "DamagePercentInt": "25"
           },
           "id": "criticaldamage_projectiles_pts",
-          "HUDDesc": [
-            "{+25%}",
-            "All",
-            "Projectiles",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+25%}", "All", "Projectiles", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3631,12 +2932,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+10%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3655,12 +2951,7 @@
             "DamagePercentInt": "16"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+16%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+16%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3679,12 +2970,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+10%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3703,13 +2989,7 @@
             "CountInt": "1"
           },
           "id": "piercing",
-          "HUDDesc": [
-            "{+1}",
-            "Pierce",
-            "to",
-            "All",
-            "Projectiles"
-          ],
+          "HUDDesc": ["{+1}", "Pierce", "to", "All", "Projectiles"],
           "Permanent": "1"
         }
       ]
@@ -3728,11 +3008,7 @@
             "ArmorFlatInt": "100"
           },
           "id": "forceshield_pts",
-          "HUDDesc": [
-            "{+100}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+100}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -3740,11 +3016,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -3851,12 +3123,7 @@
             "CharacteristicScorePercentInt": "20"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+20%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -3875,11 +3142,7 @@
             "SpeedPercentInt": "15"
           },
           "id": "projectiles_speed_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Projectile",
-            "Speed"
-          ],
+          "HUDDesc": ["{+15%}", "Projectile", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -3898,11 +3161,7 @@
             "SpeedPercentInt": "15"
           },
           "id": "projectiles_speed_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Projectile",
-            "Speed"
-          ],
+          "HUDDesc": ["{+15%}", "Projectile", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -3953,12 +3212,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+8%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         },
         {
@@ -3966,11 +3220,7 @@
             "DamagePercentInt": "6"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+6%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+6%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -3989,11 +3239,7 @@
             "DamagePercentInt": "15"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Material", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4130,11 +3376,7 @@
             "DamagePercentInt": "50"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+50%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+50%}", "Material", "Damage"],
           "Permanent": "1"
         },
         {
@@ -4142,14 +3384,7 @@
             "PossibilityInt": "1"
           },
           "id": "material_damage_only",
-          "HUDDesc": [
-            "Can",
-            "only",
-            "deal",
-            "Material",
-            "Damage",
-            "Types"
-          ],
+          "HUDDesc": ["Can", "only", "deal", "Material", "Damage", "Types"],
           "Permanent": "1"
         }
       ]
@@ -4168,11 +3403,7 @@
             "HealthFlatInt": "100"
           },
           "id": "health_pts",
-          "HUDDesc": [
-            "{+100}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+100}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -4180,11 +3411,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -4237,14 +3464,7 @@
             "RadiusFloat": "0"
           },
           "id": "damage_percent_per_enemy_in_range",
-          "HUDDesc": [
-            "{+5%}",
-            "Damage",
-            "for",
-            "each",
-            "Nearby",
-            "enemy"
-          ],
+          "HUDDesc": ["{+5%}", "Damage", "for", "each", "Nearby", "enemy"],
           "Permanent": "1"
         }
       ]
@@ -4293,11 +3513,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -4305,11 +3521,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -4328,11 +3540,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4351,11 +3559,7 @@
             "DamagePercentInt": "16"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+16%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+16%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4374,11 +3578,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4397,11 +3597,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         },
         {
@@ -4409,12 +3605,7 @@
             "CharacteristicScorePercentInt": "5"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+5%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -4422,13 +3613,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -4447,10 +3632,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "ferocity_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Ferocity"
-          ],
+          "HUDDesc": ["{+25}", "Ferocity"],
           "Permanent": "1"
         }
       ]
@@ -4469,12 +3651,7 @@
             "DamagePercentFloat": "2"
           },
           "id": "life_leech_percent_global",
-          "HUDDesc": [
-            "{+2%}",
-            "Global",
-            "Life",
-            "Leech"
-          ],
+          "HUDDesc": ["{+2%}", "Global", "Life", "Leech"],
           "Permanent": "1"
         }
       ]
@@ -4493,14 +3670,7 @@
             "DamagePercentFloat": "2"
           },
           "id": "life_leech_percent_spell",
-          "HUDDesc": [
-            "{+2%}",
-            "Life",
-            "Leech",
-            "from",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+2%}", "Life", "Leech", "from", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4519,14 +3689,7 @@
             "DamagePercentFloat": "2"
           },
           "id": "life_leech_percent_weapon",
-          "HUDDesc": [
-            "{+2%}",
-            "Life",
-            "Leech",
-            "from",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+2%}", "Life", "Leech", "from", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4545,12 +3708,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+10%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4569,12 +3727,7 @@
             "DamagePercentInt": "16"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+16%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+16%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4593,12 +3746,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+10%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4617,12 +3765,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -4641,13 +3784,7 @@
             "CharacteristicScoreInt": "5"
           },
           "id": "all_resistance",
-          "HUDDesc": [
-            "{+5}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+5}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -4655,13 +3792,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -4707,13 +3838,7 @@
             "ResourceFlatFloat": "35"
           },
           "id": "rage_on_kill_pts",
-          "HUDDesc": [
-            "{+35}",
-            "Rage",
-            "Generation",
-            "on",
-            "Kill"
-          ],
+          "HUDDesc": ["{+35}", "Rage", "Generation", "on", "Kill"],
           "Permanent": "1"
         }
       ]
@@ -4732,13 +3857,7 @@
             "ResourcePercentInt": "10"
           },
           "id": "rage_per_strike_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Rage",
-            "per",
-            "hit",
-            "taken"
-          ],
+          "HUDDesc": ["{+10%}", "Rage", "per", "hit", "taken"],
           "Permanent": "1"
         }
       ]
@@ -4757,11 +3876,7 @@
             "DamagePercentInt": "10"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Material", "Damage"],
           "Permanent": "1"
         },
         {
@@ -4769,12 +3884,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -4793,14 +3903,7 @@
             "DamagePercentFloat": "4"
           },
           "id": "life_leech_percent_against_bleeding",
-          "HUDDesc": [
-            "{+4%}",
-            "Life",
-            "Leech",
-            "on",
-            "Bleeding",
-            "Target"
-          ],
+          "HUDDesc": ["{+4%}", "Life", "Leech", "on", "Bleeding", "Target"],
           "Permanent": "1"
         }
       ]
@@ -4874,13 +3977,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -4888,11 +3985,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -4911,11 +4004,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+12%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -4934,11 +4023,7 @@
             "ChanceFlatFloat": "5"
           },
           "id": "blockchance_ifcanblock_flat",
-          "HUDDesc": [
-            "{+5}",
-            "Block",
-            "Chance"
-          ],
+          "HUDDesc": ["{+5}", "Block", "Chance"],
           "Permanent": "1"
         }
       ]
@@ -4957,11 +4042,7 @@
             "ResourcePercentFloat": "20"
           },
           "id": "blockefficiency_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Block",
-            "Efficiency"
-          ],
+          "HUDDesc": ["{+20%}", "Block", "Efficiency"],
           "Permanent": "1"
         }
       ]
@@ -5014,11 +4095,7 @@
             "ResourcePercentInt": "25"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+25%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -5053,11 +4130,7 @@
             "CharacteristicFinalPercentInt": "-50"
           },
           "id": "criticalchance_final_percent",
-          "HUDDesc": [
-            "{-50%}",
-            "Critical",
-            "Chance"
-          ],
+          "HUDDesc": ["{-50%}", "Critical", "Chance"],
           "Permanent": "1"
         }
       ]
@@ -5130,11 +4203,7 @@
             "ResourcePercentInt": "12"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+12%}", "Health", "Regeneration"],
           "Permanent": "1"
         },
         {
@@ -5142,12 +4211,7 @@
             "ResourcePercentFloat": "10"
           },
           "id": "health_regen_frequency",
-          "HUDDesc": [
-            "{+10%}",
-            "Health",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+10%}", "Health", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -5166,13 +4230,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5191,13 +4249,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5216,13 +4268,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5241,11 +4287,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         },
         {
@@ -5253,12 +4295,7 @@
             "CharacteristicScorePercentInt": "5"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+5%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -5266,13 +4303,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5291,10 +4322,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "ferocity_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Ferocity"
-          ],
+          "HUDDesc": ["{+25}", "Ferocity"],
           "Permanent": "1"
         }
       ]
@@ -5373,11 +4401,7 @@
             "ResourcePercentFloat": "20"
           },
           "id": "blockefficiency_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Block",
-            "Efficiency"
-          ],
+          "HUDDesc": ["{+20%}", "Block", "Efficiency"],
           "Permanent": "1"
         }
       ]
@@ -5396,11 +4420,7 @@
             "HealthPercentInt": "15"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+15%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -5419,11 +4439,7 @@
             "HealthPercentInt": "15"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+15%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -5442,11 +4458,7 @@
             "HealthPercentInt": "15"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+15%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -5465,11 +4477,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -5488,12 +4496,7 @@
             "ResourcePercentFloat": "20"
           },
           "id": "health_regen_frequency",
-          "HUDDesc": [
-            "{+20%}",
-            "Health",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+20%}", "Health", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -5548,14 +4551,7 @@
             "StackCountInt": "1"
           },
           "id": "weakness_aoe_onblock",
-          "HUDDesc": [
-            "{+1}",
-            "Weakness",
-            "Stack",
-            "inflicted",
-            "on",
-            "Block"
-          ],
+          "HUDDesc": ["{+1}", "Weakness", "Stack", "inflicted", "on", "Block"],
           "Permanent": "1"
         }
       ]
@@ -5574,11 +4570,7 @@
             "ChanceFlatFloat": "5"
           },
           "id": "blockchance_ifcanblock_flat",
-          "HUDDesc": [
-            "{+5}",
-            "Block",
-            "Chance"
-          ],
+          "HUDDesc": ["{+5}", "Block", "Chance"],
           "Permanent": "1"
         }
       ]
@@ -5597,11 +4589,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+12%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -5609,11 +4597,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -5632,12 +4616,7 @@
             "ChanceFlatFloat": "4"
           },
           "id": "healthglobe_drop_chance_on_hit",
-          "HUDDesc": [
-            "{+4}",
-            "Health",
-            "Globe",
-            "Generation"
-          ],
+          "HUDDesc": ["{+4}", "Health", "Globe", "Generation"],
           "Permanent": "1"
         }
       ]
@@ -5718,12 +4697,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -5731,11 +4705,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -5754,12 +4724,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5778,12 +4743,7 @@
             "StackCountInt": "5"
           },
           "id": "max_stacks_capacity",
-          "HUDDesc": [
-            "{+5}",
-            "Maximum",
-            "Ailment",
-            "Stacks"
-          ],
+          "HUDDesc": ["{+5}", "Maximum", "Ailment", "Stacks"],
           "Permanent": "1"
         }
       ]
@@ -5802,12 +4762,7 @@
             "StackCountInt": "5"
           },
           "id": "max_stacks_capacity",
-          "HUDDesc": [
-            "{+5}",
-            "Maximum",
-            "Ailment",
-            "Stacks"
-          ],
+          "HUDDesc": ["{+5}", "Maximum", "Ailment", "Stacks"],
           "Permanent": "1"
         }
       ]
@@ -5826,12 +4781,7 @@
             "StackCountInt": "2"
           },
           "id": "additional_ailment_stacks",
-          "HUDDesc": [
-            "{+2}",
-            "Ailment",
-            "Stack(s)",
-            "inflicted"
-          ],
+          "HUDDesc": ["{+2}", "Ailment", "Stack(s)", "inflicted"],
           "Permanent": "1"
         },
         {
@@ -5868,12 +4818,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "statusailment_resist_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5921,13 +4866,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_magicspell_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5946,13 +4885,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_attackskill_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Attack",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Attack", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -5971,12 +4904,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_resist_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -5984,13 +4912,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -6009,11 +4931,7 @@
             "ArmorPercentFloat": "12"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -6032,11 +4950,7 @@
             "ArmorPercentFloat": "20"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+20%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -6055,11 +4969,7 @@
             "ArmorPercentFloat": "12"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -6078,11 +4988,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         },
         {
@@ -6090,12 +4996,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -6103,13 +5004,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -6128,10 +5023,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "willpower_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Wisdom"
-          ],
+          "HUDDesc": ["{+25}", "Wisdom"],
           "Permanent": "1"
         }
       ]
@@ -6176,11 +5068,7 @@
             "DamagePercentFloat": "50"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+50%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+50%}", "Ailment", "Damage"],
           "Permanent": "1"
         },
         {
@@ -6217,12 +5105,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -6241,11 +5124,7 @@
             "DamagePercentFloat": "50"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+50%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+50%}", "Ailment", "Damage"],
           "Permanent": "1"
         },
         {
@@ -6282,11 +5161,7 @@
             "DamagePercentFloat": "12"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -6305,11 +5180,7 @@
             "DamagePercentFloat": "30"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+30%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+30%}", "Ailment", "Damage"],
           "Permanent": "1"
         },
         {
@@ -6346,12 +5217,7 @@
             "DurationPercentInt": "50"
           },
           "id": "anystack_duration_percent",
-          "HUDDesc": [
-            "{+50%}",
-            "Ailment",
-            "Stack",
-            "Duration"
-          ],
+          "HUDDesc": ["{+50%}", "Ailment", "Stack", "Duration"],
           "Permanent": "1"
         }
       ]
@@ -6370,13 +5236,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -6490,12 +5350,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -6503,12 +5358,7 @@
             "DurationPercentInt": "75"
           },
           "id": "anystack_duration_percent",
-          "HUDDesc": [
-            "{+75%}",
-            "Ailment",
-            "Stack",
-            "Duration"
-          ],
+          "HUDDesc": ["{+75%}", "Ailment", "Stack", "Duration"],
           "Permanent": "1"
         }
       ]
@@ -6527,11 +5377,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -6550,11 +5396,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -6619,12 +5461,7 @@
             "ResourceFlatFloat": "20"
           },
           "id": "umbra_on_hit_pts",
-          "HUDDesc": [
-            "{+20}",
-            "Willpower",
-            "on",
-            "Hit"
-          ],
+          "HUDDesc": ["{+20}", "Willpower", "on", "Hit"],
           "Permanent": "1"
         }
       ]
@@ -6643,13 +5480,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -6668,11 +5499,7 @@
             "DamagePercentInt": "15"
           },
           "id": "elemental_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Elemental",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Elemental", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -6691,11 +5518,7 @@
             "DamagePercentInt": "15"
           },
           "id": "occult_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Occult",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Occult", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -6755,13 +5578,7 @@
             "DefenseRegenerationPercentFloat": "25"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+25%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -6780,13 +5597,7 @@
             "ResourceFlatInt": "200"
           },
           "id": "resource_points",
-          "HUDDesc": [
-            "{+200}",
-            "Max",
-            "Willpower",
-            "and",
-            "Rage"
-          ],
+          "HUDDesc": ["{+200}", "Max", "Willpower", "and", "Rage"],
           "Permanent": "1"
         }
       ]
@@ -6805,13 +5616,7 @@
             "ResourceFlatInt": "100"
           },
           "id": "resource_points",
-          "HUDDesc": [
-            "{+100}",
-            "Max",
-            "Willpower",
-            "and",
-            "Rage"
-          ],
+          "HUDDesc": ["{+100}", "Max", "Willpower", "and", "Rage"],
           "Permanent": "1"
         }
       ]
@@ -6830,13 +5635,7 @@
             "ResourceFlatInt": "100"
           },
           "id": "resource_points",
-          "HUDDesc": [
-            "{+100}",
-            "Max",
-            "Willpower",
-            "and",
-            "Rage"
-          ],
+          "HUDDesc": ["{+100}", "Max", "Willpower", "and", "Rage"],
           "Permanent": "1"
         }
       ]
@@ -6855,13 +5654,7 @@
             "DefenseRegenerationPercentFloat": "17"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+17%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+17%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         },
         {
@@ -6895,11 +5688,7 @@
             "ArmorPercentFloat": "12"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -6918,11 +5707,7 @@
             "ArmorPercentFloat": "20"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+20%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -6941,11 +5726,7 @@
             "ArmorPercentFloat": "12"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -6964,11 +5745,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         },
         {
@@ -6976,12 +5753,7 @@
             "CharacteristicScorePercentInt": "5"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+5%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -6989,13 +5761,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -7014,10 +5780,7 @@
             "AttributeFlatInt": "25"
           },
           "id": "willpower_pts",
-          "HUDDesc": [
-            "{+25}",
-            "Wisdom"
-          ],
+          "HUDDesc": ["{+25}", "Wisdom"],
           "Permanent": "1"
         }
       ]
@@ -7066,11 +5829,7 @@
             "ResourcePercentFloat": "10"
           },
           "id": "umbra_regen_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Willpower",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+10%}", "Willpower", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -7089,12 +5848,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -7113,11 +5867,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+10%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7136,11 +5886,7 @@
             "DamagePercentInt": "16"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+16%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+16%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7159,11 +5905,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+10%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7182,12 +5924,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -7262,12 +5999,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "statusailment_resist_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -7286,13 +6018,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -7311,13 +6037,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -7325,12 +6045,7 @@
             "ResourcePercentFloat": "4"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+4%}",
-            "Spell",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+4%}", "Spell", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -7349,14 +6064,7 @@
             "DamagePercentFloat": "2"
           },
           "id": "life_leech_percent_spell",
-          "HUDDesc": [
-            "{+2%}",
-            "Life",
-            "Leech",
-            "from",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+2%}", "Life", "Leech", "from", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7375,14 +6083,7 @@
             "DamagePercentFloat": "2"
           },
           "id": "life_leech_percent_spell",
-          "HUDDesc": [
-            "{+2%}",
-            "Life",
-            "Leech",
-            "from",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+2%}", "Life", "Leech", "from", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7429,12 +6130,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+8%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         },
         {
@@ -7442,12 +6138,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+8%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -7455,13 +6146,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -7480,11 +6165,7 @@
             "DamagePercentInt": "15"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Material", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7503,11 +6184,7 @@
             "DamagePercentInt": "15"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Material", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7526,13 +6203,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -7540,11 +6211,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -7563,11 +6230,7 @@
             "DamagePercentInt": "15"
           },
           "id": "material_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Material",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Material", "Damage"],
           "Permanent": "1"
         },
         {
@@ -7575,12 +6238,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -7599,12 +6257,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+12%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7623,12 +6276,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "material_resistance_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Material",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Material", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -7636,11 +6284,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -7746,12 +6390,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+12%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7770,12 +6409,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+12%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7794,13 +6428,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -7808,11 +6436,7 @@
             "SpeedPercentInt": "5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{+5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{+5%}", "Movement", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -7831,12 +6455,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+8%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -7844,12 +6463,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+8%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7868,12 +6482,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "material_resistance_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Material",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Material", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -7892,12 +6501,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_melee_weapon",
-          "HUDDesc": [
-            "{+12%}",
-            "Melee",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Melee", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -7916,12 +6520,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "material_resistance_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Material",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Material", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -7929,11 +6528,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -8168,11 +6763,7 @@
             "DamagePercentInt": "10"
           },
           "id": "frost_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Frost",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Frost", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8180,12 +6771,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+8%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8193,13 +6779,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -8207,11 +6787,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -8230,11 +6806,7 @@
             "DamagePercentInt": "15"
           },
           "id": "frost_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Frost",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Frost", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -8253,11 +6825,7 @@
             "DamagePercentInt": "15"
           },
           "id": "frost_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Frost",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Frost", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -8276,13 +6844,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -8290,11 +6852,7 @@
             "SpeedPercentInt": "-5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{-5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{-5%}", "Movement", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -8313,11 +6871,7 @@
             "DamagePercentInt": "10"
           },
           "id": "frost_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Frost",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Frost", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8325,12 +6879,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -8349,11 +6898,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -8372,11 +6917,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -8384,13 +6925,7 @@
             "DefenseRegenerationPercentFloat": "12"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -8487,12 +7022,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+10%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8500,12 +7030,7 @@
             "CharacteristicScorePercentInt": "-10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{-10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -8524,12 +7049,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+10%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8537,12 +7057,7 @@
             "CharacteristicScorePercentInt": "-10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{-10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -8561,13 +7076,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -8575,11 +7084,7 @@
             "SpeedPercentInt": "-5"
           },
           "id": "movespeed",
-          "HUDDesc": [
-            "{-5%}",
-            "Movement",
-            "Speed"
-          ],
+          "HUDDesc": ["{-5%}", "Movement", "Speed"],
           "Permanent": "1"
         }
       ]
@@ -8598,12 +7103,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_projectiles",
-          "HUDDesc": [
-            "{+10%}",
-            "All",
-            "Projectiles",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "All", "Projectiles", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8637,11 +7137,7 @@
             "ArmorPercentFloat": "15"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+15%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -8660,11 +7156,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -8683,11 +7175,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -8695,13 +7183,7 @@
             "DefenseRegenerationPercentFloat": "12"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -8826,14 +7308,7 @@
             "DamagePercentFloat": "6"
           },
           "id": "stacks_hunter_damage",
-          "HUDDesc": [
-            "{+6%}",
-            "Damage",
-            "per",
-            "\"Cold",
-            "Blooded\"",
-            "Point"
-          ],
+          "HUDDesc": ["{+6%}", "Damage", "per", "\"Cold", "Blooded\"", "Point"],
           "Permanent": "1"
         }
       ]
@@ -8878,10 +7353,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Damage"],
           "Permanent": "1"
         },
         {
@@ -8889,12 +7361,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -8902,11 +7369,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -8925,12 +7388,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -8949,12 +7407,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -8973,13 +7426,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -8987,13 +7434,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "stamina_regeneration_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Stamina",
-            "Regeneration",
-            "Rate",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Stamina", "Regeneration", "Rate", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -9012,12 +7453,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -9025,10 +7461,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9047,11 +7480,7 @@
             "DamagePercentInt": "15"
           },
           "id": "lightning_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Lightning",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Lightning", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9070,11 +7499,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -9082,11 +7507,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -9187,12 +7608,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -9211,12 +7627,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -9235,13 +7646,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -9249,13 +7654,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "stamina_regeneration_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Stamina",
-            "Regeneration",
-            "Rate",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Stamina", "Regeneration", "Rate", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -9274,12 +7673,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "criticalchance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Critical",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Critical", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -9287,11 +7681,7 @@
             "DamagePercentInt": "5"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+5%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+5%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9310,11 +7700,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -9322,11 +7708,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -9345,11 +7727,7 @@
             "DamagePercentInt": "15"
           },
           "id": "lightning_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Lightning",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Lightning", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9368,11 +7746,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -9380,11 +7754,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -9568,12 +7938,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -9581,13 +7946,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -9595,13 +7954,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -9620,11 +7973,7 @@
             "DamagePercentInt": "15"
           },
           "id": "shadow_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Shadow",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Shadow", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9643,11 +7992,7 @@
             "DamagePercentInt": "15"
           },
           "id": "shadow_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Shadow",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Shadow", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9666,11 +8011,7 @@
             "ResourceFlatInt": "1"
           },
           "id": "additional_stamina_pts",
-          "HUDDesc": [
-            "{+1}",
-            "Stamina",
-            "Point"
-          ],
+          "HUDDesc": ["{+1}", "Stamina", "Point"],
           "Permanent": "1"
         }
       ]
@@ -9689,11 +8030,7 @@
             "DamagePercentInt": "10"
           },
           "id": "shadow_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Shadow",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Shadow", "Damage"],
           "Permanent": "1"
         },
         {
@@ -9701,13 +8038,7 @@
             "ResourceFlatInt": "100"
           },
           "id": "resource_points",
-          "HUDDesc": [
-            "{+100}",
-            "Max",
-            "Willpower",
-            "and",
-            "Rage"
-          ],
+          "HUDDesc": ["{+100}", "Max", "Willpower", "and", "Rage"],
           "Permanent": "1"
         }
       ]
@@ -9726,11 +8057,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -9738,11 +8065,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -9761,13 +8084,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -9775,12 +8092,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -9788,12 +8100,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -9881,12 +8188,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -9894,13 +8196,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -9919,12 +8215,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -9932,13 +8223,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -9957,11 +8242,7 @@
             "ResourceFlatInt": "1"
           },
           "id": "additional_stamina_pts",
-          "HUDDesc": [
-            "{+1}",
-            "Stamina",
-            "Point"
-          ],
+          "HUDDesc": ["{+1}", "Stamina", "Point"],
           "Permanent": "1"
         }
       ]
@@ -9980,12 +8261,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -9993,13 +8269,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -10035,13 +8305,7 @@
             "CharacteristicScorePercentInt": "15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10060,11 +8324,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -10072,11 +8332,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -10095,13 +8351,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -10109,12 +8359,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "ragecosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Rage",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Rage", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -10122,12 +8367,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -10362,7 +8602,7 @@
             "is",
             "increased",
             "by",
-            "{+12}.",
+            "{+30%}.",
             "Using",
             "a",
             "Skill",
@@ -10373,7 +8613,7 @@
             "a",
             "Cooldown",
             "of",
-            "{+30%s}."
+            "{+12s}."
           ],
           "Permanent": "1"
         }
@@ -10427,12 +8667,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -10440,11 +8675,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -10463,11 +8694,7 @@
             "DamagePercentInt": "15"
           },
           "id": "fire_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Fire",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Fire", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -10486,11 +8713,7 @@
             "DamagePercentInt": "15"
           },
           "id": "fire_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Fire",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Fire", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -10509,12 +8732,7 @@
             "CharacteristicScoreInt": "20"
           },
           "id": "statusailment_resist_score",
-          "HUDDesc": [
-            "{+20}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+20}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -10522,13 +8740,7 @@
             "CharacteristicScorePercentInt": "-15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{-15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{-15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10547,11 +8759,7 @@
             "DamagePercentInt": "10"
           },
           "id": "fire_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Fire",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Fire", "Damage"],
           "Permanent": "1"
         },
         {
@@ -10559,13 +8767,7 @@
             "ResourceFlatFloat": "10"
           },
           "id": "rage_on_hit_pts",
-          "HUDDesc": [
-            "{+10}",
-            "Rage",
-            "per",
-            "hit",
-            "taken"
-          ],
+          "HUDDesc": ["{+10}", "Rage", "per", "hit", "taken"],
           "Permanent": "1"
         }
       ]
@@ -10584,12 +8786,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10758,12 +8955,7 @@
             "CharacteristicScoreInt": "20"
           },
           "id": "statusailment_resist_score",
-          "HUDDesc": [
-            "{+20}",
-            "Ailment",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+20}", "Ailment", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -10771,13 +8963,7 @@
             "CharacteristicScorePercentInt": "-15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{-15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{-15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10812,12 +8998,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10836,11 +9017,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -10848,12 +9025,7 @@
             "CharacteristicScorePercentInt": "-10"
           },
           "id": "material_resistance_score_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Material",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{-10%}", "Material", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10872,12 +9044,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -10896,11 +9063,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         },
         {
@@ -10908,12 +9071,7 @@
             "CharacteristicScorePercentInt": "-10"
           },
           "id": "occult_resistance_score_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Occult",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{-10%}", "Occult", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -11161,11 +9319,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_any_weapon",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -11173,13 +9327,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_onehanded",
-          "HUDDesc": [
-            "{+10%}",
-            "Damage",
-            "with",
-            "One-Handed",
-            "Weapons"
-          ],
+          "HUDDesc": ["{+10%}", "Damage", "with", "One-Handed", "Weapons"],
           "Permanent": "1"
         },
         {
@@ -11187,13 +9335,7 @@
             "DamagePercentInt": "10"
           },
           "id": "damage_percent_twohanded",
-          "HUDDesc": [
-            "{+10%}",
-            "Two",
-            "Handed",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Two", "Handed", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -11212,13 +9354,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_onehanded",
-          "HUDDesc": [
-            "{+12%}",
-            "Damage",
-            "with",
-            "One-Handed",
-            "Weapons"
-          ],
+          "HUDDesc": ["{+12%}", "Damage", "with", "One-Handed", "Weapons"],
           "Permanent": "1"
         }
       ]
@@ -11237,13 +9373,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_onehanded",
-          "HUDDesc": [
-            "{+8%}",
-            "Damage",
-            "with",
-            "One-Handed",
-            "Weapons"
-          ],
+          "HUDDesc": ["{+8%}", "Damage", "with", "One-Handed", "Weapons"],
           "Permanent": "1"
         },
         {
@@ -11251,12 +9381,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -11275,11 +9400,7 @@
             "ResourcePercentFloat": "14"
           },
           "id": "blockefficiency_percent",
-          "HUDDesc": [
-            "{+14%}",
-            "Block",
-            "Efficiency"
-          ],
+          "HUDDesc": ["{+14%}", "Block", "Efficiency"],
           "Permanent": "1"
         },
         {
@@ -11287,11 +9408,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -11310,11 +9427,7 @@
             "DamagePercentInt": "12"
           },
           "id": "rend_damage_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Rend",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Rend", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -11333,13 +9446,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_onehanded",
-          "HUDDesc": [
-            "{+12%}",
-            "Damage",
-            "with",
-            "One-Handed",
-            "Weapons"
-          ],
+          "HUDDesc": ["{+12%}", "Damage", "with", "One-Handed", "Weapons"],
           "Permanent": "1"
         }
       ]
@@ -11553,13 +9660,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_twohanded",
-          "HUDDesc": [
-            "{+12%}",
-            "Two",
-            "Handed",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Two", "Handed", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -11578,13 +9679,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_twohanded",
-          "HUDDesc": [
-            "{+8%}",
-            "Two",
-            "Handed",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Two", "Handed", "Weapon", "Damage"],
           "Permanent": "1"
         },
         {
@@ -11592,11 +9687,7 @@
             "DamagePercentInt": "5"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+5%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+5%}", "Critical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -11615,11 +9706,7 @@
             "ResourcePercentFloat": "14"
           },
           "id": "blockefficiency_percent",
-          "HUDDesc": [
-            "{+14%}",
-            "Block",
-            "Efficiency"
-          ],
+          "HUDDesc": ["{+14%}", "Block", "Efficiency"],
           "Permanent": "1"
         },
         {
@@ -11627,11 +9714,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -11650,11 +9733,7 @@
             "DamagePercentInt": "12"
           },
           "id": "rend_damage_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Rend",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Rend", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -11703,13 +9782,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_twohanded",
-          "HUDDesc": [
-            "{+12%}",
-            "Two",
-            "Handed",
-            "Weapon",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Two", "Handed", "Weapon", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -11977,13 +10050,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -11991,11 +10058,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -12014,11 +10077,7 @@
             "DamagePercentInt": "25"
           },
           "id": "physical_damage_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Physical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+25%}", "Physical", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12026,11 +10085,7 @@
             "DamagePercentInt": "-10"
           },
           "id": "elemental_damage_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Elemental",
-            "Damage"
-          ],
+          "HUDDesc": ["{-10%}", "Elemental", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -12049,11 +10104,7 @@
             "DamagePercentInt": "25"
           },
           "id": "physical_damage_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Physical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+25%}", "Physical", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12061,11 +10112,7 @@
             "DamagePercentInt": "-10"
           },
           "id": "occult_damage_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Occult",
-            "Damage"
-          ],
+          "HUDDesc": ["{-10%}", "Occult", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -12084,11 +10131,7 @@
             "ResourcePercentFloat": "15"
           },
           "id": "blockefficiency_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Block",
-            "Efficiency"
-          ],
+          "HUDDesc": ["{+15%}", "Block", "Efficiency"],
           "Permanent": "1"
         }
       ]
@@ -12107,11 +10150,7 @@
             "DamagePercentInt": "15"
           },
           "id": "physical_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Physical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Physical", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -12130,11 +10169,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12142,11 +10177,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -12165,13 +10196,7 @@
             "CharacteristicScorePercentInt": "20"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+20%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -12179,13 +10204,7 @@
             "CharacteristicScorePercentInt": "-15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{-15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{-15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -12530,11 +10549,7 @@
             "ResourcePercentFloat": "20"
           },
           "id": "blockefficiency_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "Block",
-            "Efficiency"
-          ],
+          "HUDDesc": ["{+20%}", "Block", "Efficiency"],
           "Permanent": "1"
         },
         {
@@ -12542,13 +10557,7 @@
             "CharacteristicScorePercentInt": "-15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{-15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{-15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -12599,13 +10608,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -12624,11 +10627,7 @@
             "DamagePercentInt": "10"
           },
           "id": "criticaldamage_pts",
-          "HUDDesc": [
-            "{+10%}",
-            "Critical",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Critical", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12636,11 +10635,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -12659,13 +10654,7 @@
             "CharacteristicScorePercentInt": "20"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+20%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+20%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         },
         {
@@ -12673,13 +10662,7 @@
             "CharacteristicScorePercentInt": "-15"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{-15%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{-15%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -12812,13 +10795,7 @@
             "DamagePercentFloat": "6"
           },
           "id": "fortress_damage_percent",
-          "HUDDesc": [
-            "{+6%}",
-            "Damage",
-            "per",
-            "\"Inexorable\"",
-            "Point"
-          ],
+          "HUDDesc": ["{+6%}", "Damage", "per", "\"Inexorable\"", "Point"],
           "Permanent": "1"
         }
       ]
@@ -12879,11 +10856,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12891,11 +10864,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12903,11 +10872,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -12926,11 +10891,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+12%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -12949,11 +10910,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+12%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Attack", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -12972,11 +10929,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+8%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Spell", "Damage"],
           "Permanent": "1"
         },
         {
@@ -12984,11 +10937,7 @@
             "DamagePercentInt": "10"
           },
           "id": "sacred_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Sacred",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Sacred", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13007,11 +10956,7 @@
             "DamagePercentInt": "15"
           },
           "id": "sacred_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Sacred",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Sacred", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13030,11 +10975,7 @@
             "ArmorPercentFloat": "15"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+15%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -13155,11 +11096,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13178,11 +11115,7 @@
             "DamagePercentInt": "12"
           },
           "id": "damage_percent_spell",
-          "HUDDesc": [
-            "{+12%}",
-            "Spell",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Spell", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13201,11 +11134,7 @@
             "DamagePercentInt": "8"
           },
           "id": "damage_percent_attack",
-          "HUDDesc": [
-            "{+8%}",
-            "Attack",
-            "Damage"
-          ],
+          "HUDDesc": ["{+8%}", "Attack", "Damage"],
           "Permanent": "1"
         },
         {
@@ -13213,11 +11142,7 @@
             "DamagePercentInt": "10"
           },
           "id": "sacred_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Sacred",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Sacred", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13236,11 +11161,7 @@
             "DamagePercentInt": "15"
           },
           "id": "sacred_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Sacred",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Sacred", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13259,11 +11180,7 @@
             "ArmorPercentFloat": "10"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+10%}", "Force", "Shield"],
           "Permanent": "1"
         },
         {
@@ -13271,13 +11188,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -13296,13 +11207,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "all_resistance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "to",
-            "All",
-            "Resistances",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "to", "All", "Resistances", "Score"],
           "Permanent": "1"
         }
       ]
@@ -13321,13 +11226,7 @@
             "HealingPercentFloat": "10"
           },
           "id": "healing_from_spells_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Healing",
-            "received",
-            "from",
-            "Spells"
-          ],
+          "HUDDesc": ["{+10%}", "Healing", "received", "from", "Spells"],
           "Permanent": "1"
         }
       ]
@@ -13512,11 +11411,7 @@
             "DamagePercentInt": "10"
           },
           "id": "elemental_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Elemental",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Elemental", "Damage"],
           "Permanent": "1"
         },
         {
@@ -13524,12 +11419,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "elemental_resistance_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Elemental",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Elemental", "Resistance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -13548,13 +11438,7 @@
             "DefenseRegenerationPercentFloat": "17"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+17%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+17%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         },
         {
@@ -13562,11 +11446,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -13585,11 +11465,7 @@
             "DamagePercentInt": "15"
           },
           "id": "lightning_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Lightning",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Lightning", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13608,12 +11484,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "elemental_resistance_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Elemental",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Elemental", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -13621,11 +11492,7 @@
             "HealthPercentInt": "-10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{-10%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -13644,11 +11511,7 @@
             "DamagePercentInt": "15"
           },
           "id": "frost_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Frost",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Frost", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13667,13 +11530,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -13692,11 +11549,7 @@
             "DamagePercentInt": "15"
           },
           "id": "fire_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Fire",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Fire", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -13880,12 +11733,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -13904,12 +11752,7 @@
             "ResourcePercentFloat": "8"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+8%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         }
       ]
@@ -13928,12 +11771,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "elemental_resistance_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Elemental",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Elemental", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -13941,11 +11779,7 @@
             "HealthPercentInt": "-10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{-10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{-10%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -13964,12 +11798,7 @@
             "ResourcePercentFloat": "5"
           },
           "id": "umbracosts_percent",
-          "HUDDesc": [
-            "{+5%}",
-            "Willpower",
-            "Cost",
-            "decrease"
-          ],
+          "HUDDesc": ["{+5%}", "Willpower", "Cost", "decrease"],
           "Permanent": "1"
         },
         {
@@ -14005,13 +11834,7 @@
             "DefenseRegenerationPercentFloat": "25"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+25%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+25%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -14030,13 +11853,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -14055,13 +11872,7 @@
             "DefenseRegenerationPercentFloat": "17"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+17%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+17%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         },
         {
@@ -14069,11 +11880,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -14394,11 +12201,7 @@
             "DamagePercentInt": "10"
           },
           "id": "umbra_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Aether",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Aether", "Damage"],
           "Permanent": "1"
         },
         {
@@ -14406,12 +12209,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -14419,13 +12217,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -14433,11 +12225,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -14456,11 +12244,7 @@
             "DamagePercentInt": "15"
           },
           "id": "umbra_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Aether",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Aether", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -14479,11 +12263,7 @@
             "DamagePercentInt": "15"
           },
           "id": "umbra_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Aether",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Aether", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -14502,13 +12282,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -14516,11 +12290,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -14539,11 +12309,7 @@
             "DamagePercentInt": "15"
           },
           "id": "umbra_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Aether",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Aether", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -14562,12 +12328,7 @@
             "StackCountInt": "5"
           },
           "id": "max_stacks_capacity",
-          "HUDDesc": [
-            "{+5}",
-            "Maximum",
-            "Ailment",
-            "Stacks"
-          ],
+          "HUDDesc": ["{+5}", "Maximum", "Ailment", "Stacks"],
           "Permanent": "1"
         }
       ]
@@ -14601,11 +12362,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -14635,7 +12392,7 @@
             "Stasis,",
             "they",
             "take",
-            "{+1.5}",
+            "{+100%}",
             "of",
             "the",
             "Hit",
@@ -14643,7 +12400,8 @@
             "again",
             "after",
             "a",
-            "{+100%s}",
+            "{+1.5}",
+            "s",
             "delay"
           ],
           "Permanent": "1"
@@ -14693,12 +12451,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -14717,12 +12470,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -14741,13 +12489,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "dodgechance_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Passive",
-            "Dodge",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Passive", "Dodge", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -14755,11 +12497,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -14778,12 +12516,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -14791,12 +12524,7 @@
             "CharacteristicScorePercentInt": "10"
           },
           "id": "attackspeed_score_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Attack",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+10%}", "Attack", "Speed", "Score"],
           "Permanent": "1"
         },
         {
@@ -14804,13 +12532,7 @@
             "CharacteristicScorePercentInt": "18"
           },
           "id": "spellcastingspeed_score_percent",
-          "HUDDesc": [
-            "{+18%}",
-            "Spell",
-            "Casting",
-            "Speed",
-            "Score"
-          ],
+          "HUDDesc": ["{+18%}", "Spell", "Casting", "Speed", "Score"],
           "Permanent": "1"
         }
       ]
@@ -14855,12 +12577,7 @@
             "StackCountInt": "5"
           },
           "id": "max_stacks_capacity",
-          "HUDDesc": [
-            "{+5}",
-            "Maximum",
-            "Ailment",
-            "Stacks"
-          ],
+          "HUDDesc": ["{+5}", "Maximum", "Ailment", "Stacks"],
           "Permanent": "1"
         }
       ]
@@ -14894,11 +12611,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -15058,7 +12771,7 @@
             "You",
             "only",
             "take",
-            "{+1}",
+            "{+40%}",
             "Damage",
             "from",
             "an",
@@ -15072,7 +12785,7 @@
             "rest",
             "is",
             "dealt",
-            "{+40%s}",
+            "{+1s}",
             "after",
             "the",
             "Hit"
@@ -15161,14 +12874,7 @@
             "DamagePercentFloat": "10"
           },
           "id": "minion_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Damage",
-            "dealt",
-            "by",
-            "Summons"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Damage", "dealt", "by", "Summons"],
           "Permanent": "1"
         },
         {
@@ -15176,12 +12882,7 @@
             "HealthPercentInt": "10"
           },
           "id": "minion_health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Summons",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Summons", "Health"],
           "Permanent": "1"
         },
         {
@@ -15189,11 +12890,7 @@
             "DamagePercentInt": "10"
           },
           "id": "toxic_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Toxic",
-            "Damage"
-          ],
+          "HUDDesc": ["{+10%}", "Toxic", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -15212,14 +12909,7 @@
             "DamagePercentFloat": "15"
           },
           "id": "minion_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "to",
-            "Damage",
-            "dealt",
-            "by",
-            "Summons"
-          ],
+          "HUDDesc": ["{+15%}", "to", "Damage", "dealt", "by", "Summons"],
           "Permanent": "1"
         }
       ]
@@ -15238,14 +12928,7 @@
             "DamagePercentFloat": "15"
           },
           "id": "minion_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "to",
-            "Damage",
-            "dealt",
-            "by",
-            "Summons"
-          ],
+          "HUDDesc": ["{+15%}", "to", "Damage", "dealt", "by", "Summons"],
           "Permanent": "1"
         }
       ]
@@ -15264,11 +12947,7 @@
             "DamagePercentInt": "15"
           },
           "id": "toxic_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Toxic",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Toxic", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -15287,14 +12966,7 @@
             "DamagePercentFloat": "10"
           },
           "id": "minion_damage_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Damage",
-            "dealt",
-            "by",
-            "Summons"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Damage", "dealt", "by", "Summons"],
           "Permanent": "1"
         },
         {
@@ -15302,11 +12974,7 @@
             "HealthPercentInt": "10"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -15325,13 +12993,7 @@
             "ResourcePercentFloat": "10"
           },
           "id": "minion_regeneration_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Summons'",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Summons'", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -15350,12 +13012,7 @@
             "HealthPercentInt": "10"
           },
           "id": "minion_health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Summons",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Summons", "Health"],
           "Permanent": "1"
         }
       ]
@@ -15539,11 +13196,7 @@
             "DamagePercentInt": "15"
           },
           "id": "toxic_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Toxic",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Toxic", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -15580,11 +13233,7 @@
             "HealthPercentInt": "8"
           },
           "id": "health_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Maximum",
-            "Health"
-          ],
+          "HUDDesc": ["{+8%}", "Maximum", "Health"],
           "Permanent": "1"
         }
       ]
@@ -15603,12 +13252,7 @@
             "HealthPercentInt": "10"
           },
           "id": "minion_health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Summons",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Summons", "Health"],
           "Permanent": "1"
         }
       ]
@@ -15627,13 +13271,7 @@
             "ResourcePercentFloat": "10"
           },
           "id": "minion_regeneration_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Summons'",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Summons'", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -15652,12 +13290,7 @@
             "HealthPercentInt": "10"
           },
           "id": "minion_health_percent",
-          "HUDDesc": [
-            "{+10%}",
-            "to",
-            "Summons",
-            "Health"
-          ],
+          "HUDDesc": ["{+10%}", "to", "Summons", "Health"],
           "Permanent": "1"
         }
       ]
@@ -15715,9 +13348,9 @@
             "are",
             "Slowed",
             "by",
-            "{+2}",
+            "{+20%}",
             "for",
-            "{+20%s}",
+            "{+2s}",
             "when",
             "they",
             "are",
@@ -15910,12 +13543,7 @@
             "CharacteristicScorePercentInt": "12"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         },
         {
@@ -15923,12 +13551,7 @@
             "CharacteristicScoreInt": "10"
           },
           "id": "occult_resistance",
-          "HUDDesc": [
-            "{+10}",
-            "Occult",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10}", "Occult", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -15936,13 +13559,7 @@
             "DefenseRegenerationPercentFloat": "12"
           },
           "id": "forceshield_regeneration_percent",
-          "HUDDesc": [
-            "{+12%}",
-            "Force",
-            "Shield",
-            "Regeneration",
-            "Rate"
-          ],
+          "HUDDesc": ["{+12%}", "Force", "Shield", "Regeneration", "Rate"],
           "Permanent": "1"
         }
       ]
@@ -15961,11 +13578,7 @@
             "DamagePercentInt": "15"
           },
           "id": "occult_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Occult",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Occult", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -15984,11 +13597,7 @@
             "DamagePercentInt": "15"
           },
           "id": "occult_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Occult",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Occult", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -16007,12 +13616,7 @@
             "CharacteristicScoreInt": "10"
           },
           "id": "occult_resistance",
-          "HUDDesc": [
-            "{+10}",
-            "Occult",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10}", "Occult", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -16020,11 +13624,7 @@
             "ResourcePercentInt": "-17"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{-17%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{-17%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -16043,11 +13643,7 @@
             "DamagePercentInt": "15"
           },
           "id": "occult_damage_percent",
-          "HUDDesc": [
-            "{+15%}",
-            "Occult",
-            "Damage"
-          ],
+          "HUDDesc": ["{+15%}", "Occult", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -16066,11 +13662,7 @@
             "DamagePercentFloat": "12"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -16104,11 +13696,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -16191,13 +13779,7 @@
             "CharacteristicScoreInt": "25"
           },
           "id": "statusailment_inflict_score_flat_occult",
-          "HUDDesc": [
-            "{+25}",
-            "Occult",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25}", "Occult", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -16216,13 +13798,7 @@
             "CharacteristicScoreInt": "25"
           },
           "id": "statusailment_inflict_score_flat_occult",
-          "HUDDesc": [
-            "{+25}",
-            "Occult",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25}", "Occult", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -16241,12 +13817,7 @@
             "CharacteristicScoreInt": "10"
           },
           "id": "occult_resistance",
-          "HUDDesc": [
-            "{+10}",
-            "Occult",
-            "Resistance",
-            "Score"
-          ],
+          "HUDDesc": ["{+10}", "Occult", "Resistance", "Score"],
           "Permanent": "1"
         },
         {
@@ -16254,11 +13825,7 @@
             "ResourcePercentInt": "-17"
           },
           "id": "health_regen_true_percent",
-          "HUDDesc": [
-            "{-17%}",
-            "Health",
-            "Regeneration"
-          ],
+          "HUDDesc": ["{-17%}", "Health", "Regeneration"],
           "Permanent": "1"
         }
       ]
@@ -16277,13 +13844,7 @@
             "CharacteristicScoreInt": "25"
           },
           "id": "statusailment_inflict_score_flat_occult",
-          "HUDDesc": [
-            "{+25}",
-            "Occult",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+25}", "Occult", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -16317,12 +13878,7 @@
             "CharacteristicScorePercentInt": "9"
           },
           "id": "statusailment_inflict_score_percent",
-          "HUDDesc": [
-            "{+9%}",
-            "Ailment",
-            "Chance",
-            "Score"
-          ],
+          "HUDDesc": ["{+9%}", "Ailment", "Chance", "Score"],
           "Permanent": "1"
         }
       ]
@@ -16341,11 +13897,7 @@
             "DamagePercentFloat": "12"
           },
           "id": "dotdamage_percent_global",
-          "HUDDesc": [
-            "{+12%}",
-            "Ailment",
-            "Damage"
-          ],
+          "HUDDesc": ["{+12%}", "Ailment", "Damage"],
           "Permanent": "1"
         }
       ]
@@ -16379,11 +13931,7 @@
             "ArmorPercentFloat": "8"
           },
           "id": "forceshield_percent",
-          "HUDDesc": [
-            "{+8%}",
-            "Force",
-            "Shield"
-          ],
+          "HUDDesc": ["{+8%}", "Force", "Shield"],
           "Permanent": "1"
         }
       ]
@@ -16620,12 +14168,7 @@
             "PossibilityInt": "1"
           },
           "id": "double_force_shield_capacity",
-          "HUDDesc": [
-            "Doubles",
-            "Max",
-            "Force",
-            "Shield."
-          ],
+          "HUDDesc": ["Doubles", "Max", "Force", "Shield."],
           "Permanent": "1"
         },
         {

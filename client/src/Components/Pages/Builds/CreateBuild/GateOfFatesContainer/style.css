@@ -58,7 +58,8 @@
   background: rgba(0, 0, 0, 0.801) !important;
   color: white;
   border-radius: 5px;
-  max-width: 300px;
+  width: 300px;
+  min-width: 300px;
   margin-left: 10px;
 }
 
@@ -83,4 +84,16 @@
 }
 .tooltipSkillMod {
   display: list-item;
+}
+
+.gofAndControls {
+  display: flex;
+  flex-direction: row;
+}
+
+.gofButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 458px;
+  margin-right: 20px;
 }
