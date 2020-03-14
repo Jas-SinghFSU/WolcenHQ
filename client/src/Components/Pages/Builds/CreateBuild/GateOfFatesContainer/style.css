@@ -59,6 +59,7 @@
   color: white;
   border-radius: 5px;
   max-width: 300px;
+  margin-left: 10px;
 }
 
 .tooltipSkillDescriptionCol {
@@ -68,4 +69,18 @@
   margin-top: 8px;
   border-bottom: solid 2px;
   border-color: rgba(107, 107, 107, 0.288);
+}
+
+.skillModValue {
+  color: rgb(240, 180, 69);
+}
+
+.tooltipSkillModsList {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tooltipSkillMod {
+  display: list-item;
 }

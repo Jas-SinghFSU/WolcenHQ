@@ -25,7 +25,39 @@ const GOFSectionHeader = () => {
 };
 
 const SkillTooltip = ({ tooltipOptions }) => {
-  const skillInfo = tooltipOptions.text;
+  const [modifiers, setModifiers] = useState(null);
+  const [modDesc, setModDesc] = useState(null);
+  const [skillInfo, setSkillInfo] = useState(null);
+
+  const constructHudDescription = mods => {
+    let modMatrix = [];
+
+    mods.forEach(mod => {
+      modMatrix.push(mod.HUDDesc.split(" "));
+    });
+
+    setModDesc(modMatrix);
+  };
+
+  useEffect(() => {
+    if (tooltipOptions.text) {
+      setModifiers(tooltipOptions.text.magicEffects.modifiers);
+      setSkillInfo(tooltipOptions.text);
+    }
+
+    if (tooltipOptions.text === "") {
+      setModifiers(null);
+      setSkillInfo(null);
+      setModDesc(null);
+    }
+  }, [tooltipOptions]);
+
+  useEffect(() => {
+    if (modifiers) {
+      constructHudDescription(modifiers);
+    }
+  }, [modifiers]);
+
   return (
     <div
       id="nodeTooltip"
@@ -41,15 +73,42 @@ const SkillTooltip = ({ tooltipOptions }) => {
     >
       <Row className="spellTooltipRow">
         <Col className="tooltipSpellNameCol" span={24} offset={0}>
-          <span className="tooltipSpellName">{skillInfo.name}</span>
+          <span className="tooltipSpellName">
+            {skillInfo && skillInfo.name}
+          </span>
         </Col>
-        {skillInfo.description && (
+        {skillInfo && skillInfo.description && (
           <Col className="tooltipSkillDescriptionCol" span={24} offset={0}>
-            <span className="tooltipSpellName">{skillInfo.description}</span>
+            <span className="tooltipSpellName">
+              {skillInfo && skillInfo.description}
+            </span>
           </Col>
         )}
-        <Col className="tooltipSpellDescriptionCol" span={24} offset={0}>
-          <span className="tooltipSpellName">{}</span>
+        <Col className="tooltipSkillDescriptionCol" span={24} offset={0}>
+          <div className="tooltipSkillModsList">
+            {modDesc &&
+              modDesc.map(descArr => {
+                return (
+                  <div className="tooltipSkillMod">
+                    {descArr.map((descWord, index, arr) => {
+                      if (descWord.match(/[^{}]*(?=\})/g)) {
+                        let thisWord = descWord.replace(/[{}]/g, "");
+                        return (
+                          <span className="skillModValue">
+                            {thisWord + " "}
+                          </span>
+                        );
+                      }
+                      let spaceOrNewline = " ";
+                      if (index === arr.length - 1) {
+                        spaceOrNewline = "\n";
+                      }
+                      return descWord + spaceOrNewline;
+                    })}
+                  </div>
+                );
+              })}
+          </div>
         </Col>
       </Row>
     </div>
@@ -536,7 +595,7 @@ const GateOfFates = () => {
             displayTooltip(e);
           }}
           onMouseLeave={() => {
-            // setTooltipOptions({ display: "none" });
+            setTooltipOptions({ display: "none", text: "" });
           }}
           onClick={() => {
             handleNodeClick(circle);

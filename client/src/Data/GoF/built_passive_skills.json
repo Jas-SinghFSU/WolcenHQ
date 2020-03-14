@@ -5930,7 +5930,7 @@
             "DamagePercentFloat": "15"
           },
           "id": "material_damage_on_elites",
-          "HUDDesc": "Gain 1 \"Headhunter\" Points (Max {+15%)} every  time an enemy that is Champion or above is killed, with Points resetting after {+5s.} \"Headhunter\" Points grant {+30} Material Damage",
+          "HUDDesc": "Gain 1 \"Headhunter\" Points (Max {+15%)} every  time an enemy that is Champion or above is killed, with Points resetting after {+5s}. \"Headhunter\" Points grant {+30} Material Damage",
           "Permanent": "1"
         }
       ]
@@ -6628,7 +6628,7 @@
             "DamagePercentFloat": "6"
           },
           "id": "stack_focus_damage",
-          "HUDDesc": "{+6%} Damage per \"Overload\" Point. Basic Attacks generate 1 \"Overload\" Point up to a Maximum of {+6.} Using a Skill consumes all \"Overload\" Points but doubles Damage of the Skill",
+          "HUDDesc": "{+6%} Damage per \"Overload\" Point. Basic Attacks generate 1 \"Overload\" Point up to a Maximum of {+6}. Using a Skill consumes all \"Overload\" Points but doubles Damage of the Skill",
           "Permanent": "1"
         }
       ]
@@ -6872,7 +6872,7 @@
             "PSTStackMaxCountInt": "100"
           },
           "id": "stack_gadget_uses_mechanic",
-          "HUDDesc": "Basic Attacks refill \"Power Charge\" Points by {+4.} {+4} \"Power Charge\" Points are generated per second, capped between {Unknown3} and {Unknown3}",
+          "HUDDesc": "Basic Attacks refill \"Power Charge\" Points by {+4}. {+4} \"Power Charge\" Points are generated per second, capped between {Unknown3} and {Unknown3}",
           "Permanent": "1"
         },
         {
@@ -7384,7 +7384,7 @@
             "DamagePercentFloat": "30"
           },
           "id": "active_dodge_makes_invisible",
-          "HUDDesc": "Completing an Active Dodge turns you Invisible for {+5s.} While Invisible, the Damage of your next Skill Cast is increased by {+12.} Using a Skill breaks Invisibility. This has a Cooldown of {+30%s.}",
+          "HUDDesc": "Completing an Active Dodge turns you Invisible for {+5s}. While Invisible, the Damage of your next Skill Cast is increased by {+12}. Using a Skill breaks Invisibility. This has a Cooldown of {+30%s}.",
           "Permanent": "1"
         }
       ]
@@ -7829,7 +7829,7 @@
             "PSTStackResetTimer": "3"
           },
           "id": "stack_anger_uses_mechanic",
-          "HUDDesc": "Your Attacks generate \"Unleashed Fury\" Points up to a Maximum of {+50.} Points reset after {+3s} out of combat",
+          "HUDDesc": "Your Attacks generate \"Unleashed Fury\" Points up to a Maximum of {+50}. Points reset after {+3s} out of combat",
           "Permanent": "1"
         },
         {
@@ -9522,7 +9522,7 @@
             "DurationFlatFloat": "1"
           },
           "id": "can_proc_attunements",
-          "HUDDesc": "Spells that inflict Fire, Frost, or Lightning Ailments grant passive Bonuses called \"Accords\". Up to {+1} \"Accord(s)\" can be active concurrently. Triggered \"Accords\" remain locked for {+1s.}",
+          "HUDDesc": "Spells that inflict Fire, Frost, or Lightning Ailments grant passive Bonuses called \"Accords\". Up to {+1} \"Accord(s)\" can be active concurrently. Triggered \"Accords\" remain locked for {+1s}.",
           "Permanent": "1"
         },
         {
@@ -9743,7 +9743,7 @@
             "TriggeredSkillSelector": "0"
           },
           "id": "explosion_on_low_willpower",
-          "HUDDesc": "When Willpower is below {+25%} of its Maximum, you have a chance to cause an Explosion, dealing Damage based on your Maximum Force Shield or Health. This Explosion regenerates {+1} of your Willpower, and has a Cooldown of {Unknowns.}",
+          "HUDDesc": "When Willpower is below {+25%} of its Maximum, you have a chance to cause an Explosion, dealing Damage based on your Maximum Force Shield or Health. This Explosion regenerates {+1} of your Willpower, and has a Cooldown of {Unknowns}.",
           "Permanent": "1"
         }
       ]
@@ -10232,7 +10232,7 @@
             "PSTStackMaxCountInt": "5"
           },
           "id": "stack_hybrid_uses_mechanic",
-          "HUDDesc": "You gain Supernatural Paradox Points when you Hit an enemy in Stasis with an Attack, and Earthly Paradox Points when you Hit them with a Spell. Points reset after {+5s.} Maximum of {+5} Point(s)",
+          "HUDDesc": "You gain Supernatural Paradox Points when you Hit an enemy in Stasis with an Attack, and Earthly Paradox Points when you Hit them with a Spell. Points reset after {+5s}. Maximum of {+5} Point(s)",
           "Permanent": "1"
         },
         {
