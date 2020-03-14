@@ -1,6 +1,7 @@
 const modifierData = require("../Clean Data/clean_skill_bonus_info.json");
 const skillInfo = require("../Clean Data/clean_skill_id_to_info.json");
 const skillTemplate = require("../Raw Data/skill_templates.json");
+const fs = require("fs");
 
 let unifiedSkills = [];
 
@@ -10,7 +11,8 @@ skillTemplate.MetaData.Spell.forEach(skill => {
     name: "",
     lore: "",
     description: "",
-    magicEffects: skill.MagicEffects
+    magicEffects: skill.MagicEffects,
+    section: skill.scope
   };
 
   const { magicEffects } = skillObject;
@@ -27,7 +29,7 @@ skillTemplate.MetaData.Spell.forEach(skill => {
     if (filteredSkill.length <= 0) {
       console.log(`Couldn't find ${skill.name}`);
     }
-    skillName = filteredSkill[0].value;
+    skillName = filteredSkill[0].value.replace(/-/, "");
 
     skillObject.name = skillName;
   }
@@ -98,3 +100,12 @@ skillTemplate.MetaData.Spell.forEach(skill => {
 });
 
 console.log(unifiedSkills.length);
+
+if (!fs.existsSync("../Clean Data")) {
+  fs.mkdirSync("../Clean Data");
+}
+
+fs.writeFileSync(
+  "../Clean Data/built_passive_skills.json",
+  JSON.stringify(unifiedSkills, null, 2)
+);

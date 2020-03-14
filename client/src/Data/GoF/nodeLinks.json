@@ -471,8 +471,8 @@
     "destination": "blindfolded_leaps-g-o"
   },
   {
-    "source": "deadly_physicalty-r-m-edge",
-    "destination": "deadly_physicalty-r-m"
+    "source": "deadly_physicality-r-m-edge",
+    "destination": "deadly_physicality-r-m"
   },
   {
     "source": "light_for_the_blind-r-o-edge",
@@ -703,7 +703,7 @@
   },
   {
     "source": "dominator-p-m",
-    "destination": "self_reliant-p-m",
+    "destination": "self_restraint-p-m",
     "isActive": "0"
   },
   {
@@ -778,7 +778,7 @@
   },
   {
     "source": "reining_in_the_darkness-p-m",
-    "destination": "self_reliant-p-m-2",
+    "destination": "self_restraint-p-m-2",
     "isActive": 0
   },
   {
@@ -787,7 +787,7 @@
     "isActive": 0
   },
   {
-    "source": "self_reliant-p-m",
+    "source": "self_restraint-p-m",
     "destination": "ravenous_magic-p-m",
     "isActive": 0
   },
@@ -802,7 +802,7 @@
     "isActive": 0
   },
   {
-    "source": "self_reliant-p-m",
+    "source": "self_restraint-p-m",
     "destination": "impatient-p-m",
     "isActive": 0
   },
@@ -918,16 +918,16 @@
   },
   {
     "source": "holy_gift-r-m",
-    "destination": "weap_spot_focus-r-m",
+    "destination": "weak_spot_focus-r-m",
     "isActive": 0
   },
   {
-    "source": "weap_spot_focus-r-m",
+    "source": "weak_spot_focus-r-m",
     "destination": "impervious_wall-r-m",
     "isActive": 0
   },
   {
-    "source": "weap_spot_focus-r-m",
+    "source": "weak_spot_focus-r-m",
     "destination": "regenerative_body-r-m",
     "isActive": 0
   },
@@ -1523,11 +1523,11 @@
   },
   {
     "source": "brutality-r-m",
-    "destination": "deadly_physicalty-r-m",
+    "destination": "deadly_physicality-r-m",
     "isActive": 0
   },
   {
-    "source": "deadly_physicalty-r-m",
+    "source": "deadly_physicality-r-m",
     "destination": "manic_slaughter-r-m",
     "isActive": 0
   },
@@ -1563,7 +1563,7 @@
   },
   {
     "source": "whirlwind_of_steel-r-m-3",
-    "destination": "deadly_physicalty-r-m",
+    "destination": "deadly_physicality-r-m",
     "isActive": 0
   },
   {
@@ -1627,7 +1627,7 @@
     "isActive": 0
   },
   {
-    "source": "deadly_physicalty-r-m",
+    "source": "deadly_physicality-r-m",
     "destination": "body_and_mind-g-m-2",
     "isActive": 0
   },

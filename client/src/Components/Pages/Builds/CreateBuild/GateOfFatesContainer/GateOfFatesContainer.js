@@ -8,7 +8,7 @@ const svgData = require("../../../../../Data/GoF/output.json");
 const linkElems = require("../../../../../Data/GoF/nodeLinks.json");
 const rcLinks = require("../../../../../Data/GoF/ringConnectorLinks.json");
 const orcLinks = require("../../../../../Data/GoF/ringConnectorLinksOuter.json");
-const passiveSkills = require("../../../../../Data/GoF/PassiveSkills.json");
+const passiveSkills = require("../../../../../Data/GoF/built_passive_skills.json");
 
 const outerRingImg = require("../../../../../images/Outer_Ring.png");
 const innerRingImg = require("../../../../../images/Inner_Ring.png");
@@ -71,6 +71,33 @@ const GateOfFates = () => {
     return nodeMap;
   };
 
+  const getUnfoundDataForNodes = () => {
+    if (allNodes) {
+      allNodes.forEach((nodeData, nodeName) => {
+        const skillName = nodeName
+          .toString()
+          .split("-")
+          .shift()
+          .replace(/_/g, " ")
+          .split(" ")
+          .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+          .join(" ");
+
+        let skillData = passiveSkillsList.filter(skill => {
+          if (
+            skillName.toLowerCase() ===
+            skill.name.toLowerCase().replace(/'/, "")
+          ) {
+            return true;
+          }
+        });
+
+        if (skillData.length === 0 && nodeName !== "root") {
+          console.log(`Couldn't find: ${skillName}`);
+        }
+      });
+    }
+  };
   const findPotentialPairs = () => {
     const foundPairs = new Map();
 
@@ -262,7 +289,9 @@ const GateOfFates = () => {
       .map(s => s.charAt(0).toUpperCase() + s.substring(1))
       .join(" ");
     let skillData = passiveSkillsList.filter(skill => {
-      if (skillName === skill.name) {
+      if (
+        skillName.toLowerCase() === skill.name.toLowerCase().replace(/'/, "")
+      ) {
         return true;
       }
     });
@@ -284,6 +313,10 @@ const GateOfFates = () => {
     setAllNodes(getAllNodes());
     filterNodesByScope();
   }, []);
+
+  useEffect(() => {
+    getUnfoundDataForNodes();
+  }, [allNodes]);
 
   useEffect(() => {
     setActivePairs(findPotentialPairs());

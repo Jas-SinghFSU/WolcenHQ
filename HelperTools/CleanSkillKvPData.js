@@ -9,6 +9,7 @@ skillModInfo = skillModInfo.Row;
 let cleanSkillData = [];
 let cleanSkillModInfo = [];
 
+let currentScope = "";
 skillIDInfo.forEach(skill => {
   if (
     Array.isArray(skill.Cell) &&
@@ -16,12 +17,15 @@ skillIDInfo.forEach(skill => {
     Object.prototype.hasOwnProperty.call(skill.Cell[1], "Data") &&
     Object.prototype.hasOwnProperty.call(skill.Cell[0], "Data") &&
     Object.prototype.hasOwnProperty.call(skill.Cell[1].Data, "skill") &&
-    Object.prototype.hasOwnProperty.call(skill.Cell[0].Data, "skill") &&
-    !skill.Cell[0].Data.skill.includes("_lore")
+    Object.prototype.hasOwnProperty.call(skill.Cell[0].Data, "skill")
   ) {
+    if (skill.Cell[0].Data.skill.includes("ui_Section_")) {
+      currentScope = skill.Cell[1].Data.skill;
+    }
     const kvpObject = {
       key: skill.Cell[0].Data.skill,
-      value: skill.Cell[1].Data.skill
+      value: skill.Cell[1].Data.skill,
+      scope: currentScope
     };
     cleanSkillData.push(kvpObject);
   }

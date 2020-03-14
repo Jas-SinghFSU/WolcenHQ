@@ -2102,7 +2102,7 @@
             "r": "5.5"
           },
           {
-            "id": "deadly_physicalty-r-m",
+            "id": "deadly_physicality-r-m",
             "class": "cls-271",
             "cx": "754.2",
             "cy": "754.16",
@@ -2426,7 +2426,7 @@
             "r": "5.5"
           },
           {
-            "id": "self_reliant-p-m",
+            "id": "self_restraint-p-m",
             "class": "cls-316",
             "cx": "591.13",
             "cy": "343.15",
@@ -2509,8 +2509,8 @@
             "r": "5.5"
           },
           {
-            "id": "self_reliant-p-m-2",
-            "data-name": "self_reliant-p-m",
+            "id": "self_restraint-p-m-2",
+            "data-name": "self_restraint-p-m",
             "class": "cls-327",
             "cx": "666.65",
             "cy": "220.35",
@@ -2793,7 +2793,7 @@
             "r": "5.5"
           },
           {
-            "id": "weap_spot_focus-r-m",
+            "id": "weak_spot_focus-r-m",
             "class": "cls-365",
             "cx": "394.83",
             "cy": "384.17",
@@ -3379,7 +3379,7 @@
             "r": "0"
           },
           {
-            "id": "deadly_physicalty-r-m-edge",
+            "id": "deadly_physicality-r-m-edge",
             "class": "cls-271",
             "cx": "768.6",
             "cy": "767.6",
