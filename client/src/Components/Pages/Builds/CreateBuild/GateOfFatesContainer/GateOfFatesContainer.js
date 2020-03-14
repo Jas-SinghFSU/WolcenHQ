@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
 import { Row, Col, Button, Popover } from "antd";
-import Particles from "react-particles-js";
-
+import Fireflies from "./Fireflies";
 import "./style.css";
 import "./gof.css";
 
@@ -9,6 +8,7 @@ const svgData = require("../../../../../Data/GoF/output.json");
 const linkElems = require("../../../../../Data/GoF/nodeLinks.json");
 const rcLinks = require("../../../../../Data/GoF/ringConnectorLinks.json");
 const orcLinks = require("../../../../../Data/GoF/ringConnectorLinksOuter.json");
+const passiveSkills = require("../../../../../Data/GoF/PassiveSkills.json");
 
 const outerRingImg = require("../../../../../images/Outer_Ring.png");
 const innerRingImg = require("../../../../../images/Inner_Ring.png");
@@ -24,103 +24,9 @@ const GOFSectionHeader = () => {
   );
 };
 
-const Fireflies = () => {
-  return (
-    <Particles
-      className="gofFireflies"
-      height={"1044px"}
-      width={"1044px"}
-      params={{
-        particles: {
-          number: {
-            value: 80,
-            density: {
-              enable: true,
-              value_area: 800
-            }
-          },
-          color: {
-            value: "#ffffff"
-          },
-          shape: {
-            type: "circle",
-            stroke: {
-              width: 0,
-              color: "#000000"
-            },
-            image: {
-              src: "img/github.svg",
-              width: 100,
-              height: 100
-            }
-          },
-          opacity: {
-            value: 0.4,
-            random: true,
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.1,
-              sync: false
-            }
-          },
-          size: {
-            value: 3,
-            random: true,
-            anim: {
-              enable: true,
-              speed: 2,
-              size_min: 0.1,
-              sync: false
-            }
-          },
-          line_linked: {
-            enable_auto: false,
-            distance: 0,
-            color: "#fff",
-            opacity: 1,
-            width: 1,
-            condensed_mode: {
-              enable: false,
-              rotateX: 600,
-              rotateY: 600
-            }
-          },
-          move: {
-            enable: true,
-            speed: 1,
-            direction: "none",
-            random: false,
-            straight: false,
-            out_mode: "out",
-            bounce: false,
-            attract: {
-              enable: false,
-              rotateX: 600,
-              rotateY: 1200
-            }
-          }
-        },
-        interactivity: {
-          detect_on: "canvas",
-          events: {
-            onhover: {
-              enable: false
-            },
-            onclick: {
-              enable: false
-            },
-            resize: true
-          }
-        },
-        retina_detect: true
-      }}
-    />
-  );
-};
-
 const GateOfFates = () => {
   const [allNodes, setAllNodes] = useState(null);
+  const [passiveSkillsList] = useState(passiveSkills);
   const [nodePairs] = useState(linkElems);
   const [nodePairsScoped, setNodePairsScoped] = useState(null);
   const [svgDom] = useState(svgData);
@@ -190,6 +96,15 @@ const GateOfFates = () => {
       "heavy_blows-r",
       "capable-r",
       "refined_technique-g"
+    ];
+
+    const baseInnerNodes = [
+      "steadfast-2-p",
+      "adept-2-p",
+      "chemically_empowered_metabolism-g",
+      "precise_strikes-g",
+      "pain_resistance_program-r",
+      "zealous_might-r"
     ];
 
     const baseMiddleNodes = [
@@ -263,6 +178,21 @@ const GateOfFates = () => {
       }
     }
 
+    if (baseInnerNodes.includes(node.id)) {
+      const parentForNode = innerToMiddle.filter(link => {
+        if (
+          link.source === node.id &&
+          (link.angle === currentAngleDiff || link.angle === inverseAngle)
+        ) {
+          return true;
+        }
+      });
+
+      if (activeNodes.includes(parentForNode[0].destination)) {
+        setActiveNodes([...activeNodes, node.id]);
+      }
+    }
+
     if (baseOuterNodes.includes(node.id)) {
       const parentForNode = middleToOuter.filter(link => {
         if (
@@ -323,11 +253,30 @@ const GateOfFates = () => {
     let left = e.clientX + "px";
     let top = e.clientY - 40 + "px";
 
+    const rawSkillName = e.currentTarget.id;
+    const skillName = rawSkillName
+      .split("-")
+      .shift()
+      .replace(/_/g, " ")
+      .split(" ")
+      .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+      .join(" ");
+    let skillData = passiveSkillsList.filter(skill => {
+      if (skillName === skill.name) {
+        return true;
+      }
+    });
+
+    if (skillData.length === 0) {
+      console.log(`Couldn't find: ${skillName}`);
+    }
+    skillData = skillData[0] || null;
+
     setTooltipOptions({
       display: "block",
       left,
       top,
-      text: e.currentTarget.id
+      text: skillData ? skillData.name : ""
     });
   };
 
@@ -385,6 +334,8 @@ const GateOfFates = () => {
      * This is so links aren't duplicated 3 times since we run this each time
      * for each group (3 times total)
      */
+
+    // Not using filteredLinks since we filter them upon loading the component
     const filteredLinks = filterElem => {
       // If there are no filter elems provided (ex: -o) then render links for inner circle
       if (filterElem === "") {

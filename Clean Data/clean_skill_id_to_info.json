@@ -1,0 +1,2542 @@
+[
+  {
+    "key": "ui_Section_Ferocity",
+    "value": "Soldier"
+  },
+  {
+    "key": "ui_FERO_1_name",
+    "value": "Heavy Blows"
+  },
+  {
+    "key": "ui_FERO_2_name",
+    "value": "Heavy Blows"
+  },
+  {
+    "key": "ui_FERO_3_name",
+    "value": "Dauntless"
+  },
+  {
+    "key": "ui_FERO_4_name",
+    "value": "Zealous Might"
+  },
+  {
+    "key": "ui_FERO_5_name",
+    "value": "Zealous Might"
+  },
+  {
+    "key": "ui_FERO_6_name",
+    "value": "Stylish Execution"
+  },
+  {
+    "key": "ui_FERO_7_name",
+    "value": "Deadly"
+  },
+  {
+    "key": "ui_FERO_8_name",
+    "value": "Supernatural Insights"
+  },
+  {
+    "key": "ui_FERO_9_name",
+    "value": "The Wild Card"
+  },
+  {
+    "key": "ui_FERO_9_desc",
+    "value": "Attacks and Spells are more likely to be Critical Hits."
+  },
+  {
+    "key": "ui_FERO_10_name",
+    "value": "Quick Draw"
+  },
+  {
+    "key": "ui_FERO_11_name",
+    "value": "Celerity"
+  },
+  {
+    "key": "ui_FERO_12_name",
+    "value": "Tenacious"
+  },
+  {
+    "key": "ui_FERO_13_name",
+    "value": "Disciplined"
+  },
+  {
+    "key": "ui_FERO_14_name",
+    "value": "The Heat of Battle"
+  },
+  {
+    "key": "ui_FERO_14_desc",
+    "value": "Taking Damage gives you more Rage."
+  },
+  {
+    "key": "ui_FERO_15_name",
+    "value": "Disciplined"
+  },
+  {
+    "key": "ui_FERO_16_name",
+    "value": "Capable"
+  },
+  {
+    "key": "ui_FERO_17_name",
+    "value": "Capable"
+  },
+  {
+    "key": "ui_FERO_18_name",
+    "value": "Pain Resistance Program"
+  },
+  {
+    "key": "ui_FERO_19_name",
+    "value": "Stalwart"
+  },
+  {
+    "key": "ui_FERO_20_name",
+    "value": "Enduring"
+  },
+  {
+    "key": "ui_FERO_21_name",
+    "value": "Chemically Empowered Skin"
+  },
+  {
+    "key": "ui_FERO_22_name",
+    "value": "Second Wind"
+  },
+  {
+    "key": "ui_FERO_22_desc",
+    "value": "When below a certain threshold of Health your Health Regeneration is triggered. This Effect has a Cooldown."
+  },
+  {
+    "key": "ui_FERO_23_name",
+    "value": "Unyielding"
+  },
+  {
+    "key": "ui_FERO_24_name",
+    "value": "Pain Resistance Program"
+  },
+  {
+    "key": "ui_Section_Warrior",
+    "value": "Warmonger"
+  },
+  {
+    "key": "ui_WARR_1_name",
+    "value": "Master of the Frontline"
+  },
+  {
+    "key": "ui_WARR_2_name",
+    "value": "Cruelty"
+  },
+  {
+    "key": "ui_WARR_3_name",
+    "value": "Primal Power"
+  },
+  {
+    "key": "ui_WARR_4_name",
+    "value": "Mystic Potential"
+  },
+  {
+    "key": "ui_WARR_5_name",
+    "value": "Gods amongst Men"
+  },
+  {
+    "key": "ui_WARR_5_desc",
+    "value": "Physical, Toxic and Rend damage is increased. You cannot inflict other Damage Types."
+  },
+  {
+    "key": "ui_WARR_6_name",
+    "value": "Marked Flesh"
+  },
+  {
+    "key": "ui_WARR_7_name",
+    "value": "Bestial Frenzy"
+  },
+  {
+    "key": "ui_WARR_7_desc",
+    "value": "Increased Damage for each Enemy within Melee Range."
+  },
+  {
+    "key": "ui_WARR_8_name",
+    "value": "Battlefield Predator"
+  },
+  {
+    "key": "ui_WARR_9_name",
+    "value": "Take All Challengers"
+  },
+  {
+    "key": "ui_WARR_10_name",
+    "value": "Blood Rush"
+  },
+  {
+    "key": "ui_WARR_11_name",
+    "value": "Unleashed Power"
+  },
+  {
+    "key": "ui_WARR_12_name",
+    "value": "Unleashed Power"
+  },
+  {
+    "key": "ui_WARR_13_name",
+    "value": "Unleashed Power"
+  },
+  {
+    "key": "ui_WARR_14_name",
+    "value": "Strike like Lightning"
+  },
+  {
+    "key": "ui_WARR_15_name",
+    "value": "Brutality"
+  },
+  {
+    "key": "ui_WARR_16_name",
+    "value": "Feast for the Crows"
+  },
+  {
+    "key": "ui_WARR_16_desc",
+    "value": "Give all forms of damage Life Leech. Life Leech heals you on the next tick of Health Regeneration."
+  },
+  {
+    "key": "ui_WARR_17_name",
+    "value": "Blood Offering"
+  },
+  {
+    "key": "ui_WARR_18_name",
+    "value": "Tearer of Flesh"
+  },
+  {
+    "key": "ui_WARR_19_name",
+    "value": "Whirlwind of Steel"
+  },
+  {
+    "key": "ui_WARR_20_name",
+    "value": "Whirlwind of Steel"
+  },
+  {
+    "key": "ui_WARR_21_name",
+    "value": "Whirlwind of Steel"
+  },
+  {
+    "key": "ui_WARR_22_name",
+    "value": "Swiftness"
+  },
+  {
+    "key": "ui_WARR_23_name",
+    "value": "Impervious"
+  },
+  {
+    "key": "ui_WARR_24_name",
+    "value": "Manic Slaughter"
+  },
+  {
+    "key": "ui_WARR_24_desc",
+    "value": "The more Rage you have, the more Damage you deal. This applies to all Damage Types."
+  },
+  {
+    "key": "ui_WARR_25_name",
+    "value": "Appetite for Bloodshed"
+  },
+  {
+    "key": "ui_WARR_26_name",
+    "value": "Unbridled Rage"
+  },
+  {
+    "key": "ui_WARR_27_name",
+    "value": "Deadly Physicality"
+  },
+  {
+    "key": "ui_WARR_28_name",
+    "value": "Cannibalistic Savagery"
+  },
+  {
+    "key": "ui_WARR_29_name",
+    "value": "Shredder"
+  },
+  {
+    "key": "ui_WARR_30_name",
+    "value": "Blood Reaper"
+  },
+  {
+    "key": "ui_WARR_30_desc",
+    "value": "A percentage of Physical Damage becomes Rend Damage."
+  },
+  {
+    "key": "ui_Section_Tank",
+    "value": "Praetorian"
+  },
+  {
+    "key": "ui_TANK_1_name",
+    "value": "Impervious Wall"
+  },
+  {
+    "key": "ui_TANK_2_name",
+    "value": "Mighty"
+  },
+  {
+    "key": "ui_TANK_3_name",
+    "value": "None Shall Pass"
+  },
+  {
+    "key": "ui_TANK_4_name",
+    "value": "Perfect Defense"
+  },
+  {
+    "key": "ui_TANK_5_name",
+    "value": "Selfless Courage"
+  },
+  {
+    "key": "ui_TANK_5_desc",
+    "value": "Blocking a Hit provides you and your Allies with an increased All Resistances Score Buff."
+  },
+  {
+    "key": "ui_TANK_6_name",
+    "value": "Immortal Blood"
+  },
+  {
+    "key": "ui_TANK_7_name",
+    "value": "Retaliator"
+  },
+  {
+    "key": "ui_TANK_7_desc",
+    "value": "Each point of Physical Resistance increases the Damage you deal with all Damage Types, but decreases your Critical Chance Score."
+  },
+  {
+    "key": "ui_TANK_8_name",
+    "value": "Rightful Vengeance"
+  },
+  {
+    "key": "ui_TANK_9_name",
+    "value": "Rightful Vengeance"
+  },
+  {
+    "key": "ui_TANK_10_name",
+    "value": "Perseverance"
+  },
+  {
+    "key": "ui_TANK_11_name",
+    "value": "Iron Skin"
+  },
+  {
+    "key": "ui_TANK_12_name",
+    "value": "Iron Skin"
+  },
+  {
+    "key": "ui_TANK_13_name",
+    "value": "Iron Skin"
+  },
+  {
+    "key": "ui_TANK_14_name",
+    "value": "Strike like Lightning"
+  },
+  {
+    "key": "ui_TANK_15_name",
+    "value": "Brutality"
+  },
+  {
+    "key": "ui_TANK_16_name",
+    "value": "Kingless Aegis"
+  },
+  {
+    "key": "ui_TANK_16_desc",
+    "value": "Benefit from Block Chance with any Weapon equipped"
+  },
+  {
+    "key": "ui_TANK_17_name",
+    "value": "Unorthodox Technique"
+  },
+  {
+    "key": "ui_TANK_18_name",
+    "value": "Regal Blessing"
+  },
+  {
+    "key": "ui_TANK_19_name",
+    "value": "Robust"
+  },
+  {
+    "key": "ui_TANK_20_name",
+    "value": "Robust"
+  },
+  {
+    "key": "ui_TANK_21_name",
+    "value": "Robust"
+  },
+  {
+    "key": "ui_TANK_22_name",
+    "value": "Weak Spot Focus"
+  },
+  {
+    "key": "ui_TANK_23_name",
+    "value": "Regenerative Body"
+  },
+  {
+    "key": "ui_TANK_24_name",
+    "value": "Sacred Oath"
+  },
+  {
+    "key": "ui_TANK_24_desc",
+    "value": "Blocking an Enemy's attack inflicts them with Weakness."
+  },
+  {
+    "key": "ui_TANK_25_name",
+    "value": "Faith of the Kingless"
+  },
+  {
+    "key": "ui_TANK_26_name",
+    "value": "Laibonite Discipline"
+  },
+  {
+    "key": "ui_TANK_27_name",
+    "value": "One Man Crusade"
+  },
+  {
+    "key": "ui_TANK_28_name",
+    "value": "Holy Gift"
+  },
+  {
+    "key": "ui_TANK_29_name",
+    "value": "Divine Alms"
+  },
+  {
+    "key": "ui_TANK_30_name",
+    "value": "Blessed Manna"
+  },
+  {
+    "key": "ui_TANK_30_desc",
+    "value": "Health Globes will now provide a temporary Buff to your Resistances as well as Healing you."
+  },
+  {
+    "key": "ui_Section_Agility",
+    "value": "Sentinel"
+  },
+  {
+    "key": "ui_AGIL_1_name",
+    "value": "Refined Technique"
+  },
+  {
+    "key": "ui_AGIL_2_name",
+    "value": "Refined Technique"
+  },
+  {
+    "key": "ui_AGIL_3_name",
+    "value": "Nimble"
+  },
+  {
+    "key": "ui_AGIL_4_name",
+    "value": "Precise Strikes"
+  },
+  {
+    "key": "ui_AGIL_5_name",
+    "value": "Precise Strikes"
+  },
+  {
+    "key": "ui_AGIL_6_name",
+    "value": "Celerity"
+  },
+  {
+    "key": "ui_AGIL_7_name",
+    "value": "Quick-Minded"
+  },
+  {
+    "key": "ui_AGIL_8_name",
+    "value": "Blitz Fighting"
+  },
+  {
+    "key": "ui_AGIL_9_name",
+    "value": "Backline Raider"
+  },
+  {
+    "key": "ui_AGIL_9_desc",
+    "value": "Your Attack and Spell Casting Speed is increased."
+  },
+  {
+    "key": "ui_AGIL_10_name",
+    "value": "Quick Draw"
+  },
+  {
+    "key": "ui_AGIL_11_name",
+    "value": "Slippery"
+  },
+  {
+    "key": "ui_AGIL_12_name",
+    "value": "Endurance Training"
+  },
+  {
+    "key": "ui_AGIL_13_name",
+    "value": "Calculated Skirmish"
+  },
+  {
+    "key": "ui_AGIL_14_name",
+    "value": "Pinch Runner"
+  },
+  {
+    "key": "ui_AGIL_14_desc",
+    "value": "Gain additional Stamina Points while at low Health. This Effect has a Cooldown."
+  },
+  {
+    "key": "ui_AGIL_15_name",
+    "value": "High Adrenaline"
+  },
+  {
+    "key": "ui_AGIL_16_name",
+    "value": "Resilient"
+  },
+  {
+    "key": "ui_AGIL_17_name",
+    "value": "Resilient"
+  },
+  {
+    "key": "ui_AGIL_18_name",
+    "value": "Chemically Empowered Metabolism"
+  },
+  {
+    "key": "ui_AGIL_19_name",
+    "value": "Enduring"
+  },
+  {
+    "key": "ui_AGIL_20_name",
+    "value": "Evasive Manoeuvers"
+  },
+  {
+    "key": "ui_AGIL_21_name",
+    "value": "Flexible"
+  },
+  {
+    "key": "ui_AGIL_22_name",
+    "value": "Covert Operative"
+  },
+  {
+    "key": "ui_AGIL_22_desc",
+    "value": "Increases your Passive Dodge Chance Score"
+  },
+  {
+    "key": "ui_AGIL_23_name",
+    "value": "Unyielding"
+  },
+  {
+    "key": "ui_AGIL_24_name",
+    "value": "Chemically Empowered Metabolism"
+  },
+  {
+    "key": "ui_Section_Melee",
+    "value": "Assassin"
+  },
+  {
+    "key": "ui_MELEE_1_name",
+    "value": "Elaborate Flurry"
+  },
+  {
+    "key": "ui_MELEE_2_name",
+    "value": "Equipment Maintenance"
+  },
+  {
+    "key": "ui_MELEE_3_name",
+    "value": "Serpentine Affinity"
+  },
+  {
+    "key": "ui_MELEE_4_name",
+    "value": "Concentrated Toxins"
+  },
+  {
+    "key": "ui_MELEE_5_name",
+    "value": "Blessing of the Jade Legion"
+  },
+  {
+    "key": "ui_MELEE_5_desc",
+    "value": "A percentage of Physical Damage is converted into Toxic Damage."
+  },
+  {
+    "key": "ui_MELEE_6_name",
+    "value": "Physical Conditioning"
+  },
+  {
+    "key": "ui_MELEE_7_name",
+    "value": "Slipping Shadow"
+  },
+  {
+    "key": "ui_MELEE_7_desc",
+    "value": "Active Dodges can go through Enemies."
+  },
+  {
+    "key": "ui_MELEE_8_name",
+    "value": "Escape Artist"
+  },
+  {
+    "key": "ui_MELEE_9_name",
+    "value": "Unstoppable Tracker"
+  },
+  {
+    "key": "ui_MELEE_10_name",
+    "value": "Body and Mind"
+  },
+  {
+    "key": "ui_MELEE_11_name",
+    "value": "Elusive"
+  },
+  {
+    "key": "ui_MELEE_14_name",
+    "value": "Strike like Lightning"
+  },
+  {
+    "key": "ui_MELEE_15_name",
+    "value": "Lithe"
+  },
+  {
+    "key": "ui_MELEE_16_name",
+    "value": "Clandestine Execution"
+  },
+  {
+    "key": "ui_MELEE_16_desc",
+    "value": "Deal increased Damage when only one Enemy is Nearby."
+  },
+  {
+    "key": "ui_MELEE_17_name",
+    "value": "A Worthy Adversary"
+  },
+  {
+    "key": "ui_MELEE_18_name",
+    "value": "Paranoia"
+  },
+  {
+    "key": "ui_MELEE_19_name",
+    "value": "Swiftness"
+  },
+  {
+    "key": "ui_MELEE_20_name",
+    "value": "Swiftness"
+  },
+  {
+    "key": "ui_MELEE_21_name",
+    "value": "Swiftness"
+  },
+  {
+    "key": "ui_MELEE_22_name",
+    "value": "Weak Spot Focus"
+  },
+  {
+    "key": "ui_MELEE_23_name",
+    "value": "Mental Fortitude"
+  },
+  {
+    "key": "ui_MELEE_24_name",
+    "value": "Phantom Strike"
+  },
+  {
+    "key": "ui_MELEE_24_desc",
+    "value": "Dash Attacks have an increased Chance to be Critical Hits."
+  },
+  {
+    "key": "ui_MELEE_25_name",
+    "value": "Hunter's Vigor"
+  },
+  {
+    "key": "ui_MELEE_26_name",
+    "value": "Killing Lunge"
+  },
+  {
+    "key": "ui_MELEE_27_name",
+    "value": "Impeccable Aim"
+  },
+  {
+    "key": "ui_MELEE_28_name",
+    "value": "Killer Instinct"
+  },
+  {
+    "key": "ui_MELEE_29_name",
+    "value": "Killer Instinct"
+  },
+  {
+    "key": "ui_MELEE_30_name",
+    "value": "Merciless Lethality"
+  },
+  {
+    "key": "ui_MELEE_30_desc",
+    "value": "Your Critical Damage is increased, but your Damage is decreased."
+  },
+  {
+    "key": "ui_Section_Distance",
+    "value": "Ranger"
+  },
+  {
+    "key": "ui_DIST_1_name",
+    "value": "Unstoppable Flurry"
+  },
+  {
+    "key": "ui_DIST_2_name",
+    "value": "Swiftness"
+  },
+  {
+    "key": "ui_DIST_3_name",
+    "value": "Deadly Aim"
+  },
+  {
+    "key": "ui_DIST_4_name",
+    "value": "Deadly Aim"
+  },
+  {
+    "key": "ui_DIST_5_name",
+    "value": "Come What May"
+  },
+  {
+    "key": "ui_DIST_5_desc",
+    "value": "Projectiles that Hit an Enemy at close range Pierce them, meaning that the Projectile can Hit other Enemies behind them."
+  },
+  {
+    "key": "ui_DIST_6_name",
+    "value": "Physical Conditioning"
+  },
+  {
+    "key": "ui_DIST_7_name",
+    "value": "Persistence Hunting"
+  },
+  {
+    "key": "ui_DIST_7_desc",
+    "value": "Enemies that have Impaired Movement (Slowed, in Stasis, Stunned or Frozen) take increased Damage."
+  },
+  {
+    "key": "ui_DIST_8_name",
+    "value": "Crippling Assault"
+  },
+  {
+    "key": "ui_DIST_9_name",
+    "value": "Overwhelming Barrage"
+  },
+  {
+    "key": "ui_DIST_10_name",
+    "value": "Body and Mind"
+  },
+  {
+    "key": "ui_DIST_11_name",
+    "value": "Elusive"
+  },
+  {
+    "key": "ui_DIST_12_name",
+    "value": "Elusive"
+  },
+  {
+    "key": "ui_DIST_13_name",
+    "value": "Elusive"
+  },
+  {
+    "key": "ui_DIST_14_name",
+    "value": "Strike like Lightning"
+  },
+  {
+    "key": "ui_DIST_15_name",
+    "value": "Lithe"
+  },
+  {
+    "key": "ui_DIST_16_name",
+    "value": "Archion's Teachings"
+  },
+  {
+    "key": "ui_DIST_16_desc",
+    "value": "Attacks and Spells that launch Projectiles now launch an additional Projectile. The Damage of each Projectile is decreased."
+  },
+  {
+    "key": "ui_DIST_17_name",
+    "value": "Bullseye"
+  },
+  {
+    "key": "ui_DIST_18_name",
+    "value": "Deadly Aim"
+  },
+  {
+    "key": "ui_DIST_19_name",
+    "value": "Shoot to Kill"
+  },
+  {
+    "key": "ui_DIST_20_name",
+    "value": "Shoot to Kill"
+  },
+  {
+    "key": "ui_DIST_21_name",
+    "value": "Shoot to Kill"
+  },
+  {
+    "key": "ui_DIST_22_name",
+    "value": "Puncturing Shot"
+  },
+  {
+    "key": "ui_DIST_23_name",
+    "value": "Mental Fortitude"
+  },
+  {
+    "key": "ui_DIST_24_name",
+    "value": "Meditative Focus"
+  },
+  {
+    "key": "ui_DIST_24_desc",
+    "value": "Deal increased Damage when Far-Away from Enemies."
+  },
+  {
+    "key": "ui_DIST_25_name",
+    "value": "Death from Afar"
+  },
+  {
+    "key": "ui_DIST_26_name",
+    "value": "Personal Space"
+  },
+  {
+    "key": "ui_DIST_27_name",
+    "value": "Swiftness"
+  },
+  {
+    "key": "ui_DIST_28_name",
+    "value": "Swift Death"
+  },
+  {
+    "key": "ui_DIST_29_name",
+    "value": "Swift Death"
+  },
+  {
+    "key": "ui_DIST_30_name",
+    "value": "Safe From Afar"
+  },
+  {
+    "key": "ui_DIST_30_desc",
+    "value": "Enemies take increased Damage from your Projectiles, the Damage scaling (up to a limit) with their distance away from where you launched the Projectile."
+  },
+  {
+    "key": "ui_Section_Willpower",
+    "value": "Scholar"
+  },
+  {
+    "key": "ui_WILL_1_name",
+    "value": "Heightened Concentration"
+  },
+  {
+    "key": "ui_WILL_2_name",
+    "value": "Heightened Concentration"
+  },
+  {
+    "key": "ui_WILL_3_name",
+    "value": "Determined"
+  },
+  {
+    "key": "ui_WILL_4_name",
+    "value": "Adept"
+  },
+  {
+    "key": "ui_WILL_5_name",
+    "value": "Adept"
+  },
+  {
+    "key": "ui_WILL_6_name",
+    "value": "Physician"
+  },
+  {
+    "key": "ui_WILL_7_name",
+    "value": "Witchcraft Consultant"
+  },
+  {
+    "key": "ui_WILL_8_name",
+    "value": "Anatomical Expert"
+  },
+  {
+    "key": "ui_WILL_9_name",
+    "value": "Attrition Strategist"
+  },
+  {
+    "key": "ui_WILL_9_desc",
+    "value": "Increases your Ailment Chance Score with all Ailments"
+  },
+  {
+    "key": "ui_WILL_10_name",
+    "value": "Quick Draw"
+  },
+  {
+    "key": "ui_WILL_11_name",
+    "value": "Emotional Intelligence"
+  },
+  {
+    "key": "ui_WILL_12_name",
+    "value": "Increased Awareness"
+  },
+  {
+    "key": "ui_WILL_13_name",
+    "value": "Unwavering Dedication"
+  },
+  {
+    "key": "ui_WILL_14_name",
+    "value": "Thirst for Knowledge"
+  },
+  {
+    "key": "ui_WILL_14_desc",
+    "value": "Health Globes now restore your Force Shield as well as your Health."
+  },
+  {
+    "key": "ui_WILL_15_name",
+    "value": "Unwavering Dedication"
+  },
+  {
+    "key": "ui_WILL_16_name",
+    "value": "Hardy"
+  },
+  {
+    "key": "ui_WILL_17_name",
+    "value": "Hardy"
+  },
+  {
+    "key": "ui_WILL_18_name",
+    "value": "Steadfast"
+  },
+  {
+    "key": "ui_WILL_19_name",
+    "value": "Chemically Empowered Brain"
+  },
+  {
+    "key": "ui_WILL_20_name",
+    "value": "Heroic Resolve"
+  },
+  {
+    "key": "ui_WILL_21_name",
+    "value": "Propaganda Fueled Zeal"
+  },
+  {
+    "key": "ui_WILL_22_name",
+    "value": "Purifier's Will"
+  },
+  {
+    "key": "ui_WILL_22_desc",
+    "value": "When your Force Shield is full, you receive decreased Damage."
+  },
+  {
+    "key": "ui_WILL_23_name",
+    "value": "Unyielding"
+  },
+  {
+    "key": "ui_WILL_24_name",
+    "value": "Steadfast"
+  },
+  {
+    "key": "ui_Section_Elementalist",
+    "value": "Cabalist"
+  },
+  {
+    "key": "ui_ELEM_1_name",
+    "value": "Clarity of Mind"
+  },
+  {
+    "key": "ui_ELEM_2_name",
+    "value": "Tormentor"
+  },
+  {
+    "key": "ui_ELEM_3_name",
+    "value": "Master of Curses"
+  },
+  {
+    "key": "ui_ELEM_4_name",
+    "value": "Master of Curses"
+  },
+  {
+    "key": "ui_ELEM_5_name",
+    "value": "Insidious Decay"
+  },
+  {
+    "key": "ui_ELEM_5_desc",
+    "value": "When inflicting Ailments, the number of Stacks inflicted on an Enemy is increased. The Damage you deal from sources other than those that deal damage-over-time is decreased."
+  },
+  {
+    "key": "ui_ELEM_6_name",
+    "value": "Ancient Trinket"
+  },
+  {
+    "key": "ui_ELEM_7_name",
+    "value": "Primordial Insights"
+  },
+  {
+    "key": "ui_ELEM_7_desc",
+    "value": "Ailment Stacks inflicted with Critical Hits can deal Critical Damage."
+  },
+  {
+    "key": "ui_ELEM_8_name",
+    "value": "Ancient Knowledge"
+  },
+  {
+    "key": "ui_ELEM_9_name",
+    "value": "Otherworldly Techniques"
+  },
+  {
+    "key": "ui_ELEM_10_name",
+    "value": "Protective Aura"
+  },
+  {
+    "key": "ui_ELEM_11_name",
+    "value": "Sharp Insight"
+  },
+  {
+    "key": "ui_ELEM_12_name",
+    "value": "Sharp Insight"
+  },
+  {
+    "key": "ui_ELEM_13_name",
+    "value": "Sharp Insight"
+  },
+  {
+    "key": "ui_ELEM_14_name",
+    "value": "Strike like Lightning"
+  },
+  {
+    "key": "ui_ELEM_15_name",
+    "value": "Focused"
+  },
+  {
+    "key": "ui_ELEM_16_name",
+    "value": "Grievous Afflictions"
+  },
+  {
+    "key": "ui_ELEM_16_desc",
+    "value": "Hits can usually only apply one ailment type. Now 2 different ailments can be applied with the same hit."
+  },
+  {
+    "key": "ui_ELEM_17_name",
+    "value": "Crippling Decrepitude"
+  },
+  {
+    "key": "ui_ELEM_18_name",
+    "value": "Tormentor"
+  },
+  {
+    "key": "ui_ELEM_19_name",
+    "value": "Crippling Decrepitude"
+  },
+  {
+    "key": "ui_ELEM_20_name",
+    "value": "Lethal Certainty"
+  },
+  {
+    "key": "ui_ELEM_21_name",
+    "value": "Incessant Infirmity"
+  },
+  {
+    "key": "ui_ELEM_22_name",
+    "value": "Tenacious Afflictions"
+  },
+  {
+    "key": "ui_ELEM_23_name",
+    "value": "Strong-Willed"
+  },
+  {
+    "key": "ui_ELEM_24_name",
+    "value": "Power of the First Men"
+  },
+  {
+    "key": "ui_ELEM_24_desc",
+    "value": "When inflicting an Ailment, there is a Chance to double the number of Ailment Stacks inflicted."
+  },
+  {
+    "key": "ui_ELEM_25_name",
+    "value": "Artefact Analysis"
+  },
+  {
+    "key": "ui_ELEM_26_name",
+    "value": "Enneract Expert"
+  },
+  {
+    "key": "ui_ELEM_27_name",
+    "value": "Enfeebling Energy"
+  },
+  {
+    "key": "ui_ELEM_28_name",
+    "value": "Magical Mastery"
+  },
+  {
+    "key": "ui_ELEM_29_name",
+    "value": "Magical Mastery"
+  },
+  {
+    "key": "ui_ELEM_30_name",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_ELEM_30_desc",
+    "value": "Killing an enemy that is afflicted with Ailments gives you a temporary Damage increase Buff."
+  },
+  {
+    "key": "ui_Section_Master",
+    "value": "Warlock"
+  },
+  {
+    "key": "ui_MAST_1_name",
+    "value": "Dominator"
+  },
+  {
+    "key": "ui_MAST_2_name",
+    "value": "Spellslinger"
+  },
+  {
+    "key": "ui_MAST_3_name",
+    "value": "Elemental Manipulation"
+  },
+  {
+    "key": "ui_MAST_4_name",
+    "value": "Witchcraft Adept"
+  },
+  {
+    "key": "ui_MAST_5_name",
+    "value": "Residual Energy"
+  },
+  {
+    "key": "ui_MAST_5_desc",
+    "value": "Casting a Spell increases the Damage of your Attacks for a short period of time. The Damage Type of those Attacks is the same as the last Spell Cast."
+  },
+  {
+    "key": "ui_MAST_6_name",
+    "value": "Hyper Self-Awareness"
+  },
+  {
+    "key": "ui_MAST_7_name",
+    "value": "Duty to Exterminate"
+  },
+  {
+    "key": "ui_MAST_7_desc",
+    "value": "Increases Maximum Rage and Willpower."
+  },
+  {
+    "key": "ui_MAST_8_name",
+    "value": "Twisted Obligation"
+  },
+  {
+    "key": "ui_MAST_9_name",
+    "value": "Twisted Obligation"
+  },
+  {
+    "key": "ui_MAST_10_name",
+    "value": "Self-Preservation Instinct"
+  },
+  {
+    "key": "ui_MAST_11_name",
+    "value": "Sharp Insight"
+  },
+  {
+    "key": "ui_MAST_12_name",
+    "value": "Sharp Insight"
+  },
+  {
+    "key": "ui_MAST_13_name",
+    "value": "Sharp Insight"
+  },
+  {
+    "key": "ui_MAST_14_name",
+    "value": "Strike like Lightning"
+  },
+  {
+    "key": "ui_MAST_15_name",
+    "value": "Focused"
+  },
+  {
+    "key": "ui_MAST_16_name",
+    "value": "Reining In the Darkness"
+  },
+  {
+    "key": "ui_MAST_16_desc",
+    "value": "Your Spell Critical Chance Score is increased when your Willpower is above a certain threshold."
+  },
+  {
+    "key": "ui_MAST_17_name",
+    "value": "Dark Calling"
+  },
+  {
+    "key": "ui_MAST_18_name",
+    "value": "Self-Restraint"
+  },
+  {
+    "key": "ui_MAST_19_name",
+    "value": "Magical Mastery"
+  },
+  {
+    "key": "ui_MAST_20_name",
+    "value": "Magical Mastery"
+  },
+  {
+    "key": "ui_MAST_21_name",
+    "value": "Magical Mastery"
+  },
+  {
+    "key": "ui_MAST_22_name",
+    "value": "Self-Restraint"
+  },
+  {
+    "key": "ui_MAST_23_name",
+    "value": "Impatient"
+  },
+  {
+    "key": "ui_MAST_24_name",
+    "value": "Resilience to Corruption"
+  },
+  {
+    "key": "ui_MAST_24_desc",
+    "value": "When you are afflicted with damage over time, ailment damage affects your Force Shield before your Health."
+  },
+  {
+    "key": "ui_MAST_25_name",
+    "value": "Ancient Trinket"
+  },
+  {
+    "key": "ui_MAST_26_name",
+    "value": "Strong-Willed"
+  },
+  {
+    "key": "ui_MAST_27_name",
+    "value": "Unholy Dominion"
+  },
+  {
+    "key": "ui_MAST_28_name",
+    "value": "Ravenous Magic"
+  },
+  {
+    "key": "ui_MAST_29_name",
+    "value": "Ravenous Magic"
+  },
+  {
+    "key": "ui_MAST_30_name",
+    "value": "Faith Leech"
+  },
+  {
+    "key": "ui_MAST_30_desc",
+    "value": "Dealing Damage will now allow you to recharge Force Shield instead of restoring Health with Life Leech."
+  },
+  {
+    "key": "ui_Section_TimeMaster",
+    "value": "Time Weaver"
+  },
+  {
+    "key": "ui_TIME_1_name",
+    "value": "Waning Before Waxing"
+  },
+  {
+    "key": "ui_TIME_2_name",
+    "value": "Wither In Dreams"
+  },
+  {
+    "key": "ui_TIME_3_name",
+    "value": "Wither In Dreams"
+  },
+  {
+    "key": "ui_TIME_4_name",
+    "value": "Temporal Shift"
+  },
+  {
+    "key": "ui_TIME_5_name",
+    "value": "Wither In Dreams"
+  },
+  {
+    "key": "ui_TIME_6_name",
+    "value": "Impossible Soul"
+  },
+  {
+    "key": "ui_TIME_7_name",
+    "value": "Youth In Future Tense"
+  },
+  {
+    "key": "ui_TIME_8_name",
+    "value": "Which Time Cannot Heal"
+  },
+  {
+    "key": "ui_TIME_8_gameplaydesc",
+    "value": "When you Damage an Enemy that is afflicted with Stasis, they will take the Damage again after a few seconds."
+  },
+  {
+    "key": "ui_TIME_9_name",
+    "value": "Deferential Wounds"
+  },
+  {
+    "key": "ui_TIME_10_name",
+    "value": "Obsolescence"
+  },
+  {
+    "key": "ui_TIME_11_name",
+    "value": "Obsolescence"
+  },
+  {
+    "key": "ui_TIME_12_name",
+    "value": "Temporal Shift"
+  },
+  {
+    "key": "ui_TIME_13_name",
+    "value": "Countdown"
+  },
+  {
+    "key": "ui_TIME_14_name",
+    "value": "Slow In Slow Out"
+  },
+  {
+    "key": "ui_TIME_15_name",
+    "value": "Impossible Soul"
+  },
+  {
+    "key": "ui_TIME_16_name",
+    "value": "Youth In Future Tense"
+  },
+  {
+    "key": "ui_TIME_17_name",
+    "value": "Captured Velocity"
+  },
+  {
+    "key": "ui_TIME_17_gameplaydesc",
+    "value": "If you inflict Stasis on an enemy with an Attack, you gain a \"Supernatural Paradox\" point. Each point of \"Supernatural Paradox\" increases your Spell Casting Speed Score.\\n\\nIf you inflict Stasis on an enemy with a Spell, you gain an \"Earthly Paradox\" point. Each point of \"Earthly Paradox\" increases your Attack Speed Score."
+  },
+  {
+    "key": "ui_TIME_18_name",
+    "value": "Spared Stock"
+  },
+  {
+    "key": "ui_TIME_19_name",
+    "value": "Dire Juncture"
+  },
+  {
+    "key": "ui_TIME_19_gameplaydesc",
+    "value": "A portion of the Damage you receive is delayed, and this delayed Damage does not interrupt Force Shield Regeneration.\\n\\nYour Maximum Health and Force Shield is decreased."
+  },
+  {
+    "key": "ui_TIME_20_name",
+    "value": "Practiced Stamina"
+  },
+  {
+    "key": "ui_Section_Spellblade",
+    "value": "Abyssal Shaper"
+  },
+  {
+    "key": "ui_SPBD_1_name",
+    "value": "Guttural Dowry"
+  },
+  {
+    "key": "ui_SPBD_2_name",
+    "value": "Unholy Omen"
+  },
+  {
+    "key": "ui_SPBD_3_name",
+    "value": "Unholy Omen"
+  },
+  {
+    "key": "ui_SPBD_4_name",
+    "value": "Tranquil in Misery"
+  },
+  {
+    "key": "ui_SPBD_5_name",
+    "value": "Agonizing Ray"
+  },
+  {
+    "key": "ui_SPBD_6_name",
+    "value": "Insinuated Bond"
+  },
+  {
+    "key": "ui_SPBD_7_name",
+    "value": "Soothing Shade"
+  },
+  {
+    "key": "ui_SPBD_8_name",
+    "value": "Occult Affliction"
+  },
+  {
+    "key": "ui_SPBD_8_gameplaydesc",
+    "value": "The Occult damage that an Enemy receives from your Attacks is increased with each Curse stack they are afflicted with."
+  },
+  {
+    "key": "ui_SPBD_9_name",
+    "value": "Oath of Damnation"
+  },
+  {
+    "key": "ui_SPBD_10_name",
+    "value": "His Whispered Lullabies"
+  },
+  {
+    "key": "ui_SPBD_11_name",
+    "value": "His Whispered Lullabies"
+  },
+  {
+    "key": "ui_SPBD_12_name",
+    "value": "Tranquil in Misery"
+  },
+  {
+    "key": "ui_SPBD_13_name",
+    "value": "Pact Master's Song"
+  },
+  {
+    "key": "ui_SPBD_14_name",
+    "value": "Soundproof Box"
+  },
+  {
+    "key": "ui_SPBD_15_name",
+    "value": "Insinuated Bond"
+  },
+  {
+    "key": "ui_SPBD_16_name",
+    "value": "Soothing Shade"
+  },
+  {
+    "key": "ui_SPBD_17_name",
+    "value": "Fatal Pact"
+  },
+  {
+    "key": "ui_SPBD_17_gameplaydesc",
+    "value": "Every Ailment that Stacks which you inflict is also inflicted on you. Each time you reach 10 Stacks of one Ailment Type, that Ailment Type is removed completely, giving you and your Allies a Buff for a short time depending on which Ailment type is removed.\\n\\nIf Stasis Stacks were removed, Movement Speed is increased.\\n\\nIf Curse Stacks were removed, All Resistances Score is increased.\\n\\nIf Weakness Stacks were removed, Damage is increased.\\n\\nIf any other stacks were removed, Health and Force Shield are regenerated."
+  },
+  {
+    "key": "ui_SPBD_18_name",
+    "value": "Wounded Shield"
+  },
+  {
+    "key": "ui_SPBD_19_name",
+    "value": "Masochistic Effigy"
+  },
+  {
+    "key": "ui_SPBD_19_gameplaydesc",
+    "value": "Maximum Force Shield is doubled.\\n\\nYour Health cannot exceed 5% of your Maximum Force Shield."
+  },
+  {
+    "key": "ui_SPBD_20_name",
+    "value": "Ailing Cry"
+  },
+  {
+    "key": "ui_Section_Sniper",
+    "value": "White Arrow"
+  },
+  {
+    "key": "ui_SNIP_1_name",
+    "value": "Implacable Tracker"
+  },
+  {
+    "key": "ui_SNIP_2_name",
+    "value": "Frostbite"
+  },
+  {
+    "key": "ui_SNIP_3_name",
+    "value": "Frostbite"
+  },
+  {
+    "key": "ui_SNIP_4_name",
+    "value": "Call of the Wild"
+  },
+  {
+    "key": "ui_SNIP_5_name",
+    "value": "Dream of Hearths"
+  },
+  {
+    "key": "ui_SNIP_6_name",
+    "value": "Ice Shall Wake"
+  },
+  {
+    "key": "ui_SNIP_7_name",
+    "value": "Hunter Hunted"
+  },
+  {
+    "key": "ui_SNIP_8_name",
+    "value": "Hungry Stalactite"
+  },
+  {
+    "key": "ui_SNIP_8_gameplaydesc",
+    "value": "Damage is increased based on how much Pierce is remaining on a Projectile after it has Hit an Enemy."
+  },
+  {
+    "key": "ui_SNIP_9_name",
+    "value": "Cruel Sting"
+  },
+  {
+    "key": "ui_SNIP_10_name",
+    "value": "Pelting Shards"
+  },
+  {
+    "key": "ui_SNIP_11_name",
+    "value": "Pelting Shards"
+  },
+  {
+    "key": "ui_SNIP_12_name",
+    "value": "Call of the Wild"
+  },
+  {
+    "key": "ui_SNIP_13_name",
+    "value": "Traversing Arrowhead"
+  },
+  {
+    "key": "ui_SNIP_14_name",
+    "value": "Primeval Awareness"
+  },
+  {
+    "key": "ui_SNIP_15_name",
+    "value": "Ice Shall Wake"
+  },
+  {
+    "key": "ui_SNIP_16_name",
+    "value": "Hunter Hunted"
+  },
+  {
+    "key": "ui_SNIP_17_name",
+    "value": "Wintry Hail"
+  },
+  {
+    "key": "ui_SNIP_17_gameplaydesc",
+    "value": "When a Projectile Hits an Enemy, it will bounce off them and hit another enemy, dealing increased Frost Damage. Projectiles will not bounce if they have Pierce remaining."
+  },
+  {
+    "key": "ui_SNIP_18_name",
+    "value": "Steadied Force"
+  },
+  {
+    "key": "ui_SNIP_19_name",
+    "value": "Acute Tracking"
+  },
+  {
+    "key": "ui_SNIP_19_gameplaydesc",
+    "value": "Every second that you are in combat you receive \"Cold Blooded\" points that increase your Damage. If you are Hit the \"Cold Blooded\" points are removed."
+  },
+  {
+    "key": "ui_SNIP_20_name",
+    "value": "Studied Pursuer"
+  },
+  {
+    "key": "ui_Section_Siegebreaker",
+    "value": "Siegebreaker"
+  },
+  {
+    "key": "ui_SIEGE_1_name",
+    "value": "Inexorable Vitality"
+  },
+  {
+    "key": "ui_SIEGE_2_name",
+    "value": "Chromatic Idol"
+  },
+  {
+    "key": "ui_SIEGE_3_name",
+    "value": "Obsidian Idol"
+  },
+  {
+    "key": "ui_SIEGE_4_name",
+    "value": "Futile Endeavour"
+  },
+  {
+    "key": "ui_SIEGE_5_name",
+    "value": "Monolith"
+  },
+  {
+    "key": "ui_SIEGE_6_name",
+    "value": "Landslide"
+  },
+  {
+    "key": "ui_SIEGE_7_name",
+    "value": "Liberty Arisen"
+  },
+  {
+    "key": "ui_SIEGE_8_name",
+    "value": "Salvatory Anchor"
+  },
+  {
+    "key": "ui_SIEGE_8_gameplaydesc",
+    "value": "You will receive a Buff depending on which archetype your equipped Chest-piece belongs to.\\n\\nIf you have a Bruiser Chest-piece, you receive Health Regeneration for each Health point on the Armor.\\n\\nIf you have a Heavy Chest-piece, its All Resistances Score is doubled.\\n\\nIf you have a Rogue Chest-piece, you regenerate Health and Force Shield each time you complete a Passive Dodge. The amount that you regenerate is determined by the Health points given by the Armor.\\n\\nIf you have a Sorcerer Chest-piece you regenerate Force Shield based on the amount of Force Shield on the Armor."
+  },
+  {
+    "key": "ui_SIEGE_9_name",
+    "value": "Elevated Gain"
+  },
+  {
+    "key": "ui_SIEGE_10_name",
+    "value": "Brutal Imposition"
+  },
+  {
+    "key": "ui_SIEGE_11_name",
+    "value": "Brutal Imposition"
+  },
+  {
+    "key": "ui_SIEGE_12_name",
+    "value": "Futile Endeavour"
+  },
+  {
+    "key": "ui_SIEGE_13_name",
+    "value": "Bane of Tyranny"
+  },
+  {
+    "key": "ui_SIEGE_14_name",
+    "value": "Unsunken"
+  },
+  {
+    "key": "ui_SIEGE_15_name",
+    "value": "Landslide"
+  },
+  {
+    "key": "ui_SIEGE_16_name",
+    "value": "Liberty Arisen"
+  },
+  {
+    "key": "ui_SIEGE_17_name",
+    "value": "Belligerent Banner"
+  },
+  {
+    "key": "ui_SIEGE_17_gameplaydesc",
+    "value": "Every few seconds you gain a \"Fortress\" point up to a Maximum. Each \"Fortress\" point increases your Block Chance. \"Fortress\" points are removed when a Block is completed."
+  },
+  {
+    "key": "ui_SIEGE_18_name",
+    "value": "Proud Helm"
+  },
+  {
+    "key": "ui_SIEGE_19_name",
+    "value": "Disallowing Vessel"
+  },
+  {
+    "key": "ui_SIEGE_19_gameplaydesc",
+    "value": "While stationary you gain an \"Inexorable\" point every few seconds. Each point of \"Inexorable\" decreases your Movement Speed and increases your Damage. Moving will cause an \"Inexorable\" point to be removed after a few seconds."
+  },
+  {
+    "key": "ui_SIEGE_20_name",
+    "value": "Secure Parry"
+  },
+  {
+    "key": "ui_Section_Shadow",
+    "value": "Duskglaive"
+  },
+  {
+    "key": "ui_SHDW_1_name",
+    "value": "Blindfolded Leaps"
+  },
+  {
+    "key": "ui_SHDW_2_name",
+    "value": "Veiled Bound"
+  },
+  {
+    "key": "ui_SHDW_3_name",
+    "value": "Veiled Bound"
+  },
+  {
+    "key": "ui_SHDW_4_name",
+    "value": "Balanchine Endurance"
+  },
+  {
+    "key": "ui_SHDW_5_name",
+    "value": "Saturnalia"
+  },
+  {
+    "key": "ui_SHDW_6_name",
+    "value": "Showstopper"
+  },
+  {
+    "key": "ui_SHDW_7_name",
+    "value": "Bodies Made Fleeting"
+  },
+  {
+    "key": "ui_SHDW_8_name",
+    "value": "Tethered Shade"
+  },
+  {
+    "key": "ui_SHDW_8_gameplaydesc",
+    "value": "Whenever you Active Dodge, enemies in your path receive Damage and a Decoy is left at the starting position of the Active Dodge."
+  },
+  {
+    "key": "ui_SHDW_9_name",
+    "value": "Scabrous Balance"
+  },
+  {
+    "key": "ui_SHDW_10_name",
+    "value": "Cutting Adagio"
+  },
+  {
+    "key": "ui_SHDW_11_name",
+    "value": "Cutting Adagio"
+  },
+  {
+    "key": "ui_SHDW_12_name",
+    "value": "Balanchine Endurance"
+  },
+  {
+    "key": "ui_SHDW_13_name",
+    "value": "All The World's A Stage"
+  },
+  {
+    "key": "ui_SHDW_14_name",
+    "value": "Gleam On The Breeze"
+  },
+  {
+    "key": "ui_SHDW_15_name",
+    "value": "Showstopper"
+  },
+  {
+    "key": "ui_SHDW_16_name",
+    "value": "Bodies Made Fleeting"
+  },
+  {
+    "key": "ui_SHDW_17_name",
+    "value": "Life's First Movement"
+  },
+  {
+    "key": "ui_SHDW_17_gameplaydesc",
+    "value": "You have 5 \"Lure of Darkness\" points and 5 \"Lure of Light\" points. When using a Spell you gain 1 \"Lure of Darkness\" point and lose 1 \"Lure of Light\" point. When using an Attack you gain 1 \"Lure of Light\" point and lose 1 \"Lure of Darkness\" point. When both points are weighted 6/4, they are considered to be in Equilibrium. While in this state, you will receive the following Buffs:\\n\\nA percentage of your Attack Damage is added to your Spell Damage.\\n\\nA percentage of your Spell Damage is added to your Attack Damage."
+  },
+  {
+    "key": "ui_SHDW_18_name",
+    "value": "Limited Breath"
+  },
+  {
+    "key": "ui_SHDW_19_name",
+    "value": "Waltzing Smoke"
+  },
+  {
+    "key": "ui_SHDW_19_gameplaydesc",
+    "value": "Whenever you complete an Active Dodge, you become Invisible and your next Attack deals increased Shadow damage."
+  },
+  {
+    "key": "ui_SHDW_20_name",
+    "value": "Protracted Effort"
+  },
+  {
+    "key": "ui_Section_Repurgator",
+    "value": "Exorcist"
+  },
+  {
+    "key": "ui_REPU_1_name",
+    "value": "Aloof Hunter"
+  },
+  {
+    "key": "ui_REPU_2_name",
+    "value": "Earthly Ballast"
+  },
+  {
+    "key": "ui_REPU_3_name",
+    "value": "Earthly Ballast"
+  },
+  {
+    "key": "ui_REPU_4_name",
+    "value": "Profane Of Body"
+  },
+  {
+    "key": "ui_REPU_5_name",
+    "value": "Arcane Dissolution"
+  },
+  {
+    "key": "ui_REPU_6_name",
+    "value": "Caster's Woe"
+  },
+  {
+    "key": "ui_REPU_7_name",
+    "value": "The Weight And The Force"
+  },
+  {
+    "key": "ui_REPU_8_name",
+    "value": "Branded Burst"
+  },
+  {
+    "key": "ui_REPU_8_gameplaydesc",
+    "value": "After a few seconds of not being Hit, you gain a \"Tenet\" point. When you are Hit you ignore a percentage of the Damage and lose a \"Tenet\" point. The amount of Damage not dealt is increased with each point you have."
+  },
+  {
+    "key": "ui_REPU_9_name",
+    "value": "Indifference"
+  },
+  {
+    "key": "ui_REPU_10_name",
+    "value": "Nullifying Point"
+  },
+  {
+    "key": "ui_REPU_11_name",
+    "value": "Nullifying Point"
+  },
+  {
+    "key": "ui_REPU_12_name",
+    "value": "Profane Of Body"
+  },
+  {
+    "key": "ui_REPU_13_name",
+    "value": "Sin Eater"
+  },
+  {
+    "key": "ui_REPU_14_name",
+    "value": "Elusive Code"
+  },
+  {
+    "key": "ui_REPU_15_name",
+    "value": "Caster's Woe"
+  },
+  {
+    "key": "ui_REPU_16_name",
+    "value": "The Weight And The Force"
+  },
+  {
+    "key": "ui_REPU_17_name",
+    "value": "Blessed Silver"
+  },
+  {
+    "key": "ui_REPU_17_gameplaydesc",
+    "value": "You have 5 \"Annointed Ammunition\" points that replenish every few seconds. \"Annointed Ammunition\" also replenishes  when you complete an Active Dodge.\\n\\nFor every \"Annointed Ammunition\" point you have, your Projectile Damage is increased.\\n\\nFor every \"Annointed Ammunition\" point you have missing, your Melee Damage is increased."
+  },
+  {
+    "key": "ui_REPU_18_name",
+    "value": "Eagerness"
+  },
+  {
+    "key": "ui_REPU_19_name",
+    "value": "Academic Fieldwork"
+  },
+  {
+    "key": "ui_REPU_19_gameplaydesc",
+    "value": "Every time you kill a Champion enemy, you gain 1 \"Headhunter\" point up to a Maximum. Each \"Headhunter\" point increases your Material Damage for a few seconds. Your \"Headhunter\" points will be reset if you do not aquire a new point within a given timeframe."
+  },
+  {
+    "key": "ui_REPU_20_name",
+    "value": "Perilous Load"
+  },
+  {
+    "key": "ui_Section_Paladin",
+    "value": "Eos"
+  },
+  {
+    "key": "ui_PALA_1_name",
+    "value": "Light For The Blind"
+  },
+  {
+    "key": "ui_PALA_2_name",
+    "value": "Lady's Hand"
+  },
+  {
+    "key": "ui_PALA_3_name",
+    "value": "Lady's Hand"
+  },
+  {
+    "key": "ui_PALA_4_name",
+    "value": "Final Sacrament"
+  },
+  {
+    "key": "ui_PALA_5_name",
+    "value": "Purge"
+  },
+  {
+    "key": "ui_PALA_6_name",
+    "value": "Holy Song"
+  },
+  {
+    "key": "ui_PALA_7_name",
+    "value": "Healing Hands"
+  },
+  {
+    "key": "ui_PALA_8_name",
+    "value": "Dawn's Pious Striker"
+  },
+  {
+    "key": "ui_PALA_8_gameplaydesc",
+    "value": "Enemies are killed instantly if Hit while their Health is below a certain threshold. This only works on Underling and Specialist enemies."
+  },
+  {
+    "key": "ui_PALA_9_name",
+    "value": "Sudden Death"
+  },
+  {
+    "key": "ui_PALA_10_name",
+    "value": "Luminous Ritual"
+  },
+  {
+    "key": "ui_PALA_11_name",
+    "value": "Luminous Ritual"
+  },
+  {
+    "key": "ui_PALA_12_name",
+    "value": "Anointment"
+  },
+  {
+    "key": "ui_PALA_13_name",
+    "value": "Purge"
+  },
+  {
+    "key": "ui_PALA_14_name",
+    "value": "Armed Sermon"
+  },
+  {
+    "key": "ui_PALA_15_name",
+    "value": "Touch Of Divinity"
+  },
+  {
+    "key": "ui_PALA_16_name",
+    "value": "Instructed Cure"
+  },
+  {
+    "key": "ui_PALA_17_name",
+    "value": "Unflagging Prayer"
+  },
+  {
+    "key": "ui_PALA_17_gameplaydesc",
+    "value": "When your Health is below a certain threshold, you make a \"Prayer\", giving a Buff to the All Resistances Score of your Allies for a few seconds and reviving Downed Allies. This Effect has a large cooldown."
+  },
+  {
+    "key": "ui_PALA_18_name",
+    "value": "Famed Return"
+  },
+  {
+    "key": "ui_PALA_19_name",
+    "value": "Beacon For the Lost"
+  },
+  {
+    "key": "ui_PALA_19_gameplaydesc",
+    "value": "When your Force Shield is above a certain percentage, your Spells that deal Sacred Damage deal increased Damage.\\n\\nWhen your Force Shield is below a certain threshold, your Attacks that deal Sacred Damage deal increased Damage.\\n\\nThis ability only works if your Force Shield is above 0."
+  },
+  {
+    "key": "ui_PALA_20_name",
+    "value": "Hallowed Insight"
+  },
+  {
+    "key": "ui_Section_Oracle",
+    "value": "Oracle of the Trinity"
+  },
+  {
+    "key": "ui_ORAC_1_name",
+    "value": "Of Squalls And Fires"
+  },
+  {
+    "key": "ui_ORAC_2_name",
+    "value": "Spiralling Field"
+  },
+  {
+    "key": "ui_ORAC_3_name",
+    "value": "Sparked Repulsion"
+  },
+  {
+    "key": "ui_ORAC_4_name",
+    "value": "Weathered Pavis"
+  },
+  {
+    "key": "ui_ORAC_5_name",
+    "value": "Crystallization"
+  },
+  {
+    "key": "ui_ORAC_6_name",
+    "value": "Faith Diversion"
+  },
+  {
+    "key": "ui_ORAC_7_name",
+    "value": "Immolation"
+  },
+  {
+    "key": "ui_ORAC_8_name",
+    "value": "Ancient Fervour"
+  },
+  {
+    "key": "ui_ORAC_8_gameplaydesc",
+    "value": "Using Skills that deal Elemental Damage you their corresponding \"Accord\". Each Accord has different Effects depending on its Elemental Damage Type.\\n\\n\"Beelmalik's Accord\" increases your Critical Chance Score for a few seconds.\\n\\n\"Abanazaar's Accord\" increases your Damage for a few seconds.\\n\\n\"Etheliel's Accord\" increases your Ailment Chance Score for a few seconds."
+  },
+  {
+    "key": "ui_ORAC_9_name",
+    "value": "Dual Allegiance"
+  },
+  {
+    "key": "ui_ORAC_9_desc",
+    "value": "Allows you to have two \"Accords\" active at any time."
+  },
+  {
+    "key": "ui_ORAC_10_name",
+    "value": "Audacity In Descent"
+  },
+  {
+    "key": "ui_ORAC_11_name",
+    "value": "Audacity In Descent"
+  },
+  {
+    "key": "ui_ORAC_12_name",
+    "value": "Weathered Pavis"
+  },
+  {
+    "key": "ui_ORAC_13_name",
+    "value": "Matter In Dissolution"
+  },
+  {
+    "key": "ui_ORAC_14_name",
+    "value": "Tempestuous Shelter"
+  },
+  {
+    "key": "ui_ORAC_15_name",
+    "value": "Faith Diversion"
+  },
+  {
+    "key": "ui_ORAC_16_name",
+    "value": "Spiralling Field"
+  },
+  {
+    "key": "ui_ORAC_17_name",
+    "value": "Elementary Destabilization"
+  },
+  {
+    "key": "ui_ORAC_17_gameplaydesc",
+    "value": "Whenever your Willpower is below a certain percentage, each time you use a Skill there is a Chance that you will cause an explosion. You and Enemies take a percentage of your maximum Health OR Force Shield (whichever is highest) as Damage, and a percentage of your Willpower is regenerated.\\n\\nThe Damage type of the Damage dealt is selected randomly between Lightning, Fire, and Frost."
+  },
+  {
+    "key": "ui_ORAC_18_name",
+    "value": "Unstable Climate"
+  },
+  {
+    "key": "ui_ORAC_19_name",
+    "value": "Omnitempest"
+  },
+  {
+    "key": "ui_ORAC_19_gameplaydesc",
+    "value": "Certain Skills that deal Elemental Damage Types have a chance to launch other Spells when Cast.\\n\\nLightning Skills can launch a Chain Lightning Spell.\\n\\nFire skills can launch a Meteor Spell.\\n\\nFrost skills can launch a Frost Lance Spell."
+  },
+  {
+    "key": "ui_ORAC_20_name",
+    "value": "Precarious Flesh"
+  },
+  {
+    "key": "ui_Section_Necromancer",
+    "value": "Plaguebringer"
+  },
+  {
+    "key": "ui_NECRO_1_name",
+    "value": "Bog Bodies"
+  },
+  {
+    "key": "ui_NECRO_2_name",
+    "value": "Sloughing Skins Of Swarms"
+  },
+  {
+    "key": "ui_NECRO_3_name",
+    "value": "Sloughing Skins Of Swarms"
+  },
+  {
+    "key": "ui_NECRO_4_name",
+    "value": "Remedy For Hale Health"
+  },
+  {
+    "key": "ui_NECRO_5_name",
+    "value": "Covenant Of Rot"
+  },
+  {
+    "key": "ui_NECRO_6_name",
+    "value": "Unquiet Soil"
+  },
+  {
+    "key": "ui_NECRO_7_name",
+    "value": "Heads Hang Low"
+  },
+  {
+    "key": "ui_NECRO_8_name",
+    "value": "Undertaker"
+  },
+  {
+    "key": "ui_NECRO_8_gameplaydesc",
+    "value": "Enemies that die near you have a chance to drop a Green Globe. If picked up, the Globe will increase your Toxic damage for a short duration. This Buff Stacks with each Globe picked up."
+  },
+  {
+    "key": "ui_NECRO_9_name",
+    "value": "Horde's Vitality"
+  },
+  {
+    "key": "ui_NECRO_9_desc",
+    "value": "Summons that die near you also drop a green globe."
+  },
+  {
+    "key": "ui_NECRO_10_name",
+    "value": "Muscle Stripped Raw"
+  },
+  {
+    "key": "ui_NECRO_11_name",
+    "value": "Muscle Stripped Raw"
+  },
+  {
+    "key": "ui_NECRO_12_name",
+    "value": "Remedy For Hale Health"
+  },
+  {
+    "key": "ui_NECRO_13_name",
+    "value": "Search For A Dead Sun"
+  },
+  {
+    "key": "ui_NECRO_14_name",
+    "value": "Heads Hang Low"
+  },
+  {
+    "key": "ui_NECRO_15_name",
+    "value": "Unquiet Soil"
+  },
+  {
+    "key": "ui_NECRO_16_name",
+    "value": "Heads Hang Low"
+  },
+  {
+    "key": "ui_NECRO_17_name",
+    "value": "Toxic Emanations"
+  },
+  {
+    "key": "ui_NECRO_17_gameplaydesc",
+    "value": "Enemies receive a Stack of Poison every few seconds when they are close to you."
+  },
+  {
+    "key": "ui_NECRO_18_name",
+    "value": "Essential Measure"
+  },
+  {
+    "key": "ui_NECRO_19_name",
+    "value": "Sacrifice of Flesh"
+  },
+  {
+    "key": "ui_NECRO_19_gameplaydesc",
+    "value": "Your Maximum Health and Force Shield is decreased, but your Summons receive decreased Damage."
+  },
+  {
+    "key": "ui_NECRO_20_name",
+    "value": "Endless Litany"
+  },
+  {
+    "key": "ui_NECRO_21_name",
+    "value": "Endless Litany"
+  },
+  {
+    "key": "ui_NECRO_22_name",
+    "value": "Endless Litany"
+  },
+  {
+    "key": "ui_Section_Champion",
+    "value": "Arms Maester"
+  },
+  {
+    "key": "ui_CHAMP_1_name",
+    "value": "Omnipractice"
+  },
+  {
+    "key": "ui_CHAMP_2_name",
+    "value": "Clever Thrust"
+  },
+  {
+    "key": "ui_CHAMP_3_name",
+    "value": "Flurry Of Blows"
+  },
+  {
+    "key": "ui_CHAMP_4_name",
+    "value": "Induration"
+  },
+  {
+    "key": "ui_CHAMP_5_name",
+    "value": "Sundering Precision"
+  },
+  {
+    "key": "ui_CHAMP_6_name",
+    "value": "Clever Thrust"
+  },
+  {
+    "key": "ui_CHAMP_7_name",
+    "value": "High Evasion"
+  },
+  {
+    "key": "ui_CHAMP_8_name",
+    "value": "Virtuose Stance"
+  },
+  {
+    "key": "ui_CHAMP_8_gameplaydesc",
+    "value": "You unlock the \"Probing Weakness\" and \"Stalwart Resolve\" Stances, each one giving you different Buffs. Using an Active Dodge changes your Stance.\\n\\nWhile in the \"Probing Weakness\" Stance, your All Resistances Score is decreased, but your Basic Attacks have a chance to deal double Damage, including on Critical Hits.\\n\\nWhile in the \"Stalwart Resolve\" Stance, your Attack and Spell Casting Speed Score is decreased, but your Block Chance is increased."
+  },
+  {
+    "key": "ui_CHAMP_9_name",
+    "value": "Ingenious Stance"
+  },
+  {
+    "key": "ui_CHAMP_10_name",
+    "value": "Calculated Cleave"
+  },
+  {
+    "key": "ui_CHAMP_11_name",
+    "value": "Rain of Hazards"
+  },
+  {
+    "key": "ui_CHAMP_12_name",
+    "value": "Induration"
+  },
+  {
+    "key": "ui_CHAMP_13_name",
+    "value": "Sundering Precision"
+  },
+  {
+    "key": "ui_CHAMP_14_name",
+    "value": "Percussive Rebound"
+  },
+  {
+    "key": "ui_CHAMP_15_name",
+    "value": "Calculated Cleave"
+  },
+  {
+    "key": "ui_CHAMP_16_name",
+    "value": "Poised Barrier"
+  },
+  {
+    "key": "ui_CHAMP_17_name",
+    "value": "Proud Reprisal"
+  },
+  {
+    "key": "ui_CHAMP_17_gameplaydesc",
+    "value": "If you Block an Enemy’s attack, you instantly deal a percentage of your Weapon Damage in a counter-attack."
+  },
+  {
+    "key": "ui_CHAMP_18_name",
+    "value": "Mathematical Counter"
+  },
+  {
+    "key": "ui_CHAMP_19_name",
+    "value": "Pugilist's Momentum"
+  },
+  {
+    "key": "ui_CHAMP_19_gameplaydesc",
+    "value": "Completing Basic Attacks with the same Weapon 4 times within a short period grants you different Buffs depending on the Weapon.\\n\\nOne-handed and dual-wielded Weapons always inflict Critical Hits on the 4th Basic Attack.\\n\\nTwo-handed axes, hammers, and swords always inflict Stun in an area of effect on the 4th Basic Attack.\\n\\nBows always launch Projectiles in 360 degrees around you on the 4th Basic Attack.\\n\\nStaffs always launch multiple Projectiles on the 4th Basic Attack."
+  },
+  {
+    "key": "ui_CHAMP_20_name",
+    "value": "Cessation"
+  },
+  {
+    "key": "ui_Section_Berserker",
+    "value": "Child of Fury"
+  },
+  {
+    "key": "ui_BSRK_1_name",
+    "value": "Boiling Point"
+  },
+  {
+    "key": "ui_BSRK_2_name",
+    "value": "Indignation"
+  },
+  {
+    "key": "ui_BSRK_3_name",
+    "value": "Indignation"
+  },
+  {
+    "key": "ui_BSRK_4_name",
+    "value": "Fireproof"
+  },
+  {
+    "key": "ui_BSRK_5_name",
+    "value": "Wyrmbreath"
+  },
+  {
+    "key": "ui_BSRK_6_name",
+    "value": "Phlogiston"
+  },
+  {
+    "key": "ui_BSRK_7_name",
+    "value": "Undying Flicker"
+  },
+  {
+    "key": "ui_BSRK_8_name",
+    "value": "Furious Appetite"
+  },
+  {
+    "key": "ui_BSRK_8_gameplaydesc",
+    "value": "Your Willpower generated is transferred into Rage.\\n\\nYour Willpower Regeneration is also applied to Rage instead."
+  },
+  {
+    "key": "ui_BSRK_9_name",
+    "value": "Frenzied Blows"
+  },
+  {
+    "key": "ui_BSRK_9_desc",
+    "value": "If your Rage is above a certain threshold, your skills deal twice their damage, but cost more to use."
+  },
+  {
+    "key": "ui_BSRK_10_name",
+    "value": "Initial Spark"
+  },
+  {
+    "key": "ui_BSRK_11_name",
+    "value": "Initial Spark"
+  },
+  {
+    "key": "ui_BSRK_12_name",
+    "value": "Fireproof"
+  },
+  {
+    "key": "ui_BSRK_13_name",
+    "value": "Conflagration"
+  },
+  {
+    "key": "ui_BSRK_14_name",
+    "value": "Volcanic Crust"
+  },
+  {
+    "key": "ui_BSRK_15_name",
+    "value": "Phlogiston"
+  },
+  {
+    "key": "ui_BSRK_16_name",
+    "value": "Autarchic Mind"
+  },
+  {
+    "key": "ui_BSRK_17_name",
+    "value": "Blistering Embrace"
+  },
+  {
+    "key": "ui_BSRK_17_gameplaydesc",
+    "value": "When you Hit an Enemy that has a certain number of Burn Stacks, your Hits have a Chance to consume the Burn Stacks that you inflicted and deal increased Damage per the number of Stacks consumed."
+  },
+  {
+    "key": "ui_BSRK_18_name",
+    "value": "Shattering Strike"
+  },
+  {
+    "key": "ui_BSRK_19_name",
+    "value": "Flurrying Flames"
+  },
+  {
+    "key": "ui_BSRK_19_gameplaydesc",
+    "value": "Each time you Hit an Enemy, you receive an \"Unleashed Fury\" point. Each \"Unleashed Fury\" point increases your Attack Speed Score, your Life Leech, and decreases your All Resistances Score."
+  },
+  {
+    "key": "ui_BSRK_20_name",
+    "value": "Nursing Grudges"
+  },
+  {
+    "key": "ui_Section_Assassin",
+    "value": "Alastor"
+  },
+  {
+    "key": "ui_ASSA_1_name",
+    "value": "External Discharge"
+  },
+  {
+    "key": "ui_ASSA_2_name",
+    "value": "Condensator"
+  },
+  {
+    "key": "ui_ASSA_3_name",
+    "value": "Condensator"
+  },
+  {
+    "key": "ui_ASSA_4_name",
+    "value": "Particle Fuelled Generator"
+  },
+  {
+    "key": "ui_ASSA_5_name",
+    "value": "Dispassionate Detachment"
+  },
+  {
+    "key": "ui_ASSA_6_name",
+    "value": "Electric Power Redirection"
+  },
+  {
+    "key": "ui_ASSA_7_name",
+    "value": "Integrated Immaterial Shields"
+  },
+  {
+    "key": "ui_ASSA_8_name",
+    "value": "Static Transferral"
+  },
+  {
+    "key": "ui_ASSA_8_gameplaydesc",
+    "value": "Each time you use a Basic Attack, you receive an \"Overload\" point that increases your Damage. When you use a Skill, every \"Overload\" point is removed and the total Damage Buff provided by your \"Overload\" points is doubled."
+  },
+  {
+    "key": "ui_ASSA_9_name",
+    "value": "Protracted Effort"
+  },
+  {
+    "key": "ui_ASSA_10_name",
+    "value": "Pulse Control"
+  },
+  {
+    "key": "ui_ASSA_11_name",
+    "value": "Pulse Control"
+  },
+  {
+    "key": "ui_ASSA_12_name",
+    "value": "Particle Fuelled Generator"
+  },
+  {
+    "key": "ui_ASSA_13_name",
+    "value": "Shock Invasion"
+  },
+  {
+    "key": "ui_ASSA_14_name",
+    "value": "Integrated Immaterial Shields"
+  },
+  {
+    "key": "ui_ASSA_15_name",
+    "value": "Electric Power Redirection"
+  },
+  {
+    "key": "ui_ASSA_16_name",
+    "value": "Integrated Immaterial Shields"
+  },
+  {
+    "key": "ui_ASSA_17_name",
+    "value": "Intravenous Neural Cord"
+  },
+  {
+    "key": "ui_ASSA_17_gameplaydesc",
+    "value": "Whenever you inflict a Critical Hit on an Enemy, your Attack Speed Score is increased for a short duration."
+  },
+  {
+    "key": "ui_ASSA_18_name",
+    "value": "Cautious Effort"
+  },
+  {
+    "key": "ui_ASSA_19_name",
+    "value": "Sparking Dart"
+  },
+  {
+    "key": "ui_ASSA_19_gameplaydesc",
+    "value": "You have \"Power Charge\" points. This resource is now used to activate any Device Skills or Skills that deal the Lightning Damage Type. The resource can have any value between -100 and 100. When Power Charge is a positive number, your Damage will be increased, and when it is a negative number, your Damage will be decreased.\\n\\nPower Charge is regenerated over time, and by using your Basic Attacks.\\n\\nThese Skills still consume their dedicated Resource in addition to \"Power Charge\"."
+  },
+  {
+    "key": "ui_ASSA_20_name",
+    "value": "Stunning Presence"
+  },
+  {
+    "key": "ui_AilmentsStacks_FireBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_FireBuff_desc",
+    "value": "Fire Damage (Burned enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_FrostBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_FrostBuff_desc",
+    "value": "Frost Damage (Frozen enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_LightningBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_LightningBuff_desc",
+    "value": "Lightning Damage (Shocked enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_PhysicalBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_PhysicalBuff_desc",
+    "value": "Physical Damage (Stunned enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_RendBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_RendBuff_desc",
+    "value": "Rend Damage (Bleeding enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_SacredBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_SacredBuff_desc",
+    "value": "Sacred Damage (Weakened enmy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_ShadowBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_ShadowBuff_desc",
+    "value": "Shadow Damage (Cursed enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_ToxicBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_ToxicBuff_desc",
+    "value": "Toxic Damage (Poisoned enemy killed)"
+  },
+  {
+    "key": "ui_AilmentsStacks_UmbraBuff_title",
+    "value": "Immortal Offering"
+  },
+  {
+    "key": "ui_AilmentsStacks_UmbraBuff_desc",
+    "value": "Aether Damage (enemy in Stasis killed)"
+  },
+  {
+    "key": "ui_Attunement_Fire_title",
+    "value": "Abanazaar's Accord"
+  },
+  {
+    "key": "ui_Attunement_Fire_desc",
+    "value": "Bonus Damage to all Skills."
+  },
+  {
+    "key": "ui_Attunement_Frost_title",
+    "value": "Etheliel's Accord"
+  },
+  {
+    "key": "ui_Attunement_Frost_desc",
+    "value": "Increased Chance to inflict all Ailment types on enemies"
+  },
+  {
+    "key": "ui_Attunement_Lightning_title",
+    "value": "Beelmalik's Accord"
+  },
+  {
+    "key": "ui_Attunement_Lightning_desc",
+    "value": "Increased Critical Hit Chance"
+  },
+  {
+    "key": "ui_HeadHunter_Stacks_title",
+    "value": "Headhunter point(s)"
+  },
+  {
+    "key": "ui_HeadHunter_Stacks_desc",
+    "value": "Each Headhunter point grants a Material damage bonus"
+  },
+  {
+    "key": "ui_Offensive_Stance_title",
+    "value": "Probing Weakness Stance"
+  },
+  {
+    "key": "ui_Offensive_Stance_desc",
+    "value": "Chance for Attacks to deal double Damage while losing All Resistances"
+  },
+  {
+    "key": "ui_Defensive_Stance_title",
+    "value": "Stalwart Resolve Stance"
+  },
+  {
+    "key": "ui_Defensive_Stance_desc",
+    "value": "Increased Block Chance and Block Efficiency at the cost of reduced Attack and Spellcasting Speed"
+  },
+  {
+    "key": "ui_Anger_Stacks_name",
+    "value": "Unleashed Fury point(s)"
+  },
+  {
+    "key": "ui_Fortress_Stacks_name",
+    "value": "Inexorable point(s)"
+  },
+  {
+    "key": "ui_Block_Stacks_name",
+    "value": "Fortress point(s)"
+  },
+  {
+    "key": "ui_Tatoo_Light_Stacks_name",
+    "value": "Tenet point(s)"
+  },
+  {
+    "key": "ui_Bullet_Stacks_name",
+    "value": "Annointed Amunition point(s)"
+  },
+  {
+    "key": "ui_Hunter_Stacks_name",
+    "value": "Cold Blooded point(s)"
+  },
+  {
+    "key": "ui_Gadget_Stacks_name",
+    "value": "Power Charge point(s)"
+  },
+  {
+    "key": "ui_Focus_Stacks_name",
+    "value": "Overload point(s)"
+  },
+  {
+    "key": "ui_Balance_Shadow_Stacks_name",
+    "value": "Lure of Darkness point(s)"
+  },
+  {
+    "key": "ui_Balance_Light_Stacks_name",
+    "value": "Lure of Light point(s)"
+  },
+  {
+    "key": "ui_Hybrid_Attack_Stacks_title",
+    "value": "Captured Velocity: Attack Speed"
+  },
+  {
+    "key": "ui_Hybrid_Attack_Stacks_desc",
+    "value": "Earthly Paradox point(s)"
+  },
+  {
+    "key": "ui_Hybrid_Spell_Stacks_title",
+    "value": "Captured Velocity: Casting Speed"
+  },
+  {
+    "key": "ui_Hybrid_Spell_Stacks_desc",
+    "value": "Supernatural Paradox point(s)"
+  }
+]

@@ -1,0 +1,4807 @@
+[
+  {
+    "name": "Refined Technique",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "damage_percent_projectiles",
+        "description": "+20% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+20% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Refined Technique",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "damage_percent_projectiles",
+        "description": "+20% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+20% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Nimble",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "agility_pts",
+        "description": "+25 Agility",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Precise Strikes",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      },
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+15% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Precise Strikes",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      },
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+15% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Celerity",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Quick-Minded",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+15% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Blitz Fighting",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Backline Raider",
+    "category": "range",
+    "description": "Attacks and spells go off faster.",
+    "lore": "<font color=\"#c5b14d\"><i>\"We move on horseback but we strike on foot. They should never hear us coming, for if they do we face certain death. By the time they realize they are getting flanked, we should already be back to our mounts and going. I don't want anyone playing hero on this squad.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Triss, The Flying Dragoon</b></font>\\n_________________________________________________________   \\n<font color=\"#c5b14d\">Intelligence gathering is the key to successful warfare. Such a pretty sentence is a staple taught in Republican military academies, yet those few words have very real implications on the field. There is an ever growing need for discrete and fast soldiers able to track opposing forces' positions, work behind enemy lines or even infiltrate them for sabotage. They are the backbone that allows Inquisitors to make sound strategic decisions. One of them made a name for herself among Republican troops: The Flying Dragoon, a scout from a squad of light cavalry dedicated to harassing the enemy's supply chain. Her reputation states that she is so effective that her sabotages alone are enough to shatter opposing troops' morale.</font>",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+40% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "40" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+40% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "40" }
+      }
+    ]
+  },
+  {
+    "name": "Resilient",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+20% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "20" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+10.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Resilient",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+20% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "20" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+10.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Unyielding",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "toughness_pts",
+        "description": "+25 Toughness",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Chemically Empowered Metabolism",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+15% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "15" }
+      },
+      {
+        "id": "health_regen_true_percent",
+        "description": "+15% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Chemically Empowered Metabolism",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+15% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "15" }
+      },
+      {
+        "id": "health_regen_true_percent",
+        "description": "+15% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Enduring",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+10% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+5% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Evasive Manoeuvers",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+10% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+10.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Flexible",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+10% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+5% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Covert Operative",
+    "category": "range",
+    "description": "More likely to avoid taking damage after being hit.",
+    "lore": "<font color=\"#c5b14d\"><i>\"If you want to get a feel of the enemy, join him. Standing armies or evil cults, it matters not. You have to think and move like one of them if you want to survive. The hardest part still, will always be to break character and slip out for a report.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Triss, The Flying Dragoon</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Intelligence gathering is the key to successful warfare. Such a pretty sentence is a staple taught in Republican military academies, yet those few words have very real implications on the field. There is an ever growing need for discrete and fast soldiers able to track opposing forces' positions, work behind enemy lines or even infiltrate them for sabotage. They are the backbone that allows Inquisitors to make sound strategic decisions. One of them made a name for herself among Republican troops: The Flying Dragoon, a scout from a squad of light cavalry dedicated to harassing the enemy's supply chain. Her reputation states that she is so effective that her sabotages alone are enough to shatter opposing troops' morale.</font>",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "dodgechance_on_being_hit",
+        "description": "+50% Dodge Chance Score after taking a hit",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "50" }
+      }
+    ]
+  },
+  {
+    "name": "Quick Draw",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "skill_cooldownreduction_percent",
+        "description": "+10.0% Cooldown Reduction for all Skills",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Slippery",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "additional_stamina_pts",
+        "description": "+1 Stamina Point",
+        "permanent": "1",
+        "semantics": { "resource_flat_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Endurance Training",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "stamina_regeneration_percent",
+        "description": "+15.0% Stamina Regeneration Rate Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Calculated Skirmish",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "damage_percent_full_stamina",
+        "description": "+10.0% Damage when at full Stamina",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Pinch Runner",
+    "category": "range",
+    "description": "Gain additional stamina points to use dodge rolls at low health. This ability has a cooldown.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Many generals say that fear is the enemy. They sit comfortably, directing units miles away from the bloodshed. When you are discovered in enemy territory and you have to run for your life, fear may be the only thing that keeps you alive.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Triss, The Flying Dragoon</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Intelligence gathering is the key to successful warfare. Such a pretty sentence is a staple taught in Republican military academies, yet those few words have very real implications on the field. There is an ever growing need for discrete and fast soldiers able to track opposing forces' positions, work behind enemy lines or even infiltrate them for sabotage. They are the backbone that allows Inquisitors to make sound strategic decisions. One of them made a name for herself among Republican troops: The Flying Dragoon, a scout from a squad of light cavalry dedicated to harassing the enemy's supply chain. Her reputation states that she is so effective that her sabotages alone are enough to shatter opposing troops' morale.</font>",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "refill_stamina_on_low_health",
+        "description": "Gain +3.0 Stamina Point(s) when at ? of Max Health or lower",
+        "permanent": "1",
+        "semantics": { "trigger_gain_stamina_float": "3" }
+      }
+    ]
+  },
+  {
+    "name": "High Adrenaline",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Sentinel",
+    "sectionCategory": "range",
+    "sectionID": "Agility",
+    "modifiers": [
+      {
+        "id": "damage_percent_per_missing_stamina",
+        "description": "+3.0% Damage per missing Stamina point",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "3" }
+      }
+    ]
+  },
+  {
+    "name": "Heavy Blows",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+20% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "criticaldamage_pts",
+        "description": "+20% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Heavy Blows",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+20% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "criticaldamage_pts",
+        "description": "+20% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Dauntless",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "ferocity_pts",
+        "description": "+25 Ferocity",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Zealous Might",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      },
+      {
+        "id": "criticaldamage_pts",
+        "description": "+10% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Zealous Might",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      },
+      {
+        "id": "criticaldamage_pts",
+        "description": "+10% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Stylish Execution",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "criticaldamage_pts",
+        "description": "+15% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Deadly",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "criticalchance_attackskill_score_percent",
+        "description": "+15% Attacks Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Supernatural Insights",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "criticalchance_magicspell_score_percent",
+        "description": "+15% Spells Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "The Wild Card",
+    "category": "melee",
+    "description": "Attacks and spells are more likely to be critical hits.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Chop! Chop! It's time for some killing boys! Show me what your guts are made of!\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Almarik, Shock Infantryman</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most armies create their own mythos, populated with larger-than-life heroes that give troops examples to look-up to. Detractors often dismiss them as artificial myths created to fuel the war propaganda that surrounds them. Yet, the one known as \"Soldier Almarik\" is very real. Despite his prowess, he made his name by willingly keeping the lowest rank in the Purifiers' army. Burdening himself with anything other than the art of killing would not fit his style. His home is the battlefield.</font>",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+50% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "50" }
+      }
+    ]
+  },
+  {
+    "name": "Capable",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+25% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "25" }
+      },
+      {
+        "id": "ragecosts_percent",
+        "description": "+3.0% Rage Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "3" }
+      },
+      {
+        "id": "umbracosts_percent",
+        "description": "+3.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "3" }
+      }
+    ]
+  },
+  {
+    "name": "Capable",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+25% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "25" }
+      },
+      {
+        "id": "ragecosts_percent",
+        "description": "+3.0% Rage Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "3" }
+      },
+      {
+        "id": "umbracosts_percent",
+        "description": "+3.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "3" }
+      }
+    ]
+  },
+  {
+    "name": "Unyielding",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "toughness_pts",
+        "description": "+25 Toughness",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Pain Resistance Program",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+15% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+5% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Pain Resistance Program",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+15% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+5% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Stalwart",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+15% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "health_regen_true_percent",
+        "description": "+15% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Enduring",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+10% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "10" }
+      },
+      {
+        "id": "health_regen_true_percent",
+        "description": "+15% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Chemically Empowered Skin",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "statusailment_resist_score_percent",
+        "description": "+15% Status Ailment Resistance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "health_regen_true_percent",
+        "description": "+15% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Second Wind",
+    "category": "melee",
+    "description": "When below a certain threshold of health, gain a burst of Health Regen. This ability has a cooldown.",
+    "lore": "<font color=\"#c5B14D\"><i>\"Purifiers protect mankind from the supernatural evils of the world... tsk, bunch of pompous twats! I merely play along that rubbish as long as they let me slaugther stuff for them!\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Almarik, Shock Infantryman</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most armies create their own mythos, populated with larger-than-life heroes that give troops examples to look-up to. Detractors often dismiss them as artificial myths created to fuel the war propaganda that surrounds them. Yet, the one known as \"Soldier Almarik\" is very real. Despite his prowess, he made his name by willingly keeping the lowest rank in the Purifiers' army. Burdening himself with anything other than the art of killing would not fit his style. His home is the battlefield.</font>",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "health_regen_on_low_health",
+        "description": "When under +500% of Max Health, gain a burst of Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "500" }
+      }
+    ]
+  },
+  {
+    "name": "Quick Draw",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "skill_cooldownreduction_percent",
+        "description": "+10.0% Cooldown Reduction for all Skills",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Celerity",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Tenacious",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "rage_conservation_time",
+        "description": "+3 Rage Conservation Time",
+        "permanent": "1",
+        "semantics": { "duration_flat_int": "3" }
+      }
+    ]
+  },
+  {
+    "name": "Disciplined",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "ragecosts_percent",
+        "description": "+7.5% Rage Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "7.5" }
+      }
+    ]
+  },
+  {
+    "name": "The Heat of Battle",
+    "category": "melee",
+    "description": "Taking damage gives you more rage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"If you take a hit, you hit 'em back twice. One to take 'em out, and the other to fuck up their corpse.\"</i>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Almarik, Shock Infantryman</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most armies create their own mythos, populated with larger-than-life heroes that give troops examples to look-up to. Detractors often dismiss them as artificial myths created to fuel the war propaganda that surrounds them. Yet, the one known as \"Soldier Almarik\" is very real. Despite his prowess, he made his name by willingly keeping the lowest rank in the Purifiers' army. Burdening himself with anything other than the art of killing would not fit his style. His home is the battlefield.</font>",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "rage_on_hit_pts",
+        "description": "+25.0 Rage per hit taken",
+        "permanent": "1",
+        "semantics": { "resource_flat_float": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Disciplined",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Soldier",
+    "sectionCategory": "melee",
+    "sectionID": "Ferocity",
+    "modifiers": [
+      {
+        "id": "ragecosts_percent",
+        "description": "+7.5% Rage Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "7.5" }
+      }
+    ]
+  },
+  {
+    "name": "Heightened Concentration",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+20% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "dotdamage_percent_global",
+        "description": "+20.0% Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Heightened Concentration",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+20% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "dotdamage_percent_global",
+        "description": "+20.0% Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Determined",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "willpower_pts",
+        "description": "+25 Wisdom",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Adept",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+15% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "damage_percent",
+        "description": "+10% Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Adept",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+15% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "damage_percent",
+        "description": "+10% Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Physician",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent_elemental",
+        "description": "+15% Elemental Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Witchcraft Consultant",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent_occult",
+        "description": "+15% Occult Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Anatomical Expert",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent_material",
+        "description": "+15% Material Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Attrition Strategist",
+    "category": "magic",
+    "description": "Every hit is more likely to inflict an ailment on its target.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Patience, Inquisitor. Stay your hand. Our foes are cornered and not going anywhere. Our best move might be not to move at all... let them slowly wither. Force them into a desperate charge to break our lines. Only then, shall they be crushed.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Jeremiah, Battle Counselor of the 4th Purifier Legion</b></font>\\n_________________________________________________________   \\n<font color=\"#c5b14d\">One needs foresight, strategy and knowledge to efficiently lead a battalion. That's why Inquisitors and Justicars of the Republic surround themselves with specialists that know the terrain, culture and anatomy of their enemies. For the Purifiers, those enemies belong to the supernatural which forces their scholars to study witchcraft even though they are strictly forbidden from ever practicing it. A thin line that drove many to madness or even to the stake. Yet, Counselor Jeremiah successfully mastered those forbidden arts in secrecy, using them to become one of the best battle masterminds in history. Of course he has declined all opportunities of advancement, being more than happy to stay in the shadow of ambitious Inquisitors while he delves deeper into forbidden knowledge.</font>",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent",
+        "description": "+50% Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "50" }
+      }
+    ]
+  },
+  {
+    "name": "Hardy",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+25.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "25" }
+      },
+      {
+        "id": "statusailment_resist_score_percent",
+        "description": "+5% Status Ailment Resistance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Hardy",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+25.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "25" }
+      },
+      {
+        "id": "statusailment_resist_score_percent",
+        "description": "+5% Status Ailment Resistance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Unyielding",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "toughness_pts",
+        "description": "+25 Toughness",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Steadfast",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "ragecosts_percent",
+        "description": "+5.0% Rage Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      },
+      {
+        "id": "umbracosts_percent",
+        "description": "+5.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      },
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+5% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Steadfast",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "ragecosts_percent",
+        "description": "+5.0% Rage Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      },
+      {
+        "id": "umbracosts_percent",
+        "description": "+5.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      },
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+5% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Chemically Empowered Brain",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "forceshield_regeneration_percent",
+        "description": "+75.0% Force Shield Regeneration Rate",
+        "permanent": "1",
+        "semantics": { "defense_regeneration_percent_float": "75" }
+      }
+    ]
+  },
+  {
+    "name": "Heroic Resolve",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "forceshield_regeneration_percent",
+        "description": "+40.0% Force Shield Regeneration Rate",
+        "permanent": "1",
+        "semantics": { "defense_regeneration_percent_float": "40" }
+      },
+      {
+        "id": "forceshield_lock_timer_percent",
+        "description": "+5.0% Force Shield Regeneration Delay Reduction",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Propaganda Fueled Zeal",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "forceshield_lock_timer_percent",
+        "description": "+10.0% Force Shield Regeneration Delay Reduction",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Purifier's Will",
+    "category": "magic",
+    "description": "When your Force Shield is full, your damage taken is reduced.",
+    "lore": "<font color=\"#c5b14d\"><i>\"If they knew of my powers, I would be branded a traitor. Purifiers do not see the world in shades of grey: anything magical is considered witchcraft and consorting with demons. Sometimes I wish I could teach them of my findings, bring the republic to new heights of power by making the occult an ally rather than a foe. Yet, they are far from ready.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Jeremiah, Battle Counselor of the 4th Purifier Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">One needs foresight, strategy and knowledge to efficiently lead a battalion. That's why Inquisitors and Justicars of the Republic surround themselves with specialists that know the terrain, culture and anatomy of their enemies. For the Purifiers, those enemies belong to the supernatural which forces their scholars to study witchcraft even though they are strictly forbidden from ever practicing it. A thin line that drove many to madness or even to the stake. Yet, Counselor Jeremiah successfully mastered those forbidden arts in secrecy, using them to become one of the best battle masterminds in history. Of course he has declined all opportunities of advancement, being more than happy to stay in the shadow of ambitious Inquisitors while he delves deeper into forbidden knowledge.</font>",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "damage_reduction_on_full_force_shield",
+        "description": "+30.0% Damage Reduction when Force Shield is full",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      }
+    ]
+  },
+  {
+    "name": "Quick Draw",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "skill_cooldownreduction_percent",
+        "description": "+10.0% Cooldown Reduction for all Skills",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Emotional Intelligence",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "resource_points",
+        "description": "+250 Max Willpower and Rage",
+        "permanent": "1",
+        "semantics": { "resource_flat_int": "250" }
+      }
+    ]
+  },
+  {
+    "name": "Increased Awareness",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "globes_pickup_radius",
+        "description": "+15.0 Range for picking up Health Globes",
+        "permanent": "1",
+        "semantics": { "radius_float": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Unwavering Dedication",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "healing_from_globes_bonus_percent",
+        "description": "+10.0% Healing from Health Globes",
+        "permanent": "1",
+        "semantics": { "healing_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Thirst for Knowledge",
+    "category": "magic",
+    "description": "Health globes now both heal your health and recharge your force shield.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Soldiers are told to be willing to lay down their lives in the Republic. Not on my watch. A Purifier's life must be protected, so that they may uncover the cultists' mysteries. The more we know, the stronger we become.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Jeremiah, Battle Counselor of the 4th Purifier Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">One needs foresight, strategy and knowledge to efficiently lead a battalion. That's why Inquisitors and Justicars of the Republic surround themselves with specialists that know the terrain, culture and anatomy of their enemies. For the Purifiers, those enemies belong to the supernatural which forces their scholars to study witchcraft even though they are strictly forbidden from ever practicing it. A thin line that drove many to madness or even to the stake. Yet, Counselor Jeremiah successfully mastered those forbidden arts in secrecy, using them to become one of the best battle masterminds in history. Of course he has declined all opportunities of advancement, being more than happy to stay in the shadow of ambitious Inquisitors while he delves deeper into forbidden knowledge.</font>",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "shield_regeneration_from_health_globes",
+        "description": "+25.0% Force Shield Recharge from Health Globes",
+        "permanent": "1",
+        "semantics": { "healing_percent_float": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Unwavering Dedication",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Scholar",
+    "sectionCategory": "magic",
+    "sectionID": "Willpower",
+    "modifiers": [
+      {
+        "id": "healing_from_globes_bonus_percent",
+        "description": "+10.0% Healing from Health Globes",
+        "permanent": "1",
+        "semantics": { "healing_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Swiftness",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Physical Conditioning",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "health_pts",
+        "description": "+100 Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_flat_int": "100" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+5% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Persistence Hunting",
+    "category": "range",
+    "description": "Enemies who have impairment movement (slowed, in stasis, stunned or frozen) take increased damage.",
+    "lore": "<font color=\"#c5b14d\">\"Tracking an animal is like getting to know them. Beyond the curled teeth and barbed tail, you see where they eat, where they sleep, where they hunt. Pursuing them until they collapse, you finally take the life you know so well.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Blue, Ranger of the Departed and most secluded known human</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for \"Blue\", a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.</font>",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_impaired",
+        "description": "+25.0% Damage to enemies with Impaired Movement",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Crippling Assault",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "stasischance_on_umbra_damage_score_percent",
+        "description": "+25% Stasis Chance Score on Aether Damage",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Overwhelming Barrage",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "stunchance_on_physical_damage_score_percent",
+        "description": "+20% Stun Chance Score on Physical Damage",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      },
+      {
+        "id": "freezechance_on_frost_damage_score_percent",
+        "description": "+20% Freeze Chance Score on Frost Damage",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Deadly Aim",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "criticalchance_projectiles_score_percent",
+        "description": "+20% All Projectiles Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Deadly Aim",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "criticalchance_projectiles_score_percent",
+        "description": "+20% All Projectiles Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Come What May",
+    "category": "range",
+    "description": "Projectiles that hit an enemy at close range pierce them and can deal damage to other enemies behind them.",
+    "lore": "<font color=\"#c5b14d\"><i>\"I've seen so many Departed die from the treachery of these lands. Warning them of the horrors they will face does not change their fate... you have to be there. You have to see for yourself. If you survive them once, you might survive them twice and eventually you might call yourself prepared for anything.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Blue, Ranger of the Departed and most secluded known human</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for \"Blue\", a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.</font>",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "autopierce_radius",
+        "description": "+6.0m of All Projectiles Pierce Range",
+        "permanent": "1",
+        "semantics": { "radius_float": "6" }
+      }
+    ]
+  },
+  {
+    "name": "Body and Mind",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+10% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "10" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Unstoppable Flurry",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_projectiles",
+        "description": "+15% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+10% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Elusive",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+15% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Elusive",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+15% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Elusive",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+15% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Lithe",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "agility_pts",
+        "description": "+25 Agility",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Strike like Lightning",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+5% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+5% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Shoot to Kill",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_projectiles",
+        "description": "+10% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Shoot to Kill",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_projectiles",
+        "description": "+10% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Shoot to Kill",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_projectiles",
+        "description": "+10% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Archion's Teachings",
+    "category": "range",
+    "description": "Attacks and spells that launch projectiles now launch an additional projectile. The damage of each projectile is reduced.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Whenever I'm home, younglings ask me what should they do to be like me... I simply tell them to listen to their militia instructor, after all, we have the best ranged warfare of the world. But the truth is: I don't want them to follow my path. These lands are best untouched, left alone. I just go there to find solace, not to conquer them.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Blue, Ranger of the Departed and most secluded known human</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for \"Blue\", a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.</font>",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "additional_projectile",
+        "description": "+1 Projectile(s) to all Projectile Skills (Attacks and Spells)",
+        "permanent": "1",
+        "semantics": { "projectile_count_int": "1" }
+      },
+      {
+        "id": "damage_percent_projectiles",
+        "description": "-60% All Projectiles Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "-60" }
+      }
+    ]
+  },
+  {
+    "name": "Bullseye",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "criticaldamage_projectiles_pts",
+        "description": "+25% All Projectiles Critical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Deadly Aim",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "criticalchance_projectiles_score_percent",
+        "description": "+10% All Projectiles Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Puncturing Shot",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "piercing",
+        "description": "+1 Pierce to All Projectiles",
+        "permanent": "1",
+        "semantics": { "count_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Mental Fortitude",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "forceshield_pts",
+        "description": "+100 Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_flat_int": "100" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+15.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Meditative Focus",
+    "category": "range",
+    "description": "Deal increased damage when far away from enemies.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Killing another living creature should never be done lightly. When possible, I take my time with each arrow, recognizing their deadly potential. If that potential is aligned with my intent, I can be certain that it will land true.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Blue, Ranger of the Departed and most secluded known human</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for \"Blue\", a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.</font>",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_while_nobody_close",
+        "description": "+25.0% Damage when at least +6.0m away from all enemies",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "25", "radius_float": "6" }
+      }
+    ]
+  },
+  {
+    "name": "Death from Afar",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_while_nobody_close",
+        "description": "+10.0% Damage when at least +0.0m away from all enemies",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "10", "radius_float": "0" }
+      }
+    ]
+  },
+  {
+    "name": "Personal Space",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "damage_percent_while_nobody_close",
+        "description": "+0.0% Damage when at least -2.0m away from all enemies",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "0", "radius_float": "-2" }
+      }
+    ]
+  },
+  {
+    "name": "Swift Death",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "projectiles_speed_percent",
+        "description": "+10% All Projectiles Speed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Swift Death",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "projectiles_speed_percent",
+        "description": "+10% All Projectiles Speed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Safe From Afar",
+    "category": "range",
+    "description": "The further away an enemy is, the more damage they take from projectiles up to a limit.",
+    "lore": "<font color=\"#c5b14d\"><i>\"First rule of survival: Curiosity kills. If something comes your way and you are unsure of its intentions, shoot or run, but don't stand there wondering.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Blue, Ranger of the Departed and most secluded known human</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for \"Blue\", a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.</font>",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "projectiles_damage_asdistance",
+        "description": "+175.0% All Projectiles Damage scaling with Distance at 8.0 ~ 15.0 m",
+        "permanent": "1",
+        "semantics": {
+          "damage_percent_float": "175",
+          "range_float_min": "8",
+          "range_float_max": "15"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Swiftness",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Ranger",
+    "sectionCategory": "range",
+    "sectionID": "Distance",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+20% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Cruelty",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "material_damage_percent",
+        "description": "+10% Material Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Marked Flesh",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "health_pts",
+        "description": "+100 Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_flat_int": "100" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+10% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Bestial Frenzy",
+    "category": "melee",
+    "description": "Increased damage for each enemy within melee range. ",
+    "lore": "<font color=\"#c5b14d\"><i>\"Mortal danger brings out the best in a warrior. Being surrounded by an overwhelming number of enemies will turn you into a creature of war, an unstoppable being of death. If you survive that is.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Einjar, Thane of the Blood Tear Clan</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.</font>",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_per_enemy_in_range",
+        "description": "+20.0% Damage for each nearby enemy within +4.0%m range",
+        "permanent": "1",
+        "semantics": {
+          "damage_percent_float_max": "20",
+          "damage_percent_float": "4",
+          "radius_float": "4"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Battlefield Predator",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_per_enemy_in_range",
+        "description": "+5.0% Damage for each nearby enemy within +1.0%m range",
+        "permanent": "1",
+        "semantics": {
+          "damage_percent_float_max": "5",
+          "damage_percent_float": "1",
+          "radius_float": "0"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Take All Challengers",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_per_enemy_in_range",
+        "description": "+0.0% Damage for each nearby enemy within +0.0%m range",
+        "permanent": "1",
+        "semantics": {
+          "damage_percent_float_max": "0",
+          "damage_percent_float": "0",
+          "radius_float": "2"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Primal Power",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "convert_fire_to_physical",
+        "description": "+30.0% Fire Damage converted into Physical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      },
+      {
+        "id": "convert_frost_to_physical",
+        "description": "+30.0% Frost Damage converted into Physical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      },
+      {
+        "id": "convert_lightning_to_physical",
+        "description": "+30.0% Lightning Damage converted into Physical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      }
+    ]
+  },
+  {
+    "name": "Mystic Potential",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "convert_umbra_to_physical",
+        "description": "+30.0% Aether Damage converted into Physical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      },
+      {
+        "id": "convert_sacred_to_physical",
+        "description": "+30.0% Sacred Damage converted into Physical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      },
+      {
+        "id": "convert_shadow_to_physical",
+        "description": "+30.0% Shadow Damage converted into Physical Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      }
+    ]
+  },
+  {
+    "name": "Gods amongst Men",
+    "category": "melee",
+    "description": "Physical, poison and rend damage are increased. You cannot inflict other types of damage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"The strong dominate the weak. No negotiation, no compromise. The mightiest of warriors deserve the greatest wealth, and we will take it by force.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Einjar, Thane of the Blood Tear Clan</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.</font>",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "material_damage_percent",
+        "description": "+80% Material Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "80" }
+      },
+      {
+        "id": "material_damage_only",
+        "description": "Can only deal Material Damage",
+        "permanent": "1",
+        "semantics": { "possibility_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Blood Rush",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+10% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "10" }
+      },
+      {
+        "id": "health_regen_true_percent",
+        "description": "+35% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "35" }
+      }
+    ]
+  },
+  {
+    "name": "Master of the Frontline",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+20% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      },
+      {
+        "id": "damage_percent_attack",
+        "description": "+5% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Unleashed Power",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Unleashed Power",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Unleashed Power",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+15% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Brutality",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "ferocity_pts",
+        "description": "+25 Ferocity",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Strike like Lightning",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+5% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+5% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Whirlwind of Steel",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+15% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Whirlwind of Steel",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+15% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Whirlwind of Steel",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_melee_weapon",
+        "description": "+15% Melee Weapon Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Feast for the Crows",
+    "category": "melee",
+    "description": "Give all forms of damage Life Leech. Life Leech heals you on the next tick of Health Regeneration.",
+    "lore": "<font color=\"#c5b14d\"><i>\"We do not sow but we harvest. We join the crows for a feast. Our table is the battlefield!\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Einjar, Thane of the Blood Tear Clan</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.</font>",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "life_leech_percent_global",
+        "description": "+2.0% Global Life Leech",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Blood Offering",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "life_leech_percent_spell",
+        "description": "+2.0% Life Leech from Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Tearer of Flesh",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "life_leech_percent_weapon",
+        "description": "+2.0% Life Leech from Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Swiftness",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Impervious",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "all_resistance",
+        "description": "+5 to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_int": "5" }
+      },
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+5% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Manic Slaughter",
+    "category": "melee",
+    "description": "The more rage you have, the more damage you deal. This applies to all forms of damage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"No more weapons from the Republic! No more bribes from Varg! Now they die, they all die in an endless requiem of gore and laments! My axe thirsts!\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Einjar, Thane of the Blood Tear Clan</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.</font>",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "damage_percent_per_rage_point",
+        "description": "+2.0 Damage per 100 unspent Rage points",
+        "permanent": "1",
+        "semantics": { "conversion_rate_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Appetite for Bloodshed",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "rage_on_kill_pts",
+        "description": "+35.0 Rage Generation on Kill",
+        "permanent": "1",
+        "semantics": { "resource_flat_float": "35" }
+      }
+    ]
+  },
+  {
+    "name": "Unbridled Rage",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "rage_per_strike_percent",
+        "description": "+10% Rage Generation on Hit",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Cannibalistic Savagery",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "life_leech_percent_against_bleeding",
+        "description": "+4.0% Life Leech on Bleeding Target",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "4" }
+      }
+    ]
+  },
+  {
+    "name": "Shredder",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "bleedchance_on_rend_damage_score_percent",
+        "description": "+10% Bleed Chance Score on Rend Damage",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Blood Reaper",
+    "category": "melee",
+    "description": "A percentage of Physical damage becomes Rend damage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Stop running, boy. Your blood goes to waste on the ground.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Einjar, Thane of the Blood Tear Clan</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.</font>",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "convert_physical_to_rend",
+        "description": "+30.0% Physical Damage converted into Rend Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      }
+    ]
+  },
+  {
+    "name": "Deadly Physicality",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warmonger",
+    "sectionCategory": "melee",
+    "sectionID": "Warrior",
+    "modifiers": [
+      {
+        "id": "material_damage_percent",
+        "description": "+10% Material Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+10% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Tormentor",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent",
+        "description": "+10% Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Ancient Trinket",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "statusailment_resist_score_percent",
+        "description": "+20% Status Ailment Resistance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Primordial Insights",
+    "category": "magic",
+    "description": "Ailment stacks applied with critical hits can deal critical damage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Most men have even forgotten the existence of Primordials. But I did not. They may have turned silent, but echoes of their lessons are everywhere for those that understand creation.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>The Augur, Messiah of Illumination</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.</font>",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "criticaldamage_on_dots",
+        "description": "Damage over time generated with a Critical Hit deals Critical Damage",
+        "permanent": "1",
+        "semantics": { "possibility_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Ancient Knowledge",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "criticalchance_magicspell_score_percent",
+        "description": "+15% Spells Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Otherworldly Techniques",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "criticalchance_attackskill_score_percent",
+        "description": "+15% Attacks Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Master of Curses",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "max_stacks_capacity",
+        "description": "+5 Max Stacks",
+        "permanent": "1",
+        "semantics": { "stack_count_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Master of Curses",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "max_stacks_capacity",
+        "description": "+5 Max Stacks",
+        "permanent": "1",
+        "semantics": { "stack_count_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Insidious Decay",
+    "category": "magic",
+    "description": "When applying ailments, more stacks are applied to the enemy. Other forms of damage are less potent.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Since I was young, I have felt a constant pressing urgency. As I have grown older, I have realized that death itself is a consequence of inaction. When faced with enemies of great power, cripple them until their inaction finishes them.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>The Augur, Messiah of Illumination</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.</font>",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "additional_ailment_stacks",
+        "description": "+2 Ailment Stack(s) Applied",
+        "permanent": "1",
+        "semantics": { "stack_count_int": "2" }
+      },
+      {
+        "id": "non_dot_damage_percent",
+        "description": "-30.0% Damage that is not Damage Over Time",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "-30" }
+      }
+    ]
+  },
+  {
+    "name": "Protective Aura",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "statusailment_resist_score_percent",
+        "description": "+10% Status Ailment Resistance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+10% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Clarity of Mind",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "umbracosts_percent",
+        "description": "+10.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "10" }
+      },
+      {
+        "id": "damage_percent_spell",
+        "description": "+10% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Sharp Insight",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Sharp Insight",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Sharp Insight",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Focused",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "willpower_pts",
+        "description": "+25 Wisdom",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Strike like Lightning",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+5% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+5% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Crippling Decrepitude",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "dotdamage_percent_global",
+        "description": "+30.0% Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      },
+      {
+        "id": "non_dot_damage_percent",
+        "description": "-15.0% Damage that is not Damage Over Time",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "-15" }
+      }
+    ]
+  },
+  {
+    "name": "Lethal Certainty",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "dotdamage_percent_global",
+        "description": "+15.0% Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Incessant Infirmity",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "dotdamage_percent_global",
+        "description": "+25.0% Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "25" }
+      },
+      {
+        "id": "non_dot_damage_percent",
+        "description": "-10.0% Damage that is not Damage Over Time",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "-10" }
+      }
+    ]
+  },
+  {
+    "name": "Grievous Afflictions",
+    "category": "magic",
+    "description": "Hits can usually only apply one ailment type. Now 2 different ailments can be applied with the same hit.",
+    "lore": "<font color=\"#c5b14d\"><i>\"They used to be one. As much as they try to be different, they remain bonded by their shared origin. Rare are those who understand that Ice, Lightning and Fire ought to be mastered together.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>The Augur, Messiah of Illumination</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.</font>",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "additional_ailment_rolls",
+        "description": "Can now apply +1 Additional Ailment(s)",
+        "permanent": "1",
+        "semantics": { "count_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Crippling Decrepitude",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "dotdamage_percent_global",
+        "description": "+30.0% Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30" }
+      },
+      {
+        "id": "non_dot_damage_percent",
+        "description": "-15.0% Damage that is not Damage Over Time",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "-15" }
+      }
+    ]
+  },
+  {
+    "name": "Tormentor",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent",
+        "description": "+20% Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Tenacious Afflictions",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "anystack_duration_percent",
+        "description": "+75% Ailment Stack Duration",
+        "permanent": "1",
+        "semantics": { "duration_percent_int": "75" }
+      }
+    ]
+  },
+  {
+    "name": "Strong-Willed",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+20% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Power of the First Men",
+    "category": "magic",
+    "description": "When applying an ailment, there is a chance to double the number of ailment stacks that are applied.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Pride and stupidity are the mettle of modern men. How dare they think that we are at the peak of our evolution? In fact, that peak happened eons ago! The Enneracts that they use for energy are a painful reminder that we are but an afterthought of our former glory.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>The Augur, Messiah of Illumination</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came into his possession.</font>",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "ailment_stacks_multiplier",
+        "description": "+50% Chance to multiply the number of Ailment Stacks applied by +2.0",
+        "permanent": "1",
+        "semantics": { "chance_percent_int": "50", "multiplier_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Artefact Analysis",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "ailment_stacks_multiplier",
+        "description": "+25% Chance to multiply the number of Ailment Stacks applied by +0.0",
+        "permanent": "1",
+        "semantics": { "chance_percent_int": "25", "multiplier_float": "0" }
+      }
+    ]
+  },
+  {
+    "name": "Enneract Expert",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "ailment_stacks_multiplier",
+        "description": "+25% Chance to multiply the number of Ailment Stacks applied by +0.0",
+        "permanent": "1",
+        "semantics": { "chance_percent_int": "25", "multiplier_float": "0" }
+      }
+    ]
+  },
+  {
+    "name": "Magical Mastery",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+15% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Magical Mastery",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+15% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Immortal Offering",
+    "category": "magic",
+    "description": "Killing an enemy afflicted with ailments gives you a temporary damage boost.",
+    "lore": "<font color=\"#c5b14d\"><i>\"With the correct ritual, ending a life with witchcraft can transfer the dead's lifeforce to the Fallen whose power was channeled. The Fallen constantly hunger for this energy and will try to convince you to feed them further by offering you great power. My students are trained to resist their temptations, as everyone should be.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>The Augur, Messiah of Illumination</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.</font>",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "damage_percent_per_enemy_ailment_stack_on_target_kill",
+        "description": "Killing an enemy grants +5.0% Damage for each Ailment Stack on that enemy (up to +5 stacks per damage type)",
+        "permanent": "1",
+        "semantics": {
+          "damage_percent_float": "5",
+          "stacks_int_max_combined": "5",
+          "duration_float_max_combined": "15"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Enfeebling Energy",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Cabalist",
+    "sectionCategory": "magic",
+    "sectionID": "Elementalist",
+    "modifiers": [
+      {
+        "id": "statusailment_inflict_score_percent",
+        "description": "+10% Status Ailment Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "anystack_duration_percent",
+        "description": "+75% Ailment Stack Duration",
+        "permanent": "1",
+        "semantics": { "duration_percent_int": "75" }
+      }
+    ]
+  },
+  {
+    "name": "Equipment Maintenance",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "material_damage_percent",
+        "description": "+20% Material Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Physical Conditioning",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "health_pts",
+        "description": "+100 Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_flat_int": "100" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+5% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Slipping Shadow",
+    "category": "range",
+    "description": "Dodge rolls can go through enemies.",
+    "lore": "<font color=\"#c5b14d\"><i>\"No jade legionnary has ever been interrogated. Our evasive manoeuvers are unparalleled, as for those that do get caught, their will never falter when comes the time of their ultimate sacrifice. The toxin in their hidden tooth is very effective, for death is preferable to failure.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Li-Wei, Master of the Jade Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.</font>",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "canrollthroughennemies",
+        "description": "Active dodge can go through enemies",
+        "permanent": "1",
+        "semantics": { "possibility_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Escape Artist",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "additional_stamina_pts",
+        "description": "+1 Stamina Point",
+        "permanent": "1",
+        "semantics": { "resource_flat_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Unstoppable Tracker",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "stamina_regeneration_percent",
+        "description": "+20.0% Stamina Regeneration Rate Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Serpentine Affinity",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "poisonstack_duration_increase",
+        "description": "+75% Poison Stack Duration",
+        "permanent": "1",
+        "semantics": { "duration_percent_int": "75" }
+      }
+    ]
+  },
+  {
+    "name": "Concentrated Toxins",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "dotdamage_percent_poison",
+        "description": "+20.0% Poison Ailment Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Blessing of the Jade Legion",
+    "category": "range",
+    "description": "A percentage of Physical damage becomes Poison damage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"A thousand poisons for a thousand purposes.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Li-Wei, Master of the Jade Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.</font>",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "convert_physical_to_toxic",
+        "description": "+50.0% Physical Damage converted into Toxic Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "50" }
+      }
+    ]
+  },
+  {
+    "name": "Body and Mind",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+15% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "15" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+10.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Elaborate Flurry",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+15.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Elusive",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+15% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+15% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "dodgechance_score_percent",
+        "description": "+15% Dodge Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Lithe",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "agility_pts",
+        "description": "+25 Agility",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Strike like Lightning",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+5% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+5% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Swiftness",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Swiftness",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Swiftness",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+15% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Clandestine Execution",
+    "category": "range",
+    "description": "Deal more damage when only one enemy is nearby.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Assassination is a peculiar trade. A price for a life, it seems simple on the surface. But the preparation, the circumstances and the execution itself each have their own intricacies. And there can never be any witnesses.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Li-Wei, Master of the Jade Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.</font>",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "damage_percent_if_only_one_nearby_enemy",
+        "description": "+30.0% Damage when only one enemy is within +7.0m range",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "30", "radius_float": "7" }
+      }
+    ]
+  },
+  {
+    "name": "A Worthy Adversary",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "damage_percent_if_only_one_nearby_enemy",
+        "description": "+5.0% Damage when only one enemy is within +0.0m range",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "5", "radius_float": "0" }
+      }
+    ]
+  },
+  {
+    "name": "Paranoia",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "damage_percent_if_only_one_nearby_enemy",
+        "description": "+0.0% Damage when only one enemy is within -3.0m range",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "0", "radius_float": "-3" }
+      }
+    ]
+  },
+  {
+    "name": "Weak Spot Focus",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+15% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Mental Fortitude",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "forceshield_pts",
+        "description": "+100 Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_flat_int": "100" }
+      },
+      {
+        "id": "forceshield_percent",
+        "description": "+10.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Phantom Strike",
+    "category": "range",
+    "description": "Dash attacks are now twice as likely to be critical hits.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Make your movement unpredictable, for the unseen strike is the deadliest.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Li-Wei, Master of the Jade Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.</font>",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "critchance_doubled_on_dash",
+        "description": "The Critical Hit Chance of the Dash Attack is doubled",
+        "permanent": "1",
+        "semantics": { "possibility_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Hunter's Vigor",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "autodash_cdr_percent",
+        "description": "+20.0% Dash Cooldown Reduction",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Killing Lunge",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "autodash_range_flat",
+        "description": "+2.0m Dash attack Range",
+        "permanent": "1",
+        "semantics": { "radius_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Killer Instinct",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+15% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Killer Instinct",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+15% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Merciless Lethality",
+    "category": "range",
+    "description": "Critical hits deal more damage, non-critical hits deal less damage.",
+    "lore": "<font color=\"#c5b14d\"><i>\"If you do not have the intent to kill, do not aim.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Li-Wei, Master of the Jade Legion</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.</font>",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "criticaldamage_pts",
+        "description": "+60% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "60" }
+      },
+      {
+        "id": "damage_percent",
+        "description": "-30% Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "-30" }
+      }
+    ]
+  },
+  {
+    "name": "Impeccable Aim",
+    "category": "range",
+    "description": "",
+    "lore": "",
+    "sectionName": "Assassin",
+    "sectionCategory": "range",
+    "sectionID": "Melee",
+    "modifiers": [
+      {
+        "id": "material_damage_percent",
+        "description": "+15% Material Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      },
+      {
+        "id": "criticalchance_score_percent",
+        "description": "+5% Critical Hit Chance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Mighty",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+10% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Immortal Blood",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "health_regen_true_percent",
+        "description": "+10% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Retaliator",
+    "category": "melee",
+    "description": "Each point of physical resistance increases all forms of damage output at the cost of reduced chance to land critical hits.",
+    "lore": "<font color=\"#c5b14d\"><i>\"The first shield of the Kingless used to tell us: 'Should one of us fall, do not mourn. Do not offer that to your foe. Instead, pick up the shield of the fallen, and bash the skull of your enemy with it.' If my king died, I dare not think of the pain I will unleash on the murderer.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Mah'alam, fifth shield of the Kingless</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became \"The Kingless\", training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.</font>",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "damage_from_physical_resistance",
+        "description": "+0.75 Damage per percent of Physical Resistance",
+        "permanent": "1",
+        "semantics": { "conversion_rate_float": "0.75" }
+      },
+      {
+        "id": "criticalchance_final_percent",
+        "description": "-50% Critical Hit Chance",
+        "permanent": "1",
+        "semantics": { "characteristic_final_percent_int": "-50" }
+      }
+    ]
+  },
+  {
+    "name": "Rightful Vengeance",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "damage_from_physical_resistance",
+        "description": "+0.25 Damage per percent of Physical Resistance",
+        "permanent": "1",
+        "semantics": { "conversion_rate_float": "0.25" }
+      }
+    ]
+  },
+  {
+    "name": "Rightful Vengeance",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "damage_from_physical_resistance",
+        "description": "+0.25 Damage per percent of Physical Resistance",
+        "permanent": "1",
+        "semantics": { "conversion_rate_float": "0.25" }
+      }
+    ]
+  },
+  {
+    "name": "None Shall Pass",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "blockchance_ifcanblock_flat",
+        "description": "+5.0 Block Chance",
+        "permanent": "1",
+        "semantics": { "chance_flat_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Perfect Defense",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "blockefficiency_percent",
+        "description": "+10.0% Block Efficiency",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Selfless Courage",
+    "category": "melee",
+    "description": "Blocking a hit provides you and your allies increased defenses.",
+    "lore": "<font color=\"#c5b14d\"><i>\"The Kingless are supposed to protect Laibon. Yet, criminality runs amok throughout the kingdom, and the Kingless refuse to intervene. I would rather die searching for a dead man than waste my life following hollow principles.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Mah'alam, fifth shield of the Kingless</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became \"The Kingless\", training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.</font>",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "defense_up_on_block",
+        "description": "+20% All Resistances for you and your allies after blocking a hit",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Perseverance",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "health_regen_true_percent",
+        "description": "+10% Health Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_int": "10" }
+      },
+      {
+        "id": "health_regen_frequency",
+        "description": "+15.0% Health Regeneration Rate Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Impervious Wall",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+10% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "health_percent",
+        "description": "+10% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Iron Skin",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+15% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Iron Skin",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+15% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Iron Skin",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+15% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Brutality",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "ferocity_pts",
+        "description": "+25 Ferocity",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Strike like Lightning",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+5% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+5% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Robust",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+15% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Robust",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+15% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Robust",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "health_percent",
+        "description": "+15% Maximum Health",
+        "permanent": "1",
+        "semantics": { "health_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Kingless Aegis",
+    "category": "melee",
+    "description": "Gain block chance no matter what weapon is being used.",
+    "lore": "<font color=\"#c5b14d\"><i>\"The heart of my king still beats, I can feel its drumming deep in my bones like a call to action. I cannot rest until he is safe, and thus, my journey begins.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Mah'alam, fifth shield of the Kingless</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became \"The Kingless\", training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.</font>",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "blockchance_unconditional_flat",
+        "description": "+10.0 Added Block Chance and allow any weapon to block",
+        "permanent": "1",
+        "semantics": { "chance_flat_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Unorthodox Technique",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "blockchance_unconditional_flat",
+        "description": "+5.0 Added Block Chance and allow any weapon to block",
+        "permanent": "1",
+        "semantics": { "chance_flat_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Regal Blessing",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "blockefficiency_percent",
+        "description": "+10.0% Block Efficiency",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Weak Spot Focus",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "criticaldamage_pts",
+        "description": "+20% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Regenerative Body",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "health_regen_frequency",
+        "description": "+10.0% Health Regeneration Rate Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Sacred Oath",
+    "category": "melee",
+    "description": "Blocking an enemy's attack applies Weakness, makes that enemy weaker and more vulnerable.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Our ruler is a man-god, a beacon of light gifted with secrets of creation! His lineage kept our realm safe from the long night for centuries... but now that he disappeared with no descendants, we can only fear the worse for our lands.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Mah'alam, fifth shield of the Kingless</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became \"The Kingless\", training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.</font>",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "weakness_aoe_onblock",
+        "description": "++7.5 Weakness Stack applied on Block",
+        "permanent": "1",
+        "semantics": { "radius_float": "7.5", "stack_count_int": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Faith of the Kingless",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "weakness_aoe_onblock",
+        "description": "++0.0 Weakness Stack applied on Block",
+        "permanent": "1",
+        "semantics": { "radius_float": "0", "stack_count_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Laibonite Discipline",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "blockchance_ifcanblock_flat",
+        "description": "+5.0 Block Chance",
+        "permanent": "1",
+        "semantics": { "chance_flat_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Holy Gift",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "healthglobe_drop_chance_on_hit",
+        "description": "+5.0 Health Globe Generation",
+        "permanent": "1",
+        "semantics": { "chance_flat_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Divine Alms",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "healing_from_globes_bonus_percent",
+        "description": "+10.0% Healing from Health Globes",
+        "permanent": "1",
+        "semantics": { "healing_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Blessed Manna",
+    "category": "melee",
+    "description": "Health globes will now offer increased resistances for a short time as well as heal you.",
+    "lore": "<font color=\"#c5b14d\"><i>\"The bounty of our holy ruler was limitless. No-one went hungry and the silos were full. When his divine inspiration departed, so too did our resources. Now that we are at our most desperate, it's a small miracle that we survive at all.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Mah'alam, fifth shield of the Kingless</b></font>\\n_________________________________________________________   \\n<font color=\"#c5b14d\">The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became \"The Kingless\", training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.</font>",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "defense_up_on_globe_pickup",
+        "description": "+40% All Resistances for you and your allies after picking up a health globe",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "40" }
+      }
+    ]
+  },
+  {
+    "name": "One Man Crusade",
+    "category": "melee",
+    "description": "",
+    "lore": "",
+    "sectionName": "Praetorian",
+    "sectionCategory": "melee",
+    "sectionID": "Tank",
+    "modifiers": [
+      {
+        "id": "damage_percent_attack",
+        "description": "+5% Attack Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "5" }
+      },
+      {
+        "id": "criticaldamage_pts",
+        "description": "+20% Critical Hit Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Spellslinger",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+10% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Hyper Self-Awareness",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "forceshield_regeneration_percent",
+        "description": "+75.0% Force Shield Regeneration Rate",
+        "permanent": "1",
+        "semantics": { "defense_regeneration_percent_float": "75" }
+      }
+    ]
+  },
+  {
+    "name": "Duty to Exterminate",
+    "category": "magic",
+    "description": "Increased maximum Rage and Willpower, allowing you to cast more spells and attack skills.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Gomora is overrun with cultists; filthy, scheming rodents who exist solely to do harm unto others. However, with so many of them in one place, killing them becomes sport.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Kardis, The Blackstaff</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.</font>",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "resource_points",
+        "description": "+200 Max Willpower and Rage",
+        "permanent": "1",
+        "semantics": { "resource_flat_int": "200" }
+      }
+    ]
+  },
+  {
+    "name": "Twisted Obligation",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "resource_points",
+        "description": "+100 Max Willpower and Rage",
+        "permanent": "1",
+        "semantics": { "resource_flat_int": "100" }
+      }
+    ]
+  },
+  {
+    "name": "Twisted Obligation",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "resource_points",
+        "description": "+100 Max Willpower and Rage",
+        "permanent": "1",
+        "semantics": { "resource_flat_int": "100" }
+      }
+    ]
+  },
+  {
+    "name": "Elemental Manipulation",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "elemental_damage_percent",
+        "description": "+20% Elemental Damage ",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Witchcraft Adept",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "occult_damage_percent",
+        "description": "+20% Occult Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Residual Energy",
+    "category": "magic",
+    "description": "Casting an spell empowers your next attacks with additional damage of the spell's type for a short period of time.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Magic is unpredictable. Taking the energy of a Fallen is imprecise and it can escape your body unexpectedly. Weaker cultists often struggle with this; they bite off more they can chew and are consumed by their own magic.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Kardis, The Blackstaff</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.</font>",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "attack_damage_bonus_from_last_spell",
+        "description": "Attacks gain +30.0% damage from the last spell cast. The type of damage is the same as the spell's damage",
+        "permanent": "1",
+        "semantics": {
+          "damage_percent_float": "30",
+          "duration_float_max_combined": "5"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Self-Preservation Instinct",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "forceshield_regeneration_percent",
+        "description": "+40.0% Force Shield Regeneration Rate",
+        "permanent": "1",
+        "semantics": { "defense_regeneration_percent_float": "40" }
+      },
+      {
+        "id": "forceshield_lock_timer_percent",
+        "description": "+10.0% Force Shield Regeneration Delay Reduction",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Dominator",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "umbra_on_hit_pts",
+        "description": "+20.0 Willpower on Hit",
+        "permanent": "1",
+        "semantics": { "resource_flat_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Sharp Insight",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Sharp Insight",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Sharp Insight",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "forceshield_percent",
+        "description": "+20.0% Force Shield",
+        "permanent": "1",
+        "semantics": { "armor_percent_float": "20" }
+      }
+    ]
+  },
+  {
+    "name": "Focused",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "willpower_pts",
+        "description": "+25 Wisdom",
+        "permanent": "1",
+        "semantics": { "attribute_flat_int": "25" }
+      }
+    ]
+  },
+  {
+    "name": "Strike like Lightning",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "movespeed",
+        "description": "+5% Movespeed",
+        "permanent": "1",
+        "semantics": { "speed_percent_int": "5" }
+      },
+      {
+        "id": "attackspeed_score_percent",
+        "description": "+5% Attack Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      },
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+5% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Magical Mastery",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+15% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Magical Mastery",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+15% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Magical Mastery",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "damage_percent_spell",
+        "description": "+15% Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_int": "15" }
+      }
+    ]
+  },
+  {
+    "name": "Reining In the Darkness",
+    "category": "magic",
+    "description": "Spells are more likely to deal critical damage when above a certain threshold of Willpower.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Be careful, they say. Be careful, for when you gaze into the abyss, it gazes right back at you. The line sometimes gets blurred: am I surrounded by darkness? Or am I the darkness?\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Kardis, The Blackstaff</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.</font>",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "criticalscore_percent_spell_when_above_ceil",
+        "description": "+100% Spells Critical Hit Chance Score while willpower is above ?",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "100" }
+      }
+    ]
+  },
+  {
+    "name": "Dark Calling",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "umbra_regen_percent",
+        "description": "+10.0% Willpower Regeneration",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Self-Restraint",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "umbracosts_percent",
+        "description": "+5.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Self-Restraint",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "umbracosts_percent",
+        "description": "+5.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      }
+    ]
+  },
+  {
+    "name": "Impatient",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "forceshield_lock_timer_percent",
+        "description": "+10.0% Force Shield Regeneration Delay Reduction",
+        "permanent": "1",
+        "semantics": { "duration_percent_float": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Resilience to Corruption",
+    "category": "magic",
+    "description": "When you are afflicted with damage over time, ailment damage affects your Force Shield before your Health.",
+    "lore": "<font color=\"#c5b14d\"><i>\"Morality will get you killed in Gomora. No-one is \"good\", there is only power. Here, you are measured by the strength of your conviction alone.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Kardis, The Blackstaff</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.</font>",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "dots_to_shield",
+        "description": "Damage Over Time is dealt to your Force Shield before your Health",
+        "permanent": "1",
+        "semantics": { "possibility_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Ancient Trinket",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "statusailment_resist_score_percent",
+        "description": "+10% Status Ailment Resistance Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Strong-Willed",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "all_resistance_score_percent",
+        "description": "+10% to All Resistances Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      }
+    ]
+  },
+  {
+    "name": "Ravenous Magic",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "life_leech_percent_spell",
+        "description": "+2.0% Life Leech from Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Ravenous Magic",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "life_leech_percent_spell",
+        "description": "+2.0% Life Leech from Spell Damage",
+        "permanent": "1",
+        "semantics": { "damage_percent_float": "2" }
+      }
+    ]
+  },
+  {
+    "name": "Faith Leech",
+    "category": "magic",
+    "description": "Dealing damage will now allow you to recover Force Shield instead of Health with Life Leech.",
+    "lore": "<font color=\"#c5b14d\"><i>\"When these mongrels are cut off from the power of their master, their world is turned upside down. Alone, powerless, frightened. But unlike orphans, they deserve no mercy. None at all.\"</i></font>\\n\\n<font size=\"24\" color=\"#c5b14d\"><b>Kardis, The Blackstaff</b></font>\\n_________________________________________________________   \\n\n<font color=\"#c5b14d\">There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.</font>",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "lifeleech_toshields",
+        "description": "Life Leech affects Force Shield instead of Health",
+        "permanent": "1",
+        "semantics": { "possibility_int": "1" }
+      }
+    ]
+  },
+  {
+    "name": "Unholy Dominion",
+    "category": "magic",
+    "description": "",
+    "lore": "",
+    "sectionName": "Warlock",
+    "sectionCategory": "magic",
+    "sectionID": "Master",
+    "modifiers": [
+      {
+        "id": "spellcastingspeed_score_percent",
+        "description": "+10% Spell Casting Speed Score",
+        "permanent": "1",
+        "semantics": { "characteristic_score_percent_int": "10" }
+      },
+      {
+        "id": "umbracosts_percent",
+        "description": "+5.0% Willpower Cost Reduction",
+        "permanent": "1",
+        "semantics": { "resource_percent_float": "5" }
+      }
+    ]
+  }
+]

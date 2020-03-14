@@ -1,0 +1,2566 @@
+[
+  {
+    "key": "KEY",
+    "value": "ORIGINAL TEXT"
+  },
+  {
+    "key": "ui_UnitSymbols_Seconds",
+    "value": "s"
+  },
+  {
+    "key": "ui_UnitSymbols_Meter",
+    "value": "m"
+  },
+  {
+    "key": "ui_eim_ailment_stacks_multiplier_chance",
+    "value": "%1 Chance to multiply the number of Ailment Stacks"
+  },
+  {
+    "key": "ui_eim_additional_ailment_stacks",
+    "value": "%1 Ailment Stack(s) inflicted"
+  },
+  {
+    "key": "ui_eim_additional_ailment_rolls",
+    "value": "Can now apply %1 Additional Ailment(s)"
+  },
+  {
+    "key": "ui_eim_additional_projectile",
+    "value": "%1 Projectile(s) to all Projectile Skills (Attacks and Spells)"
+  },
+  {
+    "key": "ui_eim_additional_stacks_chance_pts",
+    "value": "%1 Chance to double the number of Ailment Stacks inflicted"
+  },
+  {
+    "key": "ui_eim_additional_stamina_pts",
+    "value": "%1 Stamina Point"
+  },
+  {
+    "key": "ui_eim_agility_pts",
+    "value": "%1 Agility"
+  },
+  {
+    "key": "ui_eim_ailment_damage_resistance_percent",
+    "value": "%1 Ailment Damage Resistance"
+  },
+  {
+    "key": "ui_eim_ailment_stacks_multiplier",
+    "value": "%1 Chance to multiply the number of Ailment Stacks inflicted by %2"
+  },
+  {
+    "key": "ui_eim_ailment_stacks_multiplier_increase",
+    "value": "%1 Chance to multiply the number of Ailment Stacks inflicted"
+  },
+  {
+    "key": "ui_eim_anystack_duration_percent",
+    "value": "%1 Ailment Stack Duration"
+  },
+  {
+    "key": "ui_eim_all_attribute_pts",
+    "value": "%1 to All Attributes"
+  },
+  {
+    "key": "ui_eim_all_resistance",
+    "value": "%1 to All Resistances Score"
+  },
+  {
+    "key": "ui_eim_all_resistance_final_percent",
+    "value": "%1 to All Resistances"
+  },
+  {
+    "key": "ui_eim_all_resistance_percent",
+    "value": "%1 to All Resistances Score"
+  },
+  {
+    "key": "ui_eim_all_resistance_score_percent",
+    "value": "%1 to All Resistances Score"
+  },
+  {
+    "key": "ui_eim_anystack_duration_increase",
+    "value": "%1 Ailment Stack Duration"
+  },
+  {
+    "key": "ui_eim_attack_damage_bonus_from_last_spell",
+    "value": "Attacks gain %1 Damage from the last Spell Cast. The Damage Type is the same as the last Spell Cast"
+  },
+  {
+    "key": "ui_eim_attackspeed_final_percent",
+    "value": "%1 Attack Speed"
+  },
+  {
+    "key": "ui_eim_attackspeed_score",
+    "value": "%1 Attack Speed Score"
+  },
+  {
+    "key": "ui_eim_attackspeed_score_percent",
+    "value": "%1 Attack Speed Score"
+  },
+  {
+    "key": "ui_eim_autodash_cdr_percent",
+    "value": "%1 Dash Attack Cooldown decrease"
+  },
+  {
+    "key": "ui_eim_autodash_range_flat",
+    "value": "%1m Dash Attack Range"
+  },
+  {
+    "key": "ui_eim_autopierce_radius",
+    "value": "%1m of All Projectiles Pierce Range"
+  },
+  {
+    "key": "ui_eim_autopierce_radius_detail",
+    "value": "All Projectiles pierce every Target within a %1m radius"
+  },
+  {
+    "key": "ui_eim_bleed_on_hit_percent",
+    "value": "%1 Bleed Chance Score when dealing all Damage Types"
+  },
+  {
+    "key": "ui_eim_bleedchance_on_rend_damage_score_percent",
+    "value": "%1 Bleed Chance Score when dealing Rend Damage"
+  },
+  {
+    "key": "ui_eim_blockchance_ifcanblock_flat",
+    "value": "%1 Block Chance"
+  },
+  {
+    "key": "ui_eim_blockchance_unconditional_flat",
+    "value": "%1 Added Block Chance and allow any weapon to block"
+  },
+  {
+    "key": "ui_eim_blockefficiency_percent",
+    "value": "%1 Block Efficiency"
+  },
+  {
+    "key": "ui_eim_burn_on_hit_percent",
+    "value": "%1 Burn Chance Score when dealing all Damage Types"
+  },
+  {
+    "key": "ui_eim_burnchance_on_fire_damage_score_flat",
+    "value": "%1 Burn Chance Score when dealing Fire Damage"
+  },
+  {
+    "key": "ui_eim_burnchance_on_fire_damage_score_percent",
+    "value": "%1 Burn Chance Score when dealing Fire Damage"
+  },
+  {
+    "key": "ui_eim_can_cast_arrowsrain",
+    "value": "Allows the Bearer to Cast Wailing Arrows"
+  },
+  {
+    "key": "ui_eim_can_cast_bladeslinger",
+    "value": "Allows the Bearer to Cast Phantom Blades"
+  },
+  {
+    "key": "ui_eim_can_cast_bomb",
+    "value": "Allows the Bearer to Cast Havoc Orb"
+  },
+  {
+    "key": "ui_eim_can_cast_brutalstrike",
+    "value": "Allows the Bearer to Cast Anvil's Woe"
+  },
+  {
+    "key": "ui_eim_can_cast_bullseye",
+    "value": "Allows the Bearer to Cast Gunslinger's Brand"
+  },
+  {
+    "key": "ui_eim_can_cast_chainlightning",
+    "value": "Allows the Bearer to Cast Thunderstrike"
+  },
+  {
+    "key": "ui_eim_can_cast_charge",
+    "value": "Allows the Bearer to Cast Warpath"
+  },
+  {
+    "key": "ui_eim_can_cast_deathmark",
+    "value": "Allows the Bearer to Cast Mark of Impurity"
+  },
+  {
+    "key": "ui_eim_can_cast_dualstrike",
+    "value": "Allows the Bearer to Cast Slayer's Flurry"
+  },
+  {
+    "key": "ui_eim_can_cast_fireball",
+    "value": "Allows the Bearer to Cast Consuming Embers"
+  },
+  {
+    "key": "ui_eim_can_cast_frostcomet",
+    "value": "Allows the Bearer to Cast Tear of Etheliel"
+  },
+  {
+    "key": "ui_eim_can_cast_frostlance",
+    "value": "Allows the Bearer to Cast Arctic Spear"
+  },
+  {
+    "key": "ui_eim_can_cast_frostnova",
+    "value": "Allows the Bearer to Cast Winter's Grasp"
+  },
+  {
+    "key": "ui_eim_can_cast_hook",
+    "value": "Allows the Bearer to Cast Tracker's Reach"
+  },
+  {
+    "key": "ui_eim_can_cast_laceration",
+    "value": "Allows the Bearer to Cast Bleeding Edge"
+  },
+  {
+    "key": "ui_eim_can_cast_laser",
+    "value": "Allows the Bearer to Cast Annihilation"
+  },
+  {
+    "key": "ui_eim_can_cast_leap",
+    "value": "Allows the Bearer to Cast Wings of Ishmir"
+  },
+  {
+    "key": "ui_eim_can_cast_reave",
+    "value": "Allows the Bearer to Cast Wrath of Baäpheth"
+  },
+  {
+    "key": "ui_eim_can_cast_sacredground",
+    "value": "Allows the Bearer to Cast Bulwark of Dawn"
+  },
+  {
+    "key": "ui_eim_can_cast_spreadshot",
+    "value": "Allows the Bearer to Cast Stings of Krearion"
+  },
+  {
+    "key": "ui_eim_can_cast_teleport",
+    "value": "Allows the Bearer to Cast Aether Jump"
+  },
+  {
+    "key": "ui_eim_can_cast_turret",
+    "value": "Allows the Bearer to Cast 'Avenger' Autoturret"
+  },
+  {
+    "key": "ui_eim_can_cast_warcry",
+    "value": "Allows the Bearer to Cast Sovereign Shout"
+  },
+  {
+    "key": "ui_eim_can_cast_whirlwind",
+    "value": "Allows the Bearer to Cast Bladestorm"
+  },
+  {
+    "key": "ui_eim_can_cast_aetherblade",
+    "value": "Allows the Bearer to Cast Infinity Blades"
+  },
+  {
+    "key": "ui_eim_can_cast_aetherblast",
+    "value": "Allows the Bearer to Cast Eclipse"
+  },
+  {
+    "key": "ui_eim_can_cast_corpse_explosion",
+    "value": "Allows the Bearer to Cast Plagueburst"
+  },
+  {
+    "key": "ui_eim_can_cast_hammer",
+    "value": "Allows the Bearer to Cast Flight of Gaavanir"
+  },
+  {
+    "key": "ui_eim_can_cast_holydive",
+    "value": "Allows the Bearer to Cast Light-bringer"
+  },
+  {
+    "key": "ui_eim_can_cast_ironguard",
+    "value": "Allows the Bearer to Cast Juggernaut"
+  },
+  {
+    "key": "ui_eim_can_cast_possession",
+    "value": "Allows the Bearer to Cast Parasite"
+  },
+  {
+    "key": "ui_eim_can_cast_ringofpain",
+    "value": "Allows the Bearer to Cast Blood for Blood"
+  },
+  {
+    "key": "ui_eim_can_cast_smokebomb",
+    "value": "Allows the Bearer to Cast Duskshroud"
+  },
+  {
+    "key": "ui_eim_can_cast_sniper",
+    "value": "Allows the Bearer to Cast “Deathgazer” Railgun"
+  },
+  {
+    "key": "ui_eim_can_cast_solarfall",
+    "value": "Allows the Bearer to Cast Solarfall"
+  },
+  {
+    "key": "ui_eim_can_cast_summon_champion",
+    "value": "Allows the Bearer to Cast Livor Mortis"
+  },
+  {
+    "key": "ui_eim_can_cast_summon_melee",
+    "value": "Allows the Bearer to Cast Feeding Swarm"
+  },
+  {
+    "key": "ui_eim_can_cast_summon_ranged",
+    "value": "Allows the Bearer to Cast Hunting Swarm"
+  },
+  {
+    "key": "ui_eim_can_cast_vault",
+    "value": "Allows the Bearer to Cast Evasion"
+  },
+  {
+    "key": "ui_eim_can_cast_vortex",
+    "value": "Allows the Bearer to Cast Anomaly"
+  },
+  {
+    "key": "ui_eim_can_not_dodge",
+    "value": "You are unable to Passive Dodge"
+  },
+  {
+    "key": "ui_eim_canrollthroughennemies",
+    "value": "Active dodge can go through Enemies"
+  },
+  {
+    "key": "ui_eim_cc_immunity",
+    "value": "Crowd Control Immunity"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_frost",
+    "value": "%1 Fire Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_lightning",
+    "value": "%1 Fire Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_physical",
+    "value": "%1 Fire Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_rend",
+    "value": "%1 Fire Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_sacred",
+    "value": "%1 Fire Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_shadow",
+    "value": "%1 Fire Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_toxic",
+    "value": "%1 Fire Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_fire_to_umbra",
+    "value": "%1 Fire Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_fire",
+    "value": "%1 Frost Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_lightning",
+    "value": "%1 Frost Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_physical",
+    "value": "%1 Frost Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_rend",
+    "value": "%1 Frost Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_sacred",
+    "value": "%1 Frost Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_shadow",
+    "value": "%1 Frost Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_toxic",
+    "value": "%1 Frost Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_frost_to_umbra",
+    "value": "%1 Frost Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_fire",
+    "value": "%1 Lightning Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_frost",
+    "value": "%1 Lightning Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_physical",
+    "value": "%1 Lightning Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_rebd",
+    "value": "%1 Lightning Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_sacred",
+    "value": "%1 Lightning Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_shadow",
+    "value": "%1 Lightning Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_toxic",
+    "value": "%1 Lightning Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_lightning_to_umbra",
+    "value": "%1 Lightning Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_physcial_to_frost",
+    "value": "%1 Physical Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_fire",
+    "value": "%1 Physical Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_lightning",
+    "value": "%1 Physical Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_rend",
+    "value": "%1 Physical Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_sacred",
+    "value": "%1 Physical Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_shadow",
+    "value": "%1 Physical Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_toxic",
+    "value": "%1 Physical Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_physical_to_umbra",
+    "value": "%1 Physical Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_fire",
+    "value": "%1 Rend Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_frost",
+    "value": "%1 Rend Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_lightning",
+    "value": "%1 Rend Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_physical",
+    "value": "%1 Rend Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_sacred",
+    "value": "%1 Rend Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_shadow",
+    "value": "%1 Rend Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_toxic",
+    "value": "%1 Rend Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_rend_to_umbra",
+    "value": "%1 Rend Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_fire",
+    "value": "%1 Sacred Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_frost",
+    "value": "%1 Sacred Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_lightning",
+    "value": "%1 Sacred Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_physical",
+    "value": "%1 Sacred Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_rend",
+    "value": "%1 Sacred Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_shadow",
+    "value": "%1 Sacred Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_toxic",
+    "value": "%1 Sacred Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_sacred_to_umbra",
+    "value": "%1 Sacred Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_fire",
+    "value": "%1 Shadow Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_frost",
+    "value": "%1 Shadow Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_lightning",
+    "value": "%1 Shadow Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_physical",
+    "value": "%1 Shadow Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_rend",
+    "value": "%1 Shadow Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_sacred",
+    "value": "%1 Shadow Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_toxic",
+    "value": "%1 Shadow Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_shadow_to_umbra",
+    "value": "%1 Shadow Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_fire",
+    "value": "%1 Toxic Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_frost",
+    "value": "%1 Toxic Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_lightning",
+    "value": "%1 Toxic Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_physical",
+    "value": "%1 Toxic Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_rend",
+    "value": "%1 Toxic Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_sacred",
+    "value": "%1 Toxic Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_shadow",
+    "value": "%1 Toxic Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_convert_toxic_to_umbra",
+    "value": "%1 Toxic Damage converted into Aether Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_fire",
+    "value": "%1 Aether Damage converted into Fire Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_frost",
+    "value": "%1 Aether Damage converted into Frost Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_lightning",
+    "value": "%1 Aether Damage converted into Lightning Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_physical",
+    "value": "%1 Aether Damage converted into Physical Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_poison",
+    "value": "%1 Aether Damage converted into Toxic Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_rend",
+    "value": "%1 Aether Damage converted into Rend Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_sacred",
+    "value": "%1 Aether Damage converted into Sacred Damage"
+  },
+  {
+    "key": "ui_eim_convert_umbra_to_shadow",
+    "value": "%1 Aether Damage converted into Shadow Damage"
+  },
+  {
+    "key": "ui_eim_critchance_doubled_on_dash",
+    "value": "The Critical Chance of a Dash Attack is doubled"
+  },
+  {
+    "key": "ui_eim_critical_damage_resistance_percent",
+    "value": "%1 Critical Damage Resistance"
+  },
+  {
+    "key": "ui_eim_criticalchance_attackskill_score_percent",
+    "value": "%1 Attack Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_attackskill_final_percent",
+    "value": "%1 Attack Critical Chance"
+  },
+  {
+    "key": "ui_eim_criticalchance_attackskill_score",
+    "value": "%1 Attack Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_final_percent",
+    "value": "%1 Critical Chance"
+  },
+  {
+    "key": "ui_eim_criticalchance_magicspell_final_percent",
+    "value": "%1 Spell Critical Chance"
+  },
+  {
+    "key": "ui_eim_criticalchance_magicspell_score",
+    "value": "%1 Spell Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_magicspell_score_percent",
+    "value": "%1 Spell Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_on_ailment_final_percent",
+    "value": "%1 Ailment Critical Chance"
+  },
+  {
+    "key": "ui_eim_criticalchance_on_ailment_score",
+    "value": "%1 Ailment Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_on_ailment_score_percent",
+    "value": "%1 Ailment Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_projectiles_final_percent",
+    "value": "%1 All Projectiles Critical Chance"
+  },
+  {
+    "key": "ui_eim_criticalchance_projectiles_score",
+    "value": "%1 All Projectiles Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_projectiles_score_percent",
+    "value": "%1 All Projectiles Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_score",
+    "value": "%1 Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticalchance_score_percent",
+    "value": "%1 Critical Chance Score"
+  },
+  {
+    "key": "ui_eim_criticaldamage_attackskill_pts",
+    "value": "%1 Attacks Critical Damage"
+  },
+  {
+    "key": "ui_eim_criticaldamage_magicspell_pts",
+    "value": "%1 Spells Critical Damage"
+  },
+  {
+    "key": "ui_eim_criticaldamage_on_ailment_pts",
+    "value": "%1 Critical Damage dealt to Enemies afflicted with Ailments"
+  },
+  {
+    "key": "ui_eim_criticaldamage_on_dots",
+    "value": "Damage-Over-Time triggered with a Critical Hit deals Critical Damage"
+  },
+  {
+    "key": "ui_eim_criticaldamage_projectiles_pts",
+    "value": "%1 All Projectiles Critical Damage"
+  },
+  {
+    "key": "ui_eim_criticaldamage_pts",
+    "value": "%1 Critical Damage"
+  },
+  {
+    "key": "ui_eim_criticaldamage_received_percent_increase",
+    "value": "%1 Critical Damage Received"
+  },
+  {
+    "key": "ui_eim_criticalscore_percent_lightning_damage",
+    "value": "%1 Critical Chance Score when dealing Lightning Damage"
+  },
+  {
+    "key": "ui_eim_criticalscore_percent_spell_when_above_ceil",
+    "value": "%1 Spells Critical Chance Score while willpower is above %2"
+  },
+  {
+    "key": "ui_eim_crowd_control_duration_percent",
+    "value": "%1 Duration of Crowd Control effects received"
+  },
+  {
+    "key": "ui_eim_curse_on_hit_percent",
+    "value": "%1 Curse Chance on Hit"
+  },
+  {
+    "key": "ui_eim_curesechance_on_shadow_damage_score_percent",
+    "value": "%1 Curse Chance Score when dealing Shadow Damage"
+  },
+  {
+    "key": "ui_eim_curse_on_dash",
+    "value": "Dash Attacks inflict the Curse Ailments"
+  },
+  {
+    "key": "ui_eim_damage_from_physical_resistance",
+    "value": "%1 Damage per percent of Physical Resistance"
+  },
+  {
+    "key": "ui_eim_damage_percent",
+    "value": "%1 Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_against_burning",
+    "value": "%1 Additional Damage against Burning Targets"
+  },
+  {
+    "key": "ui_eim_damage_percent_against_frozen",
+    "value": "%1 Additional Damage against Frozen Targets"
+  },
+  {
+    "key": "ui_eim_damage_percent_any_weapon",
+    "value": "%1 Attack Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_fire",
+    "value": "%1 additional Damage dealt as Fire Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_frost",
+    "value": "%1 additional Damage dealt as Frost Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_lightning",
+    "value": "%1 additional Damage dealt as Lightning Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_physical",
+    "value": "%1 additional Damage dealt as Physical Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_rend",
+    "value": "%1 additional Damage dealt as Rend Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_sacred",
+    "value": "%1 additional Damage dealt as Sacred Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_shadow",
+    "value": "%1 additional Damage dealt as Shadow Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_toxic",
+    "value": "%1 additional Damage dealt as Toxic Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_as_umbra",
+    "value": "%1 additional Damage dealt as Aether Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_attack",
+    "value": "%1 Attack Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_full_stamina",
+    "value": "%1 Damage when Stamina Points are full"
+  },
+  {
+    "key": "ui_eim_damage_percent_melee_weapon",
+    "value": "%1 Melee Weapon Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_if_only_one_nearby_enemy",
+    "value": "%1 Damage when only one Enemy is within a %2m Radius"
+  },
+  {
+    "key": "ui_eim_damage_percent_if_only_one_nearby_enemy_damage",
+    "value": "%1 Damage when only one Enemy is considered Nearby"
+  },
+  {
+    "key": "ui_eim_damage_percent_if_only_one_nearby_enemy_range",
+    "value": "%2m Radius for the increase in Damage when only one Enemy is considered Nearby"
+  },
+  {
+    "key": "ui_eim_damage_percent_impaired",
+    "value": "%1 Damage to Enemies with Impaired Movement"
+  },
+  {
+    "key": "ui_eim_damage_percent_per_enemy_ailment_stack_on_target_kill",
+    "value": "Killing an Enemy grants %1 Damage as corresponding Damage Type for each Ailment Stack on that Enemy (up to %2 Stacks per Damage Type)"
+  },
+  {
+    "key": "ui_eim_damage_percent_per_enemy_in_range",
+    "value": "%1 Damage for each Nearby enemy within a %3m Radius"
+  },
+  {
+    "key": "ui_eim_damage_percent_per_enemy_in_range_damage",
+    "value": "%1 Damage for each Nearby enemy"
+  },
+  {
+    "key": "ui_eim_damage_percent_per_enemy_in_range_range",
+    "value": "%3m Radius for Enemies to be considered Nearby"
+  },
+  {
+    "key": "ui_eim_damage_percent_per_missing_stamina",
+    "value": "%1 Damage per missing Stamina Point"
+  },
+  {
+    "key": "ui_eim_damage_percent_per_rage_point",
+    "value": "%1 Damage per 100 unconsumed Rage Points"
+  },
+  {
+    "key": "ui_eim_damage_percent_projectiles",
+    "value": "%1 All Projectiles Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_ranged_weapon",
+    "value": "%1 Ranged Weapon Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_spell",
+    "value": "%1 Spell Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_twohanded",
+    "value": "%1 Two Handed Weapon Damage"
+  },
+  {
+    "key": "ui_eim_damage_percent_while_nobody_close",
+    "value": "%1 Damage when Enemies are not within a %2m Radius"
+  },
+  {
+    "key": "ui_eim_damage_percent_while_nobody_close_damage",
+    "value": "%1 Damage when Enemies are considered Far-Away"
+  },
+  {
+    "key": "ui_eim_damage_percent_while_nobody_close_range",
+    "value": "%2m Radius for enemies to be considered Far-Away"
+  },
+  {
+    "key": "ui_eim_damage_ranged_weapon",
+    "value": "%1 Ranged Weapon Damage"
+  },
+  {
+    "key": "ui_eim_damage_reduction_on_full_force_shield",
+    "value": "%1 decrease to Damage received when Force Shield is full"
+  },
+  {
+    "key": "ui_eim_dash_cooldown_on_kill",
+    "value": "%1 Dash Cooldown decrease"
+  },
+  {
+    "key": "ui_eim_deathmark_on_hit",
+    "value": "%1 Chance to infilct Mark of Impurity to an Enemy when they are Hit"
+  },
+  {
+    "key": "ui_eim_defense_up_on_block",
+    "value": "%1 All Resistances Score for you and your Allies after a Hit is Blocked"
+  },
+  {
+    "key": "ui_eim_defense_up_on_globe_pickup",
+    "value": "%1 All Resistances Score for you and your Allies after a Health Globe is picked up"
+  },
+  {
+    "key": "ui_eim_dodgechance_on_being_hit",
+    "value": "%1 Passive Dodge Chance Score after being Hit"
+  },
+  {
+    "key": "ui_eim_dodgechance_score",
+    "value": "%1 Passive Dodge Chance Score"
+  },
+  {
+    "key": "ui_eim_dodgechance_score_percent",
+    "value": "%1 Passive Dodge Chance Score"
+  },
+  {
+    "key": "ui_eim_dodgechance_score_to_allres_score",
+    "value": "%1 of Passive Dodge Chance Score is converted to All Resistances Score"
+  },
+  {
+    "key": "ui_eim_dodgechance_final_percent",
+    "value": "%1 Passive Dodge Chance"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_bleed",
+    "value": "%1 Bleed Ailment Damage"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_burn",
+    "value": "%1 Burn Ailment Damage"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_global",
+    "value": "%1 Ailment Damage"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_per_wisdom_point",
+    "value": "%1 Ailment Damage per Wisdom Point (up to %2)"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_poison",
+    "value": "%1 Poison Ailment Damage"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_received_increase",
+    "value": "%1 Ailment Damage Received"
+  },
+  {
+    "key": "ui_eim_dotdamage_percent_shock",
+    "value": "%1 Shock Ailment Damage"
+  },
+  {
+    "key": "ui_eim_dots_to_shield",
+    "value": "Damage-Over-Time is dealt to your Force Shield before your Health"
+  },
+  {
+    "key": "ui_eim_elemental_cycling_percent",
+    "value": "%1 Elemental Damage on the next Elemental Spell you Cast if the preceding Elemental Spell Cast had a different base Element"
+  },
+  {
+    "key": "ui_eim_elemental_damage_percent",
+    "value": "%1 Elemental Damage"
+  },
+  {
+    "key": "ui_eim_elemental_resistance",
+    "value": "%1 Elemental Resistance Score"
+  },
+  {
+    "key": "ui_eim_elemental_resistance_final_percent",
+    "value": "%1 Elemental Resistance"
+  },
+  {
+    "key": "ui_eim_elemental_resistance_percent",
+    "value": "%1 Elemental Resistance Score"
+  },
+  {
+    "key": "ui_eim_elemental_resistance_score_percent",
+    "value": "%1 Elemental Resistance Score"
+  },
+  {
+    "key": "ui_eim_elemental_protection",
+    "value": "%1 Elemental Protection"
+  },
+  {
+    "key": "ui_eim_elemental_stacks_to_shock",
+    "value": "Freeze and Burn Chance become Shock Chance"
+  },
+  {
+    "key": "ui_eim_ferocity_pts",
+    "value": "%1 Ferocity"
+  },
+  {
+    "key": "ui_eim_fire_damage_percent",
+    "value": "%1 Fire Damage"
+  },
+  {
+    "key": "ui_eim_fire_damage_percent_spell",
+    "value": "%1 Fire Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_fire_damage_percent_weapon",
+    "value": "%1 Fire Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_fire_damage_spell",
+    "value": "%1-%2 Fire Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_fire_damage_weapon",
+    "value": "%1-%2 Fire Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_fire_protection",
+    "value": "%1 Fire Protection"
+  },
+  {
+    "key": "ui_eim_fire_resistance",
+    "value": "%1 Fire Resistance Score"
+  },
+  {
+    "key": "ui_eim_fire_resistance_final_percent",
+    "value": "%1 Fire Resistance"
+  },
+  {
+    "key": "ui_eim_fire_resistance_percent",
+    "value": "%1 Fire Resistance Score"
+  },
+  {
+    "key": "ui_eim_fire_resistance_score_percent",
+    "value": "%1 Fire Resistance Score"
+  },
+  {
+    "key": "ui_eim_forceshield_lock_timer_percent",
+    "value": "%1 Force Shield Regeneration Delay decrease"
+  },
+  {
+    "key": "ui_eim_forceshield_percent",
+    "value": "%1 Force Shield"
+  },
+  {
+    "key": "ui_eim_forceshield_pts",
+    "value": "%1 Force Shield"
+  },
+  {
+    "key": "ui_eim_forceshield_regeneration_flat",
+    "value": "%1 Force Shield Regeneration Rate"
+  },
+  {
+    "key": "ui_eim_forceshield_regeneration_percent",
+    "value": "%1 Force Shield Regeneration Rate"
+  },
+  {
+    "key": "ui_eim_forceshield_to_life",
+    "value": "Convert Force Shield into Health"
+  },
+  {
+    "key": "ui_eim_freeze_on_hit_percent",
+    "value": "%1 Freeze Chance when dealing any Damage Type"
+  },
+  {
+    "key": "ui_eim_freeze_received_duration_percent_bonus",
+    "value": "When you are Frozen, its Duration increases by %1s"
+  },
+  {
+    "key": "ui_eim_freezechance_on_frost_damage_score_flat",
+    "value": "%1 Freeze Chance Score when dealing Frost Damage"
+  },
+  {
+    "key": "ui_eim_freezechance_on_frost_damage_score_percent",
+    "value": "%1 Freeze Chance Score when dealing Frost Damage"
+  },
+  {
+    "key": "ui_eim_frost_damage_percent",
+    "value": "%1 Frost Damage"
+  },
+  {
+    "key": "ui_eim_frost_damage_percent_spell",
+    "value": "%1 Frost Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_frost_damage_percent_weapon",
+    "value": "%1 Frost Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_frost_damage_spell",
+    "value": "%1-%2 Frost Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_frost_damage_weapon",
+    "value": "%1-%2 Frost Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_frost_protection",
+    "value": "%1 Frost Protection"
+  },
+  {
+    "key": "ui_eim_frost_resistance",
+    "value": "%1 Frost Resistance Score"
+  },
+  {
+    "key": "ui_eim_frost_resistance_final_percent",
+    "value": "%1 Frost Resistance"
+  },
+  {
+    "key": "ui_eim_frost_resistance_percent",
+    "value": "%1 Frost Resistance Score"
+  },
+  {
+    "key": "ui_eim_frost_resistance_score_percent",
+    "value": "%1 Frost Resistance Score"
+  },
+  {
+    "key": "ui_eim_globes_pickup_radius",
+    "value": "%1 Radius for picking up Health Globes"
+  },
+  {
+    "key": "ui_eim_healing_from_globes_bonus_percent",
+    "value": "%1 Healing received from Health Globes"
+  },
+  {
+    "key": "ui_eim_healing_from_spells_percent",
+    "value": "%1 Healing received from Spells"
+  },
+  {
+    "key": "ui_eim_health_gain_on_spent_rage",
+    "value": "%1 Health regenerated per Rage Point consumed"
+  },
+  {
+    "key": "ui_eim_health_percent",
+    "value": "%1 Maximum Health"
+  },
+  {
+    "key": "ui_eim_health_pts",
+    "value": "%1 Maximum Health"
+  },
+  {
+    "key": "ui_eim_health_regen_frequency",
+    "value": "%1 Health Regeneration Rate"
+  },
+  {
+    "key": "ui_eim_health_regen_on_low_health",
+    "value": "When under %2 of Maximum Health, trigger a burst of Health Regeneration"
+  },
+  {
+    "key": "ui_eim_health_regen_percent",
+    "value": "%1 Health Regeneration"
+  },
+  {
+    "key": "ui_eim_health_regen_pts",
+    "value": "%1 Health Regeneration"
+  },
+  {
+    "key": "ui_eim_health_regen_true_percent",
+    "value": "%1 Health Regeneration"
+  },
+  {
+    "key": "ui_eim_healthglobe_drop_chance_on_hit",
+    "value": "%1 Health Globe Generation"
+  },
+  {
+    "key": "ui_eim_item_quantity_find",
+    "value": "%1 Item Quantity"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_against_burning",
+    "value": "%1 Life Leech on Burning Target"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_against_frozen",
+    "value": "%1 Life Leech on Frozen Target"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_fire",
+    "value": "%1 Life Leech from Fire Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_global",
+    "value": "%1 Global Life Leech"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_lightning",
+    "value": "%1 Life Leech from Lightning Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_against_bleeding",
+    "value": "%1 Life Leech on Bleeding Target"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_physical",
+    "value": "%1 Life Leech from Physical Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_rend",
+    "value": "%1 Life Leech from Rend Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_sacred",
+    "value": "%1 Life Leech from Sacred Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_shadow",
+    "value": "%1 Life Leech from Shadow Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_spell",
+    "value": "%1 Life Leech from Spell Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_toxic",
+    "value": "%1 Life Leech from Toxic Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_umbra",
+    "value": "%1 Life Leech from Aether Damage"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_weapon",
+    "value": "%1 Life Leech from Weapon Damage"
+  },
+  {
+    "key": "ui_eim_lifeleech_toshields",
+    "value": "Life Leech affects Force Shield instead of Health"
+  },
+  {
+    "key": "ui_eim_lightning_damage_percent",
+    "value": "%1 Lightning Damage"
+  },
+  {
+    "key": "ui_eim_lightning_damage_percent_spell",
+    "value": "%1 Lightning Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_lightning_damage_percent_weapon",
+    "value": "%1 Lightning Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_lightning_damage_spell",
+    "value": "%1-%2 Lightning Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_lightning_damage_weapon",
+    "value": "%1-%2 Lightning Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_lightning_protection",
+    "value": "%1 Lightning Protection"
+  },
+  {
+    "key": "ui_eim_lightning_resistance",
+    "value": "%1 Lightning Resistance Score"
+  },
+  {
+    "key": "ui_eim_lightning_resistance_final_percent",
+    "value": "%1 Lightning Resistance"
+  },
+  {
+    "key": "ui_eim_lightning_resistance_percent",
+    "value": "%1 Lightning Resistance Score"
+  },
+  {
+    "key": "ui_eim_lightning_resistance_score_percent",
+    "value": "%1 Lightning Resistance Score"
+  },
+  {
+    "key": "ui_eim_lightning_strike_on_critical_hit",
+    "value": "When you deal a Critical Hit with this Weapon, there is a %1 Chance to unleash a bolt of lightning, dealing Damage to yourself and Enemies. This Effect has a %4s Cooldown."
+  },
+  {
+    "key": "ui_eim_magic_find",
+    "value": "%1 Magic Find"
+  },
+  {
+    "key": "ui_eim_material_damage_only",
+    "value": "Can only deal Material Damage Types"
+  },
+  {
+    "key": "ui_eim_material_damage_percent",
+    "value": "%1 Material Damage"
+  },
+  {
+    "key": "ui_eim_material_protection",
+    "value": "%1 Material Protection"
+  },
+  {
+    "key": "ui_eim_material_resistance",
+    "value": "%1 Material Resistance Score"
+  },
+  {
+    "key": "ui_eim_material_resistance_final_percent",
+    "value": "%1 Material Resistance"
+  },
+  {
+    "key": "ui_eim_material_resistance_percent",
+    "value": "%1 Material Resistance Score"
+  },
+  {
+    "key": "ui_eim_material_resistance_score_percent",
+    "value": "%1 Material Resistance Score"
+  },
+  {
+    "key": "ui_eim_max_stacks_capacity",
+    "value": "%1 Maximum Ailment Stacks"
+  },
+  {
+    "key": "ui_eim_melee_damage_benefits_from_projectiles_bonuses",
+    "value": "Melee Damage benefits from %1 of Buffs to Projectiles"
+  },
+  {
+    "key": "ui_eim_move_speed",
+    "value": "%1 Movement Speed"
+  },
+  {
+    "key": "ui_eim_movespeed",
+    "value": "%1 Movement Speed"
+  },
+  {
+    "key": "ui_eim_non_dot_damage_percent",
+    "value": "%1 decrease to Damage that does not deal Damage-over-Time"
+  },
+  {
+    "key": "ui_eim_occult_damage_percent",
+    "value": "%1 Occult Damage"
+  },
+  {
+    "key": "ui_eim_occult_protection",
+    "value": "%1 Occult Protection"
+  },
+  {
+    "key": "ui_eim_occult_resistance",
+    "value": "%1 Occult Resistance Score"
+  },
+  {
+    "key": "ui_eim_occult_resistance_final_percent",
+    "value": "%1 Occult Resistance"
+  },
+  {
+    "key": "ui_eim_occult_resistance_percent",
+    "value": "%1 Occult Resistance Score"
+  },
+  {
+    "key": "ui_eim_occult_resistance_score_percent",
+    "value": "%1 Occult Resistance Score"
+  },
+  {
+    "key": "ui_eim_offensivespeed_final_percent",
+    "value": "%1 Attack and Spell Casting Speed"
+  },
+  {
+    "key": "ui_eim_offensivespeed_score",
+    "value": "%1 Attack and Spell Casting Speed Score"
+  },
+  {
+    "key": "ui_eim_offensivespeed_score_percent",
+    "value": "%1 Attack and Spell Casting Speed Score"
+  },
+  {
+    "key": "ui_eim_only_weakness",
+    "value": "Only able to inflict the Weakness Ailment"
+  },
+  {
+    "key": "ui_eim_physical_damage_percent",
+    "value": "%1 Physical Damage"
+  },
+  {
+    "key": "ui_eim_physical_damage_percent_spell",
+    "value": "%1 Physical Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_physical_damage_percent_weapon",
+    "value": "%1 Physical Damage Attacks"
+  },
+  {
+    "key": "ui_eim_physical_damage_spell",
+    "value": "%1-%2 Physical Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_physical_damage_weapon",
+    "value": "%1-%2 Physical Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_physical_protection",
+    "value": "%1 Physical Protection"
+  },
+  {
+    "key": "ui_eim_physical_resistance",
+    "value": "%1 Physical Resistance Score"
+  },
+  {
+    "key": "ui_eim_physical_resistance_final_percent",
+    "value": "%1 Physical Resistance"
+  },
+  {
+    "key": "ui_eim_physical_resistance_percent",
+    "value": "%1 Physical Resistance Score"
+  },
+  {
+    "key": "ui_eim_physical_resistance_score_percent",
+    "value": "%1 Physical Resistance Score"
+  },
+  {
+    "key": "ui_eim_piercing",
+    "value": "%1 Pierce to All Projectiles"
+  },
+  {
+    "key": "ui_eim_pinflicted_freeze_duration_percent",
+    "value": "%1 Duration to Freeze inflicted on Enemies"
+  },
+  {
+    "key": "ui_eim_inflicted_freeze_duration_percent",
+    "value": "%1 Duration to Freeze inflicted on Enemies"
+  },
+  {
+    "key": "ui_eim_poison_on_hit_percent",
+    "value": "%1 Poison Chance on dealing all Damage Types"
+  },
+  {
+    "key": "ui_eim_poisonchance_on_toxic_damage_score_percent",
+    "value": "%1 Poison Chance Score on daling Toxic Damage"
+  },
+  {
+    "key": "ui_eim_poisonstack_duration_increase",
+    "value": "%1 Poison Stack Duration"
+  },
+  {
+    "key": "ui_eim_projectiles_damage_asdistance",
+    "value": "%1 All Projectiles Damage scaling with Distance at %3 m"
+  },
+  {
+    "key": "ui_eim_projectiles_knockback",
+    "value": "%1 Chance to Knockback the Target"
+  },
+  {
+    "key": "ui_eim_projectiles_speed_percent",
+    "value": "%1 Projectile Speed"
+  },
+  {
+    "key": "ui_eim_rage_conservation_time",
+    "value": "%1 Rage Conservation Time"
+  },
+  {
+    "key": "ui_eim_rage_on_blocked_attack_pts",
+    "value": "%1 Rage Generation on Blocking an Attack"
+  },
+  {
+    "key": "ui_eim_rage_on_hit_pts",
+    "value": "%1 Rage per hit taken"
+  },
+  {
+    "key": "ui_eim_rage_on_kill_pts",
+    "value": "%1 Rage Generation on Kill"
+  },
+  {
+    "key": "ui_eim_rage_per_strike_percent",
+    "value": "%1 Rage Generation on Hit"
+  },
+  {
+    "key": "ui_eim_rage_per_strike_pts",
+    "value": "%1 Rage Generation on Hit"
+  },
+  {
+    "key": "ui_eim_rage_per_strike_when_empty",
+    "value": "%1 Rage Generation on Hit when your Rage is Empty"
+  },
+  {
+    "key": "ui_eim_rage_to_umbra_transfer_percent",
+    "value": "%1 increase in Transfer Rate between Rage and Willpower"
+  },
+  {
+    "key": "ui_eim_rage_to_umbra_transfer_pts",
+    "value": "%1-%2 decrease in Transfer Rate between Rage and Willpower"
+  },
+  {
+    "key": "ui_eim_rageandumbra_cost_percent",
+    "value": "%1 Rage and Willpower Cost decrease"
+  },
+  {
+    "key": "ui_eim_ragecosts_percent",
+    "value": "%1 Rage Cost decrease"
+  },
+  {
+    "key": "ui_eim_refill_stamina_on_low_health",
+    "value": "Gain %1 Stamina Point(s) when at %2 of Max Health or lower"
+  },
+  {
+    "key": "ui_eim_rend_damage_percent",
+    "value": "%1 Rend Damage"
+  },
+  {
+    "key": "ui_eim_rend_damage_percent_spell",
+    "value": "%1 Rend Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_rend_damage_percent_weapon",
+    "value": "%1 Rend Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_rend_damage_spell",
+    "value": "%1-%2 Rend Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_rend_damage_weapon",
+    "value": "%1-%2 Rend Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_rend_protection",
+    "value": "%1 Rend Protection"
+  },
+  {
+    "key": "ui_eim_rend_resistance",
+    "value": "%1 Rend Resistance Score"
+  },
+  {
+    "key": "ui_eim_rend_resistance_final_percent",
+    "value": "%1 Rend Resistance"
+  },
+  {
+    "key": "ui_eim_rend_resistance_percent",
+    "value": "%1 Rend Resistance Score"
+  },
+  {
+    "key": "ui_eim_rend_resistance_score_percent",
+    "value": "%1 Rend Resistance Score"
+  },
+  {
+    "key": "ui_eim_resource_points",
+    "value": "%1 Max Willpower and Rage"
+  },
+  {
+    "key": "ui_eim_sacred_damage_percent",
+    "value": "%1 Sacred Damage"
+  },
+  {
+    "key": "ui_eim_sacred_damage_percent_spell",
+    "value": "%1 Sacred Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_sacred_damage_percent_weapon",
+    "value": "%1 Sacred Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_sacred_damage_spell",
+    "value": "%1-%2 Sacred Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_sacred_damage_weapon",
+    "value": "%1-%2 Sacred Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_sacred_ground_on_cursed_stacks",
+    "value": "When an enemy is afflicted with 5 Stacks of Curse, Bulwark of Dawn is Cast on their location, provide Healing in an Area-of-Effect for you and your Allies"
+  },
+  {
+    "key": "ui_eim_sacred_protection",
+    "value": "%1 Sacred Protection"
+  },
+  {
+    "key": "ui_eim_sacred_resistance_score_percent",
+    "value": "%1 Sacred Resistance Score"
+  },
+  {
+    "key": "ui_eim_sacred_resistance_final_percent",
+    "value": "%1 Sacred Resistance"
+  },
+  {
+    "key": "ui_eim_sacred_resistance_percent",
+    "value": "%1 Sacred Resistance Score"
+  },
+  {
+    "key": "ui_eim_self_shock",
+    "value": "The Shock Stacks are on the target and user"
+  },
+  {
+    "key": "ui_eim_shadow_damage_percent",
+    "value": "%1 Shadow Damage"
+  },
+  {
+    "key": "ui_eim_shadow_damage_percent_spell",
+    "value": "%1 Shadow Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_shadow_damage_percent_weapon",
+    "value": "%1 Shadow Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_shadow_damage_spell",
+    "value": "%1-%2 Shadow Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_shadow_damage_weapon",
+    "value": "%1-%2 Shadow Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_shadow_nova_on_weakness_stacks",
+    "value": "When an Enemy is afflicted with 5 Stacks of Weakness, an Area-of-Effect that deals Shadow Damage is Cast on their location"
+  },
+  {
+    "key": "ui_eim_shadow_protection",
+    "value": "%1 Shadow Protection"
+  },
+  {
+    "key": "ui_eim_shadow_resistance_score_percent",
+    "value": "%1 Shadow Resistance Score"
+  },
+  {
+    "key": "ui_eim_shadow_resistance_final_percent",
+    "value": "%1 Shadow Resistance"
+  },
+  {
+    "key": "ui_eim_shadow_resistance_percent",
+    "value": "%1 Shadow Resistance Score"
+  },
+  {
+    "key": "ui_eim_shadow_spells_cost_to_rage",
+    "value": "Shadow-based Spells use Rage instead of Willpower"
+  },
+  {
+    "key": "ui_eim_shield_regeneration_from_health_globes",
+    "value": "%1 Force Shield Recharge from Health Globes"
+  },
+  {
+    "key": "ui_eim_shock_on_hit_percent",
+    "value": "%1 Shock Chance on Hit"
+  },
+  {
+    "key": "ui_eim_shockchance_on_lightning_damage_score_flat",
+    "value": "%1 Shock Chance Score on Lightning Damage"
+  },
+  {
+    "key": "ui_eim_shockchance_on_lightning_damage_score_percent",
+    "value": "%1 Shock Chance Score on Lightning Damage"
+  },
+  {
+    "key": "ui_eim_skill_cooldownreduction_percent",
+    "value": "%1 Cooldown decrease for all Skills"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_fire",
+    "value": "Allows the Bearer to Cast Fire Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_frost",
+    "value": "Allows the Bearer to Cast Frost Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_lightning",
+    "value": "Allows the Bearer to Cast Lightning Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_physical",
+    "value": "Allows the Bearer to Cast Physical Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_rend",
+    "value": "Allows the Bearer to Cast Rend Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_sacred",
+    "value": "Allows the Bearer to Cast Sacred Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_shadow",
+    "value": "Allows the Bearer to Cast Shadow Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_toxic",
+    "value": "Allows the Bearer to Cast Toxic Spells"
+  },
+  {
+    "key": "ui_eim_skillrequirement_keyword_umbra",
+    "value": "Allows the Bearer to Cast Aether Spells"
+  },
+  {
+    "key": "ui_eim_skills_buffs_intensity",
+    "value": "Buffs given by your Skills are %1 more effective"
+  },
+  {
+    "key": "ui_eim_slow_aoe_on_active_dodge",
+    "value": "Whenever you Active Dodge, Enemies within a Radius around you are Slowed. This has a Cooldown."
+  },
+  {
+    "key": "ui_eim_spellcastingspeed_final_percent",
+    "value": "%1 Spell Casting Speed"
+  },
+  {
+    "key": "ui_eim_spellcastingspeed_score",
+    "value": "%1 Spell Casting Speed Score"
+  },
+  {
+    "key": "ui_eim_spellcastingspeed_score_percent",
+    "value": "%1 Spell Casting Speed Score"
+  },
+  {
+    "key": "ui_eim_stamina_regeneration_percent",
+    "value": "%1 Stamina Regeneration Rate decrease"
+  },
+  {
+    "key": "ui_eim_stasis_on_attack_skill",
+    "value": "%2 Stasis Stacks per Attacks"
+  },
+  {
+    "key": "ui_eim_stasis_on_hit_percent",
+    "value": "%1 Stasis Chance on Hit"
+  },
+  {
+    "key": "ui_eim_stasischance_on_umbra_damage_score_flat",
+    "value": "%1 Stasis Chance Score on Aether Damage"
+  },
+  {
+    "key": "ui_eim_stasischance_on_umbra_damage_score_percent",
+    "value": "%1 Stasis Chance Score on Aether Damage"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_chance_final_percent",
+    "value": "%1 Ailment Chance"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_flat_elemental",
+    "value": "%1 Elemental Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_flat_material",
+    "value": "%1 Material Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_flat_occult",
+    "value": "%1 Occult Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_percent",
+    "value": "%1 Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_chance_score",
+    "value": "%1 Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_percent_elemental",
+    "value": "%1 Elemental Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_percent_material",
+    "value": "%1 Material Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_inflict_score_percent_occult",
+    "value": "%1 Occult Ailment Chance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_resist_score",
+    "value": "%1 Ailment Resistance Score"
+  },
+  {
+    "key": "ui_eim_statusailment_resist_score_percent",
+    "value": "%1 Ailment Resistance Score"
+  },
+  {
+    "key": "ui_eim_stavesattacks_consideredspells",
+    "value": "Basic Attacks with Staves are considered as Spells"
+  },
+  {
+    "key": "ui_eim_stun_on_hit_percent",
+    "value": "%1 Stun Chance on Hit"
+  },
+  {
+    "key": "ui_eim_stunchance_on_dash",
+    "value": "Your Dash Attack Stuns enemies"
+  },
+  {
+    "key": "ui_eim_stunchance_on_physical_damage_score_flat",
+    "value": "%1 Stun Chance Score on Physical Damage"
+  },
+  {
+    "key": "ui_eim_stunchance_on_physical_damage_score_percent",
+    "value": "%1 Stun Chance Score on Physical Damage"
+  },
+  {
+    "key": "ui_eim_toughness_pts",
+    "value": "%1 Toughness"
+  },
+  {
+    "key": "ui_eim_toxic_damage_percent",
+    "value": "%1 Toxic Damage"
+  },
+  {
+    "key": "ui_eim_toxic_damage_percent_spell",
+    "value": "%1 Toxic Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_toxic_damage_percent_weapon",
+    "value": "%1 Toxic Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_toxic_damage_spell",
+    "value": "%1-%2 Toxic Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_toxic_damage_weapon",
+    "value": "%1-%2 Toxic Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_toxic_protection",
+    "value": "%1 Toxic Protection"
+  },
+  {
+    "key": "ui_eim_toxic_resistance_score_percent",
+    "value": "%1 Toxic Resistance Score"
+  },
+  {
+    "key": "ui_eim_toxic_resistance_final_percent",
+    "value": "%1 Toxic Resistance"
+  },
+  {
+    "key": "ui_eim_toxic_resistance_percent",
+    "value": "%1 Toxic Resistance Score"
+  },
+  {
+    "key": "ui_eim_transfer_time_percent",
+    "value": "%1 Transfer Time decrease between Willpower and Rage"
+  },
+  {
+    "key": "ui_eim_onehanded_blockchance_flat",
+    "value": "%1 Block Chance while a One-handed Weapon is equipped"
+  },
+  {
+    "key": "ui_eim_twohanded_blockchance_flat",
+    "value": "%1 Block Chance while a Two-handed Weapon is equipped"
+  },
+  {
+    "key": "ui_eim_umbra_damage_percent",
+    "value": "%1 Aether Damage"
+  },
+  {
+    "key": "ui_eim_umbra_damage_percent_spell",
+    "value": "%1 Aether Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_umbra_damage_percent_weapon",
+    "value": "%1 Aether Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_umbra_damage_spell",
+    "value": "%1-%2 Aether Damage added to Spells"
+  },
+  {
+    "key": "ui_eim_umbra_damage_weapon",
+    "value": "%1-%2 Aether Damage added to Attacks"
+  },
+  {
+    "key": "ui_eim_umbra_on_hit_pts",
+    "value": "%1 Willpower on Hit"
+  },
+  {
+    "key": "ui_eim_umbra_protection",
+    "value": "%1 Aether Protection"
+  },
+  {
+    "key": "ui_eim_umbra_regen_percent",
+    "value": "%1 Willpower Regeneration"
+  },
+  {
+    "key": "ui_eim_umbra_regen_pts",
+    "value": "%1 Willpower Regeneration"
+  },
+  {
+    "key": "ui_eim_umbra_resistance_score_percent",
+    "value": "%1 Aether Resistance Score"
+  },
+  {
+    "key": "ui_eim_umbra_resistance_final_percent",
+    "value": "%1 Aether Resistance"
+  },
+  {
+    "key": "ui_eim_umbra_resistance_percent",
+    "value": "%1 Aether Resistance Score"
+  },
+  {
+    "key": "ui_eim_umbra_to_rage_transfer_percent",
+    "value": "%1 increase in Transfer Rate between Willpower and Rage"
+  },
+  {
+    "key": "ui_eim_umbra_to_rage_transfer_pts",
+    "value": "%1-%2 Decrease in Transfer Rate between Willpower and Rage"
+  },
+  {
+    "key": "ui_eim_umbracost_percent",
+    "value": "%1 Spell Cost decrease"
+  },
+  {
+    "key": "ui_eim_umbracosts_percent",
+    "value": "%1 Willpower Cost decrease"
+  },
+  {
+    "key": "ui_eim_umbracost_percent_elemental",
+    "value": "%1 Elemental Spell Cost decrease"
+  },
+  {
+    "key": "ui_eim_vulnerability",
+    "value": "%1 Damage received"
+  },
+  {
+    "key": "ui_eim_weaknes_on_hit_percent",
+    "value": "%1 Weakness Chance on Hit"
+  },
+  {
+    "key": "ui_eim_weakness_aoe_onblock",
+    "value": "%2 Weakness Stack inflicted on Block"
+  },
+  {
+    "key": "ui_eim_weakness_aoe_onblock_detail",
+    "value": "Apply %2 Weakness Stacks upon Blocking an Attack to the Targets in %1m Radius"
+  },
+  {
+    "key": "ui_eim_weaknesschance_on_sacred_damage_score_flat",
+    "value": "%1 Weakness Chance Score on Sacred Damage"
+  },
+  {
+    "key": "ui_eim_weaknesschance_on_sacred_damage_score_percent",
+    "value": "%1 Weakness Chance Score on Sacred Damage"
+  },
+  {
+    "key": "ui_eim_force_weakness_roll_on_attack_skills",
+    "value": "Your Attacks apply Weakness"
+  },
+  {
+    "key": "ui_eim_willpower_pts",
+    "value": "%1 Wisdom"
+  },
+  {
+    "key": "ui_eim_ghost_damage",
+    "value": "%1 Chance to Summon Ghost on Hit with Basic Attacks. Ghost deals %2 of your Weapon Damage to the Enemy Hit"
+  },
+  {
+    "key": "ui_eim_aggression_percent",
+    "value": "%1 Threat generated"
+  },
+  {
+    "key": "ui_eim_local_allresistances_score_flat",
+    "value": "%1 All Resistances Score on this item"
+  },
+  {
+    "key": "ui_eim_local_allresistances_score_percent",
+    "value": "%1 All Resistances Score on this item"
+  },
+  {
+    "key": "ui_eim_local_blockchance_flat",
+    "value": "%1 Block Chance on this item"
+  },
+  {
+    "key": "ui_eim_local_blockchance_percent",
+    "value": "%1 Block Chance on this item"
+  },
+  {
+    "key": "ui_eim_local_blockefficiency_flat",
+    "value": "%1 Block Efficiency on this item"
+  },
+  {
+    "key": "ui_eim_local_blockefficiency_percent",
+    "value": "%1 Block Efficiency on this item"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_fire",
+    "value": "%1-%2 Fire Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_frost",
+    "value": "%1-%2 Frost Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_lightning",
+    "value": "%1-%2 Lightning Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_physical",
+    "value": "%1-%2 Physical Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_rend",
+    "value": "%1-%2 Rend Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_sacred",
+    "value": "%1-%2 Sacred Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_shadow",
+    "value": "%1-%2 Shadow Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_toxic",
+    "value": "%1-%2 Toxic Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_flat_umbra",
+    "value": "%1-%2 Aether Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_percent_elemental",
+    "value": "%1 Elemental Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_percent_material",
+    "value": "%1 Material Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_percent_primeval",
+    "value": "%1 Occult Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_damage_percent_all",
+    "value": "%1 All Damage on Attacks with this weapon"
+  },
+  {
+    "key": "ui_eim_local_forceshield_flat",
+    "value": "%1 Force Shield on this item"
+  },
+  {
+    "key": "ui_eim_local_forceshield_percent",
+    "value": "%1 Force Shield on this item"
+  },
+  {
+    "key": "ui_eim_local_health_flat",
+    "value": "%1 Health on this item"
+  },
+  {
+    "key": "ui_eim_local_health_percent",
+    "value": "%1 Health on this item"
+  },
+  {
+    "key": "ui_eim_local_resourcegeneration_flat",
+    "value": "%1 Resource Generation on this item"
+  },
+  {
+    "key": "ui_eim_local_resourcegeneration_percent",
+    "value": "%1 Resource Generation on this item"
+  },
+  {
+    "key": "ui_eim_willpower_regeneration_becomes_rage_regeneration",
+    "value": "Passively generate Rage instead of Willpower"
+  },
+  {
+    "key": "ui_eim_minion_health_percent",
+    "value": "%1 to Summons Health"
+  },
+  {
+    "key": "ui_eim_minion_regeneration_percent",
+    "value": "%1 to Summons' Health Regeneration"
+  },
+  {
+    "key": "ui_eim_minion_damage_percent",
+    "value": "%1 to Damage dealt by Summons"
+  },
+  {
+    "key": "ui_eim_minion_offensive_speed_percent",
+    "value": "%1 to Attack and Spell Casting Speed for Summons"
+  },
+  {
+    "key": "ui_eim_increased_rage_costs_double_skill_damage_on_high_rage",
+    "value": "Skills have %2 Rage Cost when Rage is over %1, but Skills cast at this increased Cost deal double Damage."
+  },
+  {
+    "key": "ui_eim_burn_stacks_consumption_chance_for_instant_damage",
+    "value": "When Hitting an Enemy with an Attack, %1 Chance to consume the Burn Stacks you inflicted when their Burn Stacks exceed %2, increasing Damage of the Hit by %3 per consumed stack"
+  },
+  {
+    "key": "ui_eim_burn_stacks_consumption_propagate_stacks_on_kill",
+    "value": "Enemies killed by an attack that consumed Burn Stacks transfers %1 Burn Stacks to Enemies considered Nearby"
+  },
+  {
+    "key": "ui_eim_stack_anger_uses_mechanic",
+    "value": "Your Attacks generate \"Unleashed Fury\" Points up to a Maximum of %1. Points reset after %2s out of combat"
+  },
+  {
+    "key": "ui_eim_stack_anger_attack_speed",
+    "value": "%1 Attack Speed Score per \"Unleashed Fury\" Point"
+  },
+  {
+    "key": "ui_eim_stack_anger_life_leech",
+    "value": "%1 Life Leech per \"Unleashed Fury\" Point"
+  },
+  {
+    "key": "ui_eim_stack_anger_all_resistances",
+    "value": "%1 All Resistances Score per \"Unleashed Fury\" Point"
+  },
+  {
+    "key": "ui_eim_can_change_stances_with_dodgeroll",
+    "value": "Gain access to two \"Stances\": \"Probing Weakness\" and \"Stalwart Resolve\". A \"Stance\" is changed when an Active Dodge is used."
+  },
+  {
+    "key": "ui_eim_stance_offensive_stats",
+    "value": "While \"Probing Weakness\" is active, you have a %1 Chance to double Basic Attack Damage at the cost of %2 of your All Resistances Score"
+  },
+  {
+    "key": "ui_eim_stance_defensive_stats",
+    "value": "While \"Stalwart Resolve\" is active, you have %1 Block Chance and %2 Block Efficiency at the cost of %3 of your Attack and Spell Damage"
+  },
+  {
+    "key": "ui_eim_stance_offensive_stats_bonus",
+    "value": "Increases Chance to double Attack Damage while \"Probing Weakness\" is active by %1"
+  },
+  {
+    "key": "ui_eim_stance_defensive_stats_bonus",
+    "value": "Increases Block Chance while \"Stalwart Resolve\" is active by %1"
+  },
+  {
+    "key": "ui_eim_damage_on_block",
+    "value": "%1 of Weapon Damage dealt to Attacking Enemy when their Attack is Blocked"
+  },
+  {
+    "key": "ui_eim_damage_on_block_rend",
+    "value": "Damage dealt to Attacking Enemy when their Attack is Blocked is dealt as Rend Damage"
+  },
+  {
+    "key": "ui_eim_final_weapon_combos",
+    "value": "Provides alternative fourth Attack to each Basic Attack Combo"
+  },
+  {
+    "key": "ui_eim_final_weapon_combos_bows",
+    "value": "Fourth Attack of a Bow Basic Attack Combo shoots multiple Projectiles in all directions"
+  },
+  {
+    "key": "ui_eim_final_weapon_combos_staves",
+    "value": "Fourth Attack of a Staff Basic Attack Combo fires additional Projectiles in Target's direction"
+  },
+  {
+    "key": "ui_eim_final_weapon_combos_two_handed",
+    "value": "Fourth Attack of a Two-Handed Basic Attack Combo Stuns all Enemies that are Hit."
+  },
+  {
+    "key": "ui_eim_final_weapon_combos_other",
+    "value": "Fourth Attack of a One-Handed Basic Attack Combo is a Critical Hit"
+  },
+  {
+    "key": "ui_eim_final_weapon_combos_damage",
+    "value": "Fourth Attack of each Basic Attack Combo deals %1 additional Damage"
+  },
+  {
+    "key": "ui_eim_uses_fortress_mechanic",
+    "value": "While stationary, gain 1 \"Inexorable\" Point every %1s, up to a Maximum of %2"
+  },
+  {
+    "key": "ui_eim_fortress_movement_speed",
+    "value": "%1 Movement Speed per \"Inexorable\" Point"
+  },
+  {
+    "key": "ui_eim_fortress_damage_percent",
+    "value": "%1 Damage per \"Inexorable\" Point"
+  },
+  {
+    "key": "ui_eim_fortress_health_regeneration",
+    "value": "%1 Health Regeneration per \"Inexorable\" Point"
+  },
+  {
+    "key": "ui_eim_fortress_all_resistances",
+    "value": "%1 All Resistances Score per \"Inexorable\" Point"
+  },
+  {
+    "key": "ui_eim_uses_fortress_mechanic_tickrate",
+    "value": "\"Inexorable\" Points are gained every %1s"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_chest_armor",
+    "value": "Allows you to receive Buffs based on on the Chest-piece equipped"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_chest_armor_warrior",
+    "value": "%1 Health Regeneration for every Health point on equipped Bruiser Chest-piece"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_chest_armor_tank",
+    "value": "Gain All Resistances Score equal to All Resistances Score on equipped Heavy Chest-piece"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_chest_armor_rogue",
+    "value": "You regenerate Health and Force Shield equivalent to %1 times the Health given by your equipped Rogue Chest-piece each time you complete a successful Passive Dodge."
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_chest_armor_mage",
+    "value": "%1 Force Shield Regeneration for every Force Shield point on equipped Sorcerer Chest-piece"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_helmet",
+    "value": "Allows Bonuses to be applied depending on Helmet equipped"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_helmet_warrior",
+    "value": "%1 Health Regeneration for every Health point on equipped Bruiser Helmet"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_helmet_tank",
+    "value": "Gain All Resistance Score equal to %1 multiplied by the All Resistance score on equipped Heavy Helmet"
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_helmet_rogue",
+    "value": "You regenerate Health and Force Shield equivalent to %1 times the Health given by your equipped Rogue Helmet each time you complete a successful Passive Dodge."
+  },
+  {
+    "key": "ui_eim_stat_bonus_from_helmet_mage",
+    "value": "%1 Force Shield Regeneration for every Force Shield point on equipped Sorcerer Helmet"
+  },
+  {
+    "key": "ui_eim_stack_block_uses_mechanic",
+    "value": "%2 \"Fortress\" Point(s) gained every %1s, up to a Maximum of %3"
+  },
+  {
+    "key": "ui_eim_block_chance_per_block_stack",
+    "value": "%1 Block Chance per \"Fortress\" Point."
+  },
+  {
+    "key": "ui_eim_block_chance_increase_with_time",
+    "value": "%1 \"Fortress Point\" gained every second. When an Attack is Blocked, the bonus is rest to 0"
+  },
+  {
+    "key": "ui_eim_smite_wounded_on_sacred_damage",
+    "value": "Dealing Sacred Damage instantly kills Enemies below %1 of their Max Health (Underlings and Specialists only)"
+  },
+  {
+    "key": "ui_eim_smite_elites",
+    "value": "Dealing Sacred Damage now instantly kills Champion Enemies below a percentage of their Health in addition to Underlings and Specialists"
+  },
+  {
+    "key": "ui_eim_pray_on_low_health",
+    "value": "All Nearby Allies are Resurrected when your Health drops below %2 of Maximum"
+  },
+  {
+    "key": "ui_eim_pray_on_low_health_all_resistances",
+    "value": "All Nearby Allies gain %1 boost to All Resistances Score when Allies are resurrected"
+  },
+  {
+    "key": "ui_eim_pray_on_low_health_all_resistances_added",
+    "value": "%1 to All Resistances Score upon Ally resurrection"
+  },
+  {
+    "key": "ui_eim_dawn_stat_bonus_from_force_shield_state",
+    "value": "%1 Spell Damage when Force Shield is above %2 and %1 Attack Damage when Force Shield is below %2"
+  },
+  {
+    "key": "ui_eim_dawn_stat_bonus_from_force_shield_state_bonus",
+    "value": "%1 increase to Spell Damage when above Force Shield threshold and %1 increase to Attack Damage when below Force Shield threshold"
+  },
+  {
+    "key": "ui_eim_can_proc_attunements",
+    "value": "Spells that inflict Fire, Frost, or Lightning Ailments grant passive Bonuses called \"Accords\". Up to %1 \"Accord(s)\" can be active concurrently. Triggered \"Accords\" remain locked for %2s."
+  },
+  {
+    "key": "ui_eim_attunements_simulaneous",
+    "value": "%1 \"Accords\" can be active concurrently"
+  },
+  {
+    "key": "ui_eim_attunement_frost",
+    "value": "\"Etheliel's Accord\" is active for %3s unless it is triggered again. You have %1 Ailment Chance Score when \"Etheliel's Accord\" is active."
+  },
+  {
+    "key": "ui_eim_attunement_fire",
+    "value": "'\"Abanazaar's Accord\" is active for %3s unless it is triggered again. You have %1 Damage when \"Abanazaar's Accord\" is active"
+  },
+  {
+    "key": "ui_eim_attunement_lightning",
+    "value": "'\"Beelmalik's Accord\" is active for %3s unless it is triggered again. You have %1 Critical Chance Score when \"Beelmalik's Accord\" is active."
+  },
+  {
+    "key": "ui_eim_meteor_on_casting_fire_skill",
+    "value": "%1 Chance to Cast a Meteor at cursor location when Fire Skill is Cast. Has a Cooldown of %4s"
+  },
+  {
+    "key": "ui_eim_frost_lance_on_casting_frost_skill",
+    "value": "%1 Chance to Cast a Frost Lance at cursor location when Frost Skill is Cast. Has a Cooldown of %4s"
+  },
+  {
+    "key": "ui_eim_thunderstrike_on_casting_lightning_skill",
+    "value": "%1 Chance to Cast Chain Lightning at cursor location when Lightning Skill is Cast. Has a Cooldown of %4s"
+  },
+  {
+    "key": "ui_eim_explosion_on_low_willpower",
+    "value": "When Willpower is below %2 of its Maximum, you have a chance to cause an Explosion, dealing Damage based on your Maximum Force Shield or Health. This Explosion regenerates %1 of your Willpower, and has a Cooldown of %4s."
+  },
+  {
+    "key": "ui_eim_explosion_on_low_willpower_damage",
+    "value": "Explosion caused by Willpower being below the percentage of its Maximum (stated in Elementary Destabilization) deals increased damage based on your Maximum Health or Force Shield."
+  },
+  {
+    "key": "ui_eim_stasis_afflicted_enemies_take_damage_twice",
+    "value": "When you hit Enemies afflicted with Stasis, they take %1 of the Hit Damage again after a %2s delay"
+  },
+  {
+    "key": "ui_eim_stasis_afflicted_enemies_take_damage_twice_increase",
+    "value": "Damage dealt after the delay is increased by %3"
+  },
+  {
+    "key": "ui_eim_stack_hybrid_uses_mechanic",
+    "value": "You gain Supernatural Paradox Points when you Hit an enemy in Stasis with an Attack, and Earthly Paradox Points when you Hit them with a Spell. Points reset after %1s. Maximum of %2 Point(s)"
+  },
+  {
+    "key": "ui_eim_stack_hybrid_attack_speed",
+    "value": "%1 Attack Speed Score per Earthly Paradox Point"
+  },
+  {
+    "key": "ui_eim_stack_hybrid_cast_speed",
+    "value": "%1 Spell Casting Speed Score per Supernatural Paradox Point"
+  },
+  {
+    "key": "ui_eim_take_delayed_damage",
+    "value": "You only take %1 Damage from an Enemy's attack when they Hit you, the rest is dealt %2s after the Hit"
+  },
+  {
+    "key": "ui_eim_cap_max_health_and_force_shield",
+    "value": "Your Health is set to %1 of Maximum, and Force Shield to %2 of Maximum"
+  },
+  {
+    "key": "ui_eim_cap_max_health_and_force_shield_increase",
+    "value": "Your Maximum Health and Force Shield are increased by %1 and %2 respectively from the Maximums set in Dire Juncture"
+  },
+  {
+    "key": "ui_eim_dead_enemies_may_spawn_green_globes",
+    "value": "Enemies that die in %1m radius around you have %2 chance to drop green globes. Picking up green globes grants you an additional %3 Damage as Poison Damage for %4s"
+  },
+  {
+    "key": "ui_eim_dead_summons_may_spawn_green_globes",
+    "value": "Summons that die in a %1m radius around you have %2 chance to drop green globes. Picking up green globes grants you an additional %3 Damage as Poison Damage for %4s"
+  },
+  {
+    "key": "ui_eim_soul_sharing",
+    "value": "You lose %1 of your Health and %2 of your Force Shield, but all Summons take %3 less Damage"
+  },
+  {
+    "key": "ui_eim_soul_sharing_add",
+    "value": "You lose an additional %1 of your Health and %2 of your Force Shield, but summons take %3 less Damage"
+  },
+  {
+    "key": "ui_eim_poisonous_aura",
+    "value": "Every %1s, Enemies in a %2m radius gain a Poison Stack"
+  },
+  {
+    "key": "ui_eim_poisonous_aura_slow",
+    "value": "Enemies are Slowed by %1 for %2s when they are within the radius"
+  },
+  {
+    "key": "ui_eim_cursed_enemies_take_additional_occult_damage",
+    "value": "Occult Damage increased by %1 for every Curse Stack an Enemy has"
+  },
+  {
+    "key": "ui_eim_double_force_shield_capacity",
+    "value": "Doubles Max Force Shield."
+  },
+  {
+    "key": "ui_eim_life_ceil_from_force_shield",
+    "value": "Health cannot exceed %1 of Maximum Force Shield"
+  },
+  {
+    "key": "ui_eim_purge_ailment_stacks",
+    "value": "When you have over %1 of the same Ailment Stack, you cleanse them, granting Buffs to yourself and Allies within a given Radius"
+  },
+  {
+    "key": "ui_eim_suffers_inflicted_ailment_stacks",
+    "value": "Ailment Stacks inflicted on Enemies are also inflicted on you. When you have %1 of the same Ailment Stack, they are removed and you gain Buffs"
+  },
+  {
+    "key": "ui_eim_movement_speed_on_purged_stasis_stacks",
+    "value": "%1 Movement Speed to yourself and allies in a %2m radius for %3s when Stasis Stacks are removed"
+  },
+  {
+    "key": "ui_eim_all_resistances_score_on_purged_curse_stacks",
+    "value": "%1 All Resistance Score to yourself and allies in a %2m radius for %3s when Curse Stacks are removed"
+  },
+  {
+    "key": "ui_eim_damage_on_purged_weakness_stacks",
+    "value": "%1 Damage increases for yourself and allies in a %2m radius for %3s when Weakness Stacks are removed."
+  },
+  {
+    "key": "ui_eim_heal_on_purged_dot_stacks",
+    "value": "Removing Ailment stacks that deal Damage-Over-Time restores %1 of Max Health and %1 of Max Force Shield to yourself and allies in a %2m radius"
+  },
+  {
+    "key": "ui_eim_self_ailment_stacks_added_chance",
+    "value": "When inflicting an Ailment on yourself, %1 Chance to increase number of Ailment stacks inflicted by %2"
+  },
+  {
+    "key": "ui_eim_stack_tatoo_damage_reduction",
+    "value": "%1 Damage decrease per \"Tenet\" Point"
+  },
+  {
+    "key": "ui_eim_stack_tatoo_use_mechanic",
+    "value": "You gain 1 \"Tenet\" Point every %1s up to a Maximum of %2 \"Tenet Points\", and 1 \"Tenet Point\" is consumed whenever you are Hit."
+  },
+  {
+    "key": "ui_eim_material_damage_on_elites",
+    "value": "Gain 1 \"Headhunter\" Points (Max %3) every  time an enemy that is Champion or above is killed, with Points resetting after %2s. \"Headhunter\" Points grant %1 Material Damage"
+  },
+  {
+    "key": "ui_eim_material_damage_on_elites_timer",
+    "value": "Duration of \"Headhunter\" Points before resetting is increased to %2s"
+  },
+  {
+    "key": "ui_eim_stack_bullet_uses_mechanic",
+    "value": "You have %2 \"Annointed Ammunition\" Point(s) that are used each time a Projectile Skill is used. A Point of \"Annointed Ammunition\" is refilled every %1s"
+  },
+  {
+    "key": "ui_eim_stack_bullet_charges_on_dodge_roll",
+    "value": "%1 \"Annointed Ammunition\" Point(s) refilled whenever you complete an Active Dodge"
+  },
+  {
+    "key": "ui_eim_stack_bullet_charges_on_critical",
+    "value": "%1 \"Annointed Ammunition\" Point(s) refilled whenever you deal a Critical Hit"
+  },
+  {
+    "key": "ui_eim_stack_bullet_proj_damage",
+    "value": "%1 Projectile Damage for each Point of \"Annointed Ammunition\" you have"
+  },
+  {
+    "key": "ui_eim_stack_bullet_melee_damage",
+    "value": "%1 Melee Damage for each empty \"Annointed Ammunition\" Point"
+  },
+  {
+    "key": "ui_eim_remaining_pierce_as_damage",
+    "value": "Enemies are dealt %1 Damage per the amount of Pierce remaining on a Projectile after it Hits an Enemy"
+  },
+  {
+    "key": "ui_eim_default_attacks_chain",
+    "value": "Basic Attack Projectiles bounce up to %1 times to Nearby Enemies in %2m radius"
+  },
+  {
+    "key": "ui_eim_default_attacks_chain_increase",
+    "value": "Projectiles bounce to Nearby Enemies an additional %1 time(s)"
+  },
+  {
+    "key": "ui_eim_frost_damage_bonus_on_chained_projectiles",
+    "value": "%1 Frost Damage to Projectiles that have bounced."
+  },
+  {
+    "key": "ui_eim_stacks_hunter_uses_mechanic",
+    "value": "While in Combat, gain \"Cold Blooded\" Points every %1s, up to a Maximum of %2"
+  },
+  {
+    "key": "ui_eim_stacks_hunter_tickrate",
+    "value": "Gain \"Cold Blooded\" Points every %1s"
+  },
+  {
+    "key": "ui_eim_stacks_hunter_damage",
+    "value": "%1 Damage per \"Cold Blooded\" Point"
+  },
+  {
+    "key": "ui_eim_attack_speed_on_critical_hit",
+    "value": "%1 Attack Speed Score for %3s on Critical Hit"
+  },
+  {
+    "key": "ui_eim_stack_gadget_uses_mechanic",
+    "value": "Basic Attacks refill \"Power Charge\" Points by %1. %2 \"Power Charge\" Points are generated per second, capped between -%3 and +%3"
+  },
+  {
+    "key": "ui_eim_stack_gadget_costs",
+    "value": "%1 decrease in \"Power Charge\" Points Cost for all Device Skills"
+  },
+  {
+    "key": "ui_eim_stack_gadget_damage",
+    "value": "Device Skills and Skills with base Lightning Damage have their Damage increased by %1 multiplied by your current number of \"Power Charge\" Points"
+  },
+  {
+    "key": "ui_eim_stack_focus_damage",
+    "value": "%2 Damage per \"Overload\" Point. Basic Attacks generate 1 \"Overload\" Point up to a Maximum of %1. Using a Skill consumes all \"Overload\" Points but doubles Damage of the Skill"
+  },
+  {
+    "key": "ui_eim_stack_focus_half",
+    "value": "\"Overload\" Points are halved instead of set to 0 when consumed."
+  },
+  {
+    "key": "ui_eim_stack_balance_uses_mechanic",
+    "value": "You have %1 Points shared between \"Lure of Light\" and \"Lure of Darkness\" Points. Casting a Spell converts \"Lure of Light\" into \"Lure of Darkness\", and Attacking converts \"Lure of Darkness\" into \"Lure of Light\". When \"Lure of Light\" and \"Lure of Darkness\" Points have a weighting between 6/4, they are considered to be in Equilibrium."
+  },
+  {
+    "key": "ui_eim_stack_balance_mixed_bonus",
+    "value": "While \"Lure of Light\" and \"Lure of Darkness\" are in \"Equilibrium\", your Attacks benefit from %1 of Spell Damage bonuses and your Spells %1 of Attack Damage bonuses"
+  },
+  {
+    "key": "ui_eim_stack_balance_mixed_malus",
+    "value": "While \"Lure of Light\" and \"Lure of Darkness\" are not in \"Equilibrium\", your Attacks lose %1 of Spell Damage bonuses and your Spells %1 of Attack Damage bonuses"
+  },
+  {
+    "key": "ui_eim_stack_balance_margin",
+    "value": "\"Lure of Light\" and \"Lure of Darkness\" Points are now considered to be in \"Equilibrium\" when they have a weighting between 7/3"
+  },
+  {
+    "key": "ui_eim_leave_decoy_on_dodgeroll",
+    "value": "Actives Dodges Damage Enemies and leave a Decoy for %1s"
+  },
+  {
+    "key": "ui_eim_leave_decoy_on_dodgeroll_explosion",
+    "value": "Decoy left by an Active Dodge explodes when it is destroyed, dealing Damage in a %2m Radius"
+  },
+  {
+    "key": "ui_eim_active_dodge_makes_invisible",
+    "value": "Completing an Active Dodge turns you Invisible for %1s. While Invisible, the Damage of your next Skill Cast is increased by %2. Using a Skill breaks Invisibility. This has a Cooldown of %3s."
+  },
+  {
+    "key": "ui_eim_active_dodge_makes_invisible_duration",
+    "value": "Duration of the Invisibility triggered by an Active Dodge is increased by %1s"
+  },
+  {
+    "key": "ui_eim_damage_percent_onehanded",
+    "value": "%1 Damage with One-Handed Weapons"
+  },
+  {
+    "key": "ui_eim_damage_from_shield_block_chance",
+    "value": "Damage is increased by %1 multiplied by your equipped Shield's Block Chance"
+  },
+  {
+    "key": "ui_eim_self_ailments",
+    "value": "You receive 1 Ailment Stack when inflicting an Ailment on an Enemy"
+  },
+  {
+    "key": "ui_eim_health_gain_percent",
+    "value": "%1 Healing received from all sources"
+  },
+  {
+    "key": "ui_eim_freeze_chance_to_crit",
+    "value": "If your Hits have Freeze Chance, %1 of your Freeze Chance is added to your Critical Chance. These Hits do not inflcit Freeze anymore."
+  },
+  {
+    "key": "ui_eim_damage_percent_against_burning",
+    "value": "%1 Damage against Burning Enemies"
+  },
+  {
+    "key": "ui_eim_damage_taken_percent_from_burning_enemies",
+    "value": "%1 Damage from Burning Enemies"
+  },
+  {
+    "key": "ui_eim_all_resistance_score_percent_on_full_stamina",
+    "value": "%1 to All Resistances Score while at full Stamina"
+  },
+  {
+    "key": "ui_summon_life",
+    "value": "%1 to Summon's Health"
+  },
+  {
+    "key": "ui_summon_damage",
+    "value": "%1 to Summon's Damage"
+  },
+  {
+    "key": "ui_eim_criticaldamage_on_bleeding_pts",
+    "value": "%1 Critical Hit Damage when Hitting a Bleeding target"
+  },
+  {
+    "key": "ui_eim_criticalchance_on_poisoned_score",
+    "value": "%1 Critical Chance Score when Hitting a Poisoned target"
+  },
+  {
+    "key": "ui_eim_dodge_roll_breaks_cc",
+    "value": "Using a Movement Skill cleanses you of Crowd Control effects. Has a Cooldown of %1s"
+  },
+  {
+    "key": "ui_eim_forceshield_leech_percent_lightning",
+    "value": "%1 Lightning Damage Leeched as Force Shield"
+  },
+  {
+    "key": "ui_elemental_rotation_buff",
+    "value": "Using an Spell that deals an Elemental Damage Type applies a Buff to the other two Elemental Damage Types"
+  },
+  {
+    "key": "ui_eim_ailment_spread",
+    "value": "%1 Chance to spread Ailments to Enemies around the Target Hit"
+  },
+  {
+    "key": "ui_eim_life_leech_percent_frost",
+    "value": "%1 Frost Damage into Life Leech"
+  },
+  {
+    "key": "ui_eim_resourcegeneration_percent",
+    "value": "%1 Resource Generation"
+  },
+  {
+    "key": "ui_eim_inflicted_curse_duration_percent",
+    "value": "%1 Duration to Curse inflicted on Enemies"
+  },
+  {
+    "key": "ui_eim_inflicted_stasis_duration_percent",
+    "value": "%1 Duration to Stasis inflicted on Enemies"
+  },
+  {
+    "key": "ui_eim_inflicted_weakness_duration_percent",
+    "value": "%1 Duration to Weakness inflicted on Enemies"
+  },
+  {
+    "key": "ui_eim_inflicted_stun_duration_percent",
+    "value": "%1 Duration to Stun inflicted on Enemies"
+  }
+]
