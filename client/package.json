@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "@vx/zoom": "0.0.195",
     "antd": "^3.26.11",
     "d3": "^5.15.0",
     "konva": "^4.1.5",
@@ -13,6 +14,7 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-svg-pan-zoom": "^3.8.0",
     "react-tooltip": "^4.0.3"
   },
   "scripts": {
