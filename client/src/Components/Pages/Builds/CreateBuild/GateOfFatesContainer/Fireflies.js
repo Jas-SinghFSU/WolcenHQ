@@ -5,7 +5,7 @@ const Fireflies = () => {
   return (
     <Particles
       className="gofFireflies"
-      height={"1044px"}
+      height={"1040px"}
       width={"1044px"}
       params={{
         particles: {

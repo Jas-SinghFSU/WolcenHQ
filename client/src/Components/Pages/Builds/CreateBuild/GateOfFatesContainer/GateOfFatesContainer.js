@@ -1,11 +1,8 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
-import {
-  ReactSVGPanZoom,
-  INITIAL_VALUE,
-  TOOL_NONE,
-  TOOL_AUTO
-} from "react-svg-pan-zoom";
+import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_AUTO } from "react-svg-pan-zoom";
 import { Row, Col, Button } from "antd";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReply, faShare } from "@fortawesome/free-solid-svg-icons";
 import Fireflies from "./Fireflies";
 import "./style.css";
 import "./gof.css";
@@ -126,6 +123,7 @@ const GateOfFates = () => {
   const [nodePairs] = useState(linkElems);
   const [nodePairsScoped, setNodePairsScoped] = useState(null);
   const [svgDom] = useState(svgData);
+  const [selectedRing, setSelectedRing] = useState("");
   const [rotations, setRotations] = useState({
     inner: 0,
     outer: 0,
@@ -416,6 +414,37 @@ const GateOfFates = () => {
     });
   };
 
+  const handleWheelSpin = direction => {
+    if (selectedRing === "outer") {
+      resetElements("outer");
+      setRotations({
+        ...rotations,
+        outer:
+          direction === "left" ? rotations.outer + 30 : rotations.outer - 30
+      });
+    }
+
+    if (selectedRing === "inner") {
+      resetElements("middle");
+
+      setRotations({
+        ...rotations,
+        inner:
+          direction === "left" ? rotations.inner + 120 : rotations.inner - 120
+      });
+    }
+
+    if (selectedRing === "middle") {
+      resetElements("middle");
+
+      setRotations({
+        ...rotations,
+        middle:
+          direction === "left" ? rotations.middle + 60 : rotations.middle - 60
+      });
+    }
+  };
+
   const renderRings = scope => {
     const curDimensions =
       scope === "outerRing"
@@ -632,63 +661,94 @@ const GateOfFates = () => {
       <Fragment>
         <SkillTooltip tooltipOptions={tooltipOptions} />
 
-        <Row>
+        <Row style={{ display: "inline-table" }}>
           <div className="gofAndControls">
-            <div className="gofButtons" style={{ marginBottom: 20 }}>
-              <Button
-                type="primary"
-                style={{ marginBottom: 10 }}
-                onClick={() => {
-                  setRotations({
-                    ...rotations,
-                    outer: rotations.outer + 30
-                  });
-                  resetElements("outer");
-                }}
-              >
-                Outer
-              </Button>
-              <Button
-                type="primary"
-                style={{ marginBottom: 10 }}
-                onClick={() => {
-                  setRotations({
-                    ...rotations,
-                    middle: rotations.middle + 60
-                  });
-                  resetElements("middle");
-                }}
-              >
-                Middle
-              </Button>
-              <Button
-                type="primary"
-                style={{ marginBottom: 10 }}
-                onClick={() => {
-                  setRotations({
-                    ...rotations,
-                    inner: rotations.inner + 120
-                  });
-                  resetElements("middle");
-                }}
-              >
-                Inner
-              </Button>
-              <Button
-                type="primary"
-                style={{ marginBottom: 10 }}
-                onClick={() => {
-                  setRotations({
-                    inner: 0,
-                    middle: 0,
-                    outer: 0
-                  });
-                  resetElements("inner");
-                }}
-              >
-                Reset
-              </Button>
-            </div>
+            <Col>
+              <div className="gofButtons" style={{ marginBottom: 20 }}>
+                <span className="gofButtonsLabel">{`Points: ${activeNodes.length -
+                  1}/90`}</span>
+                <span className="gofButtonsLabel">Rotate Rings</span>
+                <div className="ringNamesContainer">
+                  <div
+                    onClick={() => {
+                      selectedRing === "outer"
+                        ? setSelectedRing("")
+                        : setSelectedRing("outer");
+                    }}
+                    className={`ringName ${
+                      selectedRing === "outer" ? "selected" : ""
+                    }`}
+                  >
+                    <span>Outer</span>
+                  </div>
+
+                  <div
+                    onClick={() => {
+                      selectedRing === "middle"
+                        ? setSelectedRing("")
+                        : setSelectedRing("middle");
+                    }}
+                    className={`ringName ${
+                      selectedRing === "middle" ? "selected" : ""
+                    }`}
+                  >
+                    <span>Middle</span>
+                  </div>
+
+                  <div
+                    onClick={() => {
+                      selectedRing === "inner"
+                        ? setSelectedRing("")
+                        : setSelectedRing("inner");
+                    }}
+                    className={`ringName ${
+                      selectedRing === "inner" ? "selected" : ""
+                    }`}
+                  >
+                    <span>Inner</span>
+                  </div>
+                </div>
+
+                <div className="rotateButtonContainer">
+                  <Button
+                    className="rotateButtonLeft"
+                    type="primary"
+                    style={{ marginBottom: 10 }}
+                    onClick={() => {
+                      handleWheelSpin("right");
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faReply} />
+                  </Button>
+                  <Button
+                    className="rotateButtonRight"
+                    type="primary"
+                    style={{ marginBottom: 10 }}
+                    onClick={() => {
+                      handleWheelSpin("left");
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faShare} />
+                  </Button>
+                </div>
+                <Button
+                  className="rotateButtonReset"
+                  type="primary"
+                  style={{ marginBottom: 10 }}
+                  onClick={() => {
+                    setRotations({
+                      inner: 0,
+                      middle: 0,
+                      outer: 0
+                    });
+                    resetElements("inner");
+                    setPanZoomVal(INITIAL_VALUE);
+                  }}
+                >
+                  Reset
+                </Button>
+              </div>
+            </Col>
             <Col>
               <div className="gofContainer">
                 <Fireflies />
@@ -699,7 +759,7 @@ const GateOfFates = () => {
                     console.log("click", event.x, event.y, event.originalEvent)
                   }
                   SVGBackground="transparent"
-                  background="transparent"
+                  background="#000c"
                   miniatureProps={{ position: "none" }}
                   tool={panZoomTool}
                   onChangeTool={tool => {

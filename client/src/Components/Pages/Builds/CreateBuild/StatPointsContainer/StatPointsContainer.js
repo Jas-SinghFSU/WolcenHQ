@@ -220,6 +220,18 @@ const StatPointsSection = props => {
               onChange={onStatInputChange}
             />
           </span>
+          <div className="statsControllerCol">
+            <Icon
+              className="statsControllerButton left"
+              type="arrow-left"
+              onClick={() => handleStatDecrease("ferocity")}
+            />
+            <Icon
+              className="statsControllerButton right"
+              type="arrow-right"
+              onClick={() => handleStatIncrease("ferocity")}
+            />
+          </div>
         </Col>
         <Col className="statCol" span={5} offset={0}>
           <span className="statTitle toughness">
@@ -232,6 +244,18 @@ const StatPointsSection = props => {
               onChange={onStatInputChange}
             />
           </span>
+          <div className="statsControllerCol">
+            <Icon
+              className="statsControllerButton left"
+              type="arrow-left"
+              onClick={() => handleStatDecrease("toughness")}
+            />
+            <Icon
+              className="statsControllerButton right"
+              type="arrow-right"
+              onClick={() => handleStatIncrease("toughness")}
+            />
+          </div>
         </Col>
         <Col className="statCol" span={5} offset={0}>
           <span className="statTitle agility">
@@ -244,6 +268,18 @@ const StatPointsSection = props => {
               onChange={onStatInputChange}
             />
           </span>
+          <div className="statsControllerCol">
+            <Icon
+              className="statsControllerButton left"
+              type="arrow-left"
+              onClick={() => handleStatDecrease("agility")}
+            />
+            <Icon
+              className="statsControllerButton right"
+              type="arrow-right"
+              onClick={() => handleStatIncrease("agility")}
+            />
+          </div>
         </Col>
         <Col className="statCol" span={5} offset={0}>
           <span className="statTitle wisdom">
@@ -256,57 +292,18 @@ const StatPointsSection = props => {
               onChange={onStatInputChange}
             />
           </span>
-        </Col>
-      </Row>
-
-      <Row className="statsControllerRow">
-        <Col className="statsControllerCol" span={5} offset={2}>
-          <Icon
-            className="statsControllerButton left"
-            type="arrow-left"
-            onClick={() => handleStatDecrease("ferocity")}
-          />
-          <Icon
-            className="statsControllerButton right"
-            type="arrow-right"
-            onClick={() => handleStatIncrease("ferocity")}
-          />
-        </Col>
-        <Col className="statsControllerCol" span={5} offset={0}>
-          <Icon
-            className="statsControllerButton left"
-            type="arrow-left"
-            onClick={() => handleStatDecrease("toughness")}
-          />
-          <Icon
-            className="statsControllerButton right"
-            type="arrow-right"
-            onClick={() => handleStatIncrease("toughness")}
-          />
-        </Col>
-        <Col className="statsControllerCol" span={5} offset={0}>
-          <Icon
-            className="statsControllerButton left"
-            type="arrow-left"
-            onClick={() => handleStatDecrease("agility")}
-          />
-          <Icon
-            className="statsControllerButton right"
-            type="arrow-right"
-            onClick={() => handleStatIncrease("agility")}
-          />
-        </Col>
-        <Col className="statsControllerCol" span={5} offset={0}>
-          <Icon
-            className="statsControllerButton left"
-            type="arrow-left"
-            onClick={() => handleStatDecrease("wisdom")}
-          />
-          <Icon
-            className="statsControllerButton right"
-            type="arrow-right"
-            onClick={() => handleStatIncrease("wisdom")}
-          />
+          <div className="statsControllerCol">
+            <Icon
+              className="statsControllerButton left"
+              type="arrow-left"
+              onClick={() => handleStatDecrease("wisdom")}
+            />
+            <Icon
+              className="statsControllerButton right"
+              type="arrow-right"
+              onClick={() => handleStatIncrease("wisdom")}
+            />
+          </div>
         </Col>
       </Row>
     </div>

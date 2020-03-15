@@ -97,3 +97,71 @@
   margin-top: 458px;
   margin-right: 20px;
 }
+
+.gofButtonsLabel {
+  color: rgb(192, 192, 192);
+  font-size: 26px;
+}
+
+.ringNamesContainer {
+  width: 150px;
+  color: #c1b156;
+  font-size: 20px;
+}
+
+.ringName {
+  cursor: pointer;
+  margin-top: 3px;
+  background: rgba(0, 0, 0, 0.507);
+}
+
+.ringName:hover {
+  cursor: pointer;
+  background: rgba(122, 122, 90, 0.432);
+}
+
+.ringName.selected {
+  cursor: pointer;
+  color: black;
+  background: #a89d5f;
+}
+
+.rotateButtonContainer {
+  margin-top: 10px;
+}
+
+.rotateButtonLeft {
+  margin-right: 5px;
+  background-color: #27a78b !important;
+  border-color: #27a78b !important;
+}
+
+.rotateButtonLeft:hover {
+  margin-right: 5px;
+  background-color: #59d6bb !important;
+  border-color: #59d6bb !important;
+}
+
+.rotateButtonRight {
+  margin-left: 5px;
+  background-color: #27a78b !important;
+  border-color: #27a78b !important;
+}
+
+.rotateButtonRight:hover {
+  margin-left: 5px;
+  background-color: #59d6bb !important;
+  border-color: #59d6bb !important;
+}
+
+.rotateButtonReset {
+  margin-left: 5px;
+  background-color: #c2544c !important;
+  border-color: #c94d44 !important;
+}
+
+.rotateButtonReset:hover {
+  margin-left: 5px;
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
