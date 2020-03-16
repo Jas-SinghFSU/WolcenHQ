@@ -1,8 +1,112 @@
 .quillComponent {
   padding-bottom: 150px;
-  margin-top: 20px;
 }
 
-.ql-header.ql-picker > span {
+.ql-toolbar.ql-snow {
+  background: #1c1c1c;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 55px;
+}
+.ql-container.ql-snow {
+  background: #eee;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-family: oswald;
+  font-size: 15px;
+}
+.ql-picker-label svg .ql-stroke {
+  stroke: rgba(255, 255, 255, 0.815);
+}
+.ql-picker-formats :hover {
   color: red !important;
+}
+.ql-formats {
+  stroke: rgb(230, 198, 95);
+}
+.ql-editor {
+  min-height: 500px;
+}
+.ql-formats {
+  color: rgba(255, 255, 255, 0.815);
+  margin-top: 6px;
+}
+.ql-picker-item.ql-selected {
+  color: rgb(230, 198, 95) !important;
+}
+.ql-picker-label.ql-active {
+  color: white !important;
+}
+.ql-active {
+  color: rgb(230, 198, 95) !important;
+}
+.ql-bold:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-italic:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-underline:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-strike:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-blockquote:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-color:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-link:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-list:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-indent:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-picker-label:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-picker-label:hover svg .ql-stroke {
+  stroke: rgb(184, 165, 103) !important;
+}
+.svg-inline--fa.fa-palette.fa-w-16 {
+  margin-bottom: 10px;
+}
+
+.ql-picker-label {
+  color: white;
+  font-family: oswald;
+  font-size: 16px;
+}
+.ql-picker-options {
+  font-family: oswald;
+}
+.ql-picker-item:hover {
+  color: rgb(172, 144, 55) !important;
+}
+
+.buildDescriptionContainer {
+  margin-top: 25px;
+}
+.buildTitleContainer {
+  margin-bottom: 10px;
+}
+.buildGuideContainer {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.buildDescriptionSectionLabel {
+  margin-bottom: 5px;
+  text-align: left;
+  color: rgb(192, 192, 192);
+  font-size: 20px;
+}
+.buildTitleInput {
+  background: #eee;
+  font-size: 16px;
 }
