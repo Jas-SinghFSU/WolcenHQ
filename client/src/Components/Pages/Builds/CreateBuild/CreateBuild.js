@@ -3,6 +3,7 @@ import { Layout, Row, Col } from "antd";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
 import GateOfFatesContainer from "./GateOfFatesContainer/GateOfFatesContainer";
+import BuildDescriptionContainer from "./BuildDescriptionContainer/BuildDescriptionContainer";
 
 import "./style.css";
 
@@ -28,6 +29,7 @@ const CreateBuild = () => {
             <StatPointsContainer />
             <SkillsContainer />
             <GateOfFatesContainer />
+            <BuildDescriptionContainer />
           </Col>
         </Row>
       </Content>

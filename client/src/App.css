@@ -46,6 +46,14 @@
 }
 .pageContentContainer {
   transition: min-width 0.3s;
-  min-width: 1200px;
+  min-width: 1270px;
   min-height: 100vh;
+}
+
+.noSelectText {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }

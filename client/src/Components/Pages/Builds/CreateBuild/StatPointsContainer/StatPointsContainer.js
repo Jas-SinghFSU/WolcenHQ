@@ -7,7 +7,7 @@ const StatPointsSectionHeader = props => {
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
-        <span className="statPointsTitle">Stat Points</span>
+        <span className="sectionLabel">Stat Points</span>
       </Col>
     </Row>
   );
@@ -222,12 +222,12 @@ const StatPointsSection = props => {
           </span>
           <div className="statsControllerCol">
             <Icon
-              className="statsControllerButton left"
+              className="statsControllerButton left noSelectText"
               type="arrow-left"
               onClick={() => handleStatDecrease("ferocity")}
             />
             <Icon
-              className="statsControllerButton right"
+              className="statsControllerButton right noSelectText"
               type="arrow-right"
               onClick={() => handleStatIncrease("ferocity")}
             />
@@ -246,12 +246,12 @@ const StatPointsSection = props => {
           </span>
           <div className="statsControllerCol">
             <Icon
-              className="statsControllerButton left"
+              className="statsControllerButton left noSelectText"
               type="arrow-left"
               onClick={() => handleStatDecrease("toughness")}
             />
             <Icon
-              className="statsControllerButton right"
+              className="statsControllerButton right noSelectText"
               type="arrow-right"
               onClick={() => handleStatIncrease("toughness")}
             />
@@ -270,12 +270,12 @@ const StatPointsSection = props => {
           </span>
           <div className="statsControllerCol">
             <Icon
-              className="statsControllerButton left"
+              className="statsControllerButton left noSelectText"
               type="arrow-left"
               onClick={() => handleStatDecrease("agility")}
             />
             <Icon
-              className="statsControllerButton right"
+              className="statsControllerButton right noSelectText"
               type="arrow-right"
               onClick={() => handleStatIncrease("agility")}
             />
@@ -294,12 +294,12 @@ const StatPointsSection = props => {
           </span>
           <div className="statsControllerCol">
             <Icon
-              className="statsControllerButton left"
+              className="statsControllerButton left noSelectText"
               type="arrow-left"
               onClick={() => handleStatDecrease("wisdom")}
             />
             <Icon
-              className="statsControllerButton right"
+              className="statsControllerButton right noSelectText"
               type="arrow-right"
               onClick={() => handleStatIncrease("wisdom")}
             />

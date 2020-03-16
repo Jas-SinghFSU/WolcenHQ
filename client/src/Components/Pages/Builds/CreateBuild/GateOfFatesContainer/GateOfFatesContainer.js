@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReply, faShare } from "@fortawesome/free-solid-svg-icons";
 import Fireflies from "./Fireflies";
 import "./style.css";
-import "./gof.css";
 
 const svgData = require("../../../../../Data/GoF/output.json");
 const linkElems = require("../../../../../Data/GoF/nodeLinks.json");
@@ -21,7 +20,7 @@ const GOFSectionHeader = () => {
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
-        <span className="statPointsTitle">Gate of Fates</span>
+        <span className="sectionLabel">Gate of Fates</span>
       </Col>
     </Row>
   );
@@ -601,7 +600,7 @@ const GateOfFates = () => {
         ? `url(#radial-gradient-purple${isActive === true ? "-active" : ""})`
         : "";
 
-      const strokeWidth = isActive ? 1.5 : 0.75;
+      const strokeWidth = isActive ? 1.5 : 1;
       // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
       const strokeColor =
         circle.r > 6 && isActive
@@ -665,7 +664,7 @@ const GateOfFates = () => {
           <div className="gofAndControls">
             <Col>
               <div className="gofButtons" style={{ marginBottom: 20 }}>
-                <span className="gofButtonsLabel">{`Points: ${activeNodes.length -
+                <span className="gofSkillPointsLabel">{`Points: ${activeNodes.length -
                   1}/90`}</span>
                 <span className="gofButtonsLabel">Rotate Rings</span>
                 <div className="ringNamesContainer">
@@ -732,6 +731,16 @@ const GateOfFates = () => {
                   </Button>
                 </div>
                 <Button
+                  className="rotateButtonReset zoom"
+                  type="primary"
+                  style={{ marginBottom: 10 }}
+                  onClick={() => {
+                    setPanZoomVal(INITIAL_VALUE);
+                  }}
+                >
+                  Reset Zoom
+                </Button>
+                <Button
                   className="rotateButtonReset"
                   type="primary"
                   style={{ marginBottom: 10 }}
@@ -742,10 +751,9 @@ const GateOfFates = () => {
                       outer: 0
                     });
                     resetElements("inner");
-                    setPanZoomVal(INITIAL_VALUE);
                   }}
                 >
-                  Reset
+                  Reset Wheel
                 </Button>
               </div>
             </Col>

@@ -9,7 +9,7 @@ const SkillsSectionHeader = () => {
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
-        <span className="statPointsTitle">Skills</span>
+        <span className="sectionLabel">Skills</span>
       </Col>
     </Row>
   );

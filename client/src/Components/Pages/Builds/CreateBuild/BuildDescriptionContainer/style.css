@@ -1,0 +1,8 @@
+.quillComponent {
+  padding-bottom: 150px;
+  margin-top: 20px;
+}
+
+.ql-header.ql-picker > span {
+  color: red !important;
+}
