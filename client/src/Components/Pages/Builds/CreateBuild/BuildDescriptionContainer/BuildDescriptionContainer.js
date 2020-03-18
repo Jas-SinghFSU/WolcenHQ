@@ -1,8 +1,14 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { Row, Col, Input, Icon } from "antd";
+import { Row, Col, Input, Select, Button } from "antd";
 import ReactQuill, { Quill, Mixin, Toolbar } from "react-quill";
+import { buildDescription } from "../../../../Constants/constants";
+import validator from "validator";
+
 import "react-quill/dist/quill.snow.css";
 import "./style.css";
+
+const { Option } = Select;
+const InputGroup = Input.Group;
 
 let quilIcons = Quill.import("ui/icons");
 quilIcons["bold"] = '<i class="fas fa-bold"></i>';
@@ -29,7 +35,10 @@ const BuildDescriptionHeader = props => {
 
 const BuildDescriptionContent = props => {
   const [buildTitle, setBuildTitle] = useState("");
-  const [inputText, setInputText] = useState("");
+  const [buildVideo, setBuildVideo] = useState("");
+  const [combatType, setCombatType] = useState("Melee");
+  const [playstyle, setPlaystyle] = useState("Solo");
+  const [inputText, setInputText] = useState(buildDescription.default);
 
   const handleInputChange = val => {
     setInputText(val);
@@ -47,17 +56,63 @@ const BuildDescriptionContent = props => {
     ]
   };
 
+  const validateURL = () => {
+    const isURLValid = validator.isURL(buildVideo);
+
+    return isURLValid;
+  };
+
   return (
     <Row className="buildDescriptionContainer">
       <Col span={24} offset={0}>
-        <div className="buildTitleContainer">
-          <div className="buildDescriptionSectionLabel">Title</div>
-          <Input
-            className="buildTitleInput"
-            placeholder="How about a cool name?"
-            value={buildTitle}
-            onChange={e => setBuildTitle(e.target.value)}
-          />
+        <div className="buildInputBoxContainer">
+          <div className="buildTitleContainer">
+            <div className="buildDescriptionSectionLabel">Title</div>
+            <Input
+              className="buildTitleInput"
+              placeholder="How about a cool name?"
+              value={buildTitle}
+              onChange={e => setBuildTitle(e.target.value)}
+            />
+          </div>
+          <div className="buildYTLinkContainer">
+            <div className="buildDescriptionSectionLabel">Youtube Link</div>
+            <Input
+              className="ytLinkInput"
+              placeholder="Got a video? Show it off!"
+              value={buildVideo}
+              onChange={e => setBuildVideo(e.target.value)}
+            />
+          </div>
+          <div className="playstyleContainer">
+            <div className="buildDescriptionSectionLabel">Playstyle</div>
+            <InputGroup className="playstyleInput">
+              <Select
+                style={{ width: "100%" }}
+                defaultValue="Solo"
+                onChange={val => setPlaystyle(val)}
+              >
+                <Option value="Solo">Solo</Option>
+                <Option value="Group">Group</Option>
+                <Option value="Solo + Group">Solo + Group</Option>
+              </Select>
+            </InputGroup>
+          </div>
+          <div className="combatTypeContainer">
+            <div className="buildDescriptionSectionLabel">Combat Type</div>
+            <InputGroup className="combatTypeInput">
+              <Select
+                style={{ width: "100%" }}
+                defaultValue="Melee"
+                onChange={val => setCombatType(val)}
+              >
+                <Option value="Melee">Melee</Option>
+                <Option value="Caster">Caster</Option>
+                <Option value="Ranged">Ranged</Option>
+                <Option value="Tank">Tank</Option>
+              </Select>
+            </InputGroup>
+          </div>
         </div>
         <div className="buildGuideContainer">
           <div className="buildDescriptionSectionLabel">Description</div>
@@ -69,6 +124,11 @@ const BuildDescriptionContent = props => {
             modules={quillBoxModules}
           />
         </div>
+      </Col>
+      <Col span={2} offset={11}>
+        <Button className="submitBuildButton" type="primary">
+          Submit
+        </Button>
       </Col>
     </Row>
   );

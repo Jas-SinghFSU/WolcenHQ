@@ -8,3 +8,22 @@
   margin-top: 5%;
   height: 100%;
 }
+
+.createBuildTitle {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(241, 241, 241, 0.945);
+  margin: 8px 0px;
+}
+
+.createBuildTitle::before,
+.createBuildTitle::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.35);
+  height: 2px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
