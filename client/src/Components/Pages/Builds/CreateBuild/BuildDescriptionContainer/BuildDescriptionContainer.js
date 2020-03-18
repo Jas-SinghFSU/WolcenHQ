@@ -34,15 +34,20 @@ const BuildDescriptionHeader = props => {
 };
 
 const BuildDescriptionContent = props => {
-  const [buildTitle, setBuildTitle] = useState("");
-  const [buildVideo, setBuildVideo] = useState("");
-  const [combatType, setCombatType] = useState("Melee");
-  const [playstyle, setPlaystyle] = useState("Solo");
-  const [inputText, setInputText] = useState(buildDescription.default);
+  // const [inputText, setInputText] = useState(buildDescription.default);
 
-  const handleInputChange = val => {
-    setInputText(val);
-  };
+  const {
+    buildTitle,
+    setTitle,
+    buildVideo,
+    setVid,
+    combatType,
+    setComb,
+    playstyle,
+    setPs,
+    inputText,
+    setDesc
+  } = props;
 
   const quillBoxModules = {
     toolbar: [
@@ -72,7 +77,7 @@ const BuildDescriptionContent = props => {
               className="buildTitleInput"
               placeholder="How about a cool name?"
               value={buildTitle}
-              onChange={e => setBuildTitle(e.target.value)}
+              onChange={e => setTitle(e.target.value)}
             />
           </div>
           <div className="buildYTLinkContainer">
@@ -81,7 +86,7 @@ const BuildDescriptionContent = props => {
               className="ytLinkInput"
               placeholder="Got a video? Show it off!"
               value={buildVideo}
-              onChange={e => setBuildVideo(e.target.value)}
+              onChange={e => setVid(e.target.value)}
             />
           </div>
           <div className="playstyleContainer">
@@ -90,7 +95,7 @@ const BuildDescriptionContent = props => {
               <Select
                 style={{ width: "100%" }}
                 defaultValue="Solo"
-                onChange={val => setPlaystyle(val)}
+                onChange={val => setPs(val)}
               >
                 <Option value="Solo">Solo</Option>
                 <Option value="Group">Group</Option>
@@ -104,7 +109,7 @@ const BuildDescriptionContent = props => {
               <Select
                 style={{ width: "100%" }}
                 defaultValue="Melee"
-                onChange={val => setCombatType(val)}
+                onChange={val => setComb(val)}
               >
                 <Option value="Melee">Melee</Option>
                 <Option value="Caster">Caster</Option>
@@ -119,7 +124,7 @@ const BuildDescriptionContent = props => {
           <ReactQuill
             className="quillComponent"
             value={inputText}
-            onChange={handleInputChange}
+            onChange={setDesc}
             theme="snow"
             modules={quillBoxModules}
           />
@@ -134,13 +139,13 @@ const BuildDescriptionContent = props => {
   );
 };
 
-const BuildDescriptionContainer = () => {
+const BuildDescriptionContainer = props => {
   return (
     <Fragment>
       <BuildDescriptionHeader />
-      <BuildDescriptionContent />
+      <BuildDescriptionContent {...props} />
     </Fragment>
   );
 };
 
-export default BuildDescriptionContainer;
+export default React.memo(BuildDescriptionContainer);

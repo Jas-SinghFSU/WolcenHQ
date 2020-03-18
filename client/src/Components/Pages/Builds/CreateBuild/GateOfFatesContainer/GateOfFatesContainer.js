@@ -116,7 +116,7 @@ const SkillTooltip = ({ tooltipOptions }) => {
   );
 };
 
-const GateOfFates = () => {
+const GateOfFates = ({ setActiveNodes, activeNodes }) => {
   const [allNodes, setAllNodes] = useState(null);
   const [passiveSkillsList] = useState(passiveSkills);
   const [nodePairs] = useState(linkElems);
@@ -128,7 +128,6 @@ const GateOfFates = () => {
     outer: 0,
     middle: 0
   });
-  const [activeNodes, setActiveNodes] = useState(["root"]);
   const [activePairs, setActivePairs] = useState([]);
   const [innerToMiddle] = useState(rcLinks);
   const [middleToOuter] = useState(orcLinks);
@@ -763,9 +762,6 @@ const GateOfFates = () => {
                 <ReactSVGPanZoom
                   width={1044}
                   height={1044}
-                  onClick={event =>
-                    console.log("click", event.x, event.y, event.originalEvent)
-                  }
                   SVGBackground="transparent"
                   background="#000c"
                   miniatureProps={{ position: "none" }}
@@ -846,15 +842,18 @@ const GateOfFates = () => {
   }
 };
 
-const GateOfFatesContainer = () => {
+const GateOfFatesContainer = props => {
   return (
     <div>
       <GOFSectionHeader />
       <div style={{ marginTop: 20 }}>
-        <GateOfFates />
+        <GateOfFates
+          setActiveNodes={props.setActiveNodes}
+          activeNodes={props.activeNodes}
+        />
       </div>
     </div>
   );
 };
 
-export default GateOfFatesContainer;
+export default React.memo(GateOfFatesContainer);

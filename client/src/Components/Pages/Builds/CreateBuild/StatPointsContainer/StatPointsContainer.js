@@ -15,34 +15,64 @@ const StatPointsSectionHeader = props => {
 
 const StatPointsSection = props => {
   const [statPoints, setStatPoints] = useState(890);
-  const [ferocity, setFerocity] = useState(0);
-  const [toughness, setToughness] = useState(0);
-  const [agility, setAgility] = useState(0);
-  const [wisdom, setWisdom] = useState(0);
+  const [stats, setStats] = useState({
+    ferocity: 0,
+    toughness: 0,
+    agility: 0,
+    wisdom: 0
+  });
+
+  const setFerocity = val => {
+    setStats({
+      ...stats,
+      ferocity: val
+    });
+  };
+
+  const setWisdom = val => {
+    setStats({
+      ...stats,
+      wisdom: val
+    });
+  };
+
+  const setAgility = val => {
+    setStats({
+      ...stats,
+      agility: val
+    });
+  };
+
+  const setToughness = val => {
+    setStats({
+      ...stats,
+      toughness: val
+    });
+  };
 
   const handleStatIncrease = statName => {
     switch (statName) {
       case "ferocity":
         if (statPoints > 0) {
-          setFerocity(ferocity + 1);
+          setFerocity(stats.ferocity + 1);
           setStatPoints(statPoints - 1);
         }
         break;
       case "toughness":
         if (statPoints > 0) {
-          setToughness(toughness + 1);
+          setToughness(stats.toughness + 1);
           setStatPoints(statPoints - 1);
         }
         break;
       case "agility":
         if (statPoints > 0) {
-          setAgility(agility + 1);
+          setAgility(stats.agility + 1);
           setStatPoints(statPoints - 1);
         }
         break;
       case "wisdom":
         if (statPoints > 0) {
-          setWisdom(wisdom + 1);
+          setWisdom(stats.wisdom + 1);
           setStatPoints(statPoints - 1);
         }
         break;
@@ -54,26 +84,26 @@ const StatPointsSection = props => {
   const handleStatDecrease = statName => {
     switch (statName) {
       case "ferocity":
-        if (ferocity > 0) {
-          setFerocity(ferocity - 1);
+        if (stats.ferocity > 0) {
+          setFerocity(stats.ferocity - 1);
           setStatPoints(statPoints + 1);
         }
         break;
       case "toughness":
-        if (toughness > 0) {
-          setToughness(toughness - 1);
+        if (stats.toughness > 0) {
+          setToughness(stats.toughness - 1);
           setStatPoints(statPoints + 1);
         }
         break;
       case "agility":
-        if (agility > 0) {
-          setAgility(agility - 1);
+        if (stats.agility > 0) {
+          setAgility(stats.agility - 1);
           setStatPoints(statPoints + 1);
         }
         break;
       case "wisdom":
-        if (wisdom > 0) {
-          setWisdom(wisdom - 1);
+        if (stats.wisdom > 0) {
+          setWisdom(stats.wisdom - 1);
           setStatPoints(statPoints + 1);
         }
         break;
@@ -101,93 +131,101 @@ const StatPointsSection = props => {
     switch (e.target.name) {
       case "ferocity":
         const allButFerocity =
-          parseInt(wisdom || 0) +
-          parseInt(toughness || 0) +
-          parseInt(agility || 0);
+          parseInt(stats.wisdom || 0) +
+          parseInt(stats.toughness || 0) +
+          parseInt(stats.agility || 0);
         if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButFerocity) &&
-          ferocity < newTargetValue
+          stats.ferocity < newTargetValue
         ) {
           setFerocity(
-            ferocity === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+            stats.ferocity === 0
+              ? e.target.value.replace(/^0+/, "")
+              : newTargetValue
           );
           setStatPoints(890 - (newTargetValue + allButFerocity));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButFerocity) &&
-          ferocity > newTargetValue
+          stats.ferocity > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (ferocity - newTargetValue));
+          setStatPoints(statPointsValue + (stats.ferocity - newTargetValue));
           setFerocity(newTargetValue || 0);
         }
         break;
       case "toughness":
         const allButToughness =
-          parseInt(wisdom || 0) +
-          parseInt(ferocity || 0) +
-          parseInt(agility || 0);
+          parseInt(stats.wisdom || 0) +
+          parseInt(stats.ferocity || 0) +
+          parseInt(stats.agility || 0);
         if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButToughness) &&
-          toughness < newTargetValue
+          stats.toughness < newTargetValue
         ) {
           setToughness(
-            toughness === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+            stats.toughness === 0
+              ? e.target.value.replace(/^0+/, "")
+              : newTargetValue
           );
           setStatPoints(890 - (newTargetValue + allButToughness));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButToughness) &&
-          toughness > newTargetValue
+          stats.toughness > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (toughness - newTargetValue));
+          setStatPoints(statPointsValue + (stats.toughness - newTargetValue));
           setToughness(newTargetValue || 0);
         }
         break;
       case "agility":
         const allButAgility =
-          parseInt(wisdom || 0) +
-          parseInt(toughness || 0) +
-          parseInt(ferocity || 0);
+          parseInt(stats.wisdom || 0) +
+          parseInt(stats.toughness || 0) +
+          parseInt(stats.ferocity || 0);
         if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButAgility) &&
-          agility < newTargetValue
+          stats.agility < newTargetValue
         ) {
           setAgility(
-            agility === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+            stats.agility === 0
+              ? e.target.value.replace(/^0+/, "")
+              : newTargetValue
           );
           setStatPoints(890 - (newTargetValue + allButAgility));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButAgility) &&
-          agility > newTargetValue
+          stats.agility > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (agility - newTargetValue));
+          setStatPoints(statPointsValue + (stats.agility - newTargetValue));
           setAgility(newTargetValue || 0);
         }
         break;
       case "wisdom":
         const allButWisdom =
-          parseInt(ferocity || 0) +
-          parseInt(toughness || 0) +
-          parseInt(agility || 0);
+          parseInt(stats.ferocity || 0) +
+          parseInt(stats.toughness || 0) +
+          parseInt(stats.agility || 0);
         if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButWisdom) &&
-          wisdom < newTargetValue
+          stats.wisdom < newTargetValue
         ) {
           setWisdom(
-            wisdom === 0 ? e.target.value.replace(/^0+/, "") : newTargetValue
+            stats.wisdom === 0
+              ? e.target.value.replace(/^0+/, "")
+              : newTargetValue
           );
           setStatPoints(890 - (newTargetValue + allButWisdom));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButWisdom) &&
-          wisdom > newTargetValue
+          stats.wisdom > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (wisdom - newTargetValue));
+          setStatPoints(statPointsValue + (stats.wisdom - newTargetValue));
           setWisdom(newTargetValue || 0);
         }
         break;
@@ -215,7 +253,7 @@ const StatPointsSection = props => {
             <Input
               className="statCount"
               defaultValue={0}
-              value={ferocity}
+              value={stats.ferocity}
               name="ferocity"
               onChange={onStatInputChange}
             />
@@ -239,7 +277,7 @@ const StatPointsSection = props => {
             <Input
               className="statCount"
               defaultValue={0}
-              value={toughness}
+              value={stats.toughness}
               name="toughness"
               onChange={onStatInputChange}
             />
@@ -263,7 +301,7 @@ const StatPointsSection = props => {
             <Input
               className="statCount"
               defaultValue={0}
-              value={agility}
+              value={stats.agility}
               name="agility"
               onChange={onStatInputChange}
             />
@@ -287,7 +325,7 @@ const StatPointsSection = props => {
             <Input
               className="statCount"
               defaultValue={0}
-              value={wisdom}
+              value={stats.wisdom}
               name="wisdom"
               onChange={onStatInputChange}
             />
@@ -319,4 +357,4 @@ const StatPointsContainer = () => {
   );
 };
 
-export default StatPointsContainer;
+export default React.memo(StatPointsContainer);

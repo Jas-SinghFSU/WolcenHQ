@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
 import { Layout, Row, Col } from "antd";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
 import GateOfFatesContainer from "./GateOfFatesContainer/GateOfFatesContainer";
 import BuildDescriptionContainer from "./BuildDescriptionContainer/BuildDescriptionContainer";
+import { buildDescription } from "../../../Constants/constants";
 
 import "./style.css";
 
@@ -20,6 +21,65 @@ const CreateBuildTitle = props => {
 };
 
 const CreateBuild = () => {
+  /* States of the data being sent to the database */
+  const [buildTitle, setBuildTitle] = useState("");
+  const [buildVideo, setBuildVideo] = useState("");
+  const [combatType, setCombatType] = useState("Melee");
+  const [playstyle, setPlaystyle] = useState("Solo");
+  const [inputText, setInputText] = useState(buildDescription.default);
+  const [activeNodes, setNodes] = useState(["root"]);
+
+  const setDesc = useCallback(
+    data => {
+      setInputText(data);
+    },
+    [setInputText]
+  );
+  const setVid = useCallback(
+    data => {
+      setBuildVideo(data);
+    },
+    [setBuildVideo]
+  );
+  const setComb = useCallback(
+    data => {
+      setCombatType(data);
+    },
+    [setCombatType]
+  );
+  const setPs = useCallback(
+    data => {
+      setPlaystyle(data);
+    },
+    [setPlaystyle]
+  );
+  const setTitle = useCallback(
+    data => {
+      setBuildTitle(data);
+    },
+    [setBuildTitle]
+  );
+
+  const setActiveNodes = useCallback(
+    data => {
+      setNodes(data);
+    },
+    [setNodes]
+  );
+
+  const buildDescriptionProps = {
+    buildTitle,
+    setTitle,
+    buildVideo,
+    setVid,
+    combatType,
+    setComb,
+    playstyle,
+    setPs,
+    inputText,
+    setDesc
+  };
+
   return (
     <Layout className="createBuildPageLayout">
       <Content className="statsAndSkills">
@@ -28,8 +88,11 @@ const CreateBuild = () => {
             <CreateBuildTitle />
             <StatPointsContainer />
             <SkillsContainer />
-            <GateOfFatesContainer />
-            <BuildDescriptionContainer />
+            <GateOfFatesContainer
+              setActiveNodes={setActiveNodes}
+              activeNodes={activeNodes}
+            />
+            <BuildDescriptionContainer {...buildDescriptionProps} />
           </Col>
         </Row>
       </Content>
