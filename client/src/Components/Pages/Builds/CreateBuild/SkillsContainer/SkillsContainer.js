@@ -42,14 +42,14 @@ const SkillsSelectorLabels = () => {
   );
 };
 
-const SkillsContainer = () => {
+const SkillsContainer = props => {
   return (
     <div>
       <SkillsSectionHeader />
       <SkillsSelectorLabels />
-      <SkillsSelector />
+      <SkillsSelector {...props} />
     </div>
   );
 };
 
-export default SkillsContainer;
+export default React.memo(SkillsContainer);

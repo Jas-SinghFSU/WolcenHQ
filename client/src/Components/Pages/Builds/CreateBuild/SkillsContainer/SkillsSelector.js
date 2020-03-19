@@ -4,15 +4,7 @@ import SkillSlot from "./SkillSlot";
 import { SkillListModal, SkillModModal } from "./SkillModals";
 import { maxModifierLimit } from "../../../../Constants/constants";
 
-const SkillsSelector = () => {
-  const [slotData, setSlotData] = useState({
-    slot1: null,
-    slot2: null,
-    slot3: null,
-    slot4: null,
-    slot5: null,
-    slot6: null
-  });
+const SkillsSelector = ({ slotData, setSlotDataCB }) => {
   const [modalData, setModalData] = useState({
     show: false,
     slot: null
@@ -47,7 +39,7 @@ const SkillsSelector = () => {
       return;
     }
 
-    setSlotData({
+    setSlotDataCB({
       ...slotData,
       [slotName]: { skillData, imageName, activeModifiers: [] }
     });
@@ -72,7 +64,7 @@ const SkillsSelector = () => {
       return;
     }
 
-    setSlotData({
+    setSlotDataCB({
       ...slotData,
       [slotName]: {
         ...slotData[slotName],
@@ -95,7 +87,7 @@ const SkillsSelector = () => {
 
   const removeSkillFromSlot = slotNum => {
     const slotName = `slot${slotNum}`;
-    setSlotData({
+    setSlotDataCB({
       ...slotData,
       [slotName]: null
     });

@@ -28,6 +28,7 @@ const SideNavigation = () => {
         minWidth: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
         backgroundColor: "rgb(23, 23, 27)",
         transition: `min-width 0.2s, max-width 0.2s`,
+        WebkitTransition: "min-width 0.2s, max-width 0.2s",
         zIndex: 2
       }}
     >

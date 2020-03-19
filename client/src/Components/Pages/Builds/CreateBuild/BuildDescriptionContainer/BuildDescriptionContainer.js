@@ -46,7 +46,8 @@ const BuildDescriptionContent = props => {
     playstyle,
     setPs,
     inputText,
-    setDesc
+    setDesc,
+    submitData
   } = props;
 
   const quillBoxModules = {
@@ -131,7 +132,11 @@ const BuildDescriptionContent = props => {
         </div>
       </Col>
       <Col span={2} offset={11}>
-        <Button className="submitBuildButton" type="primary">
+        <Button
+          className="submitBuildButton"
+          type="primary"
+          onClick={submitData}
+        >
           Submit
         </Button>
       </Col>

@@ -22,12 +22,57 @@ const CreateBuildTitle = props => {
 
 const CreateBuild = () => {
   /* States of the data being sent to the database */
+  const [statPoints, setStatPoints] = useState(890);
+  const [stats, setStats] = useState({
+    ferocity: 0,
+    toughness: 0,
+    agility: 0,
+    wisdom: 0
+  });
+  const [slotData, setSlotData] = useState({
+    slot1: null,
+    slot2: null,
+    slot3: null,
+    slot4: null,
+    slot5: null,
+    slot6: null
+  });
   const [buildTitle, setBuildTitle] = useState("");
   const [buildVideo, setBuildVideo] = useState("");
   const [combatType, setCombatType] = useState("Melee");
   const [playstyle, setPlaystyle] = useState("Solo");
   const [inputText, setInputText] = useState(buildDescription.default);
   const [activeNodes, setNodes] = useState(["root"]);
+  const [rotations, setRotations] = useState({
+    inner: 0,
+    outer: 0,
+    middle: 0
+  });
+
+  /* ALL THE DATA CONTROLLERS EXIST HERE */
+  const setStatPointsCB = useCallback(
+    value => {
+      setStatPoints(value);
+    },
+    [setStatPoints]
+  );
+
+  const setStatsCB = useCallback(
+    (statName, value) => {
+      setStats({
+        ...stats,
+        [statName]: value
+      });
+    },
+    [setStats, stats]
+  );
+
+  const setSlotDataCB = useCallback(
+    data => {
+      setSlotData(data);
+    },
+    [setSlotData]
+  );
 
   const setDesc = useCallback(
     data => {
@@ -67,6 +112,41 @@ const CreateBuild = () => {
     [setNodes]
   );
 
+  const setRotationsCB = useCallback(
+    (scope, rotation) => {
+      if (scope === "all") {
+        setRotations({
+          inner: rotation,
+          outer: rotation,
+          middle: rotation
+        });
+      } else {
+        setRotations({
+          ...rotations,
+          [scope]: rotation
+        });
+      }
+    },
+    [rotations, setRotations]
+  );
+  /* ALL THE DATA CONTROLLERS END HERE */
+
+  const submitData = () => {
+    /* Submit all data */
+  };
+
+  const statPointsProps = {
+    setStatsCB,
+    setStatPointsCB,
+    stats,
+    statPoints
+  };
+
+  const skillContainerProps = {
+    slotData,
+    setSlotDataCB
+  };
+
   const buildDescriptionProps = {
     buildTitle,
     setTitle,
@@ -78,6 +158,14 @@ const CreateBuild = () => {
     setPs,
     inputText,
     setDesc
+    // submitData
+  };
+
+  const gateOfFatesProps = {
+    setActiveNodes,
+    activeNodes,
+    rotations,
+    setRotationsCB
   };
 
   return (
@@ -86,12 +174,9 @@ const CreateBuild = () => {
         <Row>
           <Col span={22} offset={1} style={{ textAlign: "center" }}>
             <CreateBuildTitle />
-            <StatPointsContainer />
-            <SkillsContainer />
-            <GateOfFatesContainer
-              setActiveNodes={setActiveNodes}
-              activeNodes={activeNodes}
-            />
+            <StatPointsContainer {...statPointsProps} />
+            <SkillsContainer {...skillContainerProps} />
+            <GateOfFatesContainer {...gateOfFatesProps} />
             <BuildDescriptionContainer {...buildDescriptionProps} />
           </Col>
         </Row>

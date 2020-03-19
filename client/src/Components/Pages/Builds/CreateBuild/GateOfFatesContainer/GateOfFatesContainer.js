@@ -116,18 +116,14 @@ const SkillTooltip = ({ tooltipOptions }) => {
   );
 };
 
-const GateOfFates = ({ setActiveNodes, activeNodes }) => {
+const GateOfFates = props => {
+  const { setActiveNodes, activeNodes, rotations, setRotationsCB } = props;
   const [allNodes, setAllNodes] = useState(null);
   const [passiveSkillsList] = useState(passiveSkills);
   const [nodePairs] = useState(linkElems);
   const [nodePairsScoped, setNodePairsScoped] = useState(null);
   const [svgDom] = useState(svgData);
   const [selectedRing, setSelectedRing] = useState("");
-  const [rotations, setRotations] = useState({
-    inner: 0,
-    outer: 0,
-    middle: 0
-  });
   const [activePairs, setActivePairs] = useState([]);
   const [innerToMiddle] = useState(rcLinks);
   const [middleToOuter] = useState(orcLinks);
@@ -413,33 +409,26 @@ const GateOfFates = ({ setActiveNodes, activeNodes }) => {
   };
 
   const handleWheelSpin = direction => {
+    let rotationValue;
     if (selectedRing === "outer") {
       resetElements("outer");
-      setRotations({
-        ...rotations,
-        outer:
-          direction === "left" ? rotations.outer + 30 : rotations.outer - 30
-      });
+      rotationValue =
+        direction === "left" ? rotations.outer + 30 : rotations.outer - 30;
+      setRotationsCB("outer", rotationValue);
     }
 
     if (selectedRing === "inner") {
       resetElements("middle");
-
-      setRotations({
-        ...rotations,
-        inner:
-          direction === "left" ? rotations.inner + 120 : rotations.inner - 120
-      });
+      rotationValue =
+        direction === "left" ? rotations.inner + 120 : rotations.inner - 120;
+      setRotationsCB("inner", rotationValue);
     }
 
     if (selectedRing === "middle") {
       resetElements("middle");
-
-      setRotations({
-        ...rotations,
-        middle:
-          direction === "left" ? rotations.middle + 60 : rotations.middle - 60
-      });
+      rotationValue =
+        direction === "left" ? rotations.middle + 60 : rotations.middle - 60;
+      setRotationsCB("middle", rotationValue);
     }
   };
 
@@ -488,31 +477,6 @@ const GateOfFates = ({ setActiveNodes, activeNodes }) => {
      * This is so links aren't duplicated 3 times since we run this each time
      * for each group (3 times total)
      */
-
-    // Not using filteredLinks since we filter them upon loading the component
-    const filteredLinks = filterElem => {
-      // If there are no filter elems provided (ex: -o) then render links for inner circle
-      if (filterElem === "") {
-        return nodePairs.filter(elem => {
-          if (
-            !elem.source.includes("-o") &&
-            !elem.source.includes("-m") &&
-            elem.source !== ""
-          ) {
-            return true;
-          }
-        });
-      } //otherwise render nodes for inner or middle based on filter (ex -o or -m)
-      else if (filterElem !== null) {
-        return nodePairs.filter(elem => {
-          if (elem.source.includes(filterElem)) {
-            return true;
-          }
-        });
-      } else {
-        return null;
-      }
-    };
 
     const elemFilter =
       scope == "outerRing"
@@ -744,11 +708,7 @@ const GateOfFates = ({ setActiveNodes, activeNodes }) => {
                   type="primary"
                   style={{ marginBottom: 10 }}
                   onClick={() => {
-                    setRotations({
-                      inner: 0,
-                      middle: 0,
-                      outer: 0
-                    });
+                    setRotationsCB("all", 0);
                     resetElements("inner");
                   }}
                 >
@@ -847,10 +807,7 @@ const GateOfFatesContainer = props => {
     <div>
       <GOFSectionHeader />
       <div style={{ marginTop: 20 }}>
-        <GateOfFates
-          setActiveNodes={props.setActiveNodes}
-          activeNodes={props.activeNodes}
-        />
+        <GateOfFates {...props} />
       </div>
     </div>
   );

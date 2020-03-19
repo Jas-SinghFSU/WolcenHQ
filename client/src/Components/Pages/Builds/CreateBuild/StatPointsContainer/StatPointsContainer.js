@@ -3,7 +3,7 @@ import { Row, Col, Icon, Input } from "antd";
 
 import "./style.css";
 
-const StatPointsSectionHeader = props => {
+const StatPointsSectionHeader = () => {
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
@@ -13,41 +13,26 @@ const StatPointsSectionHeader = props => {
   );
 };
 
-const StatPointsSection = props => {
-  const [statPoints, setStatPoints] = useState(890);
-  const [stats, setStats] = useState({
-    ferocity: 0,
-    toughness: 0,
-    agility: 0,
-    wisdom: 0
-  });
-
+const StatPointsSection = ({
+  setStatPointsCB,
+  setStatsCB,
+  stats,
+  statPoints
+}) => {
   const setFerocity = val => {
-    setStats({
-      ...stats,
-      ferocity: val
-    });
+    setStatsCB("ferocity", val);
   };
 
   const setWisdom = val => {
-    setStats({
-      ...stats,
-      wisdom: val
-    });
+    setStatsCB("wisdom", val);
   };
 
   const setAgility = val => {
-    setStats({
-      ...stats,
-      agility: val
-    });
+    setStatsCB("agility", val);
   };
 
   const setToughness = val => {
-    setStats({
-      ...stats,
-      toughness: val
-    });
+    setStatsCB("toughness", val);
   };
 
   const handleStatIncrease = statName => {
@@ -55,25 +40,25 @@ const StatPointsSection = props => {
       case "ferocity":
         if (statPoints > 0) {
           setFerocity(stats.ferocity + 1);
-          setStatPoints(statPoints - 1);
+          setStatPointsCB(statPoints - 1);
         }
         break;
       case "toughness":
         if (statPoints > 0) {
           setToughness(stats.toughness + 1);
-          setStatPoints(statPoints - 1);
+          setStatPointsCB(statPoints - 1);
         }
         break;
       case "agility":
         if (statPoints > 0) {
           setAgility(stats.agility + 1);
-          setStatPoints(statPoints - 1);
+          setStatPointsCB(statPoints - 1);
         }
         break;
       case "wisdom":
         if (statPoints > 0) {
           setWisdom(stats.wisdom + 1);
-          setStatPoints(statPoints - 1);
+          setStatPointsCB(statPoints - 1);
         }
         break;
       default:
@@ -86,25 +71,25 @@ const StatPointsSection = props => {
       case "ferocity":
         if (stats.ferocity > 0) {
           setFerocity(stats.ferocity - 1);
-          setStatPoints(statPoints + 1);
+          setStatPointsCB(statPoints + 1);
         }
         break;
       case "toughness":
         if (stats.toughness > 0) {
           setToughness(stats.toughness - 1);
-          setStatPoints(statPoints + 1);
+          setStatPointsCB(statPoints + 1);
         }
         break;
       case "agility":
         if (stats.agility > 0) {
           setAgility(stats.agility - 1);
-          setStatPoints(statPoints + 1);
+          setStatPointsCB(statPoints + 1);
         }
         break;
       case "wisdom":
         if (stats.wisdom > 0) {
           setWisdom(stats.wisdom - 1);
-          setStatPoints(statPoints + 1);
+          setStatPointsCB(statPoints + 1);
         }
         break;
       default:
@@ -144,13 +129,13 @@ const StatPointsSection = props => {
               ? e.target.value.replace(/^0+/, "")
               : newTargetValue
           );
-          setStatPoints(890 - (newTargetValue + allButFerocity));
+          setStatPointsCB(890 - (newTargetValue + allButFerocity));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButFerocity) &&
           stats.ferocity > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (stats.ferocity - newTargetValue));
+          setStatPointsCB(statPointsValue + (stats.ferocity - newTargetValue));
           setFerocity(newTargetValue || 0);
         }
         break;
@@ -169,13 +154,13 @@ const StatPointsSection = props => {
               ? e.target.value.replace(/^0+/, "")
               : newTargetValue
           );
-          setStatPoints(890 - (newTargetValue + allButToughness));
+          setStatPointsCB(890 - (newTargetValue + allButToughness));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButToughness) &&
           stats.toughness > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (stats.toughness - newTargetValue));
+          setStatPointsCB(statPointsValue + (stats.toughness - newTargetValue));
           setToughness(newTargetValue || 0);
         }
         break;
@@ -194,13 +179,13 @@ const StatPointsSection = props => {
               ? e.target.value.replace(/^0+/, "")
               : newTargetValue
           );
-          setStatPoints(890 - (newTargetValue + allButAgility));
+          setStatPointsCB(890 - (newTargetValue + allButAgility));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButAgility) &&
           stats.agility > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (stats.agility - newTargetValue));
+          setStatPointsCB(statPointsValue + (stats.agility - newTargetValue));
           setAgility(newTargetValue || 0);
         }
         break;
@@ -219,13 +204,13 @@ const StatPointsSection = props => {
               ? e.target.value.replace(/^0+/, "")
               : newTargetValue
           );
-          setStatPoints(890 - (newTargetValue + allButWisdom));
+          setStatPointsCB(890 - (newTargetValue + allButWisdom));
         } else if (
           statPointsValue >= 0 &&
           isWithinRange(newTargetValue, allButWisdom) &&
           stats.wisdom > newTargetValue
         ) {
-          setStatPoints(statPointsValue + (stats.wisdom - newTargetValue));
+          setStatPointsCB(statPointsValue + (stats.wisdom - newTargetValue));
           setWisdom(newTargetValue || 0);
         }
         break;
@@ -348,11 +333,11 @@ const StatPointsSection = props => {
   );
 };
 
-const StatPointsContainer = () => {
+const StatPointsContainer = props => {
   return (
     <div>
       <StatPointsSectionHeader />
-      <StatPointsSection />
+      <StatPointsSection {...props} />
     </div>
   );
 };
