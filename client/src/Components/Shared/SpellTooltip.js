@@ -29,7 +29,7 @@ const SpellToolTip = props => {
             className="spellIconAvatar"
             size={50}
             shape="square"
-            src={require(`../../Data/SpellImages/${imageName}.png`)}
+            src={require(`../../Data/SpellImages/${imageName.toLowerCase()}.png`)}
           />
         </Col>
         <Col className="tooltipSpellDescriptionCol" span={24} offset={0}>

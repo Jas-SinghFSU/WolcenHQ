@@ -123,6 +123,8 @@
 }
 .spellIconAvatar {
   margin-right: 5px;
+  border: 1px solid;
+  border-color: #4d4d4d;
 }
 .spellIconAvatarTaken {
   opacity: 0.2;
@@ -218,6 +220,8 @@
 .slotSpellIcon {
   cursor: url("../../../../../Data/Cursors/trash-bin-full-svgrepo-com.svg"),
     auto;
+  border: 1px solid;
+  border-color: #4d4d4d;
 }
 
 .addModContainer {

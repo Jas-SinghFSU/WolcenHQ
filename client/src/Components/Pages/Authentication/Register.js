@@ -1,0 +1,98 @@
+import React, { Fragment } from "react";
+import { useHistory } from "react-router-dom";
+import { Row, Col, Card, Button, Form, Input } from "antd";
+
+import "./style.css";
+
+const FormItem = Form.Item;
+const Register = props => {
+  const { getFieldDecorator } = props.form;
+  const history = useHistory();
+  const handleSubmit = e => {
+    e.preventDefault();
+    props.form.validateFields((err, values) => {
+      if (!err) {
+        console.log("Received values of form: ", values);
+      }
+    });
+  };
+  return (
+    <div className="registerContainer">
+      <Row className="registerCardRow">
+        <Col span={6} offset={9}>
+          <Card className="registerCard">
+            <div className="registerLabel">
+              <span>Register</span>
+            </div>
+
+            {/* REGISTRATION INFORMATION INPUT FORM */}
+            <Form className="registerForm" onSubmit={handleSubmit}>
+              <FormItem
+                label="E-Mail"
+                labelCol={{ span: 24 }}
+                wrapperCol={{ span: 24 }}
+                className="registerFormInput"
+              >
+                {getFieldDecorator("Email", {
+                  rules: [{ required: true, message: "Email is required." }]
+                })(<Input />)}
+              </FormItem>
+              <FormItem
+                label="Password"
+                labelCol={{ span: 24 }}
+                wrapperCol={{ span: 24 }}
+                className="registerFormInput"
+              >
+                {getFieldDecorator("Password", {
+                  rules: [{ required: true, message: "Password is required." }]
+                })(<Input />)}
+              </FormItem>
+              <FormItem
+                label="Confirm Password"
+                labelCol={{ span: 24 }}
+                wrapperCol={{ span: 24 }}
+                className="registerFormInput"
+              >
+                {getFieldDecorator("Confirm Password", {
+                  rules: [
+                    {
+                      required: true,
+                      message: "You must confirm your password."
+                    }
+                  ]
+                })(<Input />)}
+              </FormItem>
+              {/* LOGIN WITH STEAM BUTTON */}
+              <div className="formControlButtons">
+                <span
+                  className="steamLoginSubtext loginRedirect"
+                  onClick={() => {
+                    history.push("/auth/login");
+                  }}
+                >
+                  Already have an account?
+                </span>
+                <FormItem className="formRegisterButton">
+                  <Button type="primary" htmlType="submit">
+                    Register
+                  </Button>
+                </FormItem>
+              </div>
+              <div className="steamButtonRegisterContainer">
+                <Button className="steamLoginButton" type="primary">
+                  <div className="steamLoginButtonText">
+                    <span className="steamLoginSubtext">Log in with </span>
+                    <span className="steamLoginMaintext">STEAM</span>
+                    <i className="fab fa-steam steamLoginIcon" size="3x"></i>
+                  </div>
+                </Button>
+              </div>
+            </Form>
+          </Card>
+        </Col>
+      </Row>
+    </div>
+  );
+};
+
+export default Form.create()(Register);

@@ -31,7 +31,7 @@ const SkillSlot = props => {
               className="slotSpellIcon"
               size={55}
               shape="square"
-              src={require(`../../../../../Data/SpellImages/${slotData.imageName}.png`)}
+              src={require(`../../../../../Data/SpellImages/${slotData.imageName.toLowerCase()}.png`)}
               data-tip
               data-for={slotData.imageName}
               onClick={() => removeSkillFromSlot(slotNumber)}

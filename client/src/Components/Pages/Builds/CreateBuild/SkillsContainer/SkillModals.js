@@ -82,7 +82,7 @@ const SkillListModal = props => {
                         }`}
                         size={40}
                         shape="square"
-                        src={require(`../../../../../Data/SpellImages/${imageName}.png`)}
+                        src={require(`../../../../../Data/SpellImages/${imageName.toLowerCase()}.png`)}
                       />
                       <span className="skillNameSpan">{skill.name}</span>
                     </div>
