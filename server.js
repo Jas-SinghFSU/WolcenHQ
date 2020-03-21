@@ -1,41 +1,39 @@
-const express = require("express");
-const MongoClient = require("mongodb").MongoClient;
-const { mongoURI } = require("./Config/default.json");
+const startupServer = async () => {
+  const db = require("./Shared/MongoUtil");
 
-const app = express();
+  /* Connect to mongoDB */
+  const connectToDatabase = async () => {
+    const connectResponse = await db.connect();
 
-const homePageRoutes = require("./routes/home");
+    if (connectResponse.res === "error") {
+      console.error(`Failed to connect to database. ${connectResponse.data}`);
+    }
+    console.log(connectResponse.data);
+  };
 
-// Middleware
-app.use(express.json({ extended: false }));
+  await connectToDatabase();
 
-/* Connect to mongoDB */
-let db;
-const connectToDatabase = async () => {
-  try {
-    const dbConnection = await MongoClient.connect(mongoURI, {
-      useUnifiedTopology: true
-    });
-    db = dbConnection.db("WolcenHQ-Development");
-    console.log("Connected to MongoDB");
-    const insertBuild = await db
-      .collection("Builds")
-      .insertOne({ name: "Jas", build: "sucks" });
-    console.log(insertBuild.result);
-  } catch (err) {
-    console.error(`Failed to connect to MongoDB.${err}`);
-  }
+  const express = require("express");
+
+  const app = express();
+
+  const homePageRoutes = require("./routes/home");
+  const buildPageRoutes = require("./routes/builds");
+
+  // Middleware
+  app.use(express.json({ extended: false }));
+
+  // Routes
+  app.get("/", (req, res) => {
+    res.send("Hmm... Nothing exists here.");
+  });
+
+  app.use("/api/home", homePageRoutes);
+  app.use("/api/builds", buildPageRoutes);
+
+  const PORT = process.env.PORT || 3443;
+
+  app.listen(PORT, console.log(`Server started on port: 3443`));
 };
 
-connectToDatabase();
-
-// Routes
-app.get("/", (req, res) => {
-  res.send("Hmm... Nothing exists here.");
-});
-
-app.use("/api/home", homePageRoutes);
-
-const PORT = process.env.PORT || 3443;
-
-app.listen(PORT, console.log(`Server started on port: 3443`));
+startupServer();

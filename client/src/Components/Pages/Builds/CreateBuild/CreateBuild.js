@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from "react";
+import axios from "axios";
 import { Layout, Row, Col } from "antd";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
@@ -9,6 +10,8 @@ import { buildDescription } from "../../../Constants/constants";
 import "./style.css";
 
 const { Content } = Layout;
+
+const buildsRoute = "/api/builds/build/create";
 
 const CreateBuildTitle = props => {
   return (
@@ -131,9 +134,25 @@ const CreateBuild = () => {
   );
   /* ALL THE DATA CONTROLLERS END HERE */
 
-  const submitData = () => {
-    /* Submit all data */
-  };
+  const submitData = useCallback(async () => {
+    const buildPayload = {
+      buildTitle,
+      buildDescription: inputText,
+      buildVideo,
+      playstyle,
+      combatType,
+      activeNodes,
+      rotations,
+      slotData,
+      stats,
+      statPoints
+    };
+    try {
+      const postRes = await axios.post(buildsRoute, buildPayload);
+    } catch (err) {
+      console.log(err);
+    }
+  });
 
   const statPointsProps = {
     setStatsCB,
@@ -157,8 +176,8 @@ const CreateBuild = () => {
     playstyle,
     setPs,
     inputText,
-    setDesc
-    // submitData
+    setDesc,
+    submitData
   };
 
   const gateOfFatesProps = {
