@@ -14,14 +14,37 @@ const startupServer = async () => {
   await connectToDatabase();
 
   const express = require("express");
-
-  const app = express();
+  const passport = require("passport");
+  const session = require("express-session");
+  require("./Config/SteamAuth")(passport);
 
   const homePageRoutes = require("./routes/home");
   const buildPageRoutes = require("./routes/builds");
+  const authRoutes = require("./routes/auth");
+
+  const app = express();
 
   // Middleware
   app.use(express.json({ extended: false }));
+
+  // Passport Middleware
+  app.use(
+    session({
+      secret: "secret",
+      name: "name of session id",
+      resave: true,
+      saveUninitialized: false
+    })
+  );
+  app.use(passport.initialize());
+  app.use(passport.session());
+
+  // Set global vars
+  app.use((req, res, next) => {
+    //make a global cariable called user which request the current user
+    res.locals.user = req.user || null;
+    next();
+  });
 
   // Routes
   app.get("/", (req, res) => {
@@ -30,6 +53,7 @@ const startupServer = async () => {
 
   app.use("/api/home", homePageRoutes);
   app.use("/api/builds", buildPageRoutes);
+  app.use("/api/auth", authRoutes);
 
   const PORT = process.env.PORT || 3443;
 

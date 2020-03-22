@@ -16,6 +16,7 @@ const Register = props => {
       }
     });
   };
+
   return (
     <div className="registerContainer">
       <Row className="registerCardRow">
@@ -67,7 +68,7 @@ const Register = props => {
                 <span
                   className="steamLoginSubtext loginRedirect"
                   onClick={() => {
-                    history.push("/auth/login");
+                    history.push("api/auth/login");
                   }}
                 >
                   Already have an account?
@@ -79,13 +80,15 @@ const Register = props => {
                 </FormItem>
               </div>
               <div className="steamButtonRegisterContainer">
-                <Button className="steamLoginButton" type="primary">
-                  <div className="steamLoginButtonText">
-                    <span className="steamLoginSubtext">Log in with </span>
-                    <span className="steamLoginMaintext">STEAM</span>
-                    <i className="fab fa-steam steamLoginIcon" size="3x"></i>
-                  </div>
-                </Button>
+                <a href="http://localhost:3443/api/auth/steam">
+                  <Button className="steamLoginButton" type="primary">
+                    <div className="steamLoginButtonText">
+                      <span className="steamLoginSubtext">Log in with </span>
+                      <span className="steamLoginMaintext">STEAM</span>
+                      <i className="fab fa-steam steamLoginIcon" size="3x"></i>
+                    </div>
+                  </Button>
+                </a>
               </div>
             </Form>
           </Card>
