@@ -20,7 +20,7 @@ const Register = props => {
     });
   };
 
-  if (!_.isEmpty(userData)) {
+  if (!_.isEmpty(userData.user)) {
     history.push("/");
   }
 

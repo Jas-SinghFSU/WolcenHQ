@@ -15,11 +15,24 @@ const UserProvider = ({ children }) => {
     }
   };
 
+  const handleLogout = async () => {
+    try {
+      await axios.get("/api/auth/logout");
+      setUser({});
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   useEffect(() => {
     getUser();
   }, []);
 
-  return <context.Provider value={user}>{children}</context.Provider>;
+  return (
+    <context.Provider value={{ user, logout: handleLogout }}>
+      {children}
+    </context.Provider>
+  );
 };
 
 UserProvider.context = context;

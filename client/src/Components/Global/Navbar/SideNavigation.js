@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
+import axios from "axios";
 import { Menu, Icon, Layout } from "antd";
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
@@ -12,9 +13,8 @@ const { Sider } = Layout;
 
 const SideNavigation = () => {
   const history = useHistory();
-  const userData = useContext(UserProvider.context);
+  const userContext = useContext(UserProvider.context);
   const [navCollapsed, setNavCollapsed] = useState(false);
-
   const toggleNavCollapsed = () => {
     setNavCollapsed(!navCollapsed);
   };
@@ -79,12 +79,18 @@ const SideNavigation = () => {
             className="antdMenuItem"
             key="5"
             onClick={() => {
-              handleBuildClick("/auth/login");
+              _.isEmpty(userContext.user)
+                ? handleBuildClick("/auth/login")
+                : userContext.logout();
             }}
           >
-            <Icon type={`${_.isEmpty(userData) ? "login" : "logout"}`} />
+            <Icon
+              type={`${_.isEmpty(userContext.user) ? "login" : "logout"}`}
+            />
             <span className="sideNavMenuLabel">{`${
-              _.isEmpty(userData) ? "Login/Register" : userData[0].displayName
+              _.isEmpty(userContext.user)
+                ? "Login/Register"
+                : `${userContext.user[0].displayName} (Logout)`
             }`}</span>
           </Menu.Item>
         </Menu>

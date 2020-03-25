@@ -37,8 +37,18 @@ router.get(
 );
 
 router.get("/logout", (req, res) => {
-  req.logout();
-  res.redirect("http://localhost:3000");
+  try {
+    req.logout();
+    res.json({
+      status: "success",
+      data: "Logout successful."
+    });
+  } catch (error) {
+    res.json({
+      status: "error",
+      data: "Failed to logout."
+    });
+  }
 });
 
 module.exports = router;
