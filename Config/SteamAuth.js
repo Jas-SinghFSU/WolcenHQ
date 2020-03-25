@@ -22,25 +22,25 @@ module.exports = function(passport) {
           visibility: "public"
         };
 
-        let userCount;
+        let foundUser;
         try {
-          userCount = await USERS.find({
+          foundUser = await USERS.find({
             steamID: { $exists: true },
             steamID: profile.id
-          }).count();
+          }).toArray();
         } catch (findErr) {
           console.error(err);
         }
 
-        if (userCount > 0) {
-          done(null, profile);
+        if (foundUser.length > 0) {
+          return done(null, foundUser);
         } else {
           try {
-            await USERS.insertOne(newUser);
-            done(null, profile);
+            const userData = await USERS.insertOne(newUser);
+            return done(null, userData.ops[0]);
           } catch (insertErr) {
             console.error(`Failed to create steam user.${insertErr}`);
-            done(null, profile);
+            return done(null, null);
           }
         }
       }
@@ -48,6 +48,7 @@ module.exports = function(passport) {
   );
 
   passport.serializeUser(function(user, done) {
+    // console.log(`user is ${JSON.stringify(user)}`);
     done(null, user);
   });
 

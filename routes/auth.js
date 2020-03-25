@@ -3,7 +3,11 @@ const router = express.Router();
 const passport = require("passport");
 
 router.get("/", function(req, res) {
-  res.json({ user: req.user });
+  if (res.locals.user) {
+    res.json(res.locals.user);
+  } else {
+    res.json({});
+  }
 });
 
 // GET /auth/steam
@@ -26,10 +30,15 @@ router.get(
 //   which, in this example, will redirect the user to the home page.
 router.get(
   "/steam/return",
-  passport.authenticate("steam", { failureRedirect: "/" }),
+  passport.authenticate("steam", { failureRedirect: "/", session: true }),
   function(req, res) {
-    res.redirect("/");
+    res.redirect(`http://localhost:3000`);
   }
 );
+
+router.get("/logout", (req, res) => {
+  req.logout();
+  res.redirect("http://localhost:3000");
+});
 
 module.exports = router;

@@ -14,26 +14,28 @@ const startupServer = async () => {
   await connectToDatabase();
 
   const express = require("express");
+  const app = express();
   const passport = require("passport");
   const session = require("express-session");
-  require("./Config/SteamAuth")(passport);
+  await require("./Config/SteamAuth")(passport);
 
   const homePageRoutes = require("./routes/home");
   const buildPageRoutes = require("./routes/builds");
   const authRoutes = require("./routes/auth");
 
-  const app = express();
-
   // Middleware
   app.use(express.json({ extended: false }));
 
   // Passport Middleware
+  let timeoutInHours = 3;
+  timeoutInHours = 1000 * 60 * 60 * timeoutInHours;
   app.use(
     session({
-      secret: "secret",
+      secret: "my secret",
       name: "name of session id",
       resave: true,
-      saveUninitialized: false
+      saveUninitialized: false,
+      cookie: { maxAge: timeoutInHours } // ms * seconds * minutes * hours
     })
   );
   app.use(passport.initialize());
@@ -41,7 +43,7 @@ const startupServer = async () => {
 
   // Set global vars
   app.use((req, res, next) => {
-    //make a global cariable called user which request the current user
+    //make a global variable called user which request the current user
     res.locals.user = req.user || null;
     next();
   });

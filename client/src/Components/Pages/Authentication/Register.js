@@ -1,11 +1,14 @@
-import React, { Fragment } from "react";
+import React, { useContext } from "react";
+import UserProvider from "../../../Contexts/UserProvider";
 import { useHistory } from "react-router-dom";
 import { Row, Col, Card, Button, Form, Input } from "antd";
+import _ from "lodash";
 
 import "./style.css";
 
 const FormItem = Form.Item;
 const Register = props => {
+  const userData = useContext(UserProvider.context);
   const { getFieldDecorator } = props.form;
   const history = useHistory();
   const handleSubmit = e => {
@@ -16,6 +19,10 @@ const Register = props => {
       }
     });
   };
+
+  if (!_.isEmpty(userData)) {
+    history.push("/");
+  }
 
   return (
     <div className="registerContainer">
@@ -80,7 +87,7 @@ const Register = props => {
                 </FormItem>
               </div>
               <div className="steamButtonRegisterContainer">
-                <a href="http://localhost:3443/api/auth/steam">
+                <a href="/api/auth/steam">
                   <Button className="steamLoginButton" type="primary">
                     <div className="steamLoginButtonText">
                       <span className="steamLoginSubtext">Log in with </span>

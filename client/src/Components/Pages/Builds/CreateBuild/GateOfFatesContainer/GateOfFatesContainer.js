@@ -15,6 +15,9 @@ const passiveSkills = require("../../../../../Data/GoF/built_passive_skills.json
 const outerRingImg = require("../../../../../images/Outer_Ring.png");
 const innerRingImg = require("../../../../../images/Inner_Ring.png");
 const middleRingImg = require("../../../../../images/Middle_Ring.png");
+const outerRingSelectedImg = require("../../../../../images/Outer_Ring_Selected.png");
+const innerRingSelectedImg = require("../../../../../images/Inner_Ring_Selected.png");
+const middleRingSelectedImg = require("../../../../../images/Middle_Ring_Selected.png");
 
 const GOFSectionHeader = () => {
   return (
@@ -452,7 +455,13 @@ const GateOfFates = props => {
         : 0;
 
     const imageSrc =
-      scope === "outerRing"
+      scope === "outerRing" && selectedRing === "outer"
+        ? outerRingSelectedImg
+        : scope === "innerRing" && selectedRing === "inner"
+        ? innerRingSelectedImg
+        : scope === "middleRing" && selectedRing === "middle"
+        ? middleRingSelectedImg
+        : scope === "outerRing"
         ? outerRingImg
         : scope === "innerRing"
         ? innerRingImg

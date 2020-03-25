@@ -1,16 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import UserProvider from "../../../Contexts/UserProvider";
 import { Menu, Icon, Layout } from "antd";
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
+import _ from "lodash";
 
 import "antd/dist/antd.css";
 import "./style.css";
 
-const { Sider, Content } = Layout;
+const { Sider } = Layout;
 
 const SideNavigation = () => {
   const history = useHistory();
-
+  const userData = useContext(UserProvider.context);
   const [navCollapsed, setNavCollapsed] = useState(false);
 
   const toggleNavCollapsed = () => {
@@ -72,6 +74,18 @@ const SideNavigation = () => {
           >
             <Icon type="user" />
             <span className="sideNavMenuLabel">Characters</span>
+          </Menu.Item>
+          <Menu.Item
+            className="antdMenuItem"
+            key="5"
+            onClick={() => {
+              handleBuildClick("/auth/login");
+            }}
+          >
+            <Icon type={`${_.isEmpty(userData) ? "login" : "logout"}`} />
+            <span className="sideNavMenuLabel">{`${
+              _.isEmpty(userData) ? "Login/Register" : userData[0].displayName
+            }`}</span>
           </Menu.Item>
         </Menu>
       </Sider>
