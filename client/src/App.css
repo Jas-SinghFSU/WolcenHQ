@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400|Merienda+One|Open+Sans|Yrsa&display=swap");
 
+body {
+  font-family: Oswald !important;
+}
+
 .contentContainer {
   display: flex;
   background: #1a1a1e;

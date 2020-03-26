@@ -1,10 +1,11 @@
 const express = require("express");
+const _ = require("lodash");
 const router = express.Router();
 const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const BUILDS = db.collection("Builds");
 
-router.get("/", async (req, res) => {
+router.get("/fetch", async (req, res) => {
   try {
     const results = await BUILDS.find().toArray();
     res.json(results);
@@ -28,6 +29,8 @@ router.post("/build/create", async (req, res) => {
     statPoints
   } = inputData;
 
+  console.log(res.locals.user);
+
   const buildPayload = {
     buildTitle,
     buildDescription: buildDescription || "",
@@ -39,7 +42,7 @@ router.post("/build/create", async (req, res) => {
     slotData: slotData || "",
     stats: stats || "",
     statPoints: statPoints || "",
-    author: "",
+    author: !_.isEmpty(res.locals.user) ? res.locals.user[0]._id : "Anonymous",
     likes: [],
     dislikes: [],
     created: "",
@@ -47,16 +50,13 @@ router.post("/build/create", async (req, res) => {
     views: 0
   };
 
-  if (buildTitle.length <= 0) {
-    return res.send({
-      status: "fail",
-      response: "Title can not be empty."
-    });
+  if (!buildTitle || buildTitle.length <= 0) {
+    return res.status(400).json({ error: "Title cannot be empty." });
   }
-  console.log(inputData);
+
   try {
     const results = await BUILDS.insertOne(buildPayload);
-    res.json(results);
+    res.json({ status: "success", id: results.ops[0]._id });
   } catch (err) {
     res.status(500).send(err);
   }

@@ -4,7 +4,6 @@ const fs = require("fs");
 let aggregatedData = [];
 
 passiveSkills.forEach(passive => {
-  console.log(passive.number);
   if (!passive.section) {
     return;
   }

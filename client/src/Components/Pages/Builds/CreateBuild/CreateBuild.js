@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from "react";
+import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { Layout, Row, Col } from "antd";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
@@ -52,6 +53,7 @@ const CreateBuild = () => {
     middle: 0
   });
 
+  const history = useHistory();
   /* ALL THE DATA CONTROLLERS EXIST HERE */
   const setStatPointsCB = useCallback(
     value => {
@@ -149,6 +151,9 @@ const CreateBuild = () => {
     };
     try {
       const postRes = await axios.post(buildsRoute, buildPayload);
+      if (postRes.data.status === "success") {
+        history.push(`/builds/builds/${postRes.data.id}`);
+      }
     } catch (err) {
       console.log(err);
     }

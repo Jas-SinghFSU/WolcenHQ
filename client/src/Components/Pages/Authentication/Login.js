@@ -7,7 +7,7 @@ import _ from "lodash";
 import "./style.css";
 
 const FormItem = Form.Item;
-const Register = props => {
+const Login = props => {
   const userData = useContext(UserProvider.context);
   const { getFieldDecorator } = props.form;
   const history = useHistory();
@@ -30,7 +30,7 @@ const Register = props => {
         <Col span={6} offset={9}>
           <Card className="registerCard">
             <div className="registerLabel">
-              <span>Register</span>
+              <span>Login</span>
             </div>
 
             {/* REGISTRATION INFORMATION INPUT FORM */}
@@ -55,34 +55,19 @@ const Register = props => {
                   rules: [{ required: true, message: "Password is required." }]
                 })(<Input />)}
               </FormItem>
-              <FormItem
-                label="Confirm Password"
-                labelCol={{ span: 24 }}
-                wrapperCol={{ span: 24 }}
-                className="registerFormInput"
-              >
-                {getFieldDecorator("Confirm Password", {
-                  rules: [
-                    {
-                      required: true,
-                      message: "You must confirm your password."
-                    }
-                  ]
-                })(<Input />)}
-              </FormItem>
               {/* LOGIN WITH STEAM BUTTON */}
               <div className="formControlButtons">
                 <span
                   className="steamLoginSubtext loginRedirect"
                   onClick={() => {
-                    history.push("/auth/login");
+                    history.push("/auth/register");
                   }}
                 >
-                  Already have an account?
+                  Need an account?
                 </span>
                 <FormItem className="formRegisterButton">
                   <Button type="primary" htmlType="submit">
-                    Register
+                    Login
                   </Button>
                 </FormItem>
               </div>
@@ -105,4 +90,4 @@ const Register = props => {
   );
 };
 
-export default Form.create()(Register);
+export default Form.create()(Login);

@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
 import axios from "axios";
 import { Menu, Icon, Layout } from "antd";
@@ -15,6 +15,7 @@ const SideNavigation = () => {
   const history = useHistory();
   const userContext = useContext(UserProvider.context);
   const [navCollapsed, setNavCollapsed] = useState(false);
+  const [user, setUser] = useState({});
   const toggleNavCollapsed = () => {
     setNavCollapsed(!navCollapsed);
   };
@@ -22,6 +23,10 @@ const SideNavigation = () => {
   const handleBuildClick = buildID => {
     history.push(`${buildID}`);
   };
+
+  useEffect(() => {
+    setUser(userContext.user);
+  }, [userContext.user]);
 
   return (
     <Layout
@@ -79,18 +84,16 @@ const SideNavigation = () => {
             className="antdMenuItem"
             key="5"
             onClick={() => {
-              _.isEmpty(userContext.user)
+              _.isEmpty(user)
                 ? handleBuildClick("/auth/login")
                 : userContext.logout();
             }}
           >
-            <Icon
-              type={`${_.isEmpty(userContext.user) ? "login" : "logout"}`}
-            />
+            <Icon type={`${_.isEmpty(user) ? "login" : "logout"}`} />
             <span className="sideNavMenuLabel">{`${
-              _.isEmpty(userContext.user)
+              _.isEmpty(user)
                 ? "Login/Register"
-                : `${userContext.user[0].displayName} (Logout)`
+                : `${user[0].displayName} (Logout)`
             }`}</span>
           </Menu.Item>
         </Menu>
