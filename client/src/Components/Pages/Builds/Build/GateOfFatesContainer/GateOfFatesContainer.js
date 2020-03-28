@@ -120,7 +120,7 @@ const SkillTooltip = ({ tooltipOptions }) => {
 };
 
 const GateOfFates = props => {
-  const { setActiveNodes, activeNodes, rotations, setRotationsCB } = props;
+  const { activeNodes, rotations, setRotationsCB } = props;
   const [allNodes, setAllNodes] = useState(null);
   const [passiveSkillsList] = useState(passiveSkills);
   const [nodePairs] = useState(linkElems);
@@ -188,6 +188,7 @@ const GateOfFates = props => {
       });
     }
   };
+
   const findPotentialPairs = () => {
     const foundPairs = new Map();
 
@@ -200,149 +201,6 @@ const GateOfFates = props => {
       }
     });
     return foundPairs;
-  };
-
-  const handleNodeClick = node => {
-    if (activeNodes.length > 90) {
-      return;
-    }
-    const baseNodes = [
-      "resilient-g",
-      "heightened_concentration-p",
-      "hardy-p",
-      "heavy_blows-r",
-      "capable-r",
-      "refined_technique-g"
-    ];
-
-    const baseInnerNodes = [
-      "steadfast-2-p",
-      "adept-2-p",
-      "chemically_empowered_metabolism-g",
-      "precise_strikes-g",
-      "pain_resistance_program-r",
-      "zealous_might-r"
-    ];
-
-    const baseMiddleNodes = [
-      "impervious_wall-r-m",
-      "dominator-p-m",
-      "unstoppable_flurry-g-m",
-      "master_of_the_frontline-r-m",
-      "clarity_of_mind-p-m",
-      "elaborate_flurry-g-m"
-    ];
-    const baseOuterNodes = [
-      "of_squalls_and_fires-p-o",
-      "external_discharge-g-o",
-      "inexorable_vitality-r-o",
-      "bog_bodies-p-o",
-      "blindfolded_leaps-g-o",
-      "light_for_the_blind-r-o",
-      "guttural_dowry-p-o",
-      "implacable_tracker-g-o",
-      "omnipractice-r-o",
-      "waning_before_waxing-p-o",
-      "aloof_hunter-g-o",
-      "boiling_point-r-o"
-    ];
-    const checkIfReachable = elem => {
-      let isReachable = false;
-      nodePairs.forEach(pair => {
-        if (pair.source === elem || pair.destination === elem) {
-          const itsPair = elem === pair.source ? pair.destination : pair.source;
-
-          if (activeNodes.includes(itsPair)) {
-            isReachable = true;
-          }
-        }
-      });
-
-      return isReachable;
-    };
-
-    /* Handle case for non-transition nodes */
-    if (baseNodes.includes(node.id) || checkIfReachable(node.id)) {
-      if (!activeNodes.includes(node.id)) {
-        setActiveNodes([...activeNodes, node.id]);
-      }
-    }
-
-    /* Handle case for inner to middle ring transition */
-    const currentAngleDiff =
-      ((rotations.middle % 360) - (rotations.inner % 360)) % 360;
-    let currentAngleDiffOuter =
-      ((rotations.outer % 360) - (rotations.middle % 360)) % 360;
-    if (currentAngleDiffOuter < 0) {
-      currentAngleDiffOuter = 360 + currentAngleDiffOuter;
-    }
-    const inverseAngle =
-      currentAngleDiff > 0 ? currentAngleDiff - 360 : 360 - currentAngleDiff;
-
-    if (baseMiddleNodes.includes(node.id)) {
-      const parentForNode = innerToMiddle.filter(link => {
-        if (
-          link.destination === node.id &&
-          (link.angle === currentAngleDiff || link.angle === inverseAngle)
-        ) {
-          return true;
-        }
-      });
-
-      if (activeNodes.includes(parentForNode[0].source)) {
-        setActiveNodes([...activeNodes, node.id]);
-      }
-    }
-
-    if (baseInnerNodes.includes(node.id)) {
-      const parentForNode = innerToMiddle.filter(link => {
-        if (
-          link.source === node.id &&
-          (link.angle === currentAngleDiff || link.angle === inverseAngle)
-        ) {
-          return true;
-        }
-      });
-
-      if (activeNodes.includes(parentForNode[0].destination)) {
-        setActiveNodes([...activeNodes, node.id]);
-      }
-    }
-
-    if (baseOuterNodes.includes(node.id)) {
-      const parentForNode = middleToOuter.filter(link => {
-        if (
-          link.destination === node.id &&
-          (link.angle === currentAngleDiffOuter || link.angle === inverseAngle)
-        ) {
-          return true;
-        }
-      });
-
-      if (activeNodes.includes(parentForNode[0].source)) {
-        setActiveNodes([...activeNodes, node.id]);
-      }
-    }
-  };
-
-  const resetElements = scope => {
-    if (scope === "inner") {
-      setActiveNodes(["root"]);
-    } else if (scope === "middle") {
-      let filteredActiveNodes = activeNodes.filter(node => {
-        if (!node.includes("-m") && !node.includes("-o")) {
-          return true;
-        }
-      });
-      setActiveNodes(filteredActiveNodes);
-    } else if (scope === "outer") {
-      let filteredActiveNodes = activeNodes.filter(node => {
-        if (!node.includes("-o")) {
-          return true;
-        }
-      });
-      setActiveNodes(filteredActiveNodes);
-    }
   };
 
   const filterNodesByScope = () => {
@@ -409,30 +267,6 @@ const GateOfFates = props => {
       top,
       text: skillData ? skillData : ""
     });
-  };
-
-  const handleWheelSpin = direction => {
-    let rotationValue;
-    if (selectedRing === "outer") {
-      resetElements("outer");
-      rotationValue =
-        direction === "left" ? rotations.outer + 30 : rotations.outer - 30;
-      setRotationsCB("outer", rotationValue);
-    }
-
-    if (selectedRing === "inner") {
-      resetElements("middle");
-      rotationValue =
-        direction === "left" ? rotations.inner + 120 : rotations.inner - 120;
-      setRotationsCB("inner", rotationValue);
-    }
-
-    if (selectedRing === "middle") {
-      resetElements("middle");
-      rotationValue =
-        direction === "left" ? rotations.middle + 60 : rotations.middle - 60;
-      setRotationsCB("middle", rotationValue);
-    }
   };
 
   const renderRings = scope => {
@@ -605,9 +439,6 @@ const GateOfFates = props => {
           onMouseLeave={() => {
             setTooltipOptions({ display: "none", text: "" });
           }}
-          onClick={() => {
-            handleNodeClick(circle);
-          }}
         />
       );
     });
@@ -633,97 +464,6 @@ const GateOfFates = props => {
 
         <Row style={{ display: "inline-table" }}>
           <div className="gofAndControls">
-            <Col>
-              <div className="gofButtons" style={{ marginBottom: 20 }}>
-                <span className="gofSkillPointsLabel">{`Points: ${activeNodes.length -
-                  1}/90`}</span>
-                <span className="gofButtonsLabel">Rotate Rings</span>
-                <div className="ringNamesContainer">
-                  <div
-                    onClick={() => {
-                      selectedRing === "outer"
-                        ? setSelectedRing("")
-                        : setSelectedRing("outer");
-                    }}
-                    className={`ringName ${
-                      selectedRing === "outer" ? "selected" : ""
-                    }`}
-                  >
-                    <span>Outer</span>
-                  </div>
-
-                  <div
-                    onClick={() => {
-                      selectedRing === "middle"
-                        ? setSelectedRing("")
-                        : setSelectedRing("middle");
-                    }}
-                    className={`ringName ${
-                      selectedRing === "middle" ? "selected" : ""
-                    }`}
-                  >
-                    <span>Middle</span>
-                  </div>
-
-                  <div
-                    onClick={() => {
-                      selectedRing === "inner"
-                        ? setSelectedRing("")
-                        : setSelectedRing("inner");
-                    }}
-                    className={`ringName ${
-                      selectedRing === "inner" ? "selected" : ""
-                    }`}
-                  >
-                    <span>Inner</span>
-                  </div>
-                </div>
-
-                <div className="rotateButtonContainer">
-                  <Button
-                    className="rotateButtonLeft"
-                    type="primary"
-                    style={{ marginBottom: 10 }}
-                    onClick={() => {
-                      handleWheelSpin("right");
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faReply} />
-                  </Button>
-                  <Button
-                    className="rotateButtonRight"
-                    type="primary"
-                    style={{ marginBottom: 10 }}
-                    onClick={() => {
-                      handleWheelSpin("left");
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faShare} />
-                  </Button>
-                </div>
-                <Button
-                  className="rotateButtonReset zoom"
-                  type="primary"
-                  style={{ marginBottom: 10 }}
-                  onClick={() => {
-                    setPanZoomVal(INITIAL_VALUE);
-                  }}
-                >
-                  Reset Zoom
-                </Button>
-                <Button
-                  className="rotateButtonReset"
-                  type="primary"
-                  style={{ marginBottom: 10 }}
-                  onClick={() => {
-                    setRotationsCB("all", 0);
-                    resetElements("inner");
-                  }}
-                >
-                  Reset Wheel
-                </Button>
-              </div>
-            </Col>
             <Col>
               <div className="gofContainer">
                 <Fireflies />

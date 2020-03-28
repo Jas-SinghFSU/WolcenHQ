@@ -22,6 +22,7 @@ const startupServer = async () => {
   const homePageRoutes = require("./routes/home");
   const buildPageRoutes = require("./routes/builds");
   const authRoutes = require("./routes/auth");
+  const userRoutes = require("./routes/users");
 
   // Middleware
   app.use(express.json({ extended: false }));
@@ -56,6 +57,7 @@ const startupServer = async () => {
   app.use("/api/home", homePageRoutes);
   app.use("/api/builds", buildPageRoutes);
   app.use("/api/auth", authRoutes);
+  app.use("/api/users", userRoutes);
 
   const PORT = process.env.PORT || 3443;
 

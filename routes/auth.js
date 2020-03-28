@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const passport = require("passport");
 
-router.get("/verify", function(req, res) {
+router.get("/", function(req, res) {
   if (res.locals.user) {
     res.json(res.locals.user);
   } else {

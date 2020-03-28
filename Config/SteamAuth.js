@@ -1,5 +1,4 @@
 const SteamStrategy = require("passport-steam").Strategy;
-const mongoose = require("mongoose");
 const keys = require("./default.json");
 const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();

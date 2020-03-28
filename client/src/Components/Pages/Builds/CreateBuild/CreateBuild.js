@@ -152,7 +152,7 @@ const CreateBuild = () => {
     try {
       const postRes = await axios.post(buildsRoute, buildPayload);
       if (postRes.data.status === "success") {
-        history.push(`/builds/builds/${postRes.data.id}`);
+        history.push(`/builds/build/${postRes.data.id}`);
       }
     } catch (err) {
       console.log(err);
