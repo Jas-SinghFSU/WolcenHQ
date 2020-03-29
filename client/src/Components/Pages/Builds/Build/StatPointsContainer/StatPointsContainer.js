@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Row, Col, Icon, Input } from "antd";
+import React, { useState, Fragment } from "react";
+import { Row, Col, Icon } from "antd";
 
 import "./style.css";
 
@@ -54,10 +54,10 @@ const StatPointsSection = ({ stats, statPoints }) => {
 
 const StatPointsContainer = props => {
   return (
-    <div>
+    <Fragment>
       <StatPointsSectionHeader />
       <StatPointsSection {...props} />
-    </div>
+    </Fragment>
   );
 };
 

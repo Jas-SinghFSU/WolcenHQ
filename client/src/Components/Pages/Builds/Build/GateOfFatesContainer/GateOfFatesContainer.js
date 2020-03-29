@@ -1,8 +1,6 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
 import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_AUTO } from "react-svg-pan-zoom";
 import { Row, Col, Button } from "antd";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faReply, faShare } from "@fortawesome/free-solid-svg-icons";
 import Fireflies from "./Fireflies";
 import "./style.css";
 

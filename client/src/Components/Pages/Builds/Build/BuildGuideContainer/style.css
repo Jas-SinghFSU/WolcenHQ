@@ -1,0 +1,30 @@
+.buildDescriptionRow {
+  text-align: left;
+}
+.buildDescriptionCol {
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(49, 49, 49);
+  margin-top: 40px;
+}
+.buildDescriptionBody {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.buildDescriptionBody * {
+  color: rgb(218, 218, 218);
+}
+
+.buildDescriptionBody.ql-editor {
+  background: transparent;
+}
+
+.buildDescriptionBody a {
+  color: #40a9ff;
+}
+
+.buildDescriptionBody a:hover {
+  color: #80c6ff;
+}

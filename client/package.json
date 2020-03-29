@@ -23,7 +23,8 @@
     "react-scripts": "3.4.0",
     "react-svg-pan-zoom": "^3.8.0",
     "react-tooltip": "^4.0.3",
-    "react-youtube": "^7.9.0"
+    "react-youtube": "^7.9.0",
+    "sanitize-html": "^1.22.1"
   },
   "scripts": {
     "start": "react-scripts start",

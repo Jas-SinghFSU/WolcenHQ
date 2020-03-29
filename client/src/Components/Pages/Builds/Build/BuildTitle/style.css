@@ -1,0 +1,93 @@
+.buildTitle {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(241, 241, 241, 0.945);
+  margin: 8px 0px;
+}
+
+.buildTitle::before,
+.buildTitle::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.35);
+  height: 2px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+.buildInfoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.buildInfoLeft {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+}
+
+.buildInfoRight {
+  align-self: flex-end;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+}
+.buildInfoRight .upvote {
+  font-size: 26px;
+  color: #55cf6dd0;
+  display: inline-flex;
+  align-self: center;
+  cursor: pointer;
+}
+.buildInfoRight .downvote {
+  font-size: 26px;
+  color: #ce4c4cd5;
+  display: inline-flex;
+  align-self: center;
+  cursor: pointer;
+}
+.buildRating {
+  text-align: center;
+  color: #55cf6dd0;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.buildInfoVoteContainer {
+  text-align: center;
+}
+.buildInfoPicture {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.buildInfoPicture .ant-avatar-icon {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  background: #475353;
+  border: 1px solid;
+  border-color: #462e004f;
+}
+
+.buildInfoPicture i {
+  margin-top: 15px;
+}
+
+.buildInfoTitle {
+  font-size: 28px;
+  color: #ffcc8f;
+}
+
+.buildInfoDetails {
+  display: flex;
+  flex-direction: column;
+  color: rgba(233, 225, 210, 0.918);
+  font-size: 13px;
+}
+.authorName {
+  font-style: italic;
+}

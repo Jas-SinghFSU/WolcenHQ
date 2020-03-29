@@ -22,6 +22,10 @@ quilIcons["list"]["ordered"] = '<i class="fas fa-list-ol"></i>';
 quilIcons["list"]["bullet"] = '<i class="fas fa-list-ul"></i>';
 quilIcons["link"] = '<i class="fas fa-link"></i>';
 quilIcons["color"] = '<i class="fas fa-palette" size="2x"></i>';
+quilIcons["align"][""] = '<i class="fas fa-align-left"></i>';
+quilIcons["align"]["center"] = '<i class="fas fa-align-center"></i>';
+quilIcons["align"]["right"] = '<i class="fas fa-align-right"></i>';
+quilIcons["align"]["justify"] = '<i class="fas fa-align-justify"></i>';
 
 const BuildDescriptionHeader = props => {
   return (
@@ -54,9 +58,15 @@ const BuildDescriptionContent = props => {
     toolbar: [
       [{ header: [1, 2, 3, 4, 5, 6, false] }],
       ["bold", "italic", "underline", "strike"],
+      [
+        { align: "" },
+        { align: "center" },
+        { align: "right" },
+        { align: "justify" }
+      ],
+      [{ indent: "-1" }, { indent: "+1" }],
       ["blockquote"],
       [{ list: "ordered" }, { list: "bullet" }],
-      [{ indent: "-1" }, { indent: "+1" }],
       ["link"],
       [{ color: [] }]
     ]

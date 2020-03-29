@@ -27,6 +27,10 @@
 .ql-editor {
   min-height: 500px;
   max-height: 500px;
+  background: #18181eeb;
+}
+.ql-editor * {
+  color: rgb(218, 218, 218);
 }
 .ql-formats {
   color: rgba(255, 255, 255, 0.815);
@@ -54,6 +58,9 @@
   color: rgb(184, 165, 103) !important;
 }
 .ql-strike:hover {
+  color: rgb(184, 165, 103) !important;
+}
+.ql-align:hover {
   color: rgb(184, 165, 103) !important;
 }
 .ql-blockquote:hover {
@@ -109,6 +116,17 @@
   flex-direction: row;
   width: 100%;
 }
+.buildInputBoxContainer .ant-input {
+  color: rgb(218, 218, 218);
+  background: #29292f !important;
+}
+.buildInputBoxContainer .ant-select-selection {
+  background: #29292f !important;
+  color: rgb(218, 218, 218);
+}
+.buildInputBoxContainer .anticon-down {
+  color: rgb(218, 218, 218);
+}
 .buildYTLinkContainer {
   width: 35%;
   margin-left: 20px;
@@ -117,15 +135,9 @@
   width: 15%;
   margin-left: 20px;
 }
-.playstyleInput .ant-select-selection {
-  background: #eee !important;
-}
 .combatTypeContainer {
   width: 10%;
   margin-left: 20px;
-}
-.combatTypeInput .ant-select-selection {
-  background: #eee !important;
 }
 .buildGuideContainer {
   margin-bottom: 10px;
@@ -146,10 +158,28 @@
   background: #eee;
   font-size: 16px;
 }
-.ant-select-dropdown {
+.buildInputBoxContainer .ant-select-dropdown {
   font-family: oswald;
-  background: #eee;
+  background: #29292f !important;
 }
 .submitBuildButton {
   width: 100%;
+}
+.ant-select-dropdown-menu {
+  background: #29292f !important;
+}
+.ant-select-dropdown-menu-item {
+  color: rgb(218, 218, 218) !important;
+  background: #29292f !important;
+}
+.ant-select-dropdown-menu-item:hover {
+  color: rgb(218, 218, 218) !important;
+  background: #5d5d6e !important;
+}
+.ant-select-dropdown-menu-item-selected {
+  color: rgb(218, 218, 218) !important;
+  background: #666674 !important;
+}
+.buildInputBoxContainer .ant-input::placeholder {
+  color: rgb(94, 94, 94);
 }

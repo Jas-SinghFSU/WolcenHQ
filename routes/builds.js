@@ -32,8 +32,6 @@ router.post("/build/create", async (req, res) => {
     statPoints
   } = inputData;
 
-  console.log(res.locals.user);
-
   const buildPayload = {
     buildTitle,
     buildDescription: buildDescription || "",
@@ -44,12 +42,12 @@ router.post("/build/create", async (req, res) => {
     rotations: rotations || "",
     slotData: slotData || "",
     stats: stats || "",
-    statPoints: statPoints || "",
+    statPoints: statPoints,
     author: !_.isEmpty(res.locals.user) ? res.locals.user[0]._id : null,
     likes: [],
     dislikes: [],
-    created: "",
-    lastUpdated: "",
+    created: new Date(),
+    lastUpdated: new Date(),
     views: 0
   };
 
