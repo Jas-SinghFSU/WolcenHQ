@@ -119,6 +119,245 @@ const SkillTooltip = ({ tooltipOptions }) => {
   );
 };
 
+const RenderRings = React.memo(
+  ({ scope, ringOuter, ringInner, ringMiddle, selectedRing }) => {
+    console.log("renderrings");
+    const curDimensions =
+      scope === "outerRing"
+        ? ringOuter
+        : scope === "innerRing"
+        ? ringInner
+        : scope === "middleRing"
+        ? ringMiddle
+        : 0;
+
+    const curPosition =
+      scope === "outerRing"
+        ? (1044 - ringOuter) / 2
+        : scope === "innerRing"
+        ? (1044 - ringInner) / 2
+        : scope === "middleRing"
+        ? (1044 - ringMiddle) / 2
+        : 0;
+
+    const imageSrc =
+      scope === "outerRing" && selectedRing === "outer"
+        ? outerRingSelectedImg
+        : scope === "innerRing" && selectedRing === "inner"
+        ? innerRingSelectedImg
+        : scope === "middleRing" && selectedRing === "middle"
+        ? middleRingSelectedImg
+        : scope === "outerRing"
+        ? outerRingImg
+        : scope === "innerRing"
+        ? innerRingImg
+        : scope === "middleRing"
+        ? middleRingImg
+        : "";
+
+    return (
+      <image
+        xlinkHref={imageSrc}
+        height={curDimensions}
+        width={curDimensions}
+        x={curPosition}
+        y={curPosition}
+        style={{ pointerEvents: "none" }}
+      />
+    );
+  }
+);
+
+const RenderLines = React.memo(
+  ({ scope, nodePairsScoped, allNodes, activePairs, activeNodes }) => {
+    /**  Only render links for nodes that belong in the current scope (group)
+     * This is so links aren't duplicated 3 times since we run this each time
+     * for each group (3 times total)
+     */
+    console.log("renderlines");
+    const elemFilter =
+      scope == "outerRing"
+        ? "-o"
+        : scope == "innerRing"
+        ? ""
+        : scope == "middleRing"
+        ? "-m"
+        : null;
+
+    const filteredDataPairs =
+      elemFilter === "-o"
+        ? nodePairsScoped.outer
+        : elemFilter === "-m"
+        ? nodePairsScoped.middle
+        : nodePairsScoped.inner; //filteredLinks(elemFilter);
+
+    /* For each of the nodes that belong in the group, generate link if they're pairs */
+    return filteredDataPairs.map(pair => {
+      const sourceCoords = allNodes && allNodes.get(pair.source);
+      const destCoords = allNodes && allNodes.get(pair.destination);
+      const sourcePoint = {
+        cx: sourceCoords.cx || null,
+        cy: sourceCoords.cy || null
+      };
+      const destinationPoint = {
+        cx: destCoords.cx || null,
+        cy: destCoords.cy || null
+      };
+
+      const link1 = `${pair.destination}-${pair.source}`;
+      const link2 = `${pair.source}-${pair.destination}`;
+
+      let isActive = false;
+      let isAccessible = false;
+
+      if (activePairs.get(link1) || activePairs.get(link2)) {
+        isActive = true;
+      } else if (
+        pair.source.includes("-edge") &&
+        activeNodes.includes(pair.destination)
+      ) {
+        isActive = true;
+      } else if (
+        activeNodes.includes(pair.source) ||
+        (activeNodes.includes(pair.destination) && activeNodes.length < 90)
+      ) {
+        isAccessible = true;
+      }
+
+      return (
+        <line
+          className={
+            isActive ? "activeLink" : isAccessible ? "accessibleLink" : ""
+          }
+          key={`${link1} ${link2}`}
+          x1={sourcePoint.cx}
+          y1={sourcePoint.cy}
+          x2={destinationPoint.cx}
+          y2={destinationPoint.cy}
+          id={`${link1} ${link2}`}
+          style={{ stroke: "grey", transition: "all 0.3s" }}
+        />
+      );
+    });
+  }
+);
+
+const RenderNodes = React.memo(
+  ({
+    scope,
+    passiveSkillsList,
+    setTooltipOptions,
+    svgDom,
+    activeNodes,
+    handleNodeClick
+  }) => {
+    console.log("renderNodes");
+    const displayTooltip = e => {
+      let left = e.clientX;
+      let top = e.clientY - 40;
+
+      if (top + 150 > window.innerHeight) {
+        top = top - 50;
+      }
+      if (top - 30 < window.innerHeight) {
+        top = top + 30;
+      }
+      if (left + 300 > window.innerWidth) {
+        left = left - 300;
+      }
+
+      left = left;
+      top = top;
+
+      const rawSkillName = e.currentTarget.id;
+      const skillName = rawSkillName
+        .split("-")
+        .shift()
+        .replace(/_/g, " ")
+        .split(" ")
+        .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+        .join(" ");
+      let skillData = passiveSkillsList.filter(skill => {
+        if (
+          skillName.toLowerCase() === skill.name.toLowerCase().replace(/'/, "")
+        ) {
+          return true;
+        }
+      });
+
+      if (skillData.length === 0) {
+        console.log(`Couldn't find: ${skillName}`);
+      }
+      skillData = skillData[0] || null;
+
+      setTooltipOptions({
+        display: "block",
+        left,
+        top,
+        text: skillData ? skillData : ""
+      });
+    };
+
+    const svgGroup = svgDom.svg.g.filter(group => {
+      if (group.id === scope) {
+        return true;
+      }
+    });
+
+    const groupCircleList = svgGroup[0].circle;
+
+    return groupCircleList.map(circle => {
+      let isActive = activeNodes.includes(circle.id);
+      const fillGradient = circle.id.includes("-r")
+        ? `url(#radial-gradient-red${isActive === true ? "-active" : ""})`
+        : circle.id.includes("-g")
+        ? `url(#radial-gradient-green${isActive === true ? "-active" : ""})`
+        : circle.id.includes("-p")
+        ? `url(#radial-gradient-purple${isActive === true ? "-active" : ""})`
+        : "";
+
+      const strokeWidth = isActive ? 1.5 : 1;
+      // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
+      const strokeColor =
+        circle.r > 6 && isActive
+          ? "white"
+          : circle.r > 6 && !isActive
+          ? "#5f4e00"
+          : circle.r < 6 && isActive
+          ? "white"
+          : circle.r < 6 && !isActive
+          ? "#707070"
+          : "#707070";
+      return (
+        <circle
+          className={"nodeCircle"}
+          key={circle.id}
+          id={circle.id}
+          cx={circle.cx}
+          cy={circle.cy}
+          r={circle.r}
+          fill={fillGradient}
+          style={{
+            strokeWidth: strokeWidth,
+            stroke: strokeColor,
+            cursor: "pointer",
+            transition: "all 0.3s"
+          }}
+          onMouseEnter={e => {
+            displayTooltip(e);
+          }}
+          onMouseLeave={() => {
+            setTooltipOptions({ display: "none", text: "" });
+          }}
+          onClick={() => {
+            handleNodeClick(circle);
+          }}
+        />
+      );
+    });
+  }
+);
+
 const GateOfFates = props => {
   const { setActiveNodes, activeNodes, rotations, setRotationsCB } = props;
   const [allNodes, setAllNodes] = useState(null);
@@ -365,52 +604,6 @@ const GateOfFates = props => {
     setNodePairsScoped(pairScope);
   };
 
-  const displayTooltip = e => {
-    let left = e.clientX;
-    let top = e.clientY - 40;
-
-    if (top + 150 > window.innerHeight) {
-      top = top - 50;
-    }
-    if (top - 30 < window.innerHeight) {
-      top = top + 30;
-    }
-    if (left + 300 > window.innerWidth) {
-      left = left - 300;
-    }
-
-    left = left;
-    top = top;
-
-    const rawSkillName = e.currentTarget.id;
-    const skillName = rawSkillName
-      .split("-")
-      .shift()
-      .replace(/_/g, " ")
-      .split(" ")
-      .map(s => s.charAt(0).toUpperCase() + s.substring(1))
-      .join(" ");
-    let skillData = passiveSkillsList.filter(skill => {
-      if (
-        skillName.toLowerCase() === skill.name.toLowerCase().replace(/'/, "")
-      ) {
-        return true;
-      }
-    });
-
-    if (skillData.length === 0) {
-      console.log(`Couldn't find: ${skillName}`);
-    }
-    skillData = skillData[0] || null;
-
-    setTooltipOptions({
-      display: "block",
-      left,
-      top,
-      text: skillData ? skillData : ""
-    });
-  };
-
   const handleWheelSpin = direction => {
     let rotationValue;
     if (selectedRing === "outer") {
@@ -433,184 +626,6 @@ const GateOfFates = props => {
         direction === "left" ? rotations.middle + 60 : rotations.middle - 60;
       setRotationsCB("middle", rotationValue);
     }
-  };
-
-  const renderRings = scope => {
-    const curDimensions =
-      scope === "outerRing"
-        ? ringOuter
-        : scope === "innerRing"
-        ? ringInner
-        : scope === "middleRing"
-        ? ringMiddle
-        : 0;
-
-    const curPosition =
-      scope === "outerRing"
-        ? (1044 - ringOuter) / 2
-        : scope === "innerRing"
-        ? (1044 - ringInner) / 2
-        : scope === "middleRing"
-        ? (1044 - ringMiddle) / 2
-        : 0;
-
-    const imageSrc =
-      scope === "outerRing" && selectedRing === "outer"
-        ? outerRingSelectedImg
-        : scope === "innerRing" && selectedRing === "inner"
-        ? innerRingSelectedImg
-        : scope === "middleRing" && selectedRing === "middle"
-        ? middleRingSelectedImg
-        : scope === "outerRing"
-        ? outerRingImg
-        : scope === "innerRing"
-        ? innerRingImg
-        : scope === "middleRing"
-        ? middleRingImg
-        : "";
-
-    return (
-      <image
-        xlinkHref={imageSrc}
-        height={curDimensions}
-        width={curDimensions}
-        x={curPosition}
-        y={curPosition}
-        style={{ pointerEvents: "none" }}
-      />
-    );
-  };
-
-  const renderLines = scope => {
-    /**  Only render links for nodes that belong in the current scope (group)
-     * This is so links aren't duplicated 3 times since we run this each time
-     * for each group (3 times total)
-     */
-
-    const elemFilter =
-      scope == "outerRing"
-        ? "-o"
-        : scope == "innerRing"
-        ? ""
-        : scope == "middleRing"
-        ? "-m"
-        : null;
-
-    const filteredDataPairs =
-      elemFilter === "-o"
-        ? nodePairsScoped.outer
-        : elemFilter === "-m"
-        ? nodePairsScoped.middle
-        : nodePairsScoped.inner; //filteredLinks(elemFilter);
-
-    /* For each of the nodes that belong in the group, generate link if they're pairs */
-    return filteredDataPairs.map(pair => {
-      const sourceCoords = allNodes && allNodes.get(pair.source);
-      const destCoords = allNodes && allNodes.get(pair.destination);
-      const sourcePoint = {
-        cx: sourceCoords.cx || null,
-        cy: sourceCoords.cy || null
-      };
-      const destinationPoint = {
-        cx: destCoords.cx || null,
-        cy: destCoords.cy || null
-      };
-
-      const link1 = `${pair.destination}-${pair.source}`;
-      const link2 = `${pair.source}-${pair.destination}`;
-
-      let isActive = false;
-      let isAccessible = false;
-
-      if (activePairs.get(link1) || activePairs.get(link2)) {
-        isActive = true;
-      } else if (
-        pair.source.includes("-edge") &&
-        activeNodes.includes(pair.destination)
-      ) {
-        isActive = true;
-      } else if (
-        activeNodes.includes(pair.source) ||
-        (activeNodes.includes(pair.destination) && activeNodes.length < 90)
-      ) {
-        isAccessible = true;
-      }
-
-      return (
-        <line
-          className={
-            isActive ? "activeLink" : isAccessible ? "accessibleLink" : ""
-          }
-          key={`${link1} ${link2}`}
-          x1={sourcePoint.cx}
-          y1={sourcePoint.cy}
-          x2={destinationPoint.cx}
-          y2={destinationPoint.cy}
-          id={`${link1} ${link2}`}
-          style={{ stroke: "grey", transition: "all 0.3s" }}
-        />
-      );
-    });
-  };
-
-  const renderNodes = scope => {
-    const svgGroup = svgDom.svg.g.filter(group => {
-      if (group.id === scope) {
-        return true;
-      }
-    });
-
-    const groupCircleList = svgGroup[0].circle;
-
-    return groupCircleList.map(circle => {
-      let isActive = activeNodes.includes(circle.id);
-      const fillGradient = circle.id.includes("-r")
-        ? `url(#radial-gradient-red${isActive === true ? "-active" : ""})`
-        : circle.id.includes("-g")
-        ? `url(#radial-gradient-green${isActive === true ? "-active" : ""})`
-        : circle.id.includes("-p")
-        ? `url(#radial-gradient-purple${isActive === true ? "-active" : ""})`
-        : "";
-
-      const strokeWidth = isActive ? 1.5 : 1;
-      // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
-      const strokeColor =
-        circle.r > 6 && isActive
-          ? "white"
-          : circle.r > 6 && !isActive
-          ? "#5f4e00"
-          : circle.r < 6 && isActive
-          ? "white"
-          : circle.r < 6 && !isActive
-          ? "#707070"
-          : "#707070";
-      return (
-        <circle
-          className={"nodeCircle"}
-          key={circle.id}
-          id={circle.id}
-          cx={circle.cx}
-          cy={circle.cy}
-          r={circle.r}
-          fill={fillGradient}
-          style={{
-            strokeWidth: strokeWidth,
-            stroke: strokeColor,
-            cursor: "pointer",
-            transition: "all 0.3s"
-          }}
-          onMouseEnter={e => {
-            displayTooltip(e);
-          }}
-          onMouseLeave={() => {
-            setTooltipOptions({ display: "none", text: "" });
-          }}
-          onClick={() => {
-            handleNodeClick(circle);
-          }}
-        />
-      );
-    });
   };
 
   useEffect(() => {
@@ -791,9 +806,28 @@ const GateOfFates = props => {
                             }deg)`
                           }}
                         >
-                          {renderRings(group.id)}
-                          {renderLines(group.id)}
-                          {renderNodes(group.id)}
+                          <RenderRings
+                            scope={group.id}
+                            ringOuter={ringOuter}
+                            ringInner={ringInner}
+                            ringMiddle={ringMiddle}
+                            selectedRing={selectedRing}
+                          />
+                          <RenderLines
+                            scope={group.id}
+                            nodePairsScoped={nodePairsScoped}
+                            allNodes={allNodes}
+                            activePairs={activePairs}
+                            activeNodes={activeNodes}
+                          />
+                          <RenderNodes
+                            scope={group.id}
+                            passiveSkillsList={passiveSkillsList}
+                            setTooltipOptions={setTooltipOptions}
+                            svgDom={svgDom}
+                            activeNodes={activeNodes}
+                            handleNodeClick={handleNodeClick}
+                          />
                         </g>
                       );
                     })}
