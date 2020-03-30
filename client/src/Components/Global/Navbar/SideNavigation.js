@@ -93,7 +93,7 @@ const SideNavigation = () => {
             <span className="sideNavMenuLabel">{`${
               _.isEmpty(user)
                 ? "Login/Register"
-                : `${user[0].displayName} (Logout)`
+                : `${user.displayName} (Logout)`
             }`}</span>
           </Menu.Item>
         </Menu>

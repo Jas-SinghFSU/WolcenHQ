@@ -11,7 +11,7 @@ const UserProvider = ({ children }) => {
   const getUser = async () => {
     try {
       const userObject = await axios.get("/api/auth");
-      setUser(userObject.data);
+      setUser(userObject.data[0]);
     } catch (error) {
       console.error("Failed to get user.");
     }

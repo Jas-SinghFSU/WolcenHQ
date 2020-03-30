@@ -13,6 +13,7 @@
     "antd": "^3.26.11",
     "axios": "^0.19.2",
     "d3": "^5.15.0",
+    "get-youtube-id": "^1.0.1",
     "http-proxy-middleware": "^1.0.3",
     "konva": "^4.1.5",
     "lodash": "^4.17.15",

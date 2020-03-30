@@ -1,67 +1,130 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { Row, Col, Avatar } from "antd";
 import { useHistory, Link } from "react-router-dom";
 import _ from "lodash";
 
 import "./style.css";
 
+const buildsRoute = "/api/builds/build";
+
 const BuildTitle = props => {
+  const { _id } = props;
+  const [votes, setVotes] = useState({
+    likes: null,
+    dislikes: null
+  });
+
   const [upVoteStatus, setUpVoteStatus] = useState({
     hovered: false,
-    selected: false
+    selected: !_.isEmpty(props.user)
+      ? props.likes.map(like => like.userID).includes(props.user._id)
+      : false
   });
 
   const [downVoteStatus, setDownVoteStatus] = useState({
     hovered: false,
-    selected: false
+    selected: !_.isEmpty(props.user)
+      ? props.dislikes.map(dislike => dislike.userID).includes(props.user._id)
+      : false
   });
 
-  const userExists = () => {
-    return !_.isEmpty(props.user);
+  const [voteSum, setVoteSum] = useState(
+    props.likes.length - props.dislikes.length
+  );
+
+  useEffect(() => {
+    if (votes.likes && votes.dislikes) {
+      setUpVoteStatus({
+        ...upVoteStatus,
+        selected: !_.isEmpty(props.user)
+          ? votes.likes.includes(props.user._id)
+          : false
+      });
+
+      setDownVoteStatus({
+        ...downVoteStatus,
+        selected: !_.isEmpty(props.user)
+          ? votes.dislikes.includes(props.user._id)
+          : false
+      });
+
+      setVoteSum(votes.likes.length - votes.dislikes.length);
+    }
+  }, [votes]);
+
+  let canVote = true;
+
+  const authorExists = () => {
+    return !_.isEmpty(props.author);
   };
 
-  const getUserImage = () => {
-    if (userExists() && !_.isEmpty(props.user.image.value)) {
-      return props.user.image.value;
+  const getAuthorImage = () => {
+    if (authorExists() && !_.isEmpty(props.author.image.value)) {
+      return props.author.image.value;
     }
     return "";
   };
 
-  const getUserName = () => {
-    if (userExists()) {
-      return props.user.displayName;
+  const getAuthorName = () => {
+    if (authorExists()) {
+      return props.author.displayName;
     }
   };
 
-  const getUserID = () => {
-    if (userExists()) {
-      return props.user._id;
+  const getAuthorID = () => {
+    if (authorExists()) {
+      return props.author._id;
     }
   };
 
-  const setUpvote = () => {
-    setUpVoteStatus({
-      ...upVoteStatus,
-      selected: !upVoteStatus.selected
-    });
-    setDownVoteStatus({
-      ...downVoteStatus,
-      selected: false
-    });
+  const setUpvote = async () => {
+    if (!_.isEmpty(props.user) && canVote) {
+      canVote = false;
+      try {
+        const payload = {
+          action: "upvote"
+        };
+        const upvoteResponse = await axios.put(
+          `${buildsRoute}/vote/${_id}`,
+          payload
+        );
+        canVote = true;
+        console.log(upvoteResponse.data);
+        setVotes({
+          likes: upvoteResponse.data.likes.map(like => like.userID),
+          dislikes: upvoteResponse.data.dislikes.map(dislike => dislike.userID)
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }
   };
 
-  const setDownvote = () => {
-    setDownVoteStatus({
-      ...downVoteStatus,
-      selected: !downVoteStatus.selected
-    });
-    setUpVoteStatus({
-      ...upVoteStatus,
-      selected: false
-    });
+  const setDownvote = async () => {
+    if (!_.isEmpty(props.user) && canVote) {
+      canVote = false;
+      try {
+        const payload = {
+          action: "downvote"
+        };
+        const downvoteResponse = await axios.put(
+          `${buildsRoute}/vote/${_id}`,
+          payload
+        );
+        canVote = true;
+        console.log(downvoteResponse.data);
+        setVotes({
+          likes: downvoteResponse.data.likes.map(like => like.userID),
+          dislikes: downvoteResponse.data.dislikes.map(
+            dislike => dislike.userID
+          )
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }
   };
-
-  const upVotes = 126;
 
   return (
     <Row>
@@ -86,18 +149,18 @@ const BuildTitle = props => {
               <span
                 className="buildRating"
                 style={{
-                  marginLeft: `${upVotes !== 0 ? "-8px" : "0px"}`,
+                  marginLeft: `${voteSum !== 0 ? "-8px" : "0px"}`,
                   color: `${
-                    upVotes > 0
+                    voteSum > 0
                       ? "rgb(111, 219, 132)"
-                      : upVotes < 0
+                      : voteSum < 0
                       ? "rgb(232, 100, 100)"
                       : "rgb(189, 182, 170)"
                   }`
                 }}
               >
-                {upVotes > 0 ? "+" : ""}
-                {upVotes}
+                {voteSum > 0 ? "+" : ""}
+                {voteSum}
               </span>
               <i
                 onMouseOver={() => {
@@ -121,7 +184,7 @@ const BuildTitle = props => {
                 size="large"
                 icon="user"
                 shape="square"
-                src={getUserImage()}
+                src={getAuthorImage()}
               />
             </div>
             <div className="buildInfoDetails">
@@ -129,9 +192,9 @@ const BuildTitle = props => {
               <span className="buildInfoDescription">
                 by{" "}
                 <span className={"authorName"}>
-                  {userExists() ? (
-                    <Link to={`/users/user/${getUserID()}`}>
-                      {getUserName()}
+                  {authorExists() ? (
+                    <Link to={`/users/user/${getAuthorID()}`}>
+                      {getAuthorName()}
                     </Link>
                   ) : (
                     "Anonymous"

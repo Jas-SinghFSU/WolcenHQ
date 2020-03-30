@@ -5,6 +5,7 @@ const router = express.Router();
 const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const BUILDS = db.collection("Builds");
+const { ensureAuthenticated } = require("../Shared/ensureAuthenticated");
 
 const { ObjectID } = Mongo;
 
@@ -70,6 +71,61 @@ router.get("/build/:id", async (req, res) => {
     res.json(currentBuild);
   } catch (error) {
     res.status(500).json({ error });
+  }
+});
+
+router.put("/build/vote/:id", ensureAuthenticated, async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { action } = req.body;
+
+    const foundBuild = await BUILDS.findOne({ _id: ObjectID(id) });
+
+    const { likes, dislikes } = foundBuild;
+
+    let isLiked = false;
+    let isDisliked = false;
+
+    const userExists = () => {
+      return !_.isEmpty(res.locals.user[0]._id);
+    };
+
+    if (userExists) {
+      isLiked = likes.map(like => like.userID).includes(res.locals.user[0]._id);
+      isDisliked = dislikes
+        .map(dislike => dislike.userID)
+        .includes(res.locals.user[0]._id);
+    }
+
+    if (action === "upvote" && !isLiked) {
+      operation = {
+        $pull: { dislikes: { userID: res.locals.user[0]._id } },
+        $push: { likes: { userID: res.locals.user[0]._id } }
+      };
+    } else if (action === "downvote" && !isDisliked) {
+      operation = {
+        $pull: { likes: { userID: res.locals.user[0]._id } },
+        $push: { dislikes: { userID: res.locals.user[0]._id } }
+      };
+    } else {
+      operation = {
+        $pull: {
+          likes: { userID: res.locals.user[0]._id },
+          dislikes: { userID: res.locals.user[0]._id }
+        }
+      };
+    }
+    const updateStatus = await BUILDS.findOneAndUpdate(
+      { _id: ObjectID(id) },
+      operation,
+      { returnOriginal: false }
+    );
+    res.json({
+      likes: updateStatus.value.likes,
+      dislikes: updateStatus.value.dislikes
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 
