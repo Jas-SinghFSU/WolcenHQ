@@ -91,3 +91,16 @@
 .authorName {
   font-style: italic;
 }
+
+.buildInfoDescriptionContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.buildInfoDescription {
+  width: 75%;
+}
+.buildInfoTags {
+  width: 25%;
+  text-align: right;
+}

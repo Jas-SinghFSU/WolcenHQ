@@ -1,12 +1,20 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Row, Col, Avatar } from "antd";
+import { Row, Col, Avatar, Tag } from "antd";
 import { useHistory, Link } from "react-router-dom";
+import Moment from "react-moment";
 import _ from "lodash";
 
 import "./style.css";
 
 const buildsRoute = "/api/builds/build";
+
+const combatTagColors = {
+  caster: "rgb(102, 84, 153)",
+  ranged: "rgb(93, 132, 82)",
+  melee: "rgb(153, 87, 87)",
+  tank: "rgb(34, 94, 130)"
+};
 
 const BuildTitle = props => {
   const { _id } = props;
@@ -189,19 +197,28 @@ const BuildTitle = props => {
             </div>
             <div className="buildInfoDetails">
               <span className="buildInfoTitle">{props.buildTitle}</span>
-              <span className="buildInfoDescription">
-                by{" "}
-                <span className={"authorName"}>
-                  {authorExists() ? (
-                    <Link to={`/users/user/${getAuthorID()}`}>
-                      {getAuthorName()}
-                    </Link>
-                  ) : (
-                    "Anonymous"
-                  )}
+              <div className="buildInfoDescriptionContainer">
+                <span className="buildInfoDescription">
+                  by{" "}
+                  <span className={"authorName"}>
+                    {authorExists() ? (
+                      <Link to={`/users/user/${getAuthorID()}`}>
+                        {getAuthorName()}
+                      </Link>
+                    ) : (
+                      "Anonymous"
+                    )}
+                  </span>
+                  . Last updated{" "}
+                  <Moment format="MMM DD[,] YYYY">{props.lastUpdated}</Moment>.
                 </span>
-                . Last updated 10 days ago.
-              </span>
+                <span className="buildInfoTags">
+                  <Tag color="rgb(61, 127, 142)">{props.playstyle}</Tag>
+                  <Tag color={combatTagColors[props.combatType.toLowerCase()]}>
+                    {props.combatType}
+                  </Tag>
+                </span>
+              </div>
             </div>
           </div>
         </div>

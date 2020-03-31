@@ -2,17 +2,16 @@ import React, { useState, useContext, useEffect } from "react";
 import { useHistory, Link } from "react-router-dom";
 import UserProvider from "../../../../Contexts/UserProvider";
 import axios from "axios";
-import YouTube from "react-youtube";
 import GetYoutubeId from "get-youtube-id";
 import _ from "lodash";
 import { Layout, Row, Col } from "antd";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BuildTitle from "./BuildTitle/BuildTitle";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
 import GateOfFatesContainer from "./GateOfFatesContainer/GateOfFatesContainer";
 import BuildGuideContainer from "./BuildGuideContainer/BuildGuideContainer";
 import BuildVideoContainer from "./BuildVideoContainer/BuildVideoContainer";
+import CommentsContainer from "./CommentsContainer/CommentsContainer";
 
 import "./style.css";
 
@@ -88,6 +87,7 @@ const Build = props => {
                 <BuildVideoContainer buildVideo={dataProps.buildVideo} />
               )}
               <BuildGuideContainer {...dataProps} />
+              <CommentsContainer {...dataProps} />
             </Col>
           </Row>
         </Content>

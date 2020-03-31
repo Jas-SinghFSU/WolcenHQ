@@ -21,7 +21,7 @@ const BuildVideo = ({ buildVideo }) => {
     width: "640",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
-      autoplay: 1
+      autoplay: 0
     }
   };
 
@@ -29,11 +29,7 @@ const BuildVideo = ({ buildVideo }) => {
 
   return (
     <div className="buildVideoContent">
-      <YouTube
-        videoId={GetYoutubeId(buildVideo)}
-        opts={opts}
-        onReady={onReady}
-      />
+      <YouTube videoId={GetYoutubeId(buildVideo)} opts={opts} />
     </div>
   );
 };

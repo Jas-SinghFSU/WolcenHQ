@@ -9,7 +9,7 @@
 }
 .buildDescriptionBody {
   text-align: left;
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 20px;
 }
 
@@ -19,6 +19,7 @@
 
 .buildDescriptionBody.ql-editor {
   background: transparent;
+  max-height: none;
 }
 
 .buildDescriptionBody a {

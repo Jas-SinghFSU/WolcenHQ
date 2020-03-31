@@ -215,7 +215,7 @@
 }
 .slotSpellModCountCol {
   margin-top: 7px;
-  color: aqua;
+  color: #53e3d6;
 }
 .slotSpellIcon {
   cursor: url("../../../../../Data/Cursors/trash-bin-full-svgrepo-com.svg"),
@@ -235,5 +235,5 @@
 }
 .selectedModsCol {
   margin-top: 10px;
-  color: rgb(255, 232, 184);
+  color: rgb(213, 190, 146);
 }

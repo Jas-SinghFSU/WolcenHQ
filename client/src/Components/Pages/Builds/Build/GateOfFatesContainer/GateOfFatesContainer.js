@@ -175,7 +175,6 @@ const RenderLines = React.memo(
      * for each group (3 times total)
      */
 
-    console.log("renderlines");
     const elemFilter =
       scope == "outerRing"
         ? "-o"
@@ -290,7 +289,6 @@ const RenderNodes = React.memo(
         text: skillData ? skillData : ""
       });
     };
-    console.log("moving");
     const svgGroup = svgDom.svg.g.filter(group => {
       if (group.id === scope) {
         return true;
@@ -298,7 +296,6 @@ const RenderNodes = React.memo(
     });
 
     const groupCircleList = svgGroup[0].circle;
-    console.log(groupCircleList);
 
     return groupCircleList.map(circle => {
       let isActive = activeNodes.includes(circle.id);
@@ -367,8 +364,6 @@ const GateOfFates = props => {
 
   const [panZoomVal, setPanZoomVal] = useState(INITIAL_VALUE);
   const [panZoomTool, setPanZoomTool] = useState(TOOL_AUTO);
-
-  const d3Ref = useRef();
 
   const ringInner = 350;
   const ringMiddle = 700;
@@ -464,6 +459,7 @@ const GateOfFates = props => {
     setActivePairs(findPotentialPairs());
   }, [activeNodes]);
 
+  console.log("main");
   if (allNodes && nodePairsScoped) {
     return (
       <Fragment>
@@ -492,7 +488,7 @@ const GateOfFates = props => {
                   }}
                   disableDoubleClickZoomWithToolAuto={true}
                 >
-                  <svg className="gofSvg" viewBox={"0 0 1044 1044"} ref={d3Ref}>
+                  <svg className="gofSvg" viewBox={"0 0 1044 1044"}>
                     <defs>
                       <radialGradient id="radial-gradient-red">
                         <stop offset="0%" stopColor="#7a0000" />
@@ -525,7 +521,7 @@ const GateOfFates = props => {
                           key={group.id}
                           id={group.id}
                           style={{
-                            transition: "all 1s ease 0s",
+                            transition: "transform 1s ease 0s",
                             transformOrigin: "522px 522px 0px",
                             transform: `rotate(${
                               group.id === "outerRing"
