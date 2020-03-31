@@ -1,31 +1,12 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Row, Col, Input, Select, Button } from "antd";
-import ReactQuill, { Quill, Mixin, Toolbar } from "react-quill";
-import { buildDescription } from "../../../../Constants/constants";
+import CustomQuill from "../../../../Shared/CustomQuill/CustomQuill";
 import validator from "validator";
 
-import "react-quill/dist/quill.snow.css";
 import "./style.css";
 
 const { Option } = Select;
 const InputGroup = Input.Group;
-
-let quilIcons = Quill.import("ui/icons");
-quilIcons["bold"] = '<i class="fas fa-bold"></i>';
-quilIcons["italic"] = '<i class="fas fa-italic"></i>';
-quilIcons["underline"] = '<i class="fas fa-underline"></i>';
-quilIcons["strike"] = '<i class="fas fa-strikethrough"></i>';
-quilIcons["blockquote"] = '<i class="fas fa-quote-right"></i>';
-quilIcons["indent"]["+1"] = '<i class="fas fa-indent"></i>';
-quilIcons["indent"]["-1"] = '<i class="fas fa-outdent"></i>';
-quilIcons["list"]["ordered"] = '<i class="fas fa-list-ol"></i>';
-quilIcons["list"]["bullet"] = '<i class="fas fa-list-ul"></i>';
-quilIcons["link"] = '<i class="fas fa-link"></i>';
-quilIcons["color"] = '<i class="fas fa-palette" size="2x"></i>';
-quilIcons["align"][""] = '<i class="fas fa-align-left"></i>';
-quilIcons["align"]["center"] = '<i class="fas fa-align-center"></i>';
-quilIcons["align"]["right"] = '<i class="fas fa-align-right"></i>';
-quilIcons["align"]["justify"] = '<i class="fas fa-align-justify"></i>';
 
 const BuildDescriptionHeader = props => {
   return (
@@ -38,45 +19,17 @@ const BuildDescriptionHeader = props => {
 };
 
 const BuildDescriptionContent = props => {
-  // const [inputText, setInputText] = useState(buildDescription.default);
-
   const {
     buildTitle,
     setTitle,
     buildVideo,
     setVid,
-    combatType,
     setComb,
-    playstyle,
     setPs,
     inputText,
     setDesc,
     submitData
   } = props;
-
-  const quillBoxModules = {
-    toolbar: [
-      [{ header: [1, 2, 3, 4, 5, 6, false] }],
-      ["bold", "italic", "underline", "strike"],
-      [
-        { align: "" },
-        { align: "center" },
-        { align: "right" },
-        { align: "justify" }
-      ],
-      [{ indent: "-1" }, { indent: "+1" }],
-      ["blockquote"],
-      [{ list: "ordered" }, { list: "bullet" }],
-      ["link"],
-      [{ color: [] }]
-    ]
-  };
-
-  const validateURL = () => {
-    const isURLValid = validator.isURL(buildVideo);
-
-    return isURLValid;
-  };
 
   return (
     <Row className="buildDescriptionContainer">
@@ -132,12 +85,11 @@ const BuildDescriptionContent = props => {
         </div>
         <div className="buildGuideContainer">
           <div className="buildDescriptionSectionLabel">Description</div>
-          <ReactQuill
+          <CustomQuill
             className="quillComponent"
             value={inputText}
             onChange={setDesc}
             theme="snow"
-            modules={quillBoxModules}
           />
         </div>
       </Col>

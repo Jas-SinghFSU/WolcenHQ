@@ -1,0 +1,29 @@
+.commentsContainer {
+  margin-top: 20px;
+}
+
+.newCommentButtonContainer {
+  text-align: left;
+}
+.newCommentButton {
+  white-space: pre-wrap;
+}
+.newCommentButton.submit {
+  margin-right: 15px;
+}
+.commentInputButtons {
+  margin-top: 15px;
+}
+.commentQuill {
+  width: 80%;
+  margin: auto;
+}
+.commentQuill .ql-editor {
+  height: 200px;
+  min-height: unset !important;
+  resize: vertical;
+}
+
+.commentItemsContainer {
+  margin: 50px 0 20px 0;
+}

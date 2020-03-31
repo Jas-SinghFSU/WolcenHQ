@@ -90,6 +90,11 @@
 }
 .authorName {
   font-style: italic;
+  overflow: unset;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  display: block;
+  padding: 0 2px 0 2px;
 }
 
 .buildInfoDescriptionContainer {
@@ -99,6 +104,8 @@
 
 .buildInfoDescription {
   width: 75%;
+  display: flex;
+  white-space: pre-wrap;
 }
 .buildInfoTags {
   width: 25%;
