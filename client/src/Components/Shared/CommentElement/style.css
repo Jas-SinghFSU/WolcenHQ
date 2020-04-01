@@ -23,6 +23,7 @@
   background: #2e3031;
   border-color: #464134;
   color: rgb(218, 218, 218);
+  border-radius: 5px;
 }
 
 .commentCard .ant-card-body {
@@ -33,17 +34,18 @@
   font-size: 15px;
 }
 .commentCardTop .user {
-  color: #ffab40;
+  color: #e3a95e;
   cursor: pointer;
 }
 .commentCardTop .date {
   float: right;
-  font-size: 14px;
+  font-size: 13px;
+  color: rgba(210, 210, 210, 0.7);
 }
 
 .commentCardMiddle {
-  margin-top: 15px;
-  margin-bottom: 25px;
+  margin-top: 8px;
+  margin-bottom: 12px;
   font-weight: 300;
   font-size: 16px;
 }
@@ -54,7 +56,36 @@
 }
 .commentCardBottom .controlsLeft {
   float: left;
+  display: flex;
+  flex-direction: row;
 }
 .commentCardBottom .controlsRight {
   float: right;
+}
+
+.commentUpvoteButton {
+  color: #55cf6dd0;
+  padding: 5px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.commentDownvoteButton {
+  color: #ce4c4cd5;
+  padding: 5px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.commentUpvoteContainer {
+  margin-right: 15px;
+  color: #cecece;
+}
+
+.commentDownvoteContainer {
+  margin-right: 10px;
+  color: #cecece;
+}
+
+.commentControls {
+  cursor: pointer;
+  margin-left: 10px;
 }

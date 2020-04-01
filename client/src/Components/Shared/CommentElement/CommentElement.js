@@ -25,8 +25,36 @@ const CommentElement = () => {
               <span>Comment body.</span>
             </div>
             <div className="commentCardBottom">
-              <span className="controlsLeft">Like Dislike Reply</span>
-              <span className="controlsRight">Report</span>
+              <div className="controlsLeft">
+                <div className="commentUpvoteContainer">
+                  <i class="fas fa-chevron-up commentUpvoteButton noSelectText" />
+                  <i
+                    class="fas fa-angle-double-up commentUpvoteButton noSelectText"
+                    style={{ display: "none" }}
+                  />
+                  <span className="commentUpvoteCount">142</span>
+                </div>
+                <div className="commentDownvoteContainer">
+                  <i class="fas fa-chevron-down commentDownvoteButton noSelectText" />
+                  <i
+                    class="fas fa-angle-double-down commentDownvoteButton noSelectText"
+                    style={{ display: "none" }}
+                  />
+                  <span className="commentDownvoteCount">25</span>
+                </div>
+              </div>
+              <div className="controlsRight">
+                <span className="commentControls edit noSelectText">Edit</span>
+                <span className="commentControls reply noSelectText">
+                  Reply
+                </span>
+                <span className="commentControls report noSelectText">
+                  Report
+                </span>
+                <span className="commentControls delete noSelectText">
+                  Delete
+                </span>
+              </div>
             </div>
           </div>
         </Card>
