@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar, Card } from "antd";
+import { UserOutlined } from "@ant-design/icons";
 
 import "./style.css";
 
@@ -7,12 +8,14 @@ const CommentElement = () => {
   return (
     <div className="commentElementContainer">
       <div className="commentAvatarContainer">
-        <Avatar
-          className="commentAvatar"
-          shape="square"
-          size="large"
-          icon="user"
-        />
+        <div className="commentAvatar">
+          <Avatar
+            className="commentAvatar"
+            shape="square"
+            size="large"
+            icon={<UserOutlined />}
+          />
+        </div>
       </div>
       <div className="commentContentContainer">
         <Card className="commentCard">
@@ -27,17 +30,17 @@ const CommentElement = () => {
             <div className="commentCardBottom">
               <div className="controlsLeft">
                 <div className="commentUpvoteContainer">
-                  <i class="fas fa-chevron-up commentUpvoteButton noSelectText" />
+                  <i className="fas fa-chevron-up commentUpvoteButton noSelectText" />
                   <i
-                    class="fas fa-angle-double-up commentUpvoteButton noSelectText"
+                    className="fas fa-angle-double-up commentUpvoteButton noSelectText"
                     style={{ display: "none" }}
                   />
                   <span className="commentUpvoteCount">142</span>
                 </div>
                 <div className="commentDownvoteContainer">
-                  <i class="fas fa-chevron-down commentDownvoteButton noSelectText" />
+                  <i className="fas fa-chevron-down commentDownvoteButton noSelectText" />
                   <i
-                    class="fas fa-angle-double-down commentDownvoteButton noSelectText"
+                    className="fas fa-angle-double-down commentDownvoteButton noSelectText"
                     style={{ display: "none" }}
                   />
                   <span className="commentDownvoteCount">25</span>

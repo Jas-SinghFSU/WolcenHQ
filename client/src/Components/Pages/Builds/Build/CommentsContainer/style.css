@@ -27,3 +27,13 @@
 .commentItemsContainer {
   margin: 50px 0 20px 0;
 }
+
+.commentInputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputError {
+  margin-top: 5px;
+  color: rgb(238, 108, 108);
+}

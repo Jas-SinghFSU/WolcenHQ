@@ -9,8 +9,9 @@ import "./style.css";
 const FormItem = Form.Item;
 const Login = props => {
   const userData = useContext(UserProvider.context);
-  const { getFieldDecorator } = props.form;
+
   const history = useHistory();
+
   const handleSubmit = e => {
     e.preventDefault();
     props.form.validateFields((err, values) => {
@@ -37,23 +38,23 @@ const Login = props => {
             <Form className="registerForm" onSubmit={handleSubmit}>
               <FormItem
                 label="E-Mail"
+                name="email"
                 labelCol={{ span: 24 }}
                 wrapperCol={{ span: 24 }}
                 className="registerFormInput"
+                rules={[{ required: true, message: "Email is required." }]}
               >
-                {getFieldDecorator("Email", {
-                  rules: [{ required: true, message: "Email is required." }]
-                })(<Input />)}
+                <Input />
               </FormItem>
               <FormItem
                 label="Password"
+                name="password"
                 labelCol={{ span: 24 }}
                 wrapperCol={{ span: 24 }}
                 className="registerFormInput"
+                rules={[{ required: true, message: "Password is required." }]}
               >
-                {getFieldDecorator("Password", {
-                  rules: [{ required: true, message: "Password is required." }]
-                })(<Input />)}
+                <Input />
               </FormItem>
               {/* LOGIN WITH STEAM BUTTON */}
               <div className="formControlButtons">
@@ -90,4 +91,4 @@ const Login = props => {
   );
 };
 
-export default Form.create()(Login);
+export default Login;

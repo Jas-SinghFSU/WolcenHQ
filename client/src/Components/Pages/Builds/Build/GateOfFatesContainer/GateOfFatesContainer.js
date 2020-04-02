@@ -310,13 +310,13 @@ const RenderNodes = React.memo(
       const strokeWidth = isActive ? 1.5 : 1;
       // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
       const strokeColor =
-        circle.r > 6 && isActive
+        circle.r > 8 && isActive
           ? "white"
-          : circle.r > 6 && !isActive
+          : circle.r > 8 && !isActive
           ? "#5f4e00"
-          : circle.r < 6 && isActive
+          : circle.r < 8 && isActive
           ? "white"
-          : circle.r < 6 && !isActive
+          : circle.r < 8 && !isActive
           ? "#707070"
           : "#707070";
       return (

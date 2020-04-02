@@ -1,6 +1,10 @@
 import React, { Fragment } from "react";
 import { Avatar, Icon, Col } from "antd";
-import { EditOutlined } from "@ant-design/icons";
+import {
+  EditOutlined,
+  PlusOutlined,
+  PlusSquareOutlined
+} from "@ant-design/icons";
 import SpellToolTip from "../../../../Shared/SpellTooltip";
 import ReactTooltip from "react-tooltip";
 
@@ -19,9 +23,8 @@ const SkillSlot = props => {
   return (
     <Col span={4} offset={0}>
       {!slotData ? (
-        <Icon
+        <PlusSquareOutlined
           className="addSpellIcon"
-          type="plus-square"
           onClick={() => handleModalData(true, slotNumber)}
         />
       ) : (
@@ -72,9 +75,9 @@ const SkillSlot = props => {
             }}
           >
             {slotData.activeModifiers.length > 0 ? (
-              <Icon type="edit" />
+              <EditOutlined />
             ) : (
-              <Icon type="plus" />
+              <PlusOutlined />
             )}
           </Col>
           {slotData.activeModifiers.map((mod, index) => {

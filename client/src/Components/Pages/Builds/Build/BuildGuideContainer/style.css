@@ -19,7 +19,8 @@
 
 .buildDescriptionBody.ql-editor {
   background: transparent;
-  max-height: none;
+  max-height: 0;
+  display: initial;
 }
 
 .buildDescriptionBody a {

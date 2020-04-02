@@ -5,6 +5,7 @@ const router = express.Router();
 const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const BUILDS = db.collection("Builds");
+const COMMENTS = db.collection("BuildComments");
 const { ensureAuthenticated } = require("../Shared/ensureAuthenticated");
 
 const { ObjectID } = Mongo;
@@ -127,6 +128,34 @@ router.put("/build/vote/:id", ensureAuthenticated, async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
+});
+
+router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
+  const { id } = req.params;
+  const { commentInfo } = req.body;
+
+  if (_.isEmpty(commentInfo)) {
+    return res.status(400).json({ error: "Comment cannot be empty." });
+  }
+
+  try {
+    const commentObject = {
+      user: res.locals.user[0]._id,
+      body: commentInfo,
+      likes: [],
+      dislikes: [],
+      created: new Date(),
+      updated: new Date(),
+      reports: []
+    };
+
+    try {
+      const results = await COMMENTS.insertOne(commentObject);
+      res.json({ status: "success", id: results.ops[0]._id });
+    } catch (err) {
+      res.status(500).send(err);
+    }
+  } catch (error) {}
 });
 
 module.exports = router;

@@ -110,42 +110,42 @@
             "class": "cls-3",
             "cx": "954.67",
             "cy": "602.56",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "essential_measure-p-o",
             "class": "cls-4",
             "cx": "976.3",
             "cy": "530.99",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heads_hang_low-p-o",
             "class": "cls-5",
             "cx": "999.08",
             "cy": "580.31",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "remedy_for_hale_health-p-o",
             "class": "cls-6",
             "cx": "916.73",
             "cy": "584.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "search_for_a_dead_sun-p-o",
             "class": "cls-7",
             "cx": "918.77",
             "cy": "559.47",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "muscle_stripped_raw-p-o",
             "class": "cls-8",
             "cx": "882.07",
             "cy": "593.05",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heads_hang_low-p-o-2",
@@ -153,21 +153,21 @@
             "class": "cls-9",
             "cx": "907.81",
             "cy": "625.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "bog_bodies-p-o",
             "class": "cls-10",
             "cx": "876.25",
             "cy": "616.66",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "endless_litany-p-o",
             "class": "cls-11",
             "cx": "1015.58",
             "cy": "631.52",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "endless_litany-p-o-2",
@@ -175,7 +175,7 @@
             "class": "cls-12",
             "cx": "1004.58",
             "cy": "673.8",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "endless_litany-p-o-3",
@@ -183,21 +183,21 @@
             "class": "cls-13",
             "cx": "1018.57",
             "cy": "654.7",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "toxic_emanations-p-o",
             "class": "cls-14",
             "cx": "952.13",
             "cy": "536.51",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "sacrifice_of_flesh-p-o",
             "class": "cls-15",
             "cx": "989.24",
             "cy": "646.86",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "unquiet_soil-p-o-2",
@@ -205,14 +205,14 @@
             "class": "cls-16",
             "cx": "937.07",
             "cy": "668.3",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hordes_vitality-p-o",
             "class": "cls-17",
             "cx": "920.04",
             "cy": "741.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heads_hang_low-p-o-3",
@@ -220,7 +220,7 @@
             "class": "cls-18",
             "cx": "964.42",
             "cy": "709.76",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "remedy_for_hale_health-p-o-2",
@@ -228,14 +228,14 @@
             "class": "cls-19",
             "cx": "895.14",
             "cy": "665.05",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "covenant_of_rot-p-o",
             "class": "cls-20",
             "cx": "884.45",
             "cy": "687.68",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "muscle_stripped_raw-p-o-2",
@@ -243,14 +243,14 @@
             "class": "cls-21",
             "cx": "884.45",
             "cy": "535.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sloughing_skins_of_swarms-p-o",
             "class": "cls-22",
             "cx": "845.05",
             "cy": "688.23",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sloughing_skins_of_swarms-p-o-2",
@@ -258,49 +258,49 @@
             "class": "cls-23",
             "cx": "869.43",
             "cy": "640.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "undertaker-p-o",
             "class": "cls-24",
             "cx": "901.87",
             "cy": "724.24",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "impossible_soul-p-o",
             "class": "cls-25",
             "cx": "107.75",
             "cy": "375.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "deferential_wounds-p-o",
             "class": "cls-26",
             "cx": "124.72",
             "cy": "302.6",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "youth_in_future_tense-p-o",
             "class": "cls-27",
             "cx": "80.37",
             "cy": "333.97",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "temporal_shift-p-o",
             "class": "cls-28",
             "cx": "149.68",
             "cy": "378.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "wither_in_dreams-p-o",
             "class": "cls-29",
             "cx": "160.36",
             "cy": "355.99",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "wither_in_dreams-p-o-2",
@@ -308,7 +308,7 @@
             "class": "cls-30",
             "cx": "199.76",
             "cy": "355.4",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "wither_in_dreams-p-o-3",
@@ -316,42 +316,42 @@
             "class": "cls-31",
             "cx": "175.41",
             "cy": "403.4",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "slow_in_slow_out-p-o",
             "class": "cls-32",
             "cx": "137.11",
             "cy": "418.33",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "waning_before_waxing-p-o",
             "class": "cls-33",
             "cx": "168.67",
             "cy": "426.77",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "practiced_stamina-p-o",
             "class": "cls-34",
             "cx": "26.36",
             "cy": "388.71",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "which_time_cannot_heal-p-o",
             "class": "cls-35",
             "cx": "142.91",
             "cy": "319.44",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "dire_juncture-p-o",
             "class": "cls-36",
             "cx": "55.69",
             "cy": "396.55",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "impossible_soul-p-o-2",
@@ -359,14 +359,14 @@
             "class": "cls-37",
             "cx": "90.2",
             "cy": "441.16",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "spared_stock-p-o",
             "class": "cls-38",
             "cx": "68.63",
             "cy": "512.74",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "youth_in_future_tense-p-o-2",
@@ -374,7 +374,7 @@
             "class": "cls-39",
             "cx": "45.81",
             "cy": "463.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "temporal_shift-p-o-2",
@@ -382,21 +382,21 @@
             "class": "cls-40",
             "cx": "128.15",
             "cy": "459.27",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "countdown-p-o",
             "class": "cls-41",
             "cx": "126.13",
             "cy": "484.22",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "obsolescence-p-o",
             "class": "cls-42",
             "cx": "160",
             "cy": "504.36",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "obsolescence-p-o-2",
@@ -404,91 +404,91 @@
             "class": "cls-43",
             "cx": "162.81",
             "cy": "450.61",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "captured_velocity-p-o",
             "class": "cls-44",
             "cx": "92.79",
             "cy": "507.21",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "insinuated_bond-p-o",
             "class": "cls-45",
             "cx": "444.02",
             "cy": "945.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "wounded_shield-p-o",
             "class": "cls-46",
             "cx": "514.08",
             "cy": "972.3",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "soothing_shade-p-o",
             "class": "cls-47",
             "cx": "464.76",
             "cy": "995.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tranquil_in_misery-p-o",
             "class": "cls-48",
             "cx": "460.67",
             "cy": "912.72",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pact_masters_song-p-o",
             "class": "cls-49",
             "cx": "485.61",
             "cy": "914.76",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "his_whispered_lullabies-p-o",
             "class": "cls-50",
             "cx": "452.04",
             "cy": "878.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "soundproof_box-p-o",
             "class": "cls-51",
             "cx": "419.99",
             "cy": "903.79",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "guttural_dowry-p-o",
             "class": "cls-52",
             "cx": "428.43",
             "cy": "872.23",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ailing_cry-p-o",
             "class": "cls-53",
             "cx": "390.37",
             "cy": "1014.54",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "fatal_pact-p-o",
             "class": "cls-54",
             "cx": "508.57",
             "cy": "948.13",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "masochistic_effigy-p-o",
             "class": "cls-55",
             "cx": "398.21",
             "cy": "985.21",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "insinuated_bond-p-o-2",
@@ -496,14 +496,14 @@
             "class": "cls-56",
             "cx": "376.78",
             "cy": "933.04",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "oath_of_damnation-p-o",
             "class": "cls-57",
             "cx": "303.99",
             "cy": "916",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "soothing_shade-p-o-2",
@@ -511,7 +511,7 @@
             "class": "cls-58",
             "cx": "335.32",
             "cy": "960.38",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tranquil_in_misery-p-o-2",
@@ -519,7 +519,7 @@
             "class": "cls-59",
             "cx": "380.04",
             "cy": "891.11",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "his_whispered_lullabies-p-o-2",
@@ -527,21 +527,21 @@
             "class": "cls-60",
             "cx": "505.68",
             "cy": "880.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "agonizing_ray-p-o",
             "class": "cls-61",
             "cx": "357.41",
             "cy": "880.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unholy_omen-p-o",
             "class": "cls-62",
             "cx": "356.87",
             "cy": "840.82",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unholy_omen-p-o-2",
@@ -549,98 +549,98 @@
             "class": "cls-63",
             "cx": "404.84",
             "cy": "865.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "occult_affliction-p-o",
             "class": "cls-64",
             "cx": "320.85",
             "cy": "897.82",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "faith_diversion-p-o",
             "class": "cls-65",
             "cx": "668.17",
             "cy": "109.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dual_allegiance-p-o",
             "class": "cls-66",
             "cx": "740.95",
             "cy": "126.57",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "immolation-p-o",
             "class": "cls-67",
             "cx": "709.65",
             "cy": "82.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "weathered_pavis-p-o",
             "class": "cls-68",
             "cx": "664.89",
             "cy": "151.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "crystallization-p-o",
             "class": "cls-69",
             "cx": "687.52",
             "cy": "162.13",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sparked_repulsion-p-o",
             "class": "cls-70",
             "cx": "688.05",
             "cy": "201.53",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "spiralling_field-p-o",
             "class": "cls-71",
             "cx": "640.08",
             "cy": "177.11",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tempestuous_shelter-p-o",
             "class": "cls-72",
             "cx": "625.21",
             "cy": "138.79",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "of_squalls_and_fires-p-o",
             "class": "cls-73",
             "cx": "616.73",
             "cy": "170.34",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "precarious_flesh-p-o",
             "class": "cls-74",
             "cx": "654.98",
             "cy": "28.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ancient_fervour-p-o",
             "class": "cls-75",
             "cx": "724.09",
             "cy": "144.73",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "omnitempest-p-o",
             "class": "cls-76",
             "cx": "647.1",
             "cy": "57.4",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "faith_diversion-p-o-2",
@@ -648,14 +648,14 @@
             "class": "cls-77",
             "cx": "602.44",
             "cy": "91.85",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unstable_climate-p-o",
             "class": "cls-78",
             "cx": "530.89",
             "cy": "70.18",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "spiralling_field-p-o-2",
@@ -663,7 +663,7 @@
             "class": "cls-79",
             "cx": "580.22",
             "cy": "47.43",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "weathered_pavis-p-o-2",
@@ -671,21 +671,21 @@
             "class": "cls-80",
             "cx": "584.28",
             "cy": "129.78",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "matter_in_dissolution-p-o",
             "class": "cls-81",
             "cx": "559.33",
             "cy": "127.72",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "audacity_in_descent-p-o",
             "class": "cls-82",
             "cx": "539.15",
             "cy": "161.56",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "audacity_in_descent-p-o-2",
@@ -693,63 +693,63 @@
             "class": "cls-83",
             "cx": "592.89",
             "cy": "164.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elementary_destabilization-p-o",
             "class": "cls-84",
             "cx": "536.39",
             "cy": "94.35",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "limited_breath-g-o",
             "class": "cls-85",
             "cx": "872.91",
             "cy": "734.45",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "gleam_on_the_breeze-g-o",
             "class": "cls-86",
             "cx": "846.42",
             "cy": "845.6",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "showstopper-g-o",
             "class": "cls-87",
             "cx": "887.55",
             "cy": "847.67",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "bodies_made_fleeting-g-o",
             "class": "cls-88",
             "cx": "878.4",
             "cy": "803.3",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "balanchine_endurance-g-o",
             "class": "cls-89",
             "cx": "833.18",
             "cy": "795.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "all_the_worlds_a_stage-g-o",
             "class": "cls-90",
             "cx": "849.49",
             "cy": "774.72",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "cutting_adagio-g-o",
             "class": "cls-91",
             "cx": "819.26",
             "cy": "745.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "cutting_adagio-g-o-2",
@@ -757,42 +757,42 @@
             "class": "cls-92",
             "cx": "801.17",
             "cy": "766.37",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "blindfolded_leaps-g-o",
             "class": "cls-93",
             "cx": "784.8",
             "cy": "783.57",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "protracted_effort-g-o",
             "class": "cls-94",
             "cx": "885.96",
             "cy": "885.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "waltzing_smoke-g-o",
             "class": "cls-95",
             "cx": "866.99",
             "cy": "866.31",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "lifes_first_movement-g-o",
             "class": "cls-96",
             "cx": "862.1",
             "cy": "753.04",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "scabrous_balance-g-o",
             "class": "cls-97",
             "cx": "735.15",
             "cy": "871.4",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "showstopper-g-o-2",
@@ -800,7 +800,7 @@
             "class": "cls-98",
             "cx": "848.27",
             "cy": "886.73",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "bodies_made_fleeting-g-o-2",
@@ -808,7 +808,7 @@
             "class": "cls-99",
             "cx": "803.96",
             "cy": "877.3",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "balanchine_endurance-g-o-2",
@@ -816,21 +816,21 @@
             "class": "cls-100",
             "cx": "796.57",
             "cy": "832.04",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "saturnalia-g-o",
             "class": "cls-101",
             "cx": "775.56",
             "cy": "848.22",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "veiled_bound-g-o",
             "class": "cls-102",
             "cx": "746.2",
             "cy": "817.81",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "veiled_bound-g-o-2",
@@ -838,63 +838,63 @@
             "class": "cls-103",
             "cx": "767.51",
             "cy": "799.85",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tethered_shade-g-o",
             "class": "cls-104",
             "cx": "753.8",
             "cy": "860.7",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "indifference-g-o",
             "class": "cls-105",
             "cx": "313.22",
             "cy": "174.64",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive_code-g-o",
             "class": "cls-106",
             "cx": "202.1",
             "cy": "201.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "casters_woe-g-o",
             "class": "cls-107",
             "cx": "199.99",
             "cy": "160.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "the_weight_and_the_force-g-o",
             "class": "cls-108",
             "cx": "244.37",
             "cy": "169.23",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "profane_of_body-g-o",
             "class": "cls-109",
             "cx": "252.09",
             "cy": "214.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "arcane_dissolution-g-o",
             "class": "cls-110",
             "cx": "272.98",
             "cy": "198.11",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "earthly_ballast-g-o",
             "class": "cls-111",
             "cx": "302.56",
             "cy": "228.31",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "earthly_ballast-g-o-2",
@@ -902,42 +902,42 @@
             "class": "cls-112",
             "cx": "281.38",
             "cy": "246.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "aloof_hunter-g-o",
             "class": "cls-113",
             "cx": "264.2",
             "cy": "262.81",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "perilous_load-g-o",
             "class": "cls-114",
             "cx": "162.25",
             "cy": "161.75",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "academic_fieldwork-g-o",
             "class": "cls-115",
             "cx": "181.37",
             "cy": "180.7",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "branded_burst-g-o",
             "class": "cls-116",
             "cx": "294.64",
             "cy": "185.48",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "eagerness-g-o",
             "class": "cls-117",
             "cx": "176.42",
             "cy": "312.55",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "casters_woe-g-o-2",
@@ -945,7 +945,7 @@
             "class": "cls-118",
             "cx": "160.97",
             "cy": "199.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "the_weight_and_the_force-g-o-2",
@@ -953,7 +953,7 @@
             "class": "cls-119",
             "cx": "170.44",
             "cy": "243.75",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "profane_of_body-g-o-2",
@@ -961,21 +961,21 @@
             "class": "cls-120",
             "cx": "215.71",
             "cy": "251.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sin_eater-g-o",
             "class": "cls-121",
             "cx": "199.56",
             "cy": "272.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "nullifying_point-g-o",
             "class": "cls-122",
             "cx": "230",
             "cy": "301.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "nullifying_point-g-o-2",
@@ -983,63 +983,63 @@
             "class": "cls-123",
             "cx": "247.93",
             "cy": "280.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "blessed_silver-g-o",
             "class": "cls-124",
             "cx": "187.1",
             "cy": "293.89",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "steadied_force-g-o",
             "class": "cls-125",
             "cx": "311.25",
             "cy": "870.27",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "primeval_awareness-g-o",
             "class": "cls-126",
             "cx": "200.06",
             "cy": "843.94",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ice_shall_wake-g-o",
             "class": "cls-127",
             "cx": "198.06",
             "cy": "885.08",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hunter_hunted-g-o",
             "class": "cls-128",
             "cx": "242.41",
             "cy": "875.85",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "call_of_the_wild-g-o",
             "class": "cls-129",
             "cx": "250.01",
             "cy": "830.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "traversing_arrowhead-g-o",
             "class": "cls-130",
             "cx": "270.95",
             "cy": "846.9",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pelting_shards-g-o",
             "class": "cls-131",
             "cx": "300.45",
             "cy": "816.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pelting_shards-g-o-2",
@@ -1047,42 +1047,42 @@
             "class": "cls-132",
             "cx": "279.22",
             "cy": "798.57",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "implacable_tracker-g-o",
             "class": "cls-133",
             "cx": "262",
             "cy": "782.23",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "studied_pursuer-g-o",
             "class": "cls-134",
             "cx": "160.32",
             "cy": "883.55",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "acute_tracking-g-o",
             "class": "cls-135",
             "cx": "179.38",
             "cy": "864.55",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "wintry_hail-g-o",
             "class": "cls-136",
             "cx": "292.65",
             "cy": "859.48",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "cruel_sting-g-o",
             "class": "cls-137",
             "cx": "174.09",
             "cy": "732.71",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ice_shall_wake-g-o-2",
@@ -1090,7 +1090,7 @@
             "class": "cls-138",
             "cx": "158.93",
             "cy": "845.86",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hunter_hunted-g-o-2",
@@ -1098,7 +1098,7 @@
             "class": "cls-139",
             "cx": "168.29",
             "cy": "801.53",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "call_of_the_wild-g-o-2",
@@ -1106,21 +1106,21 @@
             "class": "cls-140",
             "cx": "213.54",
             "cy": "794.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dream_of_hearths-g-o",
             "class": "cls-141",
             "cx": "197.33",
             "cy": "773.08",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "frostbite-g-o",
             "class": "cls-142",
             "cx": "227.7",
             "cy": "743.68",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "frostbite-g-o-2",
@@ -1128,14 +1128,14 @@
             "class": "cls-143",
             "cx": "245.69",
             "cy": "764.96",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hungry_stalactite-g-o",
             "class": "cls-144",
             "cx": "184.82",
             "cy": "751.35",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "protracted_effort-g-o-2",
@@ -1143,21 +1143,21 @@
             "class": "cls-145",
             "cx": "869.59",
             "cy": "311.36",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "integrated_immaterial_shields-g-o",
             "class": "cls-146",
             "cx": "843.74",
             "cy": "200.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "electric_power_redirection-g-o",
             "class": "cls-147",
             "cx": "884.89",
             "cy": "198.23",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "integrated_immaterial_shields-g-o-2",
@@ -1165,28 +1165,28 @@
             "class": "cls-148",
             "cx": "875.47",
             "cy": "242.55",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "particle_fuelled_generator-g-o",
             "class": "cls-149",
             "cx": "830.22",
             "cy": "249.96",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dispassionate_detachment-g-o",
             "class": "cls-150",
             "cx": "846.4",
             "cy": "270.96",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "condensator-g-o",
             "class": "cls-151",
             "cx": "816",
             "cy": "300.33",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "condensator-g-o-2",
@@ -1194,42 +1194,42 @@
             "class": "cls-152",
             "cx": "798.04",
             "cy": "279.03",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "external_discharge-g-o",
             "class": "cls-153",
             "cx": "781.77",
             "cy": "261.74",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "stunning_presence-g-o",
             "class": "cls-154",
             "cx": "883.51",
             "cy": "160.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sparking_dart-g-o",
             "class": "cls-155",
             "cx": "864.44",
             "cy": "179.47",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "static_transferral-g-o",
             "class": "cls-156",
             "cx": "858.89",
             "cy": "292.71",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "cautious_effort-g-o",
             "class": "cls-157",
             "cx": "732.62",
             "cy": "173.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "electric_power_redirection-g-o-2",
@@ -1237,7 +1237,7 @@
             "class": "cls-158",
             "cx": "845.83",
             "cy": "158.94",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "integrated_immaterial_shields-g-o-3",
@@ -1245,7 +1245,7 @@
             "class": "cls-159",
             "cx": "801.46",
             "cy": "168.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "particle_fuelled_generator-g-o-2",
@@ -1253,21 +1253,21 @@
             "class": "cls-160",
             "cx": "793.81",
             "cy": "213.33",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "shock_invasion-g-o",
             "class": "cls-161",
             "cx": "772.89",
             "cy": "197.04",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pulse_control-g-o",
             "class": "cls-162",
             "cx": "743.36",
             "cy": "227.28",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pulse_control-g-o-2",
@@ -1275,63 +1275,63 @@
             "class": "cls-163",
             "cx": "764.57",
             "cy": "245.36",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "intravenous_neural_cord-g-o",
             "class": "cls-164",
             "cx": "751.21",
             "cy": "184.43",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "brutal_imposition-r-o",
             "class": "cls-165",
             "cx": "864.44",
             "cy": "393.7",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "inexorable_vitality-r-o",
             "class": "cls-166",
             "cx": "869.93",
             "cy": "428.55",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unsunken-r-o",
             "class": "cls-167",
             "cx": "964.43",
             "cy": "403.27",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "futile_endeavour-r-o",
             "class": "cls-168",
             "cx": "913.35",
             "cy": "386.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "secure_parry-r-o",
             "class": "cls-169",
             "cx": "1006.2",
             "cy": "392.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "proud_helm-r-o",
             "class": "cls-170",
             "cx": "899.93",
             "cy": "329.38",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "disallowing_vessel-r-o",
             "class": "cls-171",
             "cx": "985.31",
             "cy": "397.68",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "brutal_imposition-r-o-2",
@@ -1339,35 +1339,35 @@
             "class": "cls-172",
             "cx": "907.25",
             "cy": "361.29",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "bane_of_tyranny-r-o",
             "class": "cls-173",
             "cx": "933.99",
             "cy": "345.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "liberty_arisen-r-o",
             "class": "cls-174",
             "cx": "961.43",
             "cy": "330.24",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "landslide-r-o",
             "class": "cls-175",
             "cx": "977.58",
             "cy": "373.16",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "chromatic_idol-r-o",
             "class": "cls-176",
             "cx": "882.44",
             "cy": "461.24",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "futile_endeavour-r-o-2",
@@ -1375,35 +1375,35 @@
             "class": "cls-177",
             "cx": "927.07",
             "cy": "441.96",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elevated_gain-r-o",
             "class": "cls-178",
             "cx": "945.23",
             "cy": "499.37",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "salvatory_anchor-r-o",
             "class": "cls-179",
             "cx": "966.85",
             "cy": "500.96",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "obsidian_idol-r-o",
             "class": "cls-180",
             "cx": "935.71",
             "cy": "468.05",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "monolith-r-o",
             "class": "cls-181",
             "cx": "966.92",
             "cy": "468.73",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "liberty_arisen-r-o-2",
@@ -1411,7 +1411,7 @@
             "class": "cls-182",
             "cx": "998.15",
             "cy": "468.02",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "landslide-r-o-2",
@@ -1419,84 +1419,84 @@
             "class": "cls-183",
             "cx": "990.8",
             "cy": "422.76",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "clever_thrust-r-o",
             "class": "cls-184",
             "cx": "155.36",
             "cy": "583.69",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "omnipractice-r-o",
             "class": "cls-185",
             "cx": "168.1",
             "cy": "616.58",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "percussive_rebound-r-o",
             "class": "cls-186",
             "cx": "73.67",
             "cy": "642.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "induration-r-o",
             "class": "cls-187",
             "cx": "109.44",
             "cy": "601.98",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "cessation-r-o",
             "class": "cls-188",
             "cx": "31.93",
             "cy": "653.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ingenious_stance-r-o",
             "class": "cls-189",
             "cx": "92.39",
             "cy": "545.85",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "virtuose_stance-r-o",
             "class": "cls-190",
             "cx": "70.78",
             "cy": "544.36",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "pugilists_momentum-r-o",
             "class": "cls-191",
             "cx": "52.8",
             "cy": "647.77",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "flurry_of_blows-r-o",
             "class": "cls-192",
             "cx": "102.07",
             "cy": "577.13",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sundering_precision-r-o",
             "class": "cls-193",
             "cx": "70.85",
             "cy": "576.59",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "high_evasion-r-o",
             "class": "cls-194",
             "cx": "39.62",
             "cy": "577.45",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "clever_thrust-r-o-2",
@@ -1504,14 +1504,14 @@
             "class": "cls-195",
             "cx": "47.19",
             "cy": "622.68",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "calculated_cleave-r-o",
             "class": "cls-196",
             "cx": "173.68",
             "cy": "651.14",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "induration-r-o-2",
@@ -1519,28 +1519,28 @@
             "class": "cls-197",
             "cx": "125.4",
             "cy": "656.85",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "mathematical_counter-r-o",
             "class": "cls-198",
             "cx": "138.49",
             "cy": "715.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "proud_reprisal-r-o",
             "class": "cls-199",
             "cx": "120.59",
             "cy": "727.84",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "rain_of_hazards-r-o",
             "class": "cls-200",
             "cx": "131.02",
             "cy": "683.75",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sundering_precision-r-o-2",
@@ -1548,14 +1548,14 @@
             "class": "cls-201",
             "cx": "104.36",
             "cy": "700",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "poised_barrier-r-o",
             "class": "cls-202",
             "cx": "76.99",
             "cy": "715.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "calculated_cleave-r-o-2",
@@ -1563,63 +1563,63 @@
             "class": "cls-203",
             "cx": "60.64",
             "cy": "672.21",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "luminous_ritual-r-o",
             "class": "cls-204",
             "cx": "652.6",
             "cy": "871.29",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "light_for_the_blind-r-o",
             "class": "cls-205",
             "cx": "617.74",
             "cy": "876.71",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "armed_sermon-r-o",
             "class": "cls-206",
             "cx": "642.86",
             "cy": "971.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "anointment-r-o",
             "class": "cls-207",
             "cx": "659.73",
             "cy": "920.2",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hallowed_insight-r-o",
             "class": "cls-208",
             "cx": "653.96",
             "cy": "1013.04",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "famed_return-r-o",
             "class": "cls-209",
             "cx": "716.86",
             "cy": "906.88",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unflagging_prayer-r-o",
             "class": "cls-210",
             "cx": "728.96",
             "cy": "924.86",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "beacon_for_the_lost-r-o",
             "class": "cls-211",
             "cx": "648.41",
             "cy": "992.15",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "luminous_ritual-r-o-2",
@@ -1627,56 +1627,56 @@
             "class": "cls-212",
             "cx": "684.94",
             "cy": "914.15",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "purge-r-o",
             "class": "cls-213",
             "cx": "701.01",
             "cy": "940.91",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "instructed_cure-r-o",
             "class": "cls-214",
             "cx": "715.89",
             "cy": "968.38",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "touch_of_divinity-r-o",
             "class": "cls-215",
             "cx": "672.94",
             "cy": "984.46",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ladys_hand-r-o",
             "class": "cls-216",
             "cx": "585.02",
             "cy": "889.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "final_sacrament-r-o",
             "class": "cls-217",
             "cx": "604.23",
             "cy": "933.83",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sudden_death-r-o",
             "class": "cls-218",
             "cx": "546.79",
             "cy": "951.9",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dawns_pious_striker-r-o",
             "class": "cls-219",
             "cx": "545.16",
             "cy": "973.51",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "ladys_hand-r-o-2",
@@ -1684,7 +1684,7 @@
             "class": "cls-220",
             "cx": "578.13",
             "cy": "942.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "purge-r-o-2",
@@ -1692,77 +1692,77 @@
             "class": "cls-221",
             "cx": "577.39",
             "cy": "973.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "healing_hands-r-o",
             "class": "cls-222",
             "cx": "578.05",
             "cy": "1004.87",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "holy_song-r-o",
             "class": "cls-223",
             "cx": "623.33",
             "cy": "997.59",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "indignation-r-o",
             "class": "cls-224",
             "cx": "461.8",
             "cy": "160.15",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "boiling_point-r-o",
             "class": "cls-225",
             "cx": "428.84",
             "cy": "172.75",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "volcanic_crust-r-o",
             "class": "cls-226",
             "cx": "403.71",
             "cy": "78.21",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "fireproof-r-o",
             "class": "cls-227",
             "cx": "443.7",
             "cy": "114.15",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "nursing_grudges-r-o",
             "class": "cls-228",
             "cx": "392.6",
             "cy": "36.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "frenzied_blows-r-o",
             "class": "cls-229",
             "cx": "499.9",
             "cy": "97.35",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "furious_appetite-r-o",
             "class": "cls-230",
             "cx": "501.48",
             "cy": "75.74",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "flurrying_flames-r-o",
             "class": "cls-231",
             "cx": "398.15",
             "cy": "57.32",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "indignation-r-o-2",
@@ -1770,35 +1770,35 @@
             "class": "cls-232",
             "cx": "468.58",
             "cy": "106.89",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "wyrmbreath-r-o",
             "class": "cls-233",
             "cx": "469.25",
             "cy": "75.68",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "undying_flicker-r-o",
             "class": "cls-234",
             "cx": "468.53",
             "cy": "44.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "phlogiston-r-o",
             "class": "cls-235",
             "cx": "423.27",
             "cy": "51.81",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "initial_spark-r-o",
             "class": "cls-236",
             "cx": "394.26",
             "cy": "178.18",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "fireproof-r-o-2",
@@ -1806,21 +1806,21 @@
             "class": "cls-237",
             "cx": "388.76",
             "cy": "129.88",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "shattering_strike-r-o",
             "class": "cls-238",
             "cx": "329.93",
             "cy": "142.71",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "blistering_embrace-r-o",
             "class": "cls-239",
             "cx": "317.79",
             "cy": "124.76",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "initial_spark-r-o-2",
@@ -1828,21 +1828,21 @@
             "class": "cls-240",
             "cx": "361.83",
             "cy": "135.38",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "conflagration-r-o",
             "class": "cls-241",
             "cx": "345.7",
             "cy": "108.65",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "autarchic_mind-r-o",
             "class": "cls-242",
             "cx": "330.76",
             "cy": "81.21",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "phlogiston-r-o-2",
@@ -1850,14 +1850,14 @@
             "class": "cls-243",
             "cx": "373.68",
             "cy": "65.05",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "belligerent_banner-r-o",
             "class": "cls-244",
             "cx": "921.57",
             "cy": "313.95",
-            "r": "8"
+            "r": "8.5"
           }
         ]
       },
@@ -1925,21 +1925,21 @@
             "class": "cls-246",
             "cx": "326.97",
             "cy": "521.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive-g-m",
             "class": "cls-247",
             "cx": "267.5",
             "cy": "496.08",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swiftness-g-m",
             "class": "cls-248",
             "cx": "266.17",
             "cy": "547.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive-g-m-2",
@@ -1947,7 +1947,7 @@
             "class": "cls-249",
             "cx": "236.75",
             "cy": "508.58",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swiftness-g-m-2",
@@ -1955,7 +1955,7 @@
             "class": "cls-250",
             "cx": "236.75",
             "cy": "535.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive-g-m-3",
@@ -1963,7 +1963,7 @@
             "class": "cls-251",
             "cx": "295.94",
             "cy": "507.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swiftness-g-m-3",
@@ -1971,98 +1971,98 @@
             "class": "cls-252",
             "cx": "295.12",
             "cy": "535.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "strike_like_lightning-r-m",
             "class": "cls-253",
             "cx": "650.67",
             "cy": "743.24",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "brutality-r-m",
             "class": "cls-254",
             "cx": "675.08",
             "cy": "785.93",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "master_of_the_frontline-r-m",
             "class": "cls-255",
             "cx": "620.69",
             "cy": "690.83",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "feast_for_the_crows-r-m",
             "class": "cls-256",
             "cx": "688.13",
             "cy": "808.74",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "blood_offering-r-m",
             "class": "cls-257",
             "cx": "665.79",
             "cy": "817.22",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "blood_rush-r-m",
             "class": "cls-258",
             "cx": "607.62",
             "cy": "840.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "take_all_challengers-r-m",
             "class": "cls-259",
             "cx": "572.99",
             "cy": "787.22",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "battlefield_predator-r-m",
             "class": "cls-260",
             "cx": "595.44",
             "cy": "748.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "marked_flesh-r-m",
             "class": "cls-261",
             "cx": "579.76",
             "cy": "730.66",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "cruelty-r-m",
             "class": "cls-262",
             "cx": "578.23",
             "cy": "701.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "primal_power-r-m",
             "class": "cls-263",
             "cx": "546.49",
             "cy": "720.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "mystic_potential-r-m",
             "class": "cls-264",
             "cx": "535.19",
             "cy": "744.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unleashed_power-r-m",
             "class": "cls-265",
             "cx": "637.62",
             "cy": "774.79",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unleashed_power-r-m-2",
@@ -2070,7 +2070,7 @@
             "class": "cls-266",
             "cx": "617.01",
             "cy": "733.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unleashed_power-r-m-3",
@@ -2078,84 +2078,84 @@
             "class": "cls-267",
             "cx": "627.1",
             "cy": "756.19",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "bestial_frenzy-r-m",
             "class": "cls-268",
             "cx": "583.98",
             "cy": "768.25",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "gods_amongst_men-r-m",
             "class": "cls-269",
             "cx": "542.33",
             "cy": "775.8",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "tearer_of_flesh-r-m",
             "class": "cls-270",
             "cx": "706.65",
             "cy": "793.97",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "deadly_physicality-r-m",
             "class": "cls-271",
             "cx": "754.2",
             "cy": "754.16",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unbridled_rage-r-m",
             "class": "cls-272",
             "cx": "727.92",
             "cy": "698.79",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "appetite_for_bloodshed-r-m",
             "class": "cls-273",
             "cx": "683.17",
             "cy": "698.46",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "impervious-r-m",
             "class": "cls-274",
             "cx": "675.77",
             "cy": "675.9",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swiftness-r-m",
             "class": "cls-275",
             "cx": "651.21",
             "cy": "659.64",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "cannibalistic_savagery-r-m",
             "class": "cls-276",
             "cx": "683.58",
             "cy": "641.88",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "shredder-r-m",
             "class": "cls-277",
             "cx": "710.26",
             "cy": "644.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "whirlwind_of_steel-r-m",
             "class": "cls-278",
             "cx": "684.4",
             "cy": "748.15",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "whirlwind_of_steel-r-m-2",
@@ -2163,7 +2163,7 @@
             "class": "cls-279",
             "cx": "658.93",
             "cy": "709.21",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "whirlwind_of_steel-r-m-3",
@@ -2171,56 +2171,56 @@
             "class": "cls-280",
             "cx": "673.72",
             "cy": "729.64",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "manic_slaughter-r-m",
             "class": "cls-281",
             "cx": "706.01",
             "cy": "698.63",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "blood_reaper-r-m",
             "class": "cls-282",
             "cx": "733.66",
             "cy": "666.58",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "primordial_insights-p-m",
             "class": "cls-283",
             "cx": "290.14",
             "cy": "672.19",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "sharp_insight-p-m",
             "class": "cls-284",
             "cx": "400.66",
             "cy": "697.39",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ancient_trinket-p-m",
             "class": "cls-285",
             "cx": "371.78",
             "cy": "642.24",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tormentor-p-m",
             "class": "cls-286",
             "cx": "400.65",
             "cy": "673.56",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "master_of_curses-p-m",
             "class": "cls-287",
             "cx": "371.8",
             "cy": "692.99",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sharp_insight-p-m-2",
@@ -2228,7 +2228,7 @@
             "class": "cls-288",
             "cx": "357.12",
             "cy": "734.57",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sharp_insight-p-m-3",
@@ -2236,7 +2236,7 @@
             "class": "cls-289",
             "cx": "381.94",
             "cy": "712.64",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "master_of_curses-p-m-2",
@@ -2244,77 +2244,77 @@
             "class": "cls-290",
             "cx": "347.31",
             "cy": "702.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "insidious_decay-p-m",
             "class": "cls-291",
             "cx": "324.28",
             "cy": "710.91",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "grievous_afflictions-p-m",
             "class": "cls-292",
             "cx": "355.64",
             "cy": "811.15",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "ancient_knowledge-p-m",
             "class": "cls-293",
             "cx": "314.54",
             "cy": "681.1",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "otherworldly_techniques-p-m",
             "class": "cls-294",
             "cx": "298.1",
             "cy": "693.02",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "focused-p-m",
             "class": "cls-295",
             "cx": "371.84",
             "cy": "783.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "protective_aura-p-m",
             "class": "cls-296",
             "cx": "286.1",
             "cy": "757.86",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "crippling_decrepitude-p-m",
             "class": "cls-297",
             "cx": "332.32",
             "cy": "800.51",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "strike_like_lightning-p-m",
             "class": "cls-298",
             "cx": "406.17",
             "cy": "723.54",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "clarity_of_mind-p-m",
             "class": "cls-299",
             "cx": "426.12",
             "cy": "688.95",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "power_of_the_first_men-p-m",
             "class": "cls-300",
             "cx": "508.92",
             "cy": "798.07",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "crippling_decrepitude-p-m-2",
@@ -2322,42 +2322,42 @@
             "class": "cls-301",
             "cx": "431.63",
             "cy": "715.14",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "strong_willed-p-m",
             "class": "cls-302",
             "cx": "493.83",
             "cy": "712.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tenacious_afflictions-p-m",
             "class": "cls-303",
             "cx": "452.25",
             "cy": "703.19",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "magical_mastery-p-m",
             "class": "cls-304",
             "cx": "449.92",
             "cy": "737.89",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "incessant_infirmity-p-m",
             "class": "cls-305",
             "cx": "421.34",
             "cy": "771.46",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "lethal_certainty-p-m",
             "class": "cls-306",
             "cx": "427.84",
             "cy": "738.98",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "magical_mastery-p-m-2",
@@ -2365,35 +2365,35 @@
             "class": "cls-307",
             "cx": "453.64",
             "cy": "764.05",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "immortal_offering-p-m",
             "class": "cls-308",
             "cx": "458.29",
             "cy": "787.98",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "artefact_analysis-p-m",
             "class": "cls-309",
             "cx": "488.96",
             "cy": "781.43",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "enneract_expert-p-m",
             "class": "cls-310",
             "cx": "486.91",
             "cy": "801.64",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "enfeebling_energy-p-m",
             "class": "cls-311",
             "cx": "435.93",
             "cy": "844.14",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tormentor-p-m-2",
@@ -2401,14 +2401,14 @@
             "class": "cls-312",
             "cx": "376.78",
             "cy": "826.02",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "resilience_to_corruption-p-m",
             "class": "cls-313",
             "cx": "534.49",
             "cy": "248.24",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "magical_mastery-p-m-3",
@@ -2416,28 +2416,28 @@
             "class": "cls-314",
             "cx": "611.75",
             "cy": "331.2",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "impatient-p-m",
             "class": "cls-315",
             "cx": "549.55",
             "cy": "333.9",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "self_restraint-p-m",
             "class": "cls-316",
             "cx": "591.13",
             "cy": "343.15",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ravenous_magic-p-m",
             "class": "cls-317",
             "cx": "593.46",
             "cy": "308.45",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "magical_mastery-p-m-4",
@@ -2445,7 +2445,7 @@
             "class": "cls-318",
             "cx": "622.06",
             "cy": "274.89",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "magical_mastery-p-m-5",
@@ -2453,7 +2453,7 @@
             "class": "cls-319",
             "cx": "615.55",
             "cy": "307.36",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "ravenous_magic-p-m-2",
@@ -2461,21 +2461,21 @@
             "class": "cls-320",
             "cx": "589.76",
             "cy": "282.29",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "faith_leech-p-m",
             "class": "cls-321",
             "cx": "585.12",
             "cy": "258.35",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "reining_in_the_darkness-p-m",
             "class": "cls-322",
             "cx": "687.56",
             "cy": "235.18",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "ancient_trinket-p-m-2",
@@ -2483,7 +2483,7 @@
             "class": "cls-323",
             "cx": "554.44",
             "cy": "264.89",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "strong_willed-p-m-2",
@@ -2491,7 +2491,7 @@
             "class": "cls-324",
             "cx": "556.51",
             "cy": "244.68",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "focused-p-m-2",
@@ -2499,14 +2499,14 @@
             "class": "cls-325",
             "cx": "671.39",
             "cy": "263.29",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unholy_dominion-p-m",
             "class": "cls-326",
             "cx": "607.94",
             "cy": "202.2",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "self_restraint-p-m-2",
@@ -2514,7 +2514,7 @@
             "class": "cls-327",
             "cx": "666.65",
             "cy": "220.35",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "strike_like_lightning-p-m-2",
@@ -2522,14 +2522,14 @@
             "class": "cls-328",
             "cx": "637.13",
             "cy": "322.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dominator-p-m",
             "class": "cls-329",
             "cx": "617.22",
             "cy": "357.46",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dominator-p-m-edge",
@@ -2543,7 +2543,7 @@
             "class": "cls-330",
             "cx": "753.15",
             "cy": "374.33",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "sharp_insight-p-m-4",
@@ -2551,28 +2551,28 @@
             "class": "cls-331",
             "cx": "642.65",
             "cy": "349.08",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hyper_self_awareness-p-m",
             "class": "cls-332",
             "cx": "671.5",
             "cy": "404.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "spellslinger-p-m",
             "class": "cls-333",
             "cx": "642.65",
             "cy": "372.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elemental_manipulation-p-m",
             "class": "cls-334",
             "cx": "671.5",
             "cy": "353.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sharp_insight-p-m-5",
@@ -2580,7 +2580,7 @@
             "class": "cls-335",
             "cx": "686.19",
             "cy": "311.93",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sharp_insight-p-m-6",
@@ -2588,28 +2588,28 @@
             "class": "cls-336",
             "cx": "661.36",
             "cy": "333.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "witchcraft_adept-p-m",
             "class": "cls-337",
             "cx": "695.99",
             "cy": "343.58",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "residual_energy-p-m",
             "class": "cls-338",
             "cx": "719.03",
             "cy": "335.6",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "twisted_obligation-p-m",
             "class": "cls-339",
             "cx": "728.75",
             "cy": "365.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "twisted_obligation-p-m-2",
@@ -2617,21 +2617,21 @@
             "class": "cls-340",
             "cx": "745.2",
             "cy": "353.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "self_preservation_instinct-p-m",
             "class": "cls-341",
             "cx": "756.2",
             "cy": "287.76",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dark_calling-p-m",
             "class": "cls-342",
             "cx": "711.03",
             "cy": "246",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "strike_like_lightning-r-m-2",
@@ -2639,7 +2639,7 @@
             "class": "cls-343",
             "cx": "394.76",
             "cy": "300.56",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "brutality-r-m-2",
@@ -2647,42 +2647,42 @@
             "class": "cls-344",
             "cx": "370.04",
             "cy": "258.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "impervious_wall-r-m",
             "class": "cls-345",
             "cx": "425.13",
             "cy": "352.75",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "kingless_aegis-r-m",
             "class": "cls-346",
             "cx": "356.82",
             "cy": "235.34",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "unorthodox_technique-r-m",
             "class": "cls-347",
             "cx": "379.1",
             "cy": "226.7",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "perseverance-r-m",
             "class": "cls-348",
             "cx": "437.11",
             "cy": "203.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "rightful_vengeance-r-m",
             "class": "cls-349",
             "cx": "472.12",
             "cy": "256.03",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "rightful_vengeance-r-m-2",
@@ -2690,42 +2690,42 @@
             "class": "cls-350",
             "cx": "449.95",
             "cy": "294.91",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "immortal_blood-r-m",
             "class": "cls-351",
             "cx": "465.76",
             "cy": "312.63",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "mighty-r-m",
             "class": "cls-352",
             "cx": "467.5",
             "cy": "342.03",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "none_shall_pass-r-m",
             "class": "cls-353",
             "cx": "499.11",
             "cy": "322.93",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "perfect_defense-r-m",
             "class": "cls-354",
             "cx": "510.23",
             "cy": "298.54",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "iron_skin-r-m",
             "class": "cls-355",
             "cx": "407.58",
             "cy": "268.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "iron_skin-r-m-2",
@@ -2733,7 +2733,7 @@
             "class": "cls-356",
             "cx": "428.5",
             "cy": "310.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "iron_skin-r-m-3",
@@ -2741,84 +2741,84 @@
             "class": "cls-357",
             "cx": "418.24",
             "cy": "287.45",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "retaliator-r-m",
             "class": "cls-358",
             "cx": "461.26",
             "cy": "275.07",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "selfless_courage-r-m",
             "class": "cls-359",
             "cx": "502.86",
             "cy": "267.22",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "regal_blessing-r-m",
             "class": "cls-360",
             "cx": "338.42",
             "cy": "250.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "one_man_crusade-r-m",
             "class": "cls-361",
             "cx": "291.16",
             "cy": "290.4",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "laibonite_discipline-r-m",
             "class": "cls-362",
             "cx": "317.83",
             "cy": "345.58",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "faith_of_the_kingless-r-m",
             "class": "cls-363",
             "cx": "362.59",
             "cy": "345.58",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "regenerative_body-r-m",
             "class": "cls-364",
             "cx": "370.15",
             "cy": "368.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "weak_spot_focus-r-m",
             "class": "cls-365",
             "cx": "394.83",
             "cy": "384.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "holy_gift-r-m",
             "class": "cls-366",
             "cx": "362.59",
             "cy": "402.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "divine_alms-r-m",
             "class": "cls-367",
             "cx": "335.9",
             "cy": "399.75",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "robust-r-m",
             "class": "cls-368",
             "cx": "361",
             "cy": "295.9",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "robust-r-m-2",
@@ -2826,7 +2826,7 @@
             "class": "cls-369",
             "cx": "386.75",
             "cy": "334.66",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "robust-r-m-3",
@@ -2834,154 +2834,154 @@
             "class": "cls-370",
             "cx": "371.81",
             "cy": "314.33",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "sacred_oath-r-m",
             "class": "cls-371",
             "cx": "339.75",
             "cy": "345.58",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "blessed_manna-r-m",
             "class": "cls-372",
             "cx": "312.33",
             "cy": "377.83",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "lithe-g-m",
             "class": "cls-373",
             "cx": "216.17",
             "cy": "522",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "a_worthy_adversary-g-m",
             "class": "cls-374",
             "cx": "193.83",
             "cy": "496.08",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "paranoia-g-m",
             "class": "cls-375",
             "cx": "193.83",
             "cy": "547.91",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "phantom_strike-t-g-m",
             "class": "cls-376",
             "cx": "252.07",
             "cy": "594.02",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "strike_like_lightning-g-m",
             "class": "cls-377",
             "cx": "266.17",
             "cy": "522",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "impeccable_aim-g-m",
             "class": "cls-378",
             "cx": "210.67",
             "cy": "605.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "body_and_mind-g-m",
             "class": "cls-379",
             "cx": "210.67",
             "cy": "438.08",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unstoppable_tracker-g-m",
             "class": "cls-380",
             "cx": "242.25",
             "cy": "413.56",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "escape_artist-g-m",
             "class": "cls-381",
             "cx": "267.5",
             "cy": "415.33",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "killing_lunge-g-m",
             "class": "cls-382",
             "cx": "249.57",
             "cy": "631.6",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hunters_vigor-g-m",
             "class": "cls-383",
             "cx": "271.76",
             "cy": "619.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "physical_conditioning-g-m",
             "class": "cls-384",
             "cx": "291.54",
             "cy": "478.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "mental_fortitude-g-m",
             "class": "cls-385",
             "cx": "289.62",
             "cy": "563.82",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "equipment_maintenance-g-m",
             "class": "cls-386",
             "cx": "327.08",
             "cy": "493.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "serpentine_affinity-g-m",
             "class": "cls-387",
             "cx": "331.08",
             "cy": "473.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "concentrated_toxins-g-m",
             "class": "cls-388",
             "cx": "337.25",
             "cy": "453.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "blessing_of_the_jade_legion-g-m",
             "class": "cls-389",
             "cx": "345.58",
             "cy": "434.5",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "weak_spot_focus-g-m",
             "class": "cls-390",
             "cx": "326.97",
             "cy": "549.19",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "killer_instinct-g-m",
             "class": "cls-391",
             "cx": "330.83",
             "cy": "569.22",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "killer_instinct-g-m-2",
@@ -2989,63 +2989,63 @@
             "class": "cls-392",
             "cx": "336.87",
             "cy": "589.26",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "merciless_lethality-g-m",
             "class": "cls-393",
             "cx": "345.07",
             "cy": "608.32",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "clandestine_execution-g-m",
             "class": "cls-394",
             "cx": "191.33",
             "cy": "521.99",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "slipping_shadow-g-m",
             "class": "cls-395",
             "cx": "251.75",
             "cy": "449.09",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "shoot_to_kill-3-g-m",
             "class": "cls-396",
             "cx": "775.28",
             "cy": "496",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive-3-g-m",
             "class": "cls-397",
             "cx": "776.61",
             "cy": "547.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "shoot_to_kill-2-g-m",
             "class": "cls-398",
             "cx": "806.03",
             "cy": "508.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive-2-g-m",
             "class": "cls-399",
             "cx": "806.03",
             "cy": "535.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "shoot_to_kill-g-m",
             "class": "cls-400",
             "cx": "745.88",
             "cy": "508.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "elusive-g-m-4",
@@ -3053,35 +3053,35 @@
             "class": "cls-401",
             "cx": "746.94",
             "cy": "535.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "personal_space-g-m",
             "class": "cls-402",
             "cx": "800.53",
             "cy": "413.48",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "death_from_afar-g-m",
             "class": "cls-403",
             "cx": "775.28",
             "cy": "415.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "overwhelming_barrage-g-m",
             "class": "cls-404",
             "cx": "793.2",
             "cy": "631.52",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "crippling_assault-g-m",
             "class": "cls-405",
             "cx": "771.02",
             "cy": "619.33",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "mental_fortitude-g-m-2",
@@ -3089,7 +3089,7 @@
             "class": "cls-406",
             "cx": "756.88",
             "cy": "482.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "physical_conditioning-g-m-2",
@@ -3097,77 +3097,77 @@
             "class": "cls-407",
             "cx": "757.94",
             "cy": "561.35",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unstoppable_flurry-g-m",
             "class": "cls-408",
             "cx": "717.28",
             "cy": "521.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "puncturing_shot-g-m",
             "class": "cls-409",
             "cx": "715.69",
             "cy": "493.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swift_death-2-g-m",
             "class": "cls-410",
             "cx": "711.69",
             "cy": "473.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swift_death-g-m",
             "class": "cls-411",
             "cx": "705.53",
             "cy": "453.42",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "safe_from_afar-g-m",
             "class": "cls-412",
             "cx": "697.19",
             "cy": "434.42",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "swiftness-2-g-m",
             "class": "cls-413",
             "cx": "715.81",
             "cy": "549.11",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "deadly_aim-3-g-m",
             "class": "cls-414",
             "cx": "711.94",
             "cy": "569.14",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "deadly_aim-2-g-m",
             "class": "cls-415",
             "cx": "705.91",
             "cy": "589.18",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "come_what_may-g-m",
             "class": "cls-416",
             "cx": "697.7",
             "cy": "608.24",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "archions_teachings-g-m",
             "class": "cls-417",
             "cx": "851.44",
             "cy": "521.92",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "strike_like_lightning-g-m-2",
@@ -3175,7 +3175,7 @@
             "class": "cls-418",
             "cx": "776.61",
             "cy": "521.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "lithe-g-m-2",
@@ -3183,28 +3183,28 @@
             "class": "cls-419",
             "cx": "826.61",
             "cy": "521.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "deadly_aim-g-m",
             "class": "cls-420",
             "cx": "848.94",
             "cy": "496",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "bullseye-g-m",
             "class": "cls-421",
             "cx": "848.94",
             "cy": "547.83",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "persistence_hunting-g-m",
             "class": "cls-422",
             "cx": "790.99",
             "cy": "593.58",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "body_and_mind-g-m-2",
@@ -3212,7 +3212,7 @@
             "class": "cls-423",
             "cx": "837.87",
             "cy": "606.14",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "swiftness-g-m-4",
@@ -3220,14 +3220,14 @@
             "class": "cls-424",
             "cx": "837.27",
             "cy": "437.22",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "meditative_focus-g-m",
             "class": "cls-425",
             "cx": "790.07",
             "cy": "449.87",
-            "r": "8"
+            "r": "8.5"
           }
         ]
       },
@@ -3244,14 +3244,14 @@
             "class": "cls-428",
             "cx": "452.13",
             "cy": "576.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "adept-2-p",
             "class": "cls-429",
             "cx": "680.07",
             "cy": "522.47",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "adept-2-p-edge",
@@ -3495,119 +3495,119 @@
             "class": "cls-430",
             "cx": "608.33",
             "cy": "531.41",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "determined-p",
             "class": "cls-431",
             "cx": "603.55",
             "cy": "555.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "anatomical_expert-p",
             "class": "cls-432",
             "cx": "651.28",
             "cy": "517.03",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "physician-p",
             "class": "cls-433",
             "cx": "626.02",
             "cy": "511.51",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "adept-p",
             "class": "cls-434",
             "cx": "618.48",
             "cy": "494.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unwavering_dedication-p",
             "class": "cls-435",
             "cx": "665.9",
             "cy": "476.03",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "increased_awareness-p",
             "class": "cls-436",
             "cx": "636.92",
             "cy": "456.26",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "emotional_intelligence-p",
             "class": "cls-437",
             "cx": "620.17",
             "cy": "465.79",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "quick_draw-p",
             "class": "cls-438",
             "cx": "587.62",
             "cy": "484.53",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "hardy-2-p",
             "class": "cls-439",
             "cx": "560.53",
             "cy": "478.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heightened_concentration-2-p",
             "class": "cls-440",
             "cx": "579.55",
             "cy": "511.47",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "attrition_strategist-p",
             "class": "cls-441",
             "cx": "631.56",
             "cy": "531.43",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "thirst_for_knowledge-p",
             "class": "cls-442",
             "cx": "655.84",
             "cy": "445.48",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "heightened_concentration-p",
             "class": "cls-443",
             "cx": "553.17",
             "cy": "521.76",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "purifiers_will-p",
             "class": "cls-444",
             "cx": "588.57",
             "cy": "407.53",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "hardy-p",
             "class": "cls-445",
             "cx": "538.67",
             "cy": "496.67",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "steadfast-2-p",
             "class": "cls-446",
             "cx": "600.65",
             "cy": "386.01",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "steadfast-2-p-edge",
@@ -3621,371 +3621,371 @@
             "class": "cls-447",
             "cx": "563.59",
             "cy": "423.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unyielding-p",
             "class": "cls-448",
             "cx": "533.85",
             "cy": "436.25",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heroic_resolve-p",
             "class": "cls-449",
             "cx": "563.87",
             "cy": "450.53",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "chemically_empowered_brain-p",
             "class": "cls-450",
             "cx": "584.9",
             "cy": "435.38",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unwavering_dedication-2-p",
             "class": "cls-451",
             "cx": "634.04",
             "cy": "421.31",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "steadfast-p",
             "class": "cls-452",
             "cx": "594.1",
             "cy": "454.89",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "backline_raider-g",
             "class": "cls-453",
             "cx": "459.92",
             "cy": "628.72",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "pinch_runner-g",
             "class": "cls-454",
             "cx": "522.42",
             "cy": "676.22",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "calculated_skirmish-g",
             "class": "cls-455",
             "cx": "490.92",
             "cy": "669.85",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "refined_technique-2-g",
             "class": "cls-456",
             "cx": "503.03",
             "cy": "577.29",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "refined_technique-g",
             "class": "cls-457",
             "cx": "507.2",
             "cy": "549.04",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "quick_minded-g",
             "class": "cls-458",
             "cx": "480.36",
             "cy": "594.57",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "blitz_fighting-g",
             "class": "cls-459",
             "cx": "456.99",
             "cy": "608.12",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "celerity-g",
             "class": "cls-460",
             "cx": "478.05",
             "cy": "620.38",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "precise_strikes-2-g",
             "class": "cls-461",
             "cx": "499.5",
             "cy": "618.02",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "slippery-g",
             "class": "cls-462",
             "cx": "522.51",
             "cy": "635.23",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "endurance_training-g",
             "class": "cls-463",
             "cx": "522.42",
             "cy": "654.51",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "precise_strikes-g",
             "class": "cls-464",
             "cx": "443.54",
             "cy": "659.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "covert_operative-g",
             "class": "cls-465",
             "cx": "585.77",
             "cy": "625.73",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "high_adrenaline-g",
             "class": "cls-466",
             "cx": "554.24",
             "cy": "669.36",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "resilient-2-g",
             "class": "cls-467",
             "cx": "540.81",
             "cy": "576.99",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "resilient-g",
             "class": "cls-468",
             "cx": "536.24",
             "cy": "549.04",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "evasive_manoeuvers-g",
             "class": "cls-469",
             "cx": "563.72",
             "cy": "593.94",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unyielding-g",
             "class": "cls-470",
             "cx": "591.22",
             "cy": "575.07",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "flexible-g",
             "class": "cls-471",
             "cx": "587.37",
             "cy": "607.15",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "enduring-g",
             "class": "cls-472",
             "cx": "566.4",
             "cy": "619.71",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "chemically_empowered_metabolism-2-g",
             "class": "cls-473",
             "cx": "544.92",
             "cy": "618.02",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "quick_draw-g",
             "class": "cls-474",
             "cx": "522.42",
             "cy": "597.67",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "chemically_empowered_metabolism-g",
             "class": "cls-475",
             "cx": "601.46",
             "cy": "657.9",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "the_wild_card-r",
             "class": "cls-476",
             "cx": "456.76",
             "cy": "407.03",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "the_heat_of_battle-r",
             "class": "cls-477",
             "cx": "389.5",
             "cy": "444.27",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "disciplined-2-r",
             "class": "cls-478",
             "cx": "411.22",
             "cy": "420.54",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heavy_blows-r-2",
             "class": "cls-479",
             "cx": "484.39",
             "cy": "478.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "heavy_blows-r",
             "class": "cls-480",
             "cx": "506.27",
             "cy": "496.46",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "deadly-r",
             "class": "cls-481",
             "cx": "481.21",
             "cy": "450.17",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "dauntless-r",
             "class": "cls-482",
             "cx": "511.33",
             "cy": "435.84",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "supernatural_insights-r",
             "class": "cls-483",
             "cx": "481.65",
             "cy": "423.09",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "stylish_execution-r",
             "class": "cls-484",
             "cx": "460.27",
             "cy": "434.92",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "zealous_might-2-r",
             "class": "cls-485",
             "cx": "450.95",
             "cy": "454.35",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "celerity-r",
             "class": "cls-486",
             "cx": "424.67",
             "cy": "465.43",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "tenacious-r",
             "class": "cls-487",
             "cx": "408.16",
             "cy": "455.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "zealous_might-r",
             "class": "cls-488",
             "cx": "444.81",
             "cy": "385.44",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "second_wind-r",
             "class": "cls-489",
             "cx": "389.33",
             "cy": "521.5",
-            "r": "8"
+            "r": "8.5"
           },
           {
             "id": "disciplined-r",
             "class": "cls-490",
             "cx": "379.09",
             "cy": "475.11",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "capable-2-r",
             "class": "cls-491",
             "cx": "465.24",
             "cy": "511.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "capable-r",
             "class": "cls-492",
             "cx": "491.56",
             "cy": "521.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "enduring-r",
             "class": "cls-493",
             "cx": "438.92",
             "cy": "522",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "unyielding-r",
             "class": "cls-494",
             "cx": "440.97",
             "cy": "555.29",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "chemically_empowered_skin-r",
             "class": "cls-495",
             "cx": "415.43",
             "cy": "535.49",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "stalwart-r",
             "class": "cls-496",
             "cx": "415.43",
             "cy": "511.06",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pain_resistance_program-2-r",
             "class": "cls-497",
             "cx": "427.92",
             "cy": "493.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "quick_draw-r",
             "class": "cls-498",
             "cx": "456.94",
             "cy": "484.65",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "pain_resistance_program-r",
             "class": "cls-499",
             "cx": "364.65",
             "cy": "521.5",
-            "r": "5.5"
+            "r": "6"
           },
           {
             "id": "root",

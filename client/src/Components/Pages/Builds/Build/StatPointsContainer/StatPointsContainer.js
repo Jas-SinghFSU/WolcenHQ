@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from "react";
 import { Row, Col, Icon } from "antd";
+import { CheckOutlined } from "@ant-design/icons";
 
 import "./style.css";
 
@@ -20,9 +21,7 @@ const StatPointsSection = ({ stats, statPoints }) => {
         <Col className="statPointsSectionCol" span={7} offset={8}>
           <span className="statPointsSectionTitle">
             Points Available: {statPoints}{" "}
-            {statPoints === 0 && (
-              <Icon className="statPointsCheck" type="check" />
-            )}
+            {statPoints === 0 && <CheckOutlined className="statPointsCheck" />}
           </span>
         </Col>
       </Row>

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Avatar, Icon, Col } from "antd";
-import { EditOutlined } from "@ant-design/icons";
+import { PlusSquareOutlined } from "@ant-design/icons";
 import SpellToolTip from "../../../../Shared/SpellTooltip";
 import ReactTooltip from "react-tooltip";
 
@@ -19,7 +19,7 @@ const SkillSlot = props => {
   return (
     <Col span={4} offset={0}>
       {!slotData ? (
-        <Icon className="addSpellIcon" type="plus-square" />
+        <PlusSquareOutlined className="addSpellIcon" />
       ) : (
         <Fragment>
           <Col span={24} offset={0}>

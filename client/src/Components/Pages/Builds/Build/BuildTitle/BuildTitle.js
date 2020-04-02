@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Row, Col, Avatar, Tag } from "antd";
+import { UserOutlined } from "@ant-design/icons";
 import { useHistory, Link } from "react-router-dom";
 import Moment from "react-moment";
 import _ from "lodash";
@@ -189,8 +190,8 @@ const BuildTitle = props => {
             </div>
             <div className="buildInfoPicture">
               <Avatar
-                size="large"
-                icon="user"
+                size={64}
+                icon={<UserOutlined />}
                 shape="square"
                 src={getAuthorImage()}
               />

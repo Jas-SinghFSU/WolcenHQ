@@ -2,6 +2,15 @@ import React, { useState, useContext, useEffect } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
 import axios from "axios";
 import { Menu, Icon, Layout } from "antd";
+import {
+  DoubleRightOutlined,
+  DoubleLeftOutlined,
+  HomeOutlined,
+  ContainerOutlined,
+  UserOutlined,
+  LoginOutlined,
+  LogoutOutlined
+} from "@ant-design/icons";
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
 import _ from "lodash";
@@ -47,7 +56,7 @@ const SideNavigation = () => {
             onClick={toggleNavCollapsed}
             title={"Expand"}
           >
-            <Icon type={navCollapsed ? "double-right" : "double-left"} />
+            {navCollapsed ? <DoubleRightOutlined /> : <DoubleLeftOutlined />}
             <span className="sideNavMenuLabel"> Collapse Menu </span>
           </Menu.Item>
           <Menu.Item
@@ -57,7 +66,7 @@ const SideNavigation = () => {
               handleBuildClick("/");
             }}
           >
-            <Icon type="home" />
+            <HomeOutlined />
             <span className="sideNavMenuLabel">Home</span>
           </Menu.Item>
           <Menu.Item
@@ -67,7 +76,7 @@ const SideNavigation = () => {
               handleBuildClick("/builds/build/create");
             }}
           >
-            <Icon type="container" />
+            <ContainerOutlined />
             <span className="sideNavMenuLabel">Builds</span>
           </Menu.Item>
           <Menu.Item
@@ -77,7 +86,7 @@ const SideNavigation = () => {
               handleBuildClick("/characters");
             }}
           >
-            <Icon type="user" />
+            <UserOutlined />
             <span className="sideNavMenuLabel">Characters</span>
           </Menu.Item>
           <Menu.Item
@@ -89,7 +98,7 @@ const SideNavigation = () => {
                 : userContext.logout();
             }}
           >
-            <Icon type={`${_.isEmpty(user) ? "login" : "logout"}`} />
+            {_.isEmpty(user) ? <LoginOutlined /> : <LogoutOutlined />}
             <span className="sideNavMenuLabel">{`${
               _.isEmpty(user)
                 ? "Login/Register"

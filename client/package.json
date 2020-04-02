@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.0.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.9",
@@ -10,7 +11,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "@vx/zoom": "0.0.195",
-    "antd": "^3.26.11",
+    "antd": "^4.1.0",
     "axios": "^0.19.2",
     "d3": "^5.15.0",
     "get-youtube-id": "^1.0.1",

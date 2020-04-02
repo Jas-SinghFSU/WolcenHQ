@@ -46,6 +46,7 @@
 .steamLoginButtonText {
   width: 100%;
   height: 100%;
+  line-height: 0px;
 }
 .steamLoginSubtext {
   font-size: 11px;
@@ -106,6 +107,7 @@
 
 .formRegisterButton {
   margin-left: auto;
+  padding-top: 10px;
 }
 .registerForm {
   margin-top: 20px;

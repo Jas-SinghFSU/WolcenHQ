@@ -89,3 +89,10 @@
   cursor: pointer;
   margin-left: 10px;
 }
+
+.commentAvatar .ant-avatar-icon {
+  font-size: 30px;
+  background: #6a7e7e;
+  border: 1px solid;
+  border-color: #462e004f;
+}

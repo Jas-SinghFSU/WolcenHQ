@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Row, Col, Icon, Input } from "antd";
-
+import {
+  CheckOutlined,
+  ArrowLeftOutlined,
+  ArrowRightOutlined
+} from "@ant-design/icons";
 import "./style.css";
 
 const StatPointsSectionHeader = () => {
@@ -225,9 +229,7 @@ const StatPointsSection = ({
         <Col className="statPointsSectionCol" span={7} offset={8}>
           <span className="statPointsSectionTitle">
             Points Available: {statPoints}{" "}
-            {statPoints === 0 && (
-              <Icon className="statPointsCheck" type="check" />
-            )}
+            {statPoints === 0 && <CheckOutlined className="statPointsCheck" />}
           </span>
         </Col>
       </Row>
@@ -244,14 +246,12 @@ const StatPointsSection = ({
             />
           </span>
           <div className="statsControllerCol">
-            <Icon
+            <ArrowLeftOutlined
               className="statsControllerButton left noSelectText"
-              type="arrow-left"
               onClick={() => handleStatDecrease("ferocity")}
             />
-            <Icon
+            <ArrowRightOutlined
               className="statsControllerButton right noSelectText"
-              type="arrow-right"
               onClick={() => handleStatIncrease("ferocity")}
             />
           </div>
@@ -268,14 +268,12 @@ const StatPointsSection = ({
             />
           </span>
           <div className="statsControllerCol">
-            <Icon
+            <ArrowLeftOutlined
               className="statsControllerButton left noSelectText"
-              type="arrow-left"
               onClick={() => handleStatDecrease("toughness")}
             />
-            <Icon
+            <ArrowRightOutlined
               className="statsControllerButton right noSelectText"
-              type="arrow-right"
               onClick={() => handleStatIncrease("toughness")}
             />
           </div>
@@ -292,14 +290,12 @@ const StatPointsSection = ({
             />
           </span>
           <div className="statsControllerCol">
-            <Icon
+            <ArrowLeftOutlined
               className="statsControllerButton left noSelectText"
-              type="arrow-left"
               onClick={() => handleStatDecrease("agility")}
             />
-            <Icon
+            <ArrowRightOutlined
               className="statsControllerButton right noSelectText"
-              type="arrow-right"
               onClick={() => handleStatIncrease("agility")}
             />
           </div>
@@ -316,14 +312,12 @@ const StatPointsSection = ({
             />
           </span>
           <div className="statsControllerCol">
-            <Icon
+            <ArrowLeftOutlined
               className="statsControllerButton left noSelectText"
-              type="arrow-left"
               onClick={() => handleStatDecrease("wisdom")}
             />
-            <Icon
+            <ArrowRightOutlined
               className="statsControllerButton right noSelectText"
-              type="arrow-right"
               onClick={() => handleStatIncrease("wisdom")}
             />
           </div>
