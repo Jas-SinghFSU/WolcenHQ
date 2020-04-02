@@ -87,7 +87,7 @@ const Build = props => {
                 <BuildVideoContainer buildVideo={dataProps.buildVideo} />
               )}
               <BuildGuideContainer {...dataProps} />
-              <CommentsContainer {...dataProps} user={user} />
+              <CommentsContainer {...dataProps} user={user} buildId={id} />
             </Col>
           </Row>
         </Content>

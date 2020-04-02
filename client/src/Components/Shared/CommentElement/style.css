@@ -6,6 +6,7 @@
   flex-direction: row;
   width: 75%;
   margin: auto;
+  margin-bottom: 20px;
 }
 .commentAvatarContainer {
   min-width: 7%;
@@ -95,4 +96,26 @@
   background: #6a7e7e;
   border: 1px solid;
   border-color: #462e004f;
+}
+.commentBody {
+  text-align: left;
+}
+
+.commentBody * {
+  color: rgb(218, 218, 218);
+}
+
+.commentBody.ql-editor {
+  background: transparent;
+  max-height: 0;
+  display: initial;
+  padding: 0;
+}
+
+.commentBody a {
+  color: #40a9ff;
+}
+
+.commentBody a:hover {
+  color: #80c6ff;
 }

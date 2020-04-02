@@ -1,10 +1,17 @@
 import React from "react";
 import { Avatar, Card } from "antd";
 import { UserOutlined } from "@ant-design/icons";
+import sanitizeHtml from "sanitize-html";
+import Moment from "react-moment";
 
+import "react-quill/dist/quill.snow.css";
 import "./style.css";
 
-const CommentElement = () => {
+const CommentElement = props => {
+  const { body, created, dislikes, likes, updated, user } = props.comment;
+
+  const allowedHTMLTags = ["h1", "h2", "u", "span", "s"];
+
   return (
     <div className="commentElementContainer">
       <div className="commentAvatarContainer">
@@ -22,10 +29,22 @@ const CommentElement = () => {
           <div className="commentCardContent">
             <div className="commentCardTop">
               <span className="user">Guko</span>
-              <span className="date">Mar 31, 2020</span>
+              <span className="date">
+                <Moment format="MMM DD[,] YYYY">{props.created}</Moment>
+              </span>
             </div>
             <div className="commentCardMiddle">
-              <span>Comment body.</span>
+              <div
+                className="commentBody ql-editor"
+                dangerouslySetInnerHTML={{
+                  __html: sanitizeHtml(body, {
+                    allowedTags: sanitizeHtml.defaults.allowedTags.concat(
+                      allowedHTMLTags
+                    ),
+                    allowedAttributes: false
+                  })
+                }}
+              ></div>
             </div>
             <div className="commentCardBottom">
               <div className="controlsLeft">

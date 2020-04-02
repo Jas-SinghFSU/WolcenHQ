@@ -30,3 +30,7 @@
 .buildDescriptionBody a:hover {
   color: #80c6ff;
 }
+
+.buildDescriptionBodyContainer {
+  margin-left: 15px;
+}

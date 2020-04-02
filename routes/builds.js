@@ -141,6 +141,7 @@ router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
   try {
     const commentObject = {
       user: res.locals.user[0]._id,
+      buildID: id,
       body: commentInfo,
       likes: [],
       dislikes: [],
@@ -148,14 +149,30 @@ router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
       updated: new Date(),
       reports: []
     };
+    const results = await COMMENTS.insertOne(commentObject);
 
-    try {
-      const results = await COMMENTS.insertOne(commentObject);
-      res.json({ status: "success", id: results.ops[0]._id });
-    } catch (err) {
-      res.status(500).send(err);
-    }
-  } catch (error) {}
+    const updateStatus = await BUILDS.findOneAndUpdate(
+      { _id: ObjectID(id) },
+      { $push: { comments: results.ops[0]._id } },
+      { returnOriginal: false }
+    );
+
+    res.json({ status: "success" });
+  } catch (error) {
+    res.status(500).send(err);
+  }
+});
+
+router.get("/build/:id/comment", async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const buildComments = await COMMENTS.find({ buildID: id }).toArray();
+
+    res.json({ status: "success", comments: buildComments });
+  } catch (error) {
+    res.status(500).send(err);
+  }
 });
 
 module.exports = router;

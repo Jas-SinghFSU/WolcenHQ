@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import { Row, Col, Button, Skeleton } from "antd";
 import _ from "lodash";
 
@@ -7,6 +7,7 @@ import CommentElement from "../../../../Shared/CommentElement/CommentElement";
 
 import "antd/dist/antd.css";
 import "./style.css";
+import axios from "axios";
 
 const CommentsSectionHeader = () => {
   return (
@@ -23,8 +24,23 @@ const CommentInput = props => {
   const [emptyBoxError, setEmptyBoxError] = useState(false);
   const [postError, setPostError] = useState("");
 
-  const handleSubmitComment = () => {
-    return;
+  const handleSubmitComment = async () => {
+    try {
+      const payload = {
+        commentInfo: commentInput
+      };
+
+      const commentRes = await axios.post(
+        `/api/builds/build/${props.buildId}/comment`,
+        payload
+      );
+      props.getComments(props.buildId);
+      props.setCommentContainer(false);
+    } catch (error) {
+      if (error.message === "Request failed with status code 401") {
+        setPostError("You must be logged in to post a comment.");
+      }
+    }
   };
 
   const isCommentEmpty = () => {
@@ -69,7 +85,7 @@ const CommentInput = props => {
             if (isCommentEmpty()) {
               setEmptyBoxError(true);
             } else {
-              props.setCommentContainer(false);
+              handleSubmitComment();
             }
           }}
         >
@@ -107,7 +123,12 @@ const Comments = props => {
           </Button>
         </div>
       ) : (
-        <CommentInput setCommentContainer={setCommentContainer} />
+        <CommentInput
+          user={props.user}
+          buildId={props.buildId}
+          setCommentContainer={setCommentContainer}
+          getComments={props.getComments}
+        />
       )}
       <span></span>
     </div>
@@ -115,19 +136,39 @@ const Comments = props => {
 };
 
 const CommentItems = props => {
+  const { comments } = props;
   return (
     <div className="commentItemsContainer">
-      <CommentElement />
+      {comments.map(comment => {
+        return <CommentElement key={comment._id} comment={comment} />;
+      })}
     </div>
   );
 };
 
 const CommentsContainer = props => {
+  const [comments, setComments] = useState([]);
+
+  const getComments = async buildID => {
+    try {
+      const commentRes = await axios.get(
+        `/api/builds/build/${buildID}/comment`
+      );
+      setComments(commentRes.data.comments);
+    } catch (error) {
+      console.error(error.message);
+    }
+  };
+
+  useEffect(() => {
+    getComments(props.buildId);
+  }, []);
+
   return (
     <Fragment>
       <CommentsSectionHeader />
-      <Comments {...props} />
-      <CommentItems />
+      <Comments {...props} getComments={getComments} />
+      <CommentItems comments={comments} />
     </Fragment>
   );
 };

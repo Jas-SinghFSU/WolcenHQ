@@ -175,7 +175,7 @@ const BuildTitle = props => {
                 onMouseOver={() => {
                   setDownVoteStatus({ ...downVoteStatus, hovered: true });
                 }}
-                onMouseOut={() => {
+                onMouseLeave={() => {
                   setDownVoteStatus({ ...downVoteStatus, hovered: false });
                 }}
                 onClick={() => {

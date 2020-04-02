@@ -7,6 +7,7 @@
 }
 
 .ant-btn.ant-input-search-button.ant-btn-primary.ant-btn-lg {
+  float: right;
   background-color: #d38045;
   border-color: #df9056;
 }

@@ -8,7 +8,7 @@ import "./style.css";
 const defaultDescription = require("../../../../Constants/constants")
   .buildDescription.default;
 
-const BiuldDescriptionHeader = () => {
+const BuildDescriptionHeader = () => {
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
@@ -21,7 +21,7 @@ const BiuldDescriptionHeader = () => {
 const BuildGuideBody = ({ buildDescription, buildVideo }) => {
   const allowedHTMLTags = ["h1", "h2", "u", "span", "s"];
   return (
-    <Fragment>
+    <div className="buildDescriptionBodyContainer">
       <div
         className="buildDescriptionBody ql-editor"
         dangerouslySetInnerHTML={{
@@ -40,14 +40,14 @@ const BuildGuideBody = ({ buildDescription, buildVideo }) => {
           )
         }}
       ></div>
-    </Fragment>
+    </div>
   );
 };
 
 const BuildGuideContainer = props => {
   return (
     <Fragment>
-      <BiuldDescriptionHeader />
+      <BuildDescriptionHeader />
       <BuildGuideBody {...props} />
     </Fragment>
   );
