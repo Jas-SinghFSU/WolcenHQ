@@ -69,7 +69,7 @@ const SkillTooltip = ({ tooltipOptions }) => {
         position: "fixed",
         background: "white",
         zIndex: "1",
-        pointerEvents: "none"
+        pointerEvents: "none",
       }}
       // ref={tooltipRef}
     >
@@ -190,16 +190,16 @@ const RenderLines = React.memo(
         : nodePairsScoped.inner; //filteredLinks(elemFilter);
 
     /* For each of the nodes that belong in the group, generate link if they're pairs */
-    return filteredDataPairs.map(pair => {
+    return filteredDataPairs.map((pair) => {
       const sourceCoords = allNodes && allNodes.get(pair.source);
       const destCoords = allNodes && allNodes.get(pair.destination);
       const sourcePoint = {
         cx: sourceCoords.cx || null,
-        cy: sourceCoords.cy || null
+        cy: sourceCoords.cy || null,
       };
       const destinationPoint = {
         cx: destCoords.cx || null,
-        cy: destCoords.cy || null
+        cy: destCoords.cy || null,
       };
 
       const link1 = `${pair.destination}-${pair.source}`;
@@ -251,10 +251,10 @@ const RenderNodes = React.memo(
     nodePairs,
     rotations,
     innerToMiddle,
-    middleToOuter
+    middleToOuter,
   }) => {
-    const handleNodeClick = node => {
-      if (activeNodes.length > 90) {
+    const handleNodeClick = (node) => {
+      if (activeNodes.length > 90 || activeNodes.includes(node.id)) {
         return;
       }
       const baseNodes = [
@@ -263,7 +263,7 @@ const RenderNodes = React.memo(
         "hardy-p",
         "heavy_blows-r",
         "capable-r",
-        "refined_technique-g"
+        "refined_technique-g",
       ];
 
       const baseInnerNodes = [
@@ -272,7 +272,7 @@ const RenderNodes = React.memo(
         "chemically_empowered_metabolism-g",
         "precise_strikes-g",
         "pain_resistance_program-r",
-        "zealous_might-r"
+        "zealous_might-r",
       ];
 
       const baseMiddleNodes = [
@@ -281,7 +281,7 @@ const RenderNodes = React.memo(
         "unstoppable_flurry-g-m",
         "master_of_the_frontline-r-m",
         "clarity_of_mind-p-m",
-        "elaborate_flurry-g-m"
+        "elaborate_flurry-g-m",
       ];
       const baseOuterNodes = [
         "of_squalls_and_fires-p-o",
@@ -295,11 +295,11 @@ const RenderNodes = React.memo(
         "omnipractice-r-o",
         "waning_before_waxing-p-o",
         "aloof_hunter-g-o",
-        "boiling_point-r-o"
+        "boiling_point-r-o",
       ];
-      const checkIfReachable = elem => {
+      const checkIfReachable = (elem) => {
         let isReachable = false;
-        nodePairs.forEach(pair => {
+        nodePairs.forEach((pair) => {
           if (pair.source === elem || pair.destination === elem) {
             const itsPair =
               elem === pair.source ? pair.destination : pair.source;
@@ -315,9 +315,7 @@ const RenderNodes = React.memo(
 
       /* Handle case for non-transition nodes */
       if (baseNodes.includes(node.id) || checkIfReachable(node.id)) {
-        if (!activeNodes.includes(node.id)) {
-          setActiveNodes([...activeNodes, node.id]);
-        }
+        setActiveNodes([...activeNodes, node.id]);
       }
 
       /* Handle case for inner to middle ring transition */
@@ -332,7 +330,7 @@ const RenderNodes = React.memo(
         currentAngleDiff > 0 ? currentAngleDiff - 360 : 360 - currentAngleDiff;
 
       if (baseMiddleNodes.includes(node.id)) {
-        const parentForNode = innerToMiddle.filter(link => {
+        const parentForNode = innerToMiddle.filter((link) => {
           if (
             link.destination === node.id &&
             (link.angle === currentAngleDiff || link.angle === inverseAngle)
@@ -347,7 +345,7 @@ const RenderNodes = React.memo(
       }
 
       if (baseInnerNodes.includes(node.id)) {
-        const parentForNode = innerToMiddle.filter(link => {
+        const parentForNode = innerToMiddle.filter((link) => {
           if (
             link.source === node.id &&
             (link.angle === currentAngleDiff || link.angle === inverseAngle)
@@ -362,7 +360,7 @@ const RenderNodes = React.memo(
       }
 
       if (baseOuterNodes.includes(node.id)) {
-        const parentForNode = middleToOuter.filter(link => {
+        const parentForNode = middleToOuter.filter((link) => {
           if (
             link.destination === node.id &&
             (link.angle === currentAngleDiffOuter ||
@@ -378,7 +376,7 @@ const RenderNodes = React.memo(
       }
     };
 
-    const displayTooltip = e => {
+    const displayTooltip = (e) => {
       let left = e.clientX;
       let top = e.clientY - 40;
 
@@ -401,9 +399,9 @@ const RenderNodes = React.memo(
         .shift()
         .replace(/_/g, " ")
         .split(" ")
-        .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+        .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
         .join(" ");
-      let skillData = passiveSkillsList.filter(skill => {
+      let skillData = passiveSkillsList.filter((skill) => {
         if (
           skillName.toLowerCase() === skill.name.toLowerCase().replace(/'/, "")
         ) {
@@ -420,11 +418,11 @@ const RenderNodes = React.memo(
         display: "block",
         left,
         top,
-        text: skillData ? skillData : ""
+        text: skillData ? skillData : "",
       });
     };
 
-    const svgGroup = svgDom.svg.g.filter(group => {
+    const svgGroup = svgDom.svg.g.filter((group) => {
       if (group.id === scope) {
         return true;
       }
@@ -432,7 +430,7 @@ const RenderNodes = React.memo(
 
     const groupCircleList = svgGroup[0].circle;
 
-    return groupCircleList.map(circle => {
+    return groupCircleList.map((circle) => {
       let isActive = activeNodes.includes(circle.id);
       const fillGradient = circle.id.includes("-r")
         ? `url(#radial-gradient-red${isActive === true ? "-active" : ""})`
@@ -467,9 +465,9 @@ const RenderNodes = React.memo(
             strokeWidth: strokeWidth,
             stroke: strokeColor,
             cursor: "pointer",
-            transition: "all 0.3s"
+            transition: "all 0.3s",
           }}
-          onMouseEnter={e => {
+          onMouseEnter={(e) => {
             displayTooltip(e);
           }}
           onMouseLeave={() => {
@@ -484,7 +482,7 @@ const RenderNodes = React.memo(
   }
 );
 
-const GateOfFates = props => {
+const GateOfFates = (props) => {
   const { setActiveNodes, activeNodes, rotations, setRotationsCB } = props;
   const [allNodes, setAllNodes] = useState(null);
   const [passiveSkillsList] = useState(passiveSkills);
@@ -499,7 +497,7 @@ const GateOfFates = props => {
     display: "none",
     top: 0,
     left: 0,
-    text: ""
+    text: "",
   });
 
   const [panZoomVal, setPanZoomVal] = useState(INITIAL_VALUE);
@@ -514,15 +512,15 @@ const GateOfFates = props => {
   const getAllNodes = () => {
     let nodeMap = new Map();
 
-    svgData.svg.g.forEach(group => {
-      group.circle.forEach(circle => {
+    svgData.svg.g.forEach((group) => {
+      group.circle.forEach((circle) => {
         const { cx, cy, r } = circle;
         nodeMap.set(circle.id, {
           name: circle.id,
           cx,
           cy,
           r,
-          class: circle.class
+          class: circle.class,
         });
       });
     });
@@ -539,10 +537,10 @@ const GateOfFates = props => {
           .shift()
           .replace(/_/g, " ")
           .split(" ")
-          .map(s => s.charAt(0).toUpperCase() + s.substring(1))
+          .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
           .join(" ");
 
-        let skillData = passiveSkillsList.filter(skill => {
+        let skillData = passiveSkillsList.filter((skill) => {
           if (
             skillName.toLowerCase() ===
             skill.name.toLowerCase().replace(/'/, "")
@@ -556,7 +554,7 @@ const GateOfFates = props => {
   const findPotentialPairs = () => {
     const foundPairs = new Map();
 
-    nodePairs.forEach(pair => {
+    nodePairs.forEach((pair) => {
       if (
         activeNodes.includes(pair.source) &&
         activeNodes.includes(pair.destination)
@@ -567,18 +565,18 @@ const GateOfFates = props => {
     return foundPairs;
   };
 
-  const resetElements = scope => {
+  const resetElements = (scope) => {
     if (scope === "inner") {
       setActiveNodes(["root"]);
     } else if (scope === "middle") {
-      let filteredActiveNodes = activeNodes.filter(node => {
+      let filteredActiveNodes = activeNodes.filter((node) => {
         if (!node.includes("-m") && !node.includes("-o")) {
           return true;
         }
       });
       setActiveNodes(filteredActiveNodes);
     } else if (scope === "outer") {
-      let filteredActiveNodes = activeNodes.filter(node => {
+      let filteredActiveNodes = activeNodes.filter((node) => {
         if (!node.includes("-o")) {
           return true;
         }
@@ -591,10 +589,10 @@ const GateOfFates = props => {
     const pairScope = {
       inner: [],
       outer: [],
-      middle: []
+      middle: [],
     };
 
-    nodePairs.forEach(pair => {
+    nodePairs.forEach((pair) => {
       if (pair.source.includes("-o")) {
         pairScope.outer = [...pairScope.outer, pair];
       } else if (pair.source.includes("-m")) {
@@ -607,7 +605,7 @@ const GateOfFates = props => {
     setNodePairsScoped(pairScope);
   };
 
-  const handleWheelSpin = direction => {
+  const handleWheelSpin = (direction) => {
     let rotationValue;
     if (selectedRing === "outer") {
       resetElements("outer");
@@ -653,8 +651,9 @@ const GateOfFates = props => {
           <div className="gofAndControls">
             <Col>
               <div className="gofButtons" style={{ marginBottom: 20 }}>
-                <span className="gofSkillPointsLabel">{`Points: ${activeNodes.length -
-                  1}/90`}</span>
+                <span className="gofSkillPointsLabel">{`Points: ${
+                  activeNodes.length - 1
+                }/90`}</span>
                 <span className="gofButtonsLabel">Rotate Rings</span>
                 <div className="ringNamesContainer">
                   <div
@@ -752,14 +751,14 @@ const GateOfFates = props => {
                   background="#000c"
                   miniatureProps={{ position: "none" }}
                   tool={panZoomTool}
-                  onChangeTool={tool => {
+                  onChangeTool={(tool) => {
                     setPanZoomTool(tool);
                   }}
                   value={panZoomVal}
-                  onChangeValue={value => setPanZoomVal(value)}
+                  onChangeValue={(value) => setPanZoomVal(value)}
                   detectAutoPan={false}
                   toolbarProps={{
-                    position: "none"
+                    position: "none",
                   }}
                   disableDoubleClickZoomWithToolAuto={true}
                 >
@@ -790,7 +789,7 @@ const GateOfFates = props => {
                         <stop offset="100%" stopColor="#160054" />
                       </radialGradient>
                     </defs>
-                    {svgData.svg.g.map(group => {
+                    {svgData.svg.g.map((group) => {
                       return (
                         <g
                           key={group.id}
@@ -806,7 +805,7 @@ const GateOfFates = props => {
                                 : group.id === "middleRing"
                                 ? rotations.middle
                                 : 0
-                            }deg)`
+                            }deg)`,
                           }}
                         >
                           <RenderRings
@@ -851,7 +850,7 @@ const GateOfFates = props => {
   }
 };
 
-const GateOfFatesContainer = props => {
+const GateOfFatesContainer = (props) => {
   return (
     <div>
       <GOFSectionHeader />

@@ -34,3 +34,7 @@
 .buildDescriptionBodyContainer {
   margin-left: 15px;
 }
+
+.emptyDescriptionContainer {
+  margin-top: 60px;
+}

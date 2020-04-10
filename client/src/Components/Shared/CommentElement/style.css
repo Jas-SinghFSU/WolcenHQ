@@ -62,6 +62,7 @@
 }
 .commentCardBottom .controlsRight {
   float: right;
+  display: flex;
 }
 
 .commentUpvoteButton {
@@ -91,11 +92,11 @@
   margin-left: 10px;
 }
 
-.commentAvatar .ant-avatar-icon {
+.commentAvatar .ant-avatar {
   font-size: 30px;
   background: #6a7e7e;
   border: 1px solid;
-  border-color: #462e004f;
+  border-color: #5e3d0165;
 }
 .commentBody {
   text-align: left;
@@ -118,4 +119,16 @@
 
 .commentBody a:hover {
   color: #80c6ff;
+}
+
+.deletePromptContainer {
+  margin-left: 10px;
+  white-space: pre;
+}
+.commentControls.deletePrompt.no {
+  margin-left: 3px;
+}
+.commentControls.deletePrompt.yes {
+  margin-right: 3px;
+  margin-left: 0px;
 }

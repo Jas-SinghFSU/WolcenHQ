@@ -22,29 +22,32 @@ const BuildGuideBody = ({ buildDescription, buildVideo }) => {
   const allowedHTMLTags = ["h1", "h2", "u", "span", "s"];
   return (
     <div className="buildDescriptionBodyContainer">
-      <div
-        className="buildDescriptionBody ql-editor"
-        dangerouslySetInnerHTML={{
-          __html: sanitizeHtml(
-            `${
-              buildDescription !== defaultDescription
-                ? buildDescription
-                : "<span style='color: rgba(218, 218, 218, 0.32); font-style: italic'>There seems to be nothing here...<span>"
-            }`,
-            {
+      {buildDescription !== defaultDescription ? (
+        <div
+          className="buildDescriptionBody ql-editor"
+          dangerouslySetInnerHTML={{
+            __html: sanitizeHtml(buildDescription, {
               allowedTags: sanitizeHtml.defaults.allowedTags.concat(
                 allowedHTMLTags
               ),
-              allowedAttributes: false
-            }
-          )
-        }}
-      ></div>
+              allowedAttributes: false,
+            }),
+          }}
+        />
+      ) : (
+        <div className="emptyDescriptionContainer">
+          <span
+            style={{ color: "rgba(218, 218, 218, 0.32)", fontStyle: "italic" }}
+          >
+            There seems to be nothing here...
+          </span>
+        </div>
+      )}
     </div>
   );
 };
 
-const BuildGuideContainer = props => {
+const BuildGuideContainer = (props) => {
   return (
     <Fragment>
       <BuildDescriptionHeader />

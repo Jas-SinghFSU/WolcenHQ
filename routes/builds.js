@@ -31,7 +31,7 @@ router.post("/build/create", async (req, res) => {
     rotations,
     slotData,
     stats,
-    statPoints
+    statPoints,
   } = inputData;
 
   const buildPayload = {
@@ -50,7 +50,7 @@ router.post("/build/create", async (req, res) => {
     dislikes: [],
     created: new Date(),
     lastUpdated: new Date(),
-    views: 0
+    views: 0,
   };
 
   if (!buildTitle || buildTitle.length <= 0) {
@@ -92,28 +92,30 @@ router.put("/build/vote/:id", ensureAuthenticated, async (req, res) => {
     };
 
     if (userExists) {
-      isLiked = likes.map(like => like.userID).includes(res.locals.user[0]._id);
+      isLiked = likes
+        .map((like) => like.userID)
+        .includes(res.locals.user[0]._id);
       isDisliked = dislikes
-        .map(dislike => dislike.userID)
+        .map((dislike) => dislike.userID)
         .includes(res.locals.user[0]._id);
     }
 
     if (action === "upvote" && !isLiked) {
       operation = {
         $pull: { dislikes: { userID: res.locals.user[0]._id } },
-        $push: { likes: { userID: res.locals.user[0]._id } }
+        $push: { likes: { userID: res.locals.user[0]._id } },
       };
     } else if (action === "downvote" && !isDisliked) {
       operation = {
         $pull: { likes: { userID: res.locals.user[0]._id } },
-        $push: { dislikes: { userID: res.locals.user[0]._id } }
+        $push: { dislikes: { userID: res.locals.user[0]._id } },
       };
     } else {
       operation = {
         $pull: {
           likes: { userID: res.locals.user[0]._id },
-          dislikes: { userID: res.locals.user[0]._id }
-        }
+          dislikes: { userID: res.locals.user[0]._id },
+        },
       };
     }
     const updateStatus = await BUILDS.findOneAndUpdate(
@@ -123,7 +125,7 @@ router.put("/build/vote/:id", ensureAuthenticated, async (req, res) => {
     );
     res.json({
       likes: updateStatus.value.likes,
-      dislikes: updateStatus.value.dislikes
+      dislikes: updateStatus.value.dislikes,
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -147,7 +149,7 @@ router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
       dislikes: [],
       created: new Date(),
       updated: new Date(),
-      reports: []
+      reports: [],
     };
     const results = await COMMENTS.insertOne(commentObject);
 
@@ -167,11 +169,98 @@ router.get("/build/:id/comment", async (req, res) => {
   const { id } = req.params;
 
   try {
-    const buildComments = await COMMENTS.find({ buildID: id }).toArray();
+    const buildComments = await COMMENTS.find(
+      { buildID: id },
+      { sort: { created: -1 } }
+    )
+      .skip(0)
+      .limit(10)
+      .toArray();
 
-    res.json({ status: "success", comments: buildComments });
+    const totalComments = await COMMENTS.find().count();
+
+    res.json({
+      status: "success",
+      comments: buildComments,
+      total: totalComments,
+    });
   } catch (error) {
     res.status(500).send(err);
+  }
+});
+
+router.delete("/build/:id/comment", ensureAuthenticated, async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const foundComment = await COMMENTS.findOne({ _id: ObjectID(id) });
+    if (foundComment.user !== res.locals.user[0]._id) {
+      return res
+        .status(400)
+        .json({ error: "You can only delete your own comments." });
+    }
+    await COMMENTS.deleteOne({ _id: ObjectID(id) });
+
+    res.json({ status: "success" });
+  } catch (error) {
+    res.status(500).send(err);
+  }
+});
+
+router.put("/build/:id/comment/vote", ensureAuthenticated, async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { action } = req.body;
+
+    const foundComment = await COMMENTS.findOne({ _id: ObjectID(id) });
+
+    const { likes, dislikes } = foundComment;
+
+    let isLiked = false;
+    let isDisliked = false;
+
+    const userExists = () => {
+      return !_.isEmpty(res.locals.user[0]._id);
+    };
+
+    if (userExists) {
+      isLiked = likes
+        .map((like) => like.userID)
+        .includes(res.locals.user[0]._id);
+      isDisliked = dislikes
+        .map((dislike) => dislike.userID)
+        .includes(res.locals.user[0]._id);
+    }
+
+    if (action === "upvote" && !isLiked) {
+      operation = {
+        $pull: { dislikes: { userID: res.locals.user[0]._id } },
+        $push: { likes: { userID: res.locals.user[0]._id } },
+      };
+    } else if (action === "downvote" && !isDisliked) {
+      operation = {
+        $pull: { likes: { userID: res.locals.user[0]._id } },
+        $push: { dislikes: { userID: res.locals.user[0]._id } },
+      };
+    } else {
+      operation = {
+        $pull: {
+          likes: { userID: res.locals.user[0]._id },
+          dislikes: { userID: res.locals.user[0]._id },
+        },
+      };
+    }
+    const updateStatus = await COMMENTS.findOneAndUpdate(
+      { _id: ObjectID(id) },
+      operation,
+      { returnOriginal: false }
+    );
+    res.json({
+      likes: updateStatus.value.likes,
+      dislikes: updateStatus.value.dislikes,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 

@@ -14,28 +14,28 @@ const combatTagColors = {
   caster: "rgb(102, 84, 153)",
   ranged: "rgb(93, 132, 82)",
   melee: "rgb(153, 87, 87)",
-  tank: "rgb(34, 94, 130)"
+  tank: "rgb(34, 94, 130)",
 };
 
-const BuildTitle = props => {
+const BuildTitle = (props) => {
   const { _id } = props;
   const [votes, setVotes] = useState({
     likes: null,
-    dislikes: null
+    dislikes: null,
   });
 
   const [upVoteStatus, setUpVoteStatus] = useState({
     hovered: false,
     selected: !_.isEmpty(props.user)
-      ? props.likes.map(like => like.userID).includes(props.user._id)
-      : false
+      ? props.likes.map((like) => like.userID).includes(props.user._id)
+      : false,
   });
 
   const [downVoteStatus, setDownVoteStatus] = useState({
     hovered: false,
     selected: !_.isEmpty(props.user)
-      ? props.dislikes.map(dislike => dislike.userID).includes(props.user._id)
-      : false
+      ? props.dislikes.map((dislike) => dislike.userID).includes(props.user._id)
+      : false,
   });
 
   const [voteSum, setVoteSum] = useState(
@@ -48,14 +48,14 @@ const BuildTitle = props => {
         ...upVoteStatus,
         selected: !_.isEmpty(props.user)
           ? votes.likes.includes(props.user._id)
-          : false
+          : false,
       });
 
       setDownVoteStatus({
         ...downVoteStatus,
         selected: !_.isEmpty(props.user)
           ? votes.dislikes.includes(props.user._id)
-          : false
+          : false,
       });
 
       setVoteSum(votes.likes.length - votes.dislikes.length);
@@ -92,17 +92,18 @@ const BuildTitle = props => {
       canVote = false;
       try {
         const payload = {
-          action: "upvote"
+          action: "upvote",
         };
         const upvoteResponse = await axios.put(
           `${buildsRoute}/vote/${_id}`,
           payload
         );
         canVote = true;
-        console.log(upvoteResponse.data);
         setVotes({
-          likes: upvoteResponse.data.likes.map(like => like.userID),
-          dislikes: upvoteResponse.data.dislikes.map(dislike => dislike.userID)
+          likes: upvoteResponse.data.likes.map((like) => like.userID),
+          dislikes: upvoteResponse.data.dislikes.map(
+            (dislike) => dislike.userID
+          ),
         });
       } catch (error) {
         console.error(error);
@@ -115,19 +116,18 @@ const BuildTitle = props => {
       canVote = false;
       try {
         const payload = {
-          action: "downvote"
+          action: "downvote",
         };
         const downvoteResponse = await axios.put(
           `${buildsRoute}/vote/${_id}`,
           payload
         );
         canVote = true;
-        console.log(downvoteResponse.data);
         setVotes({
-          likes: downvoteResponse.data.likes.map(like => like.userID),
+          likes: downvoteResponse.data.likes.map((like) => like.userID),
           dislikes: downvoteResponse.data.dislikes.map(
-            dislike => dislike.userID
-          )
+            (dislike) => dislike.userID
+          ),
         });
       } catch (error) {
         console.error(error);
@@ -165,7 +165,7 @@ const BuildTitle = props => {
                       : voteSum < 0
                       ? "rgb(232, 100, 100)"
                       : "rgb(189, 182, 170)"
-                  }`
+                  }`,
                 }}
               >
                 {voteSum > 0 ? "+" : ""}

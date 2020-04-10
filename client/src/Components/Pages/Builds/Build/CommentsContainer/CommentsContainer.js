@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
-import { Row, Col, Button, Skeleton } from "antd";
+import { Row, Col, Button, Pagination } from "antd";
 import _ from "lodash";
 
 import CustomQuill from "../../../../Shared/CustomQuill/CustomQuill";
@@ -9,17 +9,19 @@ import "antd/dist/antd.css";
 import "./style.css";
 import axios from "axios";
 
-const CommentsSectionHeader = () => {
+const CommentsSectionHeader = (props) => {
+  const { totalComments } = props;
+
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
-        <span className="sectionLabel">Comments (127)</span>
+        <span className="sectionLabel">Comments ({totalComments})</span>
       </Col>
     </Row>
   );
 };
 
-const CommentInput = props => {
+const CommentInput = (props) => {
   const [commentInput, setCommentInput] = useState("");
   const [emptyBoxError, setEmptyBoxError] = useState(false);
   const [postError, setPostError] = useState("");
@@ -27,14 +29,14 @@ const CommentInput = props => {
   const handleSubmitComment = async () => {
     try {
       const payload = {
-        commentInfo: commentInput
+        commentInfo: commentInput,
       };
 
       const commentRes = await axios.post(
         `/api/builds/build/${props.buildId}/comment`,
         payload
       );
-      props.getComments(props.buildId);
+      props.getComments();
       props.setCommentContainer(false);
     } catch (error) {
       if (error.message === "Request failed with status code 401") {
@@ -59,7 +61,7 @@ const CommentInput = props => {
         <CustomQuill
           className="commentQuill"
           value={commentInput}
-          onChange={e => {
+          onChange={(e) => {
             setCommentInput(e);
             setEmptyBoxError(false);
           }}
@@ -105,7 +107,7 @@ const CommentInput = props => {
   );
 };
 
-const Comments = props => {
+const Comments = (props) => {
   const [commentContainer, setCommentContainer] = useState(false);
 
   return (
@@ -113,10 +115,14 @@ const Comments = props => {
       {!commentContainer ? (
         <div className="newCommentButtonContainer">
           <Button
-            className="newCommentButton"
+            className={`newCommentButton${
+              _.isEmpty(props.user) ? "-disabled" : ""
+            }`}
             type="primary"
             onClick={() => {
-              setCommentContainer(true);
+              if (!_.isEmpty(props.user)) {
+                setCommentContainer(true);
+              }
             }}
           >
             <i className="fas fa-plus"></i> New Comment
@@ -135,40 +141,73 @@ const Comments = props => {
   );
 };
 
-const CommentItems = props => {
-  const { comments } = props;
+const CommentItems = (props) => {
+  const { comments, getUserData, user } = props;
   return (
     <div className="commentItemsContainer">
-      {comments.map(comment => {
-        return <CommentElement key={comment._id} comment={comment} />;
-      })}
+      <div className="commentPaginationContainer">
+        <Pagination
+          className="commentPagination"
+          defaultCurrent={1}
+          total={500}
+        />
+      </div>
+      {comments.comments.length > 0 ? (
+        comments.comments.map((comment) => {
+          return (
+            <CommentElement
+              key={comment._id}
+              comment={comment}
+              getUserData={getUserData}
+              currentUser={user}
+              getComments={props.getComments}
+              total={props.comments.total}
+            />
+          );
+        })
+      ) : (
+        <div className="emptyCommentsContainer">
+          <span>No Comments... Yet</span>
+        </div>
+      )}
     </div>
   );
 };
 
-const CommentsContainer = props => {
-  const [comments, setComments] = useState([]);
+const CommentsContainer = (props) => {
+  const [comments, setComments] = useState({
+    comments: [],
+    total: 0,
+  });
 
-  const getComments = async buildID => {
+  const getComments = async () => {
     try {
       const commentRes = await axios.get(
-        `/api/builds/build/${buildID}/comment`
+        `/api/builds/build/${props.buildId}/comment`
       );
-      setComments(commentRes.data.comments);
+      setComments({
+        comments: commentRes.data.comments,
+        total: commentRes.data.total,
+      });
     } catch (error) {
       console.error(error.message);
     }
   };
 
   useEffect(() => {
-    getComments(props.buildId);
+    getComments();
   }, []);
 
   return (
     <Fragment>
-      <CommentsSectionHeader />
+      <CommentsSectionHeader totalComments={comments.total} />
       <Comments {...props} getComments={getComments} />
-      <CommentItems comments={comments} />
+      <CommentItems
+        comments={comments}
+        getUserData={props.getUserData}
+        user={props.user}
+        getComments={getComments}
+      />
     </Fragment>
   );
 };

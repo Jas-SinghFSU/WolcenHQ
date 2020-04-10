@@ -19,7 +19,7 @@ const { Content } = Layout;
 
 const buildsRoute = "/api/builds/build";
 
-const Build = props => {
+const Build = (props) => {
   const { id } = props.match.params;
   const userContext = useContext(UserProvider.context);
 
@@ -42,16 +42,16 @@ const Build = props => {
     }
   };
 
-  const getUserData = async () => {
-    if (buildData.author !== null && buildData.author !== "Anonymous") {
+  const getUserData = async (userInfo) => {
+    if (userInfo !== null && userInfo !== "Anonymous") {
       try {
-        const userData = await axios.get(`/api/users/user/${buildData.author}`);
-        setUserData({ ...userData.data });
+        const userData = await axios.get(`/api/users/user/${userInfo}`);
+        return userData.data;
       } catch (error) {
         console.error(error);
       }
     } else {
-      setUserData({});
+      return {};
     }
   };
 
@@ -60,13 +60,17 @@ const Build = props => {
   }, []);
 
   useEffect(() => {
+    const castUser = async () => {
+      const userInfo = await getUserData(buildData.author);
+      setUserData({ ...userInfo });
+    };
     if (!_.isEmpty(buildData)) {
-      getUserData();
+      castUser();
     }
   }, [buildData]);
 
   const dataProps = {
-    ...buildData
+    ...buildData,
   };
 
   const dataLoaded = () => {
@@ -87,7 +91,12 @@ const Build = props => {
                 <BuildVideoContainer buildVideo={dataProps.buildVideo} />
               )}
               <BuildGuideContainer {...dataProps} />
-              <CommentsContainer {...dataProps} user={user} buildId={id} />
+              <CommentsContainer
+                {...dataProps}
+                getUserData={getUserData}
+                user={user}
+                buildId={id}
+              />
             </Col>
           </Row>
         </Content>

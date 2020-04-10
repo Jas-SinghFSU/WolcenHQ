@@ -87,6 +87,8 @@
   flex-direction: column;
   color: rgba(233, 225, 210, 0.918);
   font-size: 13px;
+  min-width: 400px;
+  max-width: 700px;
 }
 .authorName {
   font-style: italic;
@@ -110,4 +112,5 @@
 .buildInfoTags {
   width: 25%;
   text-align: right;
+  min-width: 140px;
 }

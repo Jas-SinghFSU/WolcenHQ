@@ -3,10 +3,12 @@
 }
 
 .newCommentButtonContainer {
-  text-align: left;
+  text-align: right;
+  width: 75%;
+  margin: auto;
 }
 .newCommentButton {
-  white-space: pre-wrap;
+  white-space: pre;
 }
 .newCommentButton.submit {
   margin-right: 15px;
@@ -36,4 +38,71 @@
 .inputError {
   margin-top: 5px;
   color: rgb(238, 108, 108);
+}
+
+.emptyCommentsContainer {
+  height: 100px;
+  color: rgba(218, 218, 218, 0.32);
+}
+
+.newCommentButton-disabled {
+  background-color: #6ee9ff38 !important;
+  white-space: pre;
+  color: gray !important;
+  cursor: not-allowed;
+}
+.newCommentButton-disabled:hover {
+  background-color: #6ee9ff38;
+  color: gray;
+}
+
+.commentPaginationContainer {
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.commentPagination .ant-pagination-item {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.commentPagination .ant-pagination-item-active {
+  border-color: #6ed2e4;
+}
+.commentPagination .ant-pagination-item-active a {
+  color: #6ed2e4 !important;
+}
+.commentPagination .ant-pagination-item-ellipsis {
+  color: rgb(218, 218, 218) !important;
+}
+
+.commentPagination .ant-pagination-prev a {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.commentPagination .ant-pagination-prev.ant-pagination-disabled a {
+  border-color: grey;
+}
+.commentPagination .ant-pagination-prev.ant-pagination-disabled span {
+  color: grey;
+}
+
+.commentPagination .ant-pagination-next a {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.commentPagination .ant-pagination-next.ant-pagination-disabled a {
+  border-color: grey;
+}
+.commentPagination .ant-pagination-next.ant-pagination-disabled span {
+  color: grey;
+}
+
+.commentPagination li a {
+  color: rgb(218, 218, 218) !important;
+}
+
+.commentPagination .ant-pagination-options {
+  display: none;
 }
