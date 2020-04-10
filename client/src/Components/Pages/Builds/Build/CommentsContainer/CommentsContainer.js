@@ -143,13 +143,19 @@ const Comments = (props) => {
 
 const CommentItems = (props) => {
   const { comments, getUserData, user } = props;
+  const [curPage, setCurPage] = useState(1);
+
   return (
     <div className="commentItemsContainer">
       <div className="commentPaginationContainer">
         <Pagination
           className="commentPagination"
-          defaultCurrent={1}
-          total={500}
+          current={curPage}
+          total={props.comments.total}
+          onChange={(page) => {
+            props.getComments(page);
+            setCurPage(page);
+          }}
         />
       </div>
       {comments.comments.length > 0 ? (
@@ -180,10 +186,11 @@ const CommentsContainer = (props) => {
     total: 0,
   });
 
-  const getComments = async () => {
+  const getComments = async (page = 1) => {
     try {
-      const commentRes = await axios.get(
-        `/api/builds/build/${props.buildId}/comment`
+      const commentRes = await axios.post(
+        `/api/builds/build/${props.buildId}/comment/page`,
+        { page }
       );
       setComments({
         comments: commentRes.data.comments,

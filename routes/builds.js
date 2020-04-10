@@ -165,19 +165,20 @@ router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
   }
 });
 
-router.get("/build/:id/comment", async (req, res) => {
+router.post("/build/:id/comment/page", async (req, res) => {
   const { id } = req.params;
+  const { page } = req.body;
 
   try {
     const buildComments = await COMMENTS.find(
       { buildID: id },
       { sort: { created: -1 } }
     )
-      .skip(0)
+      .skip((page - 1) * 10)
       .limit(10)
       .toArray();
 
-    const totalComments = await COMMENTS.find().count();
+    const totalComments = await COMMENTS.find({ buildID: id }).count();
 
     res.json({
       status: "success",
