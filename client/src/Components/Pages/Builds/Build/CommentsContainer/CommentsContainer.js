@@ -147,17 +147,19 @@ const CommentItems = (props) => {
 
   return (
     <div className="commentItemsContainer">
-      <div className="commentPaginationContainer">
-        <Pagination
-          className="commentPagination"
-          current={curPage}
-          total={props.comments.total}
-          onChange={(page) => {
-            props.getComments(page);
-            setCurPage(page);
-          }}
-        />
-      </div>
+      {comments.comments.length > 0 && (
+        <div className="commentPaginationContainer">
+          <Pagination
+            className="commentPagination"
+            current={curPage}
+            total={props.comments.total}
+            onChange={(page) => {
+              props.getComments(page);
+              setCurPage(page);
+            }}
+          />
+        </div>
+      )}
       {comments.comments.length > 0 ? (
         comments.comments.map((comment) => {
           return (
@@ -168,6 +170,7 @@ const CommentItems = (props) => {
               currentUser={user}
               getComments={props.getComments}
               total={props.comments.total}
+              setCurPage={setCurPage}
             />
           );
         })

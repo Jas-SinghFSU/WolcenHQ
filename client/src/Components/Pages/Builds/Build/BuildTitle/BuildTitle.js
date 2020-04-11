@@ -153,7 +153,7 @@ const BuildTitle = (props) => {
                 }}
                 className={`upvote ${
                   upVoteStatus.hovered || upVoteStatus.selected ? "fas" : "far"
-                } fa-caret-square-up`}
+                } fa-caret-square-up noSelectText`}
               />
               <span
                 className="buildRating"
@@ -185,7 +185,7 @@ const BuildTitle = (props) => {
                   downVoteStatus.hovered || downVoteStatus.selected
                     ? "fas"
                     : "far"
-                } fa-caret-square-down`}
+                } fa-caret-square-down noSelectText`}
               />
             </div>
             <div className="buildInfoPicture">

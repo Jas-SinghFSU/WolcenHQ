@@ -132,3 +132,21 @@
   margin-right: 3px;
   margin-left: 0px;
 }
+
+.editCommentQuill {
+  width: 90%;
+  margin: auto;
+}
+.editCommentQuill .ql-editor {
+  height: 130px;
+  min-height: unset !important;
+  resize: vertical;
+  background: #414546;
+}
+.editCommentContainer {
+  text-align: center;
+}
+.editCommentContainer .errorsContainer {
+  display: flex;
+  flex-direction: column;
+}

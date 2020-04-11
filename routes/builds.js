@@ -15,7 +15,7 @@ router.get("/fetch", async (req, res) => {
     const results = await BUILDS.find().toArray();
     res.json(results);
   } catch (err) {
-    res.status(500).send(err);
+    res.status(500).send(err.message);
   }
 });
 
@@ -61,7 +61,7 @@ router.post("/build/create", async (req, res) => {
     const results = await BUILDS.insertOne(buildPayload);
     res.json({ status: "success", id: results.ops[0]._id });
   } catch (err) {
-    res.status(500).send(err);
+    res.status(500).send(err.message);
   }
 });
 
@@ -153,7 +153,7 @@ router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
     };
     const results = await COMMENTS.insertOne(commentObject);
 
-    const updateStatus = await BUILDS.findOneAndUpdate(
+    await BUILDS.findOneAndUpdate(
       { _id: ObjectID(id) },
       { $push: { comments: results.ops[0]._id } },
       { returnOriginal: false }
@@ -161,7 +161,56 @@ router.post("/build/:id/comment", ensureAuthenticated, async (req, res) => {
 
     res.json({ status: "success" });
   } catch (error) {
-    res.status(500).send(err);
+    res.status(500).send(error.message);
+  }
+});
+
+router.put("/build/:id/comment", ensureAuthenticated, async (req, res) => {
+  const { id } = req.params;
+  const { commentInfo } = req.body;
+
+  try {
+    const foundComment = await COMMENTS.findOne({ _id: ObjectID(id) });
+
+    if (_.isEmpty(foundComment)) {
+      return res.status(404).json({ error: "Comment not found." });
+    } else if (foundComment.user !== res.locals.user[0]._id) {
+      return res
+        .status(400)
+        .json({ error: "You can only edit your own comments." });
+    }
+
+    if (_.isEmpty(commentInfo)) {
+      return res.status(400).json({ error: "Comment cannot be empty." });
+    }
+
+    const newComment = await COMMENTS.findOneAndUpdate(
+      { _id: ObjectID(id) },
+      { $set: { body: commentInfo, update: new Date() } },
+      { returnOriginal: false }
+    );
+
+    res.json({ status: "success", updateComment: newComment.value });
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+});
+
+router.delete("/build/:id/comment", ensureAuthenticated, async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const foundComment = await COMMENTS.findOne({ _id: ObjectID(id) });
+    if (foundComment.user !== res.locals.user[0]._id) {
+      return res
+        .status(400)
+        .json({ error: "You can only delete your own comments." });
+    }
+    await COMMENTS.deleteOne({ _id: ObjectID(id) });
+
+    res.json({ status: "success" });
+  } catch (error) {
+    res.status(500).send(error.message);
   }
 });
 
@@ -186,25 +235,7 @@ router.post("/build/:id/comment/page", async (req, res) => {
       total: totalComments,
     });
   } catch (error) {
-    res.status(500).send(err);
-  }
-});
-
-router.delete("/build/:id/comment", ensureAuthenticated, async (req, res) => {
-  const { id } = req.params;
-
-  try {
-    const foundComment = await COMMENTS.findOne({ _id: ObjectID(id) });
-    if (foundComment.user !== res.locals.user[0]._id) {
-      return res
-        .status(400)
-        .json({ error: "You can only delete your own comments." });
-    }
-    await COMMENTS.deleteOne({ _id: ObjectID(id) });
-
-    res.json({ status: "success" });
-  } catch (error) {
-    res.status(500).send(err);
+    res.status(500).send(error.message);
   }
 });
 
