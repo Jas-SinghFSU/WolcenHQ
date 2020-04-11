@@ -78,7 +78,15 @@ const CommentInput = (props) => {
       </div>
       <div className="commentInputButtons">
         <Button
-          className="newCommentButton submit"
+          className="newCommentButton customDefault cancel"
+          onClick={() => {
+            props.setCommentContainer(false);
+          }}
+        >
+          Cancel
+        </Button>
+        <Button
+          className="newCommentButton customPrimary submit"
           type="primary"
           onClick={() => {
             if (isCommentEmpty()) {
@@ -89,15 +97,6 @@ const CommentInput = (props) => {
           }}
         >
           Submit
-        </Button>
-        <Button
-          className="newCommentButton cancel"
-          type="primary"
-          onClick={() => {
-            props.setCommentContainer(false);
-          }}
-        >
-          Cancel
         </Button>
       </div>
     </Fragment>
@@ -114,7 +113,7 @@ const Comments = (props) => {
           <Button
             className={`newCommentButton${
               _.isEmpty(props.user) ? "-disabled" : ""
-            }`}
+            } customPrimary${_.isEmpty(props.user) ? "-disabled" : ""}`}
             type="primary"
             onClick={() => {
               if (!_.isEmpty(props.user)) {

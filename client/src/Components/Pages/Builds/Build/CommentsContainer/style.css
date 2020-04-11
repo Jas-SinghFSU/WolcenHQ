@@ -10,7 +10,7 @@
 .newCommentButton {
   white-space: pre;
 }
-.newCommentButton.submit {
+.newCommentButton.cancel {
   margin-right: 15px;
 }
 .commentInputButtons {

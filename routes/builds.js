@@ -186,7 +186,7 @@ router.put("/build/:id/comment", ensureAuthenticated, async (req, res) => {
 
     const newComment = await COMMENTS.findOneAndUpdate(
       { _id: ObjectID(id) },
-      { $set: { body: commentInfo, update: new Date() } },
+      { $set: { body: commentInfo, updated: new Date() } },
       { returnOriginal: false }
     );
 

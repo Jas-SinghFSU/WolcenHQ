@@ -8,7 +8,7 @@ import "./style.css";
 const { Option } = Select;
 const InputGroup = Input.Group;
 
-const BuildDescriptionHeader = props => {
+const BuildDescriptionHeader = (props) => {
   return (
     <Row className="statPointsRow">
       <Col className="statPointsCol" span={24} offset={0}>
@@ -18,7 +18,7 @@ const BuildDescriptionHeader = props => {
   );
 };
 
-const BuildDescriptionContent = props => {
+const BuildDescriptionContent = (props) => {
   const {
     buildTitle,
     setTitle,
@@ -28,7 +28,7 @@ const BuildDescriptionContent = props => {
     setPs,
     inputText,
     setDesc,
-    submitData
+    submitData,
   } = props;
 
   return (
@@ -41,7 +41,7 @@ const BuildDescriptionContent = props => {
               className="buildTitleInput"
               placeholder="How about a cool name?"
               value={buildTitle}
-              onChange={e => setTitle(e.target.value)}
+              onChange={(e) => setTitle(e.target.value)}
             />
           </div>
           <div className="buildYTLinkContainer">
@@ -50,7 +50,7 @@ const BuildDescriptionContent = props => {
               className="ytLinkInput"
               placeholder="Got a video? Show it off!"
               value={buildVideo}
-              onChange={e => setVid(e.target.value)}
+              onChange={(e) => setVid(e.target.value)}
             />
           </div>
           <div className="playstyleContainer">
@@ -59,7 +59,7 @@ const BuildDescriptionContent = props => {
               <Select
                 style={{ width: "100%" }}
                 defaultValue="Solo"
-                onChange={val => setPs(val)}
+                onChange={(val) => setPs(val)}
               >
                 <Option value="Solo">Solo</Option>
                 <Option value="Group">Group</Option>
@@ -73,7 +73,7 @@ const BuildDescriptionContent = props => {
               <Select
                 style={{ width: "100%" }}
                 defaultValue="Melee"
-                onChange={val => setComb(val)}
+                onChange={(val) => setComb(val)}
               >
                 <Option value="Melee">Melee</Option>
                 <Option value="Caster">Caster</Option>
@@ -95,7 +95,7 @@ const BuildDescriptionContent = props => {
       </Col>
       <Col span={2} offset={11}>
         <Button
-          className="submitBuildButton"
+          className="submitBuildButton customPrimary"
           type="primary"
           onClick={submitData}
         >
@@ -106,7 +106,7 @@ const BuildDescriptionContent = props => {
   );
 };
 
-const BuildDescriptionContainer = props => {
+const BuildDescriptionContainer = (props) => {
   return (
     <Fragment>
       <BuildDescriptionHeader />

@@ -7,6 +7,7 @@ import Routes from "./Components/Routing/Routes";
 import { sideNavSize } from "./Components/Constants/constants";
 
 import "./App.css";
+import "./antdCustoms.css";
 
 function App() {
   return (

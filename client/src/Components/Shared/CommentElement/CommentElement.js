@@ -198,7 +198,15 @@ const CommentElement = (props) => {
                   </div>
                   <div className="commentInputButtons">
                     <Button
-                      className="newCommentButton submit"
+                      className="newCommentButton customDefault cancel"
+                      onClick={() => {
+                        setEditorData({ ...editorData, show: false });
+                      }}
+                    >
+                      Cancel
+                    </Button>
+                    <Button
+                      className="newCommentButton customPrimary submit"
                       type="primary"
                       onClick={() => {
                         if (isCommentEmpty()) {
@@ -210,29 +218,32 @@ const CommentElement = (props) => {
                     >
                       Submit
                     </Button>
-                    <Button
-                      className="newCommentButton cancel"
-                      type="primary"
-                      onClick={() => {
-                        setEditorData({ ...editorData, show: false });
-                      }}
-                    >
-                      Cancel
-                    </Button>
                   </div>
                 </div>
               ) : (
-                <div
-                  className="commentBody ql-editor"
-                  dangerouslySetInnerHTML={{
-                    __html: sanitizeHtml(body, {
-                      allowedTags: sanitizeHtml.defaults.allowedTags.concat(
-                        allowedHTMLTags
-                      ),
-                      allowedAttributes: false,
-                    }),
-                  }}
-                ></div>
+                <div className="commentInfoContainer">
+                  <div
+                    className="commentBody ql-editor"
+                    dangerouslySetInnerHTML={{
+                      __html: sanitizeHtml(body, {
+                        allowedTags: sanitizeHtml.defaults.allowedTags.concat(
+                          allowedHTMLTags
+                        ),
+                        allowedAttributes: false,
+                      }),
+                    }}
+                  />
+                  {created !== updated && (
+                    <div className="commentLastUpdatedContainer">
+                      <span className="commentLastUpdated">
+                        Last edited:{" "}
+                        <Moment local format="MMM DD[,] YYYY [@] LT">
+                          {updated}
+                        </Moment>
+                      </span>
+                    </div>
+                  )}
+                </div>
               )}
             </div>
             <div className="commentCardBottom">

@@ -7,12 +7,12 @@ import _ from "lodash";
 import "./style.css";
 
 const FormItem = Form.Item;
-const Login = props => {
+const Login = (props) => {
   const userData = useContext(UserProvider.context);
 
   const history = useHistory();
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     props.form.validateFields((err, values) => {
       if (!err) {
@@ -67,7 +67,11 @@ const Login = props => {
                   Need an account?
                 </span>
                 <FormItem className="formRegisterButton">
-                  <Button type="primary" htmlType="submit">
+                  <Button
+                    className="customPrimary"
+                    type="primary"
+                    htmlType="submit"
+                  >
                     Login
                   </Button>
                 </FormItem>

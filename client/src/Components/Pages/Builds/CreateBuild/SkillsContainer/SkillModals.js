@@ -6,13 +6,13 @@ import SpellToolTip from "../../../../Shared/SpellTooltip";
 
 const spellData = require("../../../../../Data/Skills.json");
 
-const SkillListModal = props => {
+const SkillListModal = (props) => {
   const {
     modalVisible,
     handleCloseModal,
     handleSkillSelected,
     skillSlot,
-    slotData
+    slotData,
   } = props;
 
   const [skillList] = useState(spellData.skills);
@@ -24,7 +24,7 @@ const SkillListModal = props => {
     setSkillData(null);
   }, [modalVisible]);
 
-  const isSkillTaken = skillName => {
+  const isSkillTaken = (skillName) => {
     if (skillSlot) {
       let isFound = false;
       for (let i = 1; i <= 6; i += 1) {
@@ -42,6 +42,7 @@ const SkillListModal = props => {
   return (
     <div>
       <Modal
+        className="skillModal antModal"
         title="Choose a skill"
         visible={modalVisible}
         onOk={() => handleSkillSelected(skillData, skillSlot, skillSelected)}
@@ -105,14 +106,14 @@ const SkillListModal = props => {
   );
 };
 
-const SkillModModal = props => {
+const SkillModModal = (props) => {
   const {
     modalVisible,
     handleCloseModal,
     handleModSelected,
     skillSlot,
     modsList,
-    slotData
+    slotData,
   } = props;
 
   const [modList, setModList] = useState(modsList);
@@ -134,7 +135,7 @@ const SkillModModal = props => {
     }
   };
 
-  const havePoints = modInfo => {
+  const havePoints = (modInfo) => {
     if (skillSlot) {
       const curModTotal = modSelected.reduce((modSum, modData) => {
         return modData.cost + modSum;
@@ -148,11 +149,11 @@ const SkillModModal = props => {
     }
   };
 
-  const handleModClicked = modInfo => {
-    const modsInList = modSelected.map(mod => mod.name);
+  const handleModClicked = (modInfo) => {
+    const modsInList = modSelected.map((mod) => mod.name);
 
     if (modsInList.includes(modInfo.name)) {
-      const newModList = modSelected.filter(mod => mod.name !== modInfo.name);
+      const newModList = modSelected.filter((mod) => mod.name !== modInfo.name);
 
       setModSelected(newModList);
       return;
@@ -164,6 +165,7 @@ const SkillModModal = props => {
   return (
     <div>
       <Modal
+        className="modModal antModal"
         title="Choose a modifier"
         visible={modalVisible}
         onOk={() => handleModSelected(modSelected, skillSlot)}

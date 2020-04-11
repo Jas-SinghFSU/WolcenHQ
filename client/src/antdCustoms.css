@@ -1,0 +1,104 @@
+/* Cancel button */
+.customDefault.ant-btn {
+  background-color: #c2544c !important;
+  border-color: #c94d44 !important;
+  color: white !important;
+}
+
+.customDefault.ant-btn:hover {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+.customDefault.ant-btn:focus {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+/* Enabled primary button */
+.customPrimary.ant-btn-primary {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+.customPrimary.ant-btn-primary:hover {
+  background-color: #72ddf0 !important;
+  border-color: #72ddf0 !important;
+}
+
+.customPrimary.ant-btn-primary:focus {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+/* Disabled primary button */
+.customPrimary-disabled.ant-btn-primary {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.customPrimary-disabled.ant-btn-primary:hover {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.customPrimary-disabled.ant-btn-primary:focus {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+/***************** BUTTON OVERRIDES FOR MODALS *****************/
+/* Cancel button */
+.antModal .ant-btn {
+  background-color: #c2544c !important;
+  border-color: #c94d44 !important;
+  color: white !important;
+}
+
+.antModal .ant-btn:hover {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+.antModal .ant-btn:focus {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+/* Enabled primary button */
+.antModal .ant-btn-primary {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+.antModal .ant-btn-primary:hover {
+  background-color: #72ddf0 !important;
+  border-color: #72ddf0 !important;
+}
+
+.antModal .ant-btn-primary:focus {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+/* Disabled primary button */
+.antModal .ant-btn-primary[disabled] {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.antModal .ant-btn-primary[disabled]:hover {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.antModal .ant-btn-primary[disabled]:focus {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}

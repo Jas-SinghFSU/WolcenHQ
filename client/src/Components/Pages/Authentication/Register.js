@@ -7,10 +7,10 @@ import _ from "lodash";
 import "./style.css";
 
 const FormItem = Form.Item;
-const Register = props => {
+const Register = (props) => {
   const userData = useContext(UserProvider.context);
   const history = useHistory();
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     props.form.validateFields((err, values) => {
       if (!err) {
@@ -61,7 +61,10 @@ const Register = props => {
                 wrapperCol={{ span: 24 }}
                 className="registerFormInput"
                 rules={[
-                  { required: true, message: "You must confirm your password." }
+                  {
+                    required: true,
+                    message: "You must confirm your password.",
+                  },
                 ]}
               >
                 <Input />
@@ -77,7 +80,11 @@ const Register = props => {
                   Already have an account?
                 </span>
                 <FormItem className="formRegisterButton">
-                  <Button type="primary" htmlType="submit">
+                  <Button
+                    className="customPrimary"
+                    type="primary"
+                    htmlType="submit"
+                  >
                     Register
                   </Button>
                 </FormItem>

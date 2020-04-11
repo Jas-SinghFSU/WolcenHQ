@@ -39,9 +39,11 @@
 }
 .steamLoginButton {
   background-color: #3a4c5c !important;
+  border-color: #3a4c5c !important;
 }
 .steamLoginButton:hover {
   background-color: #6086a5 !important;
+  border-color: #3a4c5c !important;
 }
 .steamLoginButtonText {
   width: 100%;
