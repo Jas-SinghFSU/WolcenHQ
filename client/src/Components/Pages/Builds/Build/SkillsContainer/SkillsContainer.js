@@ -42,9 +42,9 @@ const SkillsSelectorLabels = () => {
   );
 };
 
-const SkillsContainer = props => {
+const SkillsContainer = (props) => {
   return (
-    <div>
+    <div className="skillsContainerMain">
       <SkillsSectionHeader />
       <SkillsSelectorLabels />
       <SkillsSelector {...props} />

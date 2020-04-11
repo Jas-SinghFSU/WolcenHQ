@@ -29,8 +29,19 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  background: #000c;
 }
-
+.gofContainer-locked {
+  height: 1044px;
+  width: 1044px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background: #000c;
+}
 .gofSvg {
   position: absolute;
   left: 0;
@@ -183,4 +194,25 @@
 .rotateButtonReset.zoom:hover {
   background-color: #59d6bb !important;
   border-color: #59d6bb !important;
+}
+
+.lockButtonContainer {
+  margin-bottom: 15px;
+}
+
+.toggleLockButton {
+  background: none !important;
+  color: sandybrown;
+}
+
+.toggleLockButton:hover {
+  background: none !important;
+  border-color: salmon;
+  color: sandybrown;
+}
+
+.toggleLockButton:focus {
+  background: none !important;
+  border-color: salmon;
+  color: sandybrown;
 }

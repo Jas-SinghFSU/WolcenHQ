@@ -32,10 +32,7 @@ const CommentInput = (props) => {
         commentInfo: commentInput,
       };
 
-      const commentRes = await axios.post(
-        `/api/builds/build/${props.buildId}/comment`,
-        payload
-      );
+      await axios.post(`/api/builds/build/${props.buildId}/comment`, payload);
       props.getComments();
       props.setCommentContainer(false);
     } catch (error) {

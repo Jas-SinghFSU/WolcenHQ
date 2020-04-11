@@ -4,13 +4,13 @@ const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const USERS = db.collection("Users");
 
-module.exports = function(passport) {
+module.exports = function (passport) {
   passport.use(
     new SteamStrategy(
       {
         returnURL: "http://localhost:3443/api/auth/steam/return",
         realm: "http://localhost:3443/",
-        apiKey: keys.steamAPIKey
+        apiKey: keys.steamAPIKey,
       },
       async (identifier, profile, done) => {
         const newUser = {
@@ -18,14 +18,14 @@ module.exports = function(passport) {
           steamID: profile.id,
           displayName: profile.displayName,
           image: profile.photos[2],
-          visibility: "public"
+          visibility: "public",
         };
 
         let foundUser;
         try {
           foundUser = await USERS.find({
             steamID: { $exists: true },
-            steamID: profile.id
+            steamID: profile.id,
           }).toArray();
         } catch (findErr) {
           console.error(err);
@@ -46,12 +46,11 @@ module.exports = function(passport) {
     )
   );
 
-  passport.serializeUser(function(user, done) {
-    // console.log(`user is ${JSON.stringify(user)}`);
+  passport.serializeUser(function (user, done) {
     done(null, user);
   });
 
-  passport.deserializeUser(function(obj, done) {
+  passport.deserializeUser(function (obj, done) {
     done(null, obj);
   });
 };

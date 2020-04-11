@@ -9,7 +9,8 @@ import {
   ContainerOutlined,
   UserOutlined,
   LoginOutlined,
-  LogoutOutlined
+  LogoutOutlined,
+  FileAddOutlined,
 } from "@ant-design/icons";
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
@@ -29,7 +30,7 @@ const SideNavigation = () => {
     setNavCollapsed(!navCollapsed);
   };
 
-  const handleBuildClick = buildID => {
+  const handleBuildClick = (buildID) => {
     history.push(`${buildID}`);
   };
 
@@ -45,7 +46,7 @@ const SideNavigation = () => {
         backgroundColor: "rgb(23, 23, 27)",
         transition: `min-width 0.2s, max-width 0.2s`,
         WebkitTransition: "min-width 0.2s, max-width 0.2s",
-        zIndex: 2
+        zIndex: 2,
       }}
     >
       <Sider className="sideNavContainer" collapsed={navCollapsed}>
@@ -76,12 +77,22 @@ const SideNavigation = () => {
               handleBuildClick("/builds/build/create");
             }}
           >
+            <FileAddOutlined />
+            <span className="sideNavMenuLabel">Create a Build</span>
+          </Menu.Item>
+          <Menu.Item
+            className="antdMenuItem"
+            key="4"
+            onClick={() => {
+              handleBuildClick("/builds");
+            }}
+          >
             <ContainerOutlined />
             <span className="sideNavMenuLabel">Builds</span>
           </Menu.Item>
           <Menu.Item
             className="antdMenuItem"
-            key="4"
+            key="5"
             onClick={() => {
               handleBuildClick("/characters");
             }}
@@ -91,7 +102,7 @@ const SideNavigation = () => {
           </Menu.Item>
           <Menu.Item
             className="antdMenuItem"
-            key="5"
+            key="6"
             onClick={() => {
               _.isEmpty(user)
                 ? handleBuildClick("/auth/login")
