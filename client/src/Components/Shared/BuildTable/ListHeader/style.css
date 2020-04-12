@@ -1,0 +1,19 @@
+.buildsListHeader {
+  background-color: #4399a8;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.headerTitle {
+  font-size: 18px;
+  font-weight: 200;
+  float: left;
+  color: #ffffff;
+}
+
+.headerTitle.tBuildName {
+  margin-left: 15px;
+}

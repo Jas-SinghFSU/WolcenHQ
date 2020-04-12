@@ -3,7 +3,7 @@ import { Layout } from "antd";
 import { Row, Col } from "antd";
 
 import SearchContainer from "./SearchContainer/SearchContainer";
-import BuildsList from "./BuildsList/BuildsList";
+import BuildTable from "../../Shared/BuildTable/BuildTable";
 
 import "./style.css";
 
@@ -22,7 +22,7 @@ const Home = () => {
       <Content className="topBuildsList">
         <Row>
           <Col span={22} offset={1} style={{ textAlign: "center" }}>
-            <BuildsList />
+            <BuildTable />
           </Col>
         </Row>
       </Content>

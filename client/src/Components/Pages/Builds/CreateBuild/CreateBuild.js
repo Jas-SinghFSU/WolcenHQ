@@ -14,7 +14,7 @@ const { Content } = Layout;
 
 const buildsRoute = "/api/builds/build/create";
 
-const CreateBuildTitle = props => {
+const CreateBuildTitle = (props) => {
   return (
     <Row>
       <Col className="buildTitleCol" span={24} offset={0}>
@@ -31,7 +31,7 @@ const CreateBuild = () => {
     ferocity: 0,
     toughness: 0,
     agility: 0,
-    wisdom: 0
+    wisdom: 0,
   });
   const [slotData, setSlotData] = useState({
     slot1: null,
@@ -39,7 +39,7 @@ const CreateBuild = () => {
     slot3: null,
     slot4: null,
     slot5: null,
-    slot6: null
+    slot6: null,
   });
   const [buildTitle, setBuildTitle] = useState("");
   const [buildVideo, setBuildVideo] = useState("");
@@ -50,13 +50,13 @@ const CreateBuild = () => {
   const [rotations, setRotations] = useState({
     inner: 0,
     outer: 0,
-    middle: 0
+    middle: 0,
   });
 
   const history = useHistory();
   /* ALL THE DATA CONTROLLERS EXIST HERE */
   const setStatPointsCB = useCallback(
-    value => {
+    (value) => {
       setStatPoints(value);
     },
     [setStatPoints]
@@ -66,52 +66,52 @@ const CreateBuild = () => {
     (statName, value) => {
       setStats({
         ...stats,
-        [statName]: value
+        [statName]: value,
       });
     },
     [setStats, stats]
   );
 
   const setSlotDataCB = useCallback(
-    data => {
+    (data) => {
       setSlotData(data);
     },
     [setSlotData]
   );
 
   const setDesc = useCallback(
-    data => {
+    (data) => {
       setInputText(data);
     },
     [setInputText]
   );
   const setVid = useCallback(
-    data => {
+    (data) => {
       setBuildVideo(data);
     },
     [setBuildVideo]
   );
   const setComb = useCallback(
-    data => {
+    (data) => {
       setCombatType(data);
     },
     [setCombatType]
   );
   const setPs = useCallback(
-    data => {
+    (data) => {
       setPlaystyle(data);
     },
     [setPlaystyle]
   );
   const setTitle = useCallback(
-    data => {
+    (data) => {
       setBuildTitle(data);
     },
     [setBuildTitle]
   );
 
   const setActiveNodes = useCallback(
-    data => {
+    (data) => {
       setNodes(data);
     },
     [setNodes]
@@ -123,12 +123,12 @@ const CreateBuild = () => {
         setRotations({
           inner: rotation,
           outer: rotation,
-          middle: rotation
+          middle: rotation,
         });
       } else {
         setRotations({
           ...rotations,
-          [scope]: rotation
+          [scope]: rotation,
         });
       }
     },
@@ -147,7 +147,7 @@ const CreateBuild = () => {
       rotations,
       slotData,
       stats,
-      statPoints
+      statPoints,
     };
     try {
       const postRes = await axios.post(buildsRoute, buildPayload);
@@ -163,12 +163,12 @@ const CreateBuild = () => {
     setStatsCB,
     setStatPointsCB,
     stats,
-    statPoints
+    statPoints,
   };
 
   const skillContainerProps = {
     slotData,
-    setSlotDataCB
+    setSlotDataCB,
   };
 
   const buildDescriptionProps = {
@@ -182,14 +182,14 @@ const CreateBuild = () => {
     setPs,
     inputText,
     setDesc,
-    submitData
+    submitData,
   };
 
   const gateOfFatesProps = {
     setActiveNodes,
     activeNodes,
     rotations,
-    setRotationsCB
+    setRotationsCB,
   };
 
   return (

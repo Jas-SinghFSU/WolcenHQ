@@ -74,7 +74,7 @@ const SideNavigation = () => {
             className="antdMenuItem"
             key="3"
             onClick={() => {
-              handleBuildClick("/builds/build/create");
+              handleBuildClick("/builds/create");
             }}
           >
             <FileAddOutlined />

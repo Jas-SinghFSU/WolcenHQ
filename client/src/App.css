@@ -2,6 +2,8 @@
 
 body {
   font-family: Oswald !important;
+  overflow: auto;
+  background: #1a1a1e;
 }
 
 .contentContainer {

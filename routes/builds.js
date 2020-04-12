@@ -10,12 +10,26 @@ const { ensureAuthenticated } = require("../Shared/ensureAuthenticated");
 
 const { ObjectID } = Mongo;
 
-router.get("/fetch", async (req, res) => {
+router.post("/fetch", async (req, res) => {
+  const { page, limit, sortBy } = req.body;
+
+  const sortByFilter = _.isEmpty(sortBy) ? created : sortBy;
+
   try {
-    const results = await BUILDS.find().toArray();
-    res.json(results);
-  } catch (err) {
-    res.status(500).send(err.message);
+    const builds = await BUILDS.find({}, { sort: { [sortByFilter]: -1 } })
+      .skip((page - 1) * limit)
+      .limit(limit)
+      .toArray();
+
+    const totalBuilds = await BUILDS.find().count();
+
+    res.json({
+      status: "success",
+      builds,
+      total: totalBuilds,
+    });
+  } catch (error) {
+    res.status(500).send(error.message);
   }
 });
 

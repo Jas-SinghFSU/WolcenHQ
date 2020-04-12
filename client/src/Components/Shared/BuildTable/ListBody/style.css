@@ -1,0 +1,36 @@
+.buildsListBody {
+  background-color: rgba(245, 245, 245, 0.062);
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: solid 1px;
+  border-color: rgba(146, 121, 83, 0.349);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.buildsListBody:hover {
+  background-color: rgba(245, 245, 245, 0.164);
+}
+
+.tbodyText {
+  font-size: 16px;
+  font-weight: 200;
+  float: left;
+  color: #ffffff;
+  cursor: default;
+}
+
+.tbodyText.tBuildTitle {
+  color: rgb(253, 228, 175);
+  margin-left: 15px;
+}
+
+.tbodyText.lastUpdated {
+  color: rgb(209, 194, 164);
+}
+
+.tbodyText.likes {
+  font-weight: 500;
+}
