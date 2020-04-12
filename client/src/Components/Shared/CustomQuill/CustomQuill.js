@@ -23,20 +23,46 @@ quilIcons["align"]["justify"] = '<i class="fas fa-align-justify"></i>';
 
 const quillBoxModules = {
   toolbar: [
-    [{ header: [1, 2, 3, 4, 5, 6, false] }],
+    [{ header: [1, 2, 3, false] }],
     ["bold", "italic", "underline", "strike"],
     [
       { align: "" },
       { align: "center" },
       { align: "right" },
-      { align: "justify" }
+      { align: "justify" },
     ],
     [{ indent: "-1" }, { indent: "+1" }],
     ["blockquote"],
     [{ list: "ordered" }, { list: "bullet" }],
     ["link"],
-    [{ color: [] }]
-  ]
+    [
+      {
+        color: [
+          "#FCE38A",
+          "#F3A683",
+          "#F5CD7A",
+          "#F7D794",
+          "#556EE6",
+          "#778BEB",
+          "#E66868",
+          "#EB8686",
+          "#C34468",
+          "#CF6A87",
+          "#574B90",
+          "#786FA6",
+          "#F78FB3",
+          "#F8A5C2",
+          "#3EC1D3",
+          "#64CDDB",
+          "#303A52",
+          "#596174",
+          "#E26042",
+          "#E77F67",
+          "rgb(218, 218, 218)",
+        ],
+      },
+    ],
+  ],
 };
 
 const doNothingFunction = () => {
@@ -44,7 +70,7 @@ const doNothingFunction = () => {
   return;
 };
 
-const CustomQuill = props => {
+const CustomQuill = (props) => {
   return (
     <ReactQuill
       className={props.className}

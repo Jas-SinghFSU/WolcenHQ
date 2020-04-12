@@ -1,10 +1,11 @@
-import React, { useEffect, useState, Fragment } from "react";
+import React, { useEffect, useState, Fragment, useRef } from "react";
 import { Avatar, Card, Button } from "antd";
 import sanitizeHtml from "sanitize-html";
 import Moment from "react-moment";
 import _ from "lodash";
 import axios from "axios";
 import CustomQuill from "../../Shared/CustomQuill/CustomQuill";
+import { CaretDownOutlined, CaretUpOutlined } from "@ant-design/icons";
 
 import "react-quill/dist/quill.snow.css";
 import "./style.css";
@@ -19,6 +20,7 @@ const CommentElement = (props) => {
   const [editorData, setEditorData] = useState({
     show: false,
     body: props.comment.body,
+    charLen: 0,
   });
   const [emptyBoxError, setEmptyBoxError] = useState(false);
   const [votes, setVotes] = useState({
@@ -26,12 +28,16 @@ const CommentElement = (props) => {
     dislikes: props.comment.dislikes.map((vote) => vote.userID),
   });
   const [postError, setPostError] = useState("");
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [heightInfo, setHeightInfo] = useState(0);
+  const [isOverflowing, setIsOverflowing] = useState(false);
 
   const { body, created, updated, user, _id } = commentData;
 
   const allowedHTMLTags = ["h1", "h2", "u", "span", "s"];
   const history = useHistory();
   let canVote = true;
+  const commentBodyRef = useRef();
 
   const authorExists = () => {
     return !_.isEmpty(userData);
@@ -81,6 +87,16 @@ const CommentElement = (props) => {
       "text/html"
     ).documentElement;
     return !textContent.trim();
+  };
+
+  const getCommentLength = () => {
+    const parser = new DOMParser();
+
+    const { textContent } = parser.parseFromString(
+      body,
+      "text/html"
+    ).documentElement;
+    return textContent.length;
   };
 
   const setUpvote = async () => {
@@ -137,6 +153,11 @@ const CommentElement = (props) => {
       setUserData({ ...userInfo });
     };
     castUser();
+    const commentRef = commentBodyRef.current;
+    setHeightInfo(commentRef.scrollHeight);
+    if (commentRef.clientHeight < commentRef.scrollHeight - 5) {
+      setIsOverflowing(true);
+    }
   }, []);
 
   return (
@@ -173,8 +194,12 @@ const CommentElement = (props) => {
                   <CustomQuill
                     className="editCommentQuill"
                     value={editorData.body}
-                    onChange={(e) => {
-                      setEditorData({ ...editorData, body: e });
+                    onChange={(content, delta, source, editor) => {
+                      setEditorData({
+                        ...editorData,
+                        body: content,
+                        charLen: editor.getLength(),
+                      });
                       setEmptyBoxError(false);
                     }}
                   />
@@ -218,21 +243,35 @@ const CommentElement = (props) => {
                     >
                       Submit
                     </Button>
+                    <span className="quillCharCount"></span>
                   </div>
                 </div>
               ) : (
                 <div className="commentInfoContainer">
                   <div
-                    className="commentBody ql-editor"
-                    dangerouslySetInnerHTML={{
-                      __html: sanitizeHtml(body, {
-                        allowedTags: sanitizeHtml.defaults.allowedTags.concat(
-                          allowedHTMLTags
-                        ),
-                        allowedAttributes: false,
-                      }),
+                    className="commentBodyContainer"
+                    ref={commentBodyRef}
+                    style={{
+                      maxHeight: `${!isExpanded ? "100px" : `${heightInfo}px`}`,
+                      boxShadow: `${
+                        isOverflowing && !isExpanded
+                          ? "inset rgb(130, 121, 115) -0px -8px 3px -5px"
+                          : ""
+                      }`,
                     }}
-                  />
+                  >
+                    <div
+                      className="commentBody ql-editor"
+                      dangerouslySetInnerHTML={{
+                        __html: sanitizeHtml(body, {
+                          allowedTags: sanitizeHtml.defaults.allowedTags.concat(
+                            allowedHTMLTags
+                          ),
+                          allowedAttributes: false,
+                        }),
+                      }}
+                    />
+                  </div>
                   {created !== updated && (
                     <div className="commentLastUpdatedContainer">
                       <span className="commentLastUpdated">
@@ -279,13 +318,39 @@ const CommentElement = (props) => {
                   </span>
                 </div>
               </div>
+              <div className="controlsMiddle">
+                {isOverflowing && !isExpanded ? (
+                  <span
+                    className="commentControls expand noSelectText"
+                    onClick={() => {
+                      setIsExpanded(true);
+                    }}
+                  >
+                    Expand <CaretDownOutlined />
+                  </span>
+                ) : isOverflowing && isExpanded ? (
+                  <span
+                    className="commentControls expand noSelectText"
+                    onClick={() => {
+                      setIsExpanded(false);
+                    }}
+                  >
+                    Collapse <CaretUpOutlined />
+                  </span>
+                ) : (
+                  <></>
+                )}
+              </div>
               <div className="controlsRight">
                 {!_.isEmpty(currentUser) &&
                   user === currentUser._id &&
                   !editorData.show && (
                     <span
                       onClick={() => {
-                        setEditorData({ ...editorData, show: true });
+                        setEditorData({
+                          body,
+                          show: true,
+                        });
                       }}
                       className="commentControls edit noSelectText"
                     >

@@ -49,20 +49,31 @@
   margin-bottom: 12px;
   font-weight: 300;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .commentCardBottom {
   font-size: 12px;
   color: #a69366;
+  display: flex;
+  flex-direction: row;
 }
 .commentCardBottom .controlsLeft {
-  float: left;
+  width: 15%;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+.commentCardBottom .controlsMiddle {
+  width: 70%;
+  justify-content: center;
   display: flex;
   flex-direction: row;
 }
 .commentCardBottom .controlsRight {
-  float: right;
+  width: 15%;
   display: flex;
+  justify-content: end;
 }
 
 .commentUpvoteButton {
@@ -98,6 +109,12 @@
   border: 1px solid;
   border-color: #5e3d0165;
 }
+
+.commentBodyContainer {
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
 .commentBody {
   text-align: left;
 }
@@ -108,8 +125,7 @@
 
 .commentBody.ql-editor {
   background: transparent;
-  max-height: 0;
-  display: initial;
+  min-height: unset;
   padding: 0;
 }
 
