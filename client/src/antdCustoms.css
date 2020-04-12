@@ -102,3 +102,63 @@
   border-color: #4c6c72 !important;
   color: rgb(185, 185, 185) !important;
 }
+
+/***************** PAGINATION STYLING *****************/
+.customPagination .ant-pagination-item {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.customPagination .ant-pagination-item:hover {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-item-active {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-item-active a {
+  color: #6ed2e4 !important;
+}
+.customPagination .ant-pagination-item-ellipsis {
+  color: rgb(218, 218, 218) !important;
+}
+
+.customPagination .ant-pagination-prev a {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.customPagination .ant-pagination-prev a:hover {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-prev.ant-pagination-disabled a {
+  border-color: grey;
+}
+.customPagination .ant-pagination-prev.ant-pagination-disabled span {
+  color: grey;
+}
+
+.customPagination .ant-pagination-next a {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.customPagination .ant-pagination-next a:hover {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-next.ant-pagination-disabled a {
+  border-color: grey;
+}
+.customPagination .ant-pagination-next.ant-pagination-disabled span {
+  color: grey;
+}
+
+.customPagination li a {
+  color: rgb(218, 218, 218) !important;
+}
+
+.customPagination .ant-pagination-options {
+  display: none;
+}
+
+/***************** SPINNING LOADER STYLING *****************/
+
+.customLoader .ant-spin-dot-item {
+  background-color: #53daf1;
+}

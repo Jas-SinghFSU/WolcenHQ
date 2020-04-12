@@ -170,6 +170,8 @@
   border-color: rgba(107, 107, 107, 0.288);
 }
 .spellTooltip {
+  background: rgba(0, 0, 0, 0.925) !important;
+  border: 1px solid rgba(163, 136, 77, 0.342) !important;
   width: 300px;
   height: 150px;
   display: inline-table;

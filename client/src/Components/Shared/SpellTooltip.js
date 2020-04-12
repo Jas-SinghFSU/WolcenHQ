@@ -3,7 +3,7 @@ import ReactTooltip from "react-tooltip";
 
 import { Row, Col, Avatar } from "antd";
 
-const SpellToolTip = props => {
+const SpellToolTip = (props) => {
   const {
     skillName,
     imageName,
@@ -11,7 +11,7 @@ const SpellToolTip = props => {
     skillType,
     skillUsableWith,
     skillTags,
-    direction
+    direction,
   } = props;
   return (
     <ReactTooltip

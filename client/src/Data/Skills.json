@@ -446,7 +446,7 @@
       "skillTags": ["Attack", "Projectile", "Rogue", "Device"],
       "modifiers": [
         {
-          "name": "Turret stays active for a longer duration.",
+          "name": "Sleepless Sentry",
           "cost": 1
         },
         {

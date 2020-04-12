@@ -25,12 +25,43 @@
 .tbodyText.tBuildTitle {
   color: rgb(253, 228, 175);
   margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tbodyText.tBuildTitle:hover {
+  text-decoration: underline;
+}
+
+.tbodyText.tBuildAuthor {
+  color: rgb(180, 180, 180);
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px;
+}
+.tAuthorName {
+  color: #d09c5a;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .tbodyText.lastUpdated {
-  color: rgb(209, 194, 164);
+  color: rgb(119, 119, 119);
+  margin-left: 5px;
 }
 
 .tbodyText.likes {
   font-weight: 500;
+}
+
+.skillContainerBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -5px;
+}
+
+.tBuildTitleContainer {
+  display: flex;
+  flex-direction: column;
 }

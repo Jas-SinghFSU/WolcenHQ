@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { Row, Col, Button, Pagination } from "antd";
 import _ from "lodash";
+import ReactTooltip from "react-tooltip";
 
 import CustomQuill from "../../../../Shared/CustomQuill/CustomQuill";
 import CommentElement from "../../../../Shared/CommentElement/CommentElement";
@@ -111,6 +112,8 @@ const Comments = (props) => {
       {!commentContainer ? (
         <div className="newCommentButtonContainer">
           <Button
+            data-tip
+            data-for={"disabledCommentTooltip"}
             className={`newCommentButton${
               _.isEmpty(props.user) ? "-disabled" : ""
             } customPrimary${_.isEmpty(props.user) ? "-disabled" : ""}`}
@@ -122,6 +125,15 @@ const Comments = (props) => {
             }}
           >
             <i className="fas fa-plus"></i> New Comment
+            {_.isEmpty(props.user) && (
+              <ReactTooltip
+                id="disabledCommentTooltip"
+                effect="float"
+                place="top"
+              >
+                <span>Please log in to comment.</span>
+              </ReactTooltip>
+            )}
           </Button>
         </div>
       ) : (
@@ -146,7 +158,7 @@ const CommentItems = (props) => {
       {comments.comments.length > 0 && (
         <div className="commentPaginationContainer">
           <Pagination
-            className="commentPagination"
+            className="customPagination"
             current={curPage}
             total={props.comments.total}
             onChange={(page) => {

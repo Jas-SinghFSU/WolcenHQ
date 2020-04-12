@@ -5,17 +5,27 @@ import ListBody from "./ListBody/ListBody";
 import "./style.css";
 
 const BuildTable = (props) => {
-  const { builds } = props;
+  const { builds, getUserData } = props;
 
   const [backups, setBackups] = useState(null);
 
+  if (!builds) {
+    return <Fragment></Fragment>;
+  }
+
   return (
     <div>
-      {builds && Array.isArray(builds.builds) ? (
+      {builds.builds.length > 0 ? (
         <Fragment>
           <ListHeader />
           {builds.builds.map((build) => {
-            return <ListBody key={build._id} build={build} />;
+            return (
+              <ListBody
+                key={build._id}
+                build={build}
+                getUserData={getUserData}
+              />
+            );
           })}
         </Fragment>
       ) : (

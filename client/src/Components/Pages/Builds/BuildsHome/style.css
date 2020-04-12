@@ -1,3 +1,12 @@
 .buildsHomeContainer {
   margin-top: 100px;
 }
+
+.buildTablePaginationTop {
+  margin-bottom: 20px;
+}
+
+.buildTablePaginationBottom {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

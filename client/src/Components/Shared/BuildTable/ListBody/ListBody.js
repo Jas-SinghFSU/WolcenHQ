@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { Row, Col, Tag } from "antd";
+import Moment from "react-moment";
+import _ from "lodash";
+
+import SkillContainer from "../../../Shared/SkillContainer/SkillContainer";
 
 import "./style.css";
-import Moment from "react-moment";
-import { get } from "mongoose";
 
 const ListBody = (props) => {
   const {
@@ -16,7 +18,12 @@ const ListBody = (props) => {
     likes,
     dislikes,
     lastUpdated,
+    author,
   } = props.build;
+
+  const { getUserData } = props;
+
+  const [userData, setUserData] = useState("");
 
   const combatTagColors = {
     caster: "rgb(102, 84, 153)",
@@ -36,16 +43,45 @@ const ListBody = (props) => {
     return voteSum;
   };
 
+  useEffect(() => {
+    const castUser = async () => {
+      const userInfo = await getUserData(author);
+      if (_.isEmpty(userInfo)) {
+        setUserData({ displayName: "Anonymous" });
+      } else {
+        setUserData({ ...userInfo });
+      }
+    };
+    castUser();
+  }, []);
+
   return (
     <div>
-      <Row
-        className="buildsListBody"
-        onClick={() => {
-          handleBuildClick(_id);
-        }}
-      >
+      <Row className="buildsListBody">
         <Col span={7} offset={0}>
-          <span className="tbodyText tBuildTitle">{buildTitle}</span>
+          <div className="tBuildTitleContainer">
+            <span
+              className="tbodyText tBuildTitle"
+              onClick={() => {
+                handleBuildClick(_id);
+              }}
+            >
+              {buildTitle}
+            </span>
+            <span className="tbodyText tBuildAuthor">
+              by{" "}
+              <span
+                className="tAuthorName"
+                onClick={() => {
+                  if (!_.isEmpty(author)) {
+                    history.push(`/users/user/${author}`);
+                  }
+                }}
+              >
+                {userData.displayName}
+              </span>
+            </span>
+          </div>
         </Col>
         <Col span={4} offset={0}>
           <span className="tbodyText">
@@ -55,8 +91,12 @@ const ListBody = (props) => {
             </Tag>
           </span>
         </Col>
-        <Col span={8} offset={0}>
-          <span className="tbodyText">Spells</span>
+        <Col span={8} offset={0} className="skillContainerBody">
+          {Object.keys(slotData).map((key) => {
+            return (
+              <SkillContainer slotData={slotData[key]} avatarSize={45} thin />
+            );
+          })}
         </Col>
         <Col span={2} offset={0}>
           <span
@@ -67,7 +107,7 @@ const ListBody = (props) => {
                   ? "rgb(111, 219, 132)"
                   : getLikes() < 0
                   ? "rgb(232, 100, 100)"
-                  : ""
+                  : "#f4f0e7a3"
               }`,
               marginLeft: `${getLikes() === 0 ? "5px" : ""}`,
             }}

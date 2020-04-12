@@ -6,15 +6,8 @@ import ReactTooltip from "react-tooltip";
 
 const maxModifierLimit = 10;
 
-const SkillSlot = props => {
-  const {
-    slotData,
-    slotNumber,
-    handleModalData,
-    handleModModalData,
-    getTotalModPoints,
-    removeSkillFromSlot
-  } = props;
+const SkillSlot = (props) => {
+  const { slotData, getTotalModPoints } = props;
 
   return (
     <Col span={4} offset={0}>
