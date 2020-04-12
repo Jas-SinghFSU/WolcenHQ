@@ -153,12 +153,17 @@ const CommentElement = (props) => {
       setUserData({ ...userInfo });
     };
     castUser();
+  }, []);
+
+  useEffect(() => {
     const commentRef = commentBodyRef.current;
     setHeightInfo(commentRef.scrollHeight);
     if (commentRef.clientHeight < commentRef.scrollHeight - 5) {
       setIsOverflowing(true);
+    } else {
+      setIsOverflowing(false);
     }
-  }, []);
+  }, [body]);
 
   return (
     <div className="commentElementContainer">
@@ -252,10 +257,15 @@ const CommentElement = (props) => {
                     className="commentBodyContainer"
                     ref={commentBodyRef}
                     style={{
-                      maxHeight: `${!isExpanded ? "100px" : `${heightInfo}px`}`,
+                      maxHeight: `${!isExpanded ? "150px" : `${heightInfo}px`}`,
+                      borderBottom: `${
+                        isOverflowing && !isExpanded
+                          ? "1px solid rgb(191, 163, 105)"
+                          : ""
+                      }`,
                       boxShadow: `${
                         isOverflowing && !isExpanded
-                          ? "inset rgb(130, 121, 115) -0px -8px 3px -5px"
+                          ? "inset rgb(70, 69, 67) -0px -8px 3px -5px"
                           : ""
                       }`,
                     }}
