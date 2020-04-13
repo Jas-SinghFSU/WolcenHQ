@@ -6,22 +6,57 @@ const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const BUILDS = db.collection("Builds");
 const COMMENTS = db.collection("BuildComments");
+const USERS = db.collection("Users");
 const { ensureAuthenticated } = require("../Shared/ensureAuthenticated");
 
 const { ObjectID } = Mongo;
 
 router.post("/fetch", async (req, res) => {
-  const { page, limit, sortBy } = req.body;
+  const { page, limit, sortBy, filter, searchValue } = req.body;
 
-  const sortByFilter = _.isEmpty(sortBy) ? created : sortBy;
+  const sortByFilter = _.isEmpty(sortBy) ? "created" : sortBy;
+  const filterVal = _.isEmpty(filter) ? "buildTitle" : filter;
+  let searchVal = _.isEmpty(searchValue) ? "" : searchValue;
 
   try {
-    const builds = await BUILDS.find({}, { sort: { [sortByFilter]: -1 } })
-      .skip((page - 1) * limit)
-      .limit(limit)
-      .toArray();
+    let builds;
+    let totalBuilds;
 
-    const totalBuilds = await BUILDS.find().count();
+    if (filter === "author") {
+      const foundUsers = await USERS.find({
+        displayName: { $regex: searchVal, $options: "i" },
+      }).toArray();
+
+      const filteredUsers = foundUsers.map((user) => {
+        return user._id.toString();
+      });
+      builds = await BUILDS.find(
+        { author: { $in: filteredUsers } },
+        { sort: { [sortByFilter]: -1 } }
+      )
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .toArray();
+
+      totalBuilds = await BUILDS.find(
+        { author: { $in: filteredUsers } },
+        { sort: { [sortByFilter]: -1 } }
+      ).count();
+    }
+
+    if (filter === "buildTitle") {
+      builds = await BUILDS.find(
+        { [filterVal]: { $regex: searchVal, $options: "i" } },
+        { sort: { [sortByFilter]: -1 } }
+      )
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .toArray();
+
+      totalBuilds = await BUILDS.find({
+        [filterVal]: { $regex: searchVal, $options: "i" },
+      }).count();
+    }
 
     res.json({
       status: "success",
@@ -59,7 +94,7 @@ router.post("/build/create", async (req, res) => {
     slotData: slotData || "",
     stats: stats || "",
     statPoints: statPoints,
-    author: !_.isEmpty(res.locals.user) ? res.locals.user[0]._id : null,
+    author: !_.isEmpty(res.locals.user) ? res.locals.user[0]._id : "Anonymous",
     likes: [],
     dislikes: [],
     created: new Date(),

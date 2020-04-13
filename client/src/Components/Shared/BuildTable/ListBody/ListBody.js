@@ -45,10 +45,10 @@ const ListBody = (props) => {
 
   useEffect(() => {
     const castUser = async () => {
-      const userInfo = await getUserData(author);
-      if (_.isEmpty(userInfo)) {
+      if (author === "Anonymous") {
         setUserData({ displayName: "Anonymous" });
       } else {
+        const userInfo = await getUserData(author);
         setUserData({ ...userInfo });
       }
     };
@@ -73,7 +73,7 @@ const ListBody = (props) => {
               <span
                 className="tAuthorName"
                 onClick={() => {
-                  if (!_.isEmpty(author)) {
+                  if (author !== "Anonymous") {
                     history.push(`/users/user/${author}`);
                   }
                 }}
@@ -94,7 +94,12 @@ const ListBody = (props) => {
         <Col span={8} offset={0} className="skillContainerBody">
           {Object.keys(slotData).map((key) => {
             return (
-              <SkillContainer slotData={slotData[key]} avatarSize={45} thin />
+              <SkillContainer
+                key={`${_id}${key}`}
+                slotData={slotData[key]}
+                avatarSize={45}
+                thin
+              />
             );
           })}
         </Col>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
+import BuildSearch from "./BuildSearch/BuildSearch";
 import BuildTable from "../../../Shared/BuildTable/BuildTable";
 import CenteredLoader from "../../../Shared/CenteredLoader/CenteredLoader";
 
@@ -12,6 +13,10 @@ const BuildsHome = () => {
     limit: 10,
     page: 1,
     sortBy: "created",
+    searchValue: "",
+  });
+  const [searchParams, setSearchParams] = useState({
+    filter: "buildTitle",
   });
 
   const [builds, setBuilds] = useState(null);
@@ -19,7 +24,11 @@ const BuildsHome = () => {
 
   const fetchBuilds = async () => {
     try {
-      const buildsRes = await axios.post("/api/builds/fetch", paging);
+      const payload = {
+        ...paging,
+        filter: searchParams.filter,
+      };
+      const buildsRes = await axios.post("/api/builds/fetch", payload);
       setBuilds({
         builds: buildsRes.data.builds,
         total: buildsRes.data.total,
@@ -50,35 +59,47 @@ const BuildsHome = () => {
     return <CenteredLoader />;
   }
 
+  const buildSearchProps = {
+    paging,
+    setPaging,
+    setSearchParams,
+    searchParams,
+  };
+
   return (
     <div className="buildsHomeContainer">
       <Row className="buildsHomeRow">
         <Col span={22} offset={1}>
-          <Pagination
-            className="customPagination buildTablePaginationTop"
-            current={curPage}
-            total={builds ? builds.total : 0}
-            onChange={(page) => {
-              setPaging({
-                ...paging,
-                page,
-              });
-              setCurPage(page);
-            }}
-          />
+          <BuildSearch {...buildSearchProps} />
+          {builds.total !== 0 && (
+            <Pagination
+              className="customPagination buildTablePaginationTop"
+              current={curPage}
+              total={builds ? builds.total : 0}
+              onChange={(page) => {
+                setPaging({
+                  ...paging,
+                  page,
+                });
+                setCurPage(page);
+              }}
+            />
+          )}
           <BuildTable builds={builds} getUserData={getUserData} />
-          <Pagination
-            className="customPagination buildTablePaginationBottom"
-            current={curPage}
-            total={builds ? builds.total : 0}
-            onChange={(page) => {
-              setPaging({
-                ...paging,
-                page,
-              });
-              setCurPage(page);
-            }}
-          />
+          {builds.total !== 0 && (
+            <Pagination
+              className="customPagination buildTablePaginationBottom"
+              current={curPage}
+              total={builds ? builds.total : 0}
+              onChange={(page) => {
+                setPaging({
+                  ...paging,
+                  page,
+                });
+                setCurPage(page);
+              }}
+            />
+          )}
         </Col>
       </Row>
     </div>
