@@ -10,7 +10,7 @@ import axios from "axios";
 
 const BuildsHome = () => {
   const [paging, setPaging] = useState({
-    limit: 10,
+    limit: 15,
     page: 1,
     sortBy: "created",
     searchValue: "",
@@ -76,6 +76,7 @@ const BuildsHome = () => {
               className="customPagination buildTablePaginationTop"
               current={curPage}
               total={builds ? builds.total : 0}
+              pageSize={paging.limit}
               onChange={(page) => {
                 setPaging({
                   ...paging,
@@ -91,6 +92,7 @@ const BuildsHome = () => {
               className="customPagination buildTablePaginationBottom"
               current={curPage}
               total={builds ? builds.total : 0}
+              pageSize={paging.limit}
               onChange={(page) => {
                 setPaging({
                   ...paging,
