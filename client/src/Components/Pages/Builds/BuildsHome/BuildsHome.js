@@ -17,6 +17,8 @@ const BuildsHome = () => {
   });
   const [searchParams, setSearchParams] = useState({
     filter: "buildTitle",
+    combatType: "all",
+    playstyle: "all",
   });
 
   const [builds, setBuilds] = useState(null);
@@ -27,6 +29,8 @@ const BuildsHome = () => {
       const payload = {
         ...paging,
         filter: searchParams.filter,
+        combatType: searchParams.combatType,
+        playstyle: searchParams.playstyle,
       };
       const buildsRes = await axios.post("/api/builds/fetch", payload);
       setBuilds({

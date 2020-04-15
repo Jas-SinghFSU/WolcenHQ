@@ -28,7 +28,7 @@ router.post("/fetch", async (req, res) => {
   const playstyleVal =
     playstyle === "all" || _.isEmpty(playstyle)
       ? { playstyle: { $regex: "", $options: "i" } }
-      : playstyle;
+      : { playstyle };
   const combatTypeVal =
     combatType === "all" || _.isEmpty(combatType)
       ? { combatType: { $regex: "", $options: "i" } }
@@ -47,7 +47,7 @@ router.post("/fetch", async (req, res) => {
         return user._id.toString();
       });
       builds = await BUILDS.find(
-        { author: { $in: filteredUsers } },
+        { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
         { sort: { [sortByFilter]: -1 } }
       )
         .skip((page - 1) * limit)
@@ -55,7 +55,7 @@ router.post("/fetch", async (req, res) => {
         .toArray();
 
       totalBuilds = await BUILDS.find(
-        { author: { $in: filteredUsers } },
+        { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
         { sort: { [sortByFilter]: -1 } }
       ).count();
     }
@@ -75,6 +75,8 @@ router.post("/fetch", async (req, res) => {
 
       totalBuilds = await BUILDS.find({
         [filterVal]: { $regex: searchVal, $options: "i" },
+        ...combatTypeVal,
+        ...playstyleVal,
       }).count();
     }
 
