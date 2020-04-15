@@ -16,12 +16,18 @@ router.post("/fetch", async (req, res) => {
     page,
     limit,
     sortBy,
+    sortType,
     filter,
     searchValue,
     playstyle,
     combatType,
   } = req.body;
 
+  const sortTypeVal =
+    sortType === "descending" ||
+    (sortBy === "lastUpdated" && _.isEmpty(sortType))
+      ? -1
+      : 1;
   const sortByFilter = _.isEmpty(sortBy) ? "created" : sortBy;
   const filterVal = _.isEmpty(filter) ? "buildTitle" : filter;
   let searchVal = _.isEmpty(searchValue) ? "" : searchValue;
@@ -33,6 +39,16 @@ router.post("/fetch", async (req, res) => {
     combatType === "all" || _.isEmpty(combatType)
       ? { combatType: { $regex: "", $options: "i" } }
       : { combatType };
+
+  let sortObj = { sort: { [sortByFilter]: sortTypeVal } };
+
+  // if (sortByFilter === "buildTitle") {
+  //   sortObj = {
+  //     $sort: { score: { $meta: "textScore" }, [sortByFilter]: sortTypeVal },
+  //   };
+  // } else {
+  //   sortObj = { sort: { [sortByFilter]: sortTypeVal } };
+  // }
 
   try {
     let builds;
@@ -48,16 +64,18 @@ router.post("/fetch", async (req, res) => {
       });
       builds = await BUILDS.find(
         { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
-        { sort: { [sortByFilter]: -1 } }
+        sortObj
       )
+        .collation({ locale: "en_US", numericOrdering: true })
         .skip((page - 1) * limit)
         .limit(limit)
         .toArray();
 
-      totalBuilds = await BUILDS.find(
-        { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
-        { sort: { [sortByFilter]: -1 } }
-      ).count();
+      totalBuilds = await BUILDS.find({
+        author: { $in: filteredUsers },
+        ...combatTypeVal,
+        ...playstyleVal,
+      }).count();
     }
 
     if (filter === "buildTitle") {
@@ -67,8 +85,9 @@ router.post("/fetch", async (req, res) => {
           ...combatTypeVal,
           ...playstyleVal,
         },
-        { sort: { [sortByFilter]: -1 } }
+        sortObj
       )
+        .collation({ locale: "en_US", numericOrdering: true })
         .skip((page - 1) * limit)
         .limit(limit)
         .toArray();

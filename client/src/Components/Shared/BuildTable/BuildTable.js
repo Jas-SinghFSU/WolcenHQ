@@ -17,7 +17,7 @@ const BuildTable = (props) => {
     <div>
       {builds.builds.length > 0 ? (
         <Fragment>
-          <ListHeader />
+          <ListHeader {...props} />
           {builds.builds.map((build) => {
             return (
               <ListBody

@@ -12,6 +12,7 @@
   font-weight: 200;
   float: left;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .headerTitle.tBuildName {

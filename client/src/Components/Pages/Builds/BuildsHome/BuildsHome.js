@@ -20,23 +20,34 @@ const BuildsHome = () => {
     combatType: "all",
     playstyle: "all",
   });
+  const [filters, setFilters] = useState({
+    sortBy: "created",
+    sortType: "descending",
+  });
 
   const [builds, setBuilds] = useState(null);
   const [curPage, setCurPage] = useState(1);
+  const [pageLoaded, setPageLoaded] = useState(false);
+  const [canSort, setCanSort] = useState(false);
 
   const fetchBuilds = async () => {
     try {
+      setCanSort(false);
       const payload = {
         ...paging,
         filter: searchParams.filter,
         combatType: searchParams.combatType,
         playstyle: searchParams.playstyle,
+        sortBy: filters.sortBy,
+        sortType: filters.sortType,
       };
       const buildsRes = await axios.post("/api/builds/fetch", payload);
       setBuilds({
         builds: buildsRes.data.builds,
         total: buildsRes.data.total,
       });
+      setPageLoaded(true);
+      setCanSort(true);
     } catch (error) {
       console.error("An error occurred while fetching builds.");
     }
@@ -59,6 +70,12 @@ const BuildsHome = () => {
     fetchBuilds();
   }, [paging]);
 
+  useEffect(() => {
+    if (pageLoaded) {
+      fetchBuilds();
+    }
+  }, [filters]);
+
   if (!builds) {
     return <CenteredLoader />;
   }
@@ -68,6 +85,10 @@ const BuildsHome = () => {
     setPaging,
     setSearchParams,
     searchParams,
+    setFilters,
+    filters,
+    canSort,
+    setCanSort,
   };
 
   return (
@@ -90,7 +111,11 @@ const BuildsHome = () => {
               }}
             />
           )}
-          <BuildTable builds={builds} getUserData={getUserData} />
+          <BuildTable
+            builds={builds}
+            getUserData={getUserData}
+            {...buildSearchProps}
+          />
           {builds.total !== 0 && (
             <Pagination
               className="customPagination buildTablePaginationBottom"
