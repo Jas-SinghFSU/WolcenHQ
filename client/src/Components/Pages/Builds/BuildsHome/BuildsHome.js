@@ -49,6 +49,7 @@ const BuildsHome = () => {
       setPageLoaded(true);
       setCanSort(true);
     } catch (error) {
+      setCanSort(true);
       console.error("An error occurred while fetching builds.");
     }
   };

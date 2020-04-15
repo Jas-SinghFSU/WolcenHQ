@@ -10,9 +10,9 @@ const ListHeader = (props) => {
   const renderArrowFor = (sortByVal) => {
     if (sortByVal === sortBy) {
       if (sortType === "ascending") {
-        return <CaretUpOutlined />;
+        return <CaretUpOutlined className="tUpArrow" />;
       } else if (sortType === "descending") {
-        return <CaretDownOutlined />;
+        return <CaretDownOutlined className="tDownArrow" />;
       }
     }
   };

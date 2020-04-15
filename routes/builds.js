@@ -23,12 +23,9 @@ router.post("/fetch", async (req, res) => {
     combatType,
   } = req.body;
 
-  const sortTypeVal =
-    sortType === "descending" ||
-    (sortBy === "lastUpdated" && _.isEmpty(sortType))
-      ? -1
-      : 1;
-  const sortByFilter = _.isEmpty(sortBy) ? "created" : sortBy;
+  const sortTypeVal = sortType === "descending" || _.isEmpty(sortType) ? -1 : 1;
+  const sortByFilter =
+    _.isEmpty(sortBy) || _.isEmpty(sortType) ? "lastUpdated" : sortBy;
   const filterVal = _.isEmpty(filter) ? "buildTitle" : filter;
   let searchVal = _.isEmpty(searchValue) ? "" : searchValue;
   const playstyleVal =
@@ -41,14 +38,6 @@ router.post("/fetch", async (req, res) => {
       : { combatType };
 
   let sortObj = { sort: { [sortByFilter]: sortTypeVal } };
-
-  // if (sortByFilter === "buildTitle") {
-  //   sortObj = {
-  //     $sort: { score: { $meta: "textScore" }, [sortByFilter]: sortTypeVal },
-  //   };
-  // } else {
-  //   sortObj = { sort: { [sortByFilter]: sortTypeVal } };
-  // }
 
   try {
     let builds;
