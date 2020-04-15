@@ -19,6 +19,7 @@ module.exports = function (passport) {
           displayName: profile.displayName,
           image: profile.photos[2],
           visibility: "public",
+          created: new Date(),
         };
 
         let foundUser;

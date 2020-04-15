@@ -12,11 +12,27 @@ const { ensureAuthenticated } = require("../Shared/ensureAuthenticated");
 const { ObjectID } = Mongo;
 
 router.post("/fetch", async (req, res) => {
-  const { page, limit, sortBy, filter, searchValue } = req.body;
+  const {
+    page,
+    limit,
+    sortBy,
+    filter,
+    searchValue,
+    playstyle,
+    combatType,
+  } = req.body;
 
   const sortByFilter = _.isEmpty(sortBy) ? "created" : sortBy;
   const filterVal = _.isEmpty(filter) ? "buildTitle" : filter;
   let searchVal = _.isEmpty(searchValue) ? "" : searchValue;
+  const playstyleVal =
+    playstyle === "all" || _.isEmpty(playstyle)
+      ? { playstyle: { $regex: "", $options: "i" } }
+      : playstyle;
+  const combatTypeVal =
+    combatType === "all" || _.isEmpty(combatType)
+      ? { combatType: { $regex: "", $options: "i" } }
+      : { combatType };
 
   try {
     let builds;
@@ -46,7 +62,11 @@ router.post("/fetch", async (req, res) => {
 
     if (filter === "buildTitle") {
       builds = await BUILDS.find(
-        { [filterVal]: { $regex: searchVal, $options: "i" } },
+        {
+          [filterVal]: { $regex: searchVal, $options: "i" },
+          ...combatTypeVal,
+          ...playstyleVal,
+        },
         { sort: { [sortByFilter]: -1 } }
       )
         .skip((page - 1) * limit)
