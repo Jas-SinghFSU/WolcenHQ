@@ -25,7 +25,7 @@ const BuildSearch = ({ paging, setPaging, searchParams, setSearchParams }) => {
 
   const playstyleMenu = (
     <Menu onClick={handlePlaystyleClick}>
-      <Menu.Item key="all">Playstyle</Menu.Item>
+      <Menu.Item key="all">All Playstyles</Menu.Item>
       <Menu.Item key="Solo">Solo</Menu.Item>
       <Menu.Item key="Group">Group</Menu.Item>
       <Menu.Item key="Solo + Group">Solo + Group</Menu.Item>
@@ -34,7 +34,7 @@ const BuildSearch = ({ paging, setPaging, searchParams, setSearchParams }) => {
 
   const combatTypeMenu = (
     <Menu onClick={handleCombatTypeClick}>
-      <Menu.Item key="all">Combat Type</Menu.Item>
+      <Menu.Item key="all">All Combat Types</Menu.Item>
       <Menu.Item key="Melee">Melee</Menu.Item>
       <Menu.Item key="Caster">Caster</Menu.Item>
       <Menu.Item key="Ranged">Ranged</Menu.Item>

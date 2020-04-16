@@ -15,6 +15,7 @@ import {
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
 import _ from "lodash";
+import GenericContext from "../../../Contexts/GenericContext";
 
 import "antd/dist/antd.css";
 import "./style.css";
@@ -24,6 +25,8 @@ const { Sider } = Layout;
 const SideNavigation = () => {
   const history = useHistory();
   const userContext = useContext(UserProvider.context);
+  const { sidebarWidth, setSidebarWidth } = useContext(GenericContext.context);
+
   const [navCollapsed, setNavCollapsed] = useState(false);
   const [user, setUser] = useState({});
   const toggleNavCollapsed = () => {
@@ -37,6 +40,14 @@ const SideNavigation = () => {
   useEffect(() => {
     setUser(userContext.user);
   }, [userContext.user]);
+
+  useEffect(() => {
+    if (navCollapsed) {
+      setSidebarWidth(80);
+    } else {
+      setSidebarWidth(240);
+    }
+  }, [navCollapsed]);
 
   return (
     <Layout

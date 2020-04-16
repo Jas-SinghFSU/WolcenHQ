@@ -69,7 +69,7 @@ const BuildsHome = () => {
 
   useEffect(() => {
     fetchBuilds();
-  }, [paging]);
+  }, [paging, searchParams]);
 
   useEffect(() => {
     if (pageLoaded) {
