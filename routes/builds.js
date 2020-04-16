@@ -200,6 +200,24 @@ router.post("/fetch", async (req, res) => {
                         ],
                       },
                     },
+                    {
+                      case: {
+                        $eq: [
+                          {
+                            $subtract: [
+                              {
+                                $size: "$likes",
+                              },
+                              {
+                                $size: "$dislikes",
+                              },
+                            ],
+                          },
+                          0,
+                        ],
+                      },
+                      then: 0,
+                    },
                   ],
                   default: {
                     $divide: [
