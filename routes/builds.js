@@ -24,14 +24,19 @@ router.post("/fetch", async (req, res) => {
   } = req.body;
 
   const sortTypeVal = sortType === "descending" || _.isEmpty(sortType) ? -1 : 1;
+
   const sortByFilter =
     _.isEmpty(sortBy) || _.isEmpty(sortType) ? "lastUpdated" : sortBy;
+
   const filterVal = _.isEmpty(filter) ? "buildTitle" : filter;
+
   let searchVal = _.isEmpty(searchValue) ? "" : searchValue;
+
   const playstyleVal =
     playstyle === "all" || _.isEmpty(playstyle)
       ? { playstyle: { $regex: "", $options: "i" } }
       : { playstyle };
+
   const combatTypeVal =
     combatType === "all" || _.isEmpty(combatType)
       ? { combatType: { $regex: "", $options: "i" } }
@@ -51,14 +56,91 @@ router.post("/fetch", async (req, res) => {
       const filteredUsers = foundUsers.map((user) => {
         return user._id.toString();
       });
-      builds = await BUILDS.find(
-        { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
-        sortObj
-      )
-        .collation({ locale: "en_US", numericOrdering: true })
-        .skip((page - 1) * limit)
-        .limit(limit)
-        .toArray();
+
+      if (sortByFilter === "votes") {
+        builds = await BUILDS.aggregate([
+          {
+            $match: {
+              author: { $in: filteredUsers },
+              ...combatTypeVal,
+              ...playstyleVal,
+            },
+          },
+          {
+            $addFields: {
+              voteRatio: {
+                $switch: {
+                  branches: [
+                    {
+                      case: {
+                        $eq: [
+                          {
+                            $size: "$dislikes",
+                          },
+                          0,
+                        ],
+                      },
+                      then: {
+                        $divide: [
+                          {
+                            $size: "$likes",
+                          },
+                          1,
+                        ],
+                      },
+                    },
+                    {
+                      case: {
+                        $eq: [
+                          {
+                            $size: "$likes",
+                          },
+                          0,
+                        ],
+                      },
+                      then: {
+                        $divide: [
+                          {
+                            $size: "$dislikes",
+                          },
+                          -1,
+                        ],
+                      },
+                    },
+                  ],
+                  default: {
+                    $divide: [
+                      {
+                        $size: "$likes",
+                      },
+                      {
+                        $size: "$dislikes",
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          },
+          {
+            $sort: {
+              voteRatio: sortTypeVal,
+            },
+          },
+        ])
+          .skip((page - 1) * limit)
+          .limit(limit)
+          .toArray();
+      } else {
+        builds = await BUILDS.find(
+          { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
+          sortObj
+        )
+          .collation({ locale: "en_US", numericOrdering: true })
+          .skip((page - 1) * limit)
+          .limit(limit)
+          .toArray();
+      }
 
       totalBuilds = await BUILDS.find({
         author: { $in: filteredUsers },
@@ -68,18 +150,94 @@ router.post("/fetch", async (req, res) => {
     }
 
     if (filter === "buildTitle") {
-      builds = await BUILDS.find(
-        {
-          [filterVal]: { $regex: searchVal, $options: "i" },
-          ...combatTypeVal,
-          ...playstyleVal,
-        },
-        sortObj
-      )
-        .collation({ locale: "en_US", numericOrdering: true })
-        .skip((page - 1) * limit)
-        .limit(limit)
-        .toArray();
+      if (sortByFilter === "votes") {
+        builds = await BUILDS.aggregate([
+          {
+            $match: {
+              buildTitle: new RegExp(searchVal, "i"),
+              ...combatTypeVal,
+              ...playstyleVal,
+            },
+          },
+          {
+            $addFields: {
+              voteRatio: {
+                $switch: {
+                  branches: [
+                    {
+                      case: {
+                        $eq: [
+                          {
+                            $size: "$dislikes",
+                          },
+                          0,
+                        ],
+                      },
+                      then: {
+                        $divide: [
+                          {
+                            $size: "$likes",
+                          },
+                          1,
+                        ],
+                      },
+                    },
+                    {
+                      case: {
+                        $eq: [
+                          {
+                            $size: "$likes",
+                          },
+                          0,
+                        ],
+                      },
+                      then: {
+                        $divide: [
+                          {
+                            $size: "$dislikes",
+                          },
+                          -1,
+                        ],
+                      },
+                    },
+                  ],
+                  default: {
+                    $divide: [
+                      {
+                        $size: "$likes",
+                      },
+                      {
+                        $size: "$dislikes",
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          },
+          {
+            $sort: {
+              voteRatio: sortTypeVal,
+            },
+          },
+        ])
+          .skip((page - 1) * limit)
+          .limit(limit)
+          .toArray();
+      } else {
+        builds = await BUILDS.find(
+          {
+            [filterVal]: { $regex: searchVal, $options: "i" },
+            ...combatTypeVal,
+            ...playstyleVal,
+          },
+          sortObj
+        )
+          .collation({ locale: "en_US", numericOrdering: true })
+          .skip((page - 1) * limit)
+          .limit(limit)
+          .toArray();
+      }
 
       totalBuilds = await BUILDS.find({
         [filterVal]: { $regex: searchVal, $options: "i" },
@@ -87,7 +245,6 @@ router.post("/fetch", async (req, res) => {
         ...playstyleVal,
       }).count();
     }
-
     res.json({
       status: "success",
       builds,
@@ -376,3 +533,34 @@ router.put("/build/:id/comment/vote", ensureAuthenticated, async (req, res) => {
 });
 
 module.exports = router;
+
+const func = () => {
+  const a = {
+    $switch: {
+      branches: [
+        {
+          case: { $eq: [{ $size: "$dislikes" }, 0] },
+          then: { $divide: [{ $size: "$likes" }, 1] },
+        },
+        {
+          case: { $eq: [{ $size: "$likes" }, 0] },
+          then: { $divide: [{ $size: "$dislikes" }, -1] },
+        },
+      ],
+      default: { $divide: [{ $size: "$likes" }, { $size: "$dislikes" }] },
+    },
+  };
+  /**
+   * newField: The new field name.
+   * expression: The new field expression.
+   */
+  // {
+  //   voteRatio: {
+  //     $cond: [
+  //       { $eq: [{ $size: "$dislikes" }, 0] },
+  //       { $divide: [{ $size: "$likes" }, 1] },
+  //       { $divide: [{ $size: "$likes" }, { $size: "$dislikes" }] },
+  //     ];
+  //   }
+  // }
+};

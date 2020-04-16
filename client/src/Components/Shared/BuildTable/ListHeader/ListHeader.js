@@ -70,7 +70,14 @@ const ListHeader = (props) => {
         <span className="headerTitle noSelectText">Spells</span>
       </Col>
       <Col className="buildsListHeader" span={2} offset={0}>
-        <span className="headerTitle noSelectText">Likes</span>
+        <span
+          className="headerTitle noSelectText"
+          onClick={() => {
+            handleHeaderClickFor("votes");
+          }}
+        >
+          Likes{renderArrowFor("votes")}
+        </span>
       </Col>
       <Col className="buildsListHeader" span={3} offset={0}>
         <span
