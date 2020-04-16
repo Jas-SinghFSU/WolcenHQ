@@ -1,7 +1,10 @@
 .createBuildTitle {
-  color: rgb(255, 255, 255);
+  color: rgb(135, 221, 225);
   font-size: 35px;
   font-family: Oswald;
+}
+.createBuildTitle.titleOrange {
+  color: rgb(225, 177, 135);
 }
 
 .buildTitleCol {

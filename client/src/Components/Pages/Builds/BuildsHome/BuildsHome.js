@@ -8,6 +8,16 @@ import { Row, Col, Pagination } from "antd";
 import "./style.css";
 import axios from "axios";
 
+const BuildsHomeTitle = (props) => {
+  return (
+    <Row>
+      <Col className="buildTitleCol" span={22} offset={1}>
+        <div className="createBuildTitle">SEARCH BUILDS</div>
+      </Col>
+    </Row>
+  );
+};
+
 const BuildsHome = () => {
   const [paging, setPaging] = useState({
     limit: 15,
@@ -93,48 +103,51 @@ const BuildsHome = () => {
   };
 
   return (
-    <div className="buildsHomeContainer">
-      <Row className="buildsHomeRow">
-        <Col span={22} offset={1}>
-          <BuildSearch {...buildSearchProps} />
-          {builds.total !== 0 && (
-            <Pagination
-              className="customPagination buildTablePaginationTop"
-              current={curPage}
-              total={builds ? builds.total : 0}
-              pageSize={paging.limit}
-              onChange={(page) => {
-                setPaging({
-                  ...paging,
-                  page,
-                });
-                setCurPage(page);
-              }}
+    <Fragment>
+      <div className="buildsHomeContainer">
+        <BuildsHomeTitle />
+        <Row className="buildsHomeRow">
+          <Col span={22} offset={1}>
+            <BuildSearch {...buildSearchProps} />
+            {builds.total !== 0 && (
+              <Pagination
+                className="customPagination buildTablePaginationTop"
+                current={curPage}
+                total={builds ? builds.total : 0}
+                pageSize={paging.limit}
+                onChange={(page) => {
+                  setPaging({
+                    ...paging,
+                    page,
+                  });
+                  setCurPage(page);
+                }}
+              />
+            )}
+            <BuildTable
+              builds={builds}
+              getUserData={getUserData}
+              {...buildSearchProps}
             />
-          )}
-          <BuildTable
-            builds={builds}
-            getUserData={getUserData}
-            {...buildSearchProps}
-          />
-          {builds.total !== 0 && (
-            <Pagination
-              className="customPagination buildTablePaginationBottom"
-              current={curPage}
-              total={builds ? builds.total : 0}
-              pageSize={paging.limit}
-              onChange={(page) => {
-                setPaging({
-                  ...paging,
-                  page,
-                });
-                setCurPage(page);
-              }}
-            />
-          )}
-        </Col>
-      </Row>
-    </div>
+            {builds.total !== 0 && (
+              <Pagination
+                className="customPagination buildTablePaginationBottom"
+                current={curPage}
+                total={builds ? builds.total : 0}
+                pageSize={paging.limit}
+                onChange={(page) => {
+                  setPaging({
+                    ...paging,
+                    page,
+                  });
+                  setCurPage(page);
+                }}
+              />
+            )}
+          </Col>
+        </Row>
+      </div>
+    </Fragment>
   );
 };
 

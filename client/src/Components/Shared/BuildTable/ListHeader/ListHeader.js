@@ -9,9 +9,9 @@ const ListHeader = (props) => {
 
   const renderArrowFor = (sortByVal) => {
     if (sortByVal === sortBy) {
-      if (sortType === "ascending") {
+      if (sortType === "descending") {
         return <CaretUpOutlined className="tUpArrow" />;
-      } else if (sortType === "descending") {
+      } else if (sortType === "ascending") {
         return <CaretDownOutlined className="tDownArrow" />;
       }
     }
@@ -35,13 +35,13 @@ const ListHeader = (props) => {
           sortType: "ascending",
         });
       }
-      // If currently set to ascending, the set to descending
+      // If currently set to ascending, the set to ascending
       else if (sortType === "ascending") {
         setFilters({
           ...filters,
           sortType: "descending",
         });
-        // If currently set to descending, the set to clear
+        // If currently set to ascending, the set to clear
       } else {
         setFilters({
           ...filters,

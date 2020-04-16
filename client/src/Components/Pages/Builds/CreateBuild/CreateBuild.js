@@ -18,7 +18,7 @@ const CreateBuildTitle = (props) => {
   return (
     <Row>
       <Col className="buildTitleCol" span={24} offset={0}>
-        <div className="createBuildTitle">CREATE A BUILD</div>
+        <div className="createBuildTitle titleOrange">CREATE A BUILD</div>
       </Col>
     </Row>
   );
