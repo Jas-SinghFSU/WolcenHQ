@@ -69,74 +69,14 @@ router.post("/fetch", async (req, res) => {
           {
             $addFields: {
               voteRatio: {
-                $switch: {
-                  branches: [
-                    {
-                      case: {
-                        $eq: [
-                          {
-                            $size: "$dislikes",
-                          },
-                          0,
-                        ],
-                      },
-                      then: {
-                        $divide: [
-                          {
-                            $size: "$likes",
-                          },
-                          1,
-                        ],
-                      },
-                    },
-                    {
-                      case: {
-                        $eq: [
-                          {
-                            $size: "$likes",
-                          },
-                          0,
-                        ],
-                      },
-                      then: {
-                        $divide: [
-                          {
-                            $size: "$dislikes",
-                          },
-                          -1,
-                        ],
-                      },
-                    },
-                    {
-                      case: {
-                        $eq: [
-                          {
-                            $subtract: [
-                              {
-                                $size: "$likes",
-                              },
-                              {
-                                $size: "$dislikes",
-                              },
-                            ],
-                          },
-                          0,
-                        ],
-                      },
-                      then: 0,
-                    },
-                  ],
-                  default: {
-                    $divide: [
-                      {
-                        $size: "$likes",
-                      },
-                      {
-                        $size: "$dislikes",
-                      },
-                    ],
+                $subtract: [
+                  {
+                    $size: "$likes",
                   },
-                },
+                  {
+                    $size: "$dislikes",
+                  },
+                ],
               },
             },
           },
@@ -180,74 +120,14 @@ router.post("/fetch", async (req, res) => {
           {
             $addFields: {
               voteRatio: {
-                $switch: {
-                  branches: [
-                    {
-                      case: {
-                        $eq: [
-                          {
-                            $size: "$dislikes",
-                          },
-                          0,
-                        ],
-                      },
-                      then: {
-                        $divide: [
-                          {
-                            $size: "$likes",
-                          },
-                          1,
-                        ],
-                      },
-                    },
-                    {
-                      case: {
-                        $eq: [
-                          {
-                            $size: "$likes",
-                          },
-                          0,
-                        ],
-                      },
-                      then: {
-                        $divide: [
-                          {
-                            $size: "$dislikes",
-                          },
-                          -1,
-                        ],
-                      },
-                    },
-                    {
-                      case: {
-                        $eq: [
-                          {
-                            $subtract: [
-                              {
-                                $size: "$likes",
-                              },
-                              {
-                                $size: "$dislikes",
-                              },
-                            ],
-                          },
-                          0,
-                        ],
-                      },
-                      then: 0,
-                    },
-                  ],
-                  default: {
-                    $divide: [
-                      {
-                        $size: "$likes",
-                      },
-                      {
-                        $size: "$dislikes",
-                      },
-                    ],
+                $subtract: [
+                  {
+                    $size: "$likes",
                   },
-                },
+                  {
+                    $size: "$dislikes",
+                  },
+                ],
               },
             },
           },
