@@ -21,6 +21,7 @@ router.post("/fetch", async (req, res) => {
     searchValue,
     playstyle,
     combatType,
+    timeFilter,
   } = req.body;
 
   const sortTypeVal = sortType === "descending" || _.isEmpty(sortType) ? -1 : 1;
@@ -41,6 +42,17 @@ router.post("/fetch", async (req, res) => {
     combatType === "all" || _.isEmpty(combatType)
       ? { combatType: { $regex: "", $options: "i" } }
       : { combatType };
+
+  const timeFilterVal =
+    timeFilter === "daily"
+      ? { created: { $gt: new Date(Date.now() - 24 * 60 * 60 * 1000) } }
+      : timeFilter === "weekly"
+      ? { created: { $gt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000) } }
+      : timeFilter === "monthly"
+      ? { created: { $gt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000) } }
+      : timeFilter === "yearly"
+      ? { created: { $gt: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000) } }
+      : { created: { $exists: true } };
 
   let sortObj = { sort: { [sortByFilter]: sortTypeVal } };
 
@@ -64,6 +76,7 @@ router.post("/fetch", async (req, res) => {
               author: { $in: filteredUsers },
               ...combatTypeVal,
               ...playstyleVal,
+              ...timeFilterVal,
             },
           },
           {
@@ -91,7 +104,12 @@ router.post("/fetch", async (req, res) => {
           .toArray();
       } else {
         builds = await BUILDS.find(
-          { author: { $in: filteredUsers }, ...combatTypeVal, ...playstyleVal },
+          {
+            author: { $in: filteredUsers },
+            ...combatTypeVal,
+            ...playstyleVal,
+            ...timeFilterVal,
+          },
           sortObj
         )
           .collation({ locale: "en_US", numericOrdering: true })
@@ -115,6 +133,7 @@ router.post("/fetch", async (req, res) => {
               buildTitle: new RegExp(searchVal, "i"),
               ...combatTypeVal,
               ...playstyleVal,
+              ...timeFilterVal,
             },
           },
           {
@@ -146,6 +165,7 @@ router.post("/fetch", async (req, res) => {
             [filterVal]: { $regex: searchVal, $options: "i" },
             ...combatTypeVal,
             ...playstyleVal,
+            ...timeFilterVal,
           },
           sortObj
         )

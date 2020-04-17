@@ -5,6 +5,7 @@ import axios from "axios";
 import GetYoutubeId from "get-youtube-id";
 import _ from "lodash";
 import { Layout, Row, Col } from "antd";
+
 import BuildTitle from "./BuildTitle/BuildTitle";
 import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
@@ -12,6 +13,7 @@ import GateOfFatesContainer from "./GateOfFatesContainer/GateOfFatesContainer";
 import BuildGuideContainer from "./BuildGuideContainer/BuildGuideContainer";
 import BuildVideoContainer from "./BuildVideoContainer/BuildVideoContainer";
 import CommentsContainer from "./CommentsContainer/CommentsContainer";
+import CenteredLoader from "../../../Shared/CenteredLoader/CenteredLoader";
 
 import "./style.css";
 
@@ -103,7 +105,7 @@ const Build = (props) => {
       </Layout>
     );
   } else {
-    return <></>;
+    return <CenteredLoader />;
   }
 };
 

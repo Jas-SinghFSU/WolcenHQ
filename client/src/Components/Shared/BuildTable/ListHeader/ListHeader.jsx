@@ -8,6 +8,9 @@ const ListHeader = (props) => {
   const { sortBy, sortType } = filters;
 
   const renderArrowFor = (sortByVal) => {
+    if (props.disableSort) {
+      return;
+    }
     if (sortByVal === sortBy) {
       if (sortType === "descending") {
         return <CaretUpOutlined className="tUpArrow" />;
@@ -18,7 +21,7 @@ const ListHeader = (props) => {
   };
 
   const handleHeaderClickFor = (sortByVal) => {
-    if (!canSort) {
+    if (!canSort || props.disableSort) {
       return;
     }
     // If first click (set to ascending)

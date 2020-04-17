@@ -15,7 +15,6 @@ const RouterData = () => {
 
   return (
     <Fragment>
-      {console.log(UserProvider)}
       <div
         className="pageContentContainer"
         style={{

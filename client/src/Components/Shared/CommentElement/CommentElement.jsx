@@ -367,18 +367,18 @@ const CommentElement = (props) => {
                       Edit
                     </span>
                   )}
-                {!_.isEmpty(currentUser) && user !== currentUser._id && (
+                {/* {!_.isEmpty(currentUser) && user !== currentUser._id && (
                   <span className="commentControls reply noSelectText">
                     Reply
                   </span>
-                )}
-                {_.isEmpty(currentUser) || user !== currentUser._id ? (
+                )} */}
+                {/* {_.isEmpty(currentUser) || user !== currentUser._id ? (
                   <span className="commentControls report noSelectText">
                     Report
                   </span>
                 ) : (
                   <></>
-                )}
+                )} */}
                 {!_.isEmpty(currentUser) &&
                   user === currentUser._id &&
                   (deleteCommentPrompt ? (

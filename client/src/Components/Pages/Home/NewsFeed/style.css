@@ -1,0 +1,31 @@
+.homeSectionLabel {
+  width: 100%;
+  border-bottom: 2px solid;
+  color: rgb(226, 177, 142);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.newsFeedData {
+  color: rgb(182, 182, 182);
+  font-size: 15px;
+}
+
+.newsFeedData:hover {
+  text-decoration: underline;
+  color: rgb(224, 194, 171);
+}
+
+.feedItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.feedItemDate {
+  align-self: flex-end;
+  text-align: right;
+  color: rgb(163, 144, 109);
+}

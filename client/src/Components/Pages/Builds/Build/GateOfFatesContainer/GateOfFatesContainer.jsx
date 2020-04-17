@@ -461,7 +461,6 @@ const GateOfFates = (props) => {
     setActivePairs(findPotentialPairs());
   }, [activeNodes]);
 
-  console.log("main");
   if (allNodes && nodePairsScoped) {
     return (
       <Fragment>
