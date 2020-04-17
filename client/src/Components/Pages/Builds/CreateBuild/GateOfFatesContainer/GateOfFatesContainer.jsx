@@ -511,6 +511,14 @@ const GateOfFates = (props) => {
   const ringMiddle = 700;
   const ringOuter = 1044;
 
+  const handleUndo = () => {
+    if (activeNodes.length > 1) {
+      let nodeContainer = activeNodes;
+      nodeContainer.pop();
+      setActiveNodes([...nodeContainer]);
+    }
+  };
+
   const getAllNodes = () => {
     let nodeMap = new Map();
 
@@ -729,6 +737,16 @@ const GateOfFates = (props) => {
                     <FontAwesomeIcon icon={faShare} />
                   </Button>
                 </div>
+                <Button
+                  className="rotateButtonReset zoom"
+                  type="primary"
+                  style={{ marginBottom: 10 }}
+                  onClick={() => {
+                    handleUndo();
+                  }}
+                >
+                  Undo
+                </Button>
                 <Button
                   className="rotateButtonReset zoom"
                   type="primary"
