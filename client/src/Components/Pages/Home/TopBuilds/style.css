@@ -7,3 +7,10 @@
   color: rgb(160, 229, 224);
   margin-bottom: 40px;
 }
+
+.topBuildsButtonContainer {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}

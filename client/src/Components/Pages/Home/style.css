@@ -13,3 +13,16 @@
 .topBuildsList {
   margin-bottom: 30px;
 }
+
+.wolcenTextContainer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wolcenTextLabel {
+  font-size: 50px;
+  color: rgb(226, 177, 142);
+  border-bottom: 10px;
+  border-bottom-style: groove;
+}

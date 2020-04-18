@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col } from "antd";
+import { Row, Col, Radio } from "antd";
 import axios from "axios";
 import Moment from "react-moment";
 
@@ -11,7 +11,7 @@ const TopBuildsHeader = (props) => {
   return (
     <Row>
       <Col span={18} offset={3}>
-        <div className="homeSectionLabel topBuilds">Top Monthly Builds</div>
+        <div className="homeSectionLabel topBuilds">Top Builds</div>
       </Col>
     </Row>
   );
@@ -76,7 +76,7 @@ const TopBuilds = () => {
 
   useEffect(() => {
     fetchBuilds();
-  }, []);
+  }, [filters.timeFilter]);
 
   const buildSearchProps = {
     setSearchParams,
@@ -92,6 +92,29 @@ const TopBuilds = () => {
       <TopBuildsHeader />
       <Row>
         <Col span={18} offset={3}>
+          <Radio.Group
+            className="topBuildsButtonContainer"
+            value={filters.timeFilter}
+            onChange={(e) => {
+              setFilters({ ...filters, timeFilter: e.target.value });
+            }}
+          >
+            <Radio.Button className="customRadioButton" value="daily">
+              Daily
+            </Radio.Button>
+            <Radio.Button className="customRadioButton" value="weekly">
+              Weekly
+            </Radio.Button>
+            <Radio.Button className="customRadioButton" value="monthly">
+              Monthly
+            </Radio.Button>
+            <Radio.Button className="customRadioButton" value="yearly">
+              Yearly
+            </Radio.Button>
+            <Radio.Button className="customRadioButton" value="">
+              All Time
+            </Radio.Button>
+          </Radio.Group>
           <BuildTable
             builds={builds}
             getUserData={getUserData}

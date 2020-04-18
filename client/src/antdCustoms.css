@@ -103,6 +103,42 @@
   color: rgb(185, 185, 185) !important;
 }
 
+/* Search bar button */
+.ant-input-search-button {
+  background: rgb(255, 164, 79);
+  border-color: rgb(255, 179, 79);
+}
+.ant-input-search-button:hover {
+  background: rgb(245, 196, 132);
+  border-color: rgb(238, 163, 64);
+}
+/***************** SELECT BUTTONS *****************/
+.customRadioButton.ant-radio-button-wrapper {
+  background: #a2a2a226;
+}
+.customRadioButton.ant-radio-button-wrapper:hover {
+  border-color: #dda971 !important;
+}
+.ant-radio-button-wrapper:hover:not(.ant-radio-button-wrapper-disabled)::before {
+  background: #dda971;
+}
+.customRadioButton.ant-radio-button-wrapper > span {
+  color: #cecece;
+}
+
+.customRadioButton.ant-radio-button-wrapper-checked {
+  background: #a2a2a226;
+  border: 1px solid;
+  border-color: #dda971 !important;
+}
+.customRadioButton.ant-radio-button-wrapper-checked > span {
+  color: #dda971;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background: #dda971;
+}
+
 /***************** PAGINATION STYLING *****************/
 .customPagination .ant-pagination-item {
   background: #2e3031 !important;

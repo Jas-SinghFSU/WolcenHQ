@@ -107,7 +107,7 @@ const BuildsHome = () => {
       <div className="buildsHomeContainer">
         <BuildsHomeTitle />
         <Row className="buildsHomeRow">
-          <Col span={22} offset={1}>
+          <Col span={20} offset={2}>
             <BuildSearch {...buildSearchProps} />
             {builds.total !== 0 && (
               <Pagination

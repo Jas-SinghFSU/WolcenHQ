@@ -13,7 +13,7 @@
 
 .newsFeedData:hover {
   text-decoration: underline;
-  color: rgb(224, 194, 171);
+  color: rgb(171, 220, 224);
 }
 
 .feedItemContainer {
@@ -22,6 +22,11 @@
   justify-content: space-between;
   margin-bottom: 5px;
   width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.feedItemContainer:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.048);
 }
 
 .feedItemDate {
