@@ -486,17 +486,4 @@ const func = () => {
       default: { $divide: [{ $size: "$likes" }, { $size: "$dislikes" }] },
     },
   };
-  /**
-   * newField: The new field name.
-   * expression: The new field expression.
-   */
-  // {
-  //   voteRatio: {
-  //     $cond: [
-  //       { $eq: [{ $size: "$dislikes" }, 0] },
-  //       { $divide: [{ $size: "$likes" }, 1] },
-  //       { $divide: [{ $size: "$likes" }, { $size: "$dislikes" }] },
-  //     ];
-  //   }
-  // }
 };
