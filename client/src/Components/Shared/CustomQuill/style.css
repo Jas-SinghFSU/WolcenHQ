@@ -112,3 +112,7 @@
 .ql-tooltip.ql-editing.ql-flip a {
   color: #caba5e;
 }
+.ql-toolbar.ql-snow {
+  min-height: 55px;
+  height: auto;
+}

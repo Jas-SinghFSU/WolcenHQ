@@ -121,6 +121,7 @@
   transform: translateY(-50%);
   position: inherit;
   height: max-content;
+  min-width: 150px;
 }
 
 .gofButtonsLabel {

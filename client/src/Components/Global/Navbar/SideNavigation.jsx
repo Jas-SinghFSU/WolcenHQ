@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, Fragment } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
 import axios from "axios";
 import { Menu, Icon, Layout } from "antd";
@@ -11,6 +11,7 @@ import {
   LoginOutlined,
   LogoutOutlined,
   FileAddOutlined,
+  TeamOutlined,
 } from "@ant-design/icons";
 import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
@@ -113,25 +114,37 @@ const SideNavigation = () => {
               handleBuildClick("/characters");
             }}
           >
-            <UserOutlined />
-            <span className="sideNavMenuLabel">Characters</span>
+            <TeamOutlined />
+            <span className="sideNavMenuLabel">Users</span>
           </Menu.Item>
           <Menu.Item
-            className="antdMenuItem menuAuth"
+            className="antdMenuItem myAccount"
             key="6"
             onClick={() => {
               _.isEmpty(user)
                 ? handleBuildClick("/auth/login")
-                : userContext.logout();
+                : history.push("/myaccount");
             }}
           >
-            {_.isEmpty(user) ? <LoginOutlined /> : <LogoutOutlined />}
+            {_.isEmpty(user) ? <LoginOutlined /> : <UserOutlined />}
             <span className="sideNavMenuLabel">{`${
-              _.isEmpty(user)
-                ? "Login/Register"
-                : `${user.displayName} (Logout)`
+              _.isEmpty(user) ? "Login/Register" : user.displayName
             }`}</span>
           </Menu.Item>
+          {!_.isEmpty(user) && (
+            <Menu.Item
+              className="antdMenuItem menuAuth"
+              key="7"
+              onClick={() => {
+                userContext.logout();
+              }}
+            >
+              <Fragment>
+                <LogoutOutlined />
+                <span className="sideNavMenuLabel">Logout</span>
+              </Fragment>
+            </Menu.Item>
+          )}
         </Menu>
       </Sider>
     </Layout>

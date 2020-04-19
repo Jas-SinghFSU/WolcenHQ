@@ -50,7 +50,7 @@ module.exports = function (passport) {
           } else {
             try {
               const userData = await USERS.insertOne(newUser);
-              return done(null, userData.ops[0]);
+              return done(null, [userData.ops[0]]);
             } catch (insertErr) {
               console.error(`Failed to create steam user.${insertErr}`);
               return done(null, null);

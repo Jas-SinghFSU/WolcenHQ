@@ -759,7 +759,9 @@ const GateOfFates = (props) => {
                   style={{ marginBottom: 10 }}
                   onClick={() => {
                     setPanZoomVal(INITIAL_VALUE);
-                    viewer.fitToViewer();
+                    if (viewer !== null) {
+                      viewer.fitToViewer();
+                    }
                   }}
                 >
                   Reset Zoom

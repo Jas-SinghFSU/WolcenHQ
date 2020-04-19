@@ -4,50 +4,47 @@ import { CaretUpOutlined, CaretDownOutlined } from "@ant-design/icons";
 
 import "./style.css";
 const ListHeader = (props) => {
-  const { setFilters, filters, canSort } = props;
-  const { sortBy, sortType } = filters;
-
   const renderArrowFor = (sortByVal) => {
     if (props.disableSort) {
       return;
     }
-    if (sortByVal === sortBy) {
-      if (sortType === "descending") {
+    if (sortByVal === props.filters.sortBy) {
+      if (props.filters.sortType === "descending") {
         return <CaretUpOutlined className="tUpArrow" />;
-      } else if (sortType === "ascending") {
+      } else if (props.filters.sortType === "ascending") {
         return <CaretDownOutlined className="tDownArrow" />;
       }
     }
   };
 
   const handleHeaderClickFor = (sortByVal) => {
-    if (!canSort || props.disableSort) {
+    if (!props.canSort || props.disableSort) {
       return;
     }
     // If first click (set to ascending)
-    if (sortByVal !== sortBy) {
-      setFilters({
-        ...filters,
+    if (sortByVal !== props.filters.sortBy) {
+      props.setFilters({
+        ...props.filters,
         sortBy: sortByVal,
         sortType: "ascending",
       });
     } else {
-      if (sortType === "") {
-        setFilters({
-          ...filters,
+      if (props.filters.sortType === "") {
+        props.setFilters({
+          ...props.filters,
           sortType: "ascending",
         });
       }
       // If currently set to ascending, the set to ascending
-      else if (sortType === "ascending") {
-        setFilters({
-          ...filters,
+      else if (props.filters.sortType === "ascending") {
+        props.setFilters({
+          ...props.filters,
           sortType: "descending",
         });
         // If currently set to ascending, the set to clear
       } else {
-        setFilters({
-          ...filters,
+        props.setFilters({
+          ...props.filters,
           sortType: "",
         });
       }

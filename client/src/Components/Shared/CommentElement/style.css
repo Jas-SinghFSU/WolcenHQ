@@ -64,6 +64,7 @@
   display: flex;
   justify-content: start;
   flex-direction: row;
+  min-width: 150px;
 }
 .commentCardBottom .controlsMiddle {
   width: 70%;

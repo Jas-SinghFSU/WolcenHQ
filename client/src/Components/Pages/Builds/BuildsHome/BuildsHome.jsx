@@ -64,19 +64,6 @@ const BuildsHome = () => {
     }
   };
 
-  const getUserData = async (userInfo) => {
-    if (userInfo !== null && userInfo !== "Anonymous") {
-      try {
-        const userData = await axios.get(`/api/users/user/${userInfo}`);
-        return userData.data;
-      } catch (error) {
-        console.error(error);
-      }
-    } else {
-      return {};
-    }
-  };
-
   useEffect(() => {
     fetchBuilds();
   }, [paging, searchParams]);
@@ -124,11 +111,7 @@ const BuildsHome = () => {
                 }}
               />
             )}
-            <BuildTable
-              builds={builds}
-              getUserData={getUserData}
-              {...buildSearchProps}
-            />
+            <BuildTable builds={builds} {...buildSearchProps} />
             {builds.total !== 0 && (
               <Pagination
                 className="customPagination buildTablePaginationBottom"

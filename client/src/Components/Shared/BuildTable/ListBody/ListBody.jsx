@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import { Row, Col, Tag } from "antd";
 import Moment from "react-moment";
 import _ from "lodash";
+import axios from "axios";
 
 import SkillContainer from "../../../Shared/SkillContainer/SkillContainer";
 
@@ -20,8 +21,6 @@ const ListBody = (props) => {
     lastUpdated,
     author,
   } = props.build;
-
-  const { getUserData } = props;
 
   const [userData, setUserData] = useState("");
 
@@ -41,6 +40,19 @@ const ListBody = (props) => {
   const getLikes = () => {
     const voteSum = likes.length - dislikes.length;
     return voteSum;
+  };
+
+  const getUserData = async (userInfo) => {
+    if (userInfo !== null && userInfo !== "Anonymous") {
+      try {
+        const userData = await axios.get(`/api/users/user/${userInfo}`);
+        return userData.data;
+      } catch (error) {
+        console.error(error);
+      }
+    } else {
+      return {};
+    }
   };
 
   useEffect(() => {

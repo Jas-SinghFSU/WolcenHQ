@@ -61,19 +61,6 @@ const TopBuilds = () => {
     }
   };
 
-  const getUserData = async (userInfo) => {
-    if (userInfo !== null && userInfo !== "Anonymous") {
-      try {
-        const userData = await axios.get(`/api/users/user/${userInfo}`);
-        return userData.data;
-      } catch (error) {
-        console.error(error);
-      }
-    } else {
-      return {};
-    }
-  };
-
   useEffect(() => {
     fetchBuilds();
   }, [filters.timeFilter]);
@@ -117,7 +104,6 @@ const TopBuilds = () => {
           </Radio.Group>
           <BuildTable
             builds={builds}
-            getUserData={getUserData}
             {...buildSearchProps}
             disableSort={true}
           />

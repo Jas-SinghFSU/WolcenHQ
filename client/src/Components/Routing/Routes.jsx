@@ -6,6 +6,7 @@ import CreateBuild from "../Pages/Builds/CreateBuild/CreateBuild";
 import Build from "../Pages/Builds/Build/Build";
 import Register from "../Pages/Authentication/Register";
 import Login from "../Pages/Authentication/Login";
+import MyAccount from "../Pages/Account/MyAccount";
 
 const Routes = () => {
   return (
@@ -16,6 +17,7 @@ const Routes = () => {
       <Route exact path="/auth/login" component={Login} />
       <Route exact path="/auth/register" component={Register} />
       <PrivateRoute exact path="/characters" component={CreateBuild} />
+      <PrivateRoute exact path="/myaccount" component={MyAccount} />
     </Switch>
   );
 };
