@@ -468,22 +468,70 @@ router.put("/build/:id/comment/vote", ensureAuthenticated, async (req, res) => {
   }
 });
 
-module.exports = router;
+router.post("/user/:id", async function (req, res) {
+  const { page, limit, sortBy, sortType, buildType } = req.body;
+  const { id } = req.params;
+  const sortTypeVal = sortType === "descending" || _.isEmpty(sortType) ? -1 : 1;
 
-const func = () => {
-  const a = {
-    $switch: {
-      branches: [
+  const sortByFilter =
+    _.isEmpty(sortBy) || _.isEmpty(sortType) ? "lastUpdated" : sortBy;
+
+  const queryObject =
+    buildType === "created"
+      ? { author: id }
+      : { likes: { $elemMatch: { userID: _id.toString() } } };
+
+  let sortObj = { sort: { [sortByFilter]: sortTypeVal } };
+
+  try {
+    const currentUser = await USERS.findOne({ _id: ObjectID(id) });
+    let builds;
+    const buildsTotal = await BUILDS.find(queryObject).count();
+
+    if (sortByFilter === "votes") {
+      builds = await BUILDS.aggregate([
         {
-          case: { $eq: [{ $size: "$dislikes" }, 0] },
-          then: { $divide: [{ $size: "$likes" }, 1] },
+          $match: queryObject,
         },
         {
-          case: { $eq: [{ $size: "$likes" }, 0] },
-          then: { $divide: [{ $size: "$dislikes" }, -1] },
+          $addFields: {
+            voteRatio: {
+              $subtract: [
+                {
+                  $size: "$likes",
+                },
+                {
+                  $size: "$dislikes",
+                },
+              ],
+            },
+          },
         },
-      ],
-      default: { $divide: [{ $size: "$likes" }, { $size: "$dislikes" }] },
-    },
-  };
-};
+        {
+          $sort: {
+            voteRatio: sortTypeVal,
+          },
+        },
+      ])
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .toArray();
+    } else {
+      builds = await BUILDS.find(queryObject, sortObj)
+        .collation({ locale: "en_US", numericOrdering: true })
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .toArray();
+    }
+
+    res.json({
+      user: currentUser,
+      builds,
+      total: buildsTotal,
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+module.exports = router;

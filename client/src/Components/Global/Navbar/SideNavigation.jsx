@@ -108,18 +108,8 @@ const SideNavigation = () => {
             <span className="sideNavMenuLabel">Builds</span>
           </Menu.Item>
           <Menu.Item
-            className="antdMenuItem menuCharacters"
-            key="5"
-            onClick={() => {
-              handleBuildClick("/characters");
-            }}
-          >
-            <TeamOutlined />
-            <span className="sideNavMenuLabel">Users</span>
-          </Menu.Item>
-          <Menu.Item
             className="antdMenuItem myAccount"
-            key="6"
+            key="5"
             onClick={() => {
               _.isEmpty(user)
                 ? handleBuildClick("/auth/login")
@@ -134,7 +124,7 @@ const SideNavigation = () => {
           {!_.isEmpty(user) && (
             <Menu.Item
               className="antdMenuItem menuAuth"
-              key="7"
+              key="6"
               onClick={() => {
                 userContext.logout();
               }}
