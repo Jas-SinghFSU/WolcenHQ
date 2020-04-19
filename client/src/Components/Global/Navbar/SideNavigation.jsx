@@ -16,6 +16,7 @@ import { useHistory } from "react-router-dom";
 import { sideNavSize } from "../../Constants/constants";
 import _ from "lodash";
 import GenericContext from "../../../Contexts/GenericContext";
+import WolcenLogo from "../../../images/WolcenHQ_T.png";
 
 import "antd/dist/antd.css";
 import "./style.css";
@@ -43,17 +44,18 @@ const SideNavigation = () => {
 
   useEffect(() => {
     if (navCollapsed) {
-      setSidebarWidth(80);
+      setSidebarWidth("80px");
     } else {
-      setSidebarWidth(240);
+      setSidebarWidth("20%");
     }
   }, [navCollapsed]);
 
   return (
     <Layout
       style={{
-        maxWidth: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
-        minWidth: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
+        width: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
+        minWidth: !navCollapsed ? 200 : "unset",
+        maxWidth: 330,
         backgroundColor: "rgb(23, 23, 27)",
         transition: `min-width 0.2s, max-width 0.2s`,
         WebkitTransition: "min-width 0.2s, max-width 0.2s",
@@ -71,8 +73,11 @@ const SideNavigation = () => {
             {navCollapsed ? <DoubleRightOutlined /> : <DoubleLeftOutlined />}
             <span className="sideNavMenuLabel"> Collapse Menu </span>
           </Menu.Item>
+          <div className="navLogoContainer">
+            <img src={WolcenLogo} alt="Wolcen Logo" className="wolcenNavLogo" />
+          </div>
           <Menu.Item
-            className="antdMenuItem"
+            className="antdMenuItem menuHome"
             key="2"
             onClick={() => {
               handleBuildClick("/");
@@ -82,7 +87,7 @@ const SideNavigation = () => {
             <span className="sideNavMenuLabel">Home</span>
           </Menu.Item>
           <Menu.Item
-            className="antdMenuItem"
+            className="antdMenuItem menuCreate"
             key="3"
             onClick={() => {
               handleBuildClick("/builds/create");
@@ -92,7 +97,7 @@ const SideNavigation = () => {
             <span className="sideNavMenuLabel">Create a Build</span>
           </Menu.Item>
           <Menu.Item
-            className="antdMenuItem"
+            className="antdMenuItem menuBuilds"
             key="4"
             onClick={() => {
               handleBuildClick("/builds");
@@ -102,7 +107,7 @@ const SideNavigation = () => {
             <span className="sideNavMenuLabel">Builds</span>
           </Menu.Item>
           <Menu.Item
-            className="antdMenuItem"
+            className="antdMenuItem menuCharacters"
             key="5"
             onClick={() => {
               handleBuildClick("/characters");
@@ -112,7 +117,7 @@ const SideNavigation = () => {
             <span className="sideNavMenuLabel">Characters</span>
           </Menu.Item>
           <Menu.Item
-            className="antdMenuItem"
+            className="antdMenuItem menuAuth"
             key="6"
             onClick={() => {
               _.isEmpty(user)

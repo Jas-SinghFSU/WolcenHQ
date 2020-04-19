@@ -198,3 +198,17 @@
 .customLoader .ant-spin-dot-item {
   background-color: #53daf1;
 }
+
+/***************** NAVBAR STYLING *****************/
+.antdMenuItem {
+  width: 90% !important;
+  border-bottom: 2px solid !important;
+  padding-bottom: 12px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-color: #8080804f !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  height: 44px !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}

@@ -18,7 +18,7 @@ const RouterData = () => {
       <div
         className="pageContentContainer"
         style={{
-          width: `calc(100% - ${sidebarWidth}px)`,
+          width: `calc(100% - ${sidebarWidth})`,
         }}
       >
         <Route exact path="/" component={Home} />

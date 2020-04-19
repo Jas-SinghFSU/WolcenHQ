@@ -2,6 +2,7 @@ import React, { useRef, useEffect, Fragment, useState } from "react";
 import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_AUTO } from "react-svg-pan-zoom";
 import { Row, Col, Button } from "antd";
 import { LockFilled, UnlockFilled } from "@ant-design/icons";
+import { AutoSizer } from "react-virtualized";
 import Fireflies from "./Fireflies";
 import "./style.css";
 
@@ -366,6 +367,7 @@ const GateOfFates = (props) => {
   const [panZoomVal, setPanZoomVal] = useState(INITIAL_VALUE);
   const [panZoomTool, setPanZoomTool] = useState(TOOL_AUTO);
   const [lockGOF, setLockGOF] = useState(true);
+  const [viewer, setViewer] = useState(null);
 
   const ringInner = 350;
   const ringMiddle = 700;
@@ -461,118 +463,38 @@ const GateOfFates = (props) => {
     setActivePairs(findPotentialPairs());
   }, [activeNodes]);
 
+  useEffect(() => {
+    if (!lockGOF) {
+      viewer.fitToViewer();
+    }
+  }, [viewer]);
   if (allNodes && nodePairsScoped) {
     return (
       <Fragment>
         <SkillTooltip tooltipOptions={tooltipOptions} />
 
-        <Row style={{ display: "inline-table" }}>
-          <div className="lockButtonContainer">
-            <Button
-              className="toggleLockButton"
-              type="dashed"
-              onClick={() => {
-                setLockGOF(!lockGOF);
-              }}
-            >
-              {lockGOF ? <LockFilled size={"medium"} /> : <UnlockFilled />}
-            </Button>
-          </div>
+        <Row style={{ display: "inline" }}>
           <div className="gofAndControls">
-            <Col>
-              <div className={`gofContainer${lockGOF ? "-locked" : ""}`}>
-                <Fireflies />
-                {lockGOF ? (
-                  <svg className="gofSvg" viewBox={"0 0 1044 1044"}>
-                    <defs>
-                      <radialGradient id="radial-gradient-red">
-                        <stop offset="0%" stopColor="#7a0000" />
-                        <stop offset="100%" stopColor="black" />
-                      </radialGradient>
-                      <radialGradient id="radial-gradient-green">
-                        <stop offset="0%" stopColor="#00540b" />
-                        <stop offset="100%" stopColor="black" />
-                      </radialGradient>
-                      <radialGradient id="radial-gradient-purple">
-                        <stop offset="0%" stopColor="#520082" />
-                        <stop offset="100%" stopColor="black" />
-                      </radialGradient>
-                      <radialGradient id="radial-gradient-red-active">
-                        <stop offset="0%" stopColor="#ff4d4d" />
-                        <stop offset="100%" stopColor="#3d1111" />
-                      </radialGradient>
-                      <radialGradient id="radial-gradient-green-active">
-                        <stop offset="0%" stopColor="#74e872" />
-                        <stop offset="100%" stopColor="#264a25" />
-                      </radialGradient>
-                      <radialGradient id="radial-gradient-purple-active">
-                        <stop offset="0%" stopColor="#9376e3" />
-                        <stop offset="100%" stopColor="#160054" />
-                      </radialGradient>
-                    </defs>
-                    {svgData.svg.g.map((group) => {
-                      return (
-                        <g
-                          key={group.id}
-                          id={group.id}
-                          style={{
-                            transition: "transform 1s ease 0s",
-                            transformOrigin: "522px 522px 0px",
-                            transform: `rotate(${
-                              group.id === "outerRing"
-                                ? rotations.outer
-                                : group.id === "innerRing"
-                                ? rotations.inner
-                                : group.id === "middleRing"
-                                ? rotations.middle
-                                : 0
-                            }deg)`,
-                          }}
-                        >
-                          <RenderRings
-                            scope={group.id}
-                            ringOuter={ringOuter}
-                            ringInner={ringInner}
-                            ringMiddle={ringMiddle}
-                            selectedRing={selectedRing}
-                          />
-                          <RenderLines
-                            nodePairsScoped={nodePairsScoped}
-                            allNodes={allNodes}
-                            activePairs={activePairs}
-                            activeNodes={activeNodes}
-                            scope={group.id}
-                          />
-                          <RenderNodes
-                            scope={group.id}
-                            svgDom={svgDom}
-                            activeNodes={activeNodes}
-                            setTooltipOptions={setTooltipOptions}
-                            passiveSkillsList={passiveSkillsList}
-                          />
-                        </g>
-                      );
-                    })}
-                  </svg>
-                ) : (
-                  <ReactSVGPanZoom
-                    width={1044}
-                    height={1044}
-                    SVGBackground="transparent"
-                    background="transparent"
-                    miniatureProps={{ position: "none" }}
-                    tool={panZoomTool}
-                    onChangeTool={(tool) => {
-                      setPanZoomTool(tool);
+            <Col className="gofWheelColumn">
+              <div className="gofContainerWrapper">
+                <div className="lockButtonContainer">
+                  <Button
+                    className="toggleLockButton"
+                    type="dashed"
+                    onClick={() => {
+                      setLockGOF(!lockGOF);
                     }}
-                    value={panZoomVal}
-                    onChangeValue={(value) => setPanZoomVal(value)}
-                    detectAutoPan={false}
-                    toolbarProps={{
-                      position: "none",
-                    }}
-                    disableDoubleClickZoomWithToolAuto={true}
                   >
+                    {lockGOF ? (
+                      <LockFilled size={"medium"} />
+                    ) : (
+                      <UnlockFilled />
+                    )}
+                  </Button>
+                </div>
+                <div className="gofContainer">
+                  <Fireflies />
+                  {lockGOF ? (
                     <svg className="gofSvg" viewBox={"0 0 1044 1044"}>
                       <defs>
                         <radialGradient id="radial-gradient-red">
@@ -606,7 +528,7 @@ const GateOfFates = (props) => {
                             key={group.id}
                             id={group.id}
                             style={{
-                              transition: "transform 1s ease 0s",
+                              transition: "all 1s ease 0s",
                               transformOrigin: "522px 522px 0px",
                               transform: `rotate(${
                                 group.id === "outerRing"
@@ -627,25 +549,128 @@ const GateOfFates = (props) => {
                               selectedRing={selectedRing}
                             />
                             <RenderLines
+                              scope={group.id}
                               nodePairsScoped={nodePairsScoped}
                               allNodes={allNodes}
                               activePairs={activePairs}
                               activeNodes={activeNodes}
-                              scope={group.id}
                             />
                             <RenderNodes
                               scope={group.id}
+                              passiveSkillsList={passiveSkillsList}
+                              setTooltipOptions={setTooltipOptions}
                               svgDom={svgDom}
                               activeNodes={activeNodes}
-                              setTooltipOptions={setTooltipOptions}
-                              passiveSkillsList={passiveSkillsList}
+                              nodePairs={nodePairs}
+                              rotations={rotations}
                             />
                           </g>
                         );
                       })}
                     </svg>
-                  </ReactSVGPanZoom>
-                )}
+                  ) : (
+                    <AutoSizer>
+                      {({ width, height }) =>
+                        width === 0 ? null : (
+                          <ReactSVGPanZoom
+                            height={width}
+                            width={width}
+                            SVGBackground="transparent"
+                            background="#000c"
+                            miniatureProps={{ position: "none" }}
+                            tool={panZoomTool}
+                            onChangeTool={(tool) => {
+                              setPanZoomTool(tool);
+                            }}
+                            value={panZoomVal}
+                            onChangeValue={(value) => setPanZoomVal(value)}
+                            detectAutoPan={false}
+                            toolbarProps={{
+                              position: "none",
+                            }}
+                            disableDoubleClickZoomWithToolAuto={true}
+                            className="svgPanZoomWheel"
+                            ref={(Viewer) => setViewer(Viewer)}
+                          >
+                            <svg className="gofSvg" viewBox="0 0 1044 1044">
+                              <defs>
+                                <radialGradient id="radial-gradient-red">
+                                  <stop offset="0%" stopColor="#7a0000" />
+                                  <stop offset="100%" stopColor="black" />
+                                </radialGradient>
+                                <radialGradient id="radial-gradient-green">
+                                  <stop offset="0%" stopColor="#00540b" />
+                                  <stop offset="100%" stopColor="black" />
+                                </radialGradient>
+                                <radialGradient id="radial-gradient-purple">
+                                  <stop offset="0%" stopColor="#520082" />
+                                  <stop offset="100%" stopColor="black" />
+                                </radialGradient>
+                                <radialGradient id="radial-gradient-red-active">
+                                  <stop offset="0%" stopColor="#ff4d4d" />
+                                  <stop offset="100%" stopColor="#3d1111" />
+                                </radialGradient>
+                                <radialGradient id="radial-gradient-green-active">
+                                  <stop offset="0%" stopColor="#74e872" />
+                                  <stop offset="100%" stopColor="#264a25" />
+                                </radialGradient>
+                                <radialGradient id="radial-gradient-purple-active">
+                                  <stop offset="0%" stopColor="#9376e3" />
+                                  <stop offset="100%" stopColor="#160054" />
+                                </radialGradient>
+                              </defs>
+                              {svgData.svg.g.map((group) => {
+                                return (
+                                  <g
+                                    key={group.id}
+                                    id={group.id}
+                                    style={{
+                                      transition: "all 1s ease 0s",
+                                      transformOrigin: "522px 522px 0px",
+                                      transform: `rotate(${
+                                        group.id === "outerRing"
+                                          ? rotations.outer
+                                          : group.id === "innerRing"
+                                          ? rotations.inner
+                                          : group.id === "middleRing"
+                                          ? rotations.middle
+                                          : 0
+                                      }deg)`,
+                                    }}
+                                  >
+                                    <RenderRings
+                                      scope={group.id}
+                                      ringOuter={ringOuter}
+                                      ringInner={ringInner}
+                                      ringMiddle={ringMiddle}
+                                      selectedRing={selectedRing}
+                                    />
+                                    <RenderLines
+                                      scope={group.id}
+                                      nodePairsScoped={nodePairsScoped}
+                                      allNodes={allNodes}
+                                      activePairs={activePairs}
+                                      activeNodes={activeNodes}
+                                    />
+                                    <RenderNodes
+                                      scope={group.id}
+                                      passiveSkillsList={passiveSkillsList}
+                                      setTooltipOptions={setTooltipOptions}
+                                      svgDom={svgDom}
+                                      activeNodes={activeNodes}
+                                      nodePairs={nodePairs}
+                                      rotations={rotations}
+                                    />
+                                  </g>
+                                );
+                              })}
+                            </svg>
+                          </ReactSVGPanZoom>
+                        )
+                      }
+                    </AutoSizer>
+                  )}
+                </div>
               </div>
             </Col>
           </div>

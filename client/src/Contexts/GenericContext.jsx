@@ -5,7 +5,7 @@ const context = createContext(null);
 
 const GenericContext = ({ children }) => {
   const history = useHistory();
-  const [sidebarWidth, setSidebarWidth] = useState(240);
+  const [sidebarWidth, setSidebarWidth] = useState("20%");
 
   return (
     <context.Provider value={{ sidebarWidth, setSidebarWidth }}>

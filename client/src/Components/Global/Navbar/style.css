@@ -2,8 +2,9 @@
   background: rgb(23, 23, 27);
   height: 100vh;
   position: fixed;
+  width: inherit !important;
+  max-width: inherit !important;
   min-width: inherit !important;
-  max-width: none !important;
   transition: width 0.2s;
 }
 
@@ -27,6 +28,7 @@
   border-bottom: solid;
   border-bottom-width: 2px;
   border-bottom-color: rgba(141, 141, 141, 0.349);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .ant-menu-item .anticon,
@@ -45,4 +47,32 @@
 
 .ant-menu-dark .ant-menu-item.antdMenuItem:hover {
   background-color: #4399a8;
+}
+
+.wolcenNavLogo {
+  width: 100%;
+  max-width: 200px;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.menuHome .anticon {
+  color: #b6f3f7;
+}
+
+.menuCreate .anticon {
+  color: #e89868;
+}
+
+.menuBuilds .anticon {
+  color: #b8d59b;
+}
+
+.menuCharacters .anticon {
+  color: #fd9a9a;
+}
+
+.menuAuth .anticon {
+  color: #bbb2f5;
 }

@@ -5,31 +5,31 @@ const Fireflies = () => {
   return (
     <Particles
       className="gofFireflies"
-      height={"1040px"}
-      width={"1044px"}
+      height={"100%"}
+      width={"100%"}
       params={{
         particles: {
           number: {
             value: 100,
             density: {
               enable: true,
-              value_area: 800
-            }
+              value_area: 800,
+            },
           },
           color: {
-            value: "#ffd0a9"
+            value: "#ffd0a9",
           },
           shape: {
             type: "circle",
             stroke: {
               width: 0,
-              color: "#000000"
+              color: "#000000",
             },
             image: {
               src: "img/github.svg",
               width: 150,
-              height: 150
-            }
+              height: 150,
+            },
           },
           opacity: {
             value: 0.5,
@@ -38,8 +38,8 @@ const Fireflies = () => {
               enable: true,
               speed: 1,
               opacity_min: 0.1,
-              sync: false
-            }
+              sync: false,
+            },
           },
           size: {
             value: 3,
@@ -48,8 +48,8 @@ const Fireflies = () => {
               enable: true,
               speed: 2,
               size_min: 0.1,
-              sync: false
-            }
+              sync: false,
+            },
           },
           line_linked: {
             enable_auto: false,
@@ -60,8 +60,8 @@ const Fireflies = () => {
             condensed_mode: {
               enable: false,
               rotateX: 600,
-              rotateY: 600
-            }
+              rotateY: 600,
+            },
           },
           move: {
             enable: true,
@@ -74,23 +74,23 @@ const Fireflies = () => {
             attract: {
               enable: false,
               rotateX: 600,
-              rotateY: 1200
-            }
-          }
+              rotateY: 1200,
+            },
+          },
         },
         interactivity: {
           detect_on: "canvas",
           events: {
             onhover: {
-              enable: false
+              enable: false,
             },
             onclick: {
-              enable: false
+              enable: false,
             },
-            resize: true
-          }
+            resize: true,
+          },
         },
-        retina_detect: true
+        retina_detect: true,
       }}
     />
   );

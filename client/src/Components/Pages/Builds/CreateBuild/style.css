@@ -3,6 +3,7 @@
   background-repeat: space;
   height: 100%;
   padding-bottom: 100px;
+  min-width: 700px;
 }
 
 .statsAndSkills {

@@ -20,21 +20,39 @@
   pointer-events: none;
 }
 
+.gofContainerWrapper {
+  max-width: 900px;
+  width: inherit;
+  min-width: 404px;
+}
 .gofContainer {
-  height: 1044px;
-  width: 1044px;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 100%;
+  margin-bottom: 30px;
+  background: #000c;
+  min-height: 400px;
+}
+
+.gofContainer-locked {
+  max-width: 1000px;
   position: relative;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  background: #000c;
+  padding-top: 100%;
 }
-
 .gofSvg {
   position: absolute;
   left: 0;
   right: 0;
+  top: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,11 +61,13 @@
   position: absolute;
   left: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
-  bottom: 0;
   pointer-events: none;
+  overflow: hidden;
 }
 
 #nodeTooltip {
@@ -55,7 +75,7 @@
   padding-right: 15px;
   padding-bottom: 10px;
   padding-top: 5px;
-  background: rgba(0, 0, 0, 0.801) !important;
+  background: rgba(0, 0, 0, 0.95) !important;
   color: white;
   border-radius: 5px;
   width: 300px;
@@ -94,8 +114,13 @@
 .gofButtons {
   display: flex;
   flex-direction: column;
-  margin-top: 380px;
   margin-right: 20px;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: inherit;
+  height: max-content;
 }
 
 .gofButtonsLabel {
@@ -110,7 +135,7 @@
   margin-bottom: 30px;
 }
 .ringNamesContainer {
-  width: 150px;
+  width: 100%;
   color: #c1b156;
   font-size: 20px;
 }
@@ -183,4 +208,18 @@
 .rotateButtonReset.zoom:hover {
   background-color: #59d6bb !important;
   border-color: #59d6bb !important;
+}
+
+.gofWheelColumn {
+  width: calc(100% - 170px);
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.svgPanZoomWheel {
+  position: absolute !important;
+  top: 0;
+  left: 0;
 }

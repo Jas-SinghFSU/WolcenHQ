@@ -1,6 +1,6 @@
 const sideNavSize = {
   collapsed: 80,
-  expanded: 240,
+  expanded: "20%",
 };
 
 const maxModifierLimit = 10;
