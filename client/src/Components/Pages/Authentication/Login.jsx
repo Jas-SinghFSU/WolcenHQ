@@ -28,10 +28,6 @@ const Login = (props) => {
     }
   };
 
-  const handleSubmitFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
-  };
-
   if (!_.isEmpty(userData.user)) {
     history.push("/");
   }
@@ -49,7 +45,6 @@ const Login = (props) => {
             <Form
               className="registerForm"
               onFinish={handleSubmit}
-              onFinishFailed={handleSubmitFailed}
               onChange={() => {
                 setErrorMessage(null);
               }}

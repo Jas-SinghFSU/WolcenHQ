@@ -7,6 +7,7 @@ const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const USERS = db.collection("Users");
 const { ensureUnauthenticated } = require("../Shared/ensureAuthenticated");
+const validator = require("validator");
 
 const { ObjectID } = Mongo;
 
@@ -46,6 +47,11 @@ router.post("/register", ensureUnauthenticated, async function (
   if (_.isEmpty(email)) {
     errorsArray.push("Email is required.");
   }
+
+  if (!validator.isEmail(email)) {
+    return res.status(500).send({ error: "E-Mail is not a valid format." });
+  }
+
   if (_.isEmpty(username)) {
     errorsArray.push("Username is required.");
   }

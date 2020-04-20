@@ -51,7 +51,7 @@ const Register = (props) => {
                 <div className="authErrorContainer">{errorMessage}</div>
               )}
               <FormItem
-                label="Email"
+                label="E-mail"
                 name="email"
                 labelCol={{ span: 24 }}
                 wrapperCol={{ span: 24 }}
