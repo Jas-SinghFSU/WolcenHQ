@@ -79,7 +79,7 @@ router.post("/register", ensureUnauthenticated, async function (
           { $set: { email: email } },
           { returnOriginal: false }
         );
-        req.logIn(userWithEmail, function (err) {
+        req.logIn([userWithEmail.value], function (err) {
           if (err) {
             return next(err);
           }

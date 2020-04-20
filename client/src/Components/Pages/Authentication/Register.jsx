@@ -1,7 +1,8 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
 import { useHistory } from "react-router-dom";
 import { Row, Col, Card, Button, Form, Input } from "antd";
+import axios from "axios";
 import _ from "lodash";
 
 import "./style.css";
@@ -10,13 +11,19 @@ const FormItem = Form.Item;
 const Register = (props) => {
   const userData = useContext(UserProvider.context);
   const history = useHistory();
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    props.form.validateFields((err, values) => {
-      if (!err) {
-        console.log("Received values of form: ", values);
-      }
-    });
+  const [errorMessage, setErrorMessage] = useState(null);
+
+  const handleSubmit = async (values) => {
+    try {
+      await axios.post("/api/auth/register", values);
+      userData.getUser();
+      history.push("/");
+    } catch (error) {
+      console.error(
+        `Failed to log in. ${JSON.stringify(error.response.data.error)}`
+      );
+      setErrorMessage(error.response.data.error);
+    }
   };
 
   if (!_.isEmpty(userData.user)) {
@@ -33,7 +40,26 @@ const Register = (props) => {
             </div>
 
             {/* REGISTRATION INFORMATION INPUT FORM */}
-            <Form className="registerForm" onSubmit={handleSubmit}>
+            <Form
+              className="registerForm"
+              onFinish={handleSubmit}
+              onChange={() => {
+                setErrorMessage(null);
+              }}
+            >
+              {!_.isEmpty(errorMessage) && (
+                <div className="authErrorContainer">{errorMessage}</div>
+              )}
+              <FormItem
+                label="Email"
+                name="email"
+                labelCol={{ span: 24 }}
+                wrapperCol={{ span: 24 }}
+                className="registerFormInput"
+                rules={[{ required: true, message: "Email is required." }]}
+              >
+                <Input />
+              </FormItem>
               <FormItem
                 label="Username"
                 name="username"
@@ -52,11 +78,11 @@ const Register = (props) => {
                 className="registerFormInput"
                 rules={[{ required: true, message: "Password is required." }]}
               >
-                <Input />
+                <Input.Password />
               </FormItem>
               <FormItem
                 label="Confirm Password"
-                name="confirmPassword"
+                name="password2"
                 labelCol={{ span: 24 }}
                 wrapperCol={{ span: 24 }}
                 className="registerFormInput"
@@ -67,7 +93,7 @@ const Register = (props) => {
                   },
                 ]}
               >
-                <Input />
+                <Input.Password />
               </FormItem>
               {/* LOGIN WITH STEAM BUTTON */}
               <div className="formControlButtons">

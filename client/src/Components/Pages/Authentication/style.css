@@ -115,3 +115,9 @@
 .registerForm {
   margin-top: 20px;
 }
+
+.authErrorContainer {
+  color: #f7686b;
+  font-size: 15px;
+  text-align: center;
+}

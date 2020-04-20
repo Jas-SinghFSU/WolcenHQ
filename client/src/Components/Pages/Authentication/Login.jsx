@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
 import { useHistory } from "react-router-dom";
 import { Row, Col, Card, Button, Form, Input } from "antd";
@@ -11,6 +11,8 @@ const FormItem = Form.Item;
 const Login = (props) => {
   const userData = useContext(UserProvider.context);
 
+  const [errorMessage, setErrorMessage] = useState(null);
+
   const history = useHistory();
 
   const handleSubmit = async (values) => {
@@ -19,7 +21,10 @@ const Login = (props) => {
       userData.getUser();
       history.push("/");
     } catch (error) {
-      console.error(`Failed to log in. ${error.message}`);
+      console.error(
+        `Failed to log in. ${JSON.stringify(error.response.data.error)}`
+      );
+      setErrorMessage(error.response.data.error);
     }
   };
 
@@ -45,7 +50,13 @@ const Login = (props) => {
               className="registerForm"
               onFinish={handleSubmit}
               onFinishFailed={handleSubmitFailed}
+              onChange={() => {
+                setErrorMessage(null);
+              }}
             >
+              {!_.isEmpty(errorMessage) && (
+                <div className="authErrorContainer">{errorMessage}</div>
+              )}
               <FormItem
                 label="Username"
                 name="username"

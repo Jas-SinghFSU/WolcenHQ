@@ -95,7 +95,10 @@ module.exports = function (passport) {
         };
 
         const createdUser = await USERS.insertOne(userObject);
-        return done(null, [createdUser.ops[0]]);
+
+        const filteredUserObject = createdUser.ops[0];
+        delete filteredUserObject.password;
+        return done(null, [filteredUserObject]);
       } catch (error) {
         return done(`Failed to create user. ${error.message}`, null);
       }
