@@ -156,6 +156,28 @@ const RenderRings = React.memo(
         ? middleRingImg
         : "";
 
+    if (scope === "outerRing") {
+      return (
+        <Fragment>
+          <image
+            xlinkHref={outerRingImg}
+            height={curDimensions}
+            width={curDimensions}
+            x={curPosition}
+            y={curPosition}
+            style={{ pointerEvents: "none" }}
+          />
+          <image
+            xlinkHref={imageSrc}
+            height={curDimensions}
+            width={curDimensions}
+            x={curPosition}
+            y={curPosition}
+            style={{ pointerEvents: "none" }}
+          />
+        </Fragment>
+      );
+    }
     return (
       <image
         xlinkHref={imageSrc}

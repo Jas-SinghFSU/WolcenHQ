@@ -1,8 +1,11 @@
 const SteamStrategy = require("passport-steam").Strategy;
+const LocalStrategy = require("passport-local").Strategy;
 const keys = require("./default.json");
 const { getDatabase } = require("../Shared/MongoUtil");
 const db = getDatabase();
 const USERS = db.collection("Users");
+const bcrypt = require("bcryptjs");
+const _ = require("lodash");
 
 module.exports = function (passport) {
   passport.use(
@@ -61,6 +64,70 @@ module.exports = function (passport) {
         }
       }
     )
+  );
+
+  passport.use(
+    "local-register",
+    new LocalStrategy(async (username, password, done) => {
+      try {
+        const foundUser = await USERS.find({
+          username: { $regex: `^${username}$`, $options: "im" },
+        }).count();
+
+        if (foundUser > 0) {
+          return done("Username already exists.", null);
+        }
+
+        const salt = await bcrypt.genSalt(10);
+        const hashedPassword = await bcrypt.hash(password, salt);
+
+        const userObject = {
+          provider: "local",
+          displayName: username,
+          email: null,
+          username,
+          password: hashedPassword,
+          image: {
+            value: null,
+          },
+          visibility: "public",
+          created: new Date(),
+        };
+
+        const createdUser = await USERS.insertOne(userObject);
+        return done(null, [createdUser.ops[0]]);
+      } catch (error) {
+        return done(`Failed to create user. ${error.message}`, null);
+      }
+    })
+  );
+
+  passport.use(
+    "local-login",
+    new LocalStrategy(async (username, password, done) => {
+      try {
+        const foundUser = await USERS.find({
+          username: { $regex: `^${username}$`, $options: "im" },
+        }).toArray();
+
+        if (foundUser.length <= 0) {
+          return done("Username does not exist.", null);
+        }
+
+        const foundUserData = foundUser[0];
+
+        const isMatch = await bcrypt.compare(password, foundUserData.password);
+
+        if (!isMatch) {
+          return done("Password is incorrect.", null);
+        }
+        const userObject = foundUser[0];
+        delete userObject.password;
+        return done(null, [userObject]);
+      } catch (error) {
+        return done(`Failed to login. ${error.message}`, null);
+      }
+    })
   );
 
   passport.serializeUser(function (user, done) {

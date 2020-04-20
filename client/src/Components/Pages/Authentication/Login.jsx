@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import UserProvider from "../../../Contexts/UserProvider";
 import { useHistory } from "react-router-dom";
 import { Row, Col, Card, Button, Form, Input } from "antd";
+import axios from "axios";
 import _ from "lodash";
 
 import "./style.css";
@@ -12,13 +13,18 @@ const Login = (props) => {
 
   const history = useHistory();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    props.form.validateFields((err, values) => {
-      if (!err) {
-        console.log("Received values of form: ", values);
-      }
-    });
+  const handleSubmit = async (values) => {
+    try {
+      await axios.post("/api/auth/login", values);
+      userData.getUser();
+      history.push("/");
+    } catch (error) {
+      console.error(`Failed to log in. ${error.message}`);
+    }
+  };
+
+  const handleSubmitFailed = (errorInfo) => {
+    console.log("Failed:", errorInfo);
   };
 
   if (!_.isEmpty(userData.user)) {
@@ -35,14 +41,18 @@ const Login = (props) => {
             </div>
 
             {/* REGISTRATION INFORMATION INPUT FORM */}
-            <Form className="registerForm" onSubmit={handleSubmit}>
+            <Form
+              className="registerForm"
+              onFinish={handleSubmit}
+              onFinishFailed={handleSubmitFailed}
+            >
               <FormItem
-                label="E-Mail"
-                name="email"
+                label="Username"
+                name="username"
                 labelCol={{ span: 24 }}
                 wrapperCol={{ span: 24 }}
                 className="registerFormInput"
-                rules={[{ required: true, message: "Email is required." }]}
+                rules={[{ required: true, message: "Username is required." }]}
               >
                 <Input />
               </FormItem>
@@ -54,7 +64,7 @@ const Login = (props) => {
                 className="registerFormInput"
                 rules={[{ required: true, message: "Password is required." }]}
               >
-                <Input />
+                <Input.Password />
               </FormItem>
               {/* LOGIN WITH STEAM BUTTON */}
               <div className="formControlButtons">

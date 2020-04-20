@@ -19,6 +19,8 @@
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .wolcenTextLabel {
@@ -26,4 +28,16 @@
   color: rgb(226, 177, 142);
   border-bottom: 10px;
   border-bottom-style: groove;
+  width: min-content;
+  align-self: center;
+}
+
+.wolcenSubtextValue {
+  font-size: 14px;
+  color: rgb(199, 199, 199);
+  margin-top: 5px;
+}
+
+.wolcenSubtextValue a {
+  color: rgb(70, 200, 240);
 }

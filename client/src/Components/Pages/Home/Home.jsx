@@ -15,6 +15,17 @@ const HomePageLabel = () => {
       <span className="wolcenTextLabel">
         Wolcen<span className="wolcenSubtextLabel">HQ</span>
       </span>
+      <div className="wolcenSubtextValue">
+        A{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://wolcengame.com/"
+        >
+          Wolcen
+        </a>{" "}
+        Resource
+      </div>
     </div>
   );
 };

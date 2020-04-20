@@ -13,6 +13,7 @@
     "@vx/zoom": "0.0.195",
     "antd": "^4.1.0",
     "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
     "d3": "^5.15.0",
     "get-youtube-id": "^1.0.1",
     "http-proxy-middleware": "^1.0.3",

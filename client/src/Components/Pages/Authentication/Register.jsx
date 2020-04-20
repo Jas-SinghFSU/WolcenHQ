@@ -35,12 +35,12 @@ const Register = (props) => {
             {/* REGISTRATION INFORMATION INPUT FORM */}
             <Form className="registerForm" onSubmit={handleSubmit}>
               <FormItem
-                label="E-Mail"
-                name="email"
+                label="Username"
+                name="username"
                 labelCol={{ span: 24 }}
                 wrapperCol={{ span: 24 }}
                 className="registerFormInput"
-                rules={[{ required: true, message: "Email is required." }]}
+                rules={[{ required: true, message: "Username is required." }]}
               >
                 <Input />
               </FormItem>

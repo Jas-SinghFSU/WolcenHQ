@@ -1,5 +1,6 @@
 .buildsHomeContainer {
   margin-top: 63.5px;
+  min-width: 1150px;
 }
 
 .buildTablePaginationTop {
