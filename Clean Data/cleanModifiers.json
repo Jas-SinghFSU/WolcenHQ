@@ -1,0 +1,2562 @@
+[
+  {
+    "modName": "Fluid Movement",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Force Bow",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Serrated Arrows",
+    "modDesc": "Adds a slowing effect to the arrows' area of effect."
+  },
+  {
+    "modName": "The Black Cloud",
+    "modDesc": "All damage is now dealt instantly after skill activation, but damage is reduced."
+  },
+  {
+    "modName": "Flames of Envy",
+    "modDesc": "Converts base Physical damage to Fire damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Shattering Arrowheads",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Eagle Eye",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Spirited Advance",
+    "modDesc": "Arrows become a vertical barrage that creeps forward slowly."
+  },
+  {
+    "modName": "Aching Accuracy",
+    "modDesc": "Allows you to charge this skill to increase its damage."
+  },
+  {
+    "modName": "Flight From Bindings",
+    "modDesc": "Increases critical chance for self and allies around you."
+  },
+  {
+    "modName": "Reemergence",
+    "modDesc": "Cooldown is reduced upon killing an enemy."
+  },
+  {
+    "modName": "Vanquisher's Overlook",
+    "modDesc": "Damage multiplier applied per enemy within the skill's area of effect."
+  },
+  {
+    "modName": "Call of the First Archers",
+    "modDesc": "Summons a ghost ally that creates two smaller damaging areas of effect around yours."
+  },
+  {
+    "modName": "Attrition Strategy",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Broadhead",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Irate Smiting",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Vorpal Blades",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Loyalty of the Blades",
+    "modDesc": "Reduces reload time for charges."
+  },
+  {
+    "modName": "Thick Edges",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Windforged",
+    "modDesc": "The projectile circles around the cursor's location."
+  },
+  {
+    "modName": "Noxious Contamination",
+    "modDesc": "Converts base Physical damage to Toxic damage.\\n\\nApplies an additional stack when inflicting Poison."
+  },
+  {
+    "modName": "Bladeslinger",
+    "modDesc": "Can hold 1 additional charge."
+  },
+  {
+    "modName": "Immobilizing Bola",
+    "modDesc": "Projectile immobilizes enemies."
+  },
+  {
+    "modName": "Cut through the Aether",
+    "modDesc": "Teleport to the projectile's location on re-cast."
+  },
+  {
+    "modName": "Gliding Friction",
+    "modDesc": "Leaves a trail for a few seconds that deals damage."
+  },
+  {
+    "modName": "Looming Fog of Battle",
+    "modDesc": "Transmits Ailment stacks from one target to the next."
+  },
+  {
+    "modName": "Death's Last Delay",
+    "modDesc": "Projectile causes the first enemy it hits to explode after a few seconds, dealing damage in an area of effect."
+  },
+  {
+    "modName": "Bladed Blizzard",
+    "modDesc": "Converts base Physical damage to Frost damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Dismissal",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Butterfly's Eye",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Gutting Wheel",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Needles in Perpetuity",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Massive Blast Zone",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Affinity for Destruction",
+    "modDesc": "Reduces minimum range."
+  },
+  {
+    "modName": "Sticky Bomb",
+    "modDesc": "Adds a slow effect to the area of effect."
+  },
+  {
+    "modName": "Multi-barreled Mortar",
+    "modDesc": "Adds one projectile, but deals reduced damage."
+  },
+  {
+    "modName": "Blood Seeks Blood",
+    "modDesc": "Converts Physical damage to Rend damage.\\n\\nApplies an additional stack when inflicting Bleed."
+  },
+  {
+    "modName": "Magnificent Explosion",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Extreme Fragmentation",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Mine Launcher",
+    "modDesc": "The projectile stays where it lands for a while and detonates if there's an enemy nearby."
+  },
+  {
+    "modName": "Disintegrating Payload",
+    "modDesc": "Each explosion casts a cluster of smaller grenades around it."
+  },
+  {
+    "modName": "Baptism by Hail",
+    "modDesc": "Fires multiple bombs in quick succession with reduced damage. Adds a cooldown to the skill."
+  },
+  {
+    "modName": "Glory To Mankind",
+    "modDesc": "Fires rockets in a straight line that have a reduced explosion radius but increased damage."
+  },
+  {
+    "modName": "Desire for Collateral",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Lasting Shake",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Vaporizer",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Unstable Charge",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Feats of Manufacture",
+    "modDesc": "Adds one additional projectile.\\n\\nReduces damage."
+  },
+  {
+    "modName": "Crater Maker",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Balanced Handle",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Tremors of Gaavanir",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Bonebreaker",
+    "modDesc": "Increases critical chance on enemies inflicted with Stun."
+  },
+  {
+    "modName": "Stormbound",
+    "modDesc": "Converts base Physical damage to Lightning damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Grievous Wounds",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Immense Pressure",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "The Will to Crush",
+    "modDesc": "Allows the skill to be charged in order to deal more damage."
+  },
+  {
+    "modName": "Deafening Clang",
+    "modDesc": "Creates a chain of explosions in front of you."
+  },
+  {
+    "modName": "The Axhammer",
+    "modDesc": "Increases attack speed, reduces damage."
+  },
+  {
+    "modName": "Remnants Of Shock",
+    "modDesc": "Spawns a ghost ally that hits an enemy after they are hit by this skill."
+  },
+  {
+    "modName": "Radical Shake",
+    "modDesc": "Critical hits inflict Stun on enemies. Effect has a cooldown."
+  },
+  {
+    "modName": "Crackling Grindstone",
+    "modDesc": "Critical hits have a chance to smite enemies with a bouncing attack based on your weapon damage."
+  },
+  {
+    "modName": "Fractal Scarring",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Towers Amidst Tempests",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Voltaic Arc",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Stylish Execution",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Leave No Witnesses",
+    "modDesc": "Increases number of targets."
+  },
+  {
+    "modName": "Flak Handcannon",
+    "modDesc": "Each shot of Gunslinger's Brand that hits an enemy deals damage in an area of effect."
+  },
+  {
+    "modName": "Time Manipulator",
+    "modDesc": "Converts base Physical damage to Aether damage.\\n\\nIncreases chance of inflicting Stasis."
+  },
+  {
+    "modName": "Ordered Discord",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Hipfire Headshots",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Order Through Chaos",
+    "modDesc": "Every shot of Gunslinger's Brand that hits an enemy increases the damage of the next shot incrementally. This buff is reset when a shot misses."
+  },
+  {
+    "modName": "Traversal",
+    "modDesc": "Shots Pierce the target."
+  },
+  {
+    "modName": "No Prisoners",
+    "modDesc": "Targets with under 10% health are automatically targeted, but damage is reduced."
+  },
+  {
+    "modName": "Scattering Blast",
+    "modDesc": "Enemies are automatically targeted in a cone in fornt of you."
+  },
+  {
+    "modName": "Endless Throes",
+    "modDesc": "Increases critical chance and damage for each Ailment stack an enemy has."
+  },
+  {
+    "modName": "Scrutiny",
+    "modDesc": "Critical damage increases with aiming time. Resets after maximum aiming time is reached."
+  },
+  {
+    "modName": "Backstabber In The Crosshairs",
+    "modDesc": "Enemies that hit you while aiming are automatically targeted."
+  },
+  {
+    "modName": "Wild Gunsman",
+    "modDesc": "Fires all shots whenever this skill used."
+  },
+  {
+    "modName": "Friendly Fire",
+    "modDesc": "If an enemy suffers a critical hit, damage is bounced back to the first enemy targeted."
+  },
+  {
+    "modName": "Augmented Ammunition",
+    "modDesc": "Converts base Physical damage to a random Element."
+  },
+  {
+    "modName": "Swift Judgment",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Unwavering Conviction",
+    "modDesc": "Reduces damage lost on each bounce."
+  },
+  {
+    "modName": "Smiting Hunger",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Path of Woe",
+    "modDesc": "Lightning bounces an additional time."
+  },
+  {
+    "modName": "Storm at Sunset",
+    "modDesc": "Converts base Lightning damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+  },
+  {
+    "modName": "Crippling Current",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Merciless Conduit",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Rebuilding the Trinity",
+    "modDesc": "Gives a buff that allows you to deal additional damage based on the base element of this skill. This ability can target allies, and if they are affected by it, the ally will also receive this buff."
+  },
+  {
+    "modName": "Law Manifest in Lightning",
+    "modDesc": "Chance for lightning to strike from the sky on damaged targets."
+  },
+  {
+    "modName": "Presumption Of Guilt",
+    "modDesc": "Lightning prioritizes enemies that are being damaged over time."
+  },
+  {
+    "modName": "Knees Hitting Ground",
+    "modDesc": "Critical hits have a chance to inflict Stun on enemies. Adds a cooldown to the skill."
+  },
+  {
+    "modName": "Sequestered",
+    "modDesc": "Increases critical chance against shocked enemies."
+  },
+  {
+    "modName": "Reprisal",
+    "modDesc": "Critical hits cause lightning to fork between other enemies."
+  },
+  {
+    "modName": "Hangman's Lever",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Serpentine Scar",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Condensed Arc",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Sprinting Strides",
+    "modDesc": "Increases movement speed."
+  },
+  {
+    "modName": "Break the Line",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Full Frontal Slam",
+    "modDesc": "Inflicts Stun on enemies at the end of the charge. Increases the cooldown of the skill."
+  },
+  {
+    "modName": "Forge a Path",
+    "modDesc": "Charge the skill to channel for longer."
+  },
+  {
+    "modName": "Everlasting Ember",
+    "modDesc": "Converts base Physical damage to Fire damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Unstoppable Charge",
+    "modDesc": "Charge cannot be interrupted by crowd control effects.\\n\\nReduces damage from projectiles while charging."
+  },
+  {
+    "modName": "Overwhelming Impact",
+    "modDesc": "Creates a damage-dealing shockwave at the end of the charge."
+  },
+  {
+    "modName": "Burning Lifeblood",
+    "modDesc": "Leaves damaging areas of effect on the ground behind you, each one lasting for a few seconds."
+  },
+  {
+    "modName": "Lingering Vision",
+    "modDesc": "Spawns a ghost ally that hits an enemy after they are hit by this skill."
+  },
+  {
+    "modName": "Mania",
+    "modDesc": "Grant Rage when hitting enemies."
+  },
+  {
+    "modName": "Inflexible Stance",
+    "modDesc": "Increases damage based on block chance."
+  },
+  {
+    "modName": "Gold Tooth Scavenger",
+    "modDesc": "Increases block chance while charging."
+  },
+  {
+    "modName": "Vexilloid",
+    "modDesc": "Grants buff to all resistances for yourself and allies when charging."
+  },
+  {
+    "modName": "Stampede",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Marrow Eater",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Righteous Bash",
+    "modDesc": "Inflicts Stun on enemies caught in the charge. Adds a cooldown to the skill."
+  },
+  {
+    "modName": "Big Game Hunting",
+    "modDesc": "Marked enemies are more vulnerable to damage."
+  },
+  {
+    "modName": "Weight of Infamy",
+    "modDesc": "Marked enemies are slowed."
+  },
+  {
+    "modName": "Inescapable Fate",
+    "modDesc": "Marks have longer duration."
+  },
+  {
+    "modName": "Fate of the Unholy",
+    "modDesc": "Enemies killed while under the effect of Mark of Impurity explode and deal damage based on the target's max Health in an area around them."
+  },
+  {
+    "modName": "Target Eliminated",
+    "modDesc": "Increases critical damage on marked enemies."
+  },
+  {
+    "modName": "Minimal Resistance",
+    "modDesc": "Increases chance to inflict Ailments on marked enemies."
+  },
+  {
+    "modName": "Defect of Creation",
+    "modDesc": "Increases Ailment damage on marked enemies."
+  },
+  {
+    "modName": "Guilt by Association",
+    "modDesc": "Mark of Impurity spreads to surrounding enemies on the death of the target."
+  },
+  {
+    "modName": "Accursed Blade",
+    "modDesc": "Marked enemies are inflicted with numerous stacks of Cursed."
+  },
+  {
+    "modName": "Strange Mercy",
+    "modDesc": "Marked enemies under 10% health die instantly when hit."
+  },
+  {
+    "modName": "Faceless Justice",
+    "modDesc": "Chance to spawn a ghost ally when a marked enemy is hit that will hit the enemy again."
+  },
+  {
+    "modName": "Weight of Culpability",
+    "modDesc": "Marked enemies are more vulnerable to damage."
+  },
+  {
+    "modName": "Watchful Eye",
+    "modDesc": "Marks have longer duration."
+  },
+  {
+    "modName": "Sinners Without Exception",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "A Sentence Accepted",
+    "modDesc": "Marked enemies are more vulnerable to damage."
+  },
+  {
+    "modName": "Rapid Sanctions",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Fullered Blades",
+    "modDesc": "Faster dash."
+  },
+  {
+    "modName": "Crashing Moons",
+    "modDesc": "Part of the overall damage dealt to the target is dealt in an area around it."
+  },
+  {
+    "modName": "Superdense Metal",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Cosmic Ambush",
+    "modDesc": "Teleport behind the target.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Piercing Shadows",
+    "modDesc": "Converts base Physical damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+  },
+  {
+    "modName": "Flashing Blades",
+    "modDesc": "Every time the skill is re-cast within a short period of time, its damage is increased."
+  },
+  {
+    "modName": "Final Eclipse",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Curse of the Dark Crescent",
+    "modDesc": "Enemies killed by this skill transmit Ailments to other enemies."
+  },
+  {
+    "modName": "Dazzling Sweep",
+    "modDesc": "After completing a dash, enemies in 360 degrees are knocked back."
+  },
+  {
+    "modName": "Kindly Stopped For Me",
+    "modDesc": "Chance to spawn a ghost ally that hits an enemy after they are hit by this skill."
+  },
+  {
+    "modName": "Trail Of Dust",
+    "modDesc": "All enemies in the path of the dash are hit."
+  },
+  {
+    "modName": "Crepuscular Escalation",
+    "modDesc": "Hitting an enemy spawns two damaging projectiles behind them."
+  },
+  {
+    "modName": "Resentment's Foe",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Hundredth Cut",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Knife Unseen",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Effortless Slice",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Engulfing Desires",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Passions Aflame",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Heartpiercer",
+    "modDesc": "Projectiles no longer collide or explode. Instead, they gain an increased area of effect and Pierce enemies."
+  },
+  {
+    "modName": "Seeking Flames",
+    "modDesc": "Adds one projectile at an increased cost."
+  },
+  {
+    "modName": "Fratricidal Reunification",
+    "modDesc": "Converts base Fire damage to Lightning damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Volatile Embers",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Instant Ignition",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Object of Desire",
+    "modDesc": "Gives a buff that allows you to deal additional damage based on the base element of this skill. Allies affected by the skill’s area of effect will also receive this buff."
+  },
+  {
+    "modName": "Meteor Shower",
+    "modDesc": "Increases number of projectiles, but each projectile's damage is reduced."
+  },
+  {
+    "modName": "Fervor's Smoke",
+    "modDesc": "When re-cast, projectiles explode in a larger area of effect."
+  },
+  {
+    "modName": "Immolator",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Arsonist's Daydream",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Exposing Flames",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Plasmic State",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Catching Spark",
+    "modDesc": "Increases cast speed."
+  },
+  {
+    "modName": "Lord of Char",
+    "modDesc": "Increases damage. Adds a cooldown to the skill."
+  },
+  {
+    "modName": "Unrestrained Misery",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Sorrowful Attunement",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Malignant Narcissism",
+    "modDesc": "Reduces the delay before the mass of ice falls."
+  },
+  {
+    "modName": "Avalanche of Emotion",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Scorned by Fire",
+    "modDesc": "Converts base Frost damage to Fire damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Corrupting Wail",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Frozen Impurities",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Grieving Melancholy",
+    "modDesc": "Increases the delay before the mass of ice falls and increases its damage."
+  },
+  {
+    "modName": "Stalactite Rain",
+    "modDesc": "Alters the skill so that it deals damage over time."
+  },
+  {
+    "modName": "Glass Firmament",
+    "modDesc": "Allows you to charge Tear of Etheliel by maintaining its cast. Each level of charge it reaches increases its damage."
+  },
+  {
+    "modName": "Dizzying Whiteout",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Body's Water",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Meteorological Grip",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Absolute Zero",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Climactic Domination",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Sanguine Crystallization",
+    "modDesc": "Increases damage and increases Willpower cost."
+  },
+  {
+    "modName": "Crystal Javelin",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Boon of the Usurper",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Comet Ballista",
+    "modDesc": "Longer creation delay but Increases damage."
+  },
+  {
+    "modName": "Shattering Blasphemy",
+    "modDesc": "Enemies killed while they are frozen have a chance to cast ice shards around them in an explosion."
+  },
+  {
+    "modName": "Beauty of Hope",
+    "modDesc": "Converts base Frost damage to Sacred damage.\\n\\nIncreases chance of inflicting Weakness."
+  },
+  {
+    "modName": "An Ominous Chill",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Puncturing Icicle",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Prolonged Deceit",
+    "modDesc": "Every Arctic Spear that hits an enemy increases the damage of the next Arctic Spear incrementally. This buff is reset when an Arctic Spear misses."
+  },
+  {
+    "modName": "Hiemal Ambush",
+    "modDesc": "Spears created are delayed while re-casting, allowing you cast multiple spears at once."
+  },
+  {
+    "modName": "Sublime Fracture",
+    "modDesc": "While travelling, the spear releases smaller spears."
+  },
+  {
+    "modName": "Hypothermic Vulnerability",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Cold Perforation",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Cold Regard",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Freezing Skewers",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Crooked Jab",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Organic Temperature Shift",
+    "modDesc": "Increases damage. Adds a cooldown to the skill."
+  },
+  {
+    "modName": "Rime World",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Ice Pawn",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Immortalized Perfection",
+    "modDesc": "Increases Freeze duration."
+  },
+  {
+    "modName": "Admire from a Distance",
+    "modDesc": "Winter's Grasp is cast in a circle around the cursor."
+  },
+  {
+    "modName": "Concentrated Shadow",
+    "modDesc": "Converts base Frost damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+  },
+  {
+    "modName": "Biting Cold",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "PermaFrost",
+    "modDesc": "Leaves a damaging area on the ground for a few seconds."
+  },
+  {
+    "modName": "Hail the Ice Queen",
+    "modDesc": "Gives a buff that allows you to deal additional damage based on the base element of this skill. Allies affected by the skill’s area of effect will also receive this buff."
+  },
+  {
+    "modName": "Glacial Blast",
+    "modDesc": "Enemies killed while frozen by this skill trigger another ice nova."
+  },
+  {
+    "modName": "Soul in Emanation",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Knightly Vanity",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Warlike Confidence",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Numbness in Onset",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Fancies of Warmth",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Century of Cold Nights",
+    "modDesc": "Reduces cooldown"
+  },
+  {
+    "modName": "Icy Gales",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Warden's Chain",
+    "modDesc": "Increases range."
+  },
+  {
+    "modName": "Zealous Smite",
+    "modDesc": "Enemies hit by the hook are inflicted with Stun."
+  },
+  {
+    "modName": "Chain-slinger",
+    "modDesc": "Grant Rage for each enemy hit by this ability."
+  },
+  {
+    "modName": "Bold Move",
+    "modDesc": "Pulls you toward the final target of the hook."
+  },
+  {
+    "modName": "Deep Gashes",
+    "modDesc": "Deals Rend damage.\\n\\nApplies an additional stack when inflicting Bleed."
+  },
+  {
+    "modName": "Preserving Momentum",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Feeding the Spirit",
+    "modDesc": "Enemies hit by the hook are more likely to drop Health Globes."
+  },
+  {
+    "modName": "Unrelenting Hunt",
+    "modDesc": "Pulls enemies from all directions."
+  },
+  {
+    "modName": "Arresting Claw",
+    "modDesc": "Hook inflicts Stasis on enemies."
+  },
+  {
+    "modName": "Mercy Caged",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Judgement's Fall",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Wrangler of Rogues",
+    "modDesc": "Increases range."
+  },
+  {
+    "modName": "Retracting Chain",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Rapid Propellation",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Ever Wakeful Justice",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Panopticon",
+    "modDesc": "Increases range."
+  },
+  {
+    "modName": "Self-adjusting Principle",
+    "modDesc": "Increases projectile speed."
+  },
+  {
+    "modName": "Wicked Swing",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Shredding Edge",
+    "modDesc": "Increases chance to inflict Bleed on enemies."
+  },
+  {
+    "modName": "Unstoppable Momentum",
+    "modDesc": "Axe continues to spin after being thrown."
+  },
+  {
+    "modName": "Will-o'-the-Wisp",
+    "modDesc": "Converts base Physical damage to Fire damage instead of Rend damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "A Taste for Blood",
+    "modDesc": "Leech life from enemies when dealing damage with Bleeding Edge."
+  },
+  {
+    "modName": "Revolving Guillotine",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Astral Orbit",
+    "modDesc": "The axe now follows you as you move."
+  },
+  {
+    "modName": "Cyclonic Expansion",
+    "modDesc": "The reach of the spinning axe increases over time."
+  },
+  {
+    "modName": "Delayed Bladespin",
+    "modDesc": "Casts to the location of the cursor."
+  },
+  {
+    "modName": "Despotic Perseverance",
+    "modDesc": "Increases damage per Ailment stack."
+  },
+  {
+    "modName": "Evisceration",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Stinging Blade",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Bladed Meteorite",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Orbital Strike",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Upright Fury",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "The Flow of Infinity",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Consumed by Nothingness",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Time Seeker",
+    "modDesc": "Increases beam radius."
+  },
+  {
+    "modName": "Puncturing Gaze",
+    "modDesc": "Beam Pierces enemies."
+  },
+  {
+    "modName": "Inevitable Decay",
+    "modDesc": "Converts base Aether damage to Toxic damage.\\n\\nApplies an additional stack when inflicting Poison."
+  },
+  {
+    "modName": "Swing of the Pendulum",
+    "modDesc": "Increases turn speed while the beam is being cast."
+  },
+  {
+    "modName": "Catatonic Trance",
+    "modDesc": "Damage increases over time as the beam is being cast."
+  },
+  {
+    "modName": "Pressure of Time",
+    "modDesc": "The skill fires an additional beam."
+  },
+  {
+    "modName": "Toxic Entropy",
+    "modDesc": "Increases Toxic and Aether damage for yourself and allies caught within the beam."
+  },
+  {
+    "modName": "Extravagant Blast",
+    "modDesc": "The skill fires an additional laser beam but the damage of the skill is reduced."
+  },
+  {
+    "modName": "Incoming Collapse",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Degenerate Matter",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Radiation",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Ultraviolet",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Finality's Axiom",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "One with the Weave",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Berzerker's Onslaught",
+    "modDesc": "Increases Rage generation."
+  },
+  {
+    "modName": "Lightspeed",
+    "modDesc": "Increases flight speed."
+  },
+  {
+    "modName": "Bird of Prey",
+    "modDesc": "Inflicts Stun on enemies on impact."
+  },
+  {
+    "modName": "Rippling Impact",
+    "modDesc": "Creates a damage-dealing shockwave upon landing."
+  },
+  {
+    "modName": "Shining Hope",
+    "modDesc": "Converts base Physical damage to Sacred damage.\\n\\nIncreases chance of inflicting Weakness."
+  },
+  {
+    "modName": "Heavy Impalement",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Overwhelming Tremor",
+    "modDesc": "Knockbacks enemies upon landing."
+  },
+  {
+    "modName": "Relentless Pursuit",
+    "modDesc": "Skill loses its cooldown and costs one Stamina Point to use instead."
+  },
+  {
+    "modName": "Noble Bearing",
+    "modDesc": "Reduces cooldown for each hit that kills an enemy."
+  },
+  {
+    "modName": "Twisting Harbinger",
+    "modDesc": "Creates a vortex before landing that pulls in enemies within an area of effect."
+  },
+  {
+    "modName": "Trial Of Swindlers",
+    "modDesc": "Regnerate Force Shield per enemy hit on landing."
+  },
+  {
+    "modName": "Stunning Apparatus",
+    "modDesc": "Grants a buff for each enemy hit on landing."
+  },
+  {
+    "modName": "Meritorious Crew",
+    "modDesc": "Increases damage dealt by yourself and allies in the area of effect on landing."
+  },
+  {
+    "modName": "Grinning Radiance",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Gratitude Turned Spite",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Look of a Champion",
+    "modDesc": "Increases Threat generation."
+  },
+  {
+    "modName": "Merciless Rhythm",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Knotted Ends",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Whirlwind of War",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Draining Lifeforce",
+    "modDesc": "Gain life leech on the damage dealt by this ability.\\n\\nThe lower your health, the more life leech you gain."
+  },
+  {
+    "modName": "Stolen Light",
+    "modDesc": "Converts base Physical damage to Sacred damage.\\n\\nIncreases chance of inflicting Weakness."
+  },
+  {
+    "modName": "Lethal Ambitions",
+    "modDesc": "Increases chance to inflict Ailments on enemies"
+  },
+  {
+    "modName": "Out for Blood",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Taste for Vengeance",
+    "modDesc": "Add an additional attack to the combo."
+  },
+  {
+    "modName": "Blood Brothers",
+    "modDesc": "Grants a life leech buff to yourself and allies."
+  },
+  {
+    "modName": "Primal Rush",
+    "modDesc": "Rage generated when killing an enemy."
+  },
+  {
+    "modName": "Final Moments",
+    "modDesc": "Increases damage based on the amount of missing health you have."
+  },
+  {
+    "modName": "Wounded Pride",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Attrition",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Steel Cradle",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Rapid Swings",
+    "modDesc": "Increases attack speed."
+  },
+  {
+    "modName": "Lumbering Blows",
+    "modDesc": "Reduces critical chance.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Everlasting Aurora",
+    "modDesc": "Increases duration."
+  },
+  {
+    "modName": "Aegis of Hope",
+    "modDesc": "Grants buff to all resistances while inside the area of effect."
+  },
+  {
+    "modName": "Blade of Truth",
+    "modDesc": "Attacks deal sacred damage while inside the area of effect."
+  },
+  {
+    "modName": "Vanguard of the Morning Star",
+    "modDesc": "Healing area of effect becomes centered at cursor location."
+  },
+  {
+    "modName": "Embracing Conviction",
+    "modDesc": "Allows the healing area of effect to be moved by re-casting the ability."
+  },
+  {
+    "modName": "Boundless Cornucopia",
+    "modDesc": "Increases healing rate."
+  },
+  {
+    "modName": "Rejuvenating Light",
+    "modDesc": "Increases stamina regeneration while inside the area of effect."
+  },
+  {
+    "modName": "Divine Omnipresence",
+    "modDesc": "The healing area of effect follows the player that it was cast on."
+  },
+  {
+    "modName": "Burning Balm",
+    "modDesc": "Increases chance to inflict Ailments on enemies while inside the area of effect."
+  },
+  {
+    "modName": "Sacred Grounds",
+    "modDesc": "Area of effect deals damage."
+  },
+  {
+    "modName": "Haven of Men",
+    "modDesc": "Area of effect regenerates Force Shield."
+  },
+  {
+    "modName": "Generative Star",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "House of Rest",
+    "modDesc": "Increases healing rate."
+  },
+  {
+    "modName": "Inspiration",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Vitality Exhumed",
+    "modDesc": "Increases health regeneration per tick."
+  },
+  {
+    "modName": "Extended Protection",
+    "modDesc": "Increases duration."
+  },
+  {
+    "modName": "Flying Death",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Light Frame",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Focused Shot",
+    "modDesc": "Reduces number of projectiles but increases damage."
+  },
+  {
+    "modName": "Explosive Barrage",
+    "modDesc": "Arrows explode on enemy contact. Cannot pierce enemies."
+  },
+  {
+    "modName": "Unnatural Causes",
+    "modDesc": "Converts base Physical damage to Toxic damage.\\n\\nApplies an additional stack when inflicting Poison."
+  },
+  {
+    "modName": "Siege Tactics",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Pincushion",
+    "modDesc": "Increases number of projectiles."
+  },
+  {
+    "modName": "Phantom Volley",
+    "modDesc": "Summon ghosts to shoot arrows alongside you."
+  },
+  {
+    "modName": "Of Storms' Past",
+    "modDesc": "Chance to spawn a ghost ally that hits an enemy after they are hit by your arrows."
+  },
+  {
+    "modName": "Ardent Nock",
+    "modDesc": "Increases cast speed."
+  },
+  {
+    "modName": "Cleaving Race",
+    "modDesc": "Increases damage for each remaining Pierce."
+  },
+  {
+    "modName": "Pride Of The Deerstalker",
+    "modDesc": "Charge the shot, firing a volley for each charge level reached."
+  },
+  {
+    "modName": "Whitefield Arrowheads",
+    "modDesc": "Converts base Physical damage to Frost damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Persistent Limp",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Pulmonary Strike",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Cruel Songbird",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Escape Artist",
+    "modDesc": "Increases teleport range."
+  },
+  {
+    "modName": "Fragments of Aether",
+    "modDesc": "Enemies near the beginning and end of the teleport are inflicted with Stasis."
+  },
+  {
+    "modName": "Feeding the Aether",
+    "modDesc": "Gain Willpower for each enemy passed through with Aether Jump."
+  },
+  {
+    "modName": "Spatial Puppeteer",
+    "modDesc": "Swap position with enemies around the target location of the teleport."
+  },
+  {
+    "modName": "Veil of Illusion",
+    "modDesc": "Leaves a decoy behind when a teleport is activated."
+  },
+  {
+    "modName": "Spirits of the Void",
+    "modDesc": "Deals Aether damage to enemies between the beginning and end of the teleport. \\n\\nIncreases chance of inflicting Stasis."
+  },
+  {
+    "modName": "Time Paradox",
+    "modDesc": "Casting this skill removes all crowd control effects."
+  },
+  {
+    "modName": "March of the Time Devourers",
+    "modDesc": "Reduces cooldown\\n\\nAllows skill to be cast mutiple times. Each re-cast has an increased Willpower cost."
+  },
+  {
+    "modName": "Aethereal Bounce",
+    "modDesc": "Increases attack speed and spell casting speed after using this skill."
+  },
+  {
+    "modName": "Convolution",
+    "modDesc": "Return to original location when Aether Jump is re-cast."
+  },
+  {
+    "modName": "Interstitial Boost",
+    "modDesc": "Increases movement speed after completing a teleport."
+  },
+  {
+    "modName": "Quantum Mind",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Continuum Expertise",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Auspex's Arrogance",
+    "modDesc": "Gain Willpower for each enemy passed through with Aether Jump."
+  },
+  {
+    "modName": "Breath of Time",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Hypocosmic Flight",
+    "modDesc": "Increases range of the teleport."
+  },
+  {
+    "modName": "Sleepless Sentry",
+    "modDesc": "Turret stays active for a longer duration."
+  },
+  {
+    "modName": "High Calibre Ammunition",
+    "modDesc": "Increases turret damage."
+  },
+  {
+    "modName": "Twin Repeater",
+    "modDesc": "Turret gains an additional cannon, increasing its damage."
+  },
+  {
+    "modName": "Flak Launcher",
+    "modDesc": "Turret shots now deal damage in an area of effect."
+  },
+  {
+    "modName": "Cyclone Lightning-Cannon",
+    "modDesc": "Converts base Physical damage to Lightning damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Self-Destruct Protocol",
+    "modDesc": "Turret explodes when destroyed, dealing damage in an area of effect."
+  },
+  {
+    "modName": "Cranial Focus Fire",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Autonomous Sensors",
+    "modDesc": "Turret can now rotate and auto-target enemies."
+  },
+  {
+    "modName": "Ballistic Reinforcements",
+    "modDesc": "Allows you to summon a second turret."
+  },
+  {
+    "modName": "Consensus",
+    "modDesc": "Increases movement speed for allies in an area of effect around the turret."
+  },
+  {
+    "modName": "Deflecting Barrier",
+    "modDesc": "Creates a shield that rotates with the turret, blocking incoming projectiles."
+  },
+  {
+    "modName": "Wild Splinters",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Kinetic Trauma",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Unstable Engine of Destruction",
+    "modDesc": "Increases turret damage, but turret stays active for a reduced duration."
+  },
+  {
+    "modName": "Precision Bullets",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Automated Ammunition Charge",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Raging Berserker",
+    "modDesc": "Increases Rage generation per enemy hit by the shout.\\n\\nIncreases Rage generation per hit while skill is active."
+  },
+  {
+    "modName": "Rallying Cry",
+    "modDesc": "Increases chance of health globes spawning while this skill is active."
+  },
+  {
+    "modName": "Hold The Line",
+    "modDesc": "Grants buff to all resistances per enemy hit by the shout."
+  },
+  {
+    "modName": "Conqueror of Will",
+    "modDesc": "Shout inflicts Stun on enemies in a small area of effect."
+  },
+  {
+    "modName": "Dawnbreaker",
+    "modDesc": "Enemies hit by the shout are inflicted with Weakness."
+  },
+  {
+    "modName": "Infectious Determination",
+    "modDesc": "Increases duration of the buffs granted by this skill."
+  },
+  {
+    "modName": "Hostile Inspiration",
+    "modDesc": "Increases the effectiveness of all buffs granted by this skill and other skills."
+  },
+  {
+    "modName": "Singular Command",
+    "modDesc": "You and your allies are cleansed of crowd control effects when this skill is activated."
+  },
+  {
+    "modName": "Enemy's Pallor",
+    "modDesc": "Grants a temporary life leech buff."
+  },
+  {
+    "modName": "Marble House",
+    "modDesc": "Grants a temporary block chance buff."
+  },
+  {
+    "modName": "A Princeps' Lead",
+    "modDesc": "Grants a temporary critical chance buff."
+  },
+  {
+    "modName": "Red Earth Tracks",
+    "modDesc": "Grants a movement speed buff."
+  },
+  {
+    "modName": "Blade Eater",
+    "modDesc": "Shout generates more Threat."
+  },
+  {
+    "modName": "To Rise Again",
+    "modDesc": "Restores stamina points when the skill is cast."
+  },
+  {
+    "modName": "Wine Of War",
+    "modDesc": "Chance for the shout to Frenzy enemies."
+  },
+  {
+    "modName": "Belligerent Promises",
+    "modDesc": "Shout generates more Threat."
+  },
+  {
+    "modName": "Ceaseless Current",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Shiganite Density",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Unfettered Determination",
+    "modDesc": "Can be held to prolong the duration of the skill."
+  },
+  {
+    "modName": "Frozen Spirit",
+    "modDesc": "Converts base Physical damage to Frost damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Eye of the Tornado",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Shredding Whirlwind",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Long Pommel",
+    "modDesc": "Increases area of effect.\\n\\nDamage ticks are applied less often."
+  },
+  {
+    "modName": "High Velocity Rotation",
+    "modDesc": "Increases attack speed for yourself and allies inside the area of effect."
+  },
+  {
+    "modName": "Echoes Of Meadhalls",
+    "modDesc": "Enemies hit by this skill spawn health globes."
+  },
+  {
+    "modName": "Lethal Momentum",
+    "modDesc": "Increases Rage generation from enemies killed by this skill."
+  },
+  {
+    "modName": "Chaining Wrath",
+    "modDesc": "Critical hits have a chance to smite enemies with a bouncing attack based on your weapon damage."
+  },
+  {
+    "modName": "Cascading Rhythms",
+    "modDesc": "Increases tick rate upon inflicting a critical hit."
+  },
+  {
+    "modName": "Spoils of War",
+    "modDesc": "Increases critical chance when an enemy is killed with Bladestorm."
+  },
+  {
+    "modName": "Imposing Will",
+    "modDesc": "Releases a directional wave after casting that damages enemies."
+  },
+  {
+    "modName": "Voknafein's Conviction",
+    "modDesc": "Enemy projectiles are deflected when this skill is active."
+  },
+  {
+    "modName": "Wheel of Pain",
+    "modDesc": "Increases damage per each Ailment an enemy has."
+  },
+  {
+    "modName": "Records Printed In Matter",
+    "modDesc": "Adds an additional attack to the melee combo that deals damage in 360 degrees."
+  },
+  {
+    "modName": "Cosmic Recursion",
+    "modDesc": "Adds an additional attack to the melee combo."
+  },
+  {
+    "modName": "Timeline Selection",
+    "modDesc": "Gain Willpower from critical hits."
+  },
+  {
+    "modName": "Sublime Cut",
+    "modDesc": "Gain Willpower each time an enemy is killed with Infinity Blades."
+  },
+  {
+    "modName": "Material Sinkhole",
+    "modDesc": "Applies a debuff that increases damage taken by spells."
+  },
+  {
+    "modName": "Rehearsal For Armageddon",
+    "modDesc": "Increases damage on the next attack after using the skill."
+  },
+  {
+    "modName": "Ethereal Zephyr",
+    "modDesc": "Allows you to cast Warrior skills for a few seconds after hitting an enemy with this skill."
+  },
+  {
+    "modName": "Reading Of Quantic Memories",
+    "modDesc": "Grants a Shadow or Aether damage bonus to nearby allies. The bonus granted depends on the base damage type of the skill."
+  },
+  {
+    "modName": "Printed Record",
+    "modDesc": "Chance to spawn a ghost ally that hits an enemy after they are hit by Infinity Blades."
+  },
+  {
+    "modName": "Spherical Repulsion",
+    "modDesc": "Hitting an enemy regenerates Force Shield."
+  },
+  {
+    "modName": "Force Field Condensator",
+    "modDesc": "Increases damage dealt while Force Shield is not empty."
+  },
+  {
+    "modName": "Field Of Sapience",
+    "modDesc": "Increases block chance while casting, inflicts Stasis on attacker if blocked."
+  },
+  {
+    "modName": "Anti Mobility Form",
+    "modDesc": "Increases damage of the skill for each Ailment stack inflicted on a target."
+  },
+  {
+    "modName": "Gusts In Dark Space",
+    "modDesc": "Converts base Aether damage into Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+  },
+  {
+    "modName": "Ubiquitous Wound",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Magnetized Strikes",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Indulgence Through Restraint",
+    "modDesc": "Leeches Willpower instead of health."
+  },
+  {
+    "modName": "Deterioration",
+    "modDesc": "Increases tick-rate of leech for each Ailment stack an enemy has."
+  },
+  {
+    "modName": "Drinks Around The Table",
+    "modDesc": "Increases leeching power."
+  },
+  {
+    "modName": "Afflicted Fiend",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Milk of Kindness",
+    "modDesc": "Increases chance for health globes to drop."
+  },
+  {
+    "modName": "Leaking Life",
+    "modDesc": "Leeches Force Shield instead of health."
+  },
+  {
+    "modName": "House Of Leeches",
+    "modDesc": "Leeches health from yourself and heals a targeted ally."
+  },
+  {
+    "modName": "On Shoulders of Giants",
+    "modDesc": "Possessed monsters become stronger."
+  },
+  {
+    "modName": "Gift Not Given",
+    "modDesc": "Possessed monsters leave globes upon death."
+  },
+  {
+    "modName": "Longest Night",
+    "modDesc": "Converts base Toxic damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+  },
+  {
+    "modName": "Greedy Feeder",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Titan Leech",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Scaphism",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Major Artery",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Arterial Spurt",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Rust Drinker",
+    "modDesc": "Increases damage.\\n\\nReduces tick-rate for leeching effect."
+  },
+  {
+    "modName": "Putrescine",
+    "modDesc": "Summons become bigger, increasing their health and damage.\\n\\nReduces the number of summons by one."
+  },
+  {
+    "modName": "Splintering Hands",
+    "modDesc": "Reduces health for summons.\\n\\nIncreases damage for summons."
+  },
+  {
+    "modName": "Cadaverine",
+    "modDesc": "Summons explode when they are killed.\\n\\nThey also explode when they reach the target you order them to charge or collide with another target while charging."
+  },
+  {
+    "modName": "Saturated Tissue",
+    "modDesc": "Increases damage explosions caused by the Cadaverine skill modifier."
+  },
+  {
+    "modName": "Seared Flesh",
+    "modDesc": "Converts summons' base Physical damage to Fire damage."
+  },
+  {
+    "modName": "Last Rites",
+    "modDesc": "Converts summons' base Physical damage to Aether damage."
+  },
+  {
+    "modName": "Baneful Blows",
+    "modDesc": "Converts summons' base Physical damage to Toxic damage."
+  },
+  {
+    "modName": "Deadly March",
+    "modDesc": "Increases the number of summons by one."
+  },
+  {
+    "modName": "Chosen Few",
+    "modDesc": "Increases health for summons.\\n\\nReduces the number of summons by one."
+  },
+  {
+    "modName": "Wretched Elects",
+    "modDesc": "Increases damage for summons."
+  },
+  {
+    "modName": "Evangelists of Death",
+    "modDesc": "Increases damage for summons."
+  },
+  {
+    "modName": "Decay's Bannermen",
+    "modDesc": "Increases damage for summons."
+  },
+  {
+    "modName": "Approximated Vitality",
+    "modDesc": "Increases health for summons."
+  },
+  {
+    "modName": "Holes in the Graveyard",
+    "modDesc": "Increases health for summons."
+  },
+  {
+    "modName": "Nimble Walkers",
+    "modDesc": "Increases movement speed for summons.\\n\\nIncreases health for summons."
+  },
+  {
+    "modName": "Shrieking Pursuit",
+    "modDesc": "Increases movement speed for summons."
+  },
+  {
+    "modName": "Rotten Roots",
+    "modDesc": "Arrows shot by summons explode."
+  },
+  {
+    "modName": "Oxidized Edge",
+    "modDesc": "Arrows shot by summons can pierce enemies."
+  },
+  {
+    "modName": "Cataract",
+    "modDesc": "Summon's attack speed is increased after using this skill."
+  },
+  {
+    "modName": "Lethal Effort",
+    "modDesc": "Increases damage for summons.\\n\\nReduces health for summons."
+  },
+  {
+    "modName": "Of Dinge And Grime",
+    "modDesc": "Converts summons' base Physical damage to Toxic damage."
+  },
+  {
+    "modName": "Frost Mummification",
+    "modDesc": "Converts summons' base Physical damage into Frost damage."
+  },
+  {
+    "modName": "Armies of the Night",
+    "modDesc": "Converts summons' base Physical damage into Shadow damage."
+  },
+  {
+    "modName": "Forces of Ruination",
+    "modDesc": "Increases the number of summons by one."
+  },
+  {
+    "modName": "Decaying Mobs",
+    "modDesc": "Reduces the number of summons by one.\\n\\nIncreases damage for summons."
+  },
+  {
+    "modName": "Venomous Points",
+    "modDesc": "Increases damage for summons."
+  },
+  {
+    "modName": "Chestsplitter",
+    "modDesc": "Increases damage for summons."
+  },
+  {
+    "modName": "Dead Marksman",
+    "modDesc": "Increases damage for summons."
+  },
+  {
+    "modName": "Cosmogonic Forces",
+    "modDesc": "Increases health for summons."
+  },
+  {
+    "modName": "Surges of Life",
+    "modDesc": "Increases health for summons."
+  },
+  {
+    "modName": "Wraiths of the Ramparts",
+    "modDesc": "Increases movement speed for summons.\\n\\nIncreases health for summons."
+  },
+  {
+    "modName": "Mortality in Waves",
+    "modDesc": "Increases movement speed for summons."
+  },
+  {
+    "modName": "Green Wastes",
+    "modDesc": "Summon drops health globes upon death."
+  },
+  {
+    "modName": "Generational Grief",
+    "modDesc": "A portion of the damage received by you is transmitted to the summon."
+  },
+  {
+    "modName": "Ravenous Reach",
+    "modDesc": "Converts summons' base Toxic damage to Shadow damage.\\n\\nSummon becomes a melee warrior that has a leaping attack."
+  },
+  {
+    "modName": "Thundercracking Punisher",
+    "modDesc": "Converts summons' base Toxic damage to Lightning damage.\\n\\nSummon becomes a mage that can cast a protective shield."
+  },
+  {
+    "modName": "Sacrifice",
+    "modDesc": "Summon generates more Threat."
+  },
+  {
+    "modName": "The Gulf Before Us",
+    "modDesc": "Summon gains an increased chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Servility",
+    "modDesc": "Increases attack speed for summon."
+  },
+  {
+    "modName": "Hateful Swords",
+    "modDesc": "Chance to Frenzy enemies in an area of effect around the summon when they are summoned."
+  },
+  {
+    "modName": "Greed Unleashed",
+    "modDesc": "Increases damage for summon."
+  },
+  {
+    "modName": "Hunger Pangs",
+    "modDesc": "Increases damage for summon."
+  },
+  {
+    "modName": "Flesh in all Configurations",
+    "modDesc": "Increases damage for summon."
+  },
+  {
+    "modName": "Glutton Undying",
+    "modDesc": "Increases health for summon."
+  },
+  {
+    "modName": "Token of Shame",
+    "modDesc": "Increases health for summon."
+  },
+  {
+    "modName": "Eager Gluttony",
+    "modDesc": "Increases movement speed for summon."
+  },
+  {
+    "modName": "Rot's Endless Stream",
+    "modDesc": "Increases attack speed for summon."
+  },
+  {
+    "modName": "Foul Guardian",
+    "modDesc": "Summon generates more Threat.\\n\\nIncreases health for summon."
+  },
+  {
+    "modName": "Echoes of Infinity",
+    "modDesc": "The skill's vortex pulls in enemies multiple times."
+  },
+  {
+    "modName": "Dislocating Threads",
+    "modDesc": "Increases the area of effect of the damaging vortex."
+  },
+  {
+    "modName": "Erratic Progression",
+    "modDesc": "Increases movement speed while you are inside the area of effect."
+  },
+  {
+    "modName": "Magnetic Shield",
+    "modDesc": "Projectiles are destroyed by the area of effect.\\n\\nIncreases skill cooldown."
+  },
+  {
+    "modName": "Event Horizon",
+    "modDesc": "Enemies are damaged when they are pulled in by the vortex."
+  },
+  {
+    "modName": "Rending Of Matter",
+    "modDesc": "Skill allows the casting of two vortexes."
+  },
+  {
+    "modName": "Auspicious Cosmology",
+    "modDesc": "Increases Ailment damage to enemies inside the vortex."
+  },
+  {
+    "modName": "Confluence Of All Things",
+    "modDesc": "Globes pulled into the damaging vortex explode."
+  },
+  {
+    "modName": "Temporal Dilation",
+    "modDesc": "Increases vortex duration."
+  },
+  {
+    "modName": "Critical Point",
+    "modDesc": "Vortex explodes if the skill is re-cast."
+  },
+  {
+    "modName": "Echo Wave Pattern",
+    "modDesc": "Converts base Aether damage to Lightning damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Elongation",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Bones of Existence",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Existential Tangle",
+    "modDesc": "Increases damage inflicted by Ailments to enemies inside the vortex."
+  },
+  {
+    "modName": "Twists and Windings",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Aether's Fracture",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Swarm Of Corpuscules",
+    "modDesc": "Increases area of effect."
+  },
+  {
+    "modName": "Disgrace",
+    "modDesc": "Allows skill to be cast to the location of the cursor."
+  },
+  {
+    "modName": "Mortiferous Guest",
+    "modDesc": "Chance to summon monsters as allies."
+  },
+  {
+    "modName": "Noxious Smog",
+    "modDesc": "Leaves a poisonous cloud when an enemy or friendly summon dies, dealing damage over time."
+  },
+  {
+    "modName": "Blades Of Pestilence",
+    "modDesc": "Increases chance to inflict Ailments on enemies for allies inside explosion's area of effect."
+  },
+  {
+    "modName": "Nervous Agent",
+    "modDesc": "Chance for explosion to Frenzy enemies."
+  },
+  {
+    "modName": "Expendable Meat",
+    "modDesc": "Summoned allies explode upon cast if they are inside the area of effect."
+  },
+  {
+    "modName": "Vitiation",
+    "modDesc": "Increases explosion damage for each Ailment stack a monster has."
+  },
+  {
+    "modName": "Corruption's Bloat",
+    "modDesc": "Increases damage done by summoned allies when they explode."
+  },
+  {
+    "modName": "Metempsychosis",
+    "modDesc": "Chance for explosions to drop a health globe.\\n\\nReduces damage."
+  },
+  {
+    "modName": "Pauper's Last Rites",
+    "modDesc": "Converts base Toxic damage to Fire damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Loser's Gift",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Cutaneous Infection",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Rapid Onset",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Short Range Contaminants",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Biohazard",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Scorching Salvation",
+    "modDesc": "Area of effect increases over time."
+  },
+  {
+    "modName": "Stellar Swiftness",
+    "modDesc": "Increases movement speed for the area of effect."
+  },
+  {
+    "modName": "Glare Of Judgement",
+    "modDesc": "Increases tick-rate."
+  },
+  {
+    "modName": "Devastation",
+    "modDesc": "Area of effect leaves a trail that damages enemies."
+  },
+  {
+    "modName": "Sunrise",
+    "modDesc": "Area of effect becomes static when cast. Can be re-cast to change its location."
+  },
+  {
+    "modName": "Day of Reckoning",
+    "modDesc": "Grants a buff to all resistances for yourself and allies inside the area of effect."
+  },
+  {
+    "modName": "Punishing Brilliance",
+    "modDesc": "Damage dealt by the area of effect increases over time."
+  },
+  {
+    "modName": "Dawn Abridged",
+    "modDesc": "Reduces the initial cast-time."
+  },
+  {
+    "modName": "Weight of the Sun",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Plasmic Eruption",
+    "modDesc": "Creates a nova when dealing critical damage. Effect has a cooldown."
+  },
+  {
+    "modName": "Grit and Mettle",
+    "modDesc": "Area of effect deals damage instantly when the player is hit by an enemy. Effect has a cooldown."
+  },
+  {
+    "modName": "Those Who Favor Fire",
+    "modDesc": "Converts base Sacred damage to Fire damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Grueling Dawn",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Condemnation",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Magnified Beam",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Sin Illuminated",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Incandescent Smoke",
+    "modDesc": "The projectile inflicts Stun on enemies. Increases cooldown."
+  },
+  {
+    "modName": "Barrage",
+    "modDesc": "Skill drops an additional projectile."
+  },
+  {
+    "modName": "Slicing Dash",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Stunning Reach",
+    "modDesc": "Increases range."
+  },
+  {
+    "modName": "Unseen Autonomy",
+    "modDesc": "Breaks any crowd control effects."
+  },
+  {
+    "modName": "Shadow Cast",
+    "modDesc": "Leaves a decoy that generates Threat."
+  },
+  {
+    "modName": "Silhouetted Spectre",
+    "modDesc": "Spawns a ghost ally that hits an enemy after they are hit by the projectile."
+  },
+  {
+    "modName": "Parting Gift",
+    "modDesc": "Dropped projectiles become mines that explode when enemies go near them."
+  },
+  {
+    "modName": "Boiling Ink",
+    "modDesc": "Grants Rage for each enemy hit by the projectile."
+  },
+  {
+    "modName": "Swaddling Smoke",
+    "modDesc": "Begins Force Shield regeneration if an enemy is hit by a projectile."
+  },
+  {
+    "modName": "Primis Tenebris",
+    "modDesc": "Bomb leaves a damaging area of effect instead of inflicting a slowing effect"
+  },
+  {
+    "modName": "Mechanical Support",
+    "modDesc": "Increases movement speed if an enemy is hit."
+  },
+  {
+    "modName": "Area Control",
+    "modDesc": "Increases dash distance."
+  },
+  {
+    "modName": "Enshrouded Distance",
+    "modDesc": "Knocks back enemies in the opposite direction to the dash."
+  },
+  {
+    "modName": "Toxicity Ensnared",
+    "modDesc": "Converts base Physical damage to Toxic damage instead of Shadow damage.\\n\\nInflicts an additional stack when inflicting Poison."
+  },
+  {
+    "modName": "Frenzy of the Betrayed",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Judicious Trigger",
+    "modDesc": "Increases damage if shot is released immediately after reaching a charge level."
+  },
+  {
+    "modName": "A Promised Bullet",
+    "modDesc": "Grants an additional charge level."
+  },
+  {
+    "modName": "Inflexible Blast",
+    "modDesc": "Greatly increases damage, but can only fire when charged to maximum level."
+  },
+  {
+    "modName": "Reckless Gunner",
+    "modDesc": "Grants Rage if fired at first charge level."
+  },
+  {
+    "modName": "Incendiary Rounds",
+    "modDesc": "Leaves a trail in the path of the sniper shot if shot at the smallest shape."
+  },
+  {
+    "modName": "Aether Piercing Ammunition",
+    "modDesc": "Shots inflict Stasis on enemies."
+  },
+  {
+    "modName": "Ranged Superiority",
+    "modDesc": "Increases stamina regeneration while charging shot."
+  },
+  {
+    "modName": "Protean Aim",
+    "modDesc": "The area of effect of each charge level expands outward rather than inward."
+  },
+  {
+    "modName": "Internal Detonation",
+    "modDesc": "Increases critical damage against enemies slowed or in Stasis."
+  },
+  {
+    "modName": "Slow Learner",
+    "modDesc": "Increases critical chance per charge level."
+  },
+  {
+    "modName": "One Simple Shot",
+    "modDesc": "Reduces damage.\\n\\nIncreases critical damage."
+  },
+  {
+    "modName": "Frostbitten Salute",
+    "modDesc": "Converts base base Physical damage to Frost damage instead of Lightning damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Vital Point",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Disabling Shot",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Fragmented Rounds",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Comfortable Distance",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Mountainous Impact",
+    "modDesc": "There is an explosion in an area of effect around yourself when the hammer's is recalled."
+  },
+  {
+    "modName": "Tectonic",
+    "modDesc": "When recalled, the hammer creates a damaging area of effect at the point where it was recalled."
+  },
+  {
+    "modName": "Ram's Ricochet",
+    "modDesc": "Hammer pulls enemies toward you along its recall trajectory."
+  },
+  {
+    "modName": "Stones Casting Shadows",
+    "modDesc": "Launch two hammers instead of one."
+  },
+  {
+    "modName": "Awe Inspiring Throw",
+    "modDesc": "Allies along hammer's recall trajectory receive a large boost to a random damage type."
+  },
+  {
+    "modName": "Pounding Shakes",
+    "modDesc": "Increases damage to enemies along the hammer's recall trajectory."
+  },
+  {
+    "modName": "Shockwave",
+    "modDesc": "Increases chance to inflict Stun on enemies along hammer's recall trajectory."
+  },
+  {
+    "modName": "Drums and Bells",
+    "modDesc": "Grants a movement speed buff."
+  },
+  {
+    "modName": "Howl of Battle",
+    "modDesc": "Generates Rage for each enemy hit along hammer's recall trajectory."
+  },
+  {
+    "modName": "Standing Boulder",
+    "modDesc": "Increases critical chance based on block chance."
+  },
+  {
+    "modName": "Ram Hammer & Bludgeon",
+    "modDesc": "Grants Force Shield for every enemy hit along the hammer's recall trajectory."
+  },
+  {
+    "modName": "Blazing Fury",
+    "modDesc": "Converts base Physical damage to Fire damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Thunderous Impact",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Narrowed Throat",
+    "modDesc": "Increases critical damage."
+  },
+  {
+    "modName": "Chronic Suffering",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Permanent Affliction",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Terms of Conflict",
+    "modDesc": "Casts to the location of the cursor."
+  },
+  {
+    "modName": "Unrelenting Attrition",
+    "modDesc": "The damaging area of effect follows the target."
+  },
+  {
+    "modName": "Secret Move",
+    "modDesc": "Allows the ring to be re-cast."
+  },
+  {
+    "modName": "Sustenance From Obscenity",
+    "modDesc": "Leeches health from enemies, but increases damage received."
+  },
+  {
+    "modName": "Reaching Claws",
+    "modDesc": "Increases area of effect depending on the number of players inside it."
+  },
+  {
+    "modName": "Unstable Flesh",
+    "modDesc": "Chance that enemies will explode if they are damaged with less than 10% health."
+  },
+  {
+    "modName": "Feed on Pain",
+    "modDesc": "Increases attack and spell speed each time an enemy dies within the area of effect."
+  },
+  {
+    "modName": "Spontaneous Brio",
+    "modDesc": "Increases resource generation while inside the area of effect."
+  },
+  {
+    "modName": "Maddening Pain",
+    "modDesc": "Chance to Frenzy enemies in the area of effect."
+  },
+  {
+    "modName": "Standing Straight",
+    "modDesc": "Increases chance to inflict Ailments on enemies while inside the area of effect."
+  },
+  {
+    "modName": "Organic Failure",
+    "modDesc": "Reduces movement speed for enemies inside the area of effect."
+  },
+  {
+    "modName": "Conniption",
+    "modDesc": "When cast, inflicts your missing health as damage."
+  },
+  {
+    "modName": "Fear Marches",
+    "modDesc": "Increases damage on enemies suffering from damage over time."
+  },
+  {
+    "modName": "Blood Ambrosia",
+    "modDesc": "Increases health regeneration for yourself based on how many enemies are damaged inside the area of effect."
+  },
+  {
+    "modName": "Suffocating Eclipse",
+    "modDesc": "Converts base Rend damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+  },
+  {
+    "modName": "Grip of Agony",
+    "modDesc": "Increases duration."
+  },
+  {
+    "modName": "Holy Ground",
+    "modDesc": "Leaves an area of effect that damages enemies upon landing."
+  },
+  {
+    "modName": "Hope's Arrival",
+    "modDesc": "Heals self and any allies caught within its area of effect upon landing."
+  },
+  {
+    "modName": "Solar Energy",
+    "modDesc": "Increases charging speed."
+  },
+  {
+    "modName": "Solar Logos",
+    "modDesc": "Grants an additional charge level."
+  },
+  {
+    "modName": "Plasmic Discharge",
+    "modDesc": "Causes an explosion at starting position."
+  },
+  {
+    "modName": "Blinding Lights",
+    "modDesc": "Inflicts Stun on enemies upon landing."
+  },
+  {
+    "modName": "Sudden Dehydration",
+    "modDesc": "Inflicts Weakness and Shock on enemies."
+  },
+  {
+    "modName": "Proud Rider",
+    "modDesc": "Increase to all resistances while charging."
+  },
+  {
+    "modName": "Noble Rider",
+    "modDesc": "Grants a resistance for each enemy hit upon landing."
+  },
+  {
+    "modName": "Insuppressible Rhapsody",
+    "modDesc": "Grants a temporary Force Shield for each enemy hit upon landing."
+  },
+  {
+    "modName": "Sheen of Hope",
+    "modDesc": "Grants Willpower for each enemy hit."
+  },
+  {
+    "modName": "Across the Cosmos",
+    "modDesc": "Converts base Sacred damage to Aether damage.\\n\\nIncreases chance of inflicting Stasis."
+  },
+  {
+    "modName": "Adjudication",
+    "modDesc": "Increases damage"
+  },
+  {
+    "modName": "Blinding Light",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Looking Glass",
+    "modDesc": "Increases critical chance."
+  },
+  {
+    "modName": "Unwanted Embrace",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Strike Rebound",
+    "modDesc": "Skill can knock back enemies, inflicting Stun on them."
+  },
+  {
+    "modName": "Equalizor",
+    "modDesc": "Can be cast onto allies, or yourself if no ally is targeted."
+  },
+  {
+    "modName": "Halted Momentum",
+    "modDesc": "Chance to inflict Stun on enemies that are attacking."
+  },
+  {
+    "modName": "Sound Body",
+    "modDesc": "Grants immunity to crowd control.\\n\\nReduces shield duration."
+  },
+  {
+    "modName": "Simulacra",
+    "modDesc": "Summons a decoy that will generate Threat."
+  },
+  {
+    "modName": "Crushing Wall",
+    "modDesc": "Inflicts a portion of your weapon damage on enemies attacking the shield."
+  },
+  {
+    "modName": "Beast Of The Battlefield",
+    "modDesc": "Generates more Threat on yourself, or an ally if targeted."
+  },
+  {
+    "modName": "Flies in Bevvies",
+    "modDesc": "Reduces damage received from projectiles."
+  },
+  {
+    "modName": "Standing Rock",
+    "modDesc": "Increases damage absorption.\\n\\nReduces movement speed."
+  },
+  {
+    "modName": "Grudges Collected",
+    "modDesc": "Grants Rage when receiving damage."
+  },
+  {
+    "modName": "Banners Held High",
+    "modDesc": "Maximum absorption is increased by a percentage of your block chance."
+  },
+  {
+    "modName": "Perpetual Osmosis",
+    "modDesc": "When cast, Force Shield is emptied and added to maximum absorption."
+  },
+  {
+    "modName": "Prideful Deflagration",
+    "modDesc": "Converts base Physical Damage to Fire Damage.\\n\\nIncreases damage."
+  },
+  {
+    "modName": "Vibrations Internalized",
+    "modDesc": "Increases shield absorption."
+  },
+  {
+    "modName": "Cold Steel",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Heralded Pavis",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Deceitful Blast",
+    "modDesc": "Throw shadow cloud to location of the cursor."
+  },
+  {
+    "modName": "Leaps and Shifts",
+    "modDesc": "Shadow cloud that increases dodge chance."
+  },
+  {
+    "modName": "Friendly Territory",
+    "modDesc": "Shadow cloud area of effect that inflicts Cursed on enemies."
+  },
+  {
+    "modName": "Attendant's Cloak",
+    "modDesc": "Shadow cloud area of effect, granting invisibility to allies and lowering their Threat generation."
+  },
+  {
+    "modName": "Light's Swift Retraction",
+    "modDesc": "Increases movement speed after dropping a shadow cloud."
+  },
+  {
+    "modName": "Lapse In Focus",
+    "modDesc": "Shadow cloud breaks any crowd control effects."
+  },
+  {
+    "modName": "Unseen Thrills",
+    "modDesc": "Increases Shadow damage after dropping a smoke cloud."
+  },
+  {
+    "modName": "Blind Strikes",
+    "modDesc": "Chance to Frenzy enemies."
+  },
+  {
+    "modName": "Shifting Along Walls",
+    "modDesc": "Begins Force Shield regeneration when a shadow cloud is dropped."
+  },
+  {
+    "modName": "Soothing Night",
+    "modDesc": "Dropping a shadow cloud clears Ailments."
+  },
+  {
+    "modName": "Umbral Promise",
+    "modDesc": "Dropping a shadow cloud regenerates stamina points."
+  },
+  {
+    "modName": "Shrouded Assailant",
+    "modDesc": "Allows you to attack enemies while invisible for a short period."
+  },
+  {
+    "modName": "Final Trick",
+    "modDesc": "Increases invisibility duration."
+  },
+  {
+    "modName": "Reign of a Phantasm",
+    "modDesc": "Move through enemies while invisible."
+  },
+  {
+    "modName": "Crepuscular Attunement",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Ex Nihilo",
+    "modDesc": "Reduces Rage cost."
+  },
+  {
+    "modName": "Unseelie Gale",
+    "modDesc": "Inflicts Stun on enemies."
+  },
+  {
+    "modName": "Entwining Volutes",
+    "modDesc": "Eclipse now has a 360 degrees area of effect around yourself."
+  },
+  {
+    "modName": "Dayless Coasts",
+    "modDesc": "Reduces cooldown."
+  },
+  {
+    "modName": "Shell of Nothing",
+    "modDesc": "Increases damage."
+  },
+  {
+    "modName": "Far Side Of The Moon",
+    "modDesc": "Increases range."
+  },
+  {
+    "modName": "Shambling Eyeless",
+    "modDesc": "Slows enemies."
+  },
+  {
+    "modName": "Rushing For Curfew",
+    "modDesc": "Grants Willpower for each enemy hit."
+  },
+  {
+    "modName": "Jet Tidal Wave",
+    "modDesc": "Reflects projectiles instead of destroying them."
+  },
+  {
+    "modName": "Bursting of Desert Rocks",
+    "modDesc": "Health globes caught within the blast will explode."
+  },
+  {
+    "modName": "Seasonal Tarnish",
+    "modDesc": "Increases chance to inflict Ailments on enemies."
+  },
+  {
+    "modName": "Cover of Darkness",
+    "modDesc": "Grants Force Shield per the number of enemies hit by the blast."
+  },
+  {
+    "modName": "Rationality's Extinguishing",
+    "modDesc": "Chance to Frenzy enemies hit by the blast."
+  },
+  {
+    "modName": "Trespasses Revealed",
+    "modDesc": "Converts base Shadow Damage to Sacred Damage.\\n\\nIncreases chance of inflicting Weakness."
+  },
+  {
+    "modName": "Hopeless Conviction",
+    "modDesc": "Reduces Willpower cost."
+  },
+  {
+    "modName": "Blots of Terror",
+    "modDesc": "Increases Ailment damage."
+  },
+  {
+    "modName": "Midnight at Dawn",
+    "modDesc": "Reduces cooldown."
+  }
+]

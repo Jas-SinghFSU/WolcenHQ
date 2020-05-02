@@ -50,7 +50,16 @@ const SkillSlot = (props) => {
           {slotData.activeModifiers.map((mod, index) => {
             return (
               <Col key={index} span={22} offset={1} className="selectedModsCol">
-                <span className="selectedModSpan">{mod.name}</span>
+                <span
+                  className="selectedModSpan"
+                  onMouseEnter={() => {
+                    console.log(
+                      props.modDescriptions.get(mod.name.toLowerCase())
+                    );
+                  }}
+                >
+                  {mod.name}
+                </span>
               </Col>
             );
           })}
