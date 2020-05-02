@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Col } from "antd";
 import axios from "axios";
 import Moment from "react-moment";
+import { parseStringPromise } from "xml2js";
 
 import "./style.css";
 
@@ -21,7 +22,8 @@ const NewsFeedList = (props) => {
   const fetchRSSData = async () => {
     try {
       const wolcenNewsData = await axios.get("/api/home/news");
-      setRssFeed(wolcenNewsData.data);
+      const jsonRSS = await parseStringPromise(wolcenNewsData.data);
+      setRssFeed(jsonRSS.feed.entry);
     } catch (error) {
       console.error(`Failed to get RSS Feed. ${error.message}`);
     }
@@ -35,14 +37,20 @@ const NewsFeedList = (props) => {
     <Row>
       <Col span={18} offset={3}>
         {rssFeed &&
-          rssFeed.items.map((item) => {
+          rssFeed.map((item) => {
             return (
               <div key={item.title} className="feedItemContainer">
-                <a target="_blank" rel="noopener noreferrer" href={item.link}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={item.link[0].$.href}
+                >
                   <div className="newsFeedData">{item.title}</div>
                 </a>
                 <div className="feedItemDate">
-                  <Moment format="MMM DD[,] YYYY [|] LT">{item.pubDate}</Moment>
+                  <Moment format="MMM DD[,] YYYY [|] LT">
+                    {item.updated[0]}
+                  </Moment>
                 </div>
               </div>
             );

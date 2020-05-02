@@ -57,9 +57,9 @@ const SideNavigation = () => {
         width: navCollapsed ? sideNavSize.collapsed : sideNavSize.expanded,
         minWidth: !navCollapsed ? 200 : "unset",
         maxWidth: 330,
+        transition: "all 0.1s",
+        WebkitTransition: "all 0.1s",
         backgroundColor: "rgb(23, 23, 27)",
-        transition: `min-width 0.2s, max-width 0.2s`,
-        WebkitTransition: "min-width 0.2s, max-width 0.2s",
         zIndex: 2,
       }}
     >

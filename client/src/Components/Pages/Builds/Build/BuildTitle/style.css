@@ -91,12 +91,15 @@
   max-width: 700px;
 }
 .authorName {
-  font-style: italic;
   overflow: unset;
   text-overflow: ellipsis;
   max-width: 150px;
   display: block;
   padding: 0 2px 0 2px;
+  font-size: 13px;
+}
+.authorName a {
+  color: rgb(117, 234, 255) !important;
 }
 
 .buildInfoDescriptionContainer {

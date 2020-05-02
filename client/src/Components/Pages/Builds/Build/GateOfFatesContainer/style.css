@@ -6,7 +6,12 @@
   background: none !important;
   color: sandybrown;
 }
-
+.toggleLockButton .anticon-unlock {
+  font-size: 18px !important;
+}
+.toggleLockButton .anticon-lock {
+  font-size: 18px !important;
+}
 .toggleLockButton:hover {
   background: none !important;
   border-color: salmon;

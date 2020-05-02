@@ -9,6 +9,7 @@
 .newsFeedData {
   color: rgb(182, 182, 182);
   font-size: 15px;
+  margin-left: 3px;
 }
 
 .newsFeedData:hover {
@@ -23,6 +24,7 @@
   margin-bottom: 5px;
   width: 100%;
   padding: 5px 0 5px 0;
+  background: #191d20de;
 }
 
 .feedItemContainer:nth-child(odd) {
@@ -33,4 +35,5 @@
   align-self: flex-end;
   text-align: right;
   color: rgb(163, 144, 109);
+  margin-right: 3px;
 }

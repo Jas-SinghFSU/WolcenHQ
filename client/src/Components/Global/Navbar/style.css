@@ -5,7 +5,7 @@
   width: inherit !important;
   max-width: inherit !important;
   min-width: inherit !important;
-  transition: width 0.2s;
+  transition: all 0.1s;
 }
 
 .antdMenu {

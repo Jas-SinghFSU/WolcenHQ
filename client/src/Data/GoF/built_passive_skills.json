@@ -314,7 +314,7 @@
             "Point(s)",
             "when",
             "at",
-            "{Unknown}",
+            "{30%}",
             "of",
             "Max",
             "Health",
@@ -1092,7 +1092,7 @@
           "HUDDesc": [
             "When",
             "under",
-            "{Unknown}",
+            "{30%}",
             "of",
             "Maximum",
             "Health,",
@@ -3433,7 +3433,7 @@
           },
           "id": "damage_percent_per_enemy_in_range",
           "HUDDesc": [
-            "{+25%}",
+            "{+4%}",
             "Damage",
             "for",
             "each",
@@ -3812,7 +3812,7 @@
           },
           "id": "damage_percent_per_rage_point",
           "HUDDesc": [
-            "{+2}",
+            "{+2%}",
             "Damage",
             "per",
             "100",
@@ -4342,7 +4342,7 @@
           },
           "id": "blockchance_unconditional_flat",
           "HUDDesc": [
-            "{+6}",
+            "{+6%}",
             "Added",
             "Block",
             "Chance",
@@ -4529,7 +4529,7 @@
             "the",
             "Targets",
             "in",
-            "{+7.5m}",
+            "{+7m}",
             "Radius"
           ],
           "Permanent": "1"
@@ -5809,7 +5809,7 @@
             "willpower",
             "is",
             "above",
-            "{Unknown}"
+            "{75%}"
           ],
           "Permanent": "1"
         }
@@ -6307,11 +6307,11 @@
           "HUDDesc": [
             "You",
             "gain",
-            "1",
+            "{1}",
             "\"Tenet\"",
             "Point",
             "every",
-            "{+2.5s}",
+            "{2.5s}",
             "up",
             "to",
             "a",
@@ -6321,7 +6321,7 @@
             "\"Tenet",
             "Points\",",
             "and",
-            "1",
+            "{1}",
             "\"Tenet",
             "Point\"",
             "is",
@@ -6573,7 +6573,7 @@
             "is",
             "refilled",
             "every",
-            "{+2s}"
+            "{2s}"
           ],
           "Permanent": "1"
         },
@@ -6686,11 +6686,11 @@
           "id": "material_damage_on_elites",
           "HUDDesc": [
             "Gain",
-            "1",
+            "{1}",
             "\"Headhunter\"",
             "Points",
             "(Max",
-            "{+15%)}",
+            "{+5)}",
             "every",
             "",
             "time",
@@ -6707,11 +6707,11 @@
             "Points",
             "resetting",
             "after",
-            "{+5s}.",
+            "{30s}.",
             "\"Headhunter\"",
             "Points",
             "grant",
-            "{+30}",
+            "{+15%}",
             "Material",
             "Damage"
           ],
@@ -6743,7 +6743,7 @@
             "is",
             "increased",
             "to",
-            "{Unknowns}"
+            "{50s}"
           ],
           "Permanent": "1"
         }
@@ -7293,7 +7293,7 @@
             "Blooded\"",
             "Points",
             "every",
-            "{+2s,}",
+            "{2s},",
             "up",
             "to",
             "a",
@@ -7536,7 +7536,7 @@
             "Basic",
             "Attacks",
             "generate",
-            "1",
+            "{1}",
             "\"Overload\"",
             "Point",
             "up",
@@ -7779,7 +7779,7 @@
             "Speed",
             "Score",
             "for",
-            "{Unknowns}",
+            "{3s}",
             "on",
             "Critical",
             "Hit"
@@ -7808,7 +7808,7 @@
             "Speed",
             "Score",
             "for",
-            "{Unknowns}",
+            "{3s}",
             "on",
             "Critical",
             "Hit"
@@ -7853,9 +7853,9 @@
             "second,",
             "capped",
             "between",
-            "{Unknown3}",
+            "{-100}",
             "and",
-            "{Unknown3}"
+            "{+100}"
           ],
           "Permanent": "1"
         },
@@ -8130,7 +8130,7 @@
             "a",
             "Decoy",
             "for",
-            "{+1.5s}"
+            "{1s}"
           ],
           "Permanent": "1"
         }
@@ -8589,7 +8589,7 @@
             "you",
             "Invisible",
             "for",
-            "{+5s}.",
+            "{5s}.",
             "While",
             "Invisible,",
             "the",
@@ -8613,7 +8613,7 @@
             "a",
             "Cooldown",
             "of",
-            "{+12s}."
+            "{12s}."
           ],
           "Permanent": "1"
         }
@@ -8647,7 +8647,7 @@
             "is",
             "increased",
             "by",
-            "{+5s}"
+            "{5s}"
           ],
           "Permanent": "1"
         }
@@ -9102,7 +9102,7 @@
             "with",
             "an",
             "Attack,",
-            "{+1}",
+            "{+10%}",
             "Chance",
             "to",
             "consume",
@@ -9116,14 +9116,14 @@
             "Burn",
             "Stacks",
             "exceed",
-            "{+0,}",
+            "{5,}",
             "increasing",
             "Damage",
             "of",
             "the",
             "Hit",
             "by",
-            "{+5}",
+            "{+10%}",
             "per",
             "consumed",
             "stack"
@@ -9202,7 +9202,7 @@
             "Points",
             "reset",
             "after",
-            "{+3s}",
+            "{3s}",
             "out",
             "of",
             "combat"
@@ -9833,7 +9833,7 @@
           },
           "id": "damage_on_block",
           "HUDDesc": [
-            "{+1}",
+            "{100%}",
             "of",
             "Weapon",
             "Damage",
@@ -10684,12 +10684,12 @@
           },
           "id": "stack_block_uses_mechanic",
           "HUDDesc": [
-            "{+1.5}",
+            "{+1}",
             "\"Fortress\"",
             "Point(s)",
             "gained",
             "every",
-            "{+1s,}",
+            "{1.5s},",
             "up",
             "to",
             "a",
@@ -10761,11 +10761,11 @@
             "While",
             "stationary,",
             "gain",
-            "1",
+            "{1}",
             "\"Inexorable\"",
             "Point",
             "every",
-            "{+1s,}",
+            "{1s},",
             "up",
             "to",
             "a",
@@ -11257,7 +11257,7 @@
             "Health",
             "drops",
             "below",
-            "{+0}",
+            "{30%}",
             "of",
             "Maximum"
           ],
@@ -11596,7 +11596,7 @@
             "remain",
             "locked",
             "for",
-            "{+1s}."
+            "{1s}."
           ],
           "Permanent": "1"
         },
@@ -11611,7 +11611,7 @@
             "is",
             "active",
             "for",
-            "{Unknowns}",
+            "{5s}",
             "unless",
             "it",
             "is",
@@ -11640,7 +11640,7 @@
             "is",
             "active",
             "for",
-            "{Unknowns}",
+            "{5s}",
             "unless",
             "it",
             "is",
@@ -11671,7 +11671,7 @@
             "is",
             "active",
             "for",
-            "{Unknowns}",
+            "{5s}",
             "unless",
             "it",
             "is",
@@ -11906,7 +11906,7 @@
             "Willpower",
             "is",
             "below",
-            "{+25%}",
+            "{+30%}",
             "of",
             "its",
             "Maximum,",
@@ -11931,7 +11931,7 @@
             "This",
             "Explosion",
             "regenerates",
-            "{+1}",
+            "{20%}",
             "of",
             "your",
             "Willpower,",
@@ -11940,7 +11940,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}."
+            "{5s}."
           ],
           "Permanent": "1"
         }
@@ -12008,7 +12008,7 @@
           },
           "id": "meteor_on_casting_fire_skill",
           "HUDDesc": [
-            "{+1}",
+            "{+7%}",
             "Chance",
             "to",
             "Cast",
@@ -12026,7 +12026,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}"
+            "{2s}"
           ],
           "Permanent": "1"
         },
@@ -12037,7 +12037,7 @@
           },
           "id": "frost_lance_on_casting_frost_skill",
           "HUDDesc": [
-            "{+1}",
+            "{+10%}",
             "Chance",
             "to",
             "Cast",
@@ -12056,7 +12056,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}"
+            "{2s}"
           ],
           "Permanent": "1"
         },
@@ -12067,7 +12067,7 @@
           },
           "id": "thunderstrike_on_casting_lightning_skill",
           "HUDDesc": [
-            "{+1}",
+            "{+10%}",
             "Chance",
             "to",
             "Cast",
@@ -12085,7 +12085,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}"
+            "{2s}"
           ],
           "Permanent": "1"
         }
@@ -12124,7 +12124,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}"
+            "{2s}"
           ],
           "Permanent": "1"
         },
@@ -12153,7 +12153,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}"
+            "{2s}"
           ],
           "Permanent": "1"
         },
@@ -12181,7 +12181,7 @@
             "a",
             "Cooldown",
             "of",
-            "{Unknowns}"
+            "{2s}"
           ],
           "Permanent": "1"
         }
@@ -12431,7 +12431,7 @@
             "is",
             "increased",
             "by",
-            "{Unknown}"
+            "{20%}"
           ],
           "Permanent": "1"
         }
@@ -12661,7 +12661,7 @@
             "Points",
             "reset",
             "after",
-            "{+5s}.",
+            "{5s}.",
             "Maximum",
             "of",
             "{+5}",
@@ -12785,7 +12785,7 @@
             "rest",
             "is",
             "dealt",
-            "{+1s}",
+            "{1s}",
             "after",
             "the",
             "Hit"
@@ -13064,7 +13064,7 @@
             "Poison",
             "Damage",
             "for",
-            "{+5s}"
+            "{5s}"
           ],
           "Permanent": "1"
         }
@@ -13118,7 +13118,7 @@
             "Poison",
             "Damage",
             "for",
-            "{+10s}"
+            "{10s}"
           ],
           "Permanent": "1"
         }
@@ -13313,7 +13313,7 @@
           "id": "poisonous_aura",
           "HUDDesc": [
             "Every",
-            "{+2s,}",
+            "{2s},",
             "Enemies",
             "in",
             "a",
@@ -13350,7 +13350,7 @@
             "by",
             "{+20%}",
             "for",
-            "{+2s}",
+            "{2s}",
             "when",
             "they",
             "are",
@@ -13953,7 +13953,7 @@
           "HUDDesc": [
             "You",
             "receive",
-            "1",
+            "{1}",
             "Ailment",
             "Stack",
             "when",
@@ -14013,10 +14013,10 @@
             "allies",
             "in",
             "a",
-            "{Unknownm}",
+            "{+4m}",
             "radius",
             "for",
-            "{Unknowns}",
+            "{7s}",
             "when",
             "Stasis",
             "Stacks",
@@ -14041,10 +14041,10 @@
             "allies",
             "in",
             "a",
-            "{Unknownm}",
+            "{+4m}",
             "radius",
             "for",
-            "{Unknowns}",
+            "{7s}",
             "when",
             "Curse",
             "Stacks",
@@ -14068,10 +14068,10 @@
             "allies",
             "in",
             "a",
-            "{Unknownm}",
+            "{+4m}",
             "radius",
             "for",
-            "{Unknowns}",
+            "{7s}",
             "when",
             "Weakness",
             "Stacks",
@@ -14109,7 +14109,7 @@
             "allies",
             "in",
             "a",
-            "{Unknownm}",
+            "{4m}",
             "radius"
           ],
           "Permanent": "1"

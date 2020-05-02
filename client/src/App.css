@@ -12,8 +12,8 @@ body {
   font-family: Oswald;
 }
 .pageContentContainer {
-  transition: width 0.3s linear;
-  -webkit-transition: width 0.3s;
+  transition: width 0.1s linear;
+  -webkit-transition: width 0.1s;
   min-height: 100vh;
   left: 0px;
 }

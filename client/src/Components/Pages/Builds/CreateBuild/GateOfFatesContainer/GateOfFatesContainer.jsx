@@ -699,7 +699,11 @@ const GateOfFates = (props) => {
                     setLockGOF(!lockGOF);
                   }}
                 >
-                  {lockGOF ? <LockFilled size={"medium"} /> : <UnlockFilled />}
+                  {lockGOF ? (
+                    <LockFilled size={18} />
+                  ) : (
+                    <UnlockFilled size={18} />
+                  )}
                 </Button>
                 <span className="gofButtonsLabel">Rotate Rings</span>
                 <div className="ringNamesContainer">
