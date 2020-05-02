@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Avatar, Icon, Col } from "antd";
 import { PlusSquareOutlined } from "@ant-design/icons";
 import SpellToolTip from "../../../../Shared/SpellTooltip";
-import ReactTooltip from "react-tooltip";
+import ModTooltip from "../../../../Shared/ModTooltip/ModTooltip";
 
 const maxModifierLimit = 10;
 
@@ -57,23 +57,11 @@ const SkillSlot = (props) => {
                 >
                   {mod.name}
                 </span>
-                <ReactTooltip
-                  id={mod.name.toLowerCase()}
-                  className="modTooltip"
-                  effect="float"
-                  place="top"
-                  backgroundColor="rgb(0, 0, 0)"
-                  border={true}
-                  borderColor="rgb(77, 69, 36)"
-                >
-                  <span>
-                    {props.modDescriptions.get(mod.name.toLowerCase())}
-                  </span>
-                  <span style={{ marginTop: 5 }}>
-                    Cost:
-                    <span style={{ color: "#7adbe6" }}> {mod.cost}</span>
-                  </span>
-                </ReactTooltip>
+                <ModTooltip
+                  modDescriptions={props.modDescriptions}
+                  modName={mod.name}
+                  modCost={mod.cost}
+                />
               </Col>
             );
           })}

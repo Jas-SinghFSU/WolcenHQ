@@ -243,3 +243,6 @@
 .selectedModSpan {
   cursor: default;
 }
+.selectedModSpan:hover {
+  color: rgb(255, 243, 221);
+}

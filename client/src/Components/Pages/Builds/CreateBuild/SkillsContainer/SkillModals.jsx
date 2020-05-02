@@ -3,6 +3,7 @@ import { Modal, Col, Row, Avatar } from "antd";
 import { maxModifierLimit } from "../../../../Constants/constants";
 
 import SpellToolTip from "../../../../Shared/SpellTooltip";
+import ModTooltip from "../../../../Shared/ModTooltip/ModTooltip";
 
 const spellData = require("../../../../../Data/Skills.json");
 
@@ -185,7 +186,7 @@ const SkillModModal = (props) => {
                       }
                     }}
                     data-tip
-                    data-for={mod.name}
+                    data-for={mod.name.toLowerCase()}
                   >
                     <Fragment>
                       <div
@@ -200,6 +201,12 @@ const SkillModModal = (props) => {
                         <span className="modNameSpan">{`${mod.cost} ${mod.name}`}</span>
                       </div>
                     </Fragment>
+                    <ModTooltip
+                      modDescriptions={props.modDescriptions}
+                      modName={mod.name}
+                      modCost={mod.cost}
+                      place="right"
+                    />
                   </Col>
                 </Fragment>
               );

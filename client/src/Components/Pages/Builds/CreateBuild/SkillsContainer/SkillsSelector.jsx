@@ -3,16 +3,23 @@ import { Row } from "antd";
 import SkillSlot from "./SkillSlot";
 import { SkillListModal, SkillModModal } from "./SkillModals";
 import { maxModifierLimit } from "../../../../Constants/constants";
+import modDescriptions from "../../../../../Data/Modifiers/modDescriptions.json";
 
 const SkillsSelector = ({ slotData, setSlotDataCB }) => {
   const [modalData, setModalData] = useState({
     show: false,
-    slot: null
+    slot: null,
   });
   const [modModalData, setModModalData] = useState({
     show: false,
     slot: null,
-    modData: null
+    modData: null,
+  });
+
+  let modifierMap = new Map();
+
+  modDescriptions.forEach((mod) => {
+    modifierMap.set(mod.modName.toLowerCase(), mod.modDesc);
   });
 
   const handleCloseModal = () => {
@@ -20,7 +27,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
     setModModalData({ show: false, slot: null });
   };
 
-  const getTotalModPoints = modifierData => {
+  const getTotalModPoints = (modifierData) => {
     const totalModPoints = modifierData.reduce((modTotal, currentSkill) => {
       return currentSkill.cost + modTotal;
     }, 0);
@@ -41,7 +48,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
 
     setSlotDataCB({
       ...slotData,
-      [slotName]: { skillData, imageName, activeModifiers: [] }
+      [slotName]: { skillData, imageName, activeModifiers: [] },
     });
   };
 
@@ -68,8 +75,8 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
       ...slotData,
       [slotName]: {
         ...slotData[slotName],
-        activeModifiers: modData
-      }
+        activeModifiers: modData,
+      },
     });
   };
 
@@ -81,15 +88,15 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
     setModModalData({
       show: shouldShow,
       slot: slotNum,
-      modData: slotModifiers
+      modData: slotModifiers,
     });
   };
 
-  const removeSkillFromSlot = slotNum => {
+  const removeSkillFromSlot = (slotNum) => {
     const slotName = `slot${slotNum}`;
     setSlotDataCB({
       ...slotData,
-      [slotName]: null
+      [slotName]: null,
     });
   };
   return (
@@ -102,6 +109,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
           removeSkillFromSlot={removeSkillFromSlot}
+          modDescriptions={modifierMap}
         />
         <SkillSlot
           slotData={slotData["slot2"]}
@@ -110,6 +118,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
           removeSkillFromSlot={removeSkillFromSlot}
+          modDescriptions={modifierMap}
         />
         <SkillSlot
           slotData={slotData["slot3"]}
@@ -118,6 +127,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
           removeSkillFromSlot={removeSkillFromSlot}
+          modDescriptions={modifierMap}
         />
         <SkillSlot
           slotData={slotData["slot4"]}
@@ -126,6 +136,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
           removeSkillFromSlot={removeSkillFromSlot}
+          modDescriptions={modifierMap}
         />
         <SkillSlot
           slotData={slotData["slot5"]}
@@ -134,6 +145,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
           removeSkillFromSlot={removeSkillFromSlot}
+          modDescriptions={modifierMap}
         />
         <SkillSlot
           slotData={slotData["slot6"]}
@@ -142,6 +154,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
           handleModModalData={handleModModalData}
           getTotalModPoints={getTotalModPoints}
           removeSkillFromSlot={removeSkillFromSlot}
+          modDescriptions={modifierMap}
         />
       </Row>
 
@@ -160,6 +173,7 @@ const SkillsSelector = ({ slotData, setSlotDataCB }) => {
         modsList={modModalData.modData}
         slotData={slotData}
         getTotalModPoints={getTotalModPoints}
+        modDescriptions={modifierMap}
       />
     </div>
   );

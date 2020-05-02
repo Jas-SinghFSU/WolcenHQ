@@ -3,21 +3,21 @@ import { Avatar, Icon, Col } from "antd";
 import {
   EditOutlined,
   PlusOutlined,
-  PlusSquareOutlined
+  PlusSquareOutlined,
 } from "@ant-design/icons";
 import SpellToolTip from "../../../../Shared/SpellTooltip";
-import ReactTooltip from "react-tooltip";
+import ModTooltip from "../../../../Shared/ModTooltip/ModTooltip";
 
 const maxModifierLimit = 10;
 
-const SkillSlot = props => {
+const SkillSlot = (props) => {
   const {
     slotData,
     slotNumber,
     handleModalData,
     handleModModalData,
     getTotalModPoints,
-    removeSkillFromSlot
+    removeSkillFromSlot,
   } = props;
 
   return (
@@ -83,7 +83,18 @@ const SkillSlot = props => {
           {slotData.activeModifiers.map((mod, index) => {
             return (
               <Col key={index} span={22} offset={1} className="selectedModsCol">
-                <span className="selectedModSpan">{mod.name}</span>
+                <span
+                  data-tip
+                  data-for={mod.name.toLowerCase()}
+                  className="selectedModSpan"
+                >
+                  {mod.name}
+                </span>
+                <ModTooltip
+                  modDescriptions={props.modDescriptions}
+                  modName={mod.name}
+                  modCost={mod.cost}
+                />
               </Col>
             );
           })}
