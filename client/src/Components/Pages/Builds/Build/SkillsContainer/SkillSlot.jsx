@@ -52,14 +52,28 @@ const SkillSlot = (props) => {
               <Col key={index} span={22} offset={1} className="selectedModsCol">
                 <span
                   className="selectedModSpan"
-                  onMouseEnter={() => {
-                    console.log(
-                      props.modDescriptions.get(mod.name.toLowerCase())
-                    );
-                  }}
+                  data-tip
+                  data-for={mod.name.toLowerCase()}
                 >
                   {mod.name}
                 </span>
+                <ReactTooltip
+                  id={mod.name.toLowerCase()}
+                  className="modTooltip"
+                  effect="float"
+                  place="top"
+                  backgroundColor="rgb(0, 0, 0)"
+                  border={true}
+                  borderColor="rgb(77, 69, 36)"
+                >
+                  <span>
+                    {props.modDescriptions.get(mod.name.toLowerCase())}
+                  </span>
+                  <span style={{ marginTop: 5 }}>
+                    Cost:
+                    <span style={{ color: "#7adbe6" }}> {mod.cost}</span>
+                  </span>
+                </ReactTooltip>
               </Col>
             );
           })}

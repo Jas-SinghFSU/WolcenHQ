@@ -93,10 +93,11 @@ const UserProfile = (props) => {
       });
       setPageLoaded(true);
       setCanSort(true);
-      props.setUserData(buildsRes.data);
     } catch (error) {
       setCanSort(true);
-      console.error("An error occurred while fetching builds.");
+      console.error(
+        `An error occurred while fetching builds. ${error.message}`
+      );
     }
   };
 

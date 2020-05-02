@@ -239,3 +239,14 @@
   margin-top: 10px;
   color: rgb(213, 190, 146);
 }
+.modTooltip span {
+  white-space: pre-line;
+}
+.modTooltip {
+  text-align: left;
+  opacity: 95% !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}

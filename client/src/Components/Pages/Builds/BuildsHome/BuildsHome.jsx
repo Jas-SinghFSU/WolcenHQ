@@ -60,7 +60,9 @@ const BuildsHome = () => {
       setCanSort(true);
     } catch (error) {
       setCanSort(true);
-      console.error("An error occurred while fetching builds.");
+      console.error(
+        `An error occurred while fetching builds. ${error.message}`
+      );
     }
   };
 

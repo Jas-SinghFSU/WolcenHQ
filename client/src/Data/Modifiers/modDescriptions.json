@@ -17,7 +17,7 @@
   },
   {
     "modName": "Flames of Envy",
-    "modDesc": "Converts base Physical damage to Fire damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Fire damage.\nIncreases damage."
   },
   {
     "modName": "Shattering Arrowheads",
@@ -81,7 +81,7 @@
   },
   {
     "modName": "Noxious Contamination",
-    "modDesc": "Converts base Physical damage to Toxic damage.\\n\\nApplies an additional stack when inflicting Poison."
+    "modDesc": "Converts base Physical damage to Toxic damage.\nApplies an additional stack when inflicting Poison."
   },
   {
     "modName": "Bladeslinger",
@@ -109,7 +109,7 @@
   },
   {
     "modName": "Bladed Blizzard",
-    "modDesc": "Converts base Physical damage to Frost damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Frost damage.\nIncreases damage."
   },
   {
     "modName": "Dismissal",
@@ -145,7 +145,7 @@
   },
   {
     "modName": "Blood Seeks Blood",
-    "modDesc": "Converts Physical damage to Rend damage.\\n\\nApplies an additional stack when inflicting Bleed."
+    "modDesc": "Converts Physical damage to Rend damage.\nApplies an additional stack when inflicting Bleed."
   },
   {
     "modName": "Magnificent Explosion",
@@ -189,7 +189,7 @@
   },
   {
     "modName": "Feats of Manufacture",
-    "modDesc": "Adds one additional projectile.\\n\\nReduces damage."
+    "modDesc": "Adds one additional projectile.\nReduces damage."
   },
   {
     "modName": "Crater Maker",
@@ -209,7 +209,7 @@
   },
   {
     "modName": "Stormbound",
-    "modDesc": "Converts base Physical damage to Lightning damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Lightning damage.\nIncreases damage."
   },
   {
     "modName": "Grievous Wounds",
@@ -269,7 +269,7 @@
   },
   {
     "modName": "Time Manipulator",
-    "modDesc": "Converts base Physical damage to Aether damage.\\n\\nIncreases chance of inflicting Stasis."
+    "modDesc": "Converts base Physical damage to Aether damage.\nIncreases chance of inflicting Stasis."
   },
   {
     "modName": "Ordered Discord",
@@ -337,7 +337,7 @@
   },
   {
     "modName": "Storm at Sunset",
-    "modDesc": "Converts base Lightning damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+    "modDesc": "Converts base Lightning damage to Shadow damage.\nIncreases chance of inflicting Cursed."
   },
   {
     "modName": "Crippling Current",
@@ -401,11 +401,11 @@
   },
   {
     "modName": "Everlasting Ember",
-    "modDesc": "Converts base Physical damage to Fire damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Fire damage.\nIncreases damage."
   },
   {
     "modName": "Unstoppable Charge",
-    "modDesc": "Charge cannot be interrupted by crowd control effects.\\n\\nReduces damage from projectiles while charging."
+    "modDesc": "Charge cannot be interrupted by crowd control effects.\nReduces damage from projectiles while charging."
   },
   {
     "modName": "Overwhelming Impact",
@@ -525,11 +525,11 @@
   },
   {
     "modName": "Cosmic Ambush",
-    "modDesc": "Teleport behind the target.\\n\\nIncreases damage."
+    "modDesc": "Teleport behind the target.\nIncreases damage."
   },
   {
     "modName": "Piercing Shadows",
-    "modDesc": "Converts base Physical damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+    "modDesc": "Converts base Physical damage to Shadow damage.\nIncreases chance of inflicting Cursed."
   },
   {
     "modName": "Flashing Blades",
@@ -593,7 +593,7 @@
   },
   {
     "modName": "Fratricidal Reunification",
-    "modDesc": "Converts base Fire damage to Lightning damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Fire damage to Lightning damage.\nIncreases damage."
   },
   {
     "modName": "Volatile Embers",
@@ -657,7 +657,7 @@
   },
   {
     "modName": "Scorned by Fire",
-    "modDesc": "Converts base Frost damage to Fire damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Frost damage to Fire damage.\nIncreases damage."
   },
   {
     "modName": "Corrupting Wail",
@@ -721,7 +721,7 @@
   },
   {
     "modName": "Beauty of Hope",
-    "modDesc": "Converts base Frost damage to Sacred damage.\\n\\nIncreases chance of inflicting Weakness."
+    "modDesc": "Converts base Frost damage to Sacred damage.\nIncreases chance of inflicting Weakness."
   },
   {
     "modName": "An Ominous Chill",
@@ -785,7 +785,7 @@
   },
   {
     "modName": "Concentrated Shadow",
-    "modDesc": "Converts base Frost damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+    "modDesc": "Converts base Frost damage to Shadow damage.\nIncreases chance of inflicting Cursed."
   },
   {
     "modName": "Biting Cold",
@@ -849,7 +849,7 @@
   },
   {
     "modName": "Deep Gashes",
-    "modDesc": "Deals Rend damage.\\n\\nApplies an additional stack when inflicting Bleed."
+    "modDesc": "Deals Rend damage.\nApplies an additional stack when inflicting Bleed."
   },
   {
     "modName": "Preserving Momentum",
@@ -913,7 +913,7 @@
   },
   {
     "modName": "Will-o'-the-Wisp",
-    "modDesc": "Converts base Physical damage to Fire damage instead of Rend damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Fire damage instead of Rend damage.\nIncreases damage."
   },
   {
     "modName": "A Taste for Blood",
@@ -977,7 +977,7 @@
   },
   {
     "modName": "Inevitable Decay",
-    "modDesc": "Converts base Aether damage to Toxic damage.\\n\\nApplies an additional stack when inflicting Poison."
+    "modDesc": "Converts base Aether damage to Toxic damage.\nApplies an additional stack when inflicting Poison."
   },
   {
     "modName": "Swing of the Pendulum",
@@ -1041,7 +1041,7 @@
   },
   {
     "modName": "Shining Hope",
-    "modDesc": "Converts base Physical damage to Sacred damage.\\n\\nIncreases chance of inflicting Weakness."
+    "modDesc": "Converts base Physical damage to Sacred damage.\nIncreases chance of inflicting Weakness."
   },
   {
     "modName": "Heavy Impalement",
@@ -1101,11 +1101,11 @@
   },
   {
     "modName": "Draining Lifeforce",
-    "modDesc": "Gain life leech on the damage dealt by this ability.\\n\\nThe lower your health, the more life leech you gain."
+    "modDesc": "Gain life leech on the damage dealt by this ability.\nThe lower your health, the more life leech you gain."
   },
   {
     "modName": "Stolen Light",
-    "modDesc": "Converts base Physical damage to Sacred damage.\\n\\nIncreases chance of inflicting Weakness."
+    "modDesc": "Converts base Physical damage to Sacred damage.\nIncreases chance of inflicting Weakness."
   },
   {
     "modName": "Lethal Ambitions",
@@ -1149,7 +1149,7 @@
   },
   {
     "modName": "Lumbering Blows",
-    "modDesc": "Reduces critical chance.\\n\\nIncreases damage."
+    "modDesc": "Reduces critical chance.\nIncreases damage."
   },
   {
     "modName": "Everlasting Aurora",
@@ -1233,7 +1233,7 @@
   },
   {
     "modName": "Unnatural Causes",
-    "modDesc": "Converts base Physical damage to Toxic damage.\\n\\nApplies an additional stack when inflicting Poison."
+    "modDesc": "Converts base Physical damage to Toxic damage.\nApplies an additional stack when inflicting Poison."
   },
   {
     "modName": "Siege Tactics",
@@ -1265,7 +1265,7 @@
   },
   {
     "modName": "Whitefield Arrowheads",
-    "modDesc": "Converts base Physical damage to Frost damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Frost damage.\nIncreases damage."
   },
   {
     "modName": "Persistent Limp",
@@ -1301,7 +1301,7 @@
   },
   {
     "modName": "Spirits of the Void",
-    "modDesc": "Deals Aether damage to enemies between the beginning and end of the teleport. \\n\\nIncreases chance of inflicting Stasis."
+    "modDesc": "Deals Aether damage to enemies between the beginning and end of the teleport. \nIncreases chance of inflicting Stasis."
   },
   {
     "modName": "Time Paradox",
@@ -1309,7 +1309,7 @@
   },
   {
     "modName": "March of the Time Devourers",
-    "modDesc": "Reduces cooldown\\n\\nAllows skill to be cast mutiple times. Each re-cast has an increased Willpower cost."
+    "modDesc": "Reduces cooldown\nAllows skill to be cast mutiple times. Each re-cast has an increased Willpower cost."
   },
   {
     "modName": "Aethereal Bounce",
@@ -1361,7 +1361,7 @@
   },
   {
     "modName": "Cyclone Lightning-Cannon",
-    "modDesc": "Converts base Physical damage to Lightning damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Lightning damage.\nIncreases damage."
   },
   {
     "modName": "Self-Destruct Protocol",
@@ -1409,7 +1409,7 @@
   },
   {
     "modName": "Raging Berserker",
-    "modDesc": "Increases Rage generation per enemy hit by the shout.\\n\\nIncreases Rage generation per hit while skill is active."
+    "modDesc": "Increases Rage generation per enemy hit by the shout.\nIncreases Rage generation per hit while skill is active."
   },
   {
     "modName": "Rallying Cry",
@@ -1485,7 +1485,7 @@
   },
   {
     "modName": "Frozen Spirit",
-    "modDesc": "Converts base Physical damage to Frost damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Frost damage.\nIncreases damage."
   },
   {
     "modName": "Eye of the Tornado",
@@ -1497,7 +1497,7 @@
   },
   {
     "modName": "Long Pommel",
-    "modDesc": "Increases area of effect.\\n\\nDamage ticks are applied less often."
+    "modDesc": "Increases area of effect.\nDamage ticks are applied less often."
   },
   {
     "modName": "High Velocity Rotation",
@@ -1589,7 +1589,7 @@
   },
   {
     "modName": "Gusts In Dark Space",
-    "modDesc": "Converts base Aether damage into Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+    "modDesc": "Converts base Aether damage into Shadow damage.\nIncreases chance of inflicting Cursed."
   },
   {
     "modName": "Ubiquitous Wound",
@@ -1637,7 +1637,7 @@
   },
   {
     "modName": "Longest Night",
-    "modDesc": "Converts base Toxic damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+    "modDesc": "Converts base Toxic damage to Shadow damage.\nIncreases chance of inflicting Cursed."
   },
   {
     "modName": "Greedy Feeder",
@@ -1661,19 +1661,19 @@
   },
   {
     "modName": "Rust Drinker",
-    "modDesc": "Increases damage.\\n\\nReduces tick-rate for leeching effect."
+    "modDesc": "Increases damage.\nReduces tick-rate for leeching effect."
   },
   {
     "modName": "Putrescine",
-    "modDesc": "Summons become bigger, increasing their health and damage.\\n\\nReduces the number of summons by one."
+    "modDesc": "Summons become bigger, increasing their health and damage.\nReduces the number of summons by one."
   },
   {
     "modName": "Splintering Hands",
-    "modDesc": "Reduces health for summons.\\n\\nIncreases damage for summons."
+    "modDesc": "Reduces health for summons.\nIncreases damage for summons."
   },
   {
     "modName": "Cadaverine",
-    "modDesc": "Summons explode when they are killed.\\n\\nThey also explode when they reach the target you order them to charge or collide with another target while charging."
+    "modDesc": "Summons explode when they are killed.\nThey also explode when they reach the target you order them to charge or collide with another target while charging."
   },
   {
     "modName": "Saturated Tissue",
@@ -1697,7 +1697,7 @@
   },
   {
     "modName": "Chosen Few",
-    "modDesc": "Increases health for summons.\\n\\nReduces the number of summons by one."
+    "modDesc": "Increases health for summons.\nReduces the number of summons by one."
   },
   {
     "modName": "Wretched Elects",
@@ -1721,7 +1721,7 @@
   },
   {
     "modName": "Nimble Walkers",
-    "modDesc": "Increases movement speed for summons.\\n\\nIncreases health for summons."
+    "modDesc": "Increases movement speed for summons.\nIncreases health for summons."
   },
   {
     "modName": "Shrieking Pursuit",
@@ -1741,7 +1741,7 @@
   },
   {
     "modName": "Lethal Effort",
-    "modDesc": "Increases damage for summons.\\n\\nReduces health for summons."
+    "modDesc": "Increases damage for summons.\nReduces health for summons."
   },
   {
     "modName": "Of Dinge And Grime",
@@ -1761,7 +1761,7 @@
   },
   {
     "modName": "Decaying Mobs",
-    "modDesc": "Reduces the number of summons by one.\\n\\nIncreases damage for summons."
+    "modDesc": "Reduces the number of summons by one.\nIncreases damage for summons."
   },
   {
     "modName": "Venomous Points",
@@ -1785,7 +1785,7 @@
   },
   {
     "modName": "Wraiths of the Ramparts",
-    "modDesc": "Increases movement speed for summons.\\n\\nIncreases health for summons."
+    "modDesc": "Increases movement speed for summons.\nIncreases health for summons."
   },
   {
     "modName": "Mortality in Waves",
@@ -1801,11 +1801,11 @@
   },
   {
     "modName": "Ravenous Reach",
-    "modDesc": "Converts summons' base Toxic damage to Shadow damage.\\n\\nSummon becomes a melee warrior that has a leaping attack."
+    "modDesc": "Converts summons' base Toxic damage to Shadow damage.\nSummon becomes a melee warrior that has a leaping attack."
   },
   {
     "modName": "Thundercracking Punisher",
-    "modDesc": "Converts summons' base Toxic damage to Lightning damage.\\n\\nSummon becomes a mage that can cast a protective shield."
+    "modDesc": "Converts summons' base Toxic damage to Lightning damage.\nSummon becomes a mage that can cast a protective shield."
   },
   {
     "modName": "Sacrifice",
@@ -1853,7 +1853,7 @@
   },
   {
     "modName": "Foul Guardian",
-    "modDesc": "Summon generates more Threat.\\n\\nIncreases health for summon."
+    "modDesc": "Summon generates more Threat.\nIncreases health for summon."
   },
   {
     "modName": "Echoes of Infinity",
@@ -1869,7 +1869,7 @@
   },
   {
     "modName": "Magnetic Shield",
-    "modDesc": "Projectiles are destroyed by the area of effect.\\n\\nIncreases skill cooldown."
+    "modDesc": "Projectiles are destroyed by the area of effect.\nIncreases skill cooldown."
   },
   {
     "modName": "Event Horizon",
@@ -1897,7 +1897,7 @@
   },
   {
     "modName": "Echo Wave Pattern",
-    "modDesc": "Converts base Aether damage to Lightning damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Aether damage to Lightning damage.\nIncreases damage."
   },
   {
     "modName": "Elongation",
@@ -1957,11 +1957,11 @@
   },
   {
     "modName": "Metempsychosis",
-    "modDesc": "Chance for explosions to drop a health globe.\\n\\nReduces damage."
+    "modDesc": "Chance for explosions to drop a health globe.\nReduces damage."
   },
   {
     "modName": "Pauper's Last Rites",
-    "modDesc": "Converts base Toxic damage to Fire damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Toxic damage to Fire damage.\nIncreases damage."
   },
   {
     "modName": "Loser's Gift",
@@ -2029,7 +2029,7 @@
   },
   {
     "modName": "Those Who Favor Fire",
-    "modDesc": "Converts base Sacred damage to Fire damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Sacred damage to Fire damage.\nIncreases damage."
   },
   {
     "modName": "Grueling Dawn",
@@ -2105,7 +2105,7 @@
   },
   {
     "modName": "Toxicity Ensnared",
-    "modDesc": "Converts base Physical damage to Toxic damage instead of Shadow damage.\\n\\nInflicts an additional stack when inflicting Poison."
+    "modDesc": "Converts base Physical damage to Toxic damage instead of Shadow damage.\nInflicts an additional stack when inflicting Poison."
   },
   {
     "modName": "Frenzy of the Betrayed",
@@ -2153,11 +2153,11 @@
   },
   {
     "modName": "One Simple Shot",
-    "modDesc": "Reduces damage.\\n\\nIncreases critical damage."
+    "modDesc": "Reduces damage.\nIncreases critical damage."
   },
   {
     "modName": "Frostbitten Salute",
-    "modDesc": "Converts base base Physical damage to Frost damage instead of Lightning damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base base Physical damage to Frost damage instead of Lightning damage.\nIncreases damage."
   },
   {
     "modName": "Vital Point",
@@ -2221,7 +2221,7 @@
   },
   {
     "modName": "Blazing Fury",
-    "modDesc": "Converts base Physical damage to Fire damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical damage to Fire damage.\nIncreases damage."
   },
   {
     "modName": "Thunderous Impact",
@@ -2297,7 +2297,7 @@
   },
   {
     "modName": "Suffocating Eclipse",
-    "modDesc": "Converts base Rend damage to Shadow damage.\\n\\nIncreases chance of inflicting Cursed."
+    "modDesc": "Converts base Rend damage to Shadow damage.\nIncreases chance of inflicting Cursed."
   },
   {
     "modName": "Grip of Agony",
@@ -2349,7 +2349,7 @@
   },
   {
     "modName": "Across the Cosmos",
-    "modDesc": "Converts base Sacred damage to Aether damage.\\n\\nIncreases chance of inflicting Stasis."
+    "modDesc": "Converts base Sacred damage to Aether damage.\nIncreases chance of inflicting Stasis."
   },
   {
     "modName": "Adjudication",
@@ -2381,7 +2381,7 @@
   },
   {
     "modName": "Sound Body",
-    "modDesc": "Grants immunity to crowd control.\\n\\nReduces shield duration."
+    "modDesc": "Grants immunity to crowd control.\nReduces shield duration."
   },
   {
     "modName": "Simulacra",
@@ -2401,7 +2401,7 @@
   },
   {
     "modName": "Standing Rock",
-    "modDesc": "Increases damage absorption.\\n\\nReduces movement speed."
+    "modDesc": "Increases damage absorption.\nReduces movement speed."
   },
   {
     "modName": "Grudges Collected",
@@ -2417,7 +2417,7 @@
   },
   {
     "modName": "Prideful Deflagration",
-    "modDesc": "Converts base Physical Damage to Fire Damage.\\n\\nIncreases damage."
+    "modDesc": "Converts base Physical Damage to Fire Damage.\nIncreases damage."
   },
   {
     "modName": "Vibrations Internalized",
@@ -2545,7 +2545,7 @@
   },
   {
     "modName": "Trespasses Revealed",
-    "modDesc": "Converts base Shadow Damage to Sacred Damage.\\n\\nIncreases chance of inflicting Weakness."
+    "modDesc": "Converts base Shadow Damage to Sacred Damage.\nIncreases chance of inflicting Weakness."
   },
   {
     "modName": "Hopeless Conviction",
