@@ -3,7 +3,7 @@
 }
 .modTooltip {
   text-align: left !important;
-  opacity: 95% !important;
+  opacity: 0.95 !important;
   display: flex !important;
   flex-direction: column !important;
   padding-left: 10px !important;
