@@ -1,8 +1,28 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useState, useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
 
 const context = createContext(null);
+
+function useInterval(callback, delay) {
+  const savedCallback = useRef();
+
+  // Remember the latest function.
+  useEffect(() => {
+    savedCallback.current = callback;
+  }, [callback]);
+
+  // Set up the interval.
+  useEffect(() => {
+    function tick() {
+      savedCallback.current();
+    }
+    if (delay !== null) {
+      let id = setInterval(tick, delay);
+      return () => clearInterval(id);
+    }
+  }, [delay]);
+}
 
 const UserProvider = ({ children }) => {
   const history = useHistory();
@@ -27,9 +47,14 @@ const UserProvider = ({ children }) => {
   };
 
   // get user every 5 minutes (300,000 ms)
-  let userFetchInterval = 5;
+  let userFetchInterval = 5; //in minutes
   userFetchInterval = 1000 * 60 * userFetchInterval;
-  setInterval(getUser, userFetchInterval);
+
+  useInterval(() => {
+    getUser();
+  }, userFetchInterval);
+
+  console.log("re-render");
 
   useEffect(() => {
     getUser();

@@ -36,7 +36,7 @@ const Fireflies = () => {
             random: true,
             anim: {
               enable: true,
-              speed: 1,
+              speed: 0.5,
               opacity_min: 0.1,
               sync: false,
             },
@@ -46,7 +46,7 @@ const Fireflies = () => {
             random: true,
             anim: {
               enable: true,
-              speed: 2,
+              speed: 0.5,
               size_min: 0.1,
               sync: false,
             },
@@ -65,7 +65,7 @@ const Fireflies = () => {
           },
           move: {
             enable: true,
-            speed: 1,
+            speed: 0.5,
             direction: "none",
             random: false,
             straight: false,
