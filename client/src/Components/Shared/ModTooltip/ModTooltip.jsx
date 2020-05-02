@@ -7,7 +7,7 @@ const ModTooltip = ({
   modDescriptions,
   modName,
   modCost,
-  className,
+  className = "",
   place = "top",
   backgroundColor = "rgb(0, 0, 0)",
   showBorder = true,
