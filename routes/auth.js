@@ -36,8 +36,8 @@ router.get(
   }),
   function (req, res) {
     // If env var is defined as dev then describe dev, otherwise assume prod
-    const env = process.env.NODE_ENV || "prod";
-    if (env === "prod") {
+    const env = process.env.NODE_ENV || "dev";
+    if (env !== "dev") {
       return res.redirect("https://wolcen-hq.herokuapp.com/");
     } else {
       return res.redirect("http://localhost:3000");
@@ -99,8 +99,8 @@ router.post("/register", ensureUnauthenticated, async function (
             return next(err);
           }
           // If env var is defined as dev then describe dev, otherwise assume prod
-          const env = process.env.NODE_ENV || "prod";
-          if (env === "prod") {
+          const env = process.env.NODE_ENV || "dev";
+          if (env !== "dev") {
             return res.redirect("https://wolcen-hq.herokuapp.com/");
           } else {
             return res.redirect("http://localhost:3000");
@@ -143,8 +143,8 @@ router.post("/login", ensureUnauthenticated, async function (req, res, next) {
             return next(err);
           }
           // If env var is defined as dev then describe dev, otherwise assume prod
-          const env = process.env.NODE_ENV || "prod";
-          if (env === "prod") {
+          const env = process.env.NODE_ENV || "dev";
+          if (env !== "dev") {
             return res.redirect("https://wolcen-hq.herokuapp.com/");
           } else {
             return res.redirect("http://localhost:3000");
