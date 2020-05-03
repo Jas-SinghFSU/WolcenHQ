@@ -24,7 +24,13 @@ router.get(
   ensureUnauthenticated,
   passport.authenticate("steam", { failureRedirect: "/" }),
   function (req, res) {
-    res.redirect("/");
+    // If env var is defined as dev then describe dev, otherwise assume prod
+    const env = process.env.NODE_ENV || "dev";
+    if (env === "production") {
+      return res.redirect("https://wolcen-hq.herokuapp.com/");
+    } else {
+      return res.redirect("http://localhost:3000");
+    }
   }
 );
 
