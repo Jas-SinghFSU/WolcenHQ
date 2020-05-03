@@ -80,3 +80,26 @@
 .myAccount .anticon {
   color: #bbb2f5;
 }
+
+.menuQuickLinks {
+  border-bottom: 0px !important;
+  min-height: 100px !important;
+}
+
+.menuQuickLinks:hover {
+  background: transparent !important;
+  cursor: default;
+}
+.quickLinksContainer {
+  margin-top: 25px;
+  display: flex;
+  min-width: min-content;
+  margin-left: -9px !important;
+  justify-content: center;
+}
+.quickLinksContainer a {
+  color: white;
+}
+.quickLinksContainer a:hover {
+  color: rgb(248, 218, 153);
+}

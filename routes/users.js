@@ -14,6 +14,8 @@ router.get("/user/:id", async function (req, res) {
   const { id } = req.params;
   try {
     const currentUser = await USERS.findOne({ _id: ObjectID(id) });
+    delete currentUser["password"];
+    delete currentUser["email"];
     res.json(currentUser);
   } catch (error) {
     res.status(500).json({ error: error.message });

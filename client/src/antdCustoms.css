@@ -202,7 +202,7 @@
 /***************** NAVBAR STYLING *****************/
 .antdMenuItem {
   width: 90% !important;
-  border-bottom: 2px solid !important;
+  border-bottom: 2px solid;
   padding-bottom: 12px !important;
   margin-left: auto !important;
   margin-right: auto !important;

@@ -135,6 +135,30 @@ const SideNavigation = () => {
               </Fragment>
             </Menu.Item>
           )}
+          <Menu.Item className="antdMenuItem menuQuickLinks" key="7" title={""}>
+            <div
+              className="quickLinksContainer"
+              style={{ flexDirection: `${navCollapsed ? "column" : "row"}` }}
+            >
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://discord.gg/YN5CAy3"
+              >
+                <i class="fab fa-discord fa-2x" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeJMtbJEggXrWNkGXlxxdbqkcza1mFhi3yayWRa2s7pLsxOdQ/viewform"
+              >
+                <i
+                  class="fas fa-bug fa-2x"
+                  style={{ marginLeft: `${navCollapsed ? "0px" : "15px"}` }}
+                />
+              </a>
+            </div>
+          </Menu.Item>
         </Menu>
       </Sider>
     </Layout>
