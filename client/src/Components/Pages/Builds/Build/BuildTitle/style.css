@@ -117,3 +117,16 @@
   text-align: right;
   min-width: 140px;
 }
+.buildInfoTitleContainer {
+  display: flex;
+  flex-direction: row;
+}
+.buildInfoTitleEditButton {
+  align-self: center;
+  margin: auto;
+  color: #ffcc8f;
+}
+.buildInfoTitleEditButton:hover {
+  color: rgb(250, 217, 177);
+  cursor: pointer;
+}

@@ -1,4 +1,5 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment } from "react";
+import { useHistory } from "react-router-dom";
 import { Row, Col, Input, Select, Button } from "antd";
 import CustomQuill from "../../../../Shared/CustomQuill/CustomQuill";
 import validator from "validator";
@@ -29,7 +30,12 @@ const BuildDescriptionContent = (props) => {
     inputText,
     setDesc,
     submitData,
+    playstyle,
+    combatType,
+    buildID,
   } = props;
+
+  const history = useHistory();
 
   return (
     <Row className="buildDescriptionContainer">
@@ -58,7 +64,7 @@ const BuildDescriptionContent = (props) => {
             <InputGroup className="playstyleInput">
               <Select
                 style={{ width: "100%" }}
-                defaultValue="Solo"
+                defaultValue={playstyle}
                 onChange={(val) => setPs(val)}
               >
                 <Option value="Solo">Solo</Option>
@@ -72,7 +78,7 @@ const BuildDescriptionContent = (props) => {
             <InputGroup className="combatTypeInput">
               <Select
                 style={{ width: "100%" }}
-                defaultValue="Melee"
+                defaultValue={combatType}
                 onChange={(val) => setComb(val)}
               >
                 <Option value="Melee">Melee</Option>
@@ -93,7 +99,15 @@ const BuildDescriptionContent = (props) => {
           />
         </div>
       </Col>
-      <Col span={2} offset={11}>
+      <Col span={2} offset={11} className="bdSubmitContainer">
+        <Button
+          className="cancelBuildButton customDefault"
+          onClick={() => {
+            history.push(`/builds/build/${buildID}`);
+          }}
+        >
+          Cancel
+        </Button>
         <Button
           className="submitBuildButton customPrimary"
           type="primary"

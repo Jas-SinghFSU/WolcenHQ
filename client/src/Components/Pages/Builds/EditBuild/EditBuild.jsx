@@ -7,7 +7,7 @@ import StatPointsContainer from "./StatPointsContainer/StatPointsContainer";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
 import GateOfFatesContainer from "./GateOfFatesContainer/GateOfFatesContainer";
 import BuildDescriptionContainer from "./BuildDescriptionContainer/BuildDescriptionContainer";
-import { buildDescription } from "../../../Constants/constants";
+import CenteredLoader from "../../../Shared/CenteredLoader/CenteredLoader";
 
 import "./style.css";
 
@@ -31,6 +31,7 @@ const EditBuild = (props) => {
   const buildID = props.match.params.id;
   const userData = useContext(UserProvider.context);
 
+  const [dataLoaded, setDataLoaded] = useState(false);
   /* States of the data being sent to/from the database */
   const [statPoints, setStatPoints] = useState(890);
   const [stats, setStats] = useState({
@@ -77,6 +78,7 @@ const EditBuild = (props) => {
       setInputText(buildData.buildDescription);
       setActiveNodes(buildData.activeNodes);
       setRotations(buildData.rotations);
+      setDataLoaded(true);
     } catch (error) {}
   };
 
@@ -213,6 +215,7 @@ const EditBuild = (props) => {
     inputText,
     setDesc,
     submitData,
+    buildID,
   };
 
   const gateOfFatesProps = {
@@ -222,6 +225,9 @@ const EditBuild = (props) => {
     setRotationsCB,
   };
 
+  if (!dataLoaded) {
+    return <CenteredLoader />;
+  }
   return (
     <Layout className="createBuildPageLayout">
       <Content className="statsAndSkills">

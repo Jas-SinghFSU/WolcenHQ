@@ -57,8 +57,11 @@
   font-family: oswald;
   background: #29292f !important;
 }
+.cancelBuildButton {
+  margin: 0 -15px;
+}
 .submitBuildButton {
-  width: 100%;
+  margin: 0 30px;
 }
 .ant-select-dropdown-menu {
   background: #29292f !important;
@@ -77,4 +80,9 @@
 }
 .buildInputBoxContainer .ant-input::placeholder {
   color: rgb(94, 94, 94);
+}
+.bdSubmitContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }

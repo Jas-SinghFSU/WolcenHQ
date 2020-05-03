@@ -19,6 +19,8 @@ const combatTagColors = {
 
 const BuildTitle = (props) => {
   const { _id } = props;
+  const history = useHistory();
+
   const [votes, setVotes] = useState({
     likes: null,
     dislikes: null,
@@ -197,7 +199,19 @@ const BuildTitle = (props) => {
               />
             </div>
             <div className="buildInfoDetails">
-              <span className="buildInfoTitle">{props.buildTitle}</span>
+              <span className="buildInfoTitleContainer">
+                <span className="buildInfoTitle">{props.buildTitle}</span>
+                {!_.isEmpty(props.user) && props.user._id === props.author._id && (
+                  <span className="buildInfoTitleEditButton">
+                    <i
+                      className="fas fa-pencil-alt fa-2x"
+                      onClick={() => {
+                        history.push(`/builds/edit/${props._id}`);
+                      }}
+                    />
+                  </span>
+                )}
+              </span>
               <div className="buildInfoDescriptionContainer">
                 <span className="buildInfoDescription">
                   by{" "}
