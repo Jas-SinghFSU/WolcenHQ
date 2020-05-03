@@ -8,11 +8,20 @@ const bcrypt = require("bcryptjs");
 const _ = require("lodash");
 
 module.exports = function (passport) {
+  const returnURLString =
+    process.env.NODE_ENV === "production"
+      ? "https://wolcen-hq.herokuapp.com/api/auth/steam/return"
+      : "http://localhost:3443/api/auth/steam/return";
+
+  const realmString =
+    process.env.NODE_ENV === "production"
+      ? "https://wolcen-hq.herokuapp.com/"
+      : "http://localhost:3443/";
   passport.use(
     new SteamStrategy(
       {
-        returnURL: "http://localhost:3443/api/auth/steam/return",
-        realm: "http://localhost:3443/",
+        returnURL: returnURLString,
+        realm: realmString,
         apiKey: keys.steamAPIKey,
       },
       async (identifier, profile, done) => {
