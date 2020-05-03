@@ -30,9 +30,17 @@ router.get(
 
 router.get(
   "/steam/return",
-  passport.authenticate("steam", { failureRedirect: "/", session: true }),
+  passport.authenticate("steam", {
+    failureRedirect: "/",
+    session: true,
+  }),
   function (req, res) {
-    res.redirect(`http://localhost:3000`);
+    const env = process.env.NODE_ENV || "development";
+    if (env !== "development") {
+      return res.redirect("https://wolcen-hq.herokuapp.com/");
+    } else {
+      return res.redirect("http://localhost:3000");
+    }
   }
 );
 
@@ -89,7 +97,12 @@ router.post("/register", ensureUnauthenticated, async function (
           if (err) {
             return next(err);
           }
-          return res.redirect("http://localhost:3000");
+          const env = process.env.NODE_ENV || "development";
+          if (env === "development") {
+            return res.redirect("https://wolcen-hq.herokuapp.com/");
+          } else {
+            return res.redirect("http://localhost:3000");
+          }
         });
       }
     })(req, res, next);
@@ -127,7 +140,12 @@ router.post("/login", ensureUnauthenticated, async function (req, res, next) {
           if (err) {
             return next(err);
           }
-          return res.redirect("http://localhost:3000");
+          const env = process.env.NODE_ENV || "development";
+          if (env === "development") {
+            return res.redirect("https://wolcen-hq.herokuapp.com/");
+          } else {
+            return res.redirect("http://localhost:3000");
+          }
         });
       }
     })(req, res, next);
