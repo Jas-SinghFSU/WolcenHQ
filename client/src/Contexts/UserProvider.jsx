@@ -54,8 +54,6 @@ const UserProvider = ({ children }) => {
     getUser();
   }, userFetchInterval);
 
-  console.log("re-render");
-
   useEffect(() => {
     getUser();
   }, []);
