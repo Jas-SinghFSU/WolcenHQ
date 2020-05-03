@@ -1,0 +1,248 @@
+.skillsRow {
+  margin-top: 40px;
+}
+.skillTitle {
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+  color: rgb(192, 192, 192);
+  font-size: 18px;
+}
+
+.skillsSelectorRow {
+  margin-top: 10px;
+}
+
+.addSpellIcon {
+  font-size: 65px;
+  color: rgba(240, 248, 255, 0.171);
+}
+.ant-modal-content {
+  background-color: #3d3d42;
+  color: white;
+  font-size: 25px;
+  font-family: Oswald;
+  font-weight: 400;
+}
+.ant-modal-header {
+  background-color: #3d3d42;
+  border-color: #67676e;
+  border-width: 2px;
+}
+.ant-modal-title {
+  color: rgb(184, 165, 103);
+  font-size: 24px;
+  font-family: Oswald;
+}
+.ant-modal-close-x {
+  color: white;
+  font-size: 22px;
+  font-family: Oswald;
+}
+.ant-modal-footer {
+  border-color: #67676e;
+  border-width: 2px;
+}
+.skillsContainerMain .ant-btn {
+  background: none;
+  border: none;
+  color: white;
+}
+.skillsContainerMain .ant-btn:hover {
+  background: rgb(216, 90, 90);
+  border: none;
+  color: white;
+}
+.skillsContainerMain .ant-btn.ant-btn-primary {
+  background-color: #4399a8;
+  border-color: #4399a8;
+}
+.skillsContainerMain .ant-btn.ant-btn-primary:hover {
+  background-color: #6ed2e4;
+  border-color: #6ed2e4;
+}
+.skillsContainerMain .ant-modal {
+  width: 300px !important;
+}
+.skillsContainerMain .ant-modal-body {
+  max-height: 450px;
+  padding-right: 5px !important;
+}
+.modalSkillsRow {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.modalSkillsCol {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 95%;
+}
+.takenModalSkillsCol {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 95%;
+}
+
+.modalModsRow {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.modalModCol {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 95%;
+}
+.modBlock {
+  height: 105%;
+  padding-top: 4px;
+  padding-left: 7px;
+  border: solid 2px;
+  border-color: #00090e61;
+  background-color: rgba(11, 31, 44, 0.151);
+  cursor: pointer;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.modBlockSelected {
+  border-color: #010f16b9;
+  background-color: rgba(89, 129, 155, 0.4);
+}
+.modBlockUnavailable {
+  border-color: #f8525228;
+  background-color: rgba(11, 31, 44, 0.151);
+  color: #ffffff5e;
+  cursor: default;
+}
+.modBlockDisabled {
+  border-color: #00090e15;
+  background-color: rgba(11, 31, 44, 0.062);
+  color: #ffffff2f;
+  cursor: default;
+}
+.spellIconAvatar {
+  margin-right: 5px;
+  border: 1px solid;
+  border-color: #4d4d4d;
+}
+.spellIconAvatarTaken {
+  opacity: 0.2;
+}
+
+.skillBlock {
+  height: 105%;
+  padding-top: 4px;
+  padding-left: 7px;
+  border: solid 2px;
+  border-color: #00090e61;
+  background-color: rgba(11, 31, 44, 0.151);
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.skillNameSpan {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.skillBlockSelected {
+  border-color: #010f16b9;
+  background-color: rgba(89, 129, 155, 0.4);
+}
+.skillBlockTaken {
+  border-color: #00090e15;
+  background-color: rgba(11, 31, 44, 0.062);
+  color: #ffffff2f;
+  cursor: default;
+}
+.slotSpellTitle {
+  line-height: 30px;
+  color: rgb(235, 165, 60);
+  font-size: 15px;
+}
+.slotSpellNameBorder {
+  width: 80%;
+  padding-bottom: 10px;
+  margin-left: 10%;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+.spellTooltip {
+  background: rgba(0, 0, 0, 0.925) !important;
+  border: 1px solid rgba(163, 136, 77, 0.342) !important;
+  width: 300px !important;
+  height: 150px !important;
+  display: inline-table !important;
+  font-size: 15px !important;
+}
+.tooltipSpellNameCol {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 7px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+.tooltipSpellDescriptionCol {
+  text-align: left;
+  padding-bottom: 7px;
+  margin-top: 8px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+.tooltipSpellIconCol {
+  text-align: center;
+  padding-bottom: 7px;
+  margin-top: 8px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+.tooltipSpellAttackCol {
+  text-align: left;
+  padding-bottom: 7px;
+  margin-top: 8px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+.tooltipSpellTagsCol {
+  text-align: left;
+  padding-bottom: 7px;
+  margin-top: 8px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+.tooltipAttackLabel {
+  color: orange;
+}
+.slotSpellModCountCol {
+  margin-top: 7px;
+  color: #53e3d6;
+}
+.slotSpellIcon {
+  cursor: url("../../../../../Data/Cursors/trash-bin-full-svgrepo-com.svg"),
+    auto;
+  border: 1px solid;
+  border-color: #4d4d4d;
+}
+
+.addModContainer {
+  color: #a6a6a6;
+  font-size: 12px;
+  border: dashed 2px;
+  padding-bottom: 1px;
+  background-color: #f0f0f00e;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.selectedModsCol {
+  margin-top: 10px;
+  color: rgb(213, 190, 146);
+}
+
+.selectedModSpan {
+  cursor: default;
+}
+.selectedModSpan:hover {
+  color: rgb(255, 243, 221);
+}

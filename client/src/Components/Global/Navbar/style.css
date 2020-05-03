@@ -98,7 +98,7 @@
   justify-content: center;
 }
 .quickLinksContainer a {
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
 }
 .quickLinksContainer a:hover {
   color: rgb(248, 218, 153);

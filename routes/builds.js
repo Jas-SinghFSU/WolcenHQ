@@ -247,6 +247,65 @@ router.get("/build/:id", async (req, res) => {
   }
 });
 
+router.put("/edit/:id", ensureAuthenticated, async (req, res) => {
+  const inputData = req.body;
+  const { id } = req.params;
+
+  try {
+    const buildInfo = await BUILDS.findOne({ _id: ObjectID(id) });
+    if (buildInfo.author !== res.locals.user[0]._id) {
+      return res
+        .status(401)
+        .json({ error: "Only the author can edit their build." });
+    }
+  } catch (error) {
+    return res.status(400).json({ error: "Failed to fetch the build." });
+  }
+
+  const {
+    buildTitle,
+    buildDescription,
+    buildVideo,
+    playstyle,
+    combatType,
+    activeNodes,
+    rotations,
+    slotData,
+    stats,
+    statPoints,
+  } = inputData;
+
+  const buildPayload = {
+    buildTitle,
+    buildDescription: buildDescription || "",
+    buildVideo: buildVideo || "",
+    playstyle: playstyle || "",
+    combatType: combatType || "",
+    activeNodes: activeNodes || "",
+    rotations: rotations || "",
+    slotData: slotData || "",
+    stats: stats || "",
+    statPoints: statPoints,
+    lastUpdated: new Date(),
+  };
+
+  if (!buildTitle || buildTitle.length <= 0) {
+    return res.status(400).json({ error: "Title cannot be empty." });
+  }
+
+  try {
+    const results = await BUILDS.findOneAndUpdate(
+      { _id: ObjectID(id) },
+      { $set: { ...buildPayload } },
+      { returnOriginal: false }
+    );
+    console.log(JSON.stringify(results, null, 2));
+    res.json({ status: "success", id: results.value._id });
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+});
+
 router.put("/build/vote/:id", ensureAuthenticated, async (req, res) => {
   try {
     const { id } = req.params;

@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";
 import BuildsHome from "../Pages/Builds/BuildsHome/BuildsHome";
 import CreateBuild from "../Pages/Builds/CreateBuild/CreateBuild";
+import EditBuild from "../Pages/Builds/EditBuild/EditBuild";
 import Build from "../Pages/Builds/Build/Build";
 import Register from "../Pages/Authentication/Register";
 import Login from "../Pages/Authentication/Login";
@@ -19,6 +20,7 @@ const Routes = () => {
       <Route exact path="/auth/register" component={Register} />
       <Route exact path="/users/user/:id" component={UserProfile} />
       <PrivateRoute exact path="/myaccount" component={MyAccount} />
+      <PrivateRoute exact path="/builds/edit/:id" component={EditBuild} />
     </Switch>
   );
 };

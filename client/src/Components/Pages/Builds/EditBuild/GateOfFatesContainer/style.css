@@ -1,0 +1,226 @@
+.d3svg {
+  background: grey;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 800px;
+  height: 740px;
+}
+
+.activeLink {
+  stroke-width: 2.2px;
+  stroke: white !important;
+}
+
+.accessibleLink {
+  stroke-width: 1.5px;
+  stroke: rgb(165, 162, 82) !important;
+}
+
+.ant-popover {
+  pointer-events: none;
+}
+
+.gofContainerWrapper {
+  max-width: 900px;
+  width: inherit;
+  min-width: 404px;
+}
+.gofContainer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 100%;
+  margin-bottom: 30px;
+  background: #000c;
+  min-height: 400px;
+}
+
+.gofContainer-locked {
+  max-width: 1000px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background: #000c;
+  padding-top: 100%;
+}
+.gofSvg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gofFireflies {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+#nodeTooltip {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background: rgba(0, 0, 0, 0.95) !important;
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  min-width: 300px;
+  margin-left: 10px;
+}
+
+.tooltipSkillDescriptionCol {
+  white-space: pre-wrap;
+  text-align: left;
+  padding-bottom: 7px;
+  margin-top: 8px;
+  border-bottom: solid 2px;
+  border-color: rgba(107, 107, 107, 0.288);
+}
+
+.skillModValue {
+  color: rgb(240, 180, 69);
+}
+
+.tooltipSkillModsList {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tooltipSkillMod {
+  display: list-item;
+}
+
+.gofAndControls {
+  display: flex;
+  flex-direction: row;
+}
+
+.gofButtons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: inherit;
+  height: max-content;
+  min-width: 150px;
+}
+
+.gofButtonsLabel {
+  color: rgb(192, 192, 192);
+  font-size: 26px;
+}
+.gofSkillPointsLabel {
+  color: rgb(192, 192, 192);
+  font-size: 26px;
+  padding-bottom: 4px;
+  border-bottom: solid 2px;
+  margin-bottom: 30px;
+}
+.ringNamesContainer {
+  width: 100%;
+  color: #c1b156;
+  font-size: 20px;
+}
+
+.ringName {
+  cursor: pointer;
+  margin-top: 3px;
+  background: rgba(0, 0, 0, 0.507);
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.ringName:hover {
+  cursor: pointer;
+  background: rgba(122, 122, 90, 0.432);
+}
+
+.ringName.selected {
+  cursor: pointer;
+  color: black;
+  background: #a89d5f;
+}
+
+.rotateButtonContainer {
+  margin-top: 10px;
+}
+
+.rotateButtonLeft {
+  margin-right: 5px;
+  background-color: #27a78b !important;
+  border-color: #27a78b !important;
+}
+
+.rotateButtonLeft:hover {
+  margin-right: 5px;
+  background-color: #59d6bb !important;
+  border-color: #59d6bb !important;
+}
+
+.rotateButtonRight {
+  margin-left: 5px;
+  background-color: #27a78b !important;
+  border-color: #27a78b !important;
+}
+
+.rotateButtonRight:hover {
+  margin-left: 5px;
+  background-color: #59d6bb !important;
+  border-color: #59d6bb !important;
+}
+
+.rotateButtonReset {
+  background-color: #c2544c !important;
+  border-color: #c94d44 !important;
+}
+
+.rotateButtonReset:hover {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+.rotateButtonReset.zoom {
+  background-color: #27a78b !important;
+  border-color: #27a78b !important;
+}
+
+.rotateButtonReset.zoom:hover {
+  background-color: #59d6bb !important;
+  border-color: #59d6bb !important;
+}
+
+.gofWheelColumn {
+  width: calc(100% - 170px);
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.svgPanZoomWheel {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+}

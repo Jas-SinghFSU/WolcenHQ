@@ -1,0 +1,97 @@
+.createBuildTitle {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: Oswald;
+}
+
+.buildTitleCol {
+  text-align: left;
+}
+
+.statPointsRow {
+  text-align: left;
+}
+.statPointsCol {
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(49, 49, 49);
+  margin-top: 40px;
+}
+.sectionLabel {
+  color: rgb(184, 165, 103);
+  font-size: 25px;
+  font-family: Oswald;
+}
+
+.statPointsSectionRow {
+  text-align: center;
+}
+.statPointsSectionCol {
+  margin-top: 10px;
+}
+.statPointsSectionTitle {
+  color: rgb(192, 192, 192);
+  font-size: 26px;
+  font-weight: 500;
+  font-family: Oswald;
+}
+.statPointsCheck {
+  font-size: 22px;
+  color: #54dd89;
+}
+.statsRow {
+  margin-top: 40px;
+}
+.statTitle {
+  font-size: 26px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.statCount {
+  color: #ffe499;
+}
+.ferocity {
+  font-weight: 500;
+  color: #d44d4d;
+}
+.toughness {
+  font-weight: 500;
+  color: #daa35b;
+}
+.agility {
+  font-weight: 500;
+  color: #54dd89;
+}
+.wisdom {
+  font-weight: 500;
+  color: #4db9d4;
+}
+.statsControllerRow {
+  margin-top: 7px;
+}
+.statsControllerCol {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+.statsControllerButton.left {
+  color: burlywood;
+  margin-left: 0px;
+}
+.statsControllerButton.right {
+  color: burlywood;
+  margin-left: 20px;
+  margin-right: 70px;
+  stroke-width: 50px;
+}
+.ant-input.statCount {
+  max-width: 70px;
+  background-color: #f5deb300;
+  border-color: #0000;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 4px 0px;
+}
