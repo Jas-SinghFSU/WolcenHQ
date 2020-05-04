@@ -104,3 +104,6 @@
 .quickLinksContainer a:hover {
   color: rgb(248, 218, 153);
 }
+.sideNavTosLink:hover {
+  color: rgb(248, 218, 153);
+}

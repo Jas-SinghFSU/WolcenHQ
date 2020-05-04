@@ -162,6 +162,7 @@ const SideNavigation = () => {
               onClick={() => {
                 history.push("/termsofservice");
               }}
+              className="sideNavTosLink"
               style={{ cursor: "pointer", textAlign: "center", marginLeft: -8 }}
             >
               {navCollapsed ? "ToS" : "Terms of Service"}
