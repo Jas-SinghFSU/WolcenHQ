@@ -211,4 +211,5 @@
   margin-bottom: 0px !important;
   height: 44px !important;
   color: rgba(255, 255, 255, 0.85) !important;
+  min-width: max-content !important;
 }
