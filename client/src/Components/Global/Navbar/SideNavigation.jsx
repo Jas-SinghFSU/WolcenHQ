@@ -158,6 +158,14 @@ const SideNavigation = () => {
                 />
               </a>
             </div>
+            <div
+              onClick={() => {
+                history.push("/termsofservice");
+              }}
+              style={{ cursor: "pointer", textAlign: "center", marginLeft: -8 }}
+            >
+              {navCollapsed ? "ToS" : "Terms of Service"}
+            </div>
           </Menu.Item>
         </Menu>
       </Sider>

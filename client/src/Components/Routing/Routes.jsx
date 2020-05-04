@@ -9,6 +9,7 @@ import Register from "../Pages/Authentication/Register";
 import Login from "../Pages/Authentication/Login";
 import MyAccount from "../Pages/Account/MyAccount";
 import UserProfile from "../Pages/UserProfile/UserProfile";
+import ToS from "../TermsOfService/ToS";
 
 const Routes = () => {
   return (
@@ -19,6 +20,7 @@ const Routes = () => {
       <Route exact path="/auth/login" component={Login} />
       <Route exact path="/auth/register" component={Register} />
       <Route exact path="/users/user/:id" component={UserProfile} />
+      <Route exact path="/termsofservice" component={ToS} />
       <PrivateRoute exact path="/myaccount" component={MyAccount} />
       <PrivateRoute exact path="/builds/edit/:id" component={EditBuild} />
     </Switch>

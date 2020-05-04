@@ -84,6 +84,7 @@
 .menuQuickLinks {
   border-bottom: 0px !important;
   min-height: 100px !important;
+  overflow: visible !important;
 }
 
 .menuQuickLinks:hover {
