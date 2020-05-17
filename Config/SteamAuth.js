@@ -15,7 +15,7 @@ module.exports = function (passport) {
 
   const realmString =
     process.env.NODE_ENV === "production"
-      ? "www.wolcenhq.com/"
+      ? "https://www.wolcenhq.com/"
       : "http://localhost:3443/";
   passport.use(
     new SteamStrategy(
