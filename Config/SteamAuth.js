@@ -10,7 +10,7 @@ const _ = require("lodash");
 module.exports = function (passport) {
   const returnURLString =
     process.env.NODE_ENV === "production"
-      ? "www.wolcenhq.com/api/auth/steam/return"
+      ? "https://www.wolcenhq.com/api/auth/steam/return"
       : "http://localhost:3443/api/auth/steam/return";
 
   const realmString =
