@@ -10,12 +10,12 @@ const _ = require("lodash");
 module.exports = function (passport) {
   const returnURLString =
     process.env.NODE_ENV === "production"
-      ? "https://www.wolcenhq.com/api/auth/steam/return"
+      ? "www.wolcenhq.com/api/auth/steam/return"
       : "http://localhost:3443/api/auth/steam/return";
 
   const realmString =
     process.env.NODE_ENV === "production"
-      ? "https://www.wolcenhq.com/"
+      ? "www.wolcenhq.com/"
       : "http://localhost:3443/";
   passport.use(
     new SteamStrategy(
