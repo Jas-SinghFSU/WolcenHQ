@@ -64,7 +64,6 @@ const EditBuild = (props) => {
     try {
       const buildRes = await axios.get(`${getRoute}/${buildID}`);
       const buildData = buildRes.data;
-      console.log(buildData);
       if (buildData.author !== userData.user._id) {
         history.push("/");
       }

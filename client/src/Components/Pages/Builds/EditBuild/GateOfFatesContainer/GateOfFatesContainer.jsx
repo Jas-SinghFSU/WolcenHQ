@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, Fragment, useState } from "react";
 import { ReactSVGPanZoom, INITIAL_VALUE, TOOL_AUTO } from "react-svg-pan-zoom";
-import { Row, Col, Button } from "antd";
+import { Row, Col, Button, Input } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { LockFilled, UnlockFilled } from "@ant-design/icons";
 import { faReply, faShare } from "@fortawesome/free-solid-svg-icons";
@@ -276,6 +276,7 @@ const RenderNodes = React.memo(
     rotations,
     innerToMiddle,
     middleToOuter,
+    searchText,
   }) => {
     const handleNodeClick = (node) => {
       if (activeNodes.length > 90 || activeNodes.includes(node.id)) {
@@ -456,7 +457,7 @@ const RenderNodes = React.memo(
 
     return groupCircleList.map((circle) => {
       let isActive = activeNodes.includes(circle.id);
-      const fillGradient = circle.id.includes("-r")
+      let fillGradient = circle.id.includes("-r")
         ? `url(#radial-gradient-red${isActive === true ? "-active" : ""})`
         : circle.id.includes("-g")
         ? `url(#radial-gradient-green${isActive === true ? "-active" : ""})`
@@ -464,9 +465,9 @@ const RenderNodes = React.memo(
         ? `url(#radial-gradient-purple${isActive === true ? "-active" : ""})`
         : "";
 
-      const strokeWidth = isActive ? 1.5 : 1;
+      let strokeWidth = isActive ? 1.5 : 1;
       // const strokeColor = circle.r > 6 && isActive ? "#5f4e00" : "#707070";
-      const strokeColor =
+      let strokeColor =
         circle.r > 8 && isActive
           ? "white"
           : circle.r > 8 && !isActive
@@ -476,6 +477,19 @@ const RenderNodes = React.memo(
           : circle.r < 8 && !isActive
           ? "#707070"
           : "#707070";
+
+      if (
+        searchText &&
+        circle.id
+          .replace(/[^a-zA-Z]/gi, "")
+          .toLowerCase()
+          .includes(searchText.toLowerCase().replace(/[^a-zA-Z]/gi, ""))
+      ) {
+        fillGradient = "url(#radial-gradient-blue)";
+        strokeWidth = 1.5;
+        strokeColor = "#75efec";
+      }
+
       return (
         <circle
           className={"nodeCircle"}
@@ -510,6 +524,7 @@ const GateOfFates = (props) => {
   const { setActiveNodes, activeNodes, rotations, setRotationsCB } = props;
   const [allNodes, setAllNodes] = useState(null);
   const [passiveSkillsList] = useState(passiveSkills);
+  const [searchText, setSearchText] = useState(null);
   const [nodePairs] = useState(linkElems);
   const [nodePairsScoped, setNodePairsScoped] = useState(null);
   const [svgDom] = useState(svgData);
@@ -692,6 +707,15 @@ const GateOfFates = (props) => {
                 <span className="gofSkillPointsLabel">{`Points: ${
                   activeNodes.length - 1
                 }/90`}</span>
+                <span className="gofButtonsLabel">Search</span>
+                <Input
+                  style={{ marginBottom: 20 }}
+                  placeholder="Search Passives"
+                  onChange={(e) => {
+                    setSearchText(e.target.value);
+                  }}
+                />
+
                 <Button
                   className="toggleLockButton"
                   type="dashed"
@@ -822,6 +846,10 @@ const GateOfFates = (props) => {
                           <stop offset="0%" stopColor="#520082" />
                           <stop offset="100%" stopColor="black" />
                         </radialGradient>
+                        <radialGradient id="radial-gradient-blue">
+                          <stop offset="0%" stopColor="#75efec" />
+                          <stop offset="100%" stopColor="326361" />
+                        </radialGradient>
                         <radialGradient id="radial-gradient-red-active">
                           <stop offset="0%" stopColor="#ff4d4d" />
                           <stop offset="100%" stopColor="#3d1111" />
@@ -879,6 +907,7 @@ const GateOfFates = (props) => {
                               rotations={rotations}
                               innerToMiddle={innerToMiddle}
                               middleToOuter={middleToOuter}
+                              searchText={searchText}
                             />
                           </g>
                         );
@@ -921,6 +950,10 @@ const GateOfFates = (props) => {
                                 <radialGradient id="radial-gradient-purple">
                                   <stop offset="0%" stopColor="#520082" />
                                   <stop offset="100%" stopColor="black" />
+                                </radialGradient>
+                                <radialGradient id="radial-gradient-blue">
+                                  <stop offset="0%" stopColor="#75efec" />
+                                  <stop offset="100%" stopColor="326361" />
                                 </radialGradient>
                                 <radialGradient id="radial-gradient-red-active">
                                   <stop offset="0%" stopColor="#ff4d4d" />
@@ -979,6 +1012,7 @@ const GateOfFates = (props) => {
                                       rotations={rotations}
                                       innerToMiddle={innerToMiddle}
                                       middleToOuter={middleToOuter}
+                                      searchText={searchText}
                                     />
                                   </g>
                                 );
