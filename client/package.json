@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@vx/zoom": "0.0.195",
     "antd": "^4.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "d3": "^5.15.0",
     "get-youtube-id": "^1.0.1",
