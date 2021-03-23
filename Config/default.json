@@ -1,5 +1,5 @@
 {
-  "steamAPIKey": "C60ED8221599FA66C7B38B4F7A72AB8E",
-  "mongoURI": "mongodb+srv://WolcenHQ-DB-Admin:udU1wKDt6wc1r8H8@wolcenhq-main-cluster-yhceg.mongodb.net/test?retryWrites=true&w=majority",
-  "rssFeedUrl": "http://fetchrss.com/rss/5e9909538a93f89b578b45675e99091d8a93f838568b4567.atom"
+  "steamAPIKey": "your steam api key here",
+  "mongoURI": "your uri here",
+  "rssFeedUrl": "rss feed url here"
 }
